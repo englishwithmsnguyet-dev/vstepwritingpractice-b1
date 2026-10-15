@@ -6918,7 +6918,7 @@ function submitGatewayAccess() {
   const finalData = `${nameInput} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`;
   
   // Google Form POST URL and Entry ID
-  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfGiP8odi8y2ibBslIpU3ht7H30ayV7CbqB8yQE1QLZBxY6Yw/formResponse';
   const formData = new FormData();
   formData.append('entry.1205151935', finalData);
   
