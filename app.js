@@ -188,7 +188,7 @@ function switchScreen(screenName) {
     document.getElementById('global-search-container').style.display = 'none';
     renderDrafts();
   } else if (screenName === 'workspace') {
-    document.getElementById('page-header-title').innerText = 'Phòng luyện viết luận';
+    document.getElementById('page-header-title').innerText = 'Phòng luyện viết luận - B1 Level';
     document.getElementById('global-search-container').style.display = 'none';
     isDirty = false;
   }
@@ -200,6 +200,11 @@ function switchScreen(screenName) {
 // Switch to a Category browse screen
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+    return;
+  }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
     showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
@@ -252,9 +257,10 @@ function switchCategory(catId) {
     const total = currentCategory.topics.length;
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
-      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
       return false;
     };
     const onlyAdv = currentCategory.topics.filter(t => isBenefitsOnly(t)).length;
@@ -309,10 +315,16 @@ function renderDashboard() {
   const container = document.getElementById('featured-topics-container');
   container.innerHTML = '';
   
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  const isGiaTueUser = (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName)));
+
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
+    if (isGiaTueUser && cat.id !== 1) return;
     cat.topics.forEach(t => {
+      if (t.hidden) return;
       if (t.has_full_details) {
         featuredTopics.push({
           catId: cat.id,
@@ -405,8 +417,10 @@ function renderCategoryTopics(searchQuery = '') {
     if (currentCategory.id === 1) {
       const isBenefitsOnly = (t) => {
         if (t.type === 'benefits_only') return true;
-        if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
-        if (t.prompt && t.prompt.toLowerCase().includes('advantages of') && !t.prompt.toLowerCase().includes('and disadvantages')) return true;
+        const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
+        const p = (t.prompt || '').toLowerCase();
+        if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
         return false;
       };
 
@@ -454,9 +468,10 @@ function renderCategoryTopics(searchQuery = '') {
         const tag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).toLowerCase();
         const prompt = (t.prompt || '').toLowerCase();
         
-        // 1. Check details.ideas_b1 keys if present
-        if (t.details && t.details.ideas_b1) {
-          const keys = Object.keys(t.details.ideas_b1);
+        // 1. Check details.ideas_b2 / ideas_b1 keys if present
+        const ideasObj = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        if (ideasObj) {
+          const keys = Object.keys(ideasObj);
           if (keys.includes('causes') && keys.includes('solutions')) return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
           if (keys.includes('causes') && keys.includes('effects')) return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
           if (keys.includes('effects') && keys.includes('solutions')) return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
@@ -687,6 +702,11 @@ function startPractice(catId, topicId) {
     return;
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ chỉ mở TYPE 01 (Advantages & Disadvantages)!', 'warning');
+    return;
+  }
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
     showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
@@ -707,8 +727,8 @@ function startPractice(catId, topicId) {
     if (topic.approaches[0].paraphrases) topic.paraphrases = topic.approaches[0].paraphrases;
   }
   currentOutlineLevel = 'B1';
-  currentTransLevel = 'B1'; // reset translation exercises level to B1
-  currentVocabLevel = 'B1'; // reset vocabulary booster level to B1
+  currentTransLevel = 'B1'; // reset translation exercises level to B2
+  currentVocabLevel = 'B1'; // reset vocabulary booster level to B2
   currentSampleLevel = 'B1';
   
   // Switch to Workspace view state
@@ -945,42 +965,69 @@ function renderWorkspaceStepHeader() {
     container.innerHTML = `
       <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 01</span>
+          <span class="step-title">ĐỌC HIỂU ĐỀ</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'vocab' ? 'active' : ''}" id="ws-tab-vocab" onclick="switchStep('vocab')">
         <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 02</span>
+          <span class="step-title">NẠP TỪ VỰNG</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 03</span>
+          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 04</span>
+          <span class="step-title">VIẾT BÀI LUẬN</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">5</span>
-        <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 05</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+        </span>
       </div>
     `;
   } else {
     container.innerHTML = `
       <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 01</span>
+          <span class="step-title">ĐỌC HIỂU ĐỀ</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 02</span>
+          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 03</span>
+          <span class="step-title">VIẾT BÀI LUẬN</span>
+        </span>
       </div>
       <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+        <span class="step-label">
+          <span class="step-kicker">BƯỚC 04</span>
+          <span class="step-title">THAM KHẢO BÀI LUẬN MẪU</span>
+        </span>
       </div>
     `;
   }
@@ -1539,9 +1586,12 @@ function switchTransLevel(level) {
   currentTransLevel = level;
   currentVocabLevel = level;
   
-  document.getElementById('ws-trans-level-b1').classList.remove('active');
-  document.getElementById('ws-trans-level-b2').classList.remove('active');
-  document.getElementById(`ws-trans-level-${level.toLowerCase()}`).classList.add('active');
+  const b1El = document.getElementById('ws-trans-level-b1');
+  const b2El = document.getElementById('ws-trans-level-b2');
+  const targetEl = document.getElementById(`ws-trans-level-${level.toLowerCase()}`);
+  if (b1El) b1El.classList.remove('active');
+  if (b2El) b2El.classList.remove('active');
+  if (targetEl) targetEl.classList.add('active');
   
   renderTranslationExercises();
 }
@@ -1615,14 +1665,22 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
 
+    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
+    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số', 'sự', 'việc', 'tính'].includes(w));
+
+    // Must match Vietnamese sentence so we never suggest words absent from sentenceVi
+    const viMatchesExact = Boolean(colVi && normVi.includes(' ' + colVi + ' '));
+    const viMatchesSeq = viWords.length >= 1 && (
+      (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3)) ||
+      viWords.every(vw => sWordsVi.includes(vw))
+    );
+    if (!viMatchesExact && !viMatchesSeq) return false;
+
     // 1. Direct substring match (VI or EN)
-    if (colVi && normVi.includes(colVi)) return true;
-    if (colEn && normEn.includes(colEn)) return true;
+    if (viMatchesExact) return true;
+    if (colEn && normEn.includes(' ' + colEn + ' ')) return true;
 
     // 2. In-sequence phrase matching allowing up to 3 filler words between keywords
-    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
-    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số'].includes(w));
-
     if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 3)) {
       return true;
     }
@@ -1646,42 +1704,40 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   });
 }
 
-// Guarantee at least 4-6 rich vocabulary suggestions for any sentence
-function getRichCollocationsForSentence(viSentence, enSentence, itemCollocations, topicFallbackCols, targetMin = 4, targetMax = 6) {
+// Match strictly sentence-specific vocabulary suggestions ordered by appearance in sentence
+function getRichCollocationsForSentence(viSentence, enSentence, itemCollocations, topicFallbackCols, targetMin = 3, targetMax = 6) {
   // Step 1: Match directly from current idea item collocations
   let matched = filterCollocationsForSentence(viSentence, enSentence, itemCollocations);
 
-  // Step 2: Also match against topic-level vocabulary
+  // Step 2: Also match against topic-level vocabulary (without redundant subphrases)
   if (topicFallbackCols && topicFallbackCols.length > 0) {
     const topicMatched = filterCollocationsForSentence(viSentence, enSentence, topicFallbackCols);
     topicMatched.forEach(col => {
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
+      const colNorm = normalizeTextForMatching(col.en || '');
+      const isDup = matched.some(m => {
+        const mNorm = normalizeTextForMatching(m.en || '');
+        return mNorm === colNorm || (' ' + mNorm + ' ').includes(' ' + colNorm + ' ') || (' ' + colNorm + ' ').includes(' ' + mNorm + ' ');
+      });
+      if (!isDup) {
         matched.push(col);
       }
     });
   }
 
-  // Step 3: If fewer than targetMin, supplement from itemCollocations
-  if (matched.length < targetMin && itemCollocations && itemCollocations.length > 0) {
-    for (const col of itemCollocations) {
-      if (!col || !col.en) continue;
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
-        matched.push(col);
-        if (matched.length >= targetMin) break;
-      }
+  // Sort matched phrases by their appearance position in enSentence
+  const normSentEn = normalizeTextForMatching(enSentence || '');
+  const getPhrasePos = (phrase) => {
+    const pNorm = normalizeTextForMatching((phrase || '').replace(/\(.*?\)/g, ''));
+    const directIdx = normSentEn.indexOf(pNorm);
+    if (directIdx !== -1) return directIdx;
+    const words = pNorm.split(' ').filter(w => w.length > 2);
+    for (const w of words) {
+      const wIdx = normSentEn.indexOf(w);
+      if (wIdx !== -1) return wIdx;
     }
-  }
-
-  // Step 4: If still fewer than targetMin, supplement from topicFallbackCols
-  if (matched.length < targetMin && topicFallbackCols && topicFallbackCols.length > 0) {
-    for (const col of topicFallbackCols) {
-      if (!col || !col.en) continue;
-      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
-        matched.push(col);
-        if (matched.length >= targetMin) break;
-      }
-    }
-  }
+    return 9999;
+  };
+  matched.sort((a, b) => getPhrasePos(a.en) - getPhrasePos(b.en));
 
   return matched.slice(0, targetMax);
 }
@@ -1706,15 +1762,14 @@ function splitSentences(text) {
 
 // --- Interactive Idea Selection Helpers ---
 function hasSelectableIdeas(topic) {
-  if (!topic || !topic.details || !topic.details.ideas_b1) return false;
-  const bCount = (topic.details.ideas_b1.benefits || []).length;
-  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
-  return bCount > 3 || dCount > 3;
+  return false;
 }
 
 function getSelectedIdeaIndices(topic, groupType) {
-  if (!topic || !topic.details || !topic.details.ideas_b1) return [];
-  const items = (topic.details.ideas_b1[groupType] || []);
+  if (!topic || !topic.details) return [];
+  const ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+  if (!ideas) return [];
+  const items = (ideas[groupType] || []);
   const total = items.length;
   if (total <= 3) {
     return items.map((_, i) => i);
@@ -1732,7 +1787,7 @@ function getSelectedIdeaIndices(topic, groupType) {
   } catch (e) {}
 
   // Default selection if not yet set
-  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
+  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || []).length;
   if (groupType === 'benefits' && dCount === 0) {
     return [0, 1, 2].slice(0, total);
   }
@@ -1746,12 +1801,16 @@ function toggleIdeaSelection(groupType, index) {
   const exists = currentSelected.includes(index);
   let updated = [];
   if (exists) {
-    if (currentSelected.length <= 1) {
-      showToast("Bạn nên chọn ít nhất 1 luận điểm để luyện tập nhé!", "warning");
+    if (currentSelected.length <= 2) {
+      showToast("Bạn nên chọn ít nhất 2 gợi ý để phát triển thân bài nhé!", "warning");
       return;
     }
     updated = currentSelected.filter(i => i !== index);
   } else {
+    if (currentSelected.length >= 3) {
+      showToast("Khuyên chọn tối đa 3 gợi ý để bài viết có chiều sâu theo chuẩn B2 nhé!", "warning");
+      return;
+    }
     updated = [...currentSelected, index].sort((a, b) => a - b);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
@@ -1764,13 +1823,14 @@ function toggleIdeaSelection(groupType, index) {
     renderTranslationExercises();
   }
   renderOutline();
-  showToast("Đã cập nhật lựa chọn luận điểm!", "info");
+  showToast("Đã cập nhật lựa chọn gợi ý!", "info");
 }
 
 function renderIdeaSelectionComponent(topic) {
   if (!topic || !topic.has_full_details || !topic.details || !hasSelectableIdeas(topic)) return '';
-  const bItems = topic.details.ideas_b1.benefits || [];
-  const dItems = topic.details.ideas_b1.drawbacks || [];
+  const b2IdeasObj = topic.details.ideas_b2 || topic.details.ideas_b1;
+  const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || [];
+  const dItems = b2IdeasObj.drawbacks || b2IdeasObj.effects || b2IdeasObj.solutions || [];
   const selB = getSelectedIdeaIndices(topic, 'benefits');
   const selD = getSelectedIdeaIndices(topic, 'drawbacks');
 
@@ -1778,12 +1838,12 @@ function renderIdeaSelectionComponent(topic) {
     <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
       <div class="idea-selection-header">
         <div>
-          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-            <h3 style="margin-bottom: 0;">🎯 Tự chọn Luận điểm bạn muốn đưa vào bài viết</h3>
-            <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 Ý TƯỞNG</span>
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem; flex-wrap: wrap;">
+            <h3 style="margin-bottom: 0;">🎯 Tự chọn Gợi ý Luận điểm bạn muốn đưa vào bài viết</h3>
+            <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 GỢI Ý</span>
           </div>
           <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
-            Học viên tự do tick chọn các ý mình muốn diễn đạt (Khuyên chọn <strong>2 đến 3 ý</strong>). Dàn ý và Bài tập dịch câu bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
+            Học viên tự do tick chọn các gợi ý mình tự tin nhất (chọn <strong>2 hoặc 3 gợi ý</strong>). Dàn ý tóm tắt và bài tập diễn đạt (luyện dịch câu) bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
           </p>
         </div>
       </div>
@@ -1809,6 +1869,7 @@ function renderIdeaSelectionComponent(topic) {
                   <div class="idea-card-content">
                     <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
                     <div class="idea-card-point">${b.point_vi}</div>
+                    ${b.point_en ? `<div style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 0.2rem; font-style: italic;">↳ ${b.point_en}</div>` : ''}
                   </div>
                 </div>
               `;
@@ -1820,7 +1881,7 @@ function renderIdeaSelectionComponent(topic) {
           <div class="idea-group-col">
             <div class="idea-group-title-row">
               <span class="idea-group-title drawback">
-                <span>⚠️</span> BẤT LỢI / KHÓ KHĂN
+                <span>⚠️</span> BẤT LỢI / HẠN CHẾ
               </span>
               <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
             </div>
@@ -1836,6 +1897,7 @@ function renderIdeaSelectionComponent(topic) {
                   <div class="idea-card-content">
                     <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
                     <div class="idea-card-point">${d.point_vi}</div>
+                    ${d.point_en ? `<div style="font-size: 0.8rem; color: var(--danger-color, #f43f5e); margin-top: 0.2rem; font-style: italic;">↳ ${d.point_en}</div>` : ''}
                   </div>
                 </div>
               `;
@@ -1900,22 +1962,27 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
 
-  // Extract topic-level fallback collocations if item doesn't have enough
+  // Extract topic-level fallback collocations from all available topic vocab pools
   let topicFallbackCols = [];
-  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations) && topic.details.vocab_step.collocations.length > 0) {
-    topicFallbackCols = topic.details.vocab_step.collocations.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
-  } else if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups) && topic.details.vocab_step.collocation_groups.length > 0) {
+  const pushFallback = (enVal, viVal) => {
+    if (!enVal || !viVal) return;
+    if (!topicFallbackCols.some(x => (x.en || '').toLowerCase() === enVal.toLowerCase())) {
+      topicFallbackCols.push({ en: enVal, vi: viVal });
+    }
+  };
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations)) {
+    topic.details.vocab_step.collocations.forEach(c => pushFallback(c.en || c.phrase, c.vi));
+  }
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups)) {
     topic.details.vocab_step.collocation_groups.forEach(g => {
-      (g.items || g.collocations || []).forEach(c => {
-        topicFallbackCols.push({ en: c.en || c.phrase, vi: c.vi });
-      });
+      (g.items || g.collocations || []).forEach(c => pushFallback(c.en || c.phrase, c.vi));
     });
   }
-  if (topicFallbackCols.length === 0 && Array.isArray(topic.details.vocab) && topic.details.vocab.length > 0) {
-    topicFallbackCols = topic.details.vocab.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
+  if (Array.isArray(topic.details.vocab)) {
+    topic.details.vocab.forEach(c => pushFallback(c.en || c.phrase, c.vi));
   }
-  if (topicFallbackCols.length === 0 && topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words) && topic.details.vocab_step.single_words.length > 0) {
-    topicFallbackCols = topic.details.vocab_step.single_words.map(w => ({ en: w.word || w.en, vi: w.meaning || w.vi }));
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words)) {
+    topic.details.vocab_step.single_words.forEach(w => pushFallback(w.word || w.en, w.meaning || w.vi));
   }
 
   // Push group 1 (benefits / causes / reasons)
@@ -1924,7 +1991,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
+      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
+        ? item.point_collocations
+        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1938,7 +2007,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
+        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
+          ? item.evidence_collocations[sIdx]
+          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
         exercises.push({
           type: 'benefit_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
@@ -1956,7 +2027,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
+      let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
+        ? item.point_collocations
+        : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1970,7 +2043,9 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
+        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
+          ? item.evidence_collocations[sIdx]
+          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
         exercises.push({
           type: 'drawback_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
@@ -4059,7 +4134,7 @@ function renderVietnameseOutline() {
     return;
   }
   
-  const ideasObj = topic.details.ideas_b1; // Default to B1 for simple Vietnamese hints
+  const ideasObj = topic.details.ideas_b1 || topic.details.ideas_b2; // Default to B1 ideas
   if (!ideasObj) return;
 
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors || [];
@@ -6314,9 +6389,9 @@ function reviewSubmission(submissionId) {
   
   currentCategory = category;
   currentTopic = topic;
-  currentOutlineLevel = sub.outlineLevel || 'B1';
-  currentSampleLevel = sub.sampleLevel || 'B1';
-  currentTransLevel = sub.outlineLevel || 'B1';
+  currentOutlineLevel = 'B1';
+  currentSampleLevel = 'B1';
+  currentTransLevel = 'B1';
   
   // Switch to Workspace Screen
   switchScreen('workspace');
@@ -6618,6 +6693,11 @@ function showToast(message, type = 'success') {
 // Get Vietnamese translation of the essay prompt context and question
 function getPromptTranslation(topic, category) {
   if (!topic) return "";
+
+  if (topic.context_vi && topic.prompt_vi) {
+    return `<p style="margin-bottom: 0.75rem;"><strong>Ngữ cảnh:</strong> ${topic.context_vi}</p>
+            <p><strong>Yêu cầu đề bài:</strong> ${topic.prompt_vi}</p>`;
+  }
   
   // Hand-crafted translations for the 5 featured topics
   if (category.id === 1 && topic.id === 1) { // Online learning
@@ -6674,9 +6754,10 @@ function getTopicSubtypeLabel(topic, catId) {
   if (catId === 1) {
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
-      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
       return false;
     };
     if (isBenefitsOnly(topic)) {
@@ -7044,20 +7125,11 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const isSelectable = hasSelectableIdeas(topic);
-    const selB = isSelectable ? getSelectedIdeaIndices(topic, 'benefits') : [];
-    const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
-
-    if (isSelectable) {
-      outlineIntroText = 'Tóm tắt các luận điểm bạn ĐÃ CHỌN để chuẩn bị đưa vào bài viết:';
-    }
-
-    const b1Benefits = (topic.details.ideas_b1.benefits || [])
-      .filter((_, idx) => !isSelectable || selB.includes(idx))
+    const b2Ideas = topic.details.ideas_b1 || topic.details.ideas_b2;
+    const b1Benefits = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || [])
       .map((b, idx) => formatPoint(b, defaultLabel1, idx))
       .join('');
-    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || [])
-      .filter((_, idx) => !isSelectable || selD.includes(idx))
+    const b1Drawbacks = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || [])
       .map((d, idx) => formatPoint(d, defaultLabel2, idx))
       .join('');
     
@@ -7092,6 +7164,29 @@ function renderStep1Reading() {
           <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, both views have their own reasons. However, I believe that [quan điểm cá nhân – mệnh đề] because [lý do ngắn gọn – mệnh đề]. Therefore, it is important that people consider both views carefully.</em></li>
         </ul>
       `;
+    } else if (category.id === 1) {
+      const p = (topic.prompt || '').toLowerCase();
+      const isAdvOnly = (p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks');
+      if (isAdvOnly) {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. This essay will focus on the main advantages associated with it.</em></li>
+            <li><strong>Thân bài 1 (Body 1):</strong> <em>One major benefit is that [lợi ích 1 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another positive aspect is that [lợi ích 2 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Thân bài 3 (Body 3):</strong> <em>A further advantage is that [lợi ích 3 – mệnh đề]. &rarr; [Luận cứ 1] &rarr; [Luận cứ 2] &rarr; [Luận cứ 3] &rarr; [Luận cứ 4].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] offers several notable advantages. These benefits can have a positive influence on individuals and society in various ways. Overall, its positive contributions highlight the importance of [chủ đề - danh từ / cụm danh từ] in modern life.</em></li>
+          </ul>
+        `;
+      } else {
+        customOutlineGuide = `
+          <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become increasingly prevalent in modern society. Although it brings certain benefits, there are also some negative aspects. This essay will examine both the advantages and disadvantages.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Advantages):</strong> <em>On the one hand, [chủ đề - danh từ / cụm danh từ] offers several advantages. One major benefit is that [lợi ích 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. Another positive aspect is that [lợi ích 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. A further advantage to consider is that [lợi ích 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Disadvantages):</strong> <em>On the other hand, there are some disadvantages that should be considered. One possible drawback is that [bất lợi 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. Another negative aspect is that [bất lợi 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2]. A further concern is that [bất lợi 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] has both positive and negative aspects that should not be overlooked. While it offers certain benefits, its potential drawbacks may also have significant implications. Therefore, a balanced consideration of both aspects is essential.</em></li>
+          </ul>
+        `;
+      }
     } else {
       customOutlineGuide = `
         <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem;">
@@ -7112,6 +7207,75 @@ function renderStep1Reading() {
   }
 
   const ideaSelectorHtml = renderIdeaSelectionComponent(topic);
+
+  let referenceArticlesHtml = '';
+  if (topic.details && topic.details.reference_articles) {
+    const refs = topic.details.reference_articles;
+    const viArticles = refs.vi || [];
+    const enArticles = refs.en || [];
+    if (viArticles.length > 0 || enArticles.length > 0) {
+      referenceArticlesHtml = `
+        <div class="reading-section-card reference-articles-section">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <span style="font-size: 1.25rem;">📰</span>
+              <h3 style="margin-bottom: 0;">Nguồn bài báo tham khảo & Dẫn chứng thực tế</h3>
+            </div>
+            <span class="badge" style="background: rgba(16, 185, 129, 0.15); color: #059669; font-weight: 700; font-size: 0.75rem; padding: 0.25rem 0.65rem; border-radius: 999px;">XÁC THỰC 100% NGUỒN BÁO CHÍ</span>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1rem; line-height: 1.5;">
+            Các luận điểm và số liệu trong đề bài được đúc kết từ các bài báo và báo cáo thực tế uy tín. Học viên có thể đọc tham khảo để nạp thêm vốn hiểu biết xã hội và phong cách diễn đạt thực tế:
+          </p>
+
+          <div class="reference-articles-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1rem;">
+            ${viArticles.length > 0 ? `
+              <div class="reference-col">
+                <div style="font-size: 0.85rem; font-weight: 700; color: #dc2626; margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <span>🇻🇳</span> BÁO CHÍ TIẾNG VIỆT
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                  ${viArticles.map(a => `
+                    <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #dc2626; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
+                      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #dc2626; text-transform: uppercase;">${a.source}</span>
+                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Mở bài viết">
+                          Đọc bài <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                      </div>
+                      <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
+                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+
+            ${enArticles.length > 0 ? `
+              <div class="reference-col">
+                <div style="font-size: 0.85rem; font-weight: 700; color: #2563eb; margin-bottom: 0.65rem; display: flex; align-items: center; gap: 0.4rem;">
+                  <span>🌐</span> BÁO CHÍ QUỐC TẾ (ENGLISH)
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                  ${enArticles.map(a => `
+                    <div class="reference-article-card" style="background: var(--bg-primary); border: 1px solid var(--panel-border); border-left: 3px solid #2563eb; border-radius: var(--radius-sm); padding: 0.75rem 0.9rem;">
+                      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.35rem;">
+                        <span style="font-size: 0.75rem; font-weight: 700; color: #2563eb; text-transform: uppercase;">${a.source}</span>
+                        <a href="${a.url}" target="_blank" rel="noopener noreferrer" style="font-size: 0.75rem; color: var(--accent-primary); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem;" title="Open article">
+                          Read <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+                        </a>
+                      </div>
+                      <div style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary); margin-bottom: 0.35rem; line-height: 1.4;">${a.title}</div>
+                      <div style="font-size: 0.8rem; color: var(--text-secondary); line-height: 1.45;">${a.summary}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            ` : ''}
+          </div>
+        </div>
+      `;
+    }
+  }
   
   container.innerHTML = `
     <div class="reading-section-card">
@@ -7163,6 +7327,8 @@ function renderStep1Reading() {
       <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">${outlineIntroText}</p>
       ${outlineSummaryHtml}
     </div>
+
+    ${referenceArticlesHtml}
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
       <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
@@ -7578,6 +7744,9 @@ function submitGatewayAccess() {
   }
 
   // 3. STUDENT VALIDATION
+  if (checkIsGiaTue(nameInput) && !classInput) {
+    classInput = 'B2';
+  }
   if (!classInput) {
     errorEl.textContent = 'Vui lòng nhập Mã lớp học!';
     errorEl.style.display = 'block';
@@ -7589,7 +7758,7 @@ function submitGatewayAccess() {
     .replace(/^(LỚP|LOP|CLASS)\s*/i, '')
     .trim();
   const noToneClass = removeVietnameseTones(cleanClass.toLowerCase()).replace(/[^a-z0-9]/g, '').toUpperCase();
-  if (noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
+  if (checkIsGiaTue(nameInput) || noToneClass === 'B2' || noToneClass.includes('GIATUE')) {
     cleanClass = 'B2';
   } else {
     cleanClass = noToneClass;
@@ -7625,7 +7794,7 @@ function submitGatewayAccess() {
     if (found) {
       matchedName = found;
       classInput = cleanClass;
-    } else if (cleanClass === 'B212' && checkIsGiaTue(nameInput)) {
+    } else if (checkIsGiaTue(nameInput)) {
       matchedName = 'Gia Tuệ';
       classInput = 'B2';
     } else {
@@ -7663,6 +7832,7 @@ function submitGatewayAccess() {
     appContainer.style.setProperty('display', 'flex', 'important');
   }
   updateClassAccessUI();
+  renderDashboard();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
   // Attendance log in background
@@ -7695,15 +7865,26 @@ function closeMobileSidebar() {
 // Class-based Feature Restriction Handler
 function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
   const isCB210 = (userClass === 'CB210');
+  const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Ensure Category 2 is unlocked
+  // Category 2 lock/unlock (Locked for Gia Tuệ, unlocked for others)
   const cat2Link = document.getElementById('nav-link-cat-2');
   if (cat2Link) {
-    cat2Link.classList.remove('is-locked');
-    cat2Link.removeAttribute('title');
     const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
     if (existingBadge2) existingBadge2.remove();
+    if (isGiaTue) {
+      cat2Link.classList.add('is-locked');
+      cat2Link.setAttribute('title', 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)');
+      const badge2 = document.createElement('span');
+      badge2.className = 'cat-lock-badge';
+      badge2.innerHTML = '🔒 Khoá';
+      cat2Link.appendChild(badge2);
+    } else {
+      cat2Link.classList.remove('is-locked');
+      cat2Link.removeAttribute('title');
+    }
   }
 
   [3, 4].forEach(catId => {
@@ -7714,9 +7895,9 @@ function updateClassAccessUI() {
     const existingBadge = link.querySelector('.cat-lock-badge');
     if (existingBadge) existingBadge.remove();
     
-    if (isCB210) {
+    if (isGiaTue || isCB210) {
       link.classList.add('is-locked');
-      link.setAttribute('title', 'Dạng luận này chưa mở cho lớp CB210');
+      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện chỉ mở TYPE 01)' : 'Dạng luận này chưa mở cho lớp CB210');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -7727,7 +7908,9 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
+  if (isGiaTue && currentCategory && currentCategory.id !== 1) {
+    switchCategory(1);
+  } else if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
     switchCategory(1);
   }
 }
