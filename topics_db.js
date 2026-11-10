@@ -326,10 +326,6 @@ const ESSAY_DATA = [
                     "vi": "đi đến trường mỗi ngày"
                   },
                   {
-                    "en": "so they can",
-                    "vi": "nhờ đó họ có thể"
-                  },
-                  {
                     "en": "reduce travel costs",
                     "vi": "giảm chi phí đi lại"
                   }
@@ -485,8 +481,8 @@ const ESSAY_DATA = [
                     "vi": "bất cứ lúc nào"
                   },
                   {
-                    "en": "so they have more time to",
-                    "vi": "nhờ đó họ có thêm thời gian để"
+                    "en": "have more time to",
+                    "vi": "có thêm thời gian để"
                   },
                   {
                     "en": "understand the lessons better",
@@ -544,10 +540,6 @@ const ESSAY_DATA = [
                   {
                     "en": "every day",
                     "vi": "mỗi ngày"
-                  },
-                  {
-                    "en": "so they become",
-                    "vi": "nhờ đó họ trở nên"
                   },
                   {
                     "en": "more confident with technology",
@@ -658,8 +650,12 @@ const ESSAY_DATA = [
                     "vi": "điện thoại và tiếng ồn"
                   },
                   {
-                    "en": "so learning results may drop",
-                    "vi": "vì vậy kết quả học tập có thể giảm sút"
+                    "en": "learning results",
+                    "vi": "kết quả học tập"
+                  },
+                  {
+                    "en": "drop",
+                    "vi": "giảm sút"
                   }
                 ],
                 "collocations": [
@@ -699,16 +695,12 @@ const ESSAY_DATA = [
                 "evidence_en": "If network connections are unstable, students may miss important lessons.",
                 "evidence_collocations": [
                   {
-                    "en": "if network connections are unstable",
-                    "vi": "nếu kết nối mạng không ổn định"
+                    "en": "unstable network connections",
+                    "vi": "kết nối mạng không ổn định"
                   },
                   {
-                    "en": "students may miss",
-                    "vi": "học sinh có thể bỏ lỡ"
-                  },
-                  {
-                    "en": "important lessons",
-                    "vi": "các bài học quan trọng"
+                    "en": "miss important lessons",
+                    "vi": "bỏ lỡ các bài học quan trọng"
                   }
                 ],
                 "collocations": [
