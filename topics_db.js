@@ -92238,8 +92238,28 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: SỐ LƯỢNG PHƯƠNG TIỆN CÁ NHÂN TĂNG NHANH",
                 "point_vi": "Số lượng phương tiện cá nhân đang tăng nhanh ở các thành phố.",
                 "point_en": "The number of private vehicles is increasing rapidly in cities.",
+                "point_collocations": [
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "increase rapidly in cities",
+                    "vi": "tăng nhanh ở các thành phố"
+                  }
+                ],
                 "evidence_vi": "Nhiều người sử dụng ô tô và xe máy cá nhân, vì vậy đường sá trở nên quá tải.",
                 "evidence_en": "Many people use personal cars and motorbikes, so roads become overcrowded.",
+                "evidence_collocations": [
+                  {
+                    "en": "use personal cars and motorbikes",
+                    "vi": "sử dụng ô tô và xe máy cá nhân"
+                  },
+                  {
+                    "en": "roads become overcrowded",
+                    "vi": "đường sá trở nên quá tải"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "private vehicles",
@@ -92252,10 +92272,6 @@ const ESSAY_DATA = [
                   {
                     "en": "overcrowded roads",
                     "vi": "đường sá quá tải"
-                  },
-                  {
-                    "en": "personal transport",
-                    "vi": "phương tiện cá nhân"
                   }
                 ]
               },
@@ -92263,12 +92279,36 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: HẠ TẦNG GIAO THÔNG CHƯA ĐÁP ỨNG",
                 "point_vi": "Cơ sở hạ tầng đường bộ ở nhiều khu vực vẫn còn hạn chế.",
                 "point_en": "Road infrastructure in many areas is still inadequate.",
-                "evidence_vi": "Nhiều tuyến đường còn hẹp và thiếu cầu vượt cũng như hầm chui cho các phương tiện.",
-                "evidence_en": "Many roads are narrow, and there is a lack of flyovers and underpasses for vehicles.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "road infrastructure",
                     "vi": "cơ sở hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "still inadequate",
+                    "vi": "vẫn còn hạn chế (chưa đáp ứng)"
+                  }
+                ],
+                "evidence_vi": "Nhiều tuyến đường còn hẹp và thiếu cầu vượt cũng như hầm chui cho các phương tiện.",
+                "evidence_en": "Many roads are narrow, and there is a lack of flyovers and underpasses for vehicles.",
+                "evidence_collocations": [
+                  {
+                    "en": "narrow roads",
+                    "vi": "đường sá chật hẹp"
+                  },
+                  {
+                    "en": "lack of flyovers and underpasses",
+                    "vi": "thiếu cầu vượt và hầm chui"
+                  },
+                  {
+                    "en": "for vehicles",
+                    "vi": "cho các phương tiện"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "road infrastructure",
+                    "vi": "hạ tầng đường bộ"
                   },
                   {
                     "en": "narrow roads",
@@ -92277,10 +92317,6 @@ const ESSAY_DATA = [
                   {
                     "en": "flyovers and underpasses",
                     "vi": "cầu vượt và hầm chui"
-                  },
-                  {
-                    "en": "urban planning",
-                    "vi": "quy hoạch đô thị"
                   }
                 ]
               },
@@ -92288,12 +92324,36 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: GIAO THÔNG CÔNG CỘNG CHƯA PHÁT TRIỂN",
                 "point_vi": "Hệ thống giao thông công cộng ở một số nơi vẫn chưa thực sự tiện lợi.",
                 "point_en": "Public transport systems in some areas are still inefficient.",
-                "evidence_vi": "Có ít tuyến xe buýt và lịch trình chưa ổn định, vì vậy nhiều người không muốn sử dụng.",
-                "evidence_en": "There are few bus routes with unreliable schedules, so many people choose not to use them.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "public transport systems",
                     "vi": "hệ thống giao thông công cộng"
+                  },
+                  {
+                    "en": "still inefficient",
+                    "vi": "vẫn chưa thực sự tiện lợi (kém hiệu quả)"
+                  }
+                ],
+                "evidence_vi": "Có ít tuyến xe buýt và lịch trình chưa ổn định, vì vậy nhiều người không muốn sử dụng.",
+                "evidence_en": "There are few bus routes with unreliable schedules, so many people choose not to use them.",
+                "evidence_collocations": [
+                  {
+                    "en": "few bus routes",
+                    "vi": "ít tuyến xe buýt"
+                  },
+                  {
+                    "en": "unreliable schedules",
+                    "vi": "lịch trình chưa ổn định"
+                  },
+                  {
+                    "en": "choose not to use",
+                    "vi": "không muốn sử dụng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
                   },
                   {
                     "en": "bus routes",
@@ -92302,10 +92362,6 @@ const ESSAY_DATA = [
                   {
                     "en": "unreliable schedules",
                     "vi": "lịch trình không ổn định"
-                  },
-                  {
-                    "en": "rely on private vehicles",
-                    "vi": "phụ thuộc vào xe cá nhân"
                   }
                 ]
               },
@@ -92313,8 +92369,32 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 04: QUẢN LÝ GIAO THÔNG CHƯA HIỆU QUẢ",
                 "point_vi": "Công tác điều phối và quản lý giao thông đôi khi chưa đạt hiệu quả cao.",
                 "point_en": "Traffic management is not always effective in many areas.",
+                "point_collocations": [
+                  {
+                    "en": "traffic management",
+                    "vi": "công tác quản lý giao thông"
+                  },
+                  {
+                    "en": "not always effective",
+                    "vi": "đôi khi chưa đạt hiệu quả cao"
+                  }
+                ],
                 "evidence_vi": "Đèn tín hiệu giao thông chưa được điều chỉnh hợp lý, vì vậy các phương tiện phải chờ rất lâu tại các ngã tư.",
                 "evidence_en": "Traffic lights are poorly timed in many places, so vehicles have to wait very long at major intersections.",
+                "evidence_collocations": [
+                  {
+                    "en": "traffic lights",
+                    "vi": "đèn tín hiệu giao thông"
+                  },
+                  {
+                    "en": "poorly timed",
+                    "vi": "chưa được điều chỉnh giờ hợp lý"
+                  },
+                  {
+                    "en": "wait at major intersections",
+                    "vi": "chờ đợi tại các ngã tư lớn"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "traffic management",
@@ -92322,15 +92402,11 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "traffic lights",
-                    "vi": "đèn tín hiệu giao thông"
+                    "vi": "đèn giao thông"
                   },
                   {
                     "en": "major intersections",
-                    "vi": "các ngã tư chính"
-                  },
-                  {
-                    "en": "traffic coordination",
-                    "vi": "điều phối giao thông"
+                    "vi": "ngã tư lớn"
                   }
                 ]
               },
@@ -92338,24 +92414,44 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 05: Ý THỨC THAM GIA GIAO THÔNG CÒN THẤP",
                 "point_vi": "Một số người điều khiển phương tiện có ý thức giao thông còn kém.",
                 "point_en": "Some road users still have low traffic awareness.",
+                "point_collocations": [
+                  {
+                    "en": "road users",
+                    "vi": "người điều khiển phương tiện (tham gia giao thông)"
+                  },
+                  {
+                    "en": "low traffic awareness",
+                    "vi": "ý thức giao thông còn kém"
+                  }
+                ],
                 "evidence_vi": "Họ thường đi sai làn đường, vượt đèn đỏ hoặc lái xe thiếu cẩn thận.",
                 "evidence_en": "They often drive in wrong lanes, run red lights, or drive carelessly on the roads.",
+                "evidence_collocations": [
+                  {
+                    "en": "drive in wrong lanes",
+                    "vi": "đi sai làn đường"
+                  },
+                  {
+                    "en": "run red lights",
+                    "vi": "vượt đèn đỏ"
+                  },
+                  {
+                    "en": "drive carelessly on roads",
+                    "vi": "lái xe thiếu cẩn thận trên đường"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "traffic awareness",
                     "vi": "ý thức giao thông"
                   },
                   {
-                    "en": "traffic rules",
-                    "vi": "luật giao thông"
-                  },
-                  {
                     "en": "wrong lanes",
                     "vi": "sai làn đường"
                   },
                   {
-                    "en": "careless driving",
-                    "vi": "lái xe thiếu cẩn thận"
+                    "en": "run red lights",
+                    "vi": "vượt đèn đỏ"
                   }
                 ]
               }
@@ -92365,24 +92461,44 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: PHÁT TRIỂN GIAO THÔNG CÔNG CỘNG",
                 "point_vi": "Chính quyền nên mở rộng và nâng cấp hệ thống giao thông công cộng.",
                 "point_en": "Governments should expand and improve public transport systems.",
-                "evidence_vi": "Họ có thể mở thêm nhiều tuyến xe buýt và tàu điện với giá vé hợp lý cho người dân.",
-                "evidence_en": "They can build more bus and metro routes with affordable ticket prices for citizens.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "expand public transport",
-                    "vi": "mở rộng giao thông công cộng"
+                    "en": "expand and improve",
+                    "vi": "mở rộng và nâng cấp"
                   },
                   {
-                    "en": "bus and metro routes",
-                    "vi": "các tuyến xe buýt và tàu điện"
+                    "en": "public transport systems",
+                    "vi": "hệ thống giao thông công cộng"
+                  }
+                ],
+                "evidence_vi": "Họ có thể mở thêm nhiều tuyến xe buýt và tàu điện với giá vé hợp lý cho người dân.",
+                "evidence_en": "They can build more bus and metro routes with affordable ticket prices for citizens.",
+                "evidence_collocations": [
+                  {
+                    "en": "build bus and metro routes",
+                    "vi": "mở thêm tuyến xe buýt và tàu điện"
                   },
                   {
                     "en": "affordable ticket prices",
                     "vi": "giá vé hợp lý"
                   },
                   {
-                    "en": "convenient travel",
-                    "vi": "đi lại thuận tiện"
+                    "en": "for citizens",
+                    "vi": "cho người dân"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "bus and metro routes",
+                    "vi": "tuyến xe buýt và tàu điện"
+                  },
+                  {
+                    "en": "affordable ticket prices",
+                    "vi": "giá vé hợp lý"
                   }
                 ]
               },
@@ -92390,24 +92506,40 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 02: NÂNG CẤP HẠ TẦNG GIAO THÔNG",
                 "point_vi": "Việc nâng cấp và xây mới cơ sở hạ tầng giao thông là rất cần thiết.",
                 "point_en": "Upgrading road infrastructure is another essential solution.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade road infrastructure",
+                    "vi": "nâng cấp cơ sở hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "essential solution",
+                    "vi": "giải pháp rất cần thiết"
+                  }
+                ],
                 "evidence_vi": "Các thành phố có thể mở rộng đường sá và xây thêm các cầu vượt cũng như hầm chui.",
                 "evidence_en": "Cities can widen existing streets and construct more flyovers and underpasses.",
+                "evidence_collocations": [
+                  {
+                    "en": "widen existing streets",
+                    "vi": "mở rộng đường sá hiện có"
+                  },
+                  {
+                    "en": "construct flyovers and underpasses",
+                    "vi": "xây thêm cầu vượt và hầm chui"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "upgrade infrastructure",
-                    "vi": "nâng cấp cơ sở hạ tầng"
+                    "vi": "nâng cấp hạ tầng"
                   },
                   {
-                    "en": "widen existing streets",
-                    "vi": "mở rộng các tuyến đường hiện có"
+                    "en": "widen streets",
+                    "vi": "mở rộng đường"
                   },
                   {
-                    "en": "construct flyovers",
-                    "vi": "xây cầu vượt"
-                  },
-                  {
-                    "en": "underpasses",
-                    "vi": "hầm chui"
+                    "en": "flyovers and underpasses",
+                    "vi": "cầu vượt và hầm chui"
                   }
                 ]
               },
@@ -92415,8 +92547,32 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 03: CẢI THIỆN CÔNG TÁC QUẢN LÝ GIAO THÔNG",
                 "point_vi": "Công tác quản lý giao thông tại các thành phố cần được cải thiện hiệu quả hơn.",
                 "point_en": "Traffic management should be improved to control vehicle flow better.",
+                "point_collocations": [
+                  {
+                    "en": "traffic management",
+                    "vi": "công tác quản lý giao thông"
+                  },
+                  {
+                    "en": "control vehicle flow better",
+                    "vi": "điều phối dòng xe cộ tốt hơn"
+                  }
+                ],
                 "evidence_vi": "Chính quyền có thể lắp đặt hệ thống đèn giao thông thông minh và bố trí người điều phối vào giờ cao điểm.",
                 "evidence_en": "Authorities can install smart traffic lights and assign officers to guide traffic during peak hours.",
+                "evidence_collocations": [
+                  {
+                    "en": "install smart traffic lights",
+                    "vi": "lắp đặt hệ thống đèn giao thông thông minh"
+                  },
+                  {
+                    "en": "assign officers",
+                    "vi": "bố trí lực lượng điều phối"
+                  },
+                  {
+                    "en": "during peak hours",
+                    "vi": "vào giờ cao điểm"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "smart traffic lights",
@@ -92427,12 +92583,8 @@ const ESSAY_DATA = [
                     "vi": "điều phối giao thông"
                   },
                   {
-                    "en": "peak hours",
-                    "vi": "giờ cao điểm"
-                  },
-                  {
-                    "en": "vehicle flow",
-                    "vi": "luồng phương tiện"
+                    "en": "during peak hours",
+                    "vi": "vào giờ cao điểm"
                   }
                 ]
               },
@@ -92440,8 +92592,36 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 04: KHUYẾN KHÍCH CÁC HÌNH THỨC ĐI LẠI THAY THẾ",
                 "point_vi": "Người dân nên được khuyến khích sử dụng các hình thức di chuyển thay thế.",
                 "point_en": "People should be encouraged to use alternative forms of transportation.",
+                "point_collocations": [
+                  {
+                    "en": "alternative forms of transportation",
+                    "vi": "các hình thức di chuyển thay thế"
+                  },
+                  {
+                    "en": "be encouraged to use",
+                    "vi": "được khuyến khích sử dụng"
+                  },
+                  {
+                    "en": "alternative transportation",
+                    "vi": "phương tiện di chuyển thay thế"
+                  }
+                ],
                 "evidence_vi": "Các thành phố có thể xây dựng làn đường riêng cho xe đạp và người đi bộ để việc đi lại an toàn hơn.",
                 "evidence_en": "Cities can create separate lanes for bicycles and pedestrians to make traveling safer.",
+                "evidence_collocations": [
+                  {
+                    "en": "separate lanes",
+                    "vi": "làn đường riêng biệt"
+                  },
+                  {
+                    "en": "bicycles and pedestrians",
+                    "vi": "xe đạp và người đi bộ"
+                  },
+                  {
+                    "en": "make traveling safer",
+                    "vi": "giúp việc đi lại an toàn hơn"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "alternative transportation",
@@ -92454,10 +92634,6 @@ const ESSAY_DATA = [
                   {
                     "en": "bicycles and pedestrians",
                     "vi": "xe đạp và người đi bộ"
-                  },
-                  {
-                    "en": "carpooling",
-                    "vi": "đi chung xe"
                   }
                 ]
               },
@@ -92465,24 +92641,44 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 05: NÂNG CAO Ý THỨC NGƯỜI THAM GIA GIAO THÔNG",
                 "point_vi": "Nâng cao ý thức của người dân là một giải pháp lâu dài và bền vững.",
                 "point_en": "Raising people's traffic awareness is an important and long-term solution.",
-                "evidence_vi": "Các chương trình giáo dục về an toàn giao thông nên được tổ chức thường xuyên trong trường học và trên truyền thông.",
-                "evidence_en": "Educational campaigns about road safety should be organized regularly in schools and on the media.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "raise traffic awareness",
                     "vi": "nâng cao ý thức giao thông"
                   },
                   {
                     "en": "long-term solution",
-                    "vi": "giải pháp lâu dài"
-                  },
+                    "vi": "giải pháp lâu dài và bền vững"
+                  }
+                ],
+                "evidence_vi": "Các chương trình giáo dục về an toàn giao thông nên được tổ chức thường xuyên trong trường học và trên truyền thông.",
+                "evidence_en": "Educational campaigns about road safety should be organized regularly in schools and on the media.",
+                "evidence_collocations": [
                   {
                     "en": "educational campaigns",
-                    "vi": "các chiến dịch giáo dục"
+                    "vi": "các chương trình giáo dục"
                   },
                   {
                     "en": "road safety",
                     "vi": "an toàn giao thông"
+                  },
+                  {
+                    "en": "in schools and media",
+                    "vi": "trong trường học và trên truyền thông"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "raise traffic awareness",
+                    "vi": "nâng cao ý thức giao thông"
+                  },
+                  {
+                    "en": "road safety",
+                    "vi": "an toàn giao thông"
+                  },
+                  {
+                    "en": "educational campaigns",
+                    "vi": "chương trình giáo dục"
                   }
                 ]
               }
@@ -92492,8 +92688,28 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: SỐ LƯỢNG PHƯƠNG TIỆN CÁ NHÂN TĂNG NHANH",
                 "point_vi": "Số lượng phương tiện cá nhân đang tăng nhanh ở các thành phố.",
                 "point_en": "The number of private vehicles is increasing rapidly in cities.",
+                "point_collocations": [
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "increase rapidly in cities",
+                    "vi": "tăng nhanh ở các thành phố"
+                  }
+                ],
                 "evidence_vi": "Nhiều người sử dụng ô tô và xe máy cá nhân, vì vậy đường sá trở nên quá tải.",
                 "evidence_en": "Many people use personal cars and motorbikes, so roads become overcrowded.",
+                "evidence_collocations": [
+                  {
+                    "en": "use personal cars and motorbikes",
+                    "vi": "sử dụng ô tô và xe máy cá nhân"
+                  },
+                  {
+                    "en": "roads become overcrowded",
+                    "vi": "đường sá trở nên quá tải"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "private vehicles",
@@ -92506,61 +92722,43 @@ const ESSAY_DATA = [
                   {
                     "en": "overcrowded roads",
                     "vi": "đường sá quá tải"
-                  },
-                  {
-                    "en": "personal transport",
-                    "vi": "phương tiện cá nhân"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
-                  },
-                  {
-                    "en": "vehicle",
-                    "vi": "xe cộ, phương tiện giao thông"
-                  },
-                  {
-                    "en": "in the long run",
-                    "vi": "trong dài hạn"
-                  },
-                  {
-                    "en": "in the long term",
-                    "vi": "trong dài hạn / lâu dài"
-                  },
-                  {
-                    "en": "in the future",
-                    "vi": "trong tương lai"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "overcrowded roads",
-                      "vi": "đường sá quá tải"
-                    },
-                    {
-                      "en": "overcrowded",
-                      "vi": "quá đông đúc, quá tải"
-                    },
-                    {
-                      "en": "private vehicles",
-                      "vi": "phương tiện cá nhân"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: HẠ TẦNG GIAO THÔNG CHƯA ĐÁP ỨNG",
                 "point_vi": "Cơ sở hạ tầng đường bộ ở nhiều khu vực vẫn còn hạn chế.",
                 "point_en": "Road infrastructure in many areas is still inadequate.",
-                "evidence_vi": "Nhiều tuyến đường còn hẹp và thiếu cầu vượt cũng như hầm chui cho các phương tiện.",
-                "evidence_en": "Many roads are narrow, and there is a lack of flyovers and underpasses for vehicles.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "road infrastructure",
                     "vi": "cơ sở hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "still inadequate",
+                    "vi": "vẫn còn hạn chế (chưa đáp ứng)"
+                  }
+                ],
+                "evidence_vi": "Nhiều tuyến đường còn hẹp và thiếu cầu vượt cũng như hầm chui cho các phương tiện.",
+                "evidence_en": "Many roads are narrow, and there is a lack of flyovers and underpasses for vehicles.",
+                "evidence_collocations": [
+                  {
+                    "en": "narrow roads",
+                    "vi": "đường sá chật hẹp"
+                  },
+                  {
+                    "en": "lack of flyovers and underpasses",
+                    "vi": "thiếu cầu vượt và hầm chui"
+                  },
+                  {
+                    "en": "for vehicles",
+                    "vi": "cho các phương tiện"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "road infrastructure",
+                    "vi": "hạ tầng đường bộ"
                   },
                   {
                     "en": "narrow roads",
@@ -92569,61 +92767,43 @@ const ESSAY_DATA = [
                   {
                     "en": "flyovers and underpasses",
                     "vi": "cầu vượt và hầm chui"
-                  },
-                  {
-                    "en": "urban planning",
-                    "vi": "quy hoạch đô thị"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "road infrastructure",
-                    "vi": "cơ sở hạ tầng đường bộ"
-                  },
-                  {
-                    "en": "infrastructure",
-                    "vi": "cơ sở hạ tầng (đường sá, cầu cống, bến bãi)"
-                  },
-                  {
-                    "en": "narrow roads",
-                    "vi": "đường hẹp"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "narrow roads",
-                      "vi": "đường hẹp"
-                    },
-                    {
-                      "en": "flyovers and underpasses",
-                      "vi": "cầu vượt và hầm chui"
-                    },
-                    {
-                      "en": "flyover",
-                      "vi": "cầu vượt"
-                    },
-                    {
-                      "en": "underpass",
-                      "vi": "hầm chui"
-                    },
-                    {
-                      "en": "vehicle",
-                      "vi": "xe cộ, phương tiện giao thông"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: GIAO THÔNG CÔNG CỘNG CHƯA PHÁT TRIỂN",
                 "point_vi": "Hệ thống giao thông công cộng ở một số nơi vẫn chưa thực sự tiện lợi.",
                 "point_en": "Public transport systems in some areas are still inefficient.",
-                "evidence_vi": "Có ít tuyến xe buýt và lịch trình chưa ổn định, vì vậy nhiều người không muốn sử dụng.",
-                "evidence_en": "There are few bus routes with unreliable schedules, so many people choose not to use them.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "public transport systems",
                     "vi": "hệ thống giao thông công cộng"
+                  },
+                  {
+                    "en": "still inefficient",
+                    "vi": "vẫn chưa thực sự tiện lợi (kém hiệu quả)"
+                  }
+                ],
+                "evidence_vi": "Có ít tuyến xe buýt và lịch trình chưa ổn định, vì vậy nhiều người không muốn sử dụng.",
+                "evidence_en": "There are few bus routes with unreliable schedules, so many people choose not to use them.",
+                "evidence_collocations": [
+                  {
+                    "en": "few bus routes",
+                    "vi": "ít tuyến xe buýt"
+                  },
+                  {
+                    "en": "unreliable schedules",
+                    "vi": "lịch trình chưa ổn định"
+                  },
+                  {
+                    "en": "choose not to use",
+                    "vi": "không muốn sử dụng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
                   },
                   {
                     "en": "bus routes",
@@ -92632,49 +92812,39 @@ const ESSAY_DATA = [
                   {
                     "en": "unreliable schedules",
                     "vi": "lịch trình không ổn định"
-                  },
-                  {
-                    "en": "rely on private vehicles",
-                    "vi": "phụ thuộc vào xe cá nhân"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "public transport systems",
-                    "vi": "hệ thống giao thông công cộng"
-                  },
-                  {
-                    "en": "public transport",
-                    "vi": "giao thông công cộng"
-                  },
-                  {
-                    "en": "inefficient",
-                    "vi": "kém hiệu quả, không đáp ứng tốt yêu cầu"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "bus routes",
-                      "vi": "tuyến xe buýt"
-                    },
-                    {
-                      "en": "unreliable schedules",
-                      "vi": "lịch trình không ổn định"
-                    },
-                    {
-                      "en": "public transport systems",
-                      "vi": "hệ thống giao thông công cộng"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: QUẢN LÝ GIAO THÔNG CHƯA HIỆU QUẢ",
                 "point_vi": "Công tác điều phối và quản lý giao thông đôi khi chưa đạt hiệu quả cao.",
                 "point_en": "Traffic management is not always effective in many areas.",
+                "point_collocations": [
+                  {
+                    "en": "traffic management",
+                    "vi": "công tác quản lý giao thông"
+                  },
+                  {
+                    "en": "not always effective",
+                    "vi": "đôi khi chưa đạt hiệu quả cao"
+                  }
+                ],
                 "evidence_vi": "Đèn tín hiệu giao thông chưa được điều chỉnh hợp lý, vì vậy các phương tiện phải chờ rất lâu tại các ngã tư.",
                 "evidence_en": "Traffic lights are poorly timed in many places, so vehicles have to wait very long at major intersections.",
+                "evidence_collocations": [
+                  {
+                    "en": "traffic lights",
+                    "vi": "đèn tín hiệu giao thông"
+                  },
+                  {
+                    "en": "poorly timed",
+                    "vi": "chưa được điều chỉnh giờ hợp lý"
+                  },
+                  {
+                    "en": "wait at major intersections",
+                    "vi": "chờ đợi tại các ngã tư lớn"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "traffic management",
@@ -92682,117 +92852,57 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "traffic lights",
-                    "vi": "đèn tín hiệu giao thông"
+                    "vi": "đèn giao thông"
                   },
                   {
                     "en": "major intersections",
-                    "vi": "các ngã tư chính"
-                  },
-                  {
-                    "en": "traffic coordination",
-                    "vi": "điều phối giao thông"
+                    "vi": "ngã tư lớn"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "traffic management",
-                    "vi": "quản lý giao thông"
-                  },
-                  {
-                    "en": "traffic lights",
-                    "vi": "đèn tín hiệu giao thông"
-                  },
-                  {
-                    "en": "major intersections",
-                    "vi": "các ngã tư chính"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "traffic lights",
-                      "vi": "đèn tín hiệu giao thông"
-                    },
-                    {
-                      "en": "major intersections",
-                      "vi": "các ngã tư chính"
-                    },
-                    {
-                      "en": "traffic light",
-                      "vi": "đèn giao thông"
-                    },
-                    {
-                      "en": "vehicle",
-                      "vi": "xe cộ, phương tiện giao thông"
-                    },
-                    {
-                      "en": "intersection",
-                      "vi": "nút giao thông, ngã tư phức hợp"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: Ý THỨC THAM GIA GIAO THÔNG CÒN THẤP",
                 "point_vi": "Một số người điều khiển phương tiện có ý thức giao thông còn kém.",
                 "point_en": "Some road users still have low traffic awareness.",
+                "point_collocations": [
+                  {
+                    "en": "road users",
+                    "vi": "người điều khiển phương tiện (tham gia giao thông)"
+                  },
+                  {
+                    "en": "low traffic awareness",
+                    "vi": "ý thức giao thông còn kém"
+                  }
+                ],
                 "evidence_vi": "Họ thường đi sai làn đường, vượt đèn đỏ hoặc lái xe thiếu cẩn thận.",
                 "evidence_en": "They often drive in wrong lanes, run red lights, or drive carelessly on the roads.",
+                "evidence_collocations": [
+                  {
+                    "en": "drive in wrong lanes",
+                    "vi": "đi sai làn đường"
+                  },
+                  {
+                    "en": "run red lights",
+                    "vi": "vượt đèn đỏ"
+                  },
+                  {
+                    "en": "drive carelessly on roads",
+                    "vi": "lái xe thiếu cẩn thận trên đường"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "traffic awareness",
                     "vi": "ý thức giao thông"
                   },
                   {
-                    "en": "traffic rules",
-                    "vi": "luật giao thông"
-                  },
-                  {
                     "en": "wrong lanes",
                     "vi": "sai làn đường"
                   },
                   {
-                    "en": "careless driving",
-                    "vi": "lái xe thiếu cẩn thận"
+                    "en": "run red lights",
+                    "vi": "vượt đèn đỏ"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "traffic awareness",
-                    "vi": "ý thức giao thông"
-                  },
-                  {
-                    "en": "awareness",
-                    "vi": "nhận thức, ý thức của người dân"
-                  },
-                  {
-                    "en": "traffic rules",
-                    "vi": "luật giao thông"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "wrong lanes",
-                      "vi": "sai làn đường"
-                    },
-                    {
-                      "en": "lane",
-                      "vi": "làn đường, tuyến đường"
-                    },
-                    {
-                      "en": "in the long run",
-                      "vi": "trong dài hạn"
-                    },
-                    {
-                      "en": "in the long term",
-                      "vi": "trong dài hạn / lâu dài"
-                    },
-                    {
-                      "en": "in the future",
-                      "vi": "trong tương lai"
-                    }
-                  ]
                 ]
               }
             ],
@@ -92801,126 +92911,118 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: PHÁT TRIỂN GIAO THÔNG CÔNG CỘNG",
                 "point_vi": "Chính quyền nên mở rộng và nâng cấp hệ thống giao thông công cộng.",
                 "point_en": "Governments should expand and improve public transport systems.",
-                "evidence_vi": "Họ có thể mở thêm nhiều tuyến xe buýt và tàu điện với giá vé hợp lý cho người dân.",
-                "evidence_en": "They can build more bus and metro routes with affordable ticket prices for citizens.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "expand public transport",
-                    "vi": "mở rộng giao thông công cộng"
+                    "en": "expand and improve",
+                    "vi": "mở rộng và nâng cấp"
                   },
                   {
-                    "en": "bus and metro routes",
-                    "vi": "các tuyến xe buýt và tàu điện"
+                    "en": "public transport systems",
+                    "vi": "hệ thống giao thông công cộng"
+                  }
+                ],
+                "evidence_vi": "Họ có thể mở thêm nhiều tuyến xe buýt và tàu điện với giá vé hợp lý cho người dân.",
+                "evidence_en": "They can build more bus and metro routes with affordable ticket prices for citizens.",
+                "evidence_collocations": [
+                  {
+                    "en": "build bus and metro routes",
+                    "vi": "mở thêm tuyến xe buýt và tàu điện"
                   },
                   {
                     "en": "affordable ticket prices",
                     "vi": "giá vé hợp lý"
                   },
                   {
-                    "en": "convenient travel",
-                    "vi": "đi lại thuận tiện"
+                    "en": "for citizens",
+                    "vi": "cho người dân"
                   }
                 ],
-                "point_collocations": [
-                  {
-                    "en": "expand public transport",
-                    "vi": "mở rộng giao thông công cộng"
-                  },
+                "collocations": [
                   {
                     "en": "public transport",
                     "vi": "giao thông công cộng"
                   },
                   {
                     "en": "bus and metro routes",
-                    "vi": "các tuyến xe buýt và tàu điện"
+                    "vi": "tuyến xe buýt và tàu điện"
+                  },
+                  {
+                    "en": "affordable ticket prices",
+                    "vi": "giá vé hợp lý"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "bus and metro routes",
-                      "vi": "các tuyến xe buýt và tàu điện"
-                    },
-                    {
-                      "en": "affordable ticket prices",
-                      "vi": "giá vé hợp lý"
-                    },
-                    {
-                      "en": "metro",
-                      "vi": "hệ thống tàu điện đô thị / tàu điện ngầm"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 02: NÂNG CẤP HẠ TẦNG GIAO THÔNG",
                 "point_vi": "Việc nâng cấp và xây mới cơ sở hạ tầng giao thông là rất cần thiết.",
                 "point_en": "Upgrading road infrastructure is another essential solution.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade road infrastructure",
+                    "vi": "nâng cấp cơ sở hạ tầng đường bộ"
+                  },
+                  {
+                    "en": "essential solution",
+                    "vi": "giải pháp rất cần thiết"
+                  }
+                ],
                 "evidence_vi": "Các thành phố có thể mở rộng đường sá và xây thêm các cầu vượt cũng như hầm chui.",
                 "evidence_en": "Cities can widen existing streets and construct more flyovers and underpasses.",
+                "evidence_collocations": [
+                  {
+                    "en": "widen existing streets",
+                    "vi": "mở rộng đường sá hiện có"
+                  },
+                  {
+                    "en": "construct flyovers and underpasses",
+                    "vi": "xây thêm cầu vượt và hầm chui"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "upgrade infrastructure",
-                    "vi": "nâng cấp cơ sở hạ tầng"
+                    "vi": "nâng cấp hạ tầng"
                   },
                   {
-                    "en": "widen existing streets",
-                    "vi": "mở rộng các tuyến đường hiện có"
+                    "en": "widen streets",
+                    "vi": "mở rộng đường"
                   },
                   {
-                    "en": "construct flyovers",
-                    "vi": "xây cầu vượt"
-                  },
-                  {
-                    "en": "underpasses",
-                    "vi": "hầm chui"
+                    "en": "flyovers and underpasses",
+                    "vi": "cầu vượt và hầm chui"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "road infrastructure",
-                    "vi": "hạ tầng đường bộ"
-                  },
-                  {
-                    "en": "infrastructure",
-                    "vi": "cơ sở hạ tầng (đường sá, cầu cống, bến bãi)"
-                  },
-                  {
-                    "en": "upgrade infrastructure",
-                    "vi": "nâng cấp cơ sở hạ tầng"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "widen existing streets",
-                      "vi": "mở rộng các tuyến đường hiện có"
-                    },
-                    {
-                      "en": "construct flyovers",
-                      "vi": "xây cầu vượt"
-                    },
-                    {
-                      "en": "underpasses",
-                      "vi": "hầm chui"
-                    },
-                    {
-                      "en": "flyover",
-                      "vi": "cầu vượt"
-                    },
-                    {
-                      "en": "underpass",
-                      "vi": "hầm chui"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 03: CẢI THIỆN CÔNG TÁC QUẢN LÝ GIAO THÔNG",
                 "point_vi": "Công tác quản lý giao thông tại các thành phố cần được cải thiện hiệu quả hơn.",
                 "point_en": "Traffic management should be improved to control vehicle flow better.",
+                "point_collocations": [
+                  {
+                    "en": "traffic management",
+                    "vi": "công tác quản lý giao thông"
+                  },
+                  {
+                    "en": "control vehicle flow better",
+                    "vi": "điều phối dòng xe cộ tốt hơn"
+                  }
+                ],
                 "evidence_vi": "Chính quyền có thể lắp đặt hệ thống đèn giao thông thông minh và bố trí người điều phối vào giờ cao điểm.",
                 "evidence_en": "Authorities can install smart traffic lights and assign officers to guide traffic during peak hours.",
+                "evidence_collocations": [
+                  {
+                    "en": "install smart traffic lights",
+                    "vi": "lắp đặt hệ thống đèn giao thông thông minh"
+                  },
+                  {
+                    "en": "assign officers",
+                    "vi": "bố trí lực lượng điều phối"
+                  },
+                  {
+                    "en": "during peak hours",
+                    "vi": "vào giờ cao điểm"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "smart traffic lights",
@@ -92931,55 +93033,45 @@ const ESSAY_DATA = [
                     "vi": "điều phối giao thông"
                   },
                   {
-                    "en": "peak hours",
-                    "vi": "giờ cao điểm"
-                  },
-                  {
-                    "en": "vehicle flow",
-                    "vi": "luồng phương tiện"
+                    "en": "during peak hours",
+                    "vi": "vào giờ cao điểm"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "vehicle flow",
-                    "vi": "luồng phương tiện"
-                  },
-                  {
-                    "en": "vehicle",
-                    "vi": "xe cộ, phương tiện giao thông"
-                  },
-                  {
-                    "en": "to be specific",
-                    "vi": "cụ thể là"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "smart traffic lights",
-                      "vi": "đèn giao thông thông minh"
-                    },
-                    {
-                      "en": "guide traffic",
-                      "vi": "điều phối giao thông"
-                    },
-                    {
-                      "en": "peak hours",
-                      "vi": "giờ cao điểm"
-                    },
-                    {
-                      "en": "traffic light",
-                      "vi": "đèn giao thông"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 04: KHUYẾN KHÍCH CÁC HÌNH THỨC ĐI LẠI THAY THẾ",
                 "point_vi": "Người dân nên được khuyến khích sử dụng các hình thức di chuyển thay thế.",
                 "point_en": "People should be encouraged to use alternative forms of transportation.",
+                "point_collocations": [
+                  {
+                    "en": "alternative forms of transportation",
+                    "vi": "các hình thức di chuyển thay thế"
+                  },
+                  {
+                    "en": "be encouraged to use",
+                    "vi": "được khuyến khích sử dụng"
+                  },
+                  {
+                    "en": "alternative transportation",
+                    "vi": "phương tiện di chuyển thay thế"
+                  }
+                ],
                 "evidence_vi": "Các thành phố có thể xây dựng làn đường riêng cho xe đạp và người đi bộ để việc đi lại an toàn hơn.",
                 "evidence_en": "Cities can create separate lanes for bicycles and pedestrians to make traveling safer.",
+                "evidence_collocations": [
+                  {
+                    "en": "separate lanes",
+                    "vi": "làn đường riêng biệt"
+                  },
+                  {
+                    "en": "bicycles and pedestrians",
+                    "vi": "xe đạp và người đi bộ"
+                  },
+                  {
+                    "en": "make traveling safer",
+                    "vi": "giúp việc đi lại an toàn hơn"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "alternative transportation",
@@ -92992,71 +93084,13 @@ const ESSAY_DATA = [
                   {
                     "en": "bicycles and pedestrians",
                     "vi": "xe đạp và người đi bộ"
-                  },
-                  {
-                    "en": "carpooling",
-                    "vi": "đi chung xe"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "alternative transportation",
-                    "vi": "phương tiện thay thế"
-                  },
-                  {
-                    "en": "transportation",
-                    "vi": "hệ thống giao thông, việc vận tải"
-                  },
-                  {
-                    "en": "to be specific",
-                    "vi": "cụ thể là"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "separate lanes",
-                      "vi": "làn đường riêng biệt"
-                    },
-                    {
-                      "en": "bicycles and pedestrians",
-                      "vi": "xe đạp và người đi bộ"
-                    },
-                    {
-                      "en": "pedestrian",
-                      "vi": "người đi bộ trên đường"
-                    },
-                    {
-                      "en": "lane",
-                      "vi": "làn đường, tuyến đường"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 05: NÂNG CAO Ý THỨC NGƯỜI THAM GIA GIAO THÔNG",
                 "point_vi": "Nâng cao ý thức của người dân là một giải pháp lâu dài và bền vững.",
                 "point_en": "Raising people's traffic awareness is an important and long-term solution.",
-                "evidence_vi": "Các chương trình giáo dục về an toàn giao thông nên được tổ chức thường xuyên trong trường học và trên truyền thông.",
-                "evidence_en": "Educational campaigns about road safety should be organized regularly in schools and on the media.",
-                "collocations": [
-                  {
-                    "en": "raise traffic awareness",
-                    "vi": "nâng cao ý thức giao thông"
-                  },
-                  {
-                    "en": "long-term solution",
-                    "vi": "giải pháp lâu dài"
-                  },
-                  {
-                    "en": "educational campaigns",
-                    "vi": "các chiến dịch giáo dục"
-                  },
-                  {
-                    "en": "road safety",
-                    "vi": "an toàn giao thông"
-                  }
-                ],
                 "point_collocations": [
                   {
                     "en": "raise traffic awareness",
@@ -93064,44 +93098,38 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "long-term solution",
-                    "vi": "giải pháp lâu dài"
-                  },
-                  {
-                    "en": "traffic awareness",
-                    "vi": "ý thức giao thông"
-                  },
-                  {
-                    "en": "awareness",
-                    "vi": "nhận thức, ý thức của người dân"
-                  },
-                  {
-                    "en": "in the long term",
-                    "vi": "trong dài hạn / lâu dài"
+                    "vi": "giải pháp lâu dài và bền vững"
                   }
                 ],
+                "evidence_vi": "Các chương trình giáo dục về an toàn giao thông nên được tổ chức thường xuyên trong trường học và trên truyền thông.",
+                "evidence_en": "Educational campaigns about road safety should be organized regularly in schools and on the media.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "educational campaigns",
-                      "vi": "các chiến dịch giáo dục"
-                    },
-                    {
-                      "en": "road safety",
-                      "vi": "an toàn giao thông"
-                    },
-                    {
-                      "en": "in the long run",
-                      "vi": "trong dài hạn"
-                    },
-                    {
-                      "en": "in the long term",
-                      "vi": "trong dài hạn / lâu dài"
-                    },
-                    {
-                      "en": "in the future",
-                      "vi": "trong tương lai"
-                    }
-                  ]
+                  {
+                    "en": "educational campaigns",
+                    "vi": "các chương trình giáo dục"
+                  },
+                  {
+                    "en": "road safety",
+                    "vi": "an toàn giao thông"
+                  },
+                  {
+                    "en": "in schools and media",
+                    "vi": "trong trường học và trên truyền thông"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "raise traffic awareness",
+                    "vi": "nâng cao ý thức giao thông"
+                  },
+                  {
+                    "en": "road safety",
+                    "vi": "an toàn giao thông"
+                  },
+                  {
+                    "en": "educational campaigns",
+                    "vi": "chương trình giáo dục"
+                  }
                 ]
               }
             ]
@@ -96454,20 +96482,18 @@ const ESSAY_DATA = [
                   }
                 ],
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "run red lights",
-                      "vi": "vượt đèn đỏ"
-                    },
-                    {
-                      "en": "drive too fast",
-                      "vi": "chạy quá tốc độ"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ]
+                  {
+                    "en": "run red lights",
+                    "vi": "vượt đèn đỏ"
+                  },
+                  {
+                    "en": "drive too fast",
+                    "vi": "chạy quá tốc độ"
+                  },
+                  {
+                    "en": "dangerous for others",
+                    "vi": "nguy hiểm cho người khác"
+                  }
                 ]
               },
               {
@@ -96592,10 +96618,6 @@ const ESSAY_DATA = [
                     {
                       "en": "use the roads",
                       "vi": "tham gia giao thông"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -98348,496 +98370,548 @@ const ESSAY_DATA = [
             "causes": [
               {
                 "title": "NGUYÊN NHÂN 01: THÓI QUEN ĂN UỐNG KHÔNG LÀNH MẠNH",
+                "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh hằng ngày.",
+                "point_en": "Many young people have unhealthy eating habits every day.",
+                "point_collocations": [
+                  {
+                    "en": "unhealthy eating habits",
+                    "vi": "thói quen ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "eating habits",
+                    "vi": "thói quen ăn uống"
+                  },
+                  {
+                    "en": "unhealthy diet",
+                    "vi": "chế độ ăn không lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Họ thường ăn nhiều đồ ăn nhanh và nước ngọt có ga, vì vậy cơ thể nạp quá nhiều chất béo và đường.",
+                "evidence_en": "They often eat fast food and drink sugary sodas, so their bodies take in too much fat and sugar.",
+                "evidence_collocations": [
+                  {
+                    "en": "eat fast food",
+                    "vi": "ăn đồ ăn nhanh"
+                  },
+                  {
+                    "en": "sugary sodas",
+                    "vi": "nước ngọt có ga"
+                  },
+                  {
+                    "en": "take in too much fat and sugar",
+                    "vi": "nạp quá nhiều chất béo và đường"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "unhealthy eating habits",
                     "vi": "thói quen ăn uống không lành mạnh"
                   },
                   {
-                    "en": "fast food",
-                    "vi": "đồ ăn nhanh"
-                  },
-                  {
-                    "en": "sugary beverages",
-                    "vi": "đồ uống có đường"
-                  },
-                  {
-                    "en": "consume too much fat and sugar",
-                    "vi": "tiêu thụ quá nhiều chất béo và đường"
+                    "en": "fast food and sugary sodas",
+                    "vi": "thức ăn nhanh và nước ngọt"
                   }
-                ],
-                "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh.",
-                "point_en": "Many young people have unhealthy eating habits.",
-                "evidence_vi": "Điều này là do họ thường ăn đồ ăn nhanh và uống đồ uống có đường, vì vậy họ tiêu thụ quá nhiều chất béo và đường mỗi ngày.",
-                "evidence_en": "This is because they often eat fast food and drink sugary beverages, so they consume too much fat and sugar every day."
+                ]
               },
               {
-                "title": "NGUYÊN NHÂN 02: KHÔNG TẬP THỂ DỤC THƯỜNG XUYÊN",
-                "collocations": [
+                "title": "NGUYÊN NHÂN 02: THIẾU VẬN ĐỘNG THỂ CHẤT THƯỜNG XUYÊN",
+                "point_vi": "Nhiều thanh thiếu niên không tập thể dục thường xuyên.",
+                "point_en": "Many teenagers do not exercise regularly.",
+                "point_collocations": [
                   {
                     "en": "exercise regularly",
                     "vi": "tập thể dục thường xuyên"
                   },
                   {
-                    "en": "burn enough calories",
-                    "vi": "đốt cháy đủ calo"
+                    "en": "regular exercise",
+                    "vi": "tập thể dục đều đặn"
                   },
                   {
-                    "en": "gain weight easily",
-                    "vi": "dễ bị tăng cân"
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
                   }
                 ],
-                "point_vi": "Nhiều người trẻ không tập thể dục thường xuyên.",
-                "point_en": "Many young people do not exercise regularly.",
-                "evidence_vi": "Kết quả là họ không đốt cháy đủ calo và có thể tăng cân dễ dàng.",
-                "evidence_en": "As a result, they do not burn enough calories and may gain weight easily."
-              },
-              {
-                "title": "NGUYÊN NHÂN 03: THIẾU KIẾN THỨC VỀ DINH DƯỠNG",
+                "evidence_vi": "Lối sống thụ động khiến cơ thể đốt cháy ít calo, do đó các em dễ dàng bị tăng cân mất kiểm soát.",
+                "evidence_en": "An inactive lifestyle burns very few calories, so youths gain weight without control.",
+                "evidence_collocations": [
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống thụ động (ít vận động)"
+                  },
+                  {
+                    "en": "burn few calories",
+                    "vi": "đốt cháy ít calo"
+                  },
+                  {
+                    "en": "gain weight without control",
+                    "vi": "tăng cân mất kiểm soát"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "lack nutritional knowledge",
-                    "vi": "thiếu kiến thức về dinh dưỡng"
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống thụ động"
                   },
                   {
-                    "en": "choose unhealthy food",
-                    "vi": "chọn thực phẩm không lành mạnh"
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: DÀNH QUÁ NHIỀU THỜI GIAN TRƯỚC MÀN HÌNH",
+                "point_vi": "Giới trẻ dành quá nhiều thời gian ngồi trước màn hình điện tử.",
+                "point_en": "Young people spend too much time sitting in front of screens.",
+                "point_collocations": [
+                  {
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
                   },
                   {
-                    "en": "develop poor eating habits",
-                    "vi": "hình thành thói quen ăn uống kém"
+                    "en": "sit in front of screens",
+                    "vi": "ngồi trước màn hình"
                   }
                 ],
-                "point_vi": "Nhiều thanh thiếu niên thiếu kiến thức về dinh dưỡng.",
-                "point_en": "Many teenagers lack nutritional knowledge.",
-                "evidence_vi": "Điều này có nghĩa là họ có thể chọn thực phẩm không lành mạnh và hình thành thói quen ăn uống kém.",
-                "evidence_en": "This means that they may choose unhealthy food and develop poor eating habits."
+                "evidence_vi": "Trẻ em ngồi chơi game và xem điện thoại suốt nhiều giờ liền, vì vậy các em lười ra ngoài vận động.",
+                "evidence_en": "Children play games and look at smartphones for hours, so they become lazy to go outdoors.",
+                "evidence_collocations": [
+                  {
+                    "en": "play games and look at smartphones",
+                    "vi": "chơi game và xem điện thoại"
+                  },
+                  {
+                    "en": "for hours",
+                    "vi": "suốt nhiều giờ liền"
+                  },
+                  {
+                    "en": "lazy to go outdoors",
+                    "vi": "lười ra ngoài vận động"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "sit in front of screens",
+                    "vi": "ngồi trước màn hình"
+                  },
+                  {
+                    "en": "lazy to go outdoors",
+                    "vi": "lười ra ngoài"
+                  }
+                ]
               }
             ],
             "solutions": [
               {
-                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN LÀNH MẠNH HƠN",
-                "collocations": [
+                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN UỐNG LÀNH MẠNH HƠN",
+                "point_vi": "Gia đình và nhà trường nên khuyến khích chế độ ăn uống lành mạnh.",
+                "point_en": "Families and schools should encourage healthier eating habits.",
+                "point_collocations": [
                   {
-                    "en": "follow a healthier diet",
-                    "vi": "tuân theo chế độ ăn lành mạnh hơn"
-                  },
-                  {
-                    "en": "eating more vegetables",
-                    "vi": "ăn nhiều rau củ hơn"
-                  },
-                  {
-                    "en": "reducing junk food",
-                    "vi": "giảm đồ ăn vặt"
-                  },
-                  {
-                    "en": "control their weight",
-                    "vi": "kiểm soát cân nặng"
-                  }
-                ],
-                "point_vi": "Khuyến khích người trẻ tuân theo chế độ ăn uống lành mạnh hơn.",
-                "point_en": "Encourage young people to follow a healthier diet.",
-                "evidence_vi": "Điều này là do ăn nhiều rau hơn và giảm đồ ăn vặt có thể giúp họ kiểm soát cân nặng và cải thiện sức khỏe.",
-                "evidence_en": "This is because eating more vegetables and reducing junk food can help them control their weight and improve their health."
-              },
-              {
-                "title": "GIẢI PHÁP 02: THÚC ĐẨY TẬP THỂ DỤC Ở TRƯỜNG HỌC",
-                "collocations": [
-                  {
-                    "en": "promote regular physical exercise",
-                    "vi": "thúc đẩy tập thể dục thường xuyên"
-                  },
-                  {
-                    "en": "sports activities",
-                    "vi": "các hoạt động thể thao"
-                  },
-                  {
-                    "en": "exercise clubs",
-                    "vi": "câu lạc bộ thể dục thể thao"
-                  }
-                ],
-                "point_vi": "Thúc đẩy việc tập thể dục thường xuyên tại các trường học.",
-                "point_en": "Promote regular physical exercise at schools.",
-                "evidence_vi": "Ví dụ, các trường học có thể tổ chức các hoạt động thể thao hoặc khuyến khích học sinh tham gia các câu lạc bộ thể dục sau giờ học.",
-                "evidence_en": "For example, schools can organize sports activities or encourage students to join exercise clubs after class."
-              },
-              {
-                "title": "GIẢI PHÁP 03: GIÁO DỤC VỀ THÓI QUEN ĂN UỐNG LÀNH MẠNH",
-                "collocations": [
-                  {
-                    "en": "educate young people",
-                    "vi": "giáo dục người trẻ"
+                    "en": "encourage healthier eating habits",
+                    "vi": "khuyến khích thói quen ăn uống lành mạnh hơn"
                   },
                   {
                     "en": "healthy eating habits",
                     "vi": "thói quen ăn uống lành mạnh"
                   },
                   {
-                    "en": "make healthier choices",
-                    "vi": "đưa ra những lựa chọn lành mạnh hơn"
+                    "en": "healthy diet",
+                    "vi": "chế độ ăn lành mạnh"
                   }
                 ],
-                "point_vi": "Giáo dục người trẻ về thói quen ăn uống lành mạnh.",
-                "point_en": "Educate young people about healthy eating habits.",
-                "evidence_vi": "Điều này có nghĩa là họ có thể đưa ra những lựa chọn lành mạnh hơn trong cuộc sống hàng ngày.",
-                "evidence_en": "This means that they can make healthier choices in their daily lives."
+                "evidence_vi": "Ăn nhiều rau xanh và cắt giảm đồ ăn vặt giúp kiểm soát cân nặng và cải thiện sức khỏe.",
+                "evidence_en": "Eating more green vegetables and cutting down on snacks help control body weight and improve health.",
+                "evidence_collocations": [
+                  {
+                    "en": "eat green vegetables",
+                    "vi": "ăn rau xanh"
+                  },
+                  {
+                    "en": "cut down on snacks",
+                    "vi": "cắt giảm đồ ăn vặt"
+                  },
+                  {
+                    "en": "control body weight",
+                    "vi": "kiểm soát cân nặng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "healthier eating habits",
+                    "vi": "chế độ ăn lành mạnh"
+                  },
+                  {
+                    "en": "cut down on snacks",
+                    "vi": "giảm đồ ăn vặt"
+                  },
+                  {
+                    "en": "control body weight",
+                    "vi": "kiểm soát cân nặng"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: THÚC ĐẨY CÁC HOẠT ĐỘNG THỂ THAO HỌC ĐƯỜNG",
+                "point_vi": "Các trường học nên thúc đẩy việc tập luyện thể dục thường xuyên.",
+                "point_en": "Schools should promote regular physical exercise for students.",
+                "point_collocations": [
+                  {
+                    "en": "promote regular physical exercise",
+                    "vi": "thúc đẩy việc tập luyện thể dục thường xuyên"
+                  },
+                  {
+                    "en": "physical exercise",
+                    "vi": "bài tập thể dục"
+                  },
+                  {
+                    "en": "regular exercise",
+                    "vi": "tập thể dục thường xuyên"
+                  }
+                ],
+                "evidence_vi": "Nhà trường có thể tổ chức các câu lạc bộ bóng đá và cầu lông sau giờ học để học sinh rèn luyện thể lực.",
+                "evidence_en": "Schools can organize football and badminton clubs after class to help students stay active.",
+                "evidence_collocations": [
+                  {
+                    "en": "football and badminton clubs",
+                    "vi": "câu lạc bộ bóng đá và cầu lông"
+                  },
+                  {
+                    "en": "after class",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "stay active",
+                    "vi": "rèn luyện thể lực (năng động)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "physical exercise",
+                    "vi": "tập thể dục"
+                  },
+                  {
+                    "en": "after class",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "stay active",
+                    "vi": "sống năng động"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: NÂNG CAO NHẬN THỨC VỀ DINH DƯỠNG",
+                "point_vi": "Nâng cao nhận thức về dinh dưỡng là biện pháp lâu dài cho thế hệ trẻ.",
+                "point_en": "Raising nutrition awareness is a vital long-term measure for youth.",
+                "point_collocations": [
+                  {
+                    "en": "raise nutrition awareness",
+                    "vi": "nâng cao nhận thức về dinh dưỡng"
+                  },
+                  {
+                    "en": "vital long-term measure",
+                    "vi": "biện pháp lâu dài quan trọng"
+                  }
+                ],
+                "evidence_vi": "Các chiến dịch truyền thông giúp giới trẻ hiểu rõ tác hại của béo phì, nhờ đó các em chủ động lựa chọn thực phẩm tốt.",
+                "evidence_en": "Public campaigns help youth understand the dangers of obesity, so they actively choose healthy food.",
+                "evidence_collocations": [
+                  {
+                    "en": "public campaigns",
+                    "vi": "các chiến dịch truyền thông cộng đồng"
+                  },
+                  {
+                    "en": "dangers of obesity",
+                    "vi": "tác hại (nguy hiểm) của bệnh béo phì"
+                  },
+                  {
+                    "en": "choose healthy food",
+                    "vi": "chủ động chọn thực phẩm tốt cho sức khỏe"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "nutrition awareness",
+                    "vi": "nhận thức dinh dưỡng"
+                  },
+                  {
+                    "en": "dangers of obesity",
+                    "vi": "tác hại của béo phì"
+                  }
+                ]
               }
             ],
             "benefits": [
               {
                 "title": "NGUYÊN NHÂN 01: THÓI QUEN ĂN UỐNG KHÔNG LÀNH MẠNH",
-                "collocations": [
-                  {
-                    "en": "unhealthy eating habits",
-                    "vi": "thói quen ăn uống không lành mạnh"
-                  },
-                  {
-                    "en": "fast food",
-                    "vi": "đồ ăn nhanh"
-                  },
-                  {
-                    "en": "sugary beverages",
-                    "vi": "đồ uống có đường"
-                  },
-                  {
-                    "en": "consume too much fat and sugar",
-                    "vi": "tiêu thụ quá nhiều chất béo và đường"
-                  }
-                ],
-                "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh.",
-                "point_en": "Many young people have unhealthy eating habits.",
-                "evidence_vi": "Điều này là do họ thường ăn đồ ăn nhanh và uống đồ uống có đường, vì vậy họ tiêu thụ quá nhiều chất béo và đường mỗi ngày.",
-                "evidence_en": "This is because they often eat fast food and drink sugary beverages, so they consume too much fat and sugar every day.",
+                "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh hằng ngày.",
+                "point_en": "Many young people have unhealthy eating habits every day.",
                 "point_collocations": [
                   {
                     "en": "unhealthy eating habits",
                     "vi": "thói quen ăn uống không lành mạnh"
                   },
                   {
-                    "en": "unbalanced eating habits",
-                    "vi": "thói quen ăn uống không cân bằng"
+                    "en": "eating habits",
+                    "vi": "thói quen ăn uống"
                   },
                   {
-                    "en": "healthy eating habits",
-                    "vi": "thói quen ăn uống lành mạnh"
+                    "en": "unhealthy diet",
+                    "vi": "chế độ ăn không lành mạnh"
                   }
                 ],
+                "evidence_vi": "Họ thường ăn nhiều đồ ăn nhanh và nước ngọt có ga, vì vậy cơ thể nạp quá nhiều chất béo và đường.",
+                "evidence_en": "They often eat fast food and drink sugary sodas, so their bodies take in too much fat and sugar.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "fast food",
-                      "vi": "đồ ăn nhanh"
-                    },
-                    {
-                      "en": "sugary beverages",
-                      "vi": "đồ uống có đường"
-                    },
-                    {
-                      "en": "consume too much fat and sugar",
-                      "vi": "tiêu thụ quá nhiều chất béo và đường"
-                    },
-                    {
-                      "en": "consume fast food",
-                      "vi": "tiêu thụ thức ăn nhanh"
-                    },
-                    {
-                      "en": "sugary drinks",
-                      "vi": "đồ uống ngọt / đồ uống có đường"
-                    }
-                  ]
+                  {
+                    "en": "eat fast food",
+                    "vi": "ăn đồ ăn nhanh"
+                  },
+                  {
+                    "en": "sugary sodas",
+                    "vi": "nước ngọt có ga"
+                  },
+                  {
+                    "en": "take in too much fat and sugar",
+                    "vi": "nạp quá nhiều chất béo và đường"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "unhealthy eating habits",
+                    "vi": "thói quen ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "fast food and sugary sodas",
+                    "vi": "thức ăn nhanh và nước ngọt"
+                  }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 02: KHÔNG TẬP THỂ DỤC THƯỜNG XUYÊN",
-                "collocations": [
-                  {
-                    "en": "exercise regularly",
-                    "vi": "tập thể dục thường xuyên"
-                  },
-                  {
-                    "en": "burn enough calories",
-                    "vi": "đốt cháy đủ calo"
-                  },
-                  {
-                    "en": "gain weight easily",
-                    "vi": "dễ bị tăng cân"
-                  }
-                ],
-                "point_vi": "Nhiều người trẻ không tập thể dục thường xuyên.",
-                "point_en": "Many young people do not exercise regularly.",
-                "evidence_vi": "Kết quả là họ không đốt cháy đủ calo và có thể tăng cân dễ dàng.",
-                "evidence_en": "As a result, they do not burn enough calories and may gain weight easily.",
+                "title": "NGUYÊN NHÂN 02: THIẾU VẬN ĐỘNG THỂ CHẤT THƯỜNG XUYÊN",
+                "point_vi": "Nhiều thanh thiếu niên không tập thể dục thường xuyên.",
+                "point_en": "Many teenagers do not exercise regularly.",
                 "point_collocations": [
                   {
                     "en": "exercise regularly",
                     "vi": "tập thể dục thường xuyên"
                   },
                   {
-                    "en": "burn enough calories",
-                    "vi": "đốt cháy đủ calo"
+                    "en": "regular exercise",
+                    "vi": "tập thể dục đều đặn"
                   },
                   {
-                    "en": "gain weight easily",
-                    "vi": "dễ bị tăng cân"
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
                   }
                 ],
+                "evidence_vi": "Lối sống thụ động khiến cơ thể đốt cháy ít calo, do đó các em dễ dàng bị tăng cân mất kiểm soát.",
+                "evidence_en": "An inactive lifestyle burns very few calories, so youths gain weight without control.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "burn enough calories",
-                      "vi": "đốt cháy đủ calo"
-                    },
-                    {
-                      "en": "gain weight easily",
-                      "vi": "dễ bị tăng cân"
-                    },
-                    {
-                      "en": "gain weight",
-                      "vi": "tăng cân"
-                    },
-                    {
-                      "en": "maintain a healthy weight",
-                      "vi": "duy trì cân nặng hợp lý"
-                    },
-                    {
-                      "en": "burn calories",
-                      "vi": "đốt cháy calo"
-                    }
-                  ]
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống thụ động (ít vận động)"
+                  },
+                  {
+                    "en": "burn few calories",
+                    "vi": "đốt cháy ít calo"
+                  },
+                  {
+                    "en": "gain weight without control",
+                    "vi": "tăng cân mất kiểm soát"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "inactive lifestyle",
+                    "vi": "lối sống thụ động"
+                  },
+                  {
+                    "en": "gain weight",
+                    "vi": "tăng cân"
+                  }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 03: THIẾU KIẾN THỨC VỀ DINH DƯỠNG",
-                "collocations": [
-                  {
-                    "en": "lack nutritional knowledge",
-                    "vi": "thiếu kiến thức về dinh dưỡng"
-                  },
-                  {
-                    "en": "choose unhealthy food",
-                    "vi": "chọn thực phẩm không lành mạnh"
-                  },
-                  {
-                    "en": "develop poor eating habits",
-                    "vi": "hình thành thói quen ăn uống kém"
-                  }
-                ],
-                "point_vi": "Nhiều thanh thiếu niên thiếu kiến thức về dinh dưỡng.",
-                "point_en": "Many teenagers lack nutritional knowledge.",
-                "evidence_vi": "Điều này có nghĩa là họ có thể chọn thực phẩm không lành mạnh và hình thành thói quen ăn uống kém.",
-                "evidence_en": "This means that they may choose unhealthy food and develop poor eating habits.",
+                "title": "NGUYÊN NHÂN 03: DÀNH QUÁ NHIỀU THỜI GIAN TRƯỚC MÀN HÌNH",
+                "point_vi": "Giới trẻ dành quá nhiều thời gian ngồi trước màn hình điện tử.",
+                "point_en": "Young people spend too much time sitting in front of screens.",
                 "point_collocations": [
                   {
-                    "en": "lack nutritional knowledge",
-                    "vi": "thiếu kiến thức về dinh dưỡng"
+                    "en": "spend too much time",
+                    "vi": "dành quá nhiều thời gian"
                   },
                   {
-                    "en": "nutrition",
-                    "vi": "dinh dưỡng"
-                  },
-                  {
-                    "en": "choose unhealthy food",
-                    "vi": "chọn thực phẩm không lành mạnh"
+                    "en": "sit in front of screens",
+                    "vi": "ngồi trước màn hình"
                   }
                 ],
+                "evidence_vi": "Trẻ em ngồi chơi game và xem điện thoại suốt nhiều giờ liền, vì vậy các em lười ra ngoài vận động.",
+                "evidence_en": "Children play games and look at smartphones for hours, so they become lazy to go outdoors.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "choose unhealthy food",
-                      "vi": "chọn thực phẩm không lành mạnh"
-                    },
-                    {
-                      "en": "develop poor eating habits",
-                      "vi": "hình thành thói quen ăn uống kém"
-                    },
-                    {
-                      "en": "unhealthy eating habits",
-                      "vi": "thói quen ăn uống không lành mạnh"
-                    },
-                    {
-                      "en": "unhealthy foods",
-                      "vi": "thực phẩm không tốt cho sức khỏe"
-                    },
-                    {
-                      "en": "unbalanced eating habits",
-                      "vi": "thói quen ăn uống không cân bằng"
-                    }
-                  ]
+                  {
+                    "en": "play games and look at smartphones",
+                    "vi": "chơi game và xem điện thoại"
+                  },
+                  {
+                    "en": "for hours",
+                    "vi": "suốt nhiều giờ liền"
+                  },
+                  {
+                    "en": "lazy to go outdoors",
+                    "vi": "lười ra ngoài vận động"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "sit in front of screens",
+                    "vi": "ngồi trước màn hình"
+                  },
+                  {
+                    "en": "lazy to go outdoors",
+                    "vi": "lười ra ngoài"
+                  }
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN LÀNH MẠNH HƠN",
-                "collocations": [
+                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN UỐNG LÀNH MẠNH HƠN",
+                "point_vi": "Gia đình và nhà trường nên khuyến khích chế độ ăn uống lành mạnh.",
+                "point_en": "Families and schools should encourage healthier eating habits.",
+                "point_collocations": [
                   {
-                    "en": "follow a healthier diet",
-                    "vi": "tuân theo chế độ ăn lành mạnh hơn"
+                    "en": "encourage healthier eating habits",
+                    "vi": "khuyến khích thói quen ăn uống lành mạnh hơn"
                   },
                   {
-                    "en": "eating more vegetables",
-                    "vi": "ăn nhiều rau củ hơn"
+                    "en": "healthy eating habits",
+                    "vi": "thói quen ăn uống lành mạnh"
                   },
                   {
-                    "en": "reducing junk food",
-                    "vi": "giảm đồ ăn vặt"
+                    "en": "healthy diet",
+                    "vi": "chế độ ăn lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Ăn nhiều rau xanh và cắt giảm đồ ăn vặt giúp kiểm soát cân nặng và cải thiện sức khỏe.",
+                "evidence_en": "Eating more green vegetables and cutting down on snacks help control body weight and improve health.",
+                "evidence_collocations": [
+                  {
+                    "en": "eat green vegetables",
+                    "vi": "ăn rau xanh"
                   },
                   {
-                    "en": "control their weight",
+                    "en": "cut down on snacks",
+                    "vi": "cắt giảm đồ ăn vặt"
+                  },
+                  {
+                    "en": "control body weight",
                     "vi": "kiểm soát cân nặng"
                   }
                 ],
-                "point_vi": "Khuyến khích người trẻ tuân theo chế độ ăn uống lành mạnh hơn.",
-                "point_en": "Encourage young people to follow a healthier diet.",
-                "evidence_vi": "Điều này là do ăn nhiều rau hơn và giảm đồ ăn vặt có thể giúp họ kiểm soát cân nặng và cải thiện sức khỏe.",
-                "evidence_en": "This is because eating more vegetables and reducing junk food can help them control their weight and improve their health.",
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "follow a healthier diet",
-                    "vi": "tuân theo chế độ ăn lành mạnh hơn"
+                    "en": "healthier eating habits",
+                    "vi": "chế độ ăn lành mạnh"
                   },
                   {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
+                    "en": "cut down on snacks",
+                    "vi": "giảm đồ ăn vặt"
                   },
                   {
-                    "en": "eating more vegetables",
-                    "vi": "ăn nhiều rau củ hơn"
+                    "en": "control body weight",
+                    "vi": "kiểm soát cân nặng"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "eating more vegetables",
-                      "vi": "ăn nhiều rau củ hơn"
-                    },
-                    {
-                      "en": "reducing junk food",
-                      "vi": "giảm đồ ăn vặt"
-                    },
-                    {
-                      "en": "control their weight",
-                      "vi": "kiểm soát cân nặng"
-                    },
-                    {
-                      "en": "fruit and vegetables",
-                      "vi": "trái cây và rau củ"
-                    },
-                    {
-                      "en": "improve health",
-                      "vi": "cải thiện sức khỏe"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "GIẢI PHÁP 02: THÚC ĐẨY TẬP THỂ DỤC Ở TRƯỜNG HỌC",
-                "collocations": [
-                  {
-                    "en": "promote regular physical exercise",
-                    "vi": "thúc đẩy tập thể dục thường xuyên"
-                  },
-                  {
-                    "en": "sports activities",
-                    "vi": "các hoạt động thể thao"
-                  },
-                  {
-                    "en": "exercise clubs",
-                    "vi": "câu lạc bộ thể dục thể thao"
-                  }
-                ],
-                "point_vi": "Thúc đẩy việc tập thể dục thường xuyên tại các trường học.",
-                "point_en": "Promote regular physical exercise at schools.",
-                "evidence_vi": "Ví dụ, các trường học có thể tổ chức các hoạt động thể thao hoặc khuyến khích học sinh tham gia các câu lạc bộ thể dục sau giờ học.",
-                "evidence_en": "For example, schools can organize sports activities or encourage students to join exercise clubs after class.",
+                "title": "GIẢI PHÁP 02: THÚC ĐẨY CÁC HOẠT ĐỘNG THỂ THAO HỌC ĐƯỜNG",
+                "point_vi": "Các trường học nên thúc đẩy việc tập luyện thể dục thường xuyên.",
+                "point_en": "Schools should promote regular physical exercise for students.",
                 "point_collocations": [
                   {
                     "en": "promote regular physical exercise",
-                    "vi": "thúc đẩy tập thể dục thường xuyên"
+                    "vi": "thúc đẩy việc tập luyện thể dục thường xuyên"
                   },
                   {
-                    "en": "sports activities",
-                    "vi": "các hoạt động thể thao"
+                    "en": "physical exercise",
+                    "vi": "bài tập thể dục"
                   },
                   {
-                    "en": "exercise clubs",
-                    "vi": "câu lạc bộ thể dục thể thao"
+                    "en": "regular exercise",
+                    "vi": "tập thể dục thường xuyên"
                   }
                 ],
+                "evidence_vi": "Nhà trường có thể tổ chức các câu lạc bộ bóng đá và cầu lông sau giờ học để học sinh rèn luyện thể lực.",
+                "evidence_en": "Schools can organize football and badminton clubs after class to help students stay active.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "sports activities",
-                      "vi": "các hoạt động thể thao"
-                    },
-                    {
-                      "en": "exercise clubs",
-                      "vi": "câu lạc bộ thể dục thể thao"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ]
+                  {
+                    "en": "football and badminton clubs",
+                    "vi": "câu lạc bộ bóng đá và cầu lông"
+                  },
+                  {
+                    "en": "after class",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "stay active",
+                    "vi": "rèn luyện thể lực (năng động)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "physical exercise",
+                    "vi": "tập thể dục"
+                  },
+                  {
+                    "en": "after class",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "stay active",
+                    "vi": "sống năng động"
+                  }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 03: GIÁO DỤC VỀ THÓI QUEN ĂN UỐNG LÀNH MẠNH",
-                "collocations": [
-                  {
-                    "en": "educate young people",
-                    "vi": "giáo dục người trẻ"
-                  },
-                  {
-                    "en": "healthy eating habits",
-                    "vi": "thói quen ăn uống lành mạnh"
-                  },
-                  {
-                    "en": "make healthier choices",
-                    "vi": "đưa ra những lựa chọn lành mạnh hơn"
-                  }
-                ],
-                "point_vi": "Giáo dục người trẻ về thói quen ăn uống lành mạnh.",
-                "point_en": "Educate young people about healthy eating habits.",
-                "evidence_vi": "Điều này có nghĩa là họ có thể đưa ra những lựa chọn lành mạnh hơn trong cuộc sống hàng ngày.",
-                "evidence_en": "This means that they can make healthier choices in their daily lives.",
+                "title": "GIẢI PHÁP 03: NÂNG CAO NHẬN THỨC VỀ DINH DƯỠNG",
+                "point_vi": "Nâng cao nhận thức về dinh dưỡng là biện pháp lâu dài cho thế hệ trẻ.",
+                "point_en": "Raising nutrition awareness is a vital long-term measure for youth.",
                 "point_collocations": [
                   {
-                    "en": "educate young people",
-                    "vi": "giáo dục người trẻ"
+                    "en": "raise nutrition awareness",
+                    "vi": "nâng cao nhận thức về dinh dưỡng"
                   },
                   {
-                    "en": "healthy eating habits",
-                    "vi": "thói quen ăn uống lành mạnh"
-                  },
-                  {
-                    "en": "unhealthy eating habits",
-                    "vi": "thói quen ăn uống không lành mạnh"
-                  },
-                  {
-                    "en": "unbalanced eating habits",
-                    "vi": "thói quen ăn uống không cân bằng"
+                    "en": "vital long-term measure",
+                    "vi": "biện pháp lâu dài quan trọng"
                   }
                 ],
+                "evidence_vi": "Các chiến dịch truyền thông giúp giới trẻ hiểu rõ tác hại của béo phì, nhờ đó các em chủ động lựa chọn thực phẩm tốt.",
+                "evidence_en": "Public campaigns help youth understand the dangers of obesity, so they actively choose healthy food.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "make healthier choices",
-                      "vi": "đưa ra những lựa chọn lành mạnh hơn"
-                    },
-                    {
-                      "en": "healthier food choices",
-                      "vi": "lựa chọn thực phẩm lành mạnh hơn"
-                    },
-                    {
-                      "en": "daily lives",
-                      "vi": "cuộc sống hằng ngày"
-                    },
-                    {
-                      "en": "in daily life",
-                      "vi": "trong đời sống hằng ngày"
-                    }
-                  ]
+                  {
+                    "en": "public campaigns",
+                    "vi": "các chiến dịch truyền thông cộng đồng"
+                  },
+                  {
+                    "en": "dangers of obesity",
+                    "vi": "tác hại (nguy hiểm) của bệnh béo phì"
+                  },
+                  {
+                    "en": "choose healthy food",
+                    "vi": "chủ động chọn thực phẩm tốt cho sức khỏe"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "nutrition awareness",
+                    "vi": "nhận thức dinh dưỡng"
+                  },
+                  {
+                    "en": "dangers of obesity",
+                    "vi": "tác hại của béo phì"
+                  }
                 ]
               }
             ]
@@ -100793,7 +100867,7 @@ const ESSAY_DATA = [
                 "point_vi": "Khuyến khích tái sử dụng các thiết bị điện tử.",
                 "point_en": "Encourage the reuse of electronic devices.",
                 "evidence_vi": "Người dân có thể sửa chữa hoặc tặng lại các thiết bị vẫn còn sử dụng được thay vì vứt bỏ chúng.",
-                "evidence_en": "People can repair or donate devices that still work instead of throwing them away.",
+                "evidence_en": "People can repair or donate working devices instead of throwing them away.",
                 "point_collocations": [
                   {
                     "en": "reuse electronic devices",
@@ -101505,7 +101579,7 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>electronic waste </strong>has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main causes of this problem and suggest possible solutions.</strong>\n\n<strong>This issue can be caused by several factors. </strong>One major cause is that <strong><em>many people frequently replace their electronic devices</em></strong>. This is because they often buy new products even when their old devices still work well. Another contributing factor is that <strong><em>many people do not know how to dispose of electronic waste properly</em></strong>. In fact, they may throw old electronic devices away with regular household rubbish. A further reason is that <strong><em>some areas do not have suitable collection and recycling systems</em></strong>. This means that electronic waste disposal becomes more difficult for many people.\n\n<strong>To solve this problem, several measures can be taken. </strong>One effective solution is to <strong><em>encourage the reuse of electronic devices</em></strong>. This is because people can repair or donate devices that still work instead of throwing them away. Another possible measure is to <strong><em>raise</em></strong> <strong><em>public awareness of electronic waste</em></strong>. For example, educational campaigns can help people better understand how to dispose of electronic waste properly. Finally, it is important to <strong><em>develop collection and recycling systems for electronic waste</em></strong>. To be specific, authorities can build more collection points and recycling facilities in different areas.\n\nIn conclusion, <strong>electronic waste </strong>is caused by several factors and requires practical solutions. By addressing the causes and applying suitable measures, this problem can be reduced in the future. These actions will protect our living environment.",
+          "sample_b1": "In recent years, <strong>electronic waste </strong>has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main causes of this problem and suggest possible solutions.</strong>\n\n<strong>This issue can be caused by several factors. </strong>One major cause is that <strong><em>many people frequently replace their electronic devices</em></strong>. This is because they often buy new products even when their old devices still work well. Another contributing factor is that <strong><em>many people do not know how to dispose of electronic waste properly</em></strong>. In fact, they may throw old electronic devices away with regular household rubbish. A further reason is that <strong><em>some areas do not have suitable collection and recycling systems</em></strong>. This means that electronic waste disposal becomes more difficult for many people.\n\n<strong>To solve this problem, several measures can be taken. </strong>One effective solution is to <strong><em>encourage the reuse of electronic devices</em></strong>. This is because people can repair or donate working devices instead of throwing them away. Another possible measure is to <strong><em>raise</em></strong> <strong><em>public awareness of electronic waste</em></strong>. For example, educational campaigns can help people better understand how to dispose of electronic waste properly. Finally, it is important to <strong><em>develop collection and recycling systems for electronic waste</em></strong>. To be specific, authorities can build more collection points and recycling facilities in different areas.\n\nIn conclusion, <strong>electronic waste </strong>is caused by several factors and requires practical solutions. By addressing the causes and applying suitable measures, this problem can be reduced in the future. These actions will protect our living environment.",
           "sample_b2": "In recent years, <strong>electronic waste</strong> has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. <strong>This essay will examine the main causes of this problem and suggest possible solutions.</strong>\n\n<strong>This issue can be attributed to several key factors.</strong> One major cause is that <strong><em>many people frequently replace their electronic devices</em></strong>. In fact, they often purchase new products even when their old devices are still working well and meeting their needs. This increases the amount of electronic waste produced each year around the world. Another contributing factor is that <strong><em>many people lack sufficient awareness of how to dispose of electronic </em></strong><strong><em>waste</em></strong>. This means that they may throw old electronic devices away with household waste instead of separating them from other types of waste. As a result, it may have negative effects on both the environment and human health. A further reason is that <strong><em>some areas lack effective collection and recycling systems</em></strong>. To be specific, people often have difficulty disposing of used electronic devices because suitable collection points are unavailable. Consequently, many devices are not recycled properly and eventually become waste.\n\n<strong>To address this problem, several practical solutions can be implemented.</strong> One effective solution is to <strong><em>encourage the reuse of electronic devices</em></strong>. For example, people can repair or donate devices that are still usable to others. As a result, it can extend product lifespans and reduce the amount of electronic waste generated. Another possible measure is to <strong><em>raise</em></strong> <strong><em>public awareness of electronic waste</em></strong>. In fact, educational campaigns can provide information about proper and safe electronic waste disposal. As a result, people may handle electronic waste more responsibly. Finally, it is necessary to <strong><em>develop collection and recycling systems</em></strong> <strong><em>for electronic waste</em></strong>. For instance, authorities can establish more collection points and recycling facilities in different areas. Therefore, more electronic devices can be disposed of and recycled properly instead of being discarded.\n\nIn conclusion, <strong>electronic waste</strong> is primarily driven by the frequent replacement of electronic devices, insufficient awareness of electronic waste disposal, and the lack of effective collection and recycling systems. However, by implementing targeted measures such as encouraging the reuse of electronic devices, raising public awareness of electronic waste, and developing collection and recycling systems, this issue can be effectively addressed. These actions can help improve the situation in the long term.",
           "translation_b1": "Trong những năm gần đây, <strong>rác thải điện tử</strong> đã trở thành một mối lo ngại ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài viết này sẽ thảo luận về những nguyên nhân chính của vấn đề này và đề xuất các giải pháp khả thi.</strong>\n\n<strong>Vấn đề này có thể do một vài yếu tố gây ra.</strong> Một nguyên nhân lớn là <strong><em>nhiều người thường xuyên thay thế các thiết bị điện tử của họ</em></strong>. Điều này là do họ thường mua sản phẩm mới ngay cả khi thiết bị cũ vẫn hoạt động tốt. Một yếu tố đóng góp khác là <strong><em>nhiều người chưa biết cách xử lý rác thải điện tử đúng cách</em></strong>. Trong thực tế, họ có thể vứt các thiết bị điện tử cũ cùng với rác sinh hoạt thông thường. Một lý do khác nữa là <strong><em>một số khu vực chưa có hệ thống thu gom và tái chế phù hợp</em></strong>. Điều này khiến cho việc xử lý rác thải điện tử trở nên khó khăn hơn đối với nhiều người.\n\n<strong>Để giải quyết vấn đề này, một số biện pháp có thể được thực hiện.</strong> Một giải pháp hiệu quả là <strong><em>khuyến khích việc tái sử dụng các thiết bị điện tử</em></strong>. Điều này là do người dân có thể sửa chữa hoặc quyên góp các thiết bị vẫn còn hoạt động được thay vì vứt bỏ chúng. Một biện pháp khả thi khác là <strong><em>nâng cao nhận thức của công chúng về rác thải điện tử</em></strong>. Ví dụ, các chiến dịch giáo dục có thể giúp mọi người hiểu rõ hơn về cách xử lý rác thải điện tử đúng cách. Cuối cùng, điều quan trọng là phải <strong><em>phát triển hệ thống thu gom và tái chế rác thải điện tử</em></strong>. Cụ thể, các cơ quan chức năng có thể xây dựng thêm nhiều điểm thu gom và cơ sở tái chế ở các khu vực khác nhau.\n\nTóm lại, <strong>rác thải điện tử</strong> do một số yếu tố gây ra và đòi hỏi những giải pháp thực tế. Bằng cách giải quyết các nguyên nhân và áp dụng các biện pháp phù hợp, vấn đề này có thể được giảm thiểu trong tương lai. Những hành động này sẽ bảo vệ môi trường sống của chúng ta.",
           "translation_b2": "Trong những năm gần đây, <strong>rác thải điện tử</strong> đã trở thành mối lo ngại ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài viết này sẽ xem xét các nguyên nhân chính của vấn đề này và đề xuất các giải pháp khả thi.</strong>\n\n<strong>Vấn đề này có thể xuất phát từ một vài yếu tố then chốt.</strong> Một nguyên nhân lớn là <strong><em>nhiều người thường xuyên thay thế các thiết bị điện tử của họ</em></strong>. Trên thực tế, họ thường mua sản phẩm mới ngay cả khi các thiết bị cũ vẫn đang hoạt động tốt và đáp ứng được nhu cầu sử dụng. Điều này làm gia tăng lượng rác thải điện tử được tạo ra mỗi năm trên toàn thế giới. Một yếu tố đóng góp khác là <strong><em>nhiều người chưa có đủ nhận thức về cách xử lý rác thải điện tử</em></strong>. Điều này có nghĩa là họ có thể vứt các thiết bị điện tử cũ cùng với rác sinh hoạt thông thường thay vì phân loại chúng riêng với các loại rác thải khác. Hệ quả là, nó có thể gây ra những tác động tiêu cực đến cả môi trường và sức khỏe con người. Một lý do nữa là <strong><em>một số khu vực thiếu hệ thống thu gom và tái chế hiệu quả</em></strong>. Cụ thể, người dân thường gặp khó khăn trong việc xử lý các thiết bị điện tử đã qua sử dụng do thiếu các điểm thu gom phù hợp. Vì vậy, nhiều thiết bị không được tái chế đúng cách và cuối cùng trở thành rác thải.\n\n<strong>Để giải quyết vấn đề này, một số giải pháp thực tế có thể được thực hiện.</strong> Một giải pháp hiệu quả là <strong><em>khuyến khích việc tái sử dụng các thiết bị điện tử</em></strong>. Ví dụ, mọi người có thể sửa chữa hoặc tặng các thiết bị vẫn còn sử dụng được cho người khác. Nhờ đó, việc này có thể kéo dài tuổi thọ của sản phẩm và giảm lượng rác thải điện tử phát sinh. Một biện pháp khả thi khác là <strong><em>nâng cao nhận thức của công chúng về rác thải điện tử</em></strong>. Trên thực tế, các chiến dịch giáo dục có thể cung cấp thông tin về cách xử lý rác thải điện tử đúng cách và an toàn. Hệ quả là, người dân có thể xử lý rác thải điện tử có trách nhiệm hơn. Cuối cùng, cần phải <strong><em>phát triển hệ thống thu gom và tái chế cho rác thải điện tử</em></strong>. Ví dụ, chính quyền có thể thành lập thêm nhiều điểm thu gom và cơ sở tái chế ở các khu vực khác nhau. Do đó, nhiều thiết bị điện tử hơn có thể được xử lý và tái chế đúng cách thay vì bị vứt bỏ.\n\nTóm lại, <strong>rác thải điện tử</strong> chủ yếu do việc thay thế thiết bị điện tử thường xuyên, thiếu nhận thức về việc xử lý rác thải điện tử, và thiếu hệ thống thu gom cũng như tái chế hiệu quả. Tuy nhiên, bằng cách thực hiện các biện pháp mục tiêu như khuyến khích tái sử dụng thiết bị điện tử, nâng cao nhận thức cộng đồng về rác thải điện tử, và phát triển hệ thống thu gom, tái chế, vấn đề này có thể được giải quyết một cách hiệu quả. Những hành động này có thể giúp cải thiện tình hình trong dài hạn.",
@@ -102685,182 +102759,511 @@ const ESSAY_DATA = [
             }
           ],
           "ideas_b1": {
-            "benefits": [
+            "causes": [
               {
                 "title": "NGUYÊN NHÂN 01: CƠ HỘI VIỆC LÀM TỐT HƠN Ở NƯỚC NGOÀI",
-                "collocations": [],
-                "point_vi": "Nhiều người muốn tìm kiếm công việc tốt hơn ở nước ngoài.",
-                "point_en": "Many people want to find better jobs abroad.",
-                "evidence_vi": "Họ có thể nhận được mức lương cao hơn và nhiều cơ hội phát triển nghề nghiệp hơn, vì vậy họ có thể cải thiện cuộc sống của mình.",
-                "evidence_en": "They can earn higher salaries and have more career opportunities, so they can improve their quality of life.",
-                "point_collocations": [],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "career opportunities",
-                      "vi": "cơ hội nghề nghiệp"
-                    },
-                    {
-                      "en": "higher salaries",
-                      "vi": "mức lương cao hơn"
-                    },
-                    {
-                      "en": "higher-quality education",
-                      "vi": "giáo dục chất lượng cao hơn"
-                    },
-                    {
-                      "en": "quality of life",
-                      "vi": "chất lượng cuộc sống"
-                    },
-                    {
-                      "en": "high-quality job opportunities",
-                      "vi": "cơ hội việc làm chất lượng cao"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "NGUYÊN NHÂN 02: CHẤT LƯỢNG GIÁO DỤC VÀ ĐÀO TẠO TỐT HƠN",
-                "collocations": [],
-                "point_vi": "Nhiều người muốn được học tập trong môi trường giáo dục tốt hơn.",
-                "point_en": "Many people want to study in a better educational environment.",
-                "evidence_vi": "Một số quốc gia có các trường đại học hiện đại và nhiều cơ hội học tập hơn, vì vậy sinh viên có thể phát triển kiến thức và kỹ năng của mình.",
-                "evidence_en": "Some countries have modern universities and more learning opportunities, so students can develop their knowledge and skills.",
+                "point_vi": "Cơ hội việc làm tốt hơn ở nước ngoài thu hút nhiều nhân tài.",
+                "point_en": "Better job opportunities abroad attract many talented workers.",
                 "point_collocations": [
                   {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "modern universities",
-                      "vi": "trường đại học hiện đại"
-                    },
-                    {
-                      "en": "develop their skills domestically",
-                      "vi": "phát triển kỹ năng trong nước"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "NGUYÊN NHÂN 03: MÔI TRƯỜNG SỐNG VÀ LÀM VIỆC HẤP DẪN HƠN",
-                "collocations": [],
-                "point_vi": "Nhiều người bị thu hút bởi môi trường sống và làm việc tốt hơn ở nước ngoài.",
-                "point_en": "Many people are attracted by better living and working environments abroad.",
-                "evidence_vi": "Họ có thể tận hưởng chất lượng cuộc sống cao hơn và các dịch vụ tốt hơn, chẳng hạn như y tế và giáo dục.",
-                "evidence_en": "They can enjoy a higher quality of life and better services, such as healthcare and education.",
-                "point_collocations": [
-                  {
-                    "en": "living environment",
-                    "vi": "môi trường sống"
+                    "en": "better job opportunities abroad",
+                    "vi": "cơ hội việc làm tốt hơn ở nước ngoài"
                   },
                   {
-                    "en": "working environment",
-                    "vi": "môi trường làm việc"
+                    "en": "attract talented workers",
+                    "vi": "thu hút nhiều lao động tài năng"
                   }
                 ],
+                "evidence_vi": "Các công ty quốc tế đưa ra mức lương cao và chế độ đãi ngộ hấp dẫn, vì vậy nhiều người giỏi chọn ra đi.",
+                "evidence_en": "International companies offer high salaries and attractive benefits, so many skilled professionals choose to leave.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "higher-quality education",
-                      "vi": "giáo dục chất lượng cao hơn"
-                    },
-                    {
-                      "en": "quality of life",
-                      "vi": "chất lượng cuộc sống"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    }
-                  ]
+                  {
+                    "en": "international companies",
+                    "vi": "các công ty quốc tế"
+                  },
+                  {
+                    "en": "high salaries and attractive benefits",
+                    "vi": "mức lương cao và chế độ đãi ngộ hấp dẫn"
+                  },
+                  {
+                    "en": "skilled professionals",
+                    "vi": "chuyên gia (người) có kỹ năng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "job opportunities abroad",
+                    "vi": "cơ hội việc làm nước ngoài"
+                  },
+                  {
+                    "en": "high salaries",
+                    "vi": "lương cao"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: ĐIỀU KIỆN NGHIÊN CỨU VÀ HỌC TẬP HIỆN ĐẠI",
+                "point_vi": "Môi trường học tập và nghiên cứu ở các nước phát triển tiên tiến hơn.",
+                "point_en": "Study and research facilities in developed nations are more advanced.",
+                "point_collocations": [
+                  {
+                    "en": "study and research facilities",
+                    "vi": "cơ sở vật chất học tập và nghiên cứu"
+                  },
+                  {
+                    "en": "developed nations",
+                    "vi": "các quốc gia phát triển"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học nước ngoài có phòng thí nghiệm tối tân, nhờ đó các nhà khoa học có thể phát triển sự nghiệp tốt hơn.",
+                "evidence_en": "Foreign universities have modern laboratories, so scientists can advance their research careers better.",
+                "evidence_collocations": [
+                  {
+                    "en": "modern laboratories",
+                    "vi": "phòng thí nghiệm hiện đại"
+                  },
+                  {
+                    "en": "advance research careers",
+                    "vi": "phát triển sự nghiệp nghiên cứu"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "research facilities",
+                    "vi": "cơ sở nghiên cứu"
+                  },
+                  {
+                    "en": "modern laboratories",
+                    "vi": "phòng thí nghiệm hiện đại"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: MÔI TRƯỜNG SỐNG VÀ PHÚC LỢI XÃ HỘI HẤP DẪN",
+                "point_vi": "Môi trường sống và phúc lợi xã hội ở nước ngoài rất hấp dẫn.",
+                "point_en": "Living standards and social welfare abroad are very appealing.",
+                "point_collocations": [
+                  {
+                    "en": "living standards",
+                    "vi": "mức sống"
+                  },
+                  {
+                    "en": "social welfare abroad",
+                    "vi": "phúc lợi xã hội ở nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Dịch vụ y tế tốt và môi trường trong lành khiến nhiều trí thức quyết định định cư lâu dài cùng gia đình.",
+                "evidence_en": "Good healthcare and clean living environments encourage many experts to settle down with families.",
+                "evidence_collocations": [
+                  {
+                    "en": "good healthcare",
+                    "vi": "chăm sóc y tế tốt"
+                  },
+                  {
+                    "en": "clean living environments",
+                    "vi": "môi trường sống trong lành"
+                  },
+                  {
+                    "en": "settle down with families",
+                    "vi": "định cư lâu dài cùng gia đình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "social welfare",
+                    "vi": "phúc lợi xã hội"
+                  },
+                  {
+                    "en": "settle down",
+                    "vi": "định cư"
+                  }
                 ]
               }
             ],
-            "drawbacks": [
+            "solutions": [
               {
-                "title": "GIẢI PHÁP 01: TẠO THÊM CƠ HỘI VIỆC LÀM CHẤT LƯỢNG CAO",
-                "collocations": [],
-                "point_vi": "Tạo thêm cơ hội việc làm chất lượng cao.",
-                "point_en": "Create more high-quality job opportunities.",
-                "evidence_vi": "Điều này có thể giúp người lao động tìm được công việc phù hợp ngay tại quê hương, vì vậy họ không cần phải ra nước ngoài.",
-                "evidence_en": "This can help people find suitable jobs in their home country, so they do not need to move abroad.",
+                "title": "GIẢI PHÁP 01: TẠO THÊM CƠ HỘI VIỆC LÀM CHẤT LƯỢNG CAO TRONG NƯỚC",
+                "point_vi": "Tạo thêm cơ hội việc làm chất lượng cao là giải pháp cốt lõi.",
+                "point_en": "Creating high-quality local jobs is an essential core solution.",
                 "point_collocations": [
                   {
-                    "en": "high-quality job opportunities",
-                    "vi": "cơ hội việc làm chất lượng cao"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "move abroad",
-                      "vi": "ra nước ngoài"
-                    },
-                    {
-                      "en": "contribute to the country",
-                      "vi": "đóng góp cho đất nước"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 02: ĐẦU TƯ VÀO GIÁO DỤC VÀ NGHIÊN CỨU",
-                "collocations": [],
-                "point_vi": "Đầu tư vào giáo dục và nghiên cứu.",
-                "point_en": "Invest in education and research.",
-                "evidence_vi": "Chính phủ có thể cải thiện các trường đại học và hỗ trợ các hoạt động nghiên cứu, vì vậy sinh viên sẽ có nhiều cơ hội học tập hơn.",
-                "evidence_en": "Governments can improve universities and support research activities, so students will have more learning opportunities.",
-                "point_collocations": [
-                  {
-                    "en": "invest in education and research",
-                    "vi": "đầu tư vào giáo dục và nghiên cứu"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "support research projects",
-                      "vi": "hỗ trợ các dự án nghiên cứu"
-                    },
-                    {
-                      "en": "improve universities",
-                      "vi": "nâng cấp các trường đại học"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 03: THU HÚT NHÂN TÀI QUAY TRỞ VỀ",
-                "collocations": [],
-                "point_vi": "Thu hút nhân tài quay trở về quê hương.",
-                "point_en": "Encourage talented people to return to their home country.",
-                "evidence_vi": "Chính phủ có thể đưa ra các chính sách hỗ trợ hấp dẫn và tạo thêm cơ hội nghề nghiệp cho họ.",
-                "evidence_en": "Governments can offer attractive support policies and create more career opportunities for them.",
-                "point_collocations": [
-                  {
-                    "en": "contribute to the country",
-                    "vi": "đóng góp cho đất nước"
+                    "en": "create high-quality local jobs",
+                    "vi": "tạo việc làm chất lượng cao trong nước"
                   },
                   {
-                    "en": "talented people",
-                    "vi": "người tài"
+                    "en": "high-quality jobs",
+                    "vi": "việc làm chất lượng cao"
+                  },
+                  {
+                    "en": "essential core solution",
+                    "vi": "giải pháp cốt lõi quan trọng"
+                  }
+                ],
+                "evidence_vi": "Doanh nghiệp trong nước nên trả lương cạnh tranh và có chính sách thăng tiến minh bạch, nhờ đó người tài yên tâm cống hiến.",
+                "evidence_en": "Local businesses should pay competitive salaries and offer clear promotions, so skilled staff stay and contribute.",
+                "evidence_collocations": [
+                  {
+                    "en": "pay competitive salaries",
+                    "vi": "trả mức lương cạnh tranh"
+                  },
+                  {
+                    "en": "clear promotions",
+                    "vi": "chính sách thăng tiến rõ ràng (minh bạch)"
+                  },
+                  {
+                    "en": "stay and contribute",
+                    "vi": "ở lại và cống hiến"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "high-quality local jobs",
+                    "vi": "việc làm chất lượng cao trong nước"
+                  },
+                  {
+                    "en": "competitive salaries",
+                    "vi": "lương cạnh tranh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: ĐẦU TƯ VÀO GIÁO DỤC VÀ TRUNG TÂM NGHIÊN CỨU",
+                "point_vi": "Chính phủ cần đầu tư mạnh mẽ vào các trường đại học và viện nghiên cứu.",
+                "point_en": "Governments should invest heavily in universities and research centers.",
+                "point_collocations": [
+                  {
+                    "en": "invest heavily in",
+                    "vi": "đầu tư mạnh mẽ vào"
+                  },
+                  {
+                    "en": "universities and research centers",
+                    "vi": "trường đại học và viện nghiên cứu"
+                  }
+                ],
+                "evidence_vi": "Xây dựng các cơ sở nghiên cứu hiện đại giúp các chuyên gia trong nước có đủ trang thiết bị để làm việc hiệu quả.",
+                "evidence_en": "Building modern research facilities provides local experts with enough equipment to work productively.",
+                "evidence_collocations": [
+                  {
+                    "en": "modern research facilities",
+                    "vi": "cơ sở nghiên cứu hiện đại"
+                  },
+                  {
+                    "en": "local experts",
+                    "vi": "chuyên gia trong nước"
+                  },
+                  {
+                    "en": "work productively",
+                    "vi": "làm việc hiệu quả"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "invest in universities",
+                    "vi": "đầu tư vào đại học"
+                  },
+                  {
+                    "en": "work productively",
+                    "vi": "làm việc hiệu quả"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: CHÍNH SÁCH ĐÃI NGỘ VÀ TRỌNG DỤNG NHÂN TÀI",
+                "point_vi": "Nhà nước nên ban hành các chính sách thu hút nhân tài ở nước ngoài trở về.",
+                "point_en": "The state should introduce attractive policies to invite overseas talents back.",
+                "point_collocations": [
+                  {
+                    "en": "introduce attractive policies",
+                    "vi": "ban hành các chính sách hấp dẫn"
+                  },
+                  {
+                    "en": "invite overseas talents back",
+                    "vi": "thu hút nhân tài ở nước ngoài trở về"
+                  }
+                ],
+                "evidence_vi": "Hỗ trợ nhà ở và cấp ngân sách nghiên cứu là những ưu đãi thiết thực giúp du học sinh quay về phụng sự đất nước.",
+                "evidence_en": "Housing support and research grants are practical incentives for overseas graduates to return home.",
+                "evidence_collocations": [
+                  {
+                    "en": "housing support",
+                    "vi": "hỗ trợ nhà ở"
+                  },
+                  {
+                    "en": "research grants",
+                    "vi": "quỹ (ngân sách) nghiên cứu"
+                  },
+                  {
+                    "en": "practical incentives",
+                    "vi": "những ưu đãi thiết thực"
                   },
                   {
                     "en": "return home",
                     "vi": "trở về quê hương"
                   }
                 ],
+                "collocations": [
+                  {
+                    "en": "invite talents back",
+                    "vi": "thu hút nhân tài về nước"
+                  },
+                  {
+                    "en": "practical incentives",
+                    "vi": "ưu đãi thiết thực"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: CƠ HỘI VIỆC LÀM TỐT HƠN Ở NƯỚC NGOÀI",
+                "point_vi": "Cơ hội việc làm tốt hơn ở nước ngoài thu hút nhiều nhân tài.",
+                "point_en": "Better job opportunities abroad attract many talented workers.",
+                "point_collocations": [
+                  {
+                    "en": "better job opportunities abroad",
+                    "vi": "cơ hội việc làm tốt hơn ở nước ngoài"
+                  },
+                  {
+                    "en": "attract talented workers",
+                    "vi": "thu hút nhiều lao động tài năng"
+                  }
+                ],
+                "evidence_vi": "Các công ty quốc tế đưa ra mức lương cao và chế độ đãi ngộ hấp dẫn, vì vậy nhiều người giỏi chọn ra đi.",
+                "evidence_en": "International companies offer high salaries and attractive benefits, so many skilled professionals choose to leave.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "career opportunities",
-                      "vi": "cơ hội nghề nghiệp"
-                    }
-                  ]
+                  {
+                    "en": "international companies",
+                    "vi": "các công ty quốc tế"
+                  },
+                  {
+                    "en": "high salaries and attractive benefits",
+                    "vi": "mức lương cao và chế độ đãi ngộ hấp dẫn"
+                  },
+                  {
+                    "en": "skilled professionals",
+                    "vi": "chuyên gia (người) có kỹ năng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "job opportunities abroad",
+                    "vi": "cơ hội việc làm nước ngoài"
+                  },
+                  {
+                    "en": "high salaries",
+                    "vi": "lương cao"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: ĐIỀU KIỆN NGHIÊN CỨU VÀ HỌC TẬP HIỆN ĐẠI",
+                "point_vi": "Môi trường học tập và nghiên cứu ở các nước phát triển tiên tiến hơn.",
+                "point_en": "Study and research facilities in developed nations are more advanced.",
+                "point_collocations": [
+                  {
+                    "en": "study and research facilities",
+                    "vi": "cơ sở vật chất học tập và nghiên cứu"
+                  },
+                  {
+                    "en": "developed nations",
+                    "vi": "các quốc gia phát triển"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học nước ngoài có phòng thí nghiệm tối tân, nhờ đó các nhà khoa học có thể phát triển sự nghiệp tốt hơn.",
+                "evidence_en": "Foreign universities have modern laboratories, so scientists can advance their research careers better.",
+                "evidence_collocations": [
+                  {
+                    "en": "modern laboratories",
+                    "vi": "phòng thí nghiệm hiện đại"
+                  },
+                  {
+                    "en": "advance research careers",
+                    "vi": "phát triển sự nghiệp nghiên cứu"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "research facilities",
+                    "vi": "cơ sở nghiên cứu"
+                  },
+                  {
+                    "en": "modern laboratories",
+                    "vi": "phòng thí nghiệm hiện đại"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: MÔI TRƯỜNG SỐNG VÀ PHÚC LỢI XÃ HỘI HẤP DẪN",
+                "point_vi": "Môi trường sống và phúc lợi xã hội ở nước ngoài rất hấp dẫn.",
+                "point_en": "Living standards and social welfare abroad are very appealing.",
+                "point_collocations": [
+                  {
+                    "en": "living standards",
+                    "vi": "mức sống"
+                  },
+                  {
+                    "en": "social welfare abroad",
+                    "vi": "phúc lợi xã hội ở nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Dịch vụ y tế tốt và môi trường trong lành khiến nhiều trí thức quyết định định cư lâu dài cùng gia đình.",
+                "evidence_en": "Good healthcare and clean living environments encourage many experts to settle down with families.",
+                "evidence_collocations": [
+                  {
+                    "en": "good healthcare",
+                    "vi": "chăm sóc y tế tốt"
+                  },
+                  {
+                    "en": "clean living environments",
+                    "vi": "môi trường sống trong lành"
+                  },
+                  {
+                    "en": "settle down with families",
+                    "vi": "định cư lâu dài cùng gia đình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "social welfare",
+                    "vi": "phúc lợi xã hội"
+                  },
+                  {
+                    "en": "settle down",
+                    "vi": "định cư"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: TẠO THÊM CƠ HỘI VIỆC LÀM CHẤT LƯỢNG CAO TRONG NƯỚC",
+                "point_vi": "Tạo thêm cơ hội việc làm chất lượng cao là giải pháp cốt lõi.",
+                "point_en": "Creating high-quality local jobs is an essential core solution.",
+                "point_collocations": [
+                  {
+                    "en": "create high-quality local jobs",
+                    "vi": "tạo việc làm chất lượng cao trong nước"
+                  },
+                  {
+                    "en": "high-quality jobs",
+                    "vi": "việc làm chất lượng cao"
+                  },
+                  {
+                    "en": "essential core solution",
+                    "vi": "giải pháp cốt lõi quan trọng"
+                  }
+                ],
+                "evidence_vi": "Doanh nghiệp trong nước nên trả lương cạnh tranh và có chính sách thăng tiến minh bạch, nhờ đó người tài yên tâm cống hiến.",
+                "evidence_en": "Local businesses should pay competitive salaries and offer clear promotions, so skilled staff stay and contribute.",
+                "evidence_collocations": [
+                  {
+                    "en": "pay competitive salaries",
+                    "vi": "trả mức lương cạnh tranh"
+                  },
+                  {
+                    "en": "clear promotions",
+                    "vi": "chính sách thăng tiến rõ ràng (minh bạch)"
+                  },
+                  {
+                    "en": "stay and contribute",
+                    "vi": "ở lại và cống hiến"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "high-quality local jobs",
+                    "vi": "việc làm chất lượng cao trong nước"
+                  },
+                  {
+                    "en": "competitive salaries",
+                    "vi": "lương cạnh tranh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: ĐẦU TƯ VÀO GIÁO DỤC VÀ TRUNG TÂM NGHIÊN CỨU",
+                "point_vi": "Chính phủ cần đầu tư mạnh mẽ vào các trường đại học và viện nghiên cứu.",
+                "point_en": "Governments should invest heavily in universities and research centers.",
+                "point_collocations": [
+                  {
+                    "en": "invest heavily in",
+                    "vi": "đầu tư mạnh mẽ vào"
+                  },
+                  {
+                    "en": "universities and research centers",
+                    "vi": "trường đại học và viện nghiên cứu"
+                  }
+                ],
+                "evidence_vi": "Xây dựng các cơ sở nghiên cứu hiện đại giúp các chuyên gia trong nước có đủ trang thiết bị để làm việc hiệu quả.",
+                "evidence_en": "Building modern research facilities provides local experts with enough equipment to work productively.",
+                "evidence_collocations": [
+                  {
+                    "en": "modern research facilities",
+                    "vi": "cơ sở nghiên cứu hiện đại"
+                  },
+                  {
+                    "en": "local experts",
+                    "vi": "chuyên gia trong nước"
+                  },
+                  {
+                    "en": "work productively",
+                    "vi": "làm việc hiệu quả"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "invest in universities",
+                    "vi": "đầu tư vào đại học"
+                  },
+                  {
+                    "en": "work productively",
+                    "vi": "làm việc hiệu quả"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: CHÍNH SÁCH ĐÃI NGỘ VÀ TRỌNG DỤNG NHÂN TÀI",
+                "point_vi": "Nhà nước nên ban hành các chính sách thu hút nhân tài ở nước ngoài trở về.",
+                "point_en": "The state should introduce attractive policies to invite overseas talents back.",
+                "point_collocations": [
+                  {
+                    "en": "introduce attractive policies",
+                    "vi": "ban hành các chính sách hấp dẫn"
+                  },
+                  {
+                    "en": "invite overseas talents back",
+                    "vi": "thu hút nhân tài ở nước ngoài trở về"
+                  }
+                ],
+                "evidence_vi": "Hỗ trợ nhà ở và cấp ngân sách nghiên cứu là những ưu đãi thiết thực giúp du học sinh quay về phụng sự đất nước.",
+                "evidence_en": "Housing support and research grants are practical incentives for overseas graduates to return home.",
+                "evidence_collocations": [
+                  {
+                    "en": "housing support",
+                    "vi": "hỗ trợ nhà ở"
+                  },
+                  {
+                    "en": "research grants",
+                    "vi": "quỹ (ngân sách) nghiên cứu"
+                  },
+                  {
+                    "en": "practical incentives",
+                    "vi": "những ưu đãi thiết thực"
+                  },
+                  {
+                    "en": "return home",
+                    "vi": "trở về quê hương"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "invite talents back",
+                    "vi": "thu hút nhân tài về nước"
+                  },
+                  {
+                    "en": "practical incentives",
+                    "vi": "ưu đãi thiết thực"
+                  }
                 ]
               }
             ]
@@ -104286,10 +104689,6 @@ const ESSAY_DATA = [
                     {
                       "en": "daily activities",
                       "vi": "sinh hoạt hằng ngày"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "on a daily basis",
@@ -106125,691 +106524,214 @@ const ESSAY_DATA = [
           "mindmap_img": "freshwater_saving_mindmap_vi.jpg",
           "mindmap_img_en": "freshwater_saving_mindmap_en.jpg",
           "ideas_b1": {
-            "solutions": [
-              {
-                "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
-                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
-                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
-                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
-                "collocations": [
-                  {
-                    "en": "raising public awareness",
-                    "vi": "nâng cao nhận thức cộng đồng"
-                  },
-                  {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
-                  },
-                  {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "schools and local organizations",
-                    "vi": "nhà trường và các tổ chức địa phương"
-                  },
-                  {
-                    "en": "educate people",
-                    "vi": "giáo dục mọi người"
-                  },
-                  {
-                    "en": "importance of clean water",
-                    "vi": "tầm quan trọng của nước sạch"
-                  },
-                  {
-                    "en": "environmental campaigns",
-                    "vi": "các chiến dịch môi trường"
-                  },
-                  {
-                    "en": "citizens",
-                    "vi": "người dân"
-                  },
-                  {
-                    "en": "daily water-saving habits",
-                    "vi": "thói quen tiết kiệm nước hằng ngày"
-                  },
-                  {
-                    "en": "save water every day",
-                    "vi": "tiết kiệm nước mỗi ngày"
-                  }
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
-                "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
-                "point_en": "Each individual should actively save water in daily household activities.",
-                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
-                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
-                "collocations": [
-                  {
-                    "en": "save water in daily life",
-                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
-                  },
-                  {
-                    "en": "household activities",
-                    "vi": "các hoạt động gia đình"
-                  },
-                  {
-                    "en": "actively save water",
-                    "vi": "chủ động tiết kiệm nước"
-                  },
-                  {
-                    "en": "turn off taps when brushing teeth",
-                    "vi": "tắt vòi nước khi đánh răng"
-                  },
-                  {
-                    "en": "turn off taps",
-                    "vi": "tắt vòi nước"
-                  },
-                  {
-                    "en": "repair leaking pipes promptly",
-                    "vi": "sửa chữa đường ống rò rỉ kịp thời"
-                  },
-                  {
-                    "en": "leaking pipes",
-                    "vi": "đường ống rò rỉ"
-                  },
-                  {
-                    "en": "collect rainwater",
-                    "vi": "thu gom nước mưa"
-                  },
-                  {
-                    "en": "watering plants or household cleaning",
-                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
-                  },
-                  {
-                    "en": "watering plants",
-                    "vi": "tưới cây"
-                  }
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
-                "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
-                "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
-                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
-                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
-                "collocations": [
-                  {
-                    "en": "controlling water pollution",
-                    "vi": "kiểm soát ô nhiễm nguồn nước"
-                  },
-                  {
-                    "en": "urgent measure",
-                    "vi": "biện pháp cấp bách"
-                  },
-                  {
-                    "en": "keep rivers and lakes clean",
-                    "vi": "giữ cho sông hồ luôn sạch"
-                  },
-                  {
-                    "en": "dump rubbish into canals",
-                    "vi": "vứt rác xuống kênh rạch"
-                  },
-                  {
-                    "en": "rivers and lakes",
-                    "vi": "sông và hồ"
-                  },
-                  {
-                    "en": "treat industrial wastewater",
-                    "vi": "xử lý nước thải công nghiệp"
-                  },
-                  {
-                    "en": "wastewater treatment",
-                    "vi": "xử lý nước thải"
-                  },
-                  {
-                    "en": "natural environment",
-                    "vi": "môi trường tự nhiên"
-                  },
-                  {
-                    "en": "releasing into the natural environment",
-                    "vi": "xả ra môi trường tự nhiên"
-                  }
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
-                "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
-                "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
-                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
-                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
-                "collocations": [
-                  {
-                    "en": "sustainable farming methods",
-                    "vi": "phương pháp nông nghiệp bền vững"
-                  },
-                  {
-                    "en": "use water more efficiently",
-                    "vi": "sử dụng nước hiệu quả hơn"
-                  },
-                  {
-                    "en": "install modern drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
-                  },
-                  {
-                    "en": "drip irrigation systems",
-                    "vi": "hệ thống tưới nhỏ giọt"
-                  },
-                  {
-                    "en": "reduce chemical fertilizers",
-                    "vi": "giảm phân bón hóa học"
-                  },
-                  {
-                    "en": "protect the soil",
-                    "vi": "bảo vệ đất trồng"
-                  },
-                  {
-                    "en": "save water and protect the soil",
-                    "vi": "tiết kiệm nước và bảo vệ đất"
-                  },
-                  {
-                    "en": "agricultural practices",
-                    "vi": "phương thức canh tác nông nghiệp"
-                  }
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
-                "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
-                "point_en": "Governments should strengthen management and invest more in water infrastructure.",
-                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
-                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
-                "collocations": [
-                  {
-                    "en": "strengthen management",
-                    "vi": "tăng cường công tác quản lý"
-                  },
-                  {
-                    "en": "invest in water infrastructure",
-                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "water infrastructure",
-                    "vi": "cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "introduce strict laws on water use",
-                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
-                  },
-                  {
-                    "en": "strict laws",
-                    "vi": "luật nghiêm khắc"
-                  },
-                  {
-                    "en": "build modern water treatment plants",
-                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
-                  },
-                  {
-                    "en": "water treatment plants",
-                    "vi": "nhà máy xử lý nước"
-                  },
-                  {
-                    "en": "provide enough clean water",
-                    "vi": "cung cấp đủ nước sạch"
-                  },
-                  {
-                    "en": "clean water for citizens",
-                    "vi": "nước sạch cho người dân"
-                  }
-                ]
-              }
-            ],
             "benefits": [
               {
                 "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
-                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
-                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
-                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
-                "collocations": [
+                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên.",
+                "point_en": "Raising public awareness is the first vital solution.",
+                "point_collocations": [
                   {
-                    "en": "raising public awareness",
+                    "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
-                  },
+                    "en": "vital solution",
+                    "vi": "giải pháp quan trọng"
+                  }
+                ],
+                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
+                "evidence_en": "Schools and local media should educate citizens through environmental campaigns, so people build daily water-saving habits.",
+                "evidence_collocations": [
                   {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "schools and local organizations",
-                    "vi": "nhà trường và các tổ chức địa phương"
-                  },
-                  {
-                    "en": "educate people",
-                    "vi": "giáo dục mọi người"
-                  },
-                  {
-                    "en": "importance of clean water",
-                    "vi": "tầm quan trọng của nước sạch"
+                    "en": "educate citizens",
+                    "vi": "giáo dục người dân"
                   },
                   {
                     "en": "environmental campaigns",
                     "vi": "các chiến dịch môi trường"
                   },
                   {
-                    "en": "citizens",
-                    "vi": "người dân"
-                  },
-                  {
                     "en": "daily water-saving habits",
                     "vi": "thói quen tiết kiệm nước hằng ngày"
-                  },
-                  {
-                    "en": "save water every day",
-                    "vi": "tiết kiệm nước mỗi ngày"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "raising public awareness",
+                    "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "first important solution",
-                    "vi": "giải pháp quan trọng đầu tiên"
+                    "en": "environmental campaigns",
+                    "vi": "chiến dịch môi trường"
                   },
                   {
-                    "en": "protect freshwater resources",
-                    "vi": "bảo vệ nguồn nước ngọt"
-                  },
-                  {
-                    "en": "freshwater resources",
-                    "vi": "nguồn tài nguyên nước ngọt"
-                  },
-                  {
-                    "en": "freshwater",
-                    "vi": "nước ngọt (nước không mặn)"
+                    "en": "save water",
+                    "vi": "tiết kiệm nước"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "schools and local organizations",
-                      "vi": "nhà trường và các tổ chức địa phương"
-                    },
-                    {
-                      "en": "educate people",
-                      "vi": "giáo dục mọi người"
-                    },
-                    {
-                      "en": "importance of clean water",
-                      "vi": "tầm quan trọng của nước sạch"
-                    },
-                    {
-                      "en": "environmental campaigns",
-                      "vi": "các chiến dịch môi trường"
-                    },
-                    {
-                      "en": "citizens",
-                      "vi": "người dân"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
                 "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
-                "point_en": "Each individual should actively save water in daily household activities.",
-                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
-                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
-                "collocations": [
-                  {
-                    "en": "save water in daily life",
-                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
-                  },
-                  {
-                    "en": "household activities",
-                    "vi": "các hoạt động gia đình"
-                  },
+                "point_en": "Individuals should actively save water during daily household activities.",
+                "point_collocations": [
                   {
                     "en": "actively save water",
                     "vi": "chủ động tiết kiệm nước"
                   },
                   {
-                    "en": "turn off taps when brushing teeth",
-                    "vi": "tắt vòi nước khi đánh răng"
-                  },
+                    "en": "household activities",
+                    "vi": "hoạt động sinh hoạt gia đình"
+                  }
+                ],
+                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
+                "evidence_en": "People should turn off taps when brushing teeth and fix leaking pipes promptly, so households avoid wasting water.",
+                "evidence_collocations": [
                   {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
                   {
-                    "en": "repair leaking pipes promptly",
+                    "en": "fix leaking pipes promptly",
                     "vi": "sửa chữa đường ống rò rỉ kịp thời"
+                  },
+                  {
+                    "en": "avoid wasting water",
+                    "vi": "tránh lãng phí nước"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "turn off taps",
+                    "vi": "tắt vòi nước"
                   },
                   {
                     "en": "leaking pipes",
                     "vi": "đường ống rò rỉ"
-                  },
-                  {
-                    "en": "collect rainwater",
-                    "vi": "thu gom nước mưa"
-                  },
-                  {
-                    "en": "watering plants or household cleaning",
-                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
-                  },
-                  {
-                    "en": "watering plants",
-                    "vi": "tưới cây"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "household activities",
-                    "vi": "các hoạt động gia đình"
-                  },
-                  {
-                    "en": "actively save water",
-                    "vi": "chủ động tiết kiệm nước"
-                  },
-                  {
-                    "en": "household",
-                    "vi": "hộ gia đình, trong gia đình"
-                  },
-                  {
-                    "en": "in daily life",
-                    "vi": "trong đời sống hằng ngày"
-                  },
-                  {
-                    "en": "daily activities",
-                    "vi": "sinh hoạt hằng ngày"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "turn off taps when brushing teeth",
-                      "vi": "tắt vòi nước khi đánh răng"
-                    },
-                    {
-                      "en": "turn off taps",
-                      "vi": "tắt vòi nước"
-                    },
-                    {
-                      "en": "repair leaking pipes promptly",
-                      "vi": "sửa chữa đường ống rò rỉ kịp thời"
-                    },
-                    {
-                      "en": "leaking pipes",
-                      "vi": "đường ống rò rỉ"
-                    },
-                    {
-                      "en": "collect rainwater",
-                      "vi": "thu gom nước mưa"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
                 "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
-                "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
-                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
-                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
-                "collocations": [
+                "point_en": "Controlling water pollution is an urgent measure to keep rivers clean.",
+                "point_collocations": [
                   {
-                    "en": "controlling water pollution",
+                    "en": "control water pollution",
                     "vi": "kiểm soát ô nhiễm nguồn nước"
                   },
                   {
                     "en": "urgent measure",
                     "vi": "biện pháp cấp bách"
-                  },
+                  }
+                ],
+                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
+                "evidence_en": "Citizens must not dump trash into rivers, and factories must treat industrial wastewater before releasing it into nature.",
+                "evidence_collocations": [
                   {
-                    "en": "keep rivers and lakes clean",
-                    "vi": "giữ cho sông hồ luôn sạch"
-                  },
-                  {
-                    "en": "dump rubbish into canals",
-                    "vi": "vứt rác xuống kênh rạch"
-                  },
-                  {
-                    "en": "rivers and lakes",
-                    "vi": "sông và hồ"
+                    "en": "dump trash into rivers",
+                    "vi": "xả rác xuống sông ngòi"
                   },
                   {
                     "en": "treat industrial wastewater",
                     "vi": "xử lý nước thải công nghiệp"
                   },
                   {
-                    "en": "wastewater treatment",
-                    "vi": "xử lý nước thải"
-                  },
-                  {
-                    "en": "natural environment",
-                    "vi": "môi trường tự nhiên"
-                  },
-                  {
-                    "en": "releasing into the natural environment",
+                    "en": "release into nature",
                     "vi": "xả ra môi trường tự nhiên"
                   }
                 ],
-                "point_collocations": [
-                  {
-                    "en": "controlling water pollution",
-                    "vi": "kiểm soát ô nhiễm nguồn nước"
-                  },
-                  {
-                    "en": "urgent measure",
-                    "vi": "biện pháp cấp bách"
-                  },
-                  {
-                    "en": "keep rivers and lakes clean",
-                    "vi": "giữ cho sông hồ luôn sạch"
-                  },
-                  {
-                    "en": "rivers and lakes",
-                    "vi": "sông và hồ"
-                  },
+                "collocations": [
                   {
                     "en": "control water pollution",
-                    "vi": "kiểm soát ô nhiễm nguồn nước"
+                    "vi": "kiểm soát ô nhiễm nước"
+                  },
+                  {
+                    "en": "treat wastewater",
+                    "vi": "xử lý nước thải"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "dump rubbish into canals",
-                      "vi": "vứt rác xuống kênh rạch"
-                    },
-                    {
-                      "en": "treat industrial wastewater",
-                      "vi": "xử lý nước thải công nghiệp"
-                    },
-                    {
-                      "en": "natural environment",
-                      "vi": "môi trường tự nhiên"
-                    },
-                    {
-                      "en": "industrial wastewater",
-                      "vi": "nước thải công nghiệp"
-                    },
-                    {
-                      "en": "waste",
-                      "vi": "lãng phí, chất thải"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
                 "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
-                "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
-                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
-                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
-                "collocations": [
-                  {
-                    "en": "sustainable farming methods",
-                    "vi": "phương pháp nông nghiệp bền vững"
-                  },
-                  {
-                    "en": "use water more efficiently",
-                    "vi": "sử dụng nước hiệu quả hơn"
-                  },
-                  {
-                    "en": "install modern drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
-                  },
-                  {
-                    "en": "drip irrigation systems",
-                    "vi": "hệ thống tưới nhỏ giọt"
-                  },
-                  {
-                    "en": "reduce chemical fertilizers",
-                    "vi": "giảm phân bón hóa học"
-                  },
-                  {
-                    "en": "protect the soil",
-                    "vi": "bảo vệ đất trồng"
-                  },
-                  {
-                    "en": "save water and protect the soil",
-                    "vi": "tiết kiệm nước và bảo vệ đất"
-                  },
-                  {
-                    "en": "agricultural practices",
-                    "vi": "phương thức canh tác nông nghiệp"
-                  }
-                ],
+                "point_en": "Farmers should adopt sustainable agricultural methods to use water more efficiently.",
                 "point_collocations": [
                   {
-                    "en": "sustainable farming methods",
-                    "vi": "phương pháp nông nghiệp bền vững"
+                    "en": "sustainable agricultural methods",
+                    "vi": "các phương pháp nông nghiệp bền vững"
                   },
                   {
-                    "en": "use water more efficiently",
-                    "vi": "sử dụng nước hiệu quả hơn"
+                    "en": "use water efficiently",
+                    "vi": "sử dụng nước hiệu quả"
+                  }
+                ],
+                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
+                "evidence_en": "Farmers can install modern drip irrigation systems, because this method delivers water directly to roots and prevents waste.",
+                "evidence_collocations": [
+                  {
+                    "en": "install drip irrigation systems",
+                    "vi": "lắp đặt hệ thống tưới nhỏ giọt"
                   },
                   {
-                    "en": "sustainable farming",
+                    "en": "directly to roots",
+                    "vi": "trực tiếp đến rễ cây"
+                  },
+                  {
+                    "en": "prevent waste",
+                    "vi": "ngăn ngừa sự lãng phí"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "sustainable agriculture",
                     "vi": "nông nghiệp bền vững"
                   },
                   {
-                    "en": "sustainable",
-                    "vi": "bền vững, thân thiện môi trường"
-                  },
-                  {
-                    "en": "more efficiently",
-                    "vi": "một cách năng suất và hiệu quả hơn"
+                    "en": "drip irrigation",
+                    "vi": "tưới nhỏ giọt"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "install modern drip irrigation systems",
-                      "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
-                    },
-                    {
-                      "en": "drip irrigation systems",
-                      "vi": "hệ thống tưới nhỏ giọt"
-                    },
-                    {
-                      "en": "reduce chemical fertilizers",
-                      "vi": "giảm phân bón hóa học"
-                    },
-                    {
-                      "en": "protect the soil",
-                      "vi": "bảo vệ đất trồng"
-                    },
-                    {
-                      "en": "save water and protect the soil",
-                      "vi": "tiết kiệm nước và bảo vệ đất"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
                 "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
-                "point_en": "Governments should strengthen management and invest more in water infrastructure.",
+                "point_en": "Governments should strengthen water management and invest in clean water infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "strengthen water management",
+                    "vi": "tăng cường quản lý nguồn nước"
+                  },
+                  {
+                    "en": "clean water infrastructure",
+                    "vi": "cơ sở hạ tầng nước sạch"
+                  }
+                ],
                 "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
-                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
+                "evidence_en": "Leaders should pass strict laws on water conservation and build modern water treatment plants for citizens.",
+                "evidence_collocations": [
+                  {
+                    "en": "pass strict laws",
+                    "vi": "ban hành luật nghiêm khắc"
+                  },
+                  {
+                    "en": "water conservation",
+                    "vi": "bảo tồn nguồn nước"
+                  },
+                  {
+                    "en": "modern water treatment plants",
+                    "vi": "nhà máy xử lý nước hiện đại"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "strengthen management",
-                    "vi": "tăng cường công tác quản lý"
-                  },
-                  {
-                    "en": "invest in water infrastructure",
-                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "water infrastructure",
-                    "vi": "cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "introduce strict laws on water use",
-                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
-                  },
-                  {
-                    "en": "strict laws",
-                    "vi": "luật nghiêm khắc"
-                  },
-                  {
-                    "en": "build modern water treatment plants",
-                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
+                    "en": "water management",
+                    "vi": "quản lý nguồn nước"
                   },
                   {
                     "en": "water treatment plants",
                     "vi": "nhà máy xử lý nước"
-                  },
-                  {
-                    "en": "provide enough clean water",
-                    "vi": "cung cấp đủ nước sạch"
-                  },
-                  {
-                    "en": "clean water for citizens",
-                    "vi": "nước sạch cho người dân"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "strengthen management",
-                    "vi": "tăng cường công tác quản lý"
-                  },
-                  {
-                    "en": "invest in water infrastructure",
-                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "water infrastructure",
-                    "vi": "cơ sở hạ tầng nguồn nước"
-                  },
-                  {
-                    "en": "infrastructure",
-                    "vi": "cơ sở hạ tầng"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "introduce strict laws on water use",
-                      "vi": "ban hành luật nghiêm khắc về sử dụng nước"
-                    },
-                    {
-                      "en": "strict laws",
-                      "vi": "luật nghiêm khắc"
-                    },
-                    {
-                      "en": "build modern water treatment plants",
-                      "vi": "xây dựng nhà máy xử lý nước hiện đại"
-                    },
-                    {
-                      "en": "water treatment plants",
-                      "vi": "nhà máy xử lý nước"
-                    },
-                    {
-                      "en": "provide enough clean water",
-                      "vi": "cung cấp đủ nước sạch"
-                    }
-                  ]
                 ]
               }
             ],
@@ -110145,10 +110067,6 @@ const ESSAY_DATA = [
                   {
                     "en": "high fertility rates",
                     "vi": "tỷ lệ sinh cao"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   }
                 ],
                 "evidence_collocations": [
@@ -110362,10 +110280,6 @@ const ESSAY_DATA = [
                     {
                       "en": "large amount of emissions",
                       "vi": "lượng lớn khí thải"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "traffic congestion",
@@ -111778,444 +111692,516 @@ const ESSAY_DATA = [
             "causes": [
               {
                 "title": "NGUYÊN NHÂN 01: TỶ LỆ LY HÔN GIA TĂNG",
-                "collocations": [
+                "point_vi": "Tỷ lệ ly hôn gia tăng là nguyên nhân phổ biến dẫn đến gia đình đơn thân.",
+                "point_en": "Rising divorce rates are a common cause of single-parent families.",
+                "point_collocations": [
                   {
-                    "en": "divorce rates",
-                    "vi": "tỷ lệ ly hôn"
+                    "en": "rising divorce rates",
+                    "vi": "tỷ lệ ly hôn gia tăng"
                   },
                   {
-                    "en": "financial pressure",
+                    "en": "single-parent families",
+                    "vi": "gia đình đơn thân"
+                  }
+                ],
+                "evidence_vi": "Nhiều cặp vợ chồng gặp áp lực tài chính hoặc bất đồng quan điểm, vì vậy họ quyết định chia tay.",
+                "evidence_en": "Many couples face financial stress or personal disagreements, so they decide to separate.",
+                "evidence_collocations": [
+                  {
+                    "en": "financial stress",
                     "vi": "áp lực tài chính"
                   },
                   {
-                    "en": "relationship problems",
-                    "vi": "vấn đề trong mối quan hệ"
+                    "en": "personal disagreements",
+                    "vi": "bất đồng quan điểm cá nhân"
                   },
                   {
                     "en": "decide to separate",
-                    "vi": "quyết định ly thân/chia tay"
+                    "vi": "quyết định chia tay (ly thân/ly hôn)"
                   }
                 ],
-                "point_vi": "Tỷ lệ ly hôn đang gia tăng ở nhiều quốc gia.",
-                "point_en": "Divorce rates are increasing in many countries.",
-                "evidence_vi": "Điều này là do nhiều cặp vợ chồng phải đối mặt với áp lực tài chính hoặc các vấn đề trong mối quan hệ, vì vậy họ quyết định ly hôn.",
-                "evidence_en": "This is because many couples face financial pressure or relationship problems, so they decide to separate."
-              },
-              {
-                "title": "NGUYÊN NHÂN 02: MANG THAI NGOÀI Ý MUỐN",
                 "collocations": [
                   {
-                    "en": "unplanned pregnancies",
-                    "vi": "mang thai ngoài ý muốn"
-                  },
-                  {
-                    "en": "raised by only one parent",
-                    "vi": "được nuôi dưỡng bởi một người cha/mẹ"
-                  }
-                ],
-                "point_vi": "Một số người trẻ mang thai ngoài ý muốn.",
-                "point_en": "Some young people have unplanned pregnancies.",
-                "evidence_vi": "Kết quả là một số đứa trẻ được nuôi dưỡng chỉ bởi một người cha hoặc mẹ.",
-                "evidence_en": "As a result, some children are raised by only one parent."
-              },
-              {
-                "title": "NGUYÊN NHÂN 03: XÃ HỘI CỞI MỞ HƠN",
-                "collocations": [
-                  {
-                    "en": "more accepting",
-                    "vi": "cởi mở/chấp nhận hơn"
+                    "en": "rising divorce rates",
+                    "vi": "tỷ lệ ly hôn tăng"
                   },
                   {
                     "en": "single-parent families",
                     "vi": "gia đình đơn thân"
                   },
                   {
-                    "en": "feel comfortable",
-                    "vi": "cảm thấy thoải mái"
+                    "en": "decide to separate",
+                    "vi": "quyết định chia tay"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: MANG THAI NGOÀI Ý MUỐN",
+                "point_vi": "Tình trạng mang thai ngoài ý muốn ở giới trẻ cũng dẫn đến việc nuôi con một mình.",
+                "point_en": "Unplanned pregnancies among young adults also create single parenthood.",
+                "point_collocations": [
+                  {
+                    "en": "unplanned pregnancies",
+                    "vi": "mang thai ngoài ý muốn"
+                  },
+                  {
+                    "en": "single parenthood",
+                    "vi": "việc làm cha mẹ đơn thân"
                   }
                 ],
-                "point_vi": "Xã hội ngày nay cởi mở hơn với các gia đình đơn thân.",
-                "point_en": "Society is more accepting of single-parent families nowadays.",
-                "evidence_vi": "Điều này có nghĩa là ngày càng có nhiều người cảm thấy thoải mái khi trở thành cha mẹ đơn thân.",
-                "evidence_en": "This means that more people feel comfortable becoming single parents."
+                "evidence_vi": "Nhiều thanh niên chưa sẵn sàng kết hôn nhưng quyết định sinh con, vì vậy một người phải tự nuôi dưỡng đứa trẻ.",
+                "evidence_en": "Many young people are not ready for marriage but decide to keep babies, so one parent raises the child alone.",
+                "evidence_collocations": [
+                  {
+                    "en": "not ready for marriage",
+                    "vi": "chưa sẵn sàng kết hôn"
+                  },
+                  {
+                    "en": "decide to keep babies",
+                    "vi": "quyết định sinh và giữ con"
+                  },
+                  {
+                    "en": "raise child alone",
+                    "vi": "tự nuôi dưỡng con một mình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "unplanned pregnancies",
+                    "vi": "mang thai ngoài ý muốn"
+                  },
+                  {
+                    "en": "raise child alone",
+                    "vi": "nuôi con một mình"
+                  }
+                ]
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: QUAN NIỆM XÃ HỘI CỞI MỞ HƠN",
+                "point_vi": "Xã hội hiện đại ngày nay có cái nhìn cởi mở hơn về việc làm mẹ đơn thân.",
+                "point_en": "Modern society has a more open attitude toward single parenthood.",
+                "point_collocations": [
+                  {
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
+                  },
+                  {
+                    "en": "open attitude",
+                    "vi": "cái nhìn (thái độ) cởi mở hơn"
+                  }
+                ],
+                "evidence_vi": "Nhiều phụ nữ có tài chính độc lập chủ động chọn cuộc sống đơn thân, nhờ đó họ tự do nuôi dạy con cái theo ý mình.",
+                "evidence_en": "Many financially independent women choose single parenthood, so they raise children according to their own wishes.",
+                "evidence_collocations": [
+                  {
+                    "en": "financially independent women",
+                    "vi": "phụ nữ độc lập về tài chính"
+                  },
+                  {
+                    "en": "choose single parenthood",
+                    "vi": "chủ động chọn làm mẹ đơn thân"
+                  },
+                  {
+                    "en": "according to own wishes",
+                    "vi": "theo ý muốn của riêng mình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "open attitude",
+                    "vi": "cái nhìn cởi mở"
+                  },
+                  {
+                    "en": "financially independent",
+                    "vi": "độc lập tài chính"
+                  }
+                ]
               }
             ],
             "effects": [
               {
-                "title": "ẢNH HƯỞNG 01: THIẾU SỰ GIÁM SÁT CỦA CHA MẸ",
-                "collocations": [
+                "title": "ẢNH HƯỞNG 01: THIẾU THỜI GIAN CHĂM SÓC CON CÁI",
+                "point_vi": "Trẻ em trong các gia đình đơn thân có thể nhận được ít sự quan tâm hơn.",
+                "point_en": "Children in single-parent homes may receive less daily attention.",
+                "point_collocations": [
                   {
-                    "en": "parental supervision",
-                    "vi": "sự giám sát của cha mẹ"
+                    "en": "single-parent homes",
+                    "vi": "gia đình đơn thân"
                   },
                   {
-                    "en": "working to earn money",
-                    "vi": "làm việc để kiếm tiền"
-                  },
-                  {
-                    "en": "spend time with children",
-                    "vi": "dành thời gian cho con cái"
+                    "en": "receive less daily attention",
+                    "vi": "nhận được ít sự quan tâm hằng ngày hơn"
                   }
                 ],
-                "point_vi": "Trẻ em trong các gia đình đơn thân có thể không nhận được đủ sự giám sát của cha mẹ.",
-                "point_en": "Children in single-parent families may not receive enough parental supervision.",
-                "evidence_vi": "Ví dụ, một người cha hoặc mẹ đơn thân có thể dành phần lớn thời gian làm việc để kiếm tiền, vì vậy họ không thể dành đủ thời gian cho con cái.",
-                "evidence_en": "For example, a single parent may spend most of their time working to earn money, so they cannot spend enough time with their children."
+                "evidence_vi": "Cha hoặc mẹ đơn thân phải đi làm bận rộn cả ngày, vì vậy họ không có đủ thời gian trò chuyện cùng con.",
+                "evidence_en": "A single parent works busy hours all day, so they have little time to talk with their children.",
+                "evidence_collocations": [
+                  {
+                    "en": "work busy hours all day",
+                    "vi": "làm việc bận rộn suốt cả ngày"
+                  },
+                  {
+                    "en": "have little time",
+                    "vi": "có ít thời gian"
+                  },
+                  {
+                    "en": "talk with children",
+                    "vi": "trò chuyện cùng con cái"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "single-parent homes",
+                    "vi": "gia đình đơn thân"
+                  },
+                  {
+                    "en": "little time for children",
+                    "vi": "ít thời gian cho con"
+                  }
+                ]
               },
               {
-                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH",
-                "collocations": [
+                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH LỚN",
+                "point_vi": "Cha mẹ đơn thân thường phải đối mặt với những gánh nặng tài chính nặng nề.",
+                "point_en": "Single parents often face heavy financial pressure.",
+                "point_collocations": [
                   {
-                    "en": "financial burdens",
-                    "vi": "gánh nặng tài chính"
+                    "en": "face heavy financial pressure",
+                    "vi": "đối mặt với áp lực tài chính nặng nề"
                   },
                   {
-                    "en": "support the whole family",
-                    "vi": "chu cấp cho cả gia đình"
+                    "en": "single parents",
+                    "vi": "cha mẹ đơn thân"
+                  },
+                  {
+                    "en": "heavy financial burden",
+                    "vi": "gánh nặng tài chính nặng nề"
                   }
                 ],
-                "point_vi": "Cha mẹ đơn thân có thể phải đối mặt với những gánh nặng tài chính.",
-                "point_en": "Single parents may face financial burdens.",
-                "evidence_vi": "Điều này là do họ thường phải một mình gánh vác nuôi sống cả gia đình.",
-                "evidence_en": "This is because they often have to support the whole family alone."
+                "evidence_vi": "Họ phải một mình kiếm tiền chi trả tiền thuê nhà và tiền học của con, do đó cuộc sống gia đình thường rất vất vả.",
+                "evidence_en": "They earn money alone to pay for house rent and school fees, so family life is often difficult.",
+                "evidence_collocations": [
+                  {
+                    "en": "earn money alone",
+                    "vi": "một mình kiếm tiền"
+                  },
+                  {
+                    "en": "house rent and school fees",
+                    "vi": "tiền thuê nhà và học phí"
+                  },
+                  {
+                    "en": "family life is difficult",
+                    "vi": "cuộc sống gia đình khó khăn (vất vả)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "school fees",
+                    "vi": "học phí"
+                  }
+                ]
               },
               {
-                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ HÀNH VI CỦA TRẺ",
-                "collocations": [
+                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ TÂM LÝ VÀ HÀNH VI CỦA TRẺ",
+                "point_vi": "Thiếu vắng sự chăm sóc của cha hoặc mẹ có thể ảnh hưởng đến tâm lý của trẻ.",
+                "point_en": "Growing up without a father or mother can affect a child's emotions.",
+                "point_collocations": [
                   {
-                    "en": "develop bad behavior",
-                    "vi": "hình thành hành vi xấu"
+                    "en": "growing up without a parent",
+                    "vi": "lớn lên thiếu vắng cha hoặc mẹ"
                   },
                   {
-                    "en": "guidance from parents",
-                    "vi": "sự định hướng từ cha mẹ"
-                  },
-                  {
-                    "en": "behave badly",
-                    "vi": "cư xử không tốt"
+                    "en": "affect emotions",
+                    "vi": "ảnh hưởng đến tâm lý (cảm xúc)"
                   }
                 ],
-                "point_vi": "Một số trẻ em có thể phát triển hành vi không tốt.",
-                "point_en": "Some children may develop bad behavior.",
-                "evidence_vi": "Điều này là do các em có thể không nhận được đủ sự định hướng từ cha mẹ, vì vậy các em có thể cư xử không tốt ở trường hoặc làm những điều tiêu cực.",
-                "evidence_en": "This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things."
+                "evidence_vi": "Một số trẻ cảm thấy tự ti so với bạn bè cùng trang lứa, vì vậy các em dễ rơi vào trạng thái buồn bã hoặc thu mình lại.",
+                "evidence_en": "Some children feel insecure compared to peers, so they easily feel sad or become withdrawn.",
+                "evidence_collocations": [
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti (bất an)"
+                  },
+                  {
+                    "en": "compared to peers",
+                    "vi": "so với bạn bè cùng trang lứa"
+                  },
+                  {
+                    "en": "feel sad or become withdrawn",
+                    "vi": "cảm thấy buồn bã hoặc thu mình lại"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "affect emotions",
+                    "vi": "ảnh hưởng tâm lý"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti"
+                  }
+                ]
               }
             ],
             "benefits": [
               {
                 "title": "NGUYÊN NHÂN 01: TỶ LỆ LY HÔN GIA TĂNG",
-                "collocations": [
+                "point_vi": "Tỷ lệ ly hôn gia tăng là nguyên nhân phổ biến dẫn đến gia đình đơn thân.",
+                "point_en": "Rising divorce rates are a common cause of single-parent families.",
+                "point_collocations": [
                   {
-                    "en": "divorce rates",
-                    "vi": "tỷ lệ ly hôn"
+                    "en": "rising divorce rates",
+                    "vi": "tỷ lệ ly hôn gia tăng"
                   },
                   {
-                    "en": "financial pressure",
+                    "en": "single-parent families",
+                    "vi": "gia đình đơn thân"
+                  }
+                ],
+                "evidence_vi": "Nhiều cặp vợ chồng gặp áp lực tài chính hoặc bất đồng quan điểm, vì vậy họ quyết định chia tay.",
+                "evidence_en": "Many couples face financial stress or personal disagreements, so they decide to separate.",
+                "evidence_collocations": [
+                  {
+                    "en": "financial stress",
                     "vi": "áp lực tài chính"
                   },
                   {
-                    "en": "relationship problems",
-                    "vi": "vấn đề trong mối quan hệ"
+                    "en": "personal disagreements",
+                    "vi": "bất đồng quan điểm cá nhân"
                   },
                   {
                     "en": "decide to separate",
-                    "vi": "quyết định ly thân/chia tay"
+                    "vi": "quyết định chia tay (ly thân/ly hôn)"
                   }
                 ],
-                "point_vi": "Tỷ lệ ly hôn đang gia tăng ở nhiều quốc gia.",
-                "point_en": "Divorce rates are increasing in many countries.",
-                "evidence_vi": "Điều này là do nhiều cặp vợ chồng phải đối mặt với áp lực tài chính hoặc các vấn đề trong mối quan hệ, vì vậy họ quyết định ly hôn.",
-                "evidence_en": "This is because many couples face financial pressure or relationship problems, so they decide to separate.",
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "divorce rates",
-                    "vi": "tỷ lệ ly hôn"
+                    "en": "rising divorce rates",
+                    "vi": "tỷ lệ ly hôn tăng"
                   },
                   {
-                    "en": "divorce rate",
-                    "vi": "tỷ lệ ly hôn"
+                    "en": "single-parent families",
+                    "vi": "gia đình đơn thân"
                   },
                   {
-                    "en": "financial pressure",
-                    "vi": "áp lực tài chính"
+                    "en": "decide to separate",
+                    "vi": "quyết định chia tay"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "financial pressure",
-                      "vi": "áp lực tài chính"
-                    },
-                    {
-                      "en": "relationship problems",
-                      "vi": "vấn đề trong mối quan hệ"
-                    },
-                    {
-                      "en": "decide to separate",
-                      "vi": "quyết định ly thân/chia tay"
-                    },
-                    {
-                      "en": "significant financial pressure",
-                      "vi": "áp lực tài chính đáng kể"
-                    },
-                    {
-                      "en": "solve this problem",
-                      "vi": "giải quyết vấn đề này"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: MANG THAI NGOÀI Ý MUỐN",
-                "collocations": [
-                  {
-                    "en": "unplanned pregnancies",
-                    "vi": "mang thai ngoài ý muốn"
-                  },
-                  {
-                    "en": "raised by only one parent",
-                    "vi": "được nuôi dưỡng bởi một người cha/mẹ"
-                  }
-                ],
-                "point_vi": "Một số người trẻ mang thai ngoài ý muốn.",
-                "point_en": "Some young people have unplanned pregnancies.",
-                "evidence_vi": "Kết quả là một số đứa trẻ được nuôi dưỡng chỉ bởi một người cha hoặc mẹ.",
-                "evidence_en": "As a result, some children are raised by only one parent.",
+                "point_vi": "Tình trạng mang thai ngoài ý muốn ở giới trẻ cũng dẫn đến việc nuôi con một mình.",
+                "point_en": "Unplanned pregnancies among young adults also create single parenthood.",
                 "point_collocations": [
                   {
                     "en": "unplanned pregnancies",
                     "vi": "mang thai ngoài ý muốn"
                   },
                   {
-                    "en": "raised by only one parent",
-                    "vi": "được nuôi dưỡng bởi một người cha/mẹ"
+                    "en": "single parenthood",
+                    "vi": "việc làm cha mẹ đơn thân"
                   }
                 ],
+                "evidence_vi": "Nhiều thanh niên chưa sẵn sàng kết hôn nhưng quyết định sinh con, vì vậy một người phải tự nuôi dưỡng đứa trẻ.",
+                "evidence_en": "Many young people are not ready for marriage but decide to keep babies, so one parent raises the child alone.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "raised by only one parent",
-                      "vi": "được nuôi dưỡng bởi một người cha/mẹ"
-                    },
-                    {
-                      "en": "live with one parent",
-                      "vi": "sống với một phụ huynh"
-                    },
-                    {
-                      "en": "raise children alone",
-                      "vi": "nuôi con một mình"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    }
-                  ]
+                  {
+                    "en": "not ready for marriage",
+                    "vi": "chưa sẵn sàng kết hôn"
+                  },
+                  {
+                    "en": "decide to keep babies",
+                    "vi": "quyết định sinh và giữ con"
+                  },
+                  {
+                    "en": "raise child alone",
+                    "vi": "tự nuôi dưỡng con một mình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "unplanned pregnancies",
+                    "vi": "mang thai ngoài ý muốn"
+                  },
+                  {
+                    "en": "raise child alone",
+                    "vi": "nuôi con một mình"
+                  }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 03: XÃ HỘI CỞI MỞ HƠN",
-                "collocations": [
-                  {
-                    "en": "more accepting",
-                    "vi": "cởi mở/chấp nhận hơn"
-                  },
-                  {
-                    "en": "single-parent families",
-                    "vi": "gia đình đơn thân"
-                  },
-                  {
-                    "en": "feel comfortable",
-                    "vi": "cảm thấy thoải mái"
-                  }
-                ],
-                "point_vi": "Xã hội ngày nay cởi mở hơn với các gia đình đơn thân.",
-                "point_en": "Society is more accepting of single-parent families nowadays.",
-                "evidence_vi": "Điều này có nghĩa là ngày càng có nhiều người cảm thấy thoải mái khi trở thành cha mẹ đơn thân.",
-                "evidence_en": "This means that more people feel comfortable becoming single parents.",
+                "title": "NGUYÊN NHÂN 03: QUAN NIỆM XÃ HỘI CỞI MỞ HƠN",
+                "point_vi": "Xã hội hiện đại ngày nay có cái nhìn cởi mở hơn về việc làm mẹ đơn thân.",
+                "point_en": "Modern society has a more open attitude toward single parenthood.",
                 "point_collocations": [
                   {
-                    "en": "more accepting",
-                    "vi": "cởi mở/chấp nhận hơn"
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
                   },
                   {
-                    "en": "single-parent families",
-                    "vi": "gia đình đơn thân"
-                  },
-                  {
-                    "en": "feel comfortable",
-                    "vi": "cảm thấy thoải mái"
+                    "en": "open attitude",
+                    "vi": "cái nhìn (thái độ) cởi mở hơn"
                   }
                 ],
+                "evidence_vi": "Nhiều phụ nữ có tài chính độc lập chủ động chọn cuộc sống đơn thân, nhờ đó họ tự do nuôi dạy con cái theo ý mình.",
+                "evidence_en": "Many financially independent women choose single parenthood, so they raise children according to their own wishes.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "single-parent families",
-                      "vi": "gia đình đơn thân"
-                    },
-                    {
-                      "en": "feel comfortable",
-                      "vi": "cảm thấy thoải mái"
-                    },
-                    {
-                      "en": "more accepting",
-                      "vi": "cởi mở/chấp nhận hơn"
-                    }
-                  ]
+                  {
+                    "en": "financially independent women",
+                    "vi": "phụ nữ độc lập về tài chính"
+                  },
+                  {
+                    "en": "choose single parenthood",
+                    "vi": "chủ động chọn làm mẹ đơn thân"
+                  },
+                  {
+                    "en": "according to own wishes",
+                    "vi": "theo ý muốn của riêng mình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "open attitude",
+                    "vi": "cái nhìn cởi mở"
+                  },
+                  {
+                    "en": "financially independent",
+                    "vi": "độc lập tài chính"
+                  }
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "ẢNH HƯỞNG 01: THIẾU SỰ GIÁM SÁT CỦA CHA MẸ",
-                "collocations": [
-                  {
-                    "en": "parental supervision",
-                    "vi": "sự giám sát của cha mẹ"
-                  },
-                  {
-                    "en": "working to earn money",
-                    "vi": "làm việc để kiếm tiền"
-                  },
-                  {
-                    "en": "spend time with children",
-                    "vi": "dành thời gian cho con cái"
-                  }
-                ],
-                "point_vi": "Trẻ em trong các gia đình đơn thân có thể không nhận được đủ sự giám sát của cha mẹ.",
-                "point_en": "Children in single-parent families may not receive enough parental supervision.",
-                "evidence_vi": "Ví dụ, một người cha hoặc mẹ đơn thân có thể dành phần lớn thời gian làm việc để kiếm tiền, vì vậy họ không thể dành đủ thời gian cho con cái.",
-                "evidence_en": "For example, a single parent may spend most of their time working to earn money, so they cannot spend enough time with their children.",
+                "title": "ẢNH HƯỞNG 01: THIẾU THỜI GIAN CHĂM SÓC CON CÁI",
+                "point_vi": "Trẻ em trong các gia đình đơn thân có thể nhận được ít sự quan tâm hơn.",
+                "point_en": "Children in single-parent homes may receive less daily attention.",
                 "point_collocations": [
                   {
-                    "en": "parental supervision",
-                    "vi": "sự giám sát của cha mẹ"
+                    "en": "single-parent homes",
+                    "vi": "gia đình đơn thân"
                   },
                   {
-                    "en": "diminished parental supervision",
-                    "vi": "sự giám sát của phụ huynh bị giảm"
-                  },
-                  {
-                    "en": "working to earn money",
-                    "vi": "làm việc để kiếm tiền"
+                    "en": "receive less daily attention",
+                    "vi": "nhận được ít sự quan tâm hằng ngày hơn"
                   }
                 ],
+                "evidence_vi": "Cha hoặc mẹ đơn thân phải đi làm bận rộn cả ngày, vì vậy họ không có đủ thời gian trò chuyện cùng con.",
+                "evidence_en": "A single parent works busy hours all day, so they have little time to talk with their children.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "working to earn money",
-                      "vi": "làm việc để kiếm tiền"
-                    },
-                    {
-                      "en": "spend time with children",
-                      "vi": "dành thời gian cho con cái"
-                    },
-                    {
-                      "en": "live with one parent",
-                      "vi": "sống với một phụ huynh"
-                    },
-                    {
-                      "en": "less time for children",
-                      "vi": "ít thời gian cho con cái"
-                    },
-                    {
-                      "en": "earn a living",
-                      "vi": "kiếm sống"
-                    }
-                  ]
+                  {
+                    "en": "work busy hours all day",
+                    "vi": "làm việc bận rộn suốt cả ngày"
+                  },
+                  {
+                    "en": "have little time",
+                    "vi": "có ít thời gian"
+                  },
+                  {
+                    "en": "talk with children",
+                    "vi": "trò chuyện cùng con cái"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "single-parent homes",
+                    "vi": "gia đình đơn thân"
+                  },
+                  {
+                    "en": "little time for children",
+                    "vi": "ít thời gian cho con"
+                  }
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH",
-                "collocations": [
-                  {
-                    "en": "financial burdens",
-                    "vi": "gánh nặng tài chính"
-                  },
-                  {
-                    "en": "support the whole family",
-                    "vi": "chu cấp cho cả gia đình"
-                  }
-                ],
-                "point_vi": "Cha mẹ đơn thân có thể phải đối mặt với những gánh nặng tài chính.",
-                "point_en": "Single parents may face financial burdens.",
-                "evidence_vi": "Điều này là do họ thường phải một mình gánh vác nuôi sống cả gia đình.",
-                "evidence_en": "This is because they often have to support the whole family alone.",
+                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH LỚN",
+                "point_vi": "Cha mẹ đơn thân thường phải đối mặt với những gánh nặng tài chính nặng nề.",
+                "point_en": "Single parents often face heavy financial pressure.",
                 "point_collocations": [
                   {
-                    "en": "financial burdens",
-                    "vi": "gánh nặng tài chính"
+                    "en": "face heavy financial pressure",
+                    "vi": "đối mặt với áp lực tài chính nặng nề"
                   },
                   {
-                    "en": "household financial burden",
-                    "vi": "gánh nặng tài chính hộ gia đình"
+                    "en": "single parents",
+                    "vi": "cha mẹ đơn thân"
                   },
                   {
-                    "en": "support the whole family",
-                    "vi": "chu cấp cho cả gia đình"
+                    "en": "heavy financial burden",
+                    "vi": "gánh nặng tài chính nặng nề"
                   }
                 ],
+                "evidence_vi": "Họ phải một mình kiếm tiền chi trả tiền thuê nhà và tiền học của con, do đó cuộc sống gia đình thường rất vất vả.",
+                "evidence_en": "They earn money alone to pay for house rent and school fees, so family life is often difficult.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "support the whole family",
-                      "vi": "chu cấp cho cả gia đình"
-                    },
-                    {
-                      "en": "financial burdens",
-                      "vi": "gánh nặng tài chính"
-                    }
-                  ]
+                  {
+                    "en": "earn money alone",
+                    "vi": "một mình kiếm tiền"
+                  },
+                  {
+                    "en": "house rent and school fees",
+                    "vi": "tiền thuê nhà và học phí"
+                  },
+                  {
+                    "en": "family life is difficult",
+                    "vi": "cuộc sống gia đình khó khăn (vất vả)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "school fees",
+                    "vi": "học phí"
+                  }
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ HÀNH VI CỦA TRẺ",
-                "collocations": [
-                  {
-                    "en": "develop bad behavior",
-                    "vi": "hình thành hành vi xấu"
-                  },
-                  {
-                    "en": "guidance from parents",
-                    "vi": "sự định hướng từ cha mẹ"
-                  },
-                  {
-                    "en": "behave badly",
-                    "vi": "cư xử không tốt"
-                  }
-                ],
-                "point_vi": "Một số trẻ em có thể phát triển hành vi không tốt.",
-                "point_en": "Some children may develop bad behavior.",
-                "evidence_vi": "Điều này là do các em có thể không nhận được đủ sự định hướng từ cha mẹ, vì vậy các em có thể cư xử không tốt ở trường hoặc làm những điều tiêu cực.",
-                "evidence_en": "This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things.",
+                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ TÂM LÝ VÀ HÀNH VI CỦA TRẺ",
+                "point_vi": "Thiếu vắng sự chăm sóc của cha hoặc mẹ có thể ảnh hưởng đến tâm lý của trẻ.",
+                "point_en": "Growing up without a father or mother can affect a child's emotions.",
                 "point_collocations": [
                   {
-                    "en": "develop bad behavior",
-                    "vi": "hình thành hành vi xấu"
+                    "en": "growing up without a parent",
+                    "vi": "lớn lên thiếu vắng cha hoặc mẹ"
                   },
                   {
-                    "en": "guidance from parents",
-                    "vi": "sự định hướng từ cha mẹ"
-                  },
-                  {
-                    "en": "behave badly",
-                    "vi": "cư xử không tốt"
+                    "en": "affect emotions",
+                    "vi": "ảnh hưởng đến tâm lý (cảm xúc)"
                   }
                 ],
+                "evidence_vi": "Một số trẻ cảm thấy tự ti so với bạn bè cùng trang lứa, vì vậy các em dễ rơi vào trạng thái buồn bã hoặc thu mình lại.",
+                "evidence_en": "Some children feel insecure compared to peers, so they easily feel sad or become withdrawn.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "guidance from parents",
-                      "vi": "sự định hướng từ cha mẹ"
-                    },
-                    {
-                      "en": "behave badly",
-                      "vi": "cư xử không tốt"
-                    },
-                    {
-                      "en": "develop bad behavior",
-                      "vi": "hình thành hành vi xấu"
-                    }
-                  ]
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti (bất an)"
+                  },
+                  {
+                    "en": "compared to peers",
+                    "vi": "so với bạn bè cùng trang lứa"
+                  },
+                  {
+                    "en": "feel sad or become withdrawn",
+                    "vi": "cảm thấy buồn bã hoặc thu mình lại"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "affect emotions",
+                    "vi": "ảnh hưởng tâm lý"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti"
+                  }
                 ]
               }
             ]
@@ -114005,10 +113991,6 @@ const ESSAY_DATA = [
                     {
                       "en": "dedicated daily reading time",
                       "vi": "thời gian đọc sách chuyên biệt hằng ngày"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -114173,10 +114155,6 @@ const ESSAY_DATA = [
                   {
                     "en": "dedicated daily reading time",
                     "vi": "thời gian đọc sách chuyên biệt hằng ngày"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   }
                 ],
                 "evidence_collocations": [
@@ -114192,10 +114170,6 @@ const ESSAY_DATA = [
                     {
                       "en": "incremental reading habits",
                       "vi": "thói quen đọc tích lũy từng bước"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -116134,10 +116108,6 @@ const ESSAY_DATA = [
                     {
                       "en": "share thoughts and feelings",
                       "vi": "chia sẻ suy nghĩ và cảm xúc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -116197,10 +116167,6 @@ const ESSAY_DATA = [
                     {
                       "en": "listen to interests",
                       "vi": "lắng nghe sở thích"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -116350,7 +116316,7 @@ const ESSAY_DATA = [
                   }
                 ],
                 "point_vi": "Cha mẹ nên đưa ra những yêu cầu phù hợp với con cái.",
-                "point_en": "Parents should make demands that are suitable for their children.",
+                "point_en": "Parents should make suitable demands for their children.",
                 "evidence_vi": "Họ nên xem xét khả năng và sở thích của con trước khi đưa ra quyết định.",
                 "evidence_en": "They should consider their children's abilities and interests before making decisions.",
                 "point_collocations": [
@@ -117080,7 +117046,7 @@ const ESSAY_DATA = [
               "vi": "sự định hướng mang tính cá nhân"
             }
           ],
-          "sample_b1": "In recent years, <strong>conflicts between parents and children</strong> have become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the solutions to this problem.</strong>\n\n<strong>This problem can be caused by several factors.</strong> One primary cause is that <strong><em>parents and children may have different views about life.</em></strong> Because of the generation gap, they often disagree about daily choices such as education, clothes, friendships, work, or modern lifestyle. Another factor is that <strong><em>parents and children sometimes do not spend enough time talking to each other.</em></strong> As a result, they may not understand each other's thoughts and feelings. A further reason is that <strong><em>parents and children may want different things for the future.</em></strong> Parents may want their children to choose a stable job, while children want to follow their own interests.\n\n<strong>Several solutions can be implemented to address this issue.</strong> One practical measure is that <strong><em>families should create more opportunities for parents and children to talk to each other.</em></strong> They can share their thoughts and feelings more often. Another effective solution is that <strong><em>family members should learn to accept different views.</em></strong> This can help them reduce unnecessary arguments. A further approach is that <strong><em>parents should make demands that are suitable for their children.</em></strong> They should consider their children's abilities and interests before making decisions.\n\nIn conclusion, <strong>conflicts between parents and children</strong> are caused by various factors, but practical solutions can help resolve them. Taking these actions can improve family relationships. Therefore, individuals and families should work together to build a harmonious environment.",
+          "sample_b1": "In recent years, <strong>conflicts between parents and children</strong> have become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the solutions to this problem.</strong>\n\n<strong>This problem can be caused by several factors.</strong> One primary cause is that <strong><em>parents and children may have different views about life.</em></strong> Because of the generation gap, they often disagree about daily choices such as education, clothes, friendships, work, or modern lifestyle. Another factor is that <strong><em>parents and children sometimes do not spend enough time talking to each other.</em></strong> As a result, they may not understand each other's thoughts and feelings. A further reason is that <strong><em>parents and children may want different things for the future.</em></strong> Parents may want their children to choose a stable job, while children want to follow their own interests.\n\n<strong>Several solutions can be implemented to address this issue.</strong> One practical measure is that <strong><em>families should create more opportunities for parents and children to talk to each other.</em></strong> They can share their thoughts and feelings more often. Another effective solution is that <strong><em>family members should learn to accept different views.</em></strong> This can help them reduce unnecessary arguments. A further approach is that <strong><em>parents should make suitable demands for their children.</em></strong> They should consider their children's abilities and interests before making decisions.\n\nIn conclusion, <strong>conflicts between parents and children</strong> are caused by various factors, but practical solutions can help resolve them. Taking these actions can improve family relationships. Therefore, individuals and families should work together to build a harmonious environment.",
           "translation_b1": "Trong những năm gần đây, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và giải pháp cho vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>cha mẹ và con cái có thể có cách nhìn khác nhau về cuộc sống.</em></strong> Do khoảng cách thế hệ, họ thường bất đồng về những lựa chọn hằng ngày như việc học tập, trang phục, tình bạn, công việc hoặc lối sống hiện đại. Một yếu tố khác là <strong><em>cha mẹ và con cái đôi khi không dành đủ thời gian để trò chuyện.</em></strong> Vì vậy, họ có thể không hiểu suy nghĩ và cảm xúc của nhau. Một lý do nữa là <strong><em>cha mẹ và con cái có thể mong muốn những điều khác nhau cho tương lai.</em></strong> Cha mẹ có thể muốn con chọn một công việc ổn định, trong khi con muốn theo đuổi sở thích riêng.\n\n<strong>Một số giải pháp có thể được thực hiện để giải quyết vấn đề này.</strong> Một biện pháp thiết thực là <strong><em>gia đình nên tạo thêm cơ hội để cha mẹ và con cái trò chuyện với nhau.</em></strong> Họ có thể chia sẻ suy nghĩ và cảm xúc thường xuyên hơn. Một giải pháp hiệu quả khác là <strong><em>các thành viên trong gia đình nên học cách chấp nhận những cách nhìn khác nhau.</em></strong> Điều này có thể giúp họ giảm những tranh cãi không cần thiết. Một cách tiếp cận nữa là <strong><em>cha mẹ nên đưa ra những yêu cầu phù hợp với con cái.</em></strong> Họ nên xem xét khả năng và sở thích của con trước khi đưa ra quyết định.\n\nTóm lại, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> do nhiều yếu tố gây ra, nhưng các giải pháp thiết thực có thể giúp giải quyết chúng. Việc thực hiện các hành động này có thể cải thiện các mối quan hệ gia đình. Vì vậy, các cá nhân và gia đình nên cùng nhau hợp tác để xây dựng một môi trường hòa thuận.",
           "sample_b2": "In recent years, <strong>the issue of conflicts between parents and children</strong> has become an increasingly significant topic in modern society. This problem has raised concerns among educators, psychologists, and families. <strong>This essay will examine both the causes and the solutions to this issue.</strong>\n\n<strong>This conflict stems from several underlying factors.</strong> One primary cause is that <strong><em>the generation gap can make parents and children view life in different ways.</em></strong> They may have different views on education, work, and relationships. These differences can lead to misunderstandings and disagreements in daily life. Another contributing factor is that <strong><em>a lack of regular conversations can make family problems more serious.</em></strong> Parents and children may not have enough time to share their concerns. When they do not understand each other, they may easily misunderstand each other's words or actions. A further advantage to consider is that <strong><em>parents and children sometimes have very different plans for the future.</em></strong> Parents often want their children to have a stable job and a secure life. Meanwhile, children may want to choose their own path based on their personal interests.\n\n<strong>Several comprehensive measures can be implemented to address these challenges.</strong> One essential strategy is that <strong><em>families should create more opportunities for family members to communicate with each other.</em></strong> Parents and children can regularly share their problems and feelings. As a result, problems can be identified and solved before they become serious. Another effective approach is that <strong><em>each family member should learn to listen to and accept other people's views.</em></strong> Parents should listen to their children's wishes instead of always asking them to follow their own ideas. Children should also understand that their parents give advice based on their experience. A further critical measure is that <strong><em>parents should adjust their demands according to their children's circumstances.</em></strong> They should consider their children's abilities, interests, and goals. This can reduce pressure and create a better relationship within the family.\n\nIn conclusion, <strong>conflicts between parents and children</strong> arise from multiple complex causes, but they can be mitigated through targeted solutions. Addressing these issues effectively requires mutual understanding and open dialogue. By adopting these measures, families can foster healthier and more supportive bonds.",
           "translation_b2": "Trong những năm gần đây, <strong>vấn đề mâu thuẫn giữa cha mẹ và con cái</strong> đã trở thành một chủ đề ngày càng đáng kể trong xã hội hiện đại. Vấn đề này đã làm dấy lên mối lo ngại trong giới giáo dục, tâm lý học và các gia đình. <strong>Bài tiểu luận này sẽ xem xét cả nguyên nhân và giải pháp cho vấn đề này.</strong>\n\n<strong>Mâu thuẫn này bắt nguồn từ một số yếu tố tiềm ẩn.</strong> Một nguyên nhân chính là <strong><em>khoảng cách giữa các thế hệ có thể khiến cha mẹ và con cái nhìn nhận cuộc sống theo những cách khác nhau.</em></strong> Họ có thể có quan điểm khác nhau về học tập, công việc và các mối quan hệ. Những khác biệt này có thể dẫn đến hiểu lầm và bất đồng trong cuộc sống hằng ngày. Một yếu tố đóng góp khác là <strong><em>việc thiếu những cuộc trò chuyện thường xuyên có thể khiến các vấn đề trong gia đình trở nên nghiêm trọng hơn.</em></strong> Cha mẹ và con cái có thể không có đủ thời gian để chia sẻ những điều họ đang lo lắng. Khi không hiểu nhau, họ có thể dễ dàng hiểu sai lời nói hoặc hành động của nhau. Một khía cạnh nữa cần xem xét là <strong><em>cha mẹ và con cái đôi khi có những kế hoạch rất khác nhau cho tương lai.</em></strong> Cha mẹ thường muốn con có một công việc ổn định và cuộc sống an toàn. Trong khi đó, con cái có thể muốn tự lựa chọn con đường dựa trên sở thích cá nhân.\n\n<strong>Một số biện pháp toàn diện có thể được thực hiện để giải quyết những thách thức này.</strong> Một chiến lược thiết yếu là <strong><em>gia đình nên tạo ra nhiều cơ hội hơn để các thành viên trao đổi với nhau.</em></strong> Cha mẹ và con cái có thể thường xuyên chia sẻ những vấn đề và cảm xúc của mình. Nhờ đó, các vấn đề có thể được phát hiện và giải quyết trước khi trở nên nghiêm trọng. Một cách tiếp cận hiệu quả khác là <strong><em>mỗi thành viên nên học cách lắng nghe và chấp nhận cách nhìn của người khác.</em></strong> Cha mẹ nên lắng nghe mong muốn của con thay vì luôn yêu cầu con làm theo ý mình. Con cái cũng nên hiểu rằng cha mẹ đưa ra lời khuyên dựa trên kinh nghiệm của họ. Một biện pháp quan trọng nữa là <strong><em>cha mẹ nên điều chỉnh những yêu cầu của mình dựa trên hoàn cảnh của con.</em></strong> Họ nên cân nhắc khả năng, sở thích và mục tiêu của con. Điều này có thể giảm áp lực và tạo ra mối quan hệ tốt hơn trong gia đình.\n\nTóm lại, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> phát sinh từ nhiều nguyên nhân phức tạp, nhưng chúng có thể được giảm thiểu thông qua các giải pháp có mục tiêu. Việc giải quyết các vấn đề này một cách hiệu quả đòi hỏi sự thấu hiểu lẫn nhau và đối thoại cởi mở. Bằng cách áp dụng các biện pháp này, các gia đình có thể nuôi dưỡng những mối gắn kết lành mạnh và hỗ trợ hơn.",
@@ -118347,10 +118313,6 @@ const ESSAY_DATA = [
                     {
                       "en": "respiratory diseases",
                       "vi": "bệnh về đường hô hấp"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -122529,20 +122491,32 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: SỬ DỤNG QUÁ NHIỀU ĐÈN ĐƯỜNG",
                 "point_vi": "Nhiều thành phố lắp đặt quá nhiều đèn đường với độ sáng quá cao.",
                 "point_en": "Many cities install too many streetlights with excessive brightness.",
+                "point_collocations": [
+                  {
+                    "en": "install too many streetlights",
+                    "vi": "lắp đặt quá nhiều đèn đường"
+                  },
+                  {
+                    "en": "excessive brightness",
+                    "vi": "độ sáng quá mức (quá cao)"
+                  }
+                ],
                 "evidence_vi": "Những bóng đèn này thường sáng suốt đêm, vì vậy chúng tạo ra nhiều ánh sáng nhân tạo không cần thiết.",
                 "evidence_en": "These lamps often stay on all night, so they create a lot of unnecessary artificial light.",
-                "collocations": [
-                  {
-                    "en": "excessive street lighting",
-                    "vi": "sử dụng quá nhiều đèn đường"
-                  },
-                  {
-                    "en": "install streetlights",
-                    "vi": "lắp đặt đèn đường"
-                  },
+                "evidence_collocations": [
                   {
                     "en": "stay on all night",
-                    "vi": "sáng suốt cả đêm"
+                    "vi": "sáng suốt đêm"
+                  },
+                  {
+                    "en": "unnecessary artificial light",
+                    "vi": "ánh sáng nhân tạo không cần thiết"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "streetlights",
+                    "vi": "đèn đường"
                   },
                   {
                     "en": "artificial light",
@@ -122554,24 +122528,40 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: TÒA NHÀ THƯƠNG MẠI CHIẾU SÁNG QUÁ MỨC",
                 "point_vi": "Các tòa nhà thương mại và trung tâm mua sắm sử dụng quá nhiều đèn chiếu sáng.",
                 "point_en": "Commercial buildings and shopping malls use too many lights.",
-                "evidence_vi": "Các văn phòng cao tầng thường để đèn sáng cả đêm sau giờ làm việc.",
-                "evidence_en": "High-rise offices often leave their lights on all night after working hours.",
+                "point_collocations": [
+                  {
+                    "en": "commercial buildings",
+                    "vi": "các tòa nhà thương mại"
+                  },
+                  {
+                    "en": "shopping malls",
+                    "vi": "trung tâm mua sắm"
+                  }
+                ],
+                "evidence_vi": "Các văn phòng cao tầng thường để đèn sáng cả đêm sau giờ làm việc, do đó năng lượng bị lãng phí rất lớn.",
+                "evidence_en": "High-rise offices often leave lights on all night after work, so energy is wasted heavily.",
+                "evidence_collocations": [
+                  {
+                    "en": "high-rise offices",
+                    "vi": "văn phòng cao tầng"
+                  },
+                  {
+                    "en": "leave lights on all night",
+                    "vi": "để đèn sáng suốt cả đêm"
+                  },
+                  {
+                    "en": "energy is wasted heavily",
+                    "vi": "năng lượng bị lãng phí nặng nề"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "commercial buildings",
                     "vi": "tòa nhà thương mại"
                   },
                   {
-                    "en": "shopping malls",
-                    "vi": "trung tâm mua sắm"
-                  },
-                  {
-                    "en": "high-rise offices",
-                    "vi": "văn phòng cao tầng"
-                  },
-                  {
                     "en": "leave lights on",
-                    "vi": "để đèn sáng"
+                    "vi": "bật đèn suốt đêm"
                   }
                 ]
               },
@@ -122579,20 +122569,36 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: ĐÈN QUẢNG CÁO VÀ BIỂN HIỆU LED/NEON",
                 "point_vi": "Biển quảng cáo điện tử và đèn neon xuất hiện dày đặc trên đường phố.",
                 "point_en": "Electronic billboards and neon signs appear everywhere on city streets.",
-                "evidence_vi": "Những tấm bảng lớn này phát ra ánh sáng chói chang để thu hút khách hàng.",
-                "evidence_en": "These large boards emit extremely bright light to attract customers.",
+                "point_collocations": [
+                  {
+                    "en": "electronic billboards and neon signs",
+                    "vi": "biển quảng cáo điện tử và đèn neon"
+                  },
+                  {
+                    "en": "on city streets",
+                    "vi": "trên đường phố"
+                  }
+                ],
+                "evidence_vi": "Những tấm bảng lớn này phát ra ánh sáng chói chang để thu hút khách hàng, vì vậy chúng làm chói mắt người đi đường.",
+                "evidence_en": "These large boards emit bright light to attract customers, so they cause glare for road users.",
+                "evidence_collocations": [
+                  {
+                    "en": "emit bright light",
+                    "vi": "phát ra ánh sáng chói chang"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "cause glare for road users",
+                    "vi": "làm chói mắt người đi đường"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "electronic billboards",
                     "vi": "biển quảng cáo điện tử"
-                  },
-                  {
-                    "en": "neon signs",
-                    "vi": "biển hiệu neon"
-                  },
-                  {
-                    "en": "bright light",
-                    "vi": "ánh sáng chói"
                   },
                   {
                     "en": "attract customers",
@@ -122604,20 +122610,36 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 04: HOẠT ĐỘNG GIẢI TRÍ BAN ĐÊM",
                 "point_vi": "Các hoạt động giải trí vào ban đêm cũng làm tăng ô nhiễm ánh sáng.",
                 "point_en": "Nighttime entertainment activities also increase light pollution.",
-                "evidence_vi": "Các sân vận động thể thao và công viên giải trí thường sử dụng dàn đèn pha công suất lớn.",
-                "evidence_en": "Sports stadiums and amusement parks usually use powerful floodlights.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "nighttime entertainment activities",
-                    "vi": "hoạt động giải trí ban đêm"
+                    "vi": "các hoạt động giải trí ban đêm"
                   },
                   {
+                    "en": "increase light pollution",
+                    "vi": "làm tăng ô nhiễm ánh sáng"
+                  }
+                ],
+                "evidence_vi": "Các sân vận động thể thao và công viên giải trí thường sử dụng dàn đèn pha công suất lớn suốt nhiều giờ.",
+                "evidence_en": "Sports stadiums and amusement parks usually use powerful floodlights for many hours.",
+                "evidence_collocations": [
+                  {
                     "en": "sports stadiums",
-                    "vi": "sân vận động thể thao"
+                    "vi": "các sân vận động thể thao"
                   },
                   {
                     "en": "amusement parks",
                     "vi": "công viên giải trí"
+                  },
+                  {
+                    "en": "powerful floodlights",
+                    "vi": "dàn đèn pha công suất lớn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "light pollution",
+                    "vi": "ô nhiễm ánh sáng"
                   },
                   {
                     "en": "powerful floodlights",
@@ -122629,24 +122651,40 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 05: THIẾT KẾ CHIẾU SÁNG CHƯA HỢP LÝ",
                 "point_vi": "Nhiều hệ thống đèn công cộng có thiết kế chưa hợp lý.",
                 "point_en": "Many public lighting systems have poor designs.",
-                "evidence_vi": "Nhiều bóng đèn không có nắp che, vì vậy ánh sáng chiếu thẳng lên bầu trời thay vì chiếu xuống mặt đất.",
-                "evidence_en": "Many lamps lack protective covers, so light shines straight into the sky instead of the ground.",
-                "collocations": [
-                  {
-                    "en": "poor lighting design",
-                    "vi": "thiết kế chiếu sáng kém"
-                  },
+                "point_collocations": [
                   {
                     "en": "public lighting systems",
-                    "vi": "hệ thống chiếu sáng công cộng"
+                    "vi": "các hệ thống đèn công cộng"
                   },
                   {
-                    "en": "protective covers",
-                    "vi": "nắp che chắn bảo vệ"
+                    "en": "poor designs",
+                    "vi": "thiết kế kém (chưa hợp lý)"
+                  }
+                ],
+                "evidence_vi": "Nhiều bóng đèn không có nắp che, vì vậy ánh sáng chiếu thẳng lên bầu trời thay vì chiếu xuống mặt đất.",
+                "evidence_en": "Many lamps lack protective covers, so light shines straight into the sky instead of the ground.",
+                "evidence_collocations": [
+                  {
+                    "en": "lack protective covers",
+                    "vi": "thiếu nắp che bảo vệ"
                   },
                   {
                     "en": "shine into the sky",
                     "vi": "chiếu thẳng lên bầu trời"
+                  },
+                  {
+                    "en": "instead of the ground",
+                    "vi": "thay vì chiếu xuống mặt đất"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lighting systems",
+                    "vi": "hệ thống chiếu sáng"
+                  },
+                  {
+                    "en": "protective covers",
+                    "vi": "nắp che bảo vệ"
                   }
                 ]
               }
@@ -122654,26 +122692,38 @@ const ESSAY_DATA = [
             "effects": [
               {
                 "title": "TÁC ĐỘNG 01: ẢNH HƯỞNG ĐẾN GIẤC NGỦ CON NGƯỜI",
-                "point_vi": "Ánh sáng nhân tạo quá mức gây ra các vấn đề nghiêm trọng về giấc ngủ cho con người.",
+                "point_vi": "Ánh sáng nhân tạo quá mức gây ra các vấn đề nghiêm trọng về giấc ngủ.",
                 "point_en": "Excessive artificial light causes serious sleep problems for people.",
-                "evidence_vi": "Ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và khiến nhiều người bị mất ngủ.",
-                "evidence_en": "Bright light at night disrupts natural body clocks and leads to insomnia.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "serious sleep problems",
-                    "vi": "vấn đề giấc ngủ nghiêm trọng"
+                    "en": "excessive artificial light",
+                    "vi": "ánh sáng nhân tạo quá mức"
                   },
+                  {
+                    "en": "sleep problems",
+                    "vi": "các vấn đề về giấc ngủ"
+                  }
+                ],
+                "evidence_vi": "Ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và khiến nhiều người bị mất ngủ kéo dài.",
+                "evidence_en": "Bright light at night disrupts natural body clocks and leads to chronic insomnia.",
+                "evidence_collocations": [
                   {
                     "en": "disrupt natural body clocks",
                     "vi": "làm rối loạn nhịp sinh học tự nhiên"
                   },
                   {
-                    "en": "lead to insomnia",
-                    "vi": "dẫn đến chứng mất ngủ"
+                    "en": "chronic insomnia",
+                    "vi": "chứng mất ngủ kéo dài"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "sleep problems",
+                    "vi": "vấn đề giấc ngủ"
                   },
                   {
-                    "en": "feel tired and stressed",
-                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                    "en": "body clocks",
+                    "vi": "nhịp sinh học"
                   }
                 ]
               },
@@ -122681,16 +122731,26 @@ const ESSAY_DATA = [
                 "title": "TÁC ĐỘNG 02: ẢNH HƯỞNG ĐỘNG VẬT HOANG DÃ",
                 "point_vi": "Ô nhiễm ánh sáng gây xáo trộn đời sống của nhiều loài động vật hoang dã.",
                 "point_en": "Light pollution disturbs the lives of many wild animals.",
-                "evidence_vi": "Nhiều loài chim di cư mất phương hướng và đâm vào các tòa nhà cao tầng trong thành phố.",
-                "evidence_en": "Migratory birds lose their direction and crash into tall city buildings.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "disturb wild animals",
-                    "vi": "làm xáo trộn động vật hoang dã"
+                    "vi": "gây xáo trộn đời sống động vật hoang dã"
                   },
                   {
+                    "en": "light pollution",
+                    "vi": "ô nhiễm ánh sáng"
+                  },
+                  {
+                    "en": "wild animals",
+                    "vi": "động vật hoang dã"
+                  }
+                ],
+                "evidence_vi": "Nhiều loài chim di cư mất phương hướng và đâm vào các tòa nhà cao tầng trong thành phố.",
+                "evidence_en": "Migratory birds lose their direction and crash into tall city buildings.",
+                "evidence_collocations": [
+                  {
                     "en": "migratory birds",
-                    "vi": "chim di cư"
+                    "vi": "các loài chim di cư"
                   },
                   {
                     "en": "lose direction",
@@ -122700,30 +122760,52 @@ const ESSAY_DATA = [
                     "en": "crash into tall buildings",
                     "vi": "đâm vào các tòa nhà cao tầng"
                   }
+                ],
+                "collocations": [
+                  {
+                    "en": "migratory birds",
+                    "vi": "chim di cư"
+                  },
+                  {
+                    "en": "crash into buildings",
+                    "vi": "đâm vào tòa nhà"
+                  }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO",
                 "point_vi": "Ánh sáng đô thị làm giảm khả năng quan sát các vì sao vào ban đêm.",
                 "point_en": "Urban lighting reduces the visibility of stars in the night sky.",
-                "evidence_vi": "Bầu trời đêm trở nên quá sáng, vì vậy các nhà khoa học và người dân không thể nhìn thấy các chòm sao rõ ràng.",
-                "evidence_en": "The night sky becomes too bright, so scientists and citizens cannot see the stars clearly.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "reduce visibility of stars",
-                    "vi": "làm giảm khả năng quan sát các vì sao"
+                    "en": "visibility of stars",
+                    "vi": "khả năng quan sát (nhìn thấy) các vì sao"
                   },
+                  {
+                    "en": "in the night sky",
+                    "vi": "trên bầu trời đêm"
+                  }
+                ],
+                "evidence_vi": "Bầu trời đêm trở nên quá sáng, vì vậy các nhà khoa học và người dân không thể nhìn thấy các chòm sao rõ ràng.",
+                "evidence_en": "The night sky becomes too bright, so scientists and citizens cannot see stars clearly.",
+                "evidence_collocations": [
                   {
                     "en": "night sky",
                     "vi": "bầu trời đêm"
                   },
                   {
-                    "en": "astronomical observation",
-                    "vi": "sự quan sát thiên văn"
+                    "en": "see stars clearly",
+                    "vi": "nhìn thấy các vì sao rõ ràng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "visibility of stars",
+                    "vi": "quan sát các vì sao"
                   },
                   {
-                    "en": "see the stars clearly",
-                    "vi": "nhìn thấy các vì sao rõ ràng"
+                    "en": "see stars clearly",
+                    "vi": "thấy sao rõ ràng"
                   }
                 ]
               },
@@ -122731,24 +122813,40 @@ const ESSAY_DATA = [
                 "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG",
                 "point_vi": "Việc chiếu sáng không cần thiết dẫn đến sự lãng phí năng lượng khổng lồ.",
                 "point_en": "Unnecessary illumination leads to huge energy waste.",
-                "evidence_vi": "Các thành phố tiêu thụ rất nhiều điện cho đèn công cộng, vì vậy điều này làm tăng chi phí và ô nhiễm môi trường.",
-                "evidence_en": "Cities consume massive amounts of electricity for public lighting, so this increases costs and air pollution.",
-                "collocations": [
+                "point_collocations": [
+                  {
+                    "en": "unnecessary illumination",
+                    "vi": "việc chiếu sáng không cần thiết"
+                  },
                   {
                     "en": "huge energy waste",
-                    "vi": "lãng phí năng lượng khổng lồ"
+                    "vi": "sự lãng phí năng lượng khổng lồ"
+                  }
+                ],
+                "evidence_vi": "Các thành phố tiêu thụ rất nhiều điện cho đèn công cộng, vì vậy điều này làm tăng chi phí và ô nhiễm môi trường.",
+                "evidence_en": "Cities consume massive amounts of electricity for public lighting, so this increases costs and air pollution.",
+                "evidence_collocations": [
+                  {
+                    "en": "massive amounts of electricity",
+                    "vi": "lượng điện khổng lồ"
                   },
                   {
-                    "en": "consume massive electricity",
-                    "vi": "tiêu thụ lượng điện khổng lồ"
+                    "en": "public lighting",
+                    "vi": "chiếu sáng công cộng"
                   },
                   {
-                    "en": "increase costs",
-                    "vi": "làm tăng chi phí"
+                    "en": "increase costs and air pollution",
+                    "vi": "làm tăng chi phí và ô nhiễm không khí"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "energy waste",
+                    "vi": "lãng phí năng lượng"
                   },
                   {
-                    "en": "fossil fuel consumption",
-                    "vi": "tiêu thụ nhiên liệu hóa thạch"
+                    "en": "public lighting",
+                    "vi": "chiếu sáng công cộng"
                   }
                 ]
               },
@@ -122756,24 +122854,40 @@ const ESSAY_DATA = [
                 "title": "TÁC ĐỘNG 05: GÂY HẠI ĐẾN HỆ SINH THÁI",
                 "point_vi": "Ô nhiễm ánh sáng gây nguy hại trực tiếp đến sự cân bằng của các hệ sinh thái.",
                 "point_en": "Light pollution causes direct harm to local ecosystems.",
-                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bay vào các bóng đèn và chết, vì vậy chuỗi thức ăn tự nhiên bị ảnh hưởng xấu.",
-                "evidence_en": "Millions of nocturnal insects fly around light bulbs and die, so the natural food chain suffers.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "direct harm to ecosystems",
-                    "vi": "nguy hại trực tiếp đến hệ sinh thái"
+                    "en": "direct harm",
+                    "vi": "nguy hại trực tiếp"
                   },
                   {
+                    "en": "local ecosystems",
+                    "vi": "hệ sinh thái địa phương"
+                  }
+                ],
+                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bay vào các bóng đèn và chết, vì vậy chuỗi thức ăn tự nhiên bị ảnh hưởng xấu.",
+                "evidence_en": "Millions of nocturnal insects fly around light bulbs and die, so the natural food chain suffers.",
+                "evidence_collocations": [
+                  {
                     "en": "nocturnal insects",
-                    "vi": "côn trùng hoạt động ban đêm"
+                    "vi": "các loài côn trùng ban đêm"
+                  },
+                  {
+                    "en": "fly around light bulbs",
+                    "vi": "bay quanh bóng đèn"
                   },
                   {
                     "en": "natural food chain",
                     "vi": "chuỗi thức ăn tự nhiên"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "local ecosystems",
+                    "vi": "hệ sinh thái"
                   },
                   {
-                    "en": "ecological balance",
-                    "vi": "sự cân bằng sinh thái"
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
                   }
                 ]
               }
@@ -122783,197 +122897,141 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: SỬ DỤNG QUÁ NHIỀU ĐÈN ĐƯỜNG",
                 "point_vi": "Nhiều thành phố lắp đặt quá nhiều đèn đường với độ sáng quá cao.",
                 "point_en": "Many cities install too many streetlights with excessive brightness.",
+                "point_collocations": [
+                  {
+                    "en": "install too many streetlights",
+                    "vi": "lắp đặt quá nhiều đèn đường"
+                  },
+                  {
+                    "en": "excessive brightness",
+                    "vi": "độ sáng quá mức (quá cao)"
+                  }
+                ],
                 "evidence_vi": "Những bóng đèn này thường sáng suốt đêm, vì vậy chúng tạo ra nhiều ánh sáng nhân tạo không cần thiết.",
                 "evidence_en": "These lamps often stay on all night, so they create a lot of unnecessary artificial light.",
-                "collocations": [
-                  {
-                    "en": "excessive street lighting",
-                    "vi": "sử dụng quá nhiều đèn đường"
-                  },
-                  {
-                    "en": "install streetlights",
-                    "vi": "lắp đặt đèn đường"
-                  },
+                "evidence_collocations": [
                   {
                     "en": "stay on all night",
-                    "vi": "sáng suốt cả đêm"
+                    "vi": "sáng suốt đêm"
+                  },
+                  {
+                    "en": "unnecessary artificial light",
+                    "vi": "ánh sáng nhân tạo không cần thiết"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "streetlights",
+                    "vi": "đèn đường"
                   },
                   {
                     "en": "artificial light",
                     "vi": "ánh sáng nhân tạo"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "install streetlights",
-                    "vi": "lắp đặt đèn đường"
-                  },
-                  {
-                    "en": "excessive brightness",
-                    "vi": "độ sáng quá mức"
-                  },
-                  {
-                    "en": "streetlight",
-                    "vi": "đèn đường"
-                  },
-                  {
-                    "en": "brightness",
-                    "vi": "độ sáng, sự rực rỡ"
-                  },
-                  {
-                    "en": "excessive",
-                    "vi": "quá mức, quá nhiều"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "stay on all night",
-                      "vi": "sáng suốt cả đêm"
-                    },
-                    {
-                      "en": "artificial light",
-                      "vi": "ánh sáng nhân tạo"
-                    },
-                    {
-                      "en": "artificial lighting",
-                      "vi": "chiếu sáng nhân tạo"
-                    },
-                    {
-                      "en": "artificial",
-                      "vi": "nhân tạo, không tự nhiên"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: TÒA NHÀ THƯƠNG MẠI CHIẾU SÁNG QUÁ MỨC",
                 "point_vi": "Các tòa nhà thương mại và trung tâm mua sắm sử dụng quá nhiều đèn chiếu sáng.",
                 "point_en": "Commercial buildings and shopping malls use too many lights.",
-                "evidence_vi": "Các văn phòng cao tầng thường để đèn sáng cả đêm sau giờ làm việc.",
-                "evidence_en": "High-rise offices often leave their lights on all night after working hours.",
+                "point_collocations": [
+                  {
+                    "en": "commercial buildings",
+                    "vi": "các tòa nhà thương mại"
+                  },
+                  {
+                    "en": "shopping malls",
+                    "vi": "trung tâm mua sắm"
+                  }
+                ],
+                "evidence_vi": "Các văn phòng cao tầng thường để đèn sáng cả đêm sau giờ làm việc, do đó năng lượng bị lãng phí rất lớn.",
+                "evidence_en": "High-rise offices often leave lights on all night after work, so energy is wasted heavily.",
+                "evidence_collocations": [
+                  {
+                    "en": "high-rise offices",
+                    "vi": "văn phòng cao tầng"
+                  },
+                  {
+                    "en": "leave lights on all night",
+                    "vi": "để đèn sáng suốt cả đêm"
+                  },
+                  {
+                    "en": "energy is wasted heavily",
+                    "vi": "năng lượng bị lãng phí nặng nề"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "commercial buildings",
                     "vi": "tòa nhà thương mại"
                   },
                   {
-                    "en": "shopping malls",
-                    "vi": "trung tâm mua sắm"
-                  },
-                  {
-                    "en": "high-rise offices",
-                    "vi": "văn phòng cao tầng"
-                  },
-                  {
                     "en": "leave lights on",
-                    "vi": "để đèn sáng"
+                    "vi": "bật đèn suốt đêm"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "commercial buildings",
-                    "vi": "tòa nhà thương mại"
-                  },
-                  {
-                    "en": "shopping malls",
-                    "vi": "trung tâm mua sắm"
-                  },
-                  {
-                    "en": "commercial",
-                    "vi": "thuộc về thương mại, kinh doanh"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "high-rise offices",
-                      "vi": "văn phòng cao tầng"
-                    },
-                    {
-                      "en": "leave lights on",
-                      "vi": "để đèn sáng"
-                    },
-                    {
-                      "en": "commercial buildings",
-                      "vi": "tòa nhà thương mại"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: ĐÈN QUẢNG CÁO VÀ BIỂN HIỆU LED/NEON",
                 "point_vi": "Biển quảng cáo điện tử và đèn neon xuất hiện dày đặc trên đường phố.",
                 "point_en": "Electronic billboards and neon signs appear everywhere on city streets.",
-                "evidence_vi": "Những tấm bảng lớn này phát ra ánh sáng chói chang để thu hút khách hàng.",
-                "evidence_en": "These large boards emit extremely bright light to attract customers.",
+                "point_collocations": [
+                  {
+                    "en": "electronic billboards and neon signs",
+                    "vi": "biển quảng cáo điện tử và đèn neon"
+                  },
+                  {
+                    "en": "on city streets",
+                    "vi": "trên đường phố"
+                  }
+                ],
+                "evidence_vi": "Những tấm bảng lớn này phát ra ánh sáng chói chang để thu hút khách hàng, vì vậy chúng làm chói mắt người đi đường.",
+                "evidence_en": "These large boards emit bright light to attract customers, so they cause glare for road users.",
+                "evidence_collocations": [
+                  {
+                    "en": "emit bright light",
+                    "vi": "phát ra ánh sáng chói chang"
+                  },
+                  {
+                    "en": "attract customers",
+                    "vi": "thu hút khách hàng"
+                  },
+                  {
+                    "en": "cause glare for road users",
+                    "vi": "làm chói mắt người đi đường"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "electronic billboards",
                     "vi": "biển quảng cáo điện tử"
                   },
                   {
-                    "en": "neon signs",
-                    "vi": "biển hiệu neon"
-                  },
-                  {
-                    "en": "bright light",
-                    "vi": "ánh sáng chói"
-                  },
-                  {
                     "en": "attract customers",
                     "vi": "thu hút khách hàng"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "electronic billboards",
-                    "vi": "biển quảng cáo điện tử"
-                  },
-                  {
-                    "en": "neon signs",
-                    "vi": "biển hiệu neon"
-                  },
-                  {
-                    "en": "billboard",
-                    "vi": "biển quảng cáo tấm lớn ngoài trời"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "bright light",
-                      "vi": "ánh sáng chói"
-                    },
-                    {
-                      "en": "attract customers",
-                      "vi": "thu hút khách hàng"
-                    },
-                    {
-                      "en": "electronic billboards",
-                      "vi": "biển quảng cáo điện tử"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: HOẠT ĐỘNG GIẢI TRÍ BAN ĐÊM",
                 "point_vi": "Các hoạt động giải trí vào ban đêm cũng làm tăng ô nhiễm ánh sáng.",
                 "point_en": "Nighttime entertainment activities also increase light pollution.",
-                "evidence_vi": "Các sân vận động thể thao và công viên giải trí thường sử dụng dàn đèn pha công suất lớn.",
-                "evidence_en": "Sports stadiums and amusement parks usually use powerful floodlights.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "nighttime entertainment activities",
-                    "vi": "hoạt động giải trí ban đêm"
+                    "vi": "các hoạt động giải trí ban đêm"
                   },
                   {
+                    "en": "increase light pollution",
+                    "vi": "làm tăng ô nhiễm ánh sáng"
+                  }
+                ],
+                "evidence_vi": "Các sân vận động thể thao và công viên giải trí thường sử dụng dàn đèn pha công suất lớn suốt nhiều giờ.",
+                "evidence_en": "Sports stadiums and amusement parks usually use powerful floodlights for many hours.",
+                "evidence_collocations": [
+                  {
                     "en": "sports stadiums",
-                    "vi": "sân vận động thể thao"
+                    "vi": "các sân vận động thể thao"
                   },
                   {
                     "en": "amusement parks",
@@ -122981,182 +123039,124 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "powerful floodlights",
-                    "vi": "đèn pha công suất lớn"
+                    "vi": "dàn đèn pha công suất lớn"
                   }
                 ],
-                "point_collocations": [
-                  {
-                    "en": "nighttime entertainment activities",
-                    "vi": "hoạt động giải trí ban đêm"
-                  },
+                "collocations": [
                   {
                     "en": "light pollution",
                     "vi": "ô nhiễm ánh sáng"
                   },
                   {
-                    "en": "sports stadiums",
-                    "vi": "sân vận động thể thao"
+                    "en": "powerful floodlights",
+                    "vi": "đèn pha công suất lớn"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "sports stadiums",
-                      "vi": "sân vận động thể thao"
-                    },
-                    {
-                      "en": "amusement parks",
-                      "vi": "công viên giải trí"
-                    },
-                    {
-                      "en": "powerful floodlights",
-                      "vi": "đèn pha công suất lớn"
-                    },
-                    {
-                      "en": "floodlight",
-                      "vi": "đèn pha công suất lớn"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: THIẾT KẾ CHIẾU SÁNG CHƯA HỢP LÝ",
                 "point_vi": "Nhiều hệ thống đèn công cộng có thiết kế chưa hợp lý.",
                 "point_en": "Many public lighting systems have poor designs.",
-                "evidence_vi": "Nhiều bóng đèn không có nắp che, vì vậy ánh sáng chiếu thẳng lên bầu trời thay vì chiếu xuống mặt đất.",
-                "evidence_en": "Many lamps lack protective covers, so light shines straight into the sky instead of the ground.",
-                "collocations": [
-                  {
-                    "en": "poor lighting design",
-                    "vi": "thiết kế chiếu sáng kém"
-                  },
+                "point_collocations": [
                   {
                     "en": "public lighting systems",
-                    "vi": "hệ thống chiếu sáng công cộng"
+                    "vi": "các hệ thống đèn công cộng"
                   },
                   {
-                    "en": "protective covers",
-                    "vi": "nắp che chắn bảo vệ"
+                    "en": "poor designs",
+                    "vi": "thiết kế kém (chưa hợp lý)"
+                  }
+                ],
+                "evidence_vi": "Nhiều bóng đèn không có nắp che, vì vậy ánh sáng chiếu thẳng lên bầu trời thay vì chiếu xuống mặt đất.",
+                "evidence_en": "Many lamps lack protective covers, so light shines straight into the sky instead of the ground.",
+                "evidence_collocations": [
+                  {
+                    "en": "lack protective covers",
+                    "vi": "thiếu nắp che bảo vệ"
                   },
                   {
                     "en": "shine into the sky",
                     "vi": "chiếu thẳng lên bầu trời"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "poor lighting design",
-                    "vi": "thiết kế chiếu sáng kém"
                   },
                   {
-                    "en": "public lighting systems",
-                    "vi": "hệ thống chiếu sáng công cộng"
+                    "en": "instead of the ground",
+                    "vi": "thay vì chiếu xuống mặt đất"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lighting systems",
+                    "vi": "hệ thống chiếu sáng"
                   },
                   {
                     "en": "protective covers",
-                    "vi": "nắp che chắn bảo vệ"
+                    "vi": "nắp che bảo vệ"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "protective covers",
-                      "vi": "nắp che chắn bảo vệ"
-                    },
-                    {
-                      "en": "shine into the sky",
-                      "vi": "chiếu thẳng lên bầu trời"
-                    },
-                    {
-                      "en": "poor lighting design",
-                      "vi": "thiết kế chiếu sáng kém"
-                    }
-                  ]
                 ]
               }
             ],
             "drawbacks": [
               {
                 "title": "TÁC ĐỘNG 01: ẢNH HƯỞNG ĐẾN GIẤC NGỦ CON NGƯỜI",
-                "point_vi": "Ánh sáng nhân tạo quá mức gây ra các vấn đề nghiêm trọng về giấc ngủ cho con người.",
+                "point_vi": "Ánh sáng nhân tạo quá mức gây ra các vấn đề nghiêm trọng về giấc ngủ.",
                 "point_en": "Excessive artificial light causes serious sleep problems for people.",
-                "evidence_vi": "Ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và khiến nhiều người bị mất ngủ.",
-                "evidence_en": "Bright light at night disrupts natural body clocks and leads to insomnia.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "serious sleep problems",
-                    "vi": "vấn đề giấc ngủ nghiêm trọng"
+                    "en": "excessive artificial light",
+                    "vi": "ánh sáng nhân tạo quá mức"
                   },
+                  {
+                    "en": "sleep problems",
+                    "vi": "các vấn đề về giấc ngủ"
+                  }
+                ],
+                "evidence_vi": "Ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và khiến nhiều người bị mất ngủ kéo dài.",
+                "evidence_en": "Bright light at night disrupts natural body clocks and leads to chronic insomnia.",
+                "evidence_collocations": [
                   {
                     "en": "disrupt natural body clocks",
                     "vi": "làm rối loạn nhịp sinh học tự nhiên"
                   },
                   {
-                    "en": "lead to insomnia",
-                    "vi": "dẫn đến chứng mất ngủ"
-                  },
-                  {
-                    "en": "feel tired and stressed",
-                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                    "en": "chronic insomnia",
+                    "vi": "chứng mất ngủ kéo dài"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "serious sleep problems",
-                    "vi": "vấn đề giấc ngủ nghiêm trọng"
+                    "en": "sleep problems",
+                    "vi": "vấn đề giấc ngủ"
                   },
                   {
-                    "en": "artificial lighting",
-                    "vi": "chiếu sáng nhân tạo"
-                  },
-                  {
-                    "en": "artificial",
-                    "vi": "nhân tạo, không tự nhiên"
-                  },
-                  {
-                    "en": "excessive",
-                    "vi": "quá mức, quá nhiều"
+                    "en": "body clocks",
+                    "vi": "nhịp sinh học"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "disrupt natural body clocks",
-                      "vi": "làm rối loạn nhịp sinh học tự nhiên"
-                    },
-                    {
-                      "en": "lead to insomnia",
-                      "vi": "dẫn đến chứng mất ngủ"
-                    },
-                    {
-                      "en": "natural body clock",
-                      "vi": "đồng hồ sinh học tự nhiên"
-                    },
-                    {
-                      "en": "insomnia",
-                      "vi": "chứng mất ngủ"
-                    },
-                    {
-                      "en": "disrupt",
-                      "vi": "làm gián đoạn, làm xáo trộn"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 02: ẢNH HƯỞNG ĐỘNG VẬT HOANG DÃ",
                 "point_vi": "Ô nhiễm ánh sáng gây xáo trộn đời sống của nhiều loài động vật hoang dã.",
                 "point_en": "Light pollution disturbs the lives of many wild animals.",
-                "evidence_vi": "Nhiều loài chim di cư mất phương hướng và đâm vào các tòa nhà cao tầng trong thành phố.",
-                "evidence_en": "Migratory birds lose their direction and crash into tall city buildings.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "disturb wild animals",
-                    "vi": "làm xáo trộn động vật hoang dã"
+                    "vi": "gây xáo trộn đời sống động vật hoang dã"
                   },
                   {
+                    "en": "light pollution",
+                    "vi": "ô nhiễm ánh sáng"
+                  },
+                  {
+                    "en": "wild animals",
+                    "vi": "động vật hoang dã"
+                  }
+                ],
+                "evidence_vi": "Nhiều loài chim di cư mất phương hướng và đâm vào các tòa nhà cao tầng trong thành phố.",
+                "evidence_en": "Migratory birds lose their direction and crash into tall city buildings.",
+                "evidence_collocations": [
+                  {
                     "en": "migratory birds",
-                    "vi": "chim di cư"
+                    "vi": "các loài chim di cư"
                   },
                   {
                     "en": "lose direction",
@@ -123167,212 +123167,134 @@ const ESSAY_DATA = [
                     "vi": "đâm vào các tòa nhà cao tầng"
                   }
                 ],
-                "point_collocations": [
-                  {
-                    "en": "disturb wild animals",
-                    "vi": "làm xáo trộn động vật hoang dã"
-                  },
-                  {
-                    "en": "light pollution",
-                    "vi": "ô nhiễm ánh sáng"
-                  },
+                "collocations": [
                   {
                     "en": "migratory birds",
                     "vi": "chim di cư"
+                  },
+                  {
+                    "en": "crash into buildings",
+                    "vi": "đâm vào tòa nhà"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "migratory birds",
-                      "vi": "chim di cư"
-                    },
-                    {
-                      "en": "lose direction",
-                      "vi": "mất phương hướng"
-                    },
-                    {
-                      "en": "crash into tall buildings",
-                      "vi": "đâm vào các tòa nhà cao tầng"
-                    },
-                    {
-                      "en": "migratory",
-                      "vi": "thuộc về di cư"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO",
                 "point_vi": "Ánh sáng đô thị làm giảm khả năng quan sát các vì sao vào ban đêm.",
                 "point_en": "Urban lighting reduces the visibility of stars in the night sky.",
-                "evidence_vi": "Bầu trời đêm trở nên quá sáng, vì vậy các nhà khoa học và người dân không thể nhìn thấy các chòm sao rõ ràng.",
-                "evidence_en": "The night sky becomes too bright, so scientists and citizens cannot see the stars clearly.",
-                "collocations": [
-                  {
-                    "en": "reduce visibility of stars",
-                    "vi": "làm giảm khả năng quan sát các vì sao"
-                  },
-                  {
-                    "en": "night sky",
-                    "vi": "bầu trời đêm"
-                  },
-                  {
-                    "en": "astronomical observation",
-                    "vi": "sự quan sát thiên văn"
-                  },
-                  {
-                    "en": "see the stars clearly",
-                    "vi": "nhìn thấy các vì sao rõ ràng"
-                  }
-                ],
                 "point_collocations": [
                   {
-                    "en": "reduce visibility of stars",
-                    "vi": "làm giảm khả năng quan sát các vì sao"
+                    "en": "visibility of stars",
+                    "vi": "khả năng quan sát (nhìn thấy) các vì sao"
                   },
+                  {
+                    "en": "in the night sky",
+                    "vi": "trên bầu trời đêm"
+                  }
+                ],
+                "evidence_vi": "Bầu trời đêm trở nên quá sáng, vì vậy các nhà khoa học và người dân không thể nhìn thấy các chòm sao rõ ràng.",
+                "evidence_en": "The night sky becomes too bright, so scientists and citizens cannot see stars clearly.",
+                "evidence_collocations": [
                   {
                     "en": "night sky",
                     "vi": "bầu trời đêm"
                   },
                   {
-                    "en": "see the stars clearly",
+                    "en": "see stars clearly",
                     "vi": "nhìn thấy các vì sao rõ ràng"
-                  },
-                  {
-                    "en": "visibility of stars",
-                    "vi": "khả năng quan sát các vì sao"
-                  },
-                  {
-                    "en": "visibility",
-                    "vi": "tầm nhìn, khả năng quan sát"
                   }
                 ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "night sky",
-                      "vi": "bầu trời đêm"
-                    },
-                    {
-                      "en": "see the stars clearly",
-                      "vi": "nhìn thấy các vì sao rõ ràng"
-                    },
-                    {
-                      "en": "reduce visibility of stars",
-                      "vi": "làm giảm khả năng quan sát các vì sao"
-                    }
-                  ]
+                "collocations": [
+                  {
+                    "en": "visibility of stars",
+                    "vi": "quan sát các vì sao"
+                  },
+                  {
+                    "en": "see stars clearly",
+                    "vi": "thấy sao rõ ràng"
+                  }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG",
                 "point_vi": "Việc chiếu sáng không cần thiết dẫn đến sự lãng phí năng lượng khổng lồ.",
                 "point_en": "Unnecessary illumination leads to huge energy waste.",
-                "evidence_vi": "Các thành phố tiêu thụ rất nhiều điện cho đèn công cộng, vì vậy điều này làm tăng chi phí và ô nhiễm môi trường.",
-                "evidence_en": "Cities consume massive amounts of electricity for public lighting, so this increases costs and air pollution.",
-                "collocations": [
-                  {
-                    "en": "huge energy waste",
-                    "vi": "lãng phí năng lượng khổng lồ"
-                  },
-                  {
-                    "en": "consume massive electricity",
-                    "vi": "tiêu thụ lượng điện khổng lồ"
-                  },
-                  {
-                    "en": "increase costs",
-                    "vi": "làm tăng chi phí"
-                  },
-                  {
-                    "en": "fossil fuel consumption",
-                    "vi": "tiêu thụ nhiên liệu hóa thạch"
-                  }
-                ],
                 "point_collocations": [
                   {
+                    "en": "unnecessary illumination",
+                    "vi": "việc chiếu sáng không cần thiết"
+                  },
+                  {
                     "en": "huge energy waste",
-                    "vi": "lãng phí năng lượng khổng lồ"
-                  },
-                  {
-                    "en": "energy waste",
-                    "vi": "sự lãng phí năng lượng"
-                  },
-                  {
-                    "en": "illumination",
-                    "vi": "sự chiếu sáng, nguồn ánh sáng tỏa ra"
+                    "vi": "sự lãng phí năng lượng khổng lồ"
                   }
                 ],
+                "evidence_vi": "Các thành phố tiêu thụ rất nhiều điện cho đèn công cộng, vì vậy điều này làm tăng chi phí và ô nhiễm môi trường.",
+                "evidence_en": "Cities consume massive amounts of electricity for public lighting, so this increases costs and air pollution.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "consume massive electricity",
-                      "vi": "tiêu thụ lượng điện khổng lồ"
-                    },
-                    {
-                      "en": "increase costs",
-                      "vi": "làm tăng chi phí"
-                    },
-                    {
-                      "en": "light pollution",
-                      "vi": "ô nhiễm ánh sáng"
-                    }
-                  ]
+                  {
+                    "en": "massive amounts of electricity",
+                    "vi": "lượng điện khổng lồ"
+                  },
+                  {
+                    "en": "public lighting",
+                    "vi": "chiếu sáng công cộng"
+                  },
+                  {
+                    "en": "increase costs and air pollution",
+                    "vi": "làm tăng chi phí và ô nhiễm không khí"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "energy waste",
+                    "vi": "lãng phí năng lượng"
+                  },
+                  {
+                    "en": "public lighting",
+                    "vi": "chiếu sáng công cộng"
+                  }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 05: GÂY HẠI ĐẾN HỆ SINH THÁI",
                 "point_vi": "Ô nhiễm ánh sáng gây nguy hại trực tiếp đến sự cân bằng của các hệ sinh thái.",
                 "point_en": "Light pollution causes direct harm to local ecosystems.",
-                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bay vào các bóng đèn và chết, vì vậy chuỗi thức ăn tự nhiên bị ảnh hưởng xấu.",
-                "evidence_en": "Millions of nocturnal insects fly around light bulbs and die, so the natural food chain suffers.",
-                "collocations": [
+                "point_collocations": [
                   {
-                    "en": "direct harm to ecosystems",
-                    "vi": "nguy hại trực tiếp đến hệ sinh thái"
+                    "en": "direct harm",
+                    "vi": "nguy hại trực tiếp"
                   },
                   {
+                    "en": "local ecosystems",
+                    "vi": "hệ sinh thái địa phương"
+                  }
+                ],
+                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bay vào các bóng đèn và chết, vì vậy chuỗi thức ăn tự nhiên bị ảnh hưởng xấu.",
+                "evidence_en": "Millions of nocturnal insects fly around light bulbs and die, so the natural food chain suffers.",
+                "evidence_collocations": [
+                  {
                     "en": "nocturnal insects",
-                    "vi": "côn trùng hoạt động ban đêm"
+                    "vi": "các loài côn trùng ban đêm"
+                  },
+                  {
+                    "en": "fly around light bulbs",
+                    "vi": "bay quanh bóng đèn"
                   },
                   {
                     "en": "natural food chain",
                     "vi": "chuỗi thức ăn tự nhiên"
-                  },
-                  {
-                    "en": "ecological balance",
-                    "vi": "sự cân bằng sinh thái"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "direct harm to ecosystems",
-                    "vi": "nguy hại trực tiếp đến hệ sinh thái"
+                    "en": "local ecosystems",
+                    "vi": "hệ sinh thái"
                   },
                   {
-                    "en": "light pollution",
-                    "vi": "ô nhiễm ánh sáng"
-                  },
-                  {
-                    "en": "ecosystem",
-                    "vi": "hệ sinh thái tự nhiên"
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "nocturnal insects",
-                      "vi": "côn trùng hoạt động ban đêm"
-                    },
-                    {
-                      "en": "natural food chain",
-                      "vi": "chuỗi thức ăn tự nhiên"
-                    },
-                    {
-                      "en": "nocturnal",
-                      "vi": "hoạt động về đêm (động vật, sự vật)"
-                    }
-                  ]
                 ]
               }
             ]
@@ -126610,10 +126532,6 @@ const ESSAY_DATA = [
                     {
                       "en": "see as normal",
                       "vi": "coi là bình thường"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -127572,7 +127490,7 @@ const ESSAY_DATA = [
               "vi": "sự tổn thương về kinh tế"
             }
           ],
-          "sample_b1": "In recent years, <strong>smoking among young people</strong> has become a growing concern in modern society. This issue affects both young individuals and their families in different ways. <strong>This essay will discuss the main causes of this problem and its possible effects.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>friends can strongly influence young people's decision to smoke</em></strong>. Many teenagers start smoking because they want to be accepted by their friends. Another contributing factor is that <strong><em>the family environment can encourage young people to start smoking</em></strong>. Children who grow up with smoking parents or relatives often see smoking as a normal habit. A further reason is that <strong><em>stress and emotional problems can lead some young people to smoking</em></strong>. They may smoke to feel relaxed or reduce stress.\n\n<strong>This problem can lead to several negative effects.</strong> One major effect is that <strong><em>smoking can cause serious health problems for young people</em></strong>. Regular smoking damages the lungs, weakens physical fitness, and causes dangerous respiratory diseases early in life. Another consequence is that <strong><em>young people can easily become dependent on tobacco</em></strong>. Because nicotine is highly addictive, teenagers who smoke regularly often find it very difficult to quit later. A further impact is that <strong><em>this habit can create financial problems for young people</em></strong>. Spending daily allowances on cigarettes leaves them with less money for books and healthy activities.\n\nIn conclusion, <strong>smoking among young people</strong> is caused by peer pressure, family habits, and stress, and it leads to harmful health and financial effects. Families and schools should guide youth to avoid this harmful habit.",
+          "sample_b1": "In recent years, <strong>smoking among young people</strong> has become a growing concern in modern society. This issue affects both young individuals and their families in different ways. <strong>This essay will discuss the main causes of this problem and its possible effects.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>friends can strongly influence young people's decision to smoke</em></strong>. Many teenagers start smoking because they want to be accepted by their friends. Another contributing factor is that <strong><em>the family environment can encourage young people to start smoking</em></strong>. Children growing up with smoking parents or relatives often see smoking as a normal habit. A further reason is that <strong><em>stress and emotional problems can lead some young people to smoking</em></strong>. They may smoke to feel relaxed or reduce stress.\n\n<strong>This problem can lead to several negative effects.</strong> One major effect is that <strong><em>smoking can cause serious health problems for young people</em></strong>. Regular smoking damages the lungs, weakens physical fitness, and causes dangerous respiratory diseases early in life. Another consequence is that <strong><em>young people can easily become dependent on tobacco</em></strong>. Because nicotine is highly addictive, teenagers smoking regularly often find it very difficult to quit later. A further impact is that <strong><em>this habit can create financial problems for young people</em></strong>. Spending daily allowances on cigarettes leaves them with less money for books and healthy activities.\n\nIn conclusion, <strong>smoking among young people</strong> is caused by peer pressure, family habits, and stress, and it leads to harmful health and financial effects. Families and schools should guide youth to avoid this harmful habit.",
           "translation_b1": "Trong những năm gần đây, <strong>tình trạng hút thuốc ở giới trẻ</strong> đã trở thành một mối lo ngại ngày càng tăng trong xã hội hiện đại. Vấn đề này ảnh hưởng đến cả những người trẻ tuổi và gia đình của họ theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những nguyên nhân chính của vấn đề này và các tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>bạn bè có thể ảnh hưởng mạnh mẽ đến quyết định hút thuốc của người trẻ</em></strong>. Nhiều thanh thiếu niên bắt đầu hút thuốc lá hoặc thuốc lá điện tử chỉ vì muốn hòa nhập và được nhóm bạn chấp nhận. Một yếu tố đóng góp khác là <strong><em>môi trường gia đình có thể khiến người trẻ bắt đầu hút thuốc</em></strong>. Trẻ em lớn lên cùng cha mẹ hoặc người thân hút thuốc thường coi việc dùng thuốc lá là một thói quen bình thường hằng ngày và bắt chước theo. Một lý do nữa là <strong><em>áp lực và các vấn đề cảm xúc có thể khiến một số người trẻ tìm đến thuốc lá</em></strong>. Khi đối mặt với áp lực học đường, họ có thể hút thuốc để cảm thấy thư giãn hoặc giảm căng thẳng tạm thời.\n\n<strong>Vấn đề này có thể dẫn đến một số tác động tiêu cực.</strong> Một tác động lớn là <strong><em>hút thuốc có thể gây ra nhiều vấn đề nghiêm trọng đối với sức khỏe của người trẻ</em></strong>. Việc hút thuốc thường xuyên làm tổn thương phổi, làm suy giảm thể lực và gây ra các bệnh nguy hiểm về đường hô hấp từ sớm. Một hậu quả khác là <strong><em>người trẻ có thể dễ dàng trở nên phụ thuộc vào thuốc lá</em></strong>. Vì nicotine có tính gây nghiện cao, thanh thiếu niên hút thuốc thường xuyên sẽ thấy rất khó bỏ thuốc về sau. Một tác động nữa là <strong><em>thói quen này có thể tạo ra các vấn đề tài chính cho người trẻ</em></strong>. Việc chi tiêu tiền tiêu vặt hằng ngày cho thuốc lá khiến họ còn ít tiền hơn cho sách vở và các hoạt động lành mạnh.\n\nTóm lại, <strong>tình trạng hút thuốc ở giới trẻ</strong> bắt nguồn từ áp lực bạn bè, thói quen gia đình và sự căng thẳng, đồng thời dẫn đến những tác hại về sức khỏe và tài chính. Gia đình và nhà trường cần định hướng để giới trẻ tránh xa thói quen có hại này.",
           "sample_b2": "In recent years, <strong>smoking among young people</strong> has become a growing concern in many parts of the world. This issue has created serious challenges for both adolescent development and public health systems. <strong>This essay will examine the main causes of youth smoking and discuss its negative effects.</strong>\n\n<strong>This issue can be attributed to several key factors.</strong> One major cause is that <strong><em>peer and social influence can encourage young people to try smoking</em></strong>. Many teenagers want to fit in with friends who smoke, viewing tobacco or e-cigarette use as a way to appear mature and gain social acceptance. Another contributing factor is that <strong><em>the habits of family members can influence how young people view smoking</em></strong>. Young people who regularly see their parents or older relatives smoke at home often consider the habit normal, which reduces their concerns about the health risks of starting to smoke. A further reason is that <strong><em>academic, work, and personal pressures lead some young people to seek temporary ways to cope with stress</em></strong>. Believing that nicotine helps them feel calm or relaxed for a short time, they may quickly develop a smoking habit when facing emotional pressure.\n\n<strong>This problem can lead to several significant consequences.</strong> One negative effect is that <strong><em>starting to smoke at a young age has serious consequences for physical health</em></strong>. Toxic chemicals in tobacco damage the developing lungs and cardiovascular system, increasing the risk of chronic pulmonary diseases later in life. Another serious impact is that <strong><em>regular smoking makes young people heavily dependent on nicotine</em></strong>. They may feel irritable, anxious, or unable to concentrate when they do not smoke, and this severe dependency makes quitting extremely difficult in adulthood. A further consequence is that <strong><em>long-term smoking creates a substantial financial burden for young people</em></strong>. Spending a large portion of their allowance or income on tobacco products reduces the money available for education and essential needs.\n\nIn conclusion, <strong>youth smoking</strong> is driven by peer conformity, family modeling, and stress, leading to severe health deterioration, nicotine addiction, and financial strain. Addressing these underlying causes through education and support is essential to protect the younger generation.",
           "translation_b2": "Trong những năm gần đây, <strong>tình trạng hút thuốc ở giới trẻ</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra những thách thức nghiêm trọng cho cả sự phát triển của thanh thiếu niên lẫn hệ thống y tế cộng đồng. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính dẫn đến việc giới trẻ hút thuốc và thảo luận về các tác động tiêu cực của nó.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố then chốt.</strong> Một nguyên nhân lớn là <strong><em>ảnh hưởng từ bạn bè và môi trường xã hội có thể thúc đẩy người trẻ thử hút thuốc</em></strong>. Nhiều thanh thiếu niên muốn hòa nhập với nhóm bạn có thói quen hút thuốc, coi việc sử dụng thuốc lá hoặc thuốc lá điện tử là cách để thể hiện sự trưởng thành và đạt được sự công nhận xã hội. Một yếu tố đóng góp khác là <strong><em>thói quen của các thành viên trong gia đình có thể ảnh hưởng đến cách người trẻ nhìn nhận việc hút thuốc</em></strong>. Những người trẻ thường xuyên nhìn thấy cha mẹ hoặc người thân hút thuốc tại nhà thường coi hành vi này là bình thường, điều này làm giảm sự lo ngại của họ về những rủi ro sức khỏe khi bắt đầu hút thuốc. Một lý do nữa là <strong><em>áp lực học tập, công việc và cá nhân khiến một số người trẻ tìm kiếm những cách tạm thời để đối phó với căng thẳng</em></strong>. Tin rằng nicotine giúp bản thân cảm thấy bình tĩnh hoặc thư giãn trong thời gian ngắn, họ có thể nhanh chóng hình thành thói quen hút thuốc khi gặp áp lực tâm lý.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể.</strong> Một tác động tiêu cực là <strong><em>việc bắt đầu hút thuốc từ khi còn trẻ gây ra những hậu quả nghiêm trọng đối với sức khỏe thể chất</em></strong>. Các hóa chất độc hại trong thuốc lá làm tổn thương phổi và hệ tim mạch đang phát triển, làm tăng nguy cơ mắc các bệnh phổi mãn tính về sau. Một ảnh hưởng nghiêm trọng khác là <strong><em>hút thuốc thường xuyên khiến người trẻ phụ thuộc nặng nề vào nicotine</em></strong>. Họ có thể cảm thấy bứt rứt, lo âu hoặc khó tập trung khi không hút thuốc, và sự lệ thuộc nghiêm trọng này khiến việc cai thuốc khi trưởng thành trở nên vô cùng khó khăn. Một hậu quả nữa là <strong><em>thói quen hút thuốc lâu dài tạo ra gánh nặng tài chính đáng kể cho người trẻ</em></strong>. Việc dùng một phần lớn tiền tiêu vặt hoặc thu nhập để mua các sản phẩm thuốc lá làm giảm số tiền dành cho học tập và các nhu cầu thiết yếu khác.\n\nTóm lại, <strong>việc hút thuốc ở giới trẻ</strong> bắt nguồn từ tâm lý đám đông, sự bắt chước gia đình và căng thẳng, dẫn đến suy giảm sức khỏe nghiêm trọng, nghiện nicotine và áp lực tài chính. Giải quyết những nguyên nhân gốc rễ này thông qua giáo dục và hỗ trợ là điều thiết yếu để bảo vệ thế hệ trẻ.",
@@ -128590,14 +128508,6 @@ const ESSAY_DATA = [
                     {
                       "en": "start a business",
                       "vi": "bắt đầu kinh doanh"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
                     }
                   ],
                   [
@@ -128612,10 +128522,6 @@ const ESSAY_DATA = [
                     {
                       "en": "flexible working arrangements",
                       "vi": "sự sắp xếp công việc linh hoạt"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -128689,10 +128595,6 @@ const ESSAY_DATA = [
                     {
                       "en": "successful business",
                       "vi": "doanh nghiệp thành công"
-                    },
-                    {
-                      "en": "moreover",
-                      "vi": "ngoài ra / hơn nữa"
                     }
                   ],
                   [
@@ -128707,10 +128609,6 @@ const ESSAY_DATA = [
                     {
                       "en": "start a business",
                       "vi": "bắt đầu kinh doanh"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     },
                     {
                       "en": "improve the situation",
@@ -128763,10 +128661,6 @@ const ESSAY_DATA = [
                   {
                     "en": "social media marketing",
                     "vi": "tiếp thị qua mạng xã hội"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   }
                 ],
                 "evidence_collocations": [
@@ -128798,8 +128692,8 @@ const ESSAY_DATA = [
                       "vi": "tiếp thị qua mạng xã hội"
                     },
                     {
-                      "en": "for example",
-                      "vi": "ví dụ"
+                      "en": "open online shops",
+                      "vi": "mở cửa hàng trực tuyến"
                     }
                   ],
                   [
@@ -128810,14 +128704,6 @@ const ESSAY_DATA = [
                     {
                       "en": "start a business",
                       "vi": "bắt đầu kinh doanh"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "consequently",
-                      "vi": "hệ quả là / do đó"
                     }
                   ]
                 ]
@@ -129971,533 +129857,426 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "causes": [
               {
-                "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
+                "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP VÀ THI CỬ",
                 "point_vi": "Áp lực học tập nặng nề là nguyên nhân hàng đầu gây căng thẳng cho giới trẻ.",
-                "point_en": "Heavy academic pressure is the leading cause of stress for young people.",
-                "evidence_vi": "Học sinh phải hoàn thành khối lượng lớn bài tập và đối mặt với các kỳ thi cạnh tranh, vì vậy các bạn luôn lo lắng về điểm số.",
-                "evidence_en": "Students must complete a heavy workload of homework and face competitive exams, so they constantly worry about their grades.",
-                "collocations": [
+                "point_en": "Heavy study pressure is a leading cause of stress for youth.",
+                "point_collocations": [
                   {
-                    "en": "academic pressure",
-                    "vi": "áp lực học tập"
+                    "en": "heavy study pressure",
+                    "vi": "áp lực học tập nặng nề"
                   },
                   {
                     "en": "leading cause of stress",
                     "vi": "nguyên nhân hàng đầu gây căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Học sinh phải làm quá nhiều bài tập và đối mặt với các kỳ thi khó, vì vậy các em thường xuyên lo lắng và thiếu ngủ.",
+                "evidence_en": "Students deal with too much homework and difficult exams, so they often feel anxious and lack sleep.",
+                "evidence_collocations": [
+                  {
+                    "en": "deal with too much homework",
+                    "vi": "giải quyết quá nhiều bài tập về nhà"
                   },
                   {
-                    "en": "heavy workload",
-                    "vi": "khối lượng bài vở lớn"
+                    "en": "difficult exams",
+                    "vi": "các kỳ thi khó"
                   },
                   {
-                    "en": "competitive exams",
-                    "vi": "các kỳ thi cạnh tranh"
+                    "en": "feel anxious and lack sleep",
+                    "vi": "cảm thấy lo lắng và thiếu ngủ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "study pressure",
+                    "vi": "áp lực học tập"
                   },
                   {
-                    "en": "worry about grades",
-                    "vi": "lo lắng về điểm số"
+                    "en": "difficult exams",
+                    "vi": "kỳ thi khó"
+                  },
+                  {
+                    "en": "lack sleep",
+                    "vi": "thiếu ngủ"
                   }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
-                "point_vi": "Nỗi lo lắng về công việc tương lai cũng khiến nhiều bạn trẻ cảm thấy căng thẳng.",
-                "point_en": "Worry about future careers also makes many young people feel stressed.",
-                "evidence_vi": "Các bạn trẻ lo lắng về việc chọn ngành học và sợ không tìm được việc làm tốt sau khi ra trường.",
-                "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
-                "collocations": [
+                "title": "NGUYÊN NHÂN 02: KỲ VỌNG QUÁ LỚN TỪ CHA MẸ",
+                "point_vi": "Kỳ vọng quá cao từ gia đình tạo ra gánh nặng tâm lý lớn.",
+                "point_en": "High parental expectations create a heavy psychological burden.",
+                "point_collocations": [
                   {
-                    "en": "worry about future careers",
-                    "vi": "lo lắng về công việc tương lai"
+                    "en": "high parental expectations",
+                    "vi": "kỳ vọng quá cao từ cha mẹ"
+                  },
+                  {
+                    "en": "psychological burden",
+                    "vi": "gánh nặng tâm lý"
+                  }
+                ],
+                "evidence_vi": "Nhiều bậc phụ huynh luôn muốn con đạt điểm số cao nhất, do đó trẻ sợ làm cha mẹ thất vọng và chịu nhiều áp lực.",
+                "evidence_en": "Many parents demand top grades, so children fear disappointing their family and feel stressed.",
+                "evidence_collocations": [
+                  {
+                    "en": "demand top grades",
+                    "vi": "đòi hỏi điểm số cao nhất"
+                  },
+                  {
+                    "en": "fear disappointing family",
+                    "vi": "sợ làm gia đình thất vọng"
                   },
                   {
                     "en": "feel stressed",
-                    "vi": "cảm thấy căng thẳng"
+                    "vi": "cảm thấy căng thẳng (áp lực)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "parental expectations",
+                    "vi": "kỳ vọng của cha mẹ"
                   },
                   {
-                    "en": "choose the right major",
-                    "vi": "chọn đúng ngành học"
-                  },
-                  {
-                    "en": "find a good job",
-                    "vi": "tìm được việc làm tốt"
-                  },
-                  {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "en": "top grades",
+                    "vi": "điểm số cao"
                   }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
-                "point_vi": "Những rắc rối trong các mối quan hệ xã hội gây ra nhiều mệt mỏi cho người trẻ.",
-                "point_en": "Troubles in social relationships cause a lot of exhaustion for young people.",
-                "evidence_vi": "Nhiều bạn trẻ so sánh bản thân với người khác trên mạng xã hội và cảm thấy cô đơn khi gặp mâu thuẫn với bạn bè.",
-                "evidence_en": "Many young people compare themselves with others on social media and feel lonely when they have conflicts with friends.",
+                "title": "NGUYÊN NHÂN 03: ÁP LỰC ĐỒNG TRANG LỨA VÀ MẠNG XÃ HỘI",
+                "point_vi": "Mạng xã hội và áp lực đồng trang lứa khiến giới trẻ thêm tự ti.",
+                "point_en": "Social media and peer pressure make teenagers feel insecure.",
+                "point_collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực đồng trang lứa"
+                  },
+                  {
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti (bất an)"
+                  }
+                ],
+                "evidence_vi": "Người trẻ liên tục so sánh bản thân với hình ảnh hoàn hảo của bạn bè trên mạng, vì vậy các em dễ rơi vào trầm cảm.",
+                "evidence_en": "Young people compare themselves to perfect online pictures of peers, so they easily feel depressed.",
+                "evidence_collocations": [
+                  {
+                    "en": "compare themselves to peers",
+                    "vi": "so sánh bản thân với bạn bè cùng trang lứa"
+                  },
+                  {
+                    "en": "perfect online pictures",
+                    "vi": "hình ảnh hoàn hảo trên mạng"
+                  },
+                  {
+                    "en": "feel depressed",
+                    "vi": "cảm thấy chán nản (trầm cảm)"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "social relationships",
-                    "vi": "các mối quan hệ xã hội"
+                    "en": "peer pressure",
+                    "vi": "áp lực đồng trang lứa"
                   },
                   {
-                    "en": "cause a lot of exhaustion",
-                    "vi": "gây ra nhiều mệt mỏi"
-                  },
-                  {
-                    "en": "compare themselves with others",
-                    "vi": "so sánh bản thân với người khác"
-                  },
-                  {
-                    "en": "on social media",
-                    "vi": "trên mạng xã hội"
-                  },
-                  {
-                    "en": "conflicts with friends",
-                    "vi": "mâu thuẫn với bạn bè"
-                  },
-                  {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
+                    "en": "feel depressed",
+                    "vi": "cảm thấy trầm cảm"
                   }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
-                "point_vi": "Gánh nặng tài chính là một lý do phổ biến khác gây ra căng thẳng cho sinh viên.",
-                "point_en": "Financial burden is another common reason for stress among students.",
-                "evidence_vi": "Học phí và chi phí sinh hoạt ngày càng tăng, vì vậy nhiều sinh viên phải làm thêm nhiều giờ để trang trải cuộc sống.",
-                "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
+                "title": "NGUYÊN NHÂN 04: LO LẮNG VỀ NGHỀ NGHIỆP TƯƠNG LAI",
+                "point_vi": "Sự bất định về nghề nghiệp tương lai là nỗi lo lớn của sinh viên.",
+                "point_en": "Career uncertainty is a major worry for young graduates.",
+                "point_collocations": [
+                  {
+                    "en": "career uncertainty",
+                    "vi": "sự bất định về nghề nghiệp"
+                  },
+                  {
+                    "en": "major worry",
+                    "vi": "nỗi lo lớn"
+                  }
+                ],
+                "evidence_vi": "Thị trường lao động cạnh tranh gay gắt khiến nhiều bạn trẻ sợ thất nghiệp, do đó họ chịu áp lực lớn khi tìm việc làm.",
+                "evidence_en": "Fierce job market competition makes youths fear unemployment, so they face great stress when job searching.",
+                "evidence_collocations": [
+                  {
+                    "en": "fierce job market competition",
+                    "vi": "thị trường lao động cạnh tranh gay gắt"
+                  },
+                  {
+                    "en": "fear unemployment",
+                    "vi": "lo sợ bị thất nghiệp"
+                  },
+                  {
+                    "en": "job searching",
+                    "vi": "tìm kiếm việc làm"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "financial burden",
-                    "vi": "gánh nặng tài chính"
+                    "en": "career uncertainty",
+                    "vi": "bấp bênh nghề nghiệp"
                   },
                   {
-                    "en": "common reason for stress",
-                    "vi": "lý do phổ biến gây căng thẳng"
-                  },
-                  {
-                    "en": "tuition fees and living costs",
-                    "vi": "học phí và chi phí sinh hoạt"
-                  },
-                  {
-                    "en": "part-time jobs",
-                    "vi": "việc làm thêm bán thời gian"
-                  },
-                  {
-                    "en": "cover expenses",
-                    "vi": "trang trải chi phí"
+                    "en": "fear unemployment",
+                    "vi": "sợ thất nghiệp"
                   }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
-                "point_vi": "Việc thích nghi với những thay đổi lớn trong cuộc sống cũng tạo ra nhiều áp lực.",
-                "point_en": "Adapting to major life changes also creates a lot of pressure.",
-                "evidence_vi": "Khi chuyển đến một thành phố mới hoặc bắt đầu sống tự lập, người trẻ phải tự mình làm mọi việc và dễ cảm thấy bỡ ngỡ.",
-                "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
+                "title": "NGUYÊN NHÂN 05: THIẾU KỸ NĂNG CÂN BẰNG CUỘC SỐNG",
+                "point_vi": "Nhiều người trẻ thiếu các kỹ năng quản lý thời gian và giải tỏa căng thẳng.",
+                "point_en": "Many youths lack skills in time management and stress relief.",
+                "point_collocations": [
+                  {
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
+                  },
+                  {
+                    "en": "stress relief",
+                    "vi": "giải tỏa căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Họ thường thức khuya và lười tập thể dục, vì vậy thể chất và tinh thần của các em nhanh chóng bị kiệt sức.",
+                "evidence_en": "They stay up late and skip exercise, so their physical and mental health becomes exhausted quickly.",
+                "evidence_collocations": [
+                  {
+                    "en": "stay up late",
+                    "vi": "thức khuya"
+                  },
+                  {
+                    "en": "skip exercise",
+                    "vi": "bỏ bê (lười) tập thể dục"
+                  },
+                  {
+                    "en": "become exhausted quickly",
+                    "vi": "nhanh chóng bị kiệt sức"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "adapting to major life changes",
-                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
                   },
                   {
-                    "en": "creates a lot of pressure",
-                    "vi": "tạo ra nhiều áp lực"
-                  },
-                  {
-                    "en": "moving to a new city",
-                    "vi": "chuyển đến một thành phố mới"
-                  },
-                  {
-                    "en": "live independently",
-                    "vi": "sống tự lập"
-                  },
-                  {
-                    "en": "feel overwhelmed",
-                    "vi": "cảm thấy bỡ ngỡ / quá tải"
+                    "en": "stay up late",
+                    "vi": "thức khuya"
                   }
                 ]
               }
             ],
             "benefits": [
               {
-                "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP",
+                "title": "NGUYÊN NHÂN 01: ÁP LỰC HỌC TẬP VÀ THI CỬ",
                 "point_vi": "Áp lực học tập nặng nề là nguyên nhân hàng đầu gây căng thẳng cho giới trẻ.",
-                "point_en": "Heavy academic pressure is the leading cause of stress for young people.",
-                "evidence_vi": "Học sinh phải hoàn thành khối lượng lớn bài tập và đối mặt với các kỳ thi cạnh tranh, vì vậy các bạn luôn lo lắng về điểm số.",
-                "evidence_en": "Students must complete a heavy workload of homework and face competitive exams, so they constantly worry about their grades.",
-                "collocations": [
+                "point_en": "Heavy study pressure is a leading cause of stress for youth.",
+                "point_collocations": [
                   {
-                    "en": "academic pressure",
-                    "vi": "áp lực học tập"
+                    "en": "heavy study pressure",
+                    "vi": "áp lực học tập nặng nề"
                   },
                   {
                     "en": "leading cause of stress",
                     "vi": "nguyên nhân hàng đầu gây căng thẳng"
-                  },
-                  {
-                    "en": "heavy workload",
-                    "vi": "khối lượng bài vở lớn"
-                  },
-                  {
-                    "en": "competitive exams",
-                    "vi": "các kỳ thi cạnh tranh"
-                  },
-                  {
-                    "en": "worry about grades",
-                    "vi": "lo lắng về điểm số"
                   }
                 ],
-                "point_collocations": [
+                "evidence_vi": "Học sinh phải làm quá nhiều bài tập và đối mặt với các kỳ thi khó, vì vậy các em thường xuyên lo lắng và thiếu ngủ.",
+                "evidence_en": "Students deal with too much homework and difficult exams, so they often feel anxious and lack sleep.",
+                "evidence_collocations": [
                   {
-                    "en": "academic pressure",
+                    "en": "deal with too much homework",
+                    "vi": "giải quyết quá nhiều bài tập về nhà"
+                  },
+                  {
+                    "en": "difficult exams",
+                    "vi": "các kỳ thi khó"
+                  },
+                  {
+                    "en": "feel anxious and lack sleep",
+                    "vi": "cảm thấy lo lắng và thiếu ngủ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "study pressure",
                     "vi": "áp lực học tập"
                   },
                   {
-                    "en": "leading cause of stress",
-                    "vi": "nguyên nhân hàng đầu gây căng thẳng"
+                    "en": "difficult exams",
+                    "vi": "kỳ thi khó"
                   },
                   {
-                    "en": "stress among young people",
-                    "vi": "căng thẳng ở giới trẻ"
-                  },
-                  {
-                    "en": "stress",
-                    "vi": "sự căng thẳng, áp lực"
-                  },
-                  {
-                    "en": "pressure",
-                    "vi": "áp lực, sự đè nặng"
+                    "en": "lack sleep",
+                    "vi": "thiếu ngủ"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "heavy workload",
-                      "vi": "khối lượng bài vở lớn"
-                    },
-                    {
-                      "en": "competitive exams",
-                      "vi": "các kỳ thi cạnh tranh"
-                    },
-                    {
-                      "en": "worry about grades",
-                      "vi": "lo lắng về điểm số"
-                    },
-                    {
-                      "en": "workload",
-                      "vi": "khối lượng công việc / bài vở"
-                    },
-                    {
-                      "en": "competitive",
-                      "vi": "có tính cạnh tranh"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 02: KỲ VỌNG VỀ SỰ NGHIỆP TRONG TƯƠNG LAI",
-                "point_vi": "Nỗi lo lắng về công việc tương lai cũng khiến nhiều bạn trẻ cảm thấy căng thẳng.",
-                "point_en": "Worry about future careers also makes many young people feel stressed.",
-                "evidence_vi": "Các bạn trẻ lo lắng về việc chọn ngành học và sợ không tìm được việc làm tốt sau khi ra trường.",
-                "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
-                "collocations": [
+                "title": "NGUYÊN NHÂN 02: KỲ VỌNG QUÁ LỚN TỪ CHA MẸ",
+                "point_vi": "Kỳ vọng quá cao từ gia đình tạo ra gánh nặng tâm lý lớn.",
+                "point_en": "High parental expectations create a heavy psychological burden.",
+                "point_collocations": [
                   {
-                    "en": "worry about future careers",
-                    "vi": "lo lắng về công việc tương lai"
+                    "en": "high parental expectations",
+                    "vi": "kỳ vọng quá cao từ cha mẹ"
+                  },
+                  {
+                    "en": "psychological burden",
+                    "vi": "gánh nặng tâm lý"
+                  }
+                ],
+                "evidence_vi": "Nhiều bậc phụ huynh luôn muốn con đạt điểm số cao nhất, do đó trẻ sợ làm cha mẹ thất vọng và chịu nhiều áp lực.",
+                "evidence_en": "Many parents demand top grades, so children fear disappointing their family and feel stressed.",
+                "evidence_collocations": [
+                  {
+                    "en": "demand top grades",
+                    "vi": "đòi hỏi điểm số cao nhất"
+                  },
+                  {
+                    "en": "fear disappointing family",
+                    "vi": "sợ làm gia đình thất vọng"
                   },
                   {
                     "en": "feel stressed",
-                    "vi": "cảm thấy căng thẳng"
-                  },
-                  {
-                    "en": "choose the right major",
-                    "vi": "chọn đúng ngành học"
-                  },
-                  {
-                    "en": "find a good job",
-                    "vi": "tìm được việc làm tốt"
-                  },
-                  {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "vi": "cảm thấy căng thẳng (áp lực)"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "worry about future careers",
-                    "vi": "lo lắng về công việc tương lai"
+                    "en": "parental expectations",
+                    "vi": "kỳ vọng của cha mẹ"
                   },
                   {
-                    "en": "feel stressed",
-                    "vi": "cảm thấy căng thẳng"
-                  },
-                  {
-                    "en": "stress among young people",
-                    "vi": "căng thẳng ở giới trẻ"
-                  },
-                  {
-                    "en": "worry about grades",
-                    "vi": "lo lắng về điểm số"
-                  },
-                  {
-                    "en": "uncertainty about the future",
-                    "vi": "sự bất định về tương lai"
+                    "en": "top grades",
+                    "vi": "điểm số cao"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "worry about future careers",
-                      "vi": "lo lắng về công việc tương lai"
-                    },
-                    {
-                      "en": "choose the right major",
-                      "vi": "chọn đúng ngành học"
-                    },
-                    {
-                      "en": "find a good job",
-                      "vi": "tìm được việc làm tốt"
-                    },
-                    {
-                      "en": "after graduation",
-                      "vi": "sau khi tốt nghiệp"
-                    },
-                    {
-                      "en": "worry about grades",
-                      "vi": "lo lắng về điểm số"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 03: CÁC MỐI QUAN HỆ XÃ HỘI",
-                "point_vi": "Những rắc rối trong các mối quan hệ xã hội gây ra nhiều mệt mỏi cho người trẻ.",
-                "point_en": "Troubles in social relationships cause a lot of exhaustion for young people.",
-                "evidence_vi": "Nhiều bạn trẻ so sánh bản thân với người khác trên mạng xã hội và cảm thấy cô đơn khi gặp mâu thuẫn với bạn bè.",
-                "evidence_en": "Many young people compare themselves with others on social media and feel lonely when they have conflicts with friends.",
-                "collocations": [
-                  {
-                    "en": "social relationships",
-                    "vi": "các mối quan hệ xã hội"
-                  },
-                  {
-                    "en": "cause a lot of exhaustion",
-                    "vi": "gây ra nhiều mệt mỏi"
-                  },
-                  {
-                    "en": "compare themselves with others",
-                    "vi": "so sánh bản thân với người khác"
-                  },
-                  {
-                    "en": "on social media",
-                    "vi": "trên mạng xã hội"
-                  },
-                  {
-                    "en": "conflicts with friends",
-                    "vi": "mâu thuẫn với bạn bè"
-                  },
-                  {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
-                  }
-                ],
+                "title": "NGUYÊN NHÂN 03: ÁP LỰC ĐỒNG TRANG LỨA VÀ MẠNG XÃ HỘI",
+                "point_vi": "Mạng xã hội và áp lực đồng trang lứa khiến giới trẻ thêm tự ti.",
+                "point_en": "Social media and peer pressure make teenagers feel insecure.",
                 "point_collocations": [
                   {
-                    "en": "social relationships",
-                    "vi": "các mối quan hệ xã hội"
+                    "en": "peer pressure",
+                    "vi": "áp lực đồng trang lứa"
                   },
                   {
-                    "en": "cause a lot of exhaustion",
-                    "vi": "gây ra nhiều mệt mỏi"
-                  },
-                  {
-                    "en": "stress among young people",
-                    "vi": "căng thẳng ở giới trẻ"
-                  },
-                  {
-                    "en": "exhaustion",
-                    "vi": "sự kiệt sức, tình trạng kiệt quệ"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
+                    "en": "feel insecure",
+                    "vi": "cảm thấy tự ti (bất an)"
                   }
                 ],
+                "evidence_vi": "Người trẻ liên tục so sánh bản thân với hình ảnh hoàn hảo của bạn bè trên mạng, vì vậy các em dễ rơi vào trầm cảm.",
+                "evidence_en": "Young people compare themselves to perfect online pictures of peers, so they easily feel depressed.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "compare themselves with others",
-                      "vi": "so sánh bản thân với người khác"
-                    },
-                    {
-                      "en": "on social media",
-                      "vi": "trên mạng xã hội"
-                    },
-                    {
-                      "en": "conflicts with friends",
-                      "vi": "mâu thuẫn với bạn bè"
-                    },
-                    {
-                      "en": "feel lonely",
-                      "vi": "cảm thấy cô đơn"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    }
-                  ]
+                  {
+                    "en": "compare themselves to peers",
+                    "vi": "so sánh bản thân với bạn bè cùng trang lứa"
+                  },
+                  {
+                    "en": "perfect online pictures",
+                    "vi": "hình ảnh hoàn hảo trên mạng"
+                  },
+                  {
+                    "en": "feel depressed",
+                    "vi": "cảm thấy chán nản (trầm cảm)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực đồng trang lứa"
+                  },
+                  {
+                    "en": "feel depressed",
+                    "vi": "cảm thấy trầm cảm"
+                  }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 04: VẤN ĐỀ TÀI CHÍNH",
-                "point_vi": "Gánh nặng tài chính là một lý do phổ biến khác gây ra căng thẳng cho sinh viên.",
-                "point_en": "Financial burden is another common reason for stress among students.",
-                "evidence_vi": "Học phí và chi phí sinh hoạt ngày càng tăng, vì vậy nhiều sinh viên phải làm thêm nhiều giờ để trang trải cuộc sống.",
-                "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
-                "collocations": [
-                  {
-                    "en": "financial burden",
-                    "vi": "gánh nặng tài chính"
-                  },
-                  {
-                    "en": "common reason for stress",
-                    "vi": "lý do phổ biến gây căng thẳng"
-                  },
-                  {
-                    "en": "tuition fees and living costs",
-                    "vi": "học phí và chi phí sinh hoạt"
-                  },
-                  {
-                    "en": "part-time jobs",
-                    "vi": "việc làm thêm bán thời gian"
-                  },
-                  {
-                    "en": "cover expenses",
-                    "vi": "trang trải chi phí"
-                  }
-                ],
+                "title": "NGUYÊN NHÂN 04: LO LẮNG VỀ NGHỀ NGHIỆP TƯƠNG LAI",
+                "point_vi": "Sự bất định về nghề nghiệp tương lai là nỗi lo lớn của sinh viên.",
+                "point_en": "Career uncertainty is a major worry for young graduates.",
                 "point_collocations": [
                   {
-                    "en": "financial burden",
-                    "vi": "gánh nặng tài chính"
+                    "en": "career uncertainty",
+                    "vi": "sự bất định về nghề nghiệp"
                   },
                   {
-                    "en": "common reason for stress",
-                    "vi": "lý do phổ biến gây căng thẳng"
-                  },
-                  {
-                    "en": "stress among young people",
-                    "vi": "căng thẳng ở giới trẻ"
-                  },
-                  {
-                    "en": "stress",
-                    "vi": "sự căng thẳng, áp lực"
+                    "en": "major worry",
+                    "vi": "nỗi lo lớn"
                   }
                 ],
+                "evidence_vi": "Thị trường lao động cạnh tranh gay gắt khiến nhiều bạn trẻ sợ thất nghiệp, do đó họ chịu áp lực lớn khi tìm việc làm.",
+                "evidence_en": "Fierce job market competition makes youths fear unemployment, so they face great stress when job searching.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "tuition fees and living costs",
-                      "vi": "học phí và chi phí sinh hoạt"
-                    },
-                    {
-                      "en": "part-time jobs",
-                      "vi": "việc làm thêm bán thời gian"
-                    },
-                    {
-                      "en": "cover expenses",
-                      "vi": "trang trải chi phí"
-                    },
-                    {
-                      "en": "tuition fees",
-                      "vi": "học phí"
-                    },
-                    {
-                      "en": "living expenses",
-                      "vi": "chi phí sinh hoạt"
-                    }
-                  ]
+                  {
+                    "en": "fierce job market competition",
+                    "vi": "thị trường lao động cạnh tranh gay gắt"
+                  },
+                  {
+                    "en": "fear unemployment",
+                    "vi": "lo sợ bị thất nghiệp"
+                  },
+                  {
+                    "en": "job searching",
+                    "vi": "tìm kiếm việc làm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "career uncertainty",
+                    "vi": "bấp bênh nghề nghiệp"
+                  },
+                  {
+                    "en": "fear unemployment",
+                    "vi": "sợ thất nghiệp"
+                  }
                 ]
               },
               {
-                "title": "NGUYÊN NHÂN 05: NHỮNG THÁCH THỨC VÀ THAY ĐỔI TRONG CUỘC SỐNG",
-                "point_vi": "Việc thích nghi với những thay đổi lớn trong cuộc sống cũng tạo ra nhiều áp lực.",
-                "point_en": "Adapting to major life changes also creates a lot of pressure.",
-                "evidence_vi": "Khi chuyển đến một thành phố mới hoặc bắt đầu sống tự lập, người trẻ phải tự mình làm mọi việc và dễ cảm thấy bỡ ngỡ.",
-                "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
-                "collocations": [
-                  {
-                    "en": "adapting to major life changes",
-                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
-                  },
-                  {
-                    "en": "creates a lot of pressure",
-                    "vi": "tạo ra nhiều áp lực"
-                  },
-                  {
-                    "en": "moving to a new city",
-                    "vi": "chuyển đến một thành phố mới"
-                  },
-                  {
-                    "en": "live independently",
-                    "vi": "sống tự lập"
-                  },
-                  {
-                    "en": "feel overwhelmed",
-                    "vi": "cảm thấy bỡ ngỡ / quá tải"
-                  }
-                ],
+                "title": "NGUYÊN NHÂN 05: THIẾU KỸ NĂNG CÂN BẰNG CUỘC SỐNG",
+                "point_vi": "Nhiều người trẻ thiếu các kỹ năng quản lý thời gian và giải tỏa căng thẳng.",
+                "point_en": "Many youths lack skills in time management and stress relief.",
                 "point_collocations": [
                   {
-                    "en": "adapting to major life changes",
-                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
                   },
                   {
-                    "en": "creates a lot of pressure",
-                    "vi": "tạo ra nhiều áp lực"
-                  },
-                  {
-                    "en": "pressure",
-                    "vi": "áp lực, sự đè nặng"
-                  },
-                  {
-                    "en": "adapt",
-                    "vi": "thích nghi, làm quen"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
+                    "en": "stress relief",
+                    "vi": "giải tỏa căng thẳng"
                   }
                 ],
+                "evidence_vi": "Họ thường thức khuya và lười tập thể dục, vì vậy thể chất và tinh thần của các em nhanh chóng bị kiệt sức.",
+                "evidence_en": "They stay up late and skip exercise, so their physical and mental health becomes exhausted quickly.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "moving to a new city",
-                      "vi": "chuyển đến một thành phố mới"
-                    },
-                    {
-                      "en": "live independently",
-                      "vi": "sống tự lập"
-                    },
-                    {
-                      "en": "feel overwhelmed",
-                      "vi": "cảm thấy bỡ ngỡ / quá tải"
-                    },
-                    {
-                      "en": "stress among young people",
-                      "vi": "căng thẳng ở giới trẻ"
-                    },
-                    {
-                      "en": "independent",
-                      "vi": "tự lập, độc lập"
-                    }
-                  ]
+                  {
+                    "en": "stay up late",
+                    "vi": "thức khuya"
+                  },
+                  {
+                    "en": "skip exercise",
+                    "vi": "bỏ bê (lười) tập thể dục"
+                  },
+                  {
+                    "en": "become exhausted quickly",
+                    "vi": "nhanh chóng bị kiệt sức"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
+                  },
+                  {
+                    "en": "stay up late",
+                    "vi": "thức khuya"
+                  }
                 ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "causes": [
@@ -133134,7 +132913,7 @@ const ESSAY_DATA = [
                 "point_vi": "Khán giả có sở thích và nhu cầu giải trí khác nhau.",
                 "point_en": "Viewers have different interests and entertainment needs.",
                 "evidence_vi": "Một số người thích tin tức và chương trình giáo dục, trong khi những người khác thích phim ảnh hoặc thể thao. Vì vậy, các kênh truyền hình cần cung cấp nhiều nội dung khác nhau để thu hút nhiều nhóm khán giả. Nhờ đó, nhiều người có thể tìm được những chương trình phù hợp với sở thích của mình.",
-                "evidence_en": "Some people like news and educational shows, while others prefer movies or sports. Therefore, television channels need to provide different types of content to attract different audiences. As a result, more people can find programs that suit their interests.",
+                "evidence_en": "Some people like news and educational shows, while others prefer movies or sports. Therefore, television channels need to provide different types of content to attract different audiences. As a result, more people can find suitable programs for their personal interests.",
                 "point_collocations": [
                   {
                     "en": "entertainment needs",
@@ -133172,20 +132951,12 @@ const ESSAY_DATA = [
                     {
                       "en": "diverse television content",
                       "vi": "nội dung truyền hình đa dạng"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ],
                   [
                     {
                       "en": "suit personal interests",
                       "vi": "phù hợp sở thích cá nhân"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "entertainment needs",
@@ -133360,10 +133131,6 @@ const ESSAY_DATA = [
                     {
                       "en": "attract more viewers",
                       "vi": "thu hút thêm nhiều người xem"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -133809,7 +133576,7 @@ const ESSAY_DATA = [
               "vi": "truyền phát độ nét cao"
             }
           ],
-          "sample_b1": "In recent years, <strong>the wide variety of television programs</strong> has become a common topic of discussion in modern society. This trend affects both viewers and the media industry in different ways. <strong>This essay will discuss the main causes of this trend.</strong>\n\nOne major cause is that <strong><em>viewers have different interests and entertainment needs</em></strong>. In fact, some people enjoy watching daily news, science documentaries, and educational shows, while others prefer romantic movies, music shows, or live sports. Therefore, television channels need to provide many different types of content to attract different age groups and audiences. As a result, more people in a family can easily find programs that suit their personal interests.\n\nAnother contributing factor is that <strong><em>competition between television channels encourages them to create different programs</em></strong>. Today, there are hundreds of local and international channels competing for viewers' attention. Because channels want to attract more viewers and advertising money, they often develop new, creative, and attractive program formats. This strong competition makes television content more diverse every year.\n\nA further reason is that <strong><em>technological development helps producers create more types of programs</em></strong>. Modern cameras, editing software, and satellite broadcasting tools make filming and producing television shows much faster and easier than before. Consequently, programs can be created with many different formats and topics, giving viewers more choices when watching television at home.\n\nIn conclusion, <strong>the wide variety of television programs</strong> is caused by diverse viewer needs, channel competition, and modern technology. Understanding these causes helps us appreciate how television continues to develop in the future.",
+          "sample_b1": "In recent years, <strong>the wide variety of television programs</strong> has become a common topic of discussion in modern society. This trend affects both viewers and the media industry in different ways. <strong>This essay will discuss the main causes of this trend.</strong>\n\nOne major cause is that <strong><em>viewers have different interests and entertainment needs</em></strong>. In fact, some people enjoy watching daily news, science documentaries, and educational shows, while others prefer romantic movies, music shows, or live sports. Therefore, television channels need to provide many different types of content to attract different age groups and audiences. As a result, more people in a family can easily find suitable programs for their personal interests.\n\nAnother contributing factor is that <strong><em>competition between television channels encourages them to create different programs</em></strong>. Today, there are hundreds of local and international channels competing for viewers' attention. Because channels want to attract more viewers and advertising money, they often develop new, creative, and attractive program formats. This strong competition makes television content more diverse every year.\n\nA further reason is that <strong><em>technological development helps producers create more types of programs</em></strong>. Modern cameras, editing software, and satellite broadcasting tools make filming and producing television shows much faster and easier than before. Consequently, programs can be created with many different formats and topics, giving viewers more choices when watching television at home.\n\nIn conclusion, <strong>the wide variety of television programs</strong> is caused by diverse viewer needs, channel competition, and modern technology. Understanding these causes helps us appreciate how television continues to develop in the future.",
           "translation_b1": "Trong những năm gần đây, <strong>sự đa dạng của các chương trình truyền hình</strong> đã trở thành một chủ đề thảo luận phổ biến trong xã hội hiện đại. Xu hướng này ảnh hưởng đến cả khán giả và ngành công nghiệp truyền thông theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những nguyên nhân chính dẫn đến xu hướng này.</strong>\n\nMột nguyên nhân lớn là <strong><em>khán giả có sở thích và nhu cầu giải trí khác nhau</em></strong>. Trên thực tế, một số người thích xem tin tức hằng ngày, phim tài liệu khoa học và các chương trình giáo dục, trong khi những người khác lại thích phim tình cảm, chương trình ca nhạc hoặc thể thao trực tiếp. Vì vậy, các kênh truyền hình cần cung cấp nhiều loại nội dung khác nhau để thu hút các nhóm tuổi và khán giả khác nhau. Nhờ đó, nhiều thành viên trong gia đình có thể dễ dàng tìm được những chương trình phù hợp với sở thích cá nhân của mình.\n\nMột yếu tố đóng góp khác là <strong><em>sự cạnh tranh giữa các kênh truyền hình thúc đẩy họ tạo ra nhiều chương trình khác nhau</em></strong>. Ngày nay, có hàng trăm kênh truyền hình trong nước và quốc tế cùng cạnh tranh để thu hút sự chú ý của người xem. Bởi vì các kênh đều muốn thu hút thêm nhiều khán giả và nguồn thu quảng cáo, họ thường xuyên phát triển những định dạng chương trình mới mẻ, sáng tạo và hấp dẫn. Sự cạnh tranh mạnh mẽ này làm cho nội dung truyền hình ngày càng đa dạng hơn qua từng năm.\n\nMột lý do nữa là <strong><em>sự phát triển của công nghệ giúp các nhà sản xuất tạo ra nhiều loại chương trình hơn</em></strong>. Máy quay hiện đại, phần mềm dựng phim và các công cụ phát sóng vệ tinh giúp việc quay và sản xuất chương trình truyền hình trở nên nhanh chóng và dễ dàng hơn trước rất nhiều. Do đó, các chương trình có thể được tạo ra với nhiều hình thức và chủ đề phong phú, mang lại cho khán giả nhiều lựa chọn hơn khi xem truyền hình tại nhà.\n\nTóm lại, <strong>sự đa dạng của các chương trình truyền hình</strong> bắt nguồn từ nhu cầu phong phú của người xem, sự cạnh tranh giữa các nhà đài và công nghệ hiện đại. Việc hiểu rõ những nguyên nhân này giúp chúng ta trân trọng sự phát triển không ngừng của truyền hình trong tương lai.",
           "sample_b2": "In recent years, <strong>the wide variety of television programs</strong> has become a prominent feature of the modern media landscape. This expansion has transformed how audiences consume information and entertainment in daily life. <strong>This essay will examine the main causes behind the growing diversity of television programming.</strong>\n\nOne major cause is that <strong><em>television audiences possess increasingly diverse interests and entertainment needs</em></strong>. Different demographic groups have distinct preferences and purposes when watching television, so broadcasters must offer a broad spectrum of genres to satisfy these demands. For example, young children typically enjoy animated cartoons, whereas working adults may prefer current-affairs programs, financial news, or investigative documentaries. Therefore, audience heterogeneity directly contributes to greater variety in television content.\n\nAnother contributing factor is that <strong><em>strong competition among broadcasters encourages greater variety in television programs</em></strong>. In an era of hundreds of cable channels and streaming services, networks need effective strategies to attract and retain large audiences during prime-time hours. As a result, they have to innovate continuously and develop engaging new formats, such as interactive reality shows, talent competitions, and cultural game shows. The stronger the rivalry within the broadcasting industry, the greater the motivation for channels to diversify their programming.\n\nA further reason is that <strong><em>technological advances have expanded the ability to produce and distribute television content</em></strong>. Cutting-edge filming equipment, digital editing software, and high-definition broadcasting allow producers to create specialized multimedia content more efficiently and affordably. For instance, modern technology supports the production of live international sports broadcasts, nature documentaries, and studio entertainment programs with exceptional quality, while digital platforms allow niche programs to reach wider audiences.\n\nIn conclusion, <strong>the wide variety of television programs</strong> is primarily driven by diverse viewer demographics, fierce broadcasting competition, and advanced production technologies. These factors will continue to shape and enrich the television industry in the future.",
           "translation_b2": "Trong những năm gần đây, <strong>sự đa dạng phong phú của các chương trình truyền hình</strong> đã trở thành một đặc điểm nổi bật của bức tranh truyền thông hiện đại. Sự mở rộng này đã làm thay đổi cách khán giả tiếp nhận thông tin và giải trí trong đời sống hằng ngày. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính đằng sau sự đa dạng ngày càng tăng của các chương trình truyền hình.</strong>\n\nMột nguyên nhân lớn là <strong><em>khán giả truyền hình ngày càng có những sở thích và nhu cầu giải trí đa dạng</em></strong>. Các nhóm nhân khẩu học khác nhau có những thị hiếu và mục đích riêng biệt khi xem truyền hình, vì vậy các nhà đài phải cung cấp một phổ thể loại rộng lớn để đáp ứng những nhu cầu này. Ví dụ, trẻ nhỏ thường thích phim hoạt hình, trong khi người trưởng thành đi làm có thể quan tâm đến các chương trình thời sự, bản tin tài chính hoặc phim tài liệu điều tra. Do đó, sự đa dạng của các nhóm khán giả đóng góp trực tiếp vào sự phong phú của nội dung truyền hình.\n\nMột yếu tố đóng góp khác là <strong><em>sự cạnh tranh mạnh mẽ giữa các nhà đài thúc đẩy sự đa dạng hơn nữa trong các chương trình truyền hình</em></strong>. Trong kỷ nguyên của hàng trăm kênh truyền hình cáp và dịch vụ phát trực tuyến, các mạng lưới truyền hình cần có chiến lược hiệu quả để thu hút và giữ chân lượng khán giả lớn vào khung giờ vàng. Hệ quả là họ phải liên tục đổi mới và phát triển những định dạng mới lôi cuốn, chẳng hạn như chương trình truyền hình thực tế tương tác, cuộc thi tìm kiếm tài năng và trò chơi truyền hình văn hóa. Sự cạnh tranh trong ngành phát thanh truyền hình càng khốc liệt thì động lực để các kênh đa dạng hóa chương trình càng lớn.\n\nMột lý do nữa là <strong><em>những tiến bộ công nghệ đã mở rộng khả năng sản xuất và phân phối nội dung truyền hình</em></strong>. Thiết bị quay phim tiên tiến, phần mềm dựng phim kỹ thuật số và công nghệ phát sóng độ nét cao cho phép các nhà sản xuất tạo ra nội dung đa phương tiện chuyên biệt một cách hiệu quả và tiết kiệm chi phí hơn. Chẳng hạn, công nghệ hiện đại hỗ trợ việc sản xuất các chương trình truyền hình trực tiếp thể thao quốc tế, phim tài liệu thiên nhiên và chương trình giải trí trường quay với chất lượng vượt trội, đồng thời các nền tảng số giúp những chương trình ngách tiếp cận được lượng khán giả rộng hơn.\n\nTóm lại, <strong>sự đa dạng của các chương trình truyền hình</strong> chủ yếu được thúc đẩy bởi nhu cầu phong phú của người xem, sự cạnh tranh phát sóng khốc liệt và công nghệ sản xuất tiên tiến. Những yếu tố này sẽ tiếp tục định hình và làm phong phú thêm ngành công nghiệp truyền hình trong tương lai.",
@@ -134541,10 +134308,6 @@ const ESSAY_DATA = [
                       "vi": "quên đi áp lực hằng ngày"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
                       "en": "on a daily basis",
                       "vi": "hằng ngày"
                     }
@@ -134571,10 +134334,6 @@ const ESSAY_DATA = [
                     {
                       "en": "leisure time preference",
                       "vi": "ưu tiên trong thời gian rảnh"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -134666,10 +134425,6 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
-                    },
-                    {
                       "en": "entertainment content",
                       "vi": "nội dung giải trí"
                     },
@@ -134707,7 +134462,7 @@ const ESSAY_DATA = [
                 "point_vi": "Bạn bè và các xu hướng trên mạng xã hội có thể định hướng lựa chọn của người trẻ.",
                 "point_en": "Friends and social media trends can influence young people's choices.",
                 "evidence_vi": "Người trẻ thường chia sẻ về những chương trình và người nổi tiếng mà họ yêu thích. Những cuộc trò chuyện này có thể khiến các chương trình trở nên hấp dẫn hơn. Các nội dung phổ biến cũng thường xuất hiện nhiều trên mạng xã hội. Vì vậy, người trẻ có xu hướng xem những chương trình đang được nhiều người quan tâm.",
-                "evidence_en": "Young people often share information about shows and celebrities they like. These conversations can make the programs more attractive. Popular content also often appears frequently on social media. Therefore, young people tend to watch programs that many people are interested in.",
+                "evidence_en": "Young people often share information about shows and celebrities they like. These conversations can make the programs more attractive. Popular content also often appears frequently on social media. Therefore, young people tend to watch popular television programs.",
                 "point_collocations": [
                   {
                     "en": "social media trends",
@@ -134770,10 +134525,6 @@ const ESSAY_DATA = [
                     }
                   ],
                   [
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
-                    },
                     {
                       "en": "social media trends",
                       "vi": "các xu hướng trên mạng xã hội"
@@ -136000,12 +135751,12 @@ const ESSAY_DATA = [
                       "vi": "đi ngủ sớm"
                     },
                     {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
                       "en": "to be specific",
                       "vi": "cụ thể là"
+                    },
+                    {
+                      "en": "sleep on time",
+                      "vi": "ngủ đúng giờ"
                     }
                   ]
                 ]
@@ -136044,10 +135795,6 @@ const ESSAY_DATA = [
                     "vi": "tập thể dục thường xuyên"
                   },
                   {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
-                  },
-                  {
                     "en": "physical activity",
                     "vi": "hoạt động thể chất"
                   }
@@ -136057,10 +135804,6 @@ const ESSAY_DATA = [
                     {
                       "en": "play sports and jog",
                       "vi": "chơi thể thao và chạy bộ"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "regular exercise",
@@ -136101,12 +135844,8 @@ const ESSAY_DATA = [
                       "vi": "đi bộ 30 phút hằng ngày"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
+                      "en": "daily physical activity",
+                      "vi": "hoạt động thể chất hằng ngày"
                     }
                   ]
                 ]
@@ -136188,10 +135927,6 @@ const ESSAY_DATA = [
                       "vi": "ghi nhớ từ vựng mới"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
                       "en": "suitable learning methods",
                       "vi": "phương pháp học phù hợp"
                     }
@@ -136202,12 +135937,12 @@ const ESSAY_DATA = [
                       "vi": "dùng thẻ flashcards"
                     },
                     {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
                       "en": "suitable learning methods",
                       "vi": "phương pháp học phù hợp"
+                    },
+                    {
+                      "en": "effective learning tools",
+                      "vi": "công cụ học tập hiệu quả"
                     }
                   ]
                 ]
@@ -136703,7 +136438,7 @@ const ESSAY_DATA = [
               "vi": "lưu giữ thông tin dài hạn"
             }
           ],
-          "sample_b1": "In recent years, <strong>improving memory</strong> has become increasingly important for students and workers in modern society. Many people want to find effective ways to remember information better in daily life. <strong>This essay will suggest several practical measures to improve memory.</strong>\n\nOne effective solution is that <strong><em>people should maintain healthy sleeping habits to improve their memory</em></strong>. In fact, individuals should get seven to eight hours of sleep every night and avoid staying up too late. Getting enough sleep gives the brain enough time to rest, recover, and store new information effectively. For example, students who go to bed early before important exam days can remember lessons much better than those who stay up all night.\n\nAnother possible measure is that <strong><em>regular physical exercise is a great way to support memory</em></strong>. People can walk, jog, swim, or play sports several times a week to keep their bodies active and healthy. Physical activity increases blood flow to the brain and improves daily concentration. For instance, spending about 30 minutes walking outdoors each day can refresh the mind and strengthen memory performance.\n\nA further approach is that <strong><em>people should use suitable learning methods to remember information better</em></strong>. Learners can take clear notes of important points and review them regularly instead of studying everything only once. Using visual tools such as mind maps and flashcards can also help students remember new vocabulary and key facts for a long time.\n\nIn conclusion, several practical measures can help <strong>improve memory</strong> effectively. By sleeping well, exercising regularly, and using smart study methods, people can strengthen their memory in daily life.",
+          "sample_b1": "In recent years, <strong>improving memory</strong> has become increasingly important for students and workers in modern society. Many people want to find effective ways to remember information better in daily life. <strong>This essay will suggest several practical measures to improve memory.</strong>\n\nOne effective solution is that <strong><em>people should maintain healthy sleeping habits to improve their memory</em></strong>. In fact, individuals should get seven to eight hours of sleep every night and avoid staying up too late. Getting enough sleep gives the brain enough time to rest, recover, and store new information effectively. For example, students going to bed early before important exam days can remember lessons much better than students staying up all night.\n\nAnother possible measure is that <strong><em>regular physical exercise is a great way to support memory</em></strong>. People can walk, jog, swim, or play sports several times a week to keep their bodies active and healthy. Physical activity increases blood flow to the brain and improves daily concentration. For instance, spending about 30 minutes walking outdoors each day can refresh the mind and strengthen memory performance.\n\nA further approach is that <strong><em>people should use suitable learning methods to remember information better</em></strong>. Learners can take clear notes of important points and review them regularly instead of studying everything only once. Using visual tools such as mind maps and flashcards can also help students remember new vocabulary and key facts for a long time.\n\nIn conclusion, several practical measures can help <strong>improve memory</strong> effectively. By sleeping well, exercising regularly, and using smart study methods, people can strengthen their memory in daily life.",
           "translation_b1": "Trong những năm gần đây, <strong>việc cải thiện trí nhớ</strong> ngày càng trở nên quan trọng đối với học sinh, sinh viên và người đi làm trong xã hội hiện đại. Bởi vì con người phải xử lý rất nhiều thông tin mỗi ngày, nhiều cá nhân muốn tìm kiếm những phương pháp hiệu quả để ghi nhớ tốt hơn. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thiết thực để cải thiện trí nhớ.</strong>\n\nMột giải pháp hiệu quả là <strong><em>mọi người nên duy trì thói quen ngủ lành mạnh để cải thiện trí nhớ của mình</em></strong>. Trên thực tế, mỗi cá nhân nên ngủ đủ từ bảy đến tám tiếng mỗi đêm và tránh thức quá khuya. Ngủ đủ giấc giúp não bộ có đủ thời gian để nghỉ ngơi, phục hồi và lưu trữ thông tin mới một cách hiệu quả. Ví dụ, những sinh viên đi ngủ sớm trước các ngày thi quan trọng có thể nhớ bài học tốt hơn nhiều so với những người thức trắng đêm.\n\nMột biện pháp khả thi khác là <strong><em>tập thể dục thường xuyên là một cách tuyệt vời để hỗ trợ trí nhớ</em></strong>. Mọi người có thể đi bộ, chạy bộ, bơi lội hoặc chơi thể thao vài lần mỗi tuần để giữ cho cơ thể năng động và khỏe mạnh. Hoạt động thể chất làm tăng lưu lượng máu lên não và cải thiện khả năng tập trung hằng ngày. Chẳng hạn, dành khoảng 30 phút đi bộ ngoài trời mỗi ngày có thể làm tinh thần sảng khoái và củng cố hiệu suất ghi nhớ.\n\nMột cách tiếp cận nữa là <strong><em>mọi người nên áp dụng những phương pháp học tập phù hợp để ghi nhớ thông tin tốt hơn</em></strong>. Người học có thể ghi chú rõ ràng những ý quan trọng và ôn tập chúng thường xuyên thay vì chỉ học dồn một lần duy nhất. Việc sử dụng các công cụ trực quan như sơ đồ tư duy và thẻ ghi nhớ (flashcards) cũng giúp học sinh nhớ từ vựng mới và các kiến thức trọng tâm trong thời gian dài.\n\nTóm lại, một số biện pháp thiết thực có thể giúp <strong>cải thiện trí nhớ</strong> một cách hiệu quả. Bằng cách ngủ đủ giấc, tập thể dục đều đặn và áp dụng phương pháp học thông minh, mọi người có thể tăng cường trí nhớ trong cuộc sống hằng ngày.",
           "sample_b2": "In recent years, <strong>improving memory retention</strong> has become an increasingly important goal for both students and professionals in modern society. In an era of information overload, maintaining sharp cognitive function is essential for academic success and workplace productivity. <strong>This essay will suggest several practical measures to enhance memory effectively.</strong>\n\nOne effective step is that <strong><em>maintaining healthy sleeping habits is a fundamental way to improve memory</em></strong>. Individuals should get sufficient sleep each night and maintain consistent sleeping and waking schedules. Adequate rest gives the brain the necessary time for neurocognitive recovery and memory consolidation, allowing it to organize and store newly acquired information. For example, students who avoid late-night cramming before important exams consistently demonstrate better recall and mental clarity.\n\nAnother possible measure is that <strong><em>increasing regular physical activity can significantly support memory and brain health</em></strong>. Engaging in aerobic exercises such as brisk walking, jogging, cycling, or swimming several times a week improves cardiovascular health and increases cerebral blood flow. This physical stimulation promotes neuroplasticity and sharpens daily concentration. For instance, taking a 30-minute walk each day instead of sitting in front of digital screens can reduce mental fatigue and protect long-term cognitive function.\n\nA further approach is that <strong><em>using active learning techniques can help people remember complex information more effectively</em></strong>. Rather than passively rereading textbooks, learners should take structured notes, summarize key concepts in their own words, and practice active retrieval. Reviewing materials at spaced intervals using flashcards or self-assessment quizzes encourages the brain to actively recall knowledge, which strengthens neural pathways and ensures long-term retention.\n\nIn conclusion, several practical measures can be implemented to <strong>improve memory performance</strong>. By prioritizing quality sleep, engaging in regular physical exercise, and adopting active study strategies, individuals can effectively strengthen their cognitive abilities over time.",
           "translation_b2": "Trong những năm gần đây, <strong>việc nâng cao khả năng ghi nhớ</strong> đã trở thành một mục tiêu ngày càng quan trọng đối với cả học sinh, sinh viên lẫn người đi làm trong xã hội hiện đại. Trong kỷ nguyên bùng nổ thông tin, việc duy trì chức năng nhận thức sắc bén là điều thiết yếu để đạt được thành công trong học tập và năng suất tại nơi làm việc. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thực tế nhằm cải thiện trí nhớ một cách hiệu quả.</strong>\n\nMột bước đi hiệu quả là <strong><em>duy trì thói quen ngủ lành mạnh là phương pháp nền tảng để cải thiện trí nhớ</em></strong>. Mỗi cá nhân nên ngủ đủ giấc mỗi đêm và duy trì giờ đi ngủ cũng như thức dậy ổn định. Sự nghỉ ngơi đầy đủ mang lại cho não bộ thời gian cần thiết để phục hồi nhận thức thần kinh và củng cố trí nhớ, cho phép não sắp xếp và lưu trữ những thông tin mới tiếp nhận. Ví dụ, những sinh viên tránh học nhồi nhét thâu đêm trước các kỳ thi quan trọng luôn thể hiện khả năng nhớ bài và sự minh mẫn tốt hơn.\n\nMột biện pháp khả thi khác là <strong><em>tăng cường hoạt động thể chất thường xuyên có thể hỗ trợ đáng kể cho trí nhớ và sức khỏe não bộ</em></strong>. Tham gia các bài tập thể dục nhịp điệu như đi bộ nhanh, chạy bộ, đạp xe hoặc bơi lội vài lần mỗi tuần giúp cải thiện sức khỏe tim mạch và tăng lưu lượng máu lên não. Sự kích thích thể chất này thúc đẩy tính dẻo dai của hệ thần kinh và làm sắc bén thêm khả năng tập trung hằng ngày. Chẳng hạn, dành 30 phút đi bộ mỗi ngày thay vì ngồi trước màn hình kỹ thuật số có thể làm giảm sự mệt mỏi tinh thần và bảo vệ chức năng nhận thức lâu dài.\n\nMột cách tiếp cận nữa là <strong><em>sử dụng các phương pháp học tập chủ động có thể giúp mọi người ghi nhớ thông tin phức tạp hiệu quả hơn</em></strong>. Thay vì chỉ đọc lại sách giáo khoa một cách thụ động, người học nên ghi chép có cấu trúc, tóm tắt các khái niệm chính bằng lời văn của mình và thực hành chủ động gợi nhớ. Việc ôn tập tài liệu theo các khoảng thời gian ngắt quãng bằng thẻ flashcards hoặc các bài tự kiểm tra khuyến khích não bộ chủ động truy xuất kiến thức, qua đó củng cố các liên kết thần kinh và đảm bảo khả năng lưu giữ thông tin dài hạn.\n\nTóm lại, có nhiều biện pháp thiết thực có thể được triển khai để <strong>nâng cao hiệu suất trí nhớ</strong>. Bằng cách ưu tiên giấc ngủ chất lượng, rèn luyện thể chất đều đặn và áp dụng các chiến lược học tập chủ động, mỗi cá nhân có thể củng cố vững chắc năng lực nhận thức của mình theo thời gian.",
@@ -137454,10 +137189,6 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
-                    },
-                    {
                       "en": "gradually",
                       "vi": "dần dần"
                     },
@@ -137474,10 +137205,6 @@ const ESSAY_DATA = [
                     {
                       "en": "ecosystems",
                       "vi": "hệ sinh thái"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "in the long run",
@@ -137587,10 +137314,6 @@ const ESSAY_DATA = [
                       "vi": "xói mòn đất"
                     },
                     {
-                      "en": "consequently",
-                      "vi": "hệ quả là / do đó"
-                    },
-                    {
                       "en": "frequently",
                       "vi": "thường xuyên"
                     }
@@ -137658,20 +137381,12 @@ const ESSAY_DATA = [
                     {
                       "en": "deforestation",
                       "vi": "nạn phá rừng"
-                    },
-                    {
-                      "en": "moreover",
-                      "vi": "ngoài ra / hơn nữa"
                     }
                   ],
                   [
                     {
                       "en": "financial difficulties",
                       "vi": "khó khăn tài chính"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     },
                     {
                       "en": "in the long run",
@@ -138724,10 +138439,6 @@ const ESSAY_DATA = [
                       "vi": "luyện nói"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
                       "en": "on a daily basis",
                       "vi": "hằng ngày"
                     }
@@ -138736,10 +138447,6 @@ const ESSAY_DATA = [
                     {
                       "en": "real communication",
                       "vi": "giao tiếp thực tế"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
                     },
                     {
                       "en": "to be specific",
@@ -138755,10 +138462,6 @@ const ESSAY_DATA = [
                     }
                   ],
                   [
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
                     {
                       "en": "teaching methods",
                       "vi": "phương pháp giảng dạy"
@@ -138835,17 +138538,9 @@ const ESSAY_DATA = [
                     {
                       "en": "foreign languages",
                       "vi": "ngoại ngữ"
-                    },
-                    {
-                      "en": "moreover",
-                      "vi": "ngoài ra / hơn nữa"
                     }
                   ],
                   [
-                    {
-                      "en": "consequently",
-                      "vi": "hệ quả là / do đó"
-                    },
                     {
                       "en": "to be specific",
                       "vi": "cụ thể là"
@@ -138910,10 +138605,6 @@ const ESSAY_DATA = [
                       "vi": "chương trình giao lưu văn hóa"
                     },
                     {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    },
-                    {
                       "en": "on a daily basis",
                       "vi": "hằng ngày"
                     }
@@ -138924,12 +138615,12 @@ const ESSAY_DATA = [
                       "vi": "sự tự tin khi nói"
                     },
                     {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    },
-                    {
                       "en": "practise foreign languages",
                       "vi": "thực hành ngoại ngữ"
+                    },
+                    {
+                      "en": "study languages",
+                      "vi": "học ngoại ngữ"
                     }
                   ],
                   [
@@ -138940,10 +138631,6 @@ const ESSAY_DATA = [
                     {
                       "en": "communication skills",
                       "vi": "kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -139913,473 +139600,509 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "effects": [
               {
-                "title": "ẢNH HƯỞNG 01: THIỆT HẠI VỀ TIỀN BẠC",
-                "collocations": [
-                  {
-                    "en": "lose money",
-                    "vi": "mất tiền"
-                  },
-                  {
-                    "en": "steal personal and financial information",
-                    "vi": "đánh cắp thông tin cá nhân và tài chính"
-                  },
-                  {
-                    "en": "bank accounts",
-                    "vi": "tài khoản ngân hàng"
-                  }
-                ],
-                "point_vi": "Nhiều người có thể bị mất tiền.",
-                "point_en": "Many people may lose money.",
-                "evidence_vi": "Điều này là do tội phạm mạng có thể đánh cắp thông tin cá nhân và tài chính, vì vậy chúng có thể lấy tiền từ tài khoản ngân hàng của nạn nhân.",
-                "evidence_en": "This is because cybercriminals can steal personal and financial information, so they can take money from victims’ bank accounts."
-              },
-              {
-                "title": "ẢNH HƯỞNG 02: MẤT MÁT DỮ LIỆU DOANH NGHIỆP",
-                "collocations": [
-                  {
-                    "en": "lose important data",
-                    "vi": "mất dữ liệu quan trọng"
-                  },
-                  {
-                    "en": "attack computer systems",
-                    "vi": "tấn công hệ thống máy tính"
-                  },
-                  {
-                    "en": "valuable business information",
-                    "vi": "thông tin kinh doanh có giá trị"
-                  }
-                ],
-                "point_vi": "Các công ty có thể bị mất các dữ liệu quan trọng.",
-                "point_en": "Companies may lose important data.",
-                "evidence_vi": "Ví dụ, tin tặc có thể tấn công các hệ thống máy tính và làm hỏng các thông tin kinh doanh có giá trị.",
-                "evidence_en": "For example, hackers can attack computer systems and damage valuable business information."
-              },
-              {
-                "title": "ẢNH HƯỞNG 03: CẢM GIÁC BẤT AN KHI DÙNG DỊCH VỤ TRỰC TUYẾN",
-                "collocations": [
-                  {
-                    "en": "feel unsafe",
-                    "vi": "cảm thấy không an toàn"
-                  },
-                  {
-                    "en": "online services",
-                    "vi": "các dịch vụ trực tuyến"
-                  },
-                  {
-                    "en": "online shopping",
-                    "vi": "mua sắm trực tuyến"
-                  },
-                  {
-                    "en": "online banking",
-                    "vi": "ngân hàng trực tuyến"
-                  }
-                ],
-                "point_vi": "Nhiều cá nhân có thể cảm thấy không an toàn khi sử dụng các dịch vụ trực tuyến.",
-                "point_en": "Many individuals may feel unsafe when using online services.",
-                "evidence_vi": "Điều này là do tội phạm mạng có thể làm cho Internet có vẻ nguy hiểm, vì vậy một số người có thể tránh mua sắm trực tuyến hoặc giao dịch ngân hàng trực tuyến.",
-                "evidence_en": "This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking."
-              }
-            ],
-            "solutions": [
-              {
-                "title": "GIẢI PHÁP 01: CẢI THIỆN HỆ THỐNG AN NINH MẠNG",
-                "collocations": [
-                  {
-                    "en": "online security systems",
-                    "vi": "hệ thống an ninh trực tuyến"
-                  },
-                  {
-                    "en": "stronger passwords",
-                    "vi": "mật khẩu mạnh hơn"
-                  },
-                  {
-                    "en": "security software",
-                    "vi": "phần mềm bảo mật"
-                  },
-                  {
-                    "en": "protect users from cyberattacks",
-                    "vi": "bảo vệ người dùng khỏi các cuộc tấn công mạng"
-                  }
-                ],
-                "point_vi": "Cải thiện các hệ thống an ninh trực tuyến.",
-                "point_en": "Improve online security systems.",
-                "evidence_vi": "Điều này là do mật khẩu mạnh hơn và phần mềm bảo mật có thể bảo vệ người dùng tốt hơn trước các cuộc tấn công mạng.",
-                "evidence_en": "This is because stronger passwords and security software can better protect users from cyberattacks."
-              },
-              {
-                "title": "GIẢI PHÁP 02: GIÁO DỤC AN TOÀN TRỰC TUYẾN",
-                "collocations": [
-                  {
-                    "en": "online safety",
-                    "vi": "an toàn trực tuyến"
-                  },
-                  {
-                    "en": "recognize fake messages",
-                    "vi": "nhận biết tin nhắn giả mạo"
-                  },
-                  {
-                    "en": "dangerous websites",
-                    "vi": "trang web nguy hiểm"
-                  }
-                ],
-                "point_vi": "Giáo dục mọi người về an toàn trực tuyến.",
-                "point_en": "Educate people about online safety.",
-                "evidence_vi": "Ví dụ, trường học và các công ty có thể dạy mọi người cách nhận biết các tin nhắn giả mạo hoặc các trang web nguy hiểm.",
-                "evidence_en": "For example, schools and companies can teach people how to recognize fake messages or dangerous websites."
-              },
-              {
-                "title": "GIẢI PHÁP 03: BAN HÀNH LUẬT NGHIÊM KHẮC HƠN",
-                "collocations": [
-                  {
-                    "en": "stricter laws",
-                    "vi": "luật nghiêm khắc hơn"
-                  },
-                  {
-                    "en": "stronger punishments",
-                    "vi": "hình phạt nặng hơn"
-                  },
-                  {
-                    "en": "commit online crimes",
-                    "vi": "phạm tội trực tuyến"
-                  }
-                ],
-                "point_vi": "Ban hành các luật nghiêm khắc hơn để chống lại tội phạm mạng.",
-                "point_en": "Create stricter laws against cybercrime.",
-                "evidence_vi": "Kết quả là tội phạm có thể phải chịu những hình phạt nặng hơn và ít có khả năng thực hiện các hành vi phạm tội trực tuyến hơn.",
-                "evidence_en": "As a result, criminals may receive stronger punishments and become less likely to commit online crimes."
-              }
-            ],
-            "benefits": [
-              {
-                "title": "ẢNH HƯỞNG 01: THIỆT HẠI VỀ TIỀN BẠC",
-                "collocations": [
-                  {
-                    "en": "lose money",
-                    "vi": "mất tiền"
-                  },
-                  {
-                    "en": "steal personal and financial information",
-                    "vi": "đánh cắp thông tin cá nhân và tài chính"
-                  },
-                  {
-                    "en": "bank accounts",
-                    "vi": "tài khoản ngân hàng"
-                  }
-                ],
-                "point_vi": "Nhiều người có thể bị mất tiền.",
-                "point_en": "Many people may lose money.",
-                "evidence_vi": "Điều này là do tội phạm mạng có thể đánh cắp thông tin cá nhân và tài chính, vì vậy chúng có thể lấy tiền từ tài khoản ngân hàng của nạn nhân.",
-                "evidence_en": "This is because cybercriminals can steal personal and financial information, so they can take money from victims’ bank accounts.",
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI NẶNG NỀ VỀ TIỀN BẠC",
+                "point_vi": "Tội phạm mạng gây ra tổn thất tài chính khổng lồ cho người dân và doanh nghiệp.",
+                "point_en": "Cybercrime causes enormous financial losses for individuals and businesses.",
                 "point_collocations": [
-                  {
-                    "en": "lose money",
-                    "vi": "mất tiền"
-                  },
-                  {
-                    "en": "steal personal and financial information",
-                    "vi": "đánh cắp thông tin cá nhân và tài chính"
-                  },
-                  {
-                    "en": "bank accounts",
-                    "vi": "tài khoản ngân hàng"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "steal personal and financial information",
-                      "vi": "đánh cắp thông tin cá nhân và tài chính"
-                    },
-                    {
-                      "en": "bank accounts",
-                      "vi": "tài khoản ngân hàng"
-                    },
-                    {
-                      "en": "steal bank details",
-                      "vi": "đánh cắp thông tin ngân hàng"
-                    },
-                    {
-                      "en": "steal",
-                      "vi": "đánh cắp"
-                    },
-                    {
-                      "en": "victim",
-                      "vi": "nạn nhân"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 02: MẤT MÁT DỮ LIỆU DOANH NGHIỆP",
-                "collocations": [
-                  {
-                    "en": "lose important data",
-                    "vi": "mất dữ liệu quan trọng"
-                  },
-                  {
-                    "en": "attack computer systems",
-                    "vi": "tấn công hệ thống máy tính"
-                  },
-                  {
-                    "en": "valuable business information",
-                    "vi": "thông tin kinh doanh có giá trị"
-                  }
-                ],
-                "point_vi": "Các công ty có thể bị mất các dữ liệu quan trọng.",
-                "point_en": "Companies may lose important data.",
-                "evidence_vi": "Ví dụ, tin tặc có thể tấn công các hệ thống máy tính và làm hỏng các thông tin kinh doanh có giá trị.",
-                "evidence_en": "For example, hackers can attack computer systems and damage valuable business information.",
-                "point_collocations": [
-                  {
-                    "en": "lose important data",
-                    "vi": "mất dữ liệu quan trọng"
-                  },
-                  {
-                    "en": "attack computer systems",
-                    "vi": "tấn công hệ thống máy tính"
-                  },
-                  {
-                    "en": "valuable business information",
-                    "vi": "thông tin kinh doanh có giá trị"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "attack computer systems",
-                      "vi": "tấn công hệ thống máy tính"
-                    },
-                    {
-                      "en": "valuable business information",
-                      "vi": "thông tin kinh doanh có giá trị"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 03: CẢM GIÁC BẤT AN KHI DÙNG DỊCH VỤ TRỰC TUYẾN",
-                "collocations": [
-                  {
-                    "en": "feel unsafe",
-                    "vi": "cảm thấy không an toàn"
-                  },
-                  {
-                    "en": "online services",
-                    "vi": "các dịch vụ trực tuyến"
-                  },
-                  {
-                    "en": "online shopping",
-                    "vi": "mua sắm trực tuyến"
-                  },
-                  {
-                    "en": "online banking",
-                    "vi": "ngân hàng trực tuyến"
-                  }
-                ],
-                "point_vi": "Nhiều cá nhân có thể cảm thấy không an toàn khi sử dụng các dịch vụ trực tuyến.",
-                "point_en": "Many individuals may feel unsafe when using online services.",
-                "evidence_vi": "Điều này là do tội phạm mạng có thể làm cho Internet có vẻ nguy hiểm, vì vậy một số người có thể tránh mua sắm trực tuyến hoặc giao dịch ngân hàng trực tuyến.",
-                "evidence_en": "This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking.",
-                "point_collocations": [
-                  {
-                    "en": "feel unsafe",
-                    "vi": "cảm thấy không an toàn"
-                  },
-                  {
-                    "en": "online services",
-                    "vi": "các dịch vụ trực tuyến"
-                  },
-                  {
-                    "en": "unsafe",
-                    "vi": "không an toàn"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "online shopping",
-                      "vi": "mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "online banking",
-                      "vi": "ngân hàng trực tuyến"
-                    },
-                    {
-                      "en": "cybercrime",
-                      "vi": "tội phạm mạng"
-                    }
-                  ]
-                ]
-              }
-            ],
-            "drawbacks": [
-              {
-                "title": "GIẢI PHÁP 01: CẢI THIỆN HỆ THỐNG AN NINH MẠNG",
-                "collocations": [
-                  {
-                    "en": "online security systems",
-                    "vi": "hệ thống an ninh trực tuyến"
-                  },
-                  {
-                    "en": "stronger passwords",
-                    "vi": "mật khẩu mạnh hơn"
-                  },
-                  {
-                    "en": "security software",
-                    "vi": "phần mềm bảo mật"
-                  },
-                  {
-                    "en": "protect users from cyberattacks",
-                    "vi": "bảo vệ người dùng khỏi các cuộc tấn công mạng"
-                  }
-                ],
-                "point_vi": "Cải thiện các hệ thống an ninh trực tuyến.",
-                "point_en": "Improve online security systems.",
-                "evidence_vi": "Điều này là do mật khẩu mạnh hơn và phần mềm bảo mật có thể bảo vệ người dùng tốt hơn trước các cuộc tấn công mạng.",
-                "evidence_en": "This is because stronger passwords and security software can better protect users from cyberattacks.",
-                "point_collocations": [
-                  {
-                    "en": "online security systems",
-                    "vi": "hệ thống an ninh trực tuyến"
-                  },
-                  {
-                    "en": "stronger passwords",
-                    "vi": "mật khẩu mạnh hơn"
-                  },
-                  {
-                    "en": "security software",
-                    "vi": "phần mềm bảo mật"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "stronger passwords",
-                      "vi": "mật khẩu mạnh hơn"
-                    },
-                    {
-                      "en": "security software",
-                      "vi": "phần mềm bảo mật"
-                    },
-                    {
-                      "en": "protect users from cyberattacks",
-                      "vi": "bảo vệ người dùng khỏi các cuộc tấn công mạng"
-                    },
-                    {
-                      "en": "password",
-                      "vi": "mật khẩu"
-                    },
-                    {
-                      "en": "cyberattack",
-                      "vi": "cuộc tấn công mạng"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 02: GIÁO DỤC AN TOÀN TRỰC TUYẾN",
-                "collocations": [
-                  {
-                    "en": "online safety",
-                    "vi": "an toàn trực tuyến"
-                  },
-                  {
-                    "en": "recognize fake messages",
-                    "vi": "nhận biết tin nhắn giả mạo"
-                  },
-                  {
-                    "en": "dangerous websites",
-                    "vi": "trang web nguy hiểm"
-                  }
-                ],
-                "point_vi": "Giáo dục mọi người về an toàn trực tuyến.",
-                "point_en": "Educate people about online safety.",
-                "evidence_vi": "Ví dụ, trường học và các công ty có thể dạy mọi người cách nhận biết các tin nhắn giả mạo hoặc các trang web nguy hiểm.",
-                "evidence_en": "For example, schools and companies can teach people how to recognize fake messages or dangerous websites.",
-                "point_collocations": [
-                  {
-                    "en": "online safety",
-                    "vi": "an toàn trực tuyến"
-                  },
-                  {
-                    "en": "recognize fake messages",
-                    "vi": "nhận biết tin nhắn giả mạo"
-                  },
-                  {
-                    "en": "dangerous websites",
-                    "vi": "trang web nguy hiểm"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "recognize fake messages",
-                      "vi": "nhận biết tin nhắn giả mạo"
-                    },
-                    {
-                      "en": "dangerous websites",
-                      "vi": "trang web nguy hiểm"
-                    },
-                    {
-                      "en": "for example",
-                      "vi": "ví dụ"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "GIẢI PHÁP 03: BAN HÀNH LUẬT NGHIÊM KHẮC HƠN",
-                "collocations": [
-                  {
-                    "en": "stricter laws",
-                    "vi": "luật nghiêm khắc hơn"
-                  },
-                  {
-                    "en": "stronger punishments",
-                    "vi": "hình phạt nặng hơn"
-                  },
-                  {
-                    "en": "commit online crimes",
-                    "vi": "phạm tội trực tuyến"
-                  }
-                ],
-                "point_vi": "Ban hành các luật nghiêm khắc hơn để chống lại tội phạm mạng.",
-                "point_en": "Create stricter laws against cybercrime.",
-                "evidence_vi": "Kết quả là tội phạm có thể phải chịu những hình phạt nặng hơn và ít có khả năng thực hiện các hành vi phạm tội trực tuyến hơn.",
-                "evidence_en": "As a result, criminals may receive stronger punishments and become less likely to commit online crimes.",
-                "point_collocations": [
-                  {
-                    "en": "stricter laws",
-                    "vi": "luật nghiêm khắc hơn"
-                  },
                   {
                     "en": "cybercrime",
                     "vi": "tội phạm mạng"
                   },
                   {
-                    "en": "stronger punishments",
-                    "vi": "hình phạt nặng hơn"
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
                   }
                 ],
+                "evidence_vi": "Kẻ xấu hack tài khoản ngân hàng và lừa đảo qua mạng, vì vậy nhiều nạn nhân bị mất trắng toàn bộ tiền tiết kiệm.",
+                "evidence_en": "Hackers attack bank accounts and commit online scams, so many victims lose all their savings.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "stronger punishments",
-                      "vi": "hình phạt nặng hơn"
-                    },
-                    {
-                      "en": "commit online crimes",
-                      "vi": "phạm tội trực tuyến"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    }
-                  ]
+                  {
+                    "en": "attack bank accounts",
+                    "vi": "tấn công tài khoản ngân hàng"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo qua mạng"
+                  },
+                  {
+                    "en": "lose all savings",
+                    "vi": "mất sạch toàn bộ tiền tiết kiệm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: RÒ RỈ VÀ MẤT MÁT DỮ LIỆU BẢO MẬT",
+                "point_vi": "Các vụ tấn công mạng làm rò rỉ dữ liệu quan trọng của doanh nghiệp.",
+                "point_en": "Cyber attacks leak confidential business data.",
+                "point_collocations": [
+                  {
+                    "en": "cyber attacks",
+                    "vi": "các cuộc tấn công mạng"
+                  },
+                  {
+                    "en": "confidential business data",
+                    "vi": "dữ liệu kinh doanh bảo mật (quan trọng)"
+                  }
+                ],
+                "evidence_vi": "Tin tặc đánh cắp danh sách khách hàng và bí mật kinh doanh, do đó các công ty bị tổn hại uy tín nghiêm trọng.",
+                "evidence_en": "Hackers steal customer lists and trade secrets, so companies suffer serious reputational damage.",
+                "evidence_collocations": [
+                  {
+                    "en": "steal customer lists",
+                    "vi": "đánh cắp danh sách khách hàng"
+                  },
+                  {
+                    "en": "trade secrets",
+                    "vi": "bí mật kinh doanh"
+                  },
+                  {
+                    "en": "reputational damage",
+                    "vi": "tổn hại uy tín"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "cyber attacks",
+                    "vi": "tấn công mạng"
+                  },
+                  {
+                    "en": "trade secrets",
+                    "vi": "bí mật kinh doanh"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GÂY HOANG MANG VÀ MẤT NIỀM TIN",
+                "point_vi": "Tội phạm mạng làm giảm lòng tin của người tiêu dùng đối với dịch vụ trực tuyến.",
+                "point_en": "Cybercrime reduces consumer trust in online services.",
+                "point_collocations": [
+                  {
+                    "en": "consumer trust",
+                    "vi": "lòng tin của người tiêu dùng"
+                  },
+                  {
+                    "en": "online services",
+                    "vi": "các dịch vụ trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Nhiều người sợ bị đánh cắp danh tính nên ngần ngại mua sắm qua mạng, vì vậy nền kinh tế số bị ảnh hưởng tiêu cực.",
+                "evidence_en": "Many people fear identity theft and hesitate to shop online, so digital commerce suffers.",
+                "evidence_collocations": [
+                  {
+                    "en": "fear identity theft",
+                    "vi": "lo sợ bị đánh cắp danh tính"
+                  },
+                  {
+                    "en": "hesitate to shop online",
+                    "vi": "ngần ngại mua sắm qua mạng"
+                  },
+                  {
+                    "en": "digital commerce",
+                    "vi": "thương mại kỹ thuật số"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "consumer trust",
+                    "vi": "lòng tin người dùng"
+                  },
+                  {
+                    "en": "identity theft",
+                    "vi": "đánh cắp danh tính"
+                  }
+                ]
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: NÂNG CẤP HỆ THỐNG AN NINH MẠNG",
+                "point_vi": "Các tổ chức cần đầu tư vào hệ thống bảo mật an ninh mạng tiên tiến.",
+                "point_en": "Organizations should invest in advanced cybersecurity systems.",
+                "point_collocations": [
+                  {
+                    "en": "invest in advanced cybersecurity",
+                    "vi": "đầu tư vào an ninh mạng tiên tiến"
+                  },
+                  {
+                    "en": "cybersecurity systems",
+                    "vi": "hệ thống an ninh mạng"
+                  },
+                  {
+                    "en": "advanced security systems",
+                    "vi": "hệ thống bảo mật tiên tiến"
+                  }
+                ],
+                "evidence_vi": "Công ty nên sử dụng tường lửa mạnh và mã hóa dữ liệu nhiều lớp, nhờ đó ngăn chặn tin tặc xâm nhập từ xa.",
+                "evidence_en": "Companies should use strong firewalls and multi-layer data encryption, so they prevent hackers from breaking in.",
+                "evidence_collocations": [
+                  {
+                    "en": "strong firewalls",
+                    "vi": "tường lửa mạnh"
+                  },
+                  {
+                    "en": "data encryption",
+                    "vi": "mã hóa dữ liệu"
+                  },
+                  {
+                    "en": "prevent hackers from breaking in",
+                    "vi": "ngăn chặn tin tặc đột nhập"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity systems",
+                    "vi": "hệ thống an ninh mạng"
+                  },
+                  {
+                    "en": "data encryption",
+                    "vi": "mã hóa dữ liệu"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TẬP HUẤN KỸ NĂNG BẢO MẬT CHO NGƯỜI DÙNG",
+                "point_vi": "Giáo dục người dùng về kỹ năng tự bảo vệ tài khoản là giải pháp thiết thực.",
+                "point_en": "Educating users on digital self-protection is a practical solution.",
+                "point_collocations": [
+                  {
+                    "en": "digital self-protection",
+                    "vi": "tự bảo vệ trên môi trường số"
+                  },
+                  {
+                    "en": "practical solution",
+                    "vi": "giải pháp thiết thực"
+                  }
+                ],
+                "evidence_vi": "Mọi người nên đặt mật khẩu phức tạp và không nhấp vào đường link lạ, vì vậy nguy cơ bị lừa đảo giảm đi rất nhiều.",
+                "evidence_en": "People should set strong passwords and avoid clicking strange links, so the risk of scams drops significantly.",
+                "evidence_collocations": [
+                  {
+                    "en": "set strong passwords",
+                    "vi": "đặt mật khẩu phức tạp (mạnh)"
+                  },
+                  {
+                    "en": "avoid clicking strange links",
+                    "vi": "tránh nhấp vào các đường link lạ"
+                  },
+                  {
+                    "en": "risk of scams drops",
+                    "vi": "nguy cơ bị lừa đảo giảm đi"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strong passwords",
+                    "vi": "mật khẩu mạnh"
+                  },
+                  {
+                    "en": "avoid strange links",
+                    "vi": "tránh link lạ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: BAN HÀNH VÀ THỰC THI LUẬT NGHIÊM KHẮC",
+                "point_vi": "Chính phủ cần ban hành các mức phạt thật nặng đối với tội phạm công nghệ cao.",
+                "point_en": "Governments should enforce strict penalties against cyber criminals.",
+                "point_collocations": [
+                  {
+                    "en": "enforce strict penalties",
+                    "vi": "thực thi các mức phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "cyber criminals",
+                    "vi": "tội phạm mạng (công nghệ cao)"
+                  }
+                ],
+                "evidence_vi": "Các mức án tù nghiêm khắc răn đe những kẻ có ý định phạm pháp, do đó an ninh trật tự trên không gian mạng được đảm bảo.",
+                "evidence_en": "Harsh prison sentences deter potential offenders, so order and safety in cyberspace are maintained.",
+                "evidence_collocations": [
+                  {
+                    "en": "harsh prison sentences",
+                    "vi": "các mức án tù nghiêm khắc"
+                  },
+                  {
+                    "en": "deter potential offenders",
+                    "vi": "răn đe những kẻ có ý định phạm pháp"
+                  },
+                  {
+                    "en": "safety in cyberspace",
+                    "vi": "sự an toàn trên không gian mạng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strict penalties",
+                    "vi": "hình phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "safety in cyberspace",
+                    "vi": "an toàn không gian mạng"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI NẶNG NỀ VỀ TIỀN BẠC",
+                "point_vi": "Tội phạm mạng gây ra tổn thất tài chính khổng lồ cho người dân và doanh nghiệp.",
+                "point_en": "Cybercrime causes enormous financial losses for individuals and businesses.",
+                "point_collocations": [
+                  {
+                    "en": "cybercrime",
+                    "vi": "tội phạm mạng"
+                  },
+                  {
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
+                  }
+                ],
+                "evidence_vi": "Kẻ xấu hack tài khoản ngân hàng và lừa đảo qua mạng, vì vậy nhiều nạn nhân bị mất trắng toàn bộ tiền tiết kiệm.",
+                "evidence_en": "Hackers attack bank accounts and commit online scams, so many victims lose all their savings.",
+                "evidence_collocations": [
+                  {
+                    "en": "attack bank accounts",
+                    "vi": "tấn công tài khoản ngân hàng"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo qua mạng"
+                  },
+                  {
+                    "en": "lose all savings",
+                    "vi": "mất sạch toàn bộ tiền tiết kiệm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "financial losses",
+                    "vi": "tổn thất tài chính"
+                  },
+                  {
+                    "en": "online scams",
+                    "vi": "lừa đảo trực tuyến"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: RÒ RỈ VÀ MẤT MÁT DỮ LIỆU BẢO MẬT",
+                "point_vi": "Các vụ tấn công mạng làm rò rỉ dữ liệu quan trọng của doanh nghiệp.",
+                "point_en": "Cyber attacks leak confidential business data.",
+                "point_collocations": [
+                  {
+                    "en": "cyber attacks",
+                    "vi": "các cuộc tấn công mạng"
+                  },
+                  {
+                    "en": "confidential business data",
+                    "vi": "dữ liệu kinh doanh bảo mật (quan trọng)"
+                  }
+                ],
+                "evidence_vi": "Tin tặc đánh cắp danh sách khách hàng và bí mật kinh doanh, do đó các công ty bị tổn hại uy tín nghiêm trọng.",
+                "evidence_en": "Hackers steal customer lists and trade secrets, so companies suffer serious reputational damage.",
+                "evidence_collocations": [
+                  {
+                    "en": "steal customer lists",
+                    "vi": "đánh cắp danh sách khách hàng"
+                  },
+                  {
+                    "en": "trade secrets",
+                    "vi": "bí mật kinh doanh"
+                  },
+                  {
+                    "en": "reputational damage",
+                    "vi": "tổn hại uy tín"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "cyber attacks",
+                    "vi": "tấn công mạng"
+                  },
+                  {
+                    "en": "trade secrets",
+                    "vi": "bí mật kinh doanh"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: GÂY HOANG MANG VÀ MẤT NIỀM TIN",
+                "point_vi": "Tội phạm mạng làm giảm lòng tin của người tiêu dùng đối với dịch vụ trực tuyến.",
+                "point_en": "Cybercrime reduces consumer trust in online services.",
+                "point_collocations": [
+                  {
+                    "en": "consumer trust",
+                    "vi": "lòng tin của người tiêu dùng"
+                  },
+                  {
+                    "en": "online services",
+                    "vi": "các dịch vụ trực tuyến"
+                  }
+                ],
+                "evidence_vi": "Nhiều người sợ bị đánh cắp danh tính nên ngần ngại mua sắm qua mạng, vì vậy nền kinh tế số bị ảnh hưởng tiêu cực.",
+                "evidence_en": "Many people fear identity theft and hesitate to shop online, so digital commerce suffers.",
+                "evidence_collocations": [
+                  {
+                    "en": "fear identity theft",
+                    "vi": "lo sợ bị đánh cắp danh tính"
+                  },
+                  {
+                    "en": "hesitate to shop online",
+                    "vi": "ngần ngại mua sắm qua mạng"
+                  },
+                  {
+                    "en": "digital commerce",
+                    "vi": "thương mại kỹ thuật số"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "consumer trust",
+                    "vi": "lòng tin người dùng"
+                  },
+                  {
+                    "en": "identity theft",
+                    "vi": "đánh cắp danh tính"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: NÂNG CẤP HỆ THỐNG AN NINH MẠNG",
+                "point_vi": "Các tổ chức cần đầu tư vào hệ thống bảo mật an ninh mạng tiên tiến.",
+                "point_en": "Organizations should invest in advanced cybersecurity systems.",
+                "point_collocations": [
+                  {
+                    "en": "invest in advanced cybersecurity",
+                    "vi": "đầu tư vào an ninh mạng tiên tiến"
+                  },
+                  {
+                    "en": "cybersecurity systems",
+                    "vi": "hệ thống an ninh mạng"
+                  },
+                  {
+                    "en": "advanced security systems",
+                    "vi": "hệ thống bảo mật tiên tiến"
+                  }
+                ],
+                "evidence_vi": "Công ty nên sử dụng tường lửa mạnh và mã hóa dữ liệu nhiều lớp, nhờ đó ngăn chặn tin tặc xâm nhập từ xa.",
+                "evidence_en": "Companies should use strong firewalls and multi-layer data encryption, so they prevent hackers from breaking in.",
+                "evidence_collocations": [
+                  {
+                    "en": "strong firewalls",
+                    "vi": "tường lửa mạnh"
+                  },
+                  {
+                    "en": "data encryption",
+                    "vi": "mã hóa dữ liệu"
+                  },
+                  {
+                    "en": "prevent hackers from breaking in",
+                    "vi": "ngăn chặn tin tặc đột nhập"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "cybersecurity systems",
+                    "vi": "hệ thống an ninh mạng"
+                  },
+                  {
+                    "en": "data encryption",
+                    "vi": "mã hóa dữ liệu"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TẬP HUẤN KỸ NĂNG BẢO MẬT CHO NGƯỜI DÙNG",
+                "point_vi": "Giáo dục người dùng về kỹ năng tự bảo vệ tài khoản là giải pháp thiết thực.",
+                "point_en": "Educating users on digital self-protection is a practical solution.",
+                "point_collocations": [
+                  {
+                    "en": "digital self-protection",
+                    "vi": "tự bảo vệ trên môi trường số"
+                  },
+                  {
+                    "en": "practical solution",
+                    "vi": "giải pháp thiết thực"
+                  }
+                ],
+                "evidence_vi": "Mọi người nên đặt mật khẩu phức tạp và không nhấp vào đường link lạ, vì vậy nguy cơ bị lừa đảo giảm đi rất nhiều.",
+                "evidence_en": "People should set strong passwords and avoid clicking strange links, so the risk of scams drops significantly.",
+                "evidence_collocations": [
+                  {
+                    "en": "set strong passwords",
+                    "vi": "đặt mật khẩu phức tạp (mạnh)"
+                  },
+                  {
+                    "en": "avoid clicking strange links",
+                    "vi": "tránh nhấp vào các đường link lạ"
+                  },
+                  {
+                    "en": "risk of scams drops",
+                    "vi": "nguy cơ bị lừa đảo giảm đi"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strong passwords",
+                    "vi": "mật khẩu mạnh"
+                  },
+                  {
+                    "en": "avoid strange links",
+                    "vi": "tránh link lạ"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: BAN HÀNH VÀ THỰC THI LUẬT NGHIÊM KHẮC",
+                "point_vi": "Chính phủ cần ban hành các mức phạt thật nặng đối với tội phạm công nghệ cao.",
+                "point_en": "Governments should enforce strict penalties against cyber criminals.",
+                "point_collocations": [
+                  {
+                    "en": "enforce strict penalties",
+                    "vi": "thực thi các mức phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "cyber criminals",
+                    "vi": "tội phạm mạng (công nghệ cao)"
+                  }
+                ],
+                "evidence_vi": "Các mức án tù nghiêm khắc răn đe những kẻ có ý định phạm pháp, do đó an ninh trật tự trên không gian mạng được đảm bảo.",
+                "evidence_en": "Harsh prison sentences deter potential offenders, so order and safety in cyberspace are maintained.",
+                "evidence_collocations": [
+                  {
+                    "en": "harsh prison sentences",
+                    "vi": "các mức án tù nghiêm khắc"
+                  },
+                  {
+                    "en": "deter potential offenders",
+                    "vi": "răn đe những kẻ có ý định phạm pháp"
+                  },
+                  {
+                    "en": "safety in cyberspace",
+                    "vi": "sự an toàn trên không gian mạng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strict penalties",
+                    "vi": "hình phạt nghiêm khắc"
+                  },
+                  {
+                    "en": "safety in cyberspace",
+                    "vi": "an toàn không gian mạng"
+                  }
                 ]
               }
             ]
@@ -141942,10 +141665,6 @@ const ESSAY_DATA = [
                   {
                     "en": "salary",
                     "vi": "mức lương"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   }
                 ],
                 "evidence_collocations": [
@@ -141999,10 +141718,6 @@ const ESSAY_DATA = [
                     {
                       "en": "enjoy their jobs",
                       "vi": "yêu thích công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -142043,10 +141758,6 @@ const ESSAY_DATA = [
                   {
                     "en": "working environment",
                     "vi": "môi trường làm việc"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   },
                   {
                     "en": "friendly colleagues",
@@ -142100,10 +141811,6 @@ const ESSAY_DATA = [
                     {
                       "en": "enjoy their jobs",
                       "vi": "yêu thích công việc"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "working environment",
@@ -142213,10 +141920,6 @@ const ESSAY_DATA = [
                     {
                       "en": "be willing to",
                       "vi": "sẵn sàng"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     },
                     {
                       "en": "career development",
@@ -143542,253 +143245,401 @@ const ESSAY_DATA = [
             "effects": [
               {
                 "title": "ẢNH HƯỞNG 01: ĐE DỌA SINH VẬT BIỂN",
-                "point_vi": "Rác thải nhựa đe dọa trực tiếp đến tính mạng của các loài động vật biển.",
-                "point_en": "Plastic waste directly threatens the lives of marine animals.",
-                "evidence_vi": "Nhiều sinh vật biển bị mắc kẹt vào lưới đánh cá cũ hoặc nuốt phải túi nilon, vì vậy chúng có thể bị thương tích nặng hoặc tử vong.",
-                "evidence_en": "Many marine creatures become entangled in old fishing nets or swallow plastic bags, so they can suffer severe injuries or even die.",
+                "point_vi": "Rác thải nhựa đe dọa trực tiếp đến tính mạng của các loài sinh vật biển.",
+                "point_en": "Plastic waste directly threatens the lives of marine creatures.",
+                "point_collocations": [
+                  {
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
+                  },
+                  {
+                    "en": "marine creatures",
+                    "vi": "sinh vật biển"
+                  }
+                ],
+                "evidence_vi": "Nhiều loài rùa biển và cá voi ăn nhầm túi nilon hoặc bị mắc kẹt trong lưới đánh cá cũ, vì vậy chúng bị chết ngạt hoặc bị thương tật.",
+                "evidence_en": "Many sea turtles and whales swallow plastic bags or get trapped in ghost nets, so they choke or suffer fatal injuries.",
+                "evidence_collocations": [
+                  {
+                    "en": "swallow plastic bags",
+                    "vi": "ăn nhầm (nuốt) túi nilon"
+                  },
+                  {
+                    "en": "trapped in ghost nets",
+                    "vi": "bị mắc kẹt trong lưới đánh cá cũ"
+                  },
+                  {
+                    "en": "fatal injuries",
+                    "vi": "chấn thương nguy kịch (tử vong)"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "threaten marine life",
-                    "vi": "đe dọa sinh vật biển"
+                    "en": "marine creatures",
+                    "vi": "sinh vật biển"
                   },
                   {
-                    "en": "become entangled in",
-                    "vi": "bị mắc kẹt vào"
-                  },
-                  {
-                    "en": "mistake plastic for food",
-                    "vi": "nhầm rác nhựa với thức ăn"
-                  },
-                  {
-                    "en": "severe injuries",
-                    "vi": "thương tích nghiêm trọng"
+                    "en": "plastic bags",
+                    "vi": "túi nilon"
                   }
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 02: PHÁ HỦY HỆ SINH THÁI BIỂN",
-                "point_vi": "Rác thải nhựa làm hư hại nghiêm trọng các rạn san hô và môi trường sống dưới đáy biển.",
-                "point_en": "Plastic waste seriously damages coral reefs and seafloor habitats.",
-                "evidence_vi": "Các túi nilon và mảnh nhựa phủ kín mặt san hô, vì vậy ánh sáng mặt trời không thể chiếu tới và san hô chết dần.",
-                "evidence_en": "Plastic bags and debris cover the surface of coral reefs, so sunlight cannot reach them and corals gradually die.",
+                "point_vi": "Chất thải nhựa làm suy thoái các rạn san hô và hệ sinh thái ven bờ.",
+                "point_en": "Plastic pollution degrades coral reefs and coastal habitats.",
+                "point_collocations": [
+                  {
+                    "en": "coral reefs",
+                    "vi": "các rạn san hô"
+                  },
+                  {
+                    "en": "coastal habitats",
+                    "vi": "môi trường sống ven bờ"
+                  }
+                ],
+                "evidence_vi": "Những mảng nhựa khổng lồ che lấp ánh sáng mặt trời, do đó các rạn san hô bị tẩy trắng và chết dần.",
+                "evidence_en": "Huge plastic layers block sunlight, so delicate coral reefs bleach and slowly die.",
+                "evidence_collocations": [
+                  {
+                    "en": "block sunlight",
+                    "vi": "che lấp ánh sáng mặt trời"
+                  },
+                  {
+                    "en": "coral reefs bleach",
+                    "vi": "san hô bị tẩy trắng"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "damage coral reefs",
-                    "vi": "làm hư hại rạn san hô"
+                    "en": "coral reefs",
+                    "vi": "rạn san hô"
                   },
                   {
-                    "en": "seafloor habitats",
-                    "vi": "môi trường sống dưới đáy biển"
-                  },
-                  {
-                    "en": "disrupt the food chain",
-                    "vi": "làm mất cân bằng chuỗi thức ăn"
-                  },
-                  {
-                    "en": "marine biodiversity",
-                    "vi": "đa dạng sinh học biển"
+                    "en": "block sunlight",
+                    "vi": "che ánh sáng"
                   }
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 03: ẢNH HƯỞNG ĐẾN SỨC KHỎE CON NGƯỜI",
-                "point_vi": "Ô nhiễm rác nhựa ở đại dương có thể gây hại cho sức khỏe con người.",
-                "point_en": "Ocean plastic pollution can negatively harm human health.",
-                "evidence_vi": "Các hạt vi nhựa đi vào cơ thể cá và tôm, vì vậy con người có thể ăn phải những chất độc hại khi sử dụng hải sản.",
-                "evidence_en": "Microplastics easily enter the bodies of fish and shrimp, so people consume harmful substances when they eat seafood.",
+                "title": "ẢNH HƯỞNG 03: HẠT VI NHỰA ĐI VÀO CHUỖI THỨC ĂN",
+                "point_vi": "Hạt vi nhựa thâm nhập vào chuỗi thức ăn và gây hại cho sức khỏe con người.",
+                "point_en": "Microplastics enter the food chain and harm human health.",
+                "point_collocations": [
+                  {
+                    "en": "microplastics",
+                    "vi": "các hạt vi nhựa"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  }
+                ],
+                "evidence_vi": "Cá và hải sản nuốt phải các mảnh nhựa vụn trên biển, vì vậy con người ăn hải sản có nguy cơ nhiễm độc chất nhựa.",
+                "evidence_en": "Fish and seafood ingest tiny plastic debris, so humans eating seafood risk taking in toxic particles.",
+                "evidence_collocations": [
+                  {
+                    "en": "tiny plastic debris",
+                    "vi": "những mảnh nhựa vụn li ti"
+                  },
+                  {
+                    "en": "eating seafood",
+                    "vi": "ăn đồ hải sản"
+                  },
+                  {
+                    "en": "toxic particles",
+                    "vi": "các hạt độc tố"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "harm human health",
-                    "vi": "gây hại cho sức khỏe con người"
+                    "en": "microplastics",
+                    "vi": "hạt vi nhựa"
                   },
                   {
-                    "en": "enter the food chain",
-                    "vi": "đi vào chuỗi thức ăn"
-                  },
-                  {
-                    "en": "toxic chemicals",
-                    "vi": "hóa chất độc hại"
-                  },
-                  {
-                    "en": "consume seafood",
-                    "vi": "ăn hải sản"
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
                   }
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 04: THIỆT HẠI VỀ KINH TẾ",
-                "point_vi": "Rác thải nhựa gây thiệt hại tài chính lớn cho các ngành kinh tế biển.",
-                "point_en": "Plastic debris causes major financial losses for maritime industries.",
-                "evidence_vi": "Các bãi biển ngập rác làm giảm lượng du khách tham quan, đồng thời chính quyền phải chi rất nhiều tiền để dọn dẹp bờ biển.",
-                "evidence_en": "Dirty beaches reduce the number of tourists, and local governments have to spend a lot of money to clean up coastlines.",
+                "title": "ẢNH HƯỞNG 04: THIỆT HẠI KINH TẾ DU LỊCH VÀ ĐÁNH BẮT",
+                "point_vi": "Rác nhựa đại dương gây tổn thất kinh tế lớn cho ngành du lịch và thủy sản.",
+                "point_en": "Marine plastic debris causes big economic losses for tourism and fishing.",
+                "point_collocations": [
+                  {
+                    "en": "economic losses",
+                    "vi": "tổn thất kinh tế"
+                  },
+                  {
+                    "en": "tourism and fishing",
+                    "vi": "du lịch và đánh bắt thủy sản"
+                  }
+                ],
+                "evidence_vi": "Các bãi biển ngập rác làm du khách quay lưng, do đó các khu nghỉ dưỡng và ngư dân bị sụt giảm doanh thu.",
+                "evidence_en": "Trash-covered beaches drive tourists away, so seaside resorts and fishing communities lose revenues.",
+                "evidence_collocations": [
+                  {
+                    "en": "drive tourists away",
+                    "vi": "khiến du khách quay lưng (bỏ đi)"
+                  },
+                  {
+                    "en": "lose revenues",
+                    "vi": "sụt giảm doanh thu"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "economic losses",
-                    "vi": "thiệt hại về kinh tế"
+                    "vi": "tổn thất kinh tế"
                   },
                   {
-                    "en": "fishing industry",
-                    "vi": "ngành đánh bắt thủy sản"
-                  },
-                  {
-                    "en": "coastal tourism",
-                    "vi": "du lịch ven biển"
-                  },
-                  {
-                    "en": "clean-up costs",
-                    "vi": "chi phí dọn dẹp rác"
+                    "en": "drive tourists away",
+                    "vi": "khiến du khách bỏ đi"
                   }
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 05: TÁC HẠI MÔI TRƯỜNG LÂU DÀI",
-                "point_vi": "Rác thải nhựa tồn tại nhiều thế kỷ và làm mất đi vẻ đẹp tự nhiên của đại dương.",
-                "point_en": "Plastic waste lasts for hundreds of years and spoils the natural beauty of the ocean.",
-                "evidence_vi": "Nhựa không thể tự tiêu hủy nhanh chóng, vì vậy các bãi biển và mặt nước biển trở nên ô nhiễm và xấu xí.",
-                "evidence_en": "Plastic cannot decompose quickly, so beaches and sea surfaces become polluted and unattractive.",
-                "collocations": [
+                "title": "ẢNH HƯỞNG 05: Ô NHIỄM NGUỒN NƯỚC TOÀN CẦU",
+                "point_vi": "Rác nhựa phân rã thành hóa chất độc hại gây ô nhiễm đại dương kéo dài.",
+                "point_en": "Decaying plastic releases harmful chemicals and pollutes ocean waters for centuries.",
+                "point_collocations": [
                   {
-                    "en": "long-term environmental damage",
-                    "vi": "tác hại môi trường lâu dài"
+                    "en": "decaying plastic",
+                    "vi": "nhựa phân rã"
                   },
                   {
-                    "en": "fully decompose",
+                    "en": "pollute ocean waters",
+                    "vi": "làm ô nhiễm nguồn nước đại dương"
+                  }
+                ],
+                "evidence_vi": "Chất dẻo cần hàng trăm năm để phân hủy hoàn toàn, vì vậy môi trường biển phải chịu hậu quả ô nhiễm lâu dài.",
+                "evidence_en": "Plastics take hundreds of years to break down completely, so marine environments suffer long-term contamination.",
+                "evidence_collocations": [
+                  {
+                    "en": "take hundreds of years",
+                    "vi": "cần hàng trăm năm"
+                  },
+                  {
+                    "en": "break down completely",
                     "vi": "phân hủy hoàn toàn"
                   },
                   {
-                    "en": "break down into microplastics",
-                    "vi": "vỡ vụn thành các hạt vi nhựa"
+                    "en": "suffer long-term contamination",
+                    "vi": "chịu hậu quả ô nhiễm lâu dài"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "break down completely",
+                    "vi": "phân hủy hoàn toàn"
                   },
                   {
-                    "en": "future generations",
-                    "vi": "các thế hệ tương lai"
+                    "en": "long-term contamination",
+                    "vi": "ô nhiễm lâu dài"
                   }
                 ]
               }
             ],
             "solutions": [
               {
-                "title": "GIẢI PHÁP 01: GIẢM SỬ DỤNG NHỰA DÙNG MỘT LẦN",
-                "point_vi": "Người dân nên cắt giảm việc dùng các sản phẩm nhựa dùng một lần hằng ngày.",
-                "point_en": "People should cut down on using single-use plastic products every day.",
-                "evidence_vi": "Chúng ta có thể mang theo túi vải, bình nước cá nhân và hộp đựng thức ăn khi đi mua sắm.",
-                "evidence_en": "We can carry reusable cloth bags, personal water bottles, and food containers when we go shopping.",
+                "title": "GIẢI PHÁP 01: HẠN CHẾ SẢN PHẨM NHỰA DÙNG MỘT LẦN",
+                "point_vi": "Mỗi cá nhân nên cắt giảm việc sử dụng các sản phẩm nhựa dùng một lần.",
+                "point_en": "Individuals should reduce using single-use plastic products.",
+                "point_collocations": [
+                  {
+                    "en": "single-use plastic products",
+                    "vi": "các sản phẩm nhựa dùng một lần"
+                  },
+                  {
+                    "en": "reduce plastic use",
+                    "vi": "giảm sử dụng đồ nhựa"
+                  },
+                  {
+                    "en": "single-use items",
+                    "vi": "vật dụng dùng một lần"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể mang theo bình nước cá nhân và túi vải khi đi chợ, nhờ đó lượng rác nhựa thải ra giảm đi nhiều.",
+                "evidence_en": "People can carry personal water bottles and cloth bags when shopping, so plastic waste drops substantially.",
+                "evidence_collocations": [
+                  {
+                    "en": "carry personal water bottles",
+                    "vi": "mang theo bình nước cá nhân"
+                  },
+                  {
+                    "en": "cloth bags",
+                    "vi": "túi vải"
+                  },
+                  {
+                    "en": "drop substantially",
+                    "vi": "giảm đi đáng kể"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "reduce single-use plastics",
-                    "vi": "giảm đồ nhựa dùng một lần"
+                    "en": "single-use plastics",
+                    "vi": "nhựa dùng một lần"
                   },
                   {
-                    "en": "reusable cloth bags",
-                    "vi": "túi vải có thể tái sử dụng"
-                  },
-                  {
-                    "en": "plastic packaging",
-                    "vi": "bao bì nhựa"
-                  },
-                  {
-                    "en": "eco-friendly alternatives",
-                    "vi": "các sản phẩm thân thiện với môi trường"
+                    "en": "cloth bags",
+                    "vi": "túi vải"
                   }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG THU GOM VÀ TÁI CHẾ",
-                "point_vi": "Chính quyền địa phương nên xây dựng hệ thống thu gom và tái chế rác hiệu quả hơn.",
-                "point_en": "Local authorities should establish better waste collection and recycling systems.",
-                "evidence_vi": "Họ có thể lắp đặt nhiều thùng phân loại rác ở ven biển và tái chế nhiều chai nhựa hơn.",
-                "evidence_en": "They can place more sorting bins along coastal areas and recycle more plastic bottles.",
+                "title": "GIẢI PHÁP 02: CẢI THIỆN HỆ THỐNG THU GOM VÀ TÁI CHẾ",
+                "point_vi": "Chính quyền cần nâng cấp hệ thống thu gom và tái chế rác ven biển.",
+                "point_en": "Governments should upgrade coastal waste collection and recycling systems.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade recycling systems",
+                    "vi": "nâng cấp hệ thống tái chế"
+                  },
+                  {
+                    "en": "coastal waste collection",
+                    "vi": "thu gom rác thải ven biển"
+                  }
+                ],
+                "evidence_vi": "Thành phố nên đặt nhiều thùng phân loại rác ở bãi biển và mở rộng các nhà máy tái chế chai nhựa.",
+                "evidence_en": "Cities should place sorting bins on beaches and expand plastic bottle recycling plants.",
+                "evidence_collocations": [
+                  {
+                    "en": "place sorting bins on beaches",
+                    "vi": "đặt thùng phân loại rác ở bãi biển"
+                  },
+                  {
+                    "en": "recycling plants",
+                    "vi": "nhà máy tái chế"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "waste management system",
-                    "vi": "hệ thống quản lý rác thải"
+                    "en": "sorting bins",
+                    "vi": "thùng phân loại rác"
                   },
                   {
-                    "en": "recycle plastic waste",
-                    "vi": "tái chế rác thải nhựa"
-                  },
-                  {
-                    "en": "proper waste sorting",
-                    "vi": "phân loại rác đúng cách"
-                  },
-                  {
-                    "en": "prevent waste from entering rivers",
-                    "vi": "ngăn rác chảy ra sông ngòi"
+                    "en": "recycling plants",
+                    "vi": "nhà máy tái chế"
                   }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 03: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nhà trường và xã hội nên giáo dục người dân về tác hại của rác thải nhựa.",
-                "point_en": "Schools and communities should educate people about the harmful effects of plastic waste.",
-                "evidence_vi": "Các tổ chức tình nguyện có thể mở các chiến dịch dọn sạch bãi biển vào cuối tuần để giữ môi trường trong lành.",
-                "evidence_en": "Volunteer organizations can run weekend beach clean-up campaigns to keep the environment clean.",
-                "collocations": [
+                "title": "GIẢI PHÁP 03: TỔ CHỨC CÁC CHIẾN DỊCH DỌN RÁC BÃI BIỂN",
+                "point_vi": "Tổ chức các phong trào làm sạch bãi biển giúp nâng cao nhận thức người dân.",
+                "point_en": "Organizing beach clean-up campaigns helps raise public awareness.",
+                "point_collocations": [
+                  {
+                    "en": "beach clean-up campaigns",
+                    "vi": "chiến dịch dọn rác bãi biển"
+                  },
                   {
                     "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "beach clean-up campaigns",
-                    "vi": "các chiến dịch làm sạch bãi biển"
+                    "en": "clean up beaches",
+                    "vi": "dọn sạch các bãi biển"
+                  }
+                ],
+                "evidence_vi": "Các bạn trẻ tình nguyện nhặt rác vào cuối tuần, vì vậy các bãi tắm luôn giữ được vẻ đẹp tự nhiên và sạch sẽ.",
+                "evidence_en": "Young volunteers collect litter at weekends, so beaches maintain natural beauty and cleanliness.",
+                "evidence_collocations": [
+                  {
+                    "en": "collect litter at weekends",
+                    "vi": "thu gom rác vào cuối tuần"
                   },
                   {
-                    "en": "responsible consumption",
-                    "vi": "tiêu dùng có trách nhiệm"
+                    "en": "natural beauty and cleanliness",
+                    "vi": "vẻ đẹp tự nhiên và sạch sẽ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "beach clean-up",
+                    "vi": "dọn dẹp bãi biển"
                   },
                   {
-                    "en": "green lifestyle",
-                    "vi": "lối sống xanh"
+                    "en": "cleanliness",
+                    "vi": "sự sạch sẽ"
                   }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 04: ÁP DỤNG VÀ THỰC THI PHÁP LUẬT NGHIÊM NGẶT",
-                "point_vi": "Chính phủ cần ban hành các điều luật nghiêm khắc để cấm xả rác bừa bãi ra biển.",
-                "point_en": "Governments need to enact strict laws to ban illegal dumping into the ocean.",
-                "evidence_vi": "Các cơ quan chức năng nên phạt tiền thật nặng những người hoặc doanh nghiệp vứt rác nhựa xuống sông ngòi và bờ biển.",
-                "evidence_en": "Authorities should impose heavy fines on individuals and businesses that throw plastic waste into rivers and beaches.",
+                "title": "GIẢI PHÁP 04: BAN HÀNH LUẬT CẤM XẢ RÁC RA BIỂN",
+                "point_vi": "Chính phủ cần ban hành các mức phạt nặng đối với hành vi vứt rác ra biển.",
+                "point_en": "Governments should impose heavy fines on ocean dumping.",
+                "point_collocations": [
+                  {
+                    "en": "impose heavy fines on",
+                    "vi": "áp dụng các mức phạt nặng đối với"
+                  },
+                  {
+                    "en": "ocean dumping",
+                    "vi": "hành vi xả rác ra biển"
+                  }
+                ],
+                "evidence_vi": "Các cơ quan chức năng nên phạt tiền nghiêm khắc những người hoặc doanh nghiệp xả rác nhựa xuống sông và biển.",
+                "evidence_en": "Authorities should strictly fine individuals and businesses throwing plastic waste into rivers and seas.",
+                "evidence_collocations": [
+                  {
+                    "en": "strictly fine",
+                    "vi": "phạt tiền nghiêm khắc"
+                  },
+                  {
+                    "en": "throwing plastic waste",
+                    "vi": "xả rác thải nhựa"
+                  },
+                  {
+                    "en": "into rivers and seas",
+                    "vi": "xuống sông và biển"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "enforce stricter laws",
-                    "vi": "thực thi pháp luật nghiêm ngặt hơn"
+                    "en": "heavy fines",
+                    "vi": "mức phạt nặng"
                   },
                   {
-                    "en": "impose heavy fines",
-                    "vi": "áp dụng mức phạt tiền nặng"
-                  },
-                  {
-                    "en": "ban single-use plastics",
-                    "vi": "cấm đồ nhựa dùng một lần"
-                  },
-                  {
-                    "en": "illegal waste dumping",
-                    "vi": "xả rác bừa bãi trái phép"
+                    "en": "throwing plastic waste",
+                    "vi": "xả rác nhựa"
                   }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ VÀ ĐỔI MỚI CÔNG NGHỆ",
-                "point_vi": "Các quốc gia trên thế giới nên hợp tác cùng nhau để làm sạch đại dương.",
-                "point_en": "Countries around the world should cooperate with each other to clean up the oceans.",
-                "evidence_vi": "Các nước phát triển có thể chia sẻ công nghệ tái chế mới và hỗ trợ tài chính cho các nước đang phát triển.",
-                "evidence_en": "Developed nations can share modern recycling technologies and provide financial support for developing countries.",
+                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ LÀM SẠCH ĐẠI DƯƠNG",
+                "point_vi": "Các quốc gia trên thế giới cần chung tay hợp tác bảo vệ đại dương.",
+                "point_en": "Nations worldwide should join hands to clean up global oceans.",
+                "point_collocations": [
+                  {
+                    "en": "join hands",
+                    "vi": "chung tay hợp tác"
+                  },
+                  {
+                    "en": "global oceans",
+                    "vi": "các đại dương trên toàn cầu"
+                  }
+                ],
+                "evidence_vi": "Các nước phát triển nên chia sẻ công nghệ thu gom rác biển và hỗ trợ tài chính cho các nước nghèo.",
+                "evidence_en": "Developed countries should share ocean-cleaning technology and provide financial funds for poorer nations.",
+                "evidence_collocations": [
+                  {
+                    "en": "share ocean-cleaning technology",
+                    "vi": "chia sẻ công nghệ làm sạch đại dương"
+                  },
+                  {
+                    "en": "financial funds",
+                    "vi": "các nguồn quỹ tài chính"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "international cooperation",
-                    "vi": "hợp tác quốc tế"
+                    "en": "join hands",
+                    "vi": "chung tay"
                   },
                   {
-                    "en": "technological innovation",
-                    "vi": "đổi mới công nghệ"
-                  },
-                  {
-                    "en": "biodegradable materials",
-                    "vi": "vật liệu tự phân hủy sinh học"
-                  },
-                  {
-                    "en": "clean up ocean plastic",
-                    "vi": "làm sạch rác thải nhựa đại dương"
+                    "en": "ocean-cleaning technology",
+                    "vi": "công nghệ làm sạch biển"
                   }
                 ]
               }
@@ -143796,606 +143647,402 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "ẢNH HƯỞNG 01: ĐE DỌA SINH VẬT BIỂN",
-                "point_vi": "Rác thải nhựa đe dọa trực tiếp đến tính mạng của các loài động vật biển.",
-                "point_en": "Plastic waste directly threatens the lives of marine animals.",
-                "evidence_vi": "Nhiều sinh vật biển bị mắc kẹt vào lưới đánh cá cũ hoặc nuốt phải túi nilon, vì vậy chúng có thể bị thương tích nặng hoặc tử vong.",
-                "evidence_en": "Many marine creatures become entangled in old fishing nets or swallow plastic bags, so they can suffer severe injuries or even die.",
-                "collocations": [
-                  {
-                    "en": "threaten marine life",
-                    "vi": "đe dọa sinh vật biển"
-                  },
-                  {
-                    "en": "become entangled in",
-                    "vi": "bị mắc kẹt vào"
-                  },
-                  {
-                    "en": "mistake plastic for food",
-                    "vi": "nhầm rác nhựa với thức ăn"
-                  },
-                  {
-                    "en": "severe injuries",
-                    "vi": "thương tích nghiêm trọng"
-                  }
-                ],
+                "point_vi": "Rác thải nhựa đe dọa trực tiếp đến tính mạng của các loài sinh vật biển.",
+                "point_en": "Plastic waste directly threatens the lives of marine creatures.",
                 "point_collocations": [
                   {
-                    "en": "threaten marine life",
-                    "vi": "đe dọa sinh vật biển"
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
                   },
                   {
-                    "en": "marine animals",
-                    "vi": "động vật biển"
-                  },
-                  {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
-                  },
-                  {
-                    "en": "marine",
-                    "vi": "thuộc về biển, sinh vật biển"
+                    "en": "marine creatures",
+                    "vi": "sinh vật biển"
                   }
                 ],
+                "evidence_vi": "Nhiều loài rùa biển và cá voi ăn nhầm túi nilon hoặc bị mắc kẹt trong lưới đánh cá cũ, vì vậy chúng bị chết ngạt hoặc bị thương tật.",
+                "evidence_en": "Many sea turtles and whales swallow plastic bags or get trapped in ghost nets, so they choke or suffer fatal injuries.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "become entangled in",
-                      "vi": "bị mắc kẹt vào"
-                    },
-                    {
-                      "en": "severe injuries",
-                      "vi": "thương tích nghiêm trọng"
-                    },
-                    {
-                      "en": "swallow plastic bags",
-                      "vi": "nuốt phải túi nilon"
-                    },
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "marine",
-                      "vi": "thuộc về biển, sinh vật biển"
-                    }
-                  ]
+                  {
+                    "en": "swallow plastic bags",
+                    "vi": "ăn nhầm (nuốt) túi nilon"
+                  },
+                  {
+                    "en": "trapped in ghost nets",
+                    "vi": "bị mắc kẹt trong lưới đánh cá cũ"
+                  },
+                  {
+                    "en": "fatal injuries",
+                    "vi": "chấn thương nguy kịch (tử vong)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "marine creatures",
+                    "vi": "sinh vật biển"
+                  },
+                  {
+                    "en": "plastic bags",
+                    "vi": "túi nilon"
+                  }
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 02: PHÁ HỦY HỆ SINH THÁI BIỂN",
-                "point_vi": "Rác thải nhựa làm hư hại nghiêm trọng các rạn san hô và môi trường sống dưới đáy biển.",
-                "point_en": "Plastic waste seriously damages coral reefs and seafloor habitats.",
-                "evidence_vi": "Các túi nilon và mảnh nhựa phủ kín mặt san hô, vì vậy ánh sáng mặt trời không thể chiếu tới và san hô chết dần.",
-                "evidence_en": "Plastic bags and debris cover the surface of coral reefs, so sunlight cannot reach them and corals gradually die.",
-                "collocations": [
-                  {
-                    "en": "damage coral reefs",
-                    "vi": "làm hư hại rạn san hô"
-                  },
-                  {
-                    "en": "seafloor habitats",
-                    "vi": "môi trường sống dưới đáy biển"
-                  },
-                  {
-                    "en": "disrupt the food chain",
-                    "vi": "làm mất cân bằng chuỗi thức ăn"
-                  },
-                  {
-                    "en": "marine biodiversity",
-                    "vi": "đa dạng sinh học biển"
-                  }
-                ],
+                "point_vi": "Chất thải nhựa làm suy thoái các rạn san hô và hệ sinh thái ven bờ.",
+                "point_en": "Plastic pollution degrades coral reefs and coastal habitats.",
                 "point_collocations": [
-                  {
-                    "en": "damage coral reefs",
-                    "vi": "làm hư hại rạn san hô"
-                  },
-                  {
-                    "en": "seafloor habitats",
-                    "vi": "môi trường sống dưới đáy biển"
-                  },
                   {
                     "en": "coral reefs",
                     "vi": "các rạn san hô"
                   },
                   {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
-                  },
-                  {
-                    "en": "coral",
-                    "vi": "san hô"
+                    "en": "coastal habitats",
+                    "vi": "môi trường sống ven bờ"
                   }
                 ],
+                "evidence_vi": "Những mảng nhựa khổng lồ che lấp ánh sáng mặt trời, do đó các rạn san hô bị tẩy trắng và chết dần.",
+                "evidence_en": "Huge plastic layers block sunlight, so delicate coral reefs bleach and slowly die.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "damage coral reefs",
-                      "vi": "làm hư hại rạn san hô"
-                    },
-                    {
-                      "en": "swallow plastic bags",
-                      "vi": "nuốt phải túi nilon"
-                    },
-                    {
-                      "en": "coral reefs",
-                      "vi": "các rạn san hô"
-                    },
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "debris",
-                      "vi": "mảnh vụn, rác thải trôi nổi"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 03: ẢNH HƯỞNG ĐẾN SỨC KHỎE CON NGƯỜI",
-                "point_vi": "Ô nhiễm rác nhựa ở đại dương có thể gây hại cho sức khỏe con người.",
-                "point_en": "Ocean plastic pollution can negatively harm human health.",
-                "evidence_vi": "Các hạt vi nhựa đi vào cơ thể cá và tôm, vì vậy con người có thể ăn phải những chất độc hại khi sử dụng hải sản.",
-                "evidence_en": "Microplastics easily enter the bodies of fish and shrimp, so people consume harmful substances when they eat seafood.",
+                  {
+                    "en": "block sunlight",
+                    "vi": "che lấp ánh sáng mặt trời"
+                  },
+                  {
+                    "en": "coral reefs bleach",
+                    "vi": "san hô bị tẩy trắng"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "harm human health",
-                    "vi": "gây hại cho sức khỏe con người"
+                    "en": "coral reefs",
+                    "vi": "rạn san hô"
                   },
                   {
-                    "en": "enter the food chain",
-                    "vi": "đi vào chuỗi thức ăn"
-                  },
-                  {
-                    "en": "toxic chemicals",
-                    "vi": "hóa chất độc hại"
-                  },
-                  {
-                    "en": "consume seafood",
-                    "vi": "ăn hải sản"
+                    "en": "block sunlight",
+                    "vi": "che ánh sáng"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "harm human health",
-                    "vi": "gây hại cho sức khỏe con người"
-                  },
-                  {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
-                  },
-                  {
-                    "en": "ocean",
-                    "vi": "đại dương, biển lớn"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "enter the food chain",
-                      "vi": "đi vào chuỗi thức ăn"
-                    },
-                    {
-                      "en": "consume seafood",
-                      "vi": "ăn hải sản"
-                    },
-                    {
-                      "en": "microplastics",
-                      "vi": "hạt vi nhựa"
-                    },
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "microplastic",
-                      "vi": "hạt vi nhựa (kích thước siêu nhỏ)"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 04: THIỆT HẠI VỀ KINH TẾ",
-                "point_vi": "Rác thải nhựa gây thiệt hại tài chính lớn cho các ngành kinh tế biển.",
-                "point_en": "Plastic debris causes major financial losses for maritime industries.",
-                "evidence_vi": "Các bãi biển ngập rác làm giảm lượng du khách tham quan, đồng thời chính quyền phải chi rất nhiều tiền để dọn dẹp bờ biển.",
-                "evidence_en": "Dirty beaches reduce the number of tourists, and local governments have to spend a lot of money to clean up coastlines.",
+                "title": "ẢNH HƯỞNG 03: HẠT VI NHỰA ĐI VÀO CHUỖI THỨC ĂN",
+                "point_vi": "Hạt vi nhựa thâm nhập vào chuỗi thức ăn và gây hại cho sức khỏe con người.",
+                "point_en": "Microplastics enter the food chain and harm human health.",
+                "point_collocations": [
+                  {
+                    "en": "microplastics",
+                    "vi": "các hạt vi nhựa"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  }
+                ],
+                "evidence_vi": "Cá và hải sản nuốt phải các mảnh nhựa vụn trên biển, vì vậy con người ăn hải sản có nguy cơ nhiễm độc chất nhựa.",
+                "evidence_en": "Fish and seafood ingest tiny plastic debris, so humans eating seafood risk taking in toxic particles.",
+                "evidence_collocations": [
+                  {
+                    "en": "tiny plastic debris",
+                    "vi": "những mảnh nhựa vụn li ti"
+                  },
+                  {
+                    "en": "eating seafood",
+                    "vi": "ăn đồ hải sản"
+                  },
+                  {
+                    "en": "toxic particles",
+                    "vi": "các hạt độc tố"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "microplastics",
+                    "vi": "hạt vi nhựa"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: THIỆT HẠI KINH TẾ DU LỊCH VÀ ĐÁNH BẮT",
+                "point_vi": "Rác nhựa đại dương gây tổn thất kinh tế lớn cho ngành du lịch và thủy sản.",
+                "point_en": "Marine plastic debris causes big economic losses for tourism and fishing.",
+                "point_collocations": [
+                  {
+                    "en": "economic losses",
+                    "vi": "tổn thất kinh tế"
+                  },
+                  {
+                    "en": "tourism and fishing",
+                    "vi": "du lịch và đánh bắt thủy sản"
+                  }
+                ],
+                "evidence_vi": "Các bãi biển ngập rác làm du khách quay lưng, do đó các khu nghỉ dưỡng và ngư dân bị sụt giảm doanh thu.",
+                "evidence_en": "Trash-covered beaches drive tourists away, so seaside resorts and fishing communities lose revenues.",
+                "evidence_collocations": [
+                  {
+                    "en": "drive tourists away",
+                    "vi": "khiến du khách quay lưng (bỏ đi)"
+                  },
+                  {
+                    "en": "lose revenues",
+                    "vi": "sụt giảm doanh thu"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "economic losses",
-                    "vi": "thiệt hại về kinh tế"
+                    "vi": "tổn thất kinh tế"
                   },
                   {
-                    "en": "fishing industry",
-                    "vi": "ngành đánh bắt thủy sản"
-                  },
-                  {
-                    "en": "coastal tourism",
-                    "vi": "du lịch ven biển"
-                  },
-                  {
-                    "en": "clean-up costs",
-                    "vi": "chi phí dọn dẹp rác"
+                    "en": "drive tourists away",
+                    "vi": "khiến du khách bỏ đi"
                   }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
-                  },
-                  {
-                    "en": "debris",
-                    "vi": "mảnh vụn, rác thải trôi nổi"
-                  },
-                  {
-                    "en": "economic losses",
-                    "vi": "thiệt hại về kinh tế"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "clean-up costs",
-                      "vi": "chi phí dọn dẹp rác"
-                    },
-                    {
-                      "en": "beach clean-up campaigns",
-                      "vi": "các chiến dịch dọn sạch bãi biển"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "ẢNH HƯỞNG 05: TÁC HẠI MÔI TRƯỜNG LÂU DÀI",
-                "point_vi": "Rác thải nhựa tồn tại nhiều thế kỷ và làm mất đi vẻ đẹp tự nhiên của đại dương.",
-                "point_en": "Plastic waste lasts for hundreds of years and spoils the natural beauty of the ocean.",
-                "evidence_vi": "Nhựa không thể tự tiêu hủy nhanh chóng, vì vậy các bãi biển và mặt nước biển trở nên ô nhiễm và xấu xí.",
-                "evidence_en": "Plastic cannot decompose quickly, so beaches and sea surfaces become polluted and unattractive.",
-                "collocations": [
+                "title": "ẢNH HƯỞNG 05: Ô NHIỄM NGUỒN NƯỚC TOÀN CẦU",
+                "point_vi": "Rác nhựa phân rã thành hóa chất độc hại gây ô nhiễm đại dương kéo dài.",
+                "point_en": "Decaying plastic releases harmful chemicals that pollute ocean waters for centuries.",
+                "point_collocations": [
                   {
-                    "en": "long-term environmental damage",
-                    "vi": "tác hại môi trường lâu dài"
+                    "en": "decaying plastic",
+                    "vi": "nhựa phân rã"
                   },
                   {
-                    "en": "fully decompose",
+                    "en": "pollute ocean waters",
+                    "vi": "làm ô nhiễm nguồn nước đại dương"
+                  }
+                ],
+                "evidence_vi": "Chất dẻo cần hàng trăm năm để phân hủy hoàn toàn, vì vậy môi trường biển phải chịu hậu quả ô nhiễm lâu dài.",
+                "evidence_en": "Plastics take hundreds of years to break down completely, so marine environments suffer long-term contamination.",
+                "evidence_collocations": [
+                  {
+                    "en": "take hundreds of years",
+                    "vi": "cần hàng trăm năm"
+                  },
+                  {
+                    "en": "break down completely",
                     "vi": "phân hủy hoàn toàn"
                   },
                   {
-                    "en": "break down into microplastics",
-                    "vi": "vỡ vụn thành các hạt vi nhựa"
-                  },
-                  {
-                    "en": "future generations",
-                    "vi": "các thế hệ tương lai"
+                    "en": "suffer long-term contamination",
+                    "vi": "chịu hậu quả ô nhiễm lâu dài"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
+                    "en": "break down completely",
+                    "vi": "phân hủy hoàn toàn"
                   },
                   {
-                    "en": "ocean",
-                    "vi": "đại dương, biển lớn"
-                  },
-                  {
-                    "en": "long-term environmental damage",
-                    "vi": "tác hại môi trường lâu dài"
+                    "en": "long-term contamination",
+                    "vi": "ô nhiễm lâu dài"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "decompose",
-                      "vi": "phân hủy, tiêu biến"
-                    },
-                    {
-                      "en": "long-term environmental damage",
-                      "vi": "tác hại môi trường lâu dài"
-                    }
-                  ]
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "GIẢI PHÁP 01: GIẢM SỬ DỤNG NHỰA DÙNG MỘT LẦN",
-                "point_vi": "Người dân nên cắt giảm việc dùng các sản phẩm nhựa dùng một lần hằng ngày.",
-                "point_en": "People should cut down on using single-use plastic products every day.",
-                "evidence_vi": "Chúng ta có thể mang theo túi vải, bình nước cá nhân và hộp đựng thức ăn khi đi mua sắm.",
-                "evidence_en": "We can carry reusable cloth bags, personal water bottles, and food containers when we go shopping.",
-                "collocations": [
-                  {
-                    "en": "reduce single-use plastics",
-                    "vi": "giảm đồ nhựa dùng một lần"
-                  },
-                  {
-                    "en": "reusable cloth bags",
-                    "vi": "túi vải có thể tái sử dụng"
-                  },
-                  {
-                    "en": "plastic packaging",
-                    "vi": "bao bì nhựa"
-                  },
-                  {
-                    "en": "eco-friendly alternatives",
-                    "vi": "các sản phẩm thân thiện với môi trường"
-                  }
-                ],
+                "title": "GIẢI PHÁP 01: HẠN CHẾ SẢN PHẨM NHỰA DÙNG MỘT LẦN",
+                "point_vi": "Mỗi cá nhân nên cắt giảm việc sử dụng các sản phẩm nhựa dùng một lần.",
+                "point_en": "Individuals should reduce using single-use plastic products.",
                 "point_collocations": [
                   {
-                    "en": "reduce single-use plastics",
-                    "vi": "giảm đồ nhựa dùng một lần"
+                    "en": "single-use plastic products",
+                    "vi": "các sản phẩm nhựa dùng một lần"
                   },
+                  {
+                    "en": "reduce plastic use",
+                    "vi": "giảm sử dụng đồ nhựa"
+                  },
+                  {
+                    "en": "single-use items",
+                    "vi": "vật dụng dùng một lần"
+                  }
+                ],
+                "evidence_vi": "Mọi người có thể mang theo bình nước cá nhân và túi vải khi đi chợ, nhờ đó lượng rác nhựa thải ra giảm đi nhiều.",
+                "evidence_en": "People can carry personal water bottles and cloth bags when shopping, so plastic waste drops substantially.",
+                "evidence_collocations": [
+                  {
+                    "en": "carry personal water bottles",
+                    "vi": "mang theo bình nước cá nhân"
+                  },
+                  {
+                    "en": "cloth bags",
+                    "vi": "túi vải"
+                  },
+                  {
+                    "en": "drop substantially",
+                    "vi": "giảm đi đáng kể"
+                  }
+                ],
+                "collocations": [
                   {
                     "en": "single-use plastics",
-                    "vi": "đồ nhựa dùng một lần"
+                    "vi": "nhựa dùng một lần"
                   },
                   {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
-                  },
-                  {
-                    "en": "single-use",
-                    "vi": "dùng một lần rồi vứt"
+                    "en": "cloth bags",
+                    "vi": "túi vải"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "reusable cloth bags",
-                      "vi": "túi vải có thể tái sử dụng"
-                    },
-                    {
-                      "en": "reusable",
-                      "vi": "có thể tái sử dụng"
-                    },
-                    {
-                      "en": "reduce single-use plastics",
-                      "vi": "giảm đồ nhựa dùng một lần"
-                    }
-                  ]
                 ]
               },
               {
-                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG THU GOM VÀ TÁI CHẾ",
-                "point_vi": "Chính quyền địa phương nên xây dựng hệ thống thu gom và tái chế rác hiệu quả hơn.",
-                "point_en": "Local authorities should establish better waste collection and recycling systems.",
-                "evidence_vi": "Họ có thể lắp đặt nhiều thùng phân loại rác ở ven biển và tái chế nhiều chai nhựa hơn.",
-                "evidence_en": "They can place more sorting bins along coastal areas and recycle more plastic bottles.",
-                "collocations": [
-                  {
-                    "en": "waste management system",
-                    "vi": "hệ thống quản lý rác thải"
-                  },
-                  {
-                    "en": "recycle plastic waste",
-                    "vi": "tái chế rác thải nhựa"
-                  },
-                  {
-                    "en": "proper waste sorting",
-                    "vi": "phân loại rác đúng cách"
-                  },
-                  {
-                    "en": "prevent waste from entering rivers",
-                    "vi": "ngăn rác chảy ra sông ngòi"
-                  }
-                ],
+                "title": "GIẢI PHÁP 02: CẢI THIỆN HỆ THỐNG THU GOM VÀ TÁI CHẾ",
+                "point_vi": "Chính quyền cần nâng cấp hệ thống thu gom và tái chế rác ven biển.",
+                "point_en": "Governments should upgrade coastal waste collection and recycling systems.",
                 "point_collocations": [
                   {
-                    "en": "waste management system",
-                    "vi": "hệ thống quản lý rác thải"
+                    "en": "upgrade recycling systems",
+                    "vi": "nâng cấp hệ thống tái chế"
                   },
                   {
-                    "en": "recycling",
-                    "vi": "hoạt động tái chế"
-                  },
-                  {
-                    "en": "recycle plastic waste",
-                    "vi": "tái chế rác thải nhựa"
+                    "en": "coastal waste collection",
+                    "vi": "thu gom rác thải ven biển"
                   }
                 ],
+                "evidence_vi": "Thành phố nên đặt nhiều thùng phân loại rác ở bãi biển và mở rộng các nhà máy tái chế chai nhựa.",
+                "evidence_en": "Cities should place sorting bins on beaches and expand plastic bottle recycling plants.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "recycle plastic waste",
-                      "vi": "tái chế rác thải nhựa"
-                    },
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "sorting",
-                      "vi": "việc phân loại (rác)"
-                    }
-                  ]
+                  {
+                    "en": "place sorting bins on beaches",
+                    "vi": "đặt thùng phân loại rác ở bãi biển"
+                  },
+                  {
+                    "en": "recycling plants",
+                    "vi": "nhà máy tái chế"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "sorting bins",
+                    "vi": "thùng phân loại rác"
+                  },
+                  {
+                    "en": "recycling plants",
+                    "vi": "nhà máy tái chế"
+                  }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 03: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
-                "point_vi": "Nhà trường và xã hội nên giáo dục người dân về tác hại của rác thải nhựa.",
-                "point_en": "Schools and communities should educate people about the harmful effects of plastic waste.",
-                "evidence_vi": "Các tổ chức tình nguyện có thể mở các chiến dịch dọn sạch bãi biển vào cuối tuần để giữ môi trường trong lành.",
-                "evidence_en": "Volunteer organizations can run weekend beach clean-up campaigns to keep the environment clean.",
-                "collocations": [
-                  {
-                    "en": "raise public awareness",
-                    "vi": "nâng cao nhận thức cộng đồng"
-                  },
+                "title": "GIẢI PHÁP 03: TỔ CHỨC CÁC CHIẾN DỊCH DỌN RÁC BÃI BIỂN",
+                "point_vi": "Tổ chức các phong trào làm sạch bãi biển giúp nâng cao nhận thức người dân.",
+                "point_en": "Organizing beach clean-up campaigns helps raise public awareness.",
+                "point_collocations": [
                   {
                     "en": "beach clean-up campaigns",
-                    "vi": "các chiến dịch làm sạch bãi biển"
-                  },
-                  {
-                    "en": "responsible consumption",
-                    "vi": "tiêu dùng có trách nhiệm"
-                  },
-                  {
-                    "en": "green lifestyle",
-                    "vi": "lối sống xanh"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "plastic",
-                    "vi": "nhựa, chất dẻo"
+                    "vi": "chiến dịch dọn rác bãi biển"
                   },
                   {
                     "en": "raise public awareness",
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "beach clean-up campaigns",
-                    "vi": "các chiến dịch làm sạch bãi biển"
+                    "en": "clean up beaches",
+                    "vi": "dọn sạch các bãi biển"
                   }
                 ],
+                "evidence_vi": "Các bạn trẻ tình nguyện nhặt rác vào cuối tuần, vì vậy các bãi tắm luôn giữ được vẻ đẹp tự nhiên và sạch sẽ.",
+                "evidence_en": "Young volunteers collect litter at weekends, so beaches maintain natural beauty and cleanliness.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "beach clean-up campaigns",
-                      "vi": "các chiến dịch làm sạch bãi biển"
-                    },
-                    {
-                      "en": "clean-up costs",
-                      "vi": "chi phí dọn dẹp"
-                    },
-                    {
-                      "en": "campaign",
-                      "vi": "chiến dịch, phong trào"
-                    },
-                    {
-                      "en": "in the long run",
-                      "vi": "trong dài hạn"
-                    }
-                  ]
+                  {
+                    "en": "collect litter at weekends",
+                    "vi": "thu gom rác vào cuối tuần"
+                  },
+                  {
+                    "en": "natural beauty and cleanliness",
+                    "vi": "vẻ đẹp tự nhiên và sạch sẽ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "beach clean-up",
+                    "vi": "dọn dẹp bãi biển"
+                  },
+                  {
+                    "en": "cleanliness",
+                    "vi": "sự sạch sẽ"
+                  }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 04: ÁP DỤNG VÀ THỰC THI PHÁP LUẬT NGHIÊM NGẶT",
-                "point_vi": "Chính phủ cần ban hành các điều luật nghiêm khắc để cấm xả rác bừa bãi ra biển.",
-                "point_en": "Governments need to enact strict laws to ban illegal dumping into the ocean.",
-                "evidence_vi": "Các cơ quan chức năng nên phạt tiền thật nặng những người hoặc doanh nghiệp vứt rác nhựa xuống sông ngòi và bờ biển.",
-                "evidence_en": "Authorities should impose heavy fines on individuals and businesses that throw plastic waste into rivers and beaches.",
-                "collocations": [
-                  {
-                    "en": "enforce stricter laws",
-                    "vi": "thực thi pháp luật nghiêm ngặt hơn"
-                  },
-                  {
-                    "en": "impose heavy fines",
-                    "vi": "áp dụng mức phạt tiền nặng"
-                  },
-                  {
-                    "en": "ban single-use plastics",
-                    "vi": "cấm đồ nhựa dùng một lần"
-                  },
-                  {
-                    "en": "illegal waste dumping",
-                    "vi": "xả rác bừa bãi trái phép"
-                  }
-                ],
+                "title": "GIẢI PHÁP 04: BAN HÀNH LUẬT CẤM XẢ RÁC RA BIỂN",
+                "point_vi": "Chính phủ cần ban hành các mức phạt nặng đối với hành vi vứt rác ra biển.",
+                "point_en": "Governments should impose heavy fines on ocean dumping.",
                 "point_collocations": [
                   {
-                    "en": "illegal waste dumping",
-                    "vi": "xả rác bừa bãi trái phép"
+                    "en": "impose heavy fines on",
+                    "vi": "áp dụng các mức phạt nặng đối với"
                   },
                   {
-                    "en": "ocean",
-                    "vi": "đại dương, biển lớn"
-                  },
-                  {
-                    "en": "enforce stricter laws",
-                    "vi": "thực thi pháp luật nghiêm ngặt hơn"
+                    "en": "ocean dumping",
+                    "vi": "hành vi xả rác ra biển"
                   }
                 ],
+                "evidence_vi": "Các cơ quan chức năng nên phạt tiền nghiêm khắc những người hoặc doanh nghiệp xả rác nhựa xuống sông và biển.",
+                "evidence_en": "Authorities should strictly fine individuals and businesses throwing plastic waste into rivers and seas.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "impose heavy fines",
-                      "vi": "áp dụng mức phạt tiền nặng"
-                    },
-                    {
-                      "en": "plastic",
-                      "vi": "nhựa, chất dẻo"
-                    },
-                    {
-                      "en": "enforce stricter laws",
-                      "vi": "thực thi pháp luật nghiêm ngặt hơn"
-                    }
-                  ]
+                  {
+                    "en": "strictly fine",
+                    "vi": "phạt tiền nghiêm khắc"
+                  },
+                  {
+                    "en": "throwing plastic waste",
+                    "vi": "xả rác thải nhựa"
+                  },
+                  {
+                    "en": "into rivers and seas",
+                    "vi": "xuống sông và biển"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy fines",
+                    "vi": "mức phạt nặng"
+                  },
+                  {
+                    "en": "throwing plastic waste",
+                    "vi": "xả rác nhựa"
+                  }
                 ]
               },
               {
-                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ VÀ ĐỔI MỚI CÔNG NGHỆ",
-                "point_vi": "Các quốc gia trên thế giới nên hợp tác cùng nhau để làm sạch đại dương.",
-                "point_en": "Countries around the world should cooperate with each other to clean up the oceans.",
-                "evidence_vi": "Các nước phát triển có thể chia sẻ công nghệ tái chế mới và hỗ trợ tài chính cho các nước đang phát triển.",
-                "evidence_en": "Developed nations can share modern recycling technologies and provide financial support for developing countries.",
-                "collocations": [
-                  {
-                    "en": "international cooperation",
-                    "vi": "hợp tác quốc tế"
-                  },
-                  {
-                    "en": "technological innovation",
-                    "vi": "đổi mới công nghệ"
-                  },
-                  {
-                    "en": "biodegradable materials",
-                    "vi": "vật liệu tự phân hủy sinh học"
-                  },
-                  {
-                    "en": "clean up ocean plastic",
-                    "vi": "làm sạch rác thải nhựa đại dương"
-                  }
-                ],
+                "title": "GIẢI PHÁP 05: HỢP TÁC QUỐC TẾ LÀM SẠCH ĐẠI DƯƠNG",
+                "point_vi": "Các quốc gia trên thế giới cần chung tay hợp tác bảo vệ đại dương.",
+                "point_en": "Nations worldwide should join hands to clean up global oceans.",
                 "point_collocations": [
                   {
-                    "en": "clean up ocean plastic",
-                    "vi": "làm sạch rác thải nhựa đại dương"
+                    "en": "join hands",
+                    "vi": "chung tay hợp tác"
                   },
                   {
-                    "en": "clean-up costs",
-                    "vi": "chi phí dọn dẹp"
-                  },
-                  {
-                    "en": "beach clean-up campaigns",
-                    "vi": "các chiến dịch dọn sạch bãi biển"
-                  },
-                  {
-                    "en": "ocean",
-                    "vi": "đại dương, biển lớn"
-                  },
-                  {
-                    "en": "cooperate",
-                    "vi": "hợp tác, chung sức"
+                    "en": "global oceans",
+                    "vi": "các đại dương trên toàn cầu"
                   }
                 ],
+                "evidence_vi": "Các nước phát triển nên chia sẻ công nghệ thu gom rác biển và hỗ trợ tài chính cho các nước nghèo.",
+                "evidence_en": "Developed countries should share ocean-cleaning technology and provide financial funds for poorer nations.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "recycling",
-                      "vi": "hoạt động tái chế"
-                    },
-                    {
-                      "en": "international cooperation",
-                      "vi": "hợp tác quốc tế"
-                    },
-                    {
-                      "en": "technological innovation",
-                      "vi": "đổi mới công nghệ"
-                    }
-                  ]
+                  {
+                    "en": "share ocean-cleaning technology",
+                    "vi": "chia sẻ công nghệ làm sạch đại dương"
+                  },
+                  {
+                    "en": "financial funds",
+                    "vi": "các nguồn quỹ tài chính"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "join hands",
+                    "vi": "chung tay"
+                  },
+                  {
+                    "en": "ocean-cleaning technology",
+                    "vi": "công nghệ làm sạch biển"
+                  }
                 ]
               }
             ]
@@ -148015,10 +147662,6 @@ const ESSAY_DATA = [
                     {
                       "en": "choose online shopping",
                       "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "therefore",
-                      "vi": "vì vậy / do đó"
                     }
                   ]
                 ]
@@ -148063,10 +147706,6 @@ const ESSAY_DATA = [
                   {
                     "en": "choose online shopping",
                     "vi": "lựa chọn mua sắm trực tuyến"
-                  },
-                  {
-                    "en": "as a result",
-                    "vi": "nhờ đó / kết quả là"
                   }
                 ],
                 "evidence_collocations": [
@@ -148120,10 +147759,6 @@ const ESSAY_DATA = [
                     {
                       "en": "choose online shopping",
                       "vi": "lựa chọn mua sắm trực tuyến"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -148203,10 +147838,6 @@ const ESSAY_DATA = [
                     {
                       "en": "delivery services",
                       "vi": "dịch vụ giao hàng"
-                    },
-                    {
-                      "en": "in addition",
-                      "vi": "ngoài ra / thêm vào đó"
                     },
                     {
                       "en": "modern technology",
@@ -148610,7 +148241,7 @@ const ESSAY_DATA = [
             ],
             "drawbacks": []
           },
-          "sample_b1": "In recent years, the popularity of online shopping has become a growing trend in many parts of the world. This trend affects both individuals and society in different ways. This essay will discuss the main causes behind this change.\n\n<strong>One major cause is that online shopping is very convenient for consumers.</strong> This is because people can shop anytime and anywhere without leaving their homes. They do not need to visit crowded stores. As a result, online shopping helps them save both time and effort. Therefore, more and more people choose this way of shopping.\n\n<strong>Another contributing factor is that online shopping offers a wider variety of products.</strong> This means that customers can find products from many different stores on the Internet. Moreover, they can easily compare prices before making a purchase. This helps them choose more suitable products at better prices. Consequently, many people enjoy shopping online because they have more choices.\n\n<strong>A further reason is that modern technology has made online shopping easier.</strong> In fact, many shopping applications are easy to use, even for older people. In addition, online payment has become more convenient, and delivery services are becoming faster. For example, customers can order products with only a few clicks and receive them within a short time. For this reason, more people are choosing online shopping in their daily lives.\n\nIn conclusion, <strong><em>the popularity of online shopping is caused by several factors that affect both individuals and society.</em></strong> Understanding these causes is important to better understand this trend in the future. With continuous technological development, online shopping is likely to become even more popular.",
+          "sample_b1": "In recent years, the popularity of online shopping has become a growing trend in many parts of the world. This trend affects both individuals and society in different ways. This essay will discuss the main causes behind this change.\n\n<strong>One major cause is that online shopping is very convenient for consumers.</strong> This is because people can shop anytime and anywhere without leaving their homes. They do not need to visit crowded stores. As a result, online shopping helps them save both time and effort. Therefore, more and more people choose this way of shopping.\n\n<strong>Another contributing factor is that online shopping offers a wider variety of products.</strong> This means that customers can find products from many different stores on the Internet. Moreover, they can easily compare prices before making a purchase. This helps them choose more suitable products at better prices. Consequently, many people enjoy shopping online because they have more choices.\n\n<strong>A further reason is that modern technology has made online shopping easier.</strong> In fact, many shopping applications are easy to use, even for older people. In addition, online payment has become more convenient, and delivery services are becoming faster. For example, customers can order products with only a few clicks and receive them within a short time. For this reason, more people are choosing online shopping in their daily lives.\n\nIn conclusion, <strong><em>the popularity of online shopping is caused by several factors affecting both individuals and society.</em></strong> Understanding these causes is important to better understand this trend in the future. With continuous technological development, online shopping is likely to become even more popular.",
           "sample_b2": "In recent years, the popularity of online shopping has become a growing trend in many parts of the world. This trend has created several changes for both individuals and society. This essay will examine the main causes of this phenomenon.\n\n<strong>One major cause is that online shopping provides greater convenience for consumers.</strong> This is because people can shop anytime and anywhere using only a smartphone or computer. Furthermore, they do not need to spend time visiting physical stores. As a result, they can save both time and effort, which is especially beneficial for people with busy schedules. For example, office workers can buy groceries or household items after work without leaving their homes. Therefore, convenience has become one of the main reasons for the growing popularity of online shopping.\n\n<strong>Another contributing factor is that online shopping offers consumers more choices and more competitive prices.</strong> This means that customers can access products from different sellers and compare prices and product quality with ease. Consequently, they are able to make better purchasing decisions. In addition, many e-commerce websites regularly offer discounts and promotional campaigns, making online shopping even more attractive. For instance, consumers often wait for major online sales to buy products at lower prices. As a result, many people now prefer shopping online instead of visiting traditional stores.\n\n<strong>A further reason is that technological development has encouraged the popularity of online shopping.</strong> In fact, e-commerce platforms and shopping applications have become more user-friendly over the years. Moreover, online payment systems are now faster and more secure, while delivery services have improved significantly. These developments make online shopping simpler, more reliable, and more convenient for consumers. For example, customers can place an order within a few minutes and receive their purchases shortly afterwards. For this reason, more people are choosing online shopping as part of their daily lives.\n\nIn conclusion, <strong><em>the popularity of online shopping is mainly caused by greater convenience, a wider variety of products with competitive prices, and continuous technological development.</em></strong> These factors have had a considerable impact on both individuals and society. Therefore, understanding these causes is essential to better understand this growing trend in the long term.",
           "translation_b1": "Trong những năm gần đây, sự phổ biến của mua sắm trực tuyến đã trở thành một xu hướng ngày càng gia tăng ở nhiều nơi trên thế giới. Xu hướng này ảnh hưởng đến cả cá nhân và xã hội theo nhiều cách khác nhau. Bài viết này sẽ thảo luận về những nguyên nhân chính đằng sau sự thay đổi này.\n\n<strong>Một nguyên nhân chính là việc mua sắm trực tuyến rất thuận tiện cho người tiêu dùng.</strong> Điều này là do mọi người có thể mua sắm bất cứ lúc nào và ở bất cứ đâu mà không cần phải ra khỏi nhà. Họ không cần phải đến các cửa hàng đông đúc. Kết quả là, mua sắm trực tuyến giúp họ tiết kiệm cả thời gian và công sức. Vì vậy, ngày càng nhiều người chọn phương thức mua sắm này.\n\n<strong>Một yếu tố góp phần khác là mua sắm trực tuyến cung cấp đa dạng sản phẩm hơn.</strong> Điều này có nghĩa là khách hàng có thể tìm thấy sản phẩm từ nhiều cửa hàng khác nhau trên Internet. Hơn nữa, họ có thể dễ dàng so sánh giá cả trước khi quyết định mua hàng. Điều này giúp họ chọn được những sản phẩm phù hợp hơn với giá cả tốt hơn. Hệ quả là, nhiều người thích mua sắm trực tuyến vì họ có nhiều sự lựa chọn.\n\n<strong>Một nguyên nhân nữa là công nghệ hiện đại đã giúp cho việc mua sắm trực tuyến trở nên dễ dàng hơn.</strong> Thực tế, nhiều ứng dụng mua sắm rất dễ sử dụng, ngay cả với người lớn tuổi. Ngoài ra, thanh toán trực tuyến cũng trở nên thuận tiện hơn, và dịch vụ giao hàng ngày càng nhanh chóng. Ví dụ, khách hàng có thể đặt hàng chỉ với vài cú nhấp chuột và nhận được hàng trong thời gian ngắn. Vì lý do này, ngày càng nhiều người chọn mua sắm trực tuyến trong đời sống hàng ngày của họ.\n\nTóm lại, <strong><em>sự phổ biến của mua sắm trực tuyến bắt nguồn từ nhiều yếu tố tác động lên cả cá nhân và xã hội.</em></strong> Hiểu được những nguyên nhân này là điều quan trọng để nhận thức rõ hơn về xu hướng này trong tương lai. Cùng với sự phát triển không ngừng của công nghệ, mua sắm trực tuyến có khả năng sẽ ngày càng trở nên phổ biến hơn.",
           "translation_b2": "Trong những năm gần đây, sự phổ biến của mua sắm trực tuyến đã trở thành một xu thế phát triển ở nhiều khu vực trên thế giới. Xu thế này đã tạo ra một số thay đổi đối với cả cá nhân lẫn xã hội. Bài tiểu luận này sẽ xem xét những nguyên nhân chính của hiện tượng này.\n\n<strong>Một nguyên nhân chủ yếu là mua sắm trực tuyến mang lại sự tiện lợi lớn hơn cho người tiêu dùng.</strong> Điều này là do mọi người có thể mua sắm bất kể thời gian và địa điểm, chỉ cần sử dụng điện thoại thông minh hoặc máy tính. Hơn thế nữa, họ không cần tốn thời gian đến các cửa hàng truyền thống. Nhờ đó, họ có thể tiết kiệm được cả thời gian và công sức, điều này đặc biệt có lợi cho những người có lịch trình bận rộn. Ví dụ, nhân viên văn phòng có thể mua thực phẩm hoặc vật dụng gia đình sau giờ làm việc mà không cần phải rời khỏi nhà. Do đó, sự tiện lợi đã trở thành một trong những lý do chính khiến mua sắm trực tuyến ngày càng được ưa chuộng.\n\n<strong>Một nhân tố đóng góp khác là mua sắm trực tuyến mang đến cho người tiêu dùng nhiều sự lựa chọn và mức giá cạnh tranh hơn.</strong> Điều này có nghĩa là khách hàng có thể tiếp cận sản phẩm từ nhiều người bán khác nhau, đồng thời dễ dàng so sánh giá cả và chất lượng sản phẩm. Nhờ vậy, họ có thể đưa ra những quyết định mua sắm tốt hơn. Thêm vào đó, nhiều trang web thương mại điện tử thường xuyên tung ra các chương trình giảm giá và khuyến mãi, khiến việc mua sắm trực tuyến càng trở nên hấp dẫn. Ví dụ, người tiêu dùng thường chờ đến những dịp khuyến mãi lớn trên mạng để mua hàng với giá rẻ hơn. Hệ quả là, hiện nay có rất nhiều người ưa chuộng mua sắm trực tuyến thay vì ghé thăm các cửa hàng truyền thống.\n\n<strong>Một lý do sâu xa hơn là sự phát triển của công nghệ đã thúc đẩy mạnh mẽ sự phổ biến của mua sắm trực tuyến.</strong> Thực tế cho thấy, các nền tảng thương mại điện tử và ứng dụng mua sắm đã trở nên thân thiện với người dùng hơn qua từng năm. Hơn nữa, các hệ thống thanh toán trực tuyến hiện nay không chỉ nhanh chóng mà còn an toàn hơn, trong khi dịch vụ giao hàng đã được cải thiện đáng kể. Những bước tiến này giúp việc mua sắm trực tuyến trở nên đơn giản, đáng tin cậy và tiện lợi hơn cho người tiêu dùng. Ví dụ, khách hàng có thể đặt một đơn hàng chỉ trong vài phút và nhận được món đồ mình mua ngay sau đó. Chính vì lý do này, ngày càng nhiều người chọn lựa mua sắm trực tuyến như một phần của cuộc sống hàng ngày.\n\nTóm lại, <strong><em>sự phổ biến của mua sắm trực tuyến chủ yếu bắt nguồn từ tính tiện lợi cao, sự đa dạng của sản phẩm với mức giá cạnh tranh, và sự phát triển không ngừng của công nghệ.</em></strong> Những yếu tố này đã tác động đáng kể đến cả cá nhân và xã hội. Vì vậy, việc thấu hiểu những nguyên nhân này là vô cùng cần thiết để có cái nhìn sâu sắc hơn về xu hướng đang phát triển này trong dài hạn.",
@@ -149530,8 +149161,8 @@ const ESSAY_DATA = [
                     "vi": "đặt giới hạn thời gian mỗi ngày"
                   },
                   {
-                    "en": "finish their homework before they can play",
-                    "vi": "hoàn thành bài tập trước khi được chơi"
+                    "en": "finish homework before playing",
+                    "vi": "hoàn thành bài tập trước khi chơi"
                   }
                 ],
                 "point_collocations": [
@@ -150239,7 +149870,7 @@ const ESSAY_DATA = [
               "vi": "cân bằng giữa chơi game và học tập"
             }
           ],
-          "sample_b1": "In modern life, <strong>computer games</strong> have become very popular among young children. Many kids spend hours every day in front of screens, which raises concerns about their development. <strong>This essay will discuss the negative effects of computer games on children's behavior and suggest practical solutions.</strong>\n\n<strong>To begin with, excessive gaming can lead to three behavioral problems.</strong> First, <strong><em>children can become less patient and easily get angry</em></strong>. Competitive games make children get used to winning and losing quickly, so they easily lose their temper in real life. Second, <strong><em>children may communicate less with other people</em></strong>. When children spend too much time on games, they have less time to talk with family or friends, which hurts their social skills. Finally, <strong><em>children may neglect their studies and daily tasks</em></strong>. Some children play games for hours and ignore their homework or chores, so their school results suffer.\n\n<strong>To solve these problems, parents and teachers should take practical steps.</strong> First, <strong><em>parents should limit children's daily gaming time</em></strong>. They can set a clear time limit each day and ask children to finish homework before playing. Second, <strong><em>adults should encourage children to join outdoor activities</em></strong>. Playing sports or joining clubs with friends helps kids stay active and build social skills. Finally, <strong><em>it is important to educate children about healthy gaming habits</em></strong>. Adults should explain the harm of playing too much and guide kids to balance gaming with studying.\n\nIn conclusion, playing too many computer games can make children impatient, less sociable, and irresponsible. By setting time limits, promoting sports, and guiding children, adults can help them grow up healthily.",
+          "sample_b1": "In modern life, <strong>computer games</strong> have become very popular among young children. Many kids spend hours every day in front of screens, and this raises concerns about their development. <strong>This essay will discuss the negative effects of computer games on children's behavior and suggest practical solutions.</strong>\n\n<strong>To begin with, excessive gaming can lead to three behavioral problems.</strong> First, <strong><em>children can become less patient and easily get angry</em></strong>. Competitive games make children get used to winning and losing quickly, so they easily lose their temper in real life. Second, <strong><em>children may communicate less with other people</em></strong>. When children spend too much time on games, they have less time to talk with family or friends, so this hurts their social skills. Finally, <strong><em>children may neglect their studies and daily tasks</em></strong>. Some children play games for hours and ignore their homework or chores, so their school results suffer.\n\n<strong>To solve these problems, parents and teachers should take practical steps.</strong> First, <strong><em>parents should limit children's daily gaming time</em></strong>. They can set a clear time limit each day and ask children to finish homework before playing. Second, <strong><em>adults should encourage children to join outdoor activities</em></strong>. Playing sports or joining clubs with friends helps kids stay active and build social skills. Finally, <strong><em>it is important to educate children about healthy gaming habits</em></strong>. Adults should explain the harm of playing too much and guide kids to balance gaming with studying.\n\nIn conclusion, playing too many computer games can make children impatient, less sociable, and irresponsible. By setting time limits, promoting sports, and guiding children, adults can help them grow up healthily.",
           "translation_b1": "Trong đời sống hiện đại, <strong>trò chơi điện tử</strong> đã trở nên rất phổ biến đối với trẻ nhỏ. Nhiều trẻ dành hàng giờ mỗi ngày trước màn hình, điều này làm dấy lên lo ngại về sự phát triển của các em. <strong>Bài luận này sẽ thảo luận về các tác động tiêu cực của trò chơi điện tử đối với hành vi của trẻ và đề xuất các giải pháp thực tế.</strong>\n\n<strong>Trước hết, việc chơi game quá mức có thể dẫn đến ba vấn đề về hành vi.</strong> Thứ nhất, <strong><em>trẻ em có thể trở nên kém kiên nhẫn và dễ tức giận</em></strong>. Các trò chơi cạnh tranh khiến trẻ quen với việc thắng thua nhanh, vì vậy các em dễ mất bình tĩnh trong đời thực. Thứ hai, <strong><em>trẻ có thể giao tiếp ít hơn với mọi người</em></strong>. Khi dành quá nhiều thời gian cho trò chơi, trẻ có ít thời gian trò chuyện với gia đình hoặc bạn bè, làm giảm kỹ năng xã hội. Cuối cùng, <strong><em>trẻ có thể bỏ bê việc học và công việc hằng ngày</em></strong>. Một số trẻ chơi game hàng giờ và phớt lờ bài tập về nhà hoặc việc nhà, khiến kết quả học tập sa sút.\n\n<strong>Để giải quyết những vấn đề này, phụ huynh và giáo viên nên thực hiện các bước thiết thực.</strong> Thứ nhất, <strong><em>cha mẹ nên giới hạn thời gian chơi game hằng ngày của trẻ</em></strong>. Họ có thể đặt giới hạn thời gian rõ ràng mỗi ngày và yêu cầu trẻ hoàn thành bài tập trước khi chơi. Thứ hai, <strong><em>người lớn nên khuyến khích trẻ tham gia các hoạt động ngoài trời</em></strong>. Chơi thể thao hoặc tham gia câu lạc bộ cùng bạn bè giúp trẻ năng động và xây dựng kỹ năng xã hội. Cuối cùng, <strong><em>điều quan trọng là giáo dục trẻ về thói quen chơi game lành mạnh</em></strong>. Người lớn nên giải thích tác hại của việc chơi quá nhiều và hướng dẫn trẻ cân bằng giữa giải trí và học tập.\n\nTóm lại, chơi quá nhiều trò chơi điện tử có thể khiến trẻ thiếu kiên nhẫn, ít hòa đồng và thiếu trách nhiệm. Bằng cách giới hạn thời gian, khuyến khích thể thao và định hướng cho trẻ, người lớn có thể giúp các em phát triển lành mạnh.",
           "sample_b2": "In modern society, <strong>computer games</strong> have become one of the most popular forms of entertainment among young people. While playing video games can provide enjoyment and develop certain mental skills, excessive gaming has raised significant concerns about its impact on children's behavior. <strong>This essay will discuss three major negative effects of computer games on children and propose three practical solutions to this problem.</strong>\n\n<strong>On the one hand, excessive video gaming can negatively influence children in several ways.</strong> First of all, <strong><em>playing too many computer games can make children less patient and easily angered.</em></strong> Competitive video games often condition young players to expect instant results and quick wins. Consequently, they easily lose their temper and become frustrated when facing real-life challenges. Furthermore, <strong><em>excessive gaming can reduce children's communication with people around them.</em></strong> When children spend hours playing games in their rooms, they have little time to talk to parents and friends. As a result, they may become socially isolated and develop poor interpersonal skills. Lastly, <strong><em>computer games can cause children to neglect their studies and daily responsibilities.</em></strong> Many children stay up late playing exciting games and postpone doing their homework. This leads to declining academic performance and an unwillingness to help with household chores.\n\n<strong>On the other hand, several effective measures should be implemented to mitigate these problems.</strong> The primary solution is that <strong><em>parents should set clear limits on their children's daily gaming time.</em></strong> Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day, and ensure that all homework is completed first. Second, <strong><em>adults should encourage children to take part in outdoor sports and physical activities.</em></strong> Families and schools can motivate kids to join sports clubs like football or swimming with their peers. These activities not only improve their physical health but also provide opportunities to make friends and build social skills. Finally, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the harmful effects of gaming addiction and guide young people on how to manage their time effectively to balance recreation and academic work.\n\nIn conclusion, excessive computer gaming can lead to impatience, social isolation, and poor academic performance among children. However, by enforcing clear time limits, promoting outdoor sports, and fostering healthy habits, parents and educators can help children enjoy digital games safely while developing positively.",
           "translation_b2": "Trong xã hội hiện đại, trò chơi điện tử đã trở thành một trong những hình thức giải trí phổ biến nhất trong giới trẻ. Mặc dù việc chơi game có thể mang lại niềm vui và phát triển một số kỹ năng tư duy, việc chơi quá mức đã gây ra nhiều lo ngại về tác động của nó đối với hành vi của trẻ. Bài viết này sẽ thảo luận về ba ảnh hưởng tiêu cực chính của trò chơi điện tử đối với trẻ em và đề xuất ba giải pháp thực tế cho vấn đề này.\n\nMột mặt, việc chơi game quá mức có thể ảnh hưởng tiêu cực đến trẻ em theo nhiều cách. Trước hết, chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận. Các trò chơi mang tính cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng. Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn trong đời sống thực tế. Hơn nữa, việc chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh. Khi trẻ dành hàng giờ chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè. Hậu quả là các em có thể trở nên thu mình và suy giảm kỹ năng giao tiếp xã hội. Cuối cùng, trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các trách nhiệm hằng ngày. Nhiều đứa trẻ thức khuya để chơi game và trì hoãn việc làm bài tập về nhà. Điều này dẫn đến kết quả học tập sa sút và sự lười biếng, không muốn phụ giúp việc nhà cho gia đình.\n\nMặt khác, một số biện pháp hiệu quả cần được thực hiện để giảm thiểu những vấn đề này. Giải pháp đầu tiên là cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con. Người chăm sóc có thể đặt ra các quy định nghiêm ngặt, chẳng hạn như cho phép chơi không quá một giờ mỗi ngày, và yêu cầu trẻ phải hoàn thành bài tập về nhà trước. Thứ hai, người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời và rèn luyện thể chất. Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè. Những hoạt động này không chỉ giúp cải thiện thể chất mà còn tạo cơ hội để trẻ kết bạn và xây dựng kỹ năng xã hội. Cuối cùng, việc nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh là rất quan trọng. Cha mẹ và thầy cô nên giải thích các tác hại của chứng nghiện game và hướng dẫn trẻ cách quản lý thời gian hiệu quả để cân bằng giữa giải trí và học tập.\n\nTóm lại, chơi game quá mức có thể dẫn đến sự thiếu kiên nhẫn, thu mình khỏi xã hội và kết quả học tập kém ở trẻ em. Tuy nhiên, bằng cách áp dụng giới hạn thời gian rõ ràng, khuyến khích thể thao ngoài trời và rèn luyện thói quen lành mạnh, cha mẹ và các nhà giáo dục có thể giúp trẻ tận hưởng trò chơi số một cách an toàn đồng thời phát triển tích cực.",
@@ -153355,10 +152986,6 @@ const ESSAY_DATA = [
                     {
                       "en": "improve",
                       "vi": "cải thiện, tiến bộ"
-                    },
-                    {
-                      "en": "as a result",
-                      "vi": "nhờ đó / kết quả là"
                     }
                   ]
                 ]
@@ -153513,7 +153140,8 @@ const ESSAY_DATA = [
                   ]
                 ]
               }
-            ]
+            ],
+            "drawbacks": []
           },
           "ideas_b2": {
             "benefits": [
@@ -153742,7 +153370,7 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>working from home</strong> has become increasingly common in many parts of the world. This trend affects both individuals and family life in different ways. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>working from home helps parents support their children's studies better</em></strong>. In fact, parents can help their children with homework whenever they need support and monitor their learning progress regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.\n\nAnother positive impact is that <strong><em>working from home helps parents understand their children's habits and behaviors more deeply</em></strong>. The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly, so they can give suitable advice to guide their children in daily life.\n\nA further consequence is that <strong><em>working from home can help children feel safer and more cared for</em></strong>. This is because children know that their parents are always nearby, which creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.\n\nIn conclusion, <strong>working from home leads to several positive effects on parent–child relationships</strong>. It helps parents support children's education, understand daily habits, and create a warm family environment. Therefore, parents should use this opportunity to build a close relationship with their children.",
+          "sample_b1": "In recent years, <strong>working from home</strong> has become increasingly common in many parts of the world. This trend affects both individuals and family life in different ways. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>working from home helps parents support their children's studies better</em></strong>. In fact, parents can help their children with homework whenever they need support and monitor their learning progress regularly. As a result, parents can detect their children's difficulties at school early and help them overcome learning challenges.\n\nAnother positive impact is that <strong><em>working from home helps parents understand their children's habits and behaviors more deeply</em></strong>. The main reason is that parents have more opportunities to observe how their children study and live at home every day. Consequently, parents can notice changes in their children's behavior and moods promptly, so they can give suitable advice to guide their children in daily life.\n\nA further consequence is that <strong><em>working from home can help children feel safer and more cared for</em></strong>. This is because children know that their parents are always nearby, so this creates a strong feeling of emotional security. Moreover, young people can easily share their worries with their parents at any time. For this reason, daily interactions help family members understand each other better and strengthen family bonds.\n\nIn conclusion, <strong>working from home leads to several positive effects on parent–child relationships</strong>. It helps parents support children's education, understand daily habits, and create a warm family environment. Therefore, parents should use this opportunity to build a close relationship with their children.",
           "translation_b1": "Những năm gần đây, <strong>làm việc tại nhà</strong> đã trở nên ngày càng phổ biến ở nhiều nơi trên thế giới. Xu hướng này ảnh hưởng đến cả cá nhân và đời sống gia đình theo nhiều cách khác nhau. <strong>Bài luận này sẽ thảo luận về ba tác động tích cực của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.</strong>\n\nMột ảnh hưởng lớn là <strong><em>làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con tốt hơn.</em></strong> Trên thực tế, cha mẹ có thể giúp con làm bài tập về nhà bất cứ khi nào con cần hỗ trợ. Thêm vào đó, cha mẹ có thể theo dõi tiến độ học tập của con thường xuyên hơn. Kết quả là, cha mẹ có thể dễ dàng phát hiện sớm những khó khăn của con ở trường và giúp con vượt qua các thử thách học tập.\n\nMột tác động tích cực khác là <strong><em>làm việc tại nhà giúp cha mẹ hiểu sâu sắc hơn về thói quen và hành vi của con.</em></strong> Lý do chính là cha mẹ có nhiều cơ hội hơn để quan sát cách con học tập và sinh hoạt tại nhà mỗi ngày. Do đó, cha mẹ có thể nhận thấy kịp thời những thay đổi trong hành vi và tâm trạng của con. Vì vậy, họ có thể đưa ra lời khuyên phù hợp và sự hỗ trợ đúng đắn để định hướng cho con trong cuộc sống hằng ngày.\n\nMột kết quả tích cực nữa là <strong><em>làm việc tại nhà có thể giúp trẻ cảm thấy an toàn và được quan tâm hơn.</em></strong> Điều này là do trẻ biết rằng cha mẹ luôn ở gần bên, tạo ra cảm giác an tâm mạnh mẽ về mặt cảm xúc. Hơn nữa, các bạn trẻ có thể dễ dàng chia sẻ những khó khăn và lo lắng với cha mẹ bất cứ lúc nào. Vì lý do này, các tương tác hằng ngày giúp các thành viên trong gia đình hiểu nhau hơn và củng cố tình cảm gia đình khăng khít.\n\nTóm lại, <strong>làm việc tại nhà mang lại một số tác động tích cực đến mối quan hệ giữa cha mẹ và con cái.</strong> Những tác động này giúp cha mẹ hỗ trợ việc học của con, thấu hiểu thói quen hằng ngày và tạo ra một môi trường gia đình ấm áp. Do đó, cha mẹ nên tận dụng cơ hội này để xây dựng mối quan hệ gần gũi với con cái.",
           "sample_b2": "In recent years, <strong>the practice of working from home</strong> has become a growing trend in many parts of the world. This phenomenon has created notable impacts on family dynamics, particularly between parents and their children. <strong>This essay will examine three major positive effects of telecommuting on parent–child relationships.</strong>\n\nOne major effect is that <strong><em>home-based working enables parents to support their children's academic progress more effectively.</em></strong> In fact, parents are readily available to assist with challenging homework assignments whenever necessary. Furthermore, having parents nearby allows for regular supervision of study routines. As a result, caregivers can identify learning difficulties early and provide timely intervention to help children improve their performance.\n\nAnother positive impact is that <strong><em>telecommuting allows parents to gain deeper insights into their children's daily habits and behavior.</em></strong> The primary reason is that parents can directly observe how their children manage their study time and handle personal tasks at home. Consequently, adults can quickly detect subtle changes in children's emotional states or behavioral patterns. This continuous observation enables parents to offer empathetic guidance and constructive advice when children encounter personal problems.\n\nA further consequence is that <strong><em>working from home helps children develop a profound sense of security and emotional support.</em></strong> This can be explained by the constant presence of parents in the household, which fosters a comforting and reassuring atmosphere. Children feel encouraged to communicate openly about their fears, academic stress, or social challenges. Over time, these meaningful daily interactions help solidify mutual trust and cultivate a resilient parent–child bond.\n\nIn conclusion, <strong>working from home leads to several significant positive effects on parent–child relationships.</strong> These impacts enhance academic support, provide valuable behavioral insights, and strengthen emotional security within the household. Therefore, working parents should make effective use of this arrangement to nurture a loving and supportive family environment.",
           "translation_b2": "Trong những năm gần đây, <strong>việc làm việc tại nhà</strong> đã trở thành một xu hướng ngày càng phát triển ở nhiều nơi trên thế giới. Hiện tượng này đã tạo ra những tác động đáng kể đến đời sống gia đình, đặc biệt là giữa cha mẹ và con cái. <strong>Bài luận này sẽ xem xét ba tác động tích cực chủ yếu của việc làm việc từ xa đối với mối quan hệ giữa cha mẹ và con cái.</strong>\n\nMột ảnh hưởng lớn là <strong><em>làm việc tại gia cho phép cha mẹ hỗ trợ sự tiến bộ học tập của con hiệu quả hơn.</em></strong> Trên thực tế, cha mẹ luôn sẵn sàng hỗ trợ các bài tập về nhà đầy thách thức bất cứ khi nào cần thiết. Hơn nữa, việc cha mẹ ở gần cho phép giám sát đều đặn nề nếp học tập. Kết quả là, người chăm sóc có thể phát hiện sớm những khó khăn trong việc học và có sự can thiệp kịp thời giúp trẻ nâng cao thành tích.\n\nMột tác động tích cực khác là <strong><em>làm việc từ xa cho phép cha mẹ có được những hiểu biết sâu sắc hơn về thói quen và hành vi hằng ngày của con.</em></strong> Lý do chủ yếu là cha mẹ có thể quan sát trực tiếp cách con quản lý thời gian học và giải quyết các công việc cá nhân tại nhà. Do đó, người lớn có thể nhanh chóng nhận ra những thay đổi tinh tế trong trạng thái cảm xúc hoặc khuôn mẫu hành vi của trẻ. Sự quan sát liên tục này giúp cha mẹ đưa ra sự định hướng đầy thấu cảm và những lời khuyên mang tính xây dựng khi con gặp phải các vấn đề cá nhân.\n\nMột kết quả nữa là <strong><em>làm việc tại nhà giúp trẻ phát triển cảm giác an tâm sâu sắc và nhận được sự nâng đỡ về mặt tinh thần.</em></strong> Điều này có thể được giải thích bởi sự hiện diện thường trực của cha mẹ trong gia đình, tạo nên bầu không khí ấm áp và yên lòng. Trẻ cảm thấy được khuyến khích giao tiếp cởi mở về những nỗi sợ, căng thẳng học đường hoặc thử thách xã hội. Theo thời gian, những tương tác ý nghĩa mỗi ngày này giúp củng cố niềm tin lẫn nhau và vun đắp tình cảm phụ huynh - con cái bền chặt.\n\nTóm lại, <strong>làm việc tại nhà mang lại một số ảnh hưởng tích cực đáng kể đối với mối quan hệ giữa cha mẹ và con cái.</strong> Những tác động này giúp nâng cao sự hỗ trợ học tập, mang lại những hiểu biết quý giá về hành vi và thắt chặt sự an tâm cảm xúc trong gia đình. Vì vậy, các bậc cha mẹ đi làm nên tận dụng hiệu quả sự sắp xếp này để nuôi dưỡng một môi trường gia đình yêu thương và luôn nâng đỡ nhau.",
@@ -157556,405 +157184,52 @@ const ESSAY_DATA = [
           "mindmap_img": "glass_office_mindmap_vi.jpg",
           "mindmap_img_en": "glass_office_mindmap_en.jpg",
           "ideas_b1": {
-            "effects": [
-              {
-                "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
-                "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
-                "point_en": "Glass office buildings consume a very large amount of electricity.",
-                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
-                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
-                "collocations": [
-                  {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
-                  },
-                  {
-                    "en": "consume a very large amount of electricity",
-                    "vi": "tiêu thụ một lượng điện năng rất lớn"
-                  },
-                  {
-                    "en": "large amount of electricity",
-                    "vi": "lượng điện năng lớn"
-                  },
-                  {
-                    "en": "high energy consumption",
-                    "vi": "mức tiêu thụ năng lượng cao"
-                  },
-                  {
-                    "en": "rely heavily on air conditioning",
-                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
-                  },
-                  {
-                    "en": "air conditioning",
-                    "vi": "điều hòa không khí"
-                  },
-                  {
-                    "en": "electric lighting",
-                    "vi": "đèn chiếu sáng điện"
-                  },
-                  {
-                    "en": "increase carbon emissions",
-                    "vi": "làm tăng lượng khí thải carbon"
-                  },
-                  {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
-                  },
-                  {
-                    "en": "office equipment",
-                    "vi": "thiết bị văn phòng"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
-                "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
-                "point_en": "Tall glass buildings cause serious light pollution at night.",
-                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
-                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
-                "collocations": [
-                  {
-                    "en": "tall glass buildings",
-                    "vi": "các tòa nhà kính cao tầng"
-                  },
-                  {
-                    "en": "cause serious light pollution",
-                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
-                  },
-                  {
-                    "en": "light pollution at night",
-                    "vi": "ô nhiễm ánh sáng vào ban đêm"
-                  },
-                  {
-                    "en": "leave bright lights on all night",
-                    "vi": "bật đèn sáng suốt đêm"
-                  },
-                  {
-                    "en": "bright lights at night",
-                    "vi": "ánh sáng rực rỡ vào ban đêm"
-                  },
-                  {
-                    "en": "intense light",
-                    "vi": "ánh sáng mạnh"
-                  },
-                  {
-                    "en": "disrupt the sleep of local residents",
-                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
-                  },
-                  {
-                    "en": "local residents",
-                    "vi": "người dân địa phương"
-                  },
-                  {
-                    "en": "natural behavior of birds",
-                    "vi": "tập tính tự nhiên của loài chim"
-                  },
-                  {
-                    "en": "modern glass architecture",
-                    "vi": "kiến trúc kính hiện đại"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
-                "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
-                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
-                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
-                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
-                "collocations": [
-                  {
-                    "en": "glass walls",
-                    "vi": "vách kính"
-                  },
-                  {
-                    "en": "increase temperatures inside offices",
-                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "temperatures inside offices",
-                    "vi": "nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "surrounding environment",
-                    "vi": "môi trường xung quanh"
-                  },
-                  {
-                    "en": "make the surrounding environment hotter",
-                    "vi": "làm môi trường xung quanh nóng hơn"
-                  },
-                  {
-                    "en": "absorb heat from the sun",
-                    "vi": "hấp thụ nhiệt từ mặt trời"
-                  },
-                  {
-                    "en": "absorb a lot of heat",
-                    "vi": "hấp thụ nhiều nhiệt lượng"
-                  },
-                  {
-                    "en": "heat from the sun",
-                    "vi": "nhiệt lượng từ mặt trời"
-                  },
-                  {
-                    "en": "cities with many glass buildings",
-                    "vi": "các thành phố có nhiều tòa nhà kính"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  },
-                  {
-                    "en": "often much hotter",
-                    "vi": "thường nóng bức hơn nhiều"
-                  },
-                  {
-                    "en": "green areas",
-                    "vi": "các khu vực nhiều cây xanh"
-                  },
-                  {
-                    "en": "urban heat",
-                    "vi": "nhiệt độ đô thị"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
-                "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
-                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
-                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
-                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
-                "collocations": [
-                  {
-                    "en": "working in glass offices",
-                    "vi": "làm việc trong văn phòng kính"
-                  },
-                  {
-                    "en": "cause stress",
-                    "vi": "gây căng thẳng"
-                  },
-                  {
-                    "en": "harm the health of employees",
-                    "vi": "làm hại sức khỏe nhân viên"
-                  },
-                  {
-                    "en": "glare from glass windows",
-                    "vi": "ánh sáng chói từ cửa kính"
-                  },
-                  {
-                    "en": "suffer from eye strain",
-                    "vi": "bị mỏi mắt"
-                  },
-                  {
-                    "en": "workspace without natural plants",
-                    "vi": "không gian làm việc thiếu cây xanh"
-                  },
-                  {
-                    "en": "natural plants",
-                    "vi": "cây xanh tự nhiên"
-                  },
-                  {
-                    "en": "reduce concentration",
-                    "vi": "làm giảm sự tập trung"
-                  },
-                  {
-                    "en": "during work hours",
-                    "vi": "trong giờ làm việc"
-                  },
-                  {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
-                  }
-                ]
-              },
-              {
-                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
-                "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
-                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
-                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
-                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
-                "collocations": [
-                  {
-                    "en": "deadly danger to birds",
-                    "vi": "mối nguy hiểm chết người với loài chim"
-                  },
-                  {
-                    "en": "birds in the city",
-                    "vi": "các loài chim trong thành phố"
-                  },
-                  {
-                    "en": "transparent glass",
-                    "vi": "kính trong suốt"
-                  },
-                  {
-                    "en": "reflect the sky and trees",
-                    "vi": "phản chiếu bầu trời và cây cối"
-                  },
-                  {
-                    "en": "cannot see the glass",
-                    "vi": "không nhìn thấy kính"
-                  },
-                  {
-                    "en": "fly into windows",
-                    "vi": "bay đâm vào cửa kính"
-                  },
-                  {
-                    "en": "leading to death",
-                    "vi": "dẫn đến tử vong"
-                  },
-                  {
-                    "en": "injure or kill birds",
-                    "vi": "làm chim bị thương hoặc tử vong"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  }
-                ]
-              }
-            ],
             "benefits": [
               {
                 "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
                 "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
                 "point_en": "Glass office buildings consume a very large amount of electricity.",
-                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
-                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
+                    "vi": "các tòa nhà văn phòng bằng kính"
                   },
                   {
                     "en": "consume a very large amount of electricity",
                     "vi": "tiêu thụ một lượng điện năng rất lớn"
-                  },
+                  }
+                ],
+                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
+                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm nature.",
+                "evidence_collocations": [
                   {
-                    "en": "large amount of electricity",
-                    "vi": "lượng điện năng lớn"
-                  },
-                  {
-                    "en": "high energy consumption",
-                    "vi": "mức tiêu thụ năng lượng cao"
-                  },
-                  {
-                    "en": "rely heavily on air conditioning",
-                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
-                  },
-                  {
-                    "en": "air conditioning",
-                    "vi": "điều hòa không khí"
+                    "en": "rely on air conditioning",
+                    "vi": "phụ thuộc vào máy điều hòa nhiệt độ"
                   },
                   {
                     "en": "electric lighting",
-                    "vi": "đèn chiếu sáng điện"
+                    "vi": "hệ thống đèn chiếu sáng"
                   },
                   {
                     "en": "increase carbon emissions",
                     "vi": "làm tăng lượng khí thải carbon"
-                  },
-                  {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
-                  },
-                  {
-                    "en": "office equipment",
-                    "vi": "thiết bị văn phòng"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
+                    "en": "glass buildings",
+                    "vi": "tòa nhà kính"
                   },
                   {
-                    "en": "consume a very large amount of electricity",
-                    "vi": "tiêu thụ một lượng điện năng rất lớn"
-                  },
-                  {
-                    "en": "large amount of electricity",
-                    "vi": "lượng điện năng lớn"
-                  },
-                  {
-                    "en": "modern glass buildings",
-                    "vi": "các tòa nhà kính hiện đại"
-                  },
-                  {
-                    "en": "glass",
-                    "vi": "kính, thủy tinh"
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "rely heavily on air conditioning",
-                      "vi": "phụ thuộc nhiều vào điều hòa không khí"
-                    },
-                    {
-                      "en": "air conditioning",
-                      "vi": "điều hòa không khí"
-                    },
-                    {
-                      "en": "electric lighting",
-                      "vi": "đèn chiếu sáng điện"
-                    },
-                    {
-                      "en": "increase carbon emissions",
-                      "vi": "làm tăng lượng khí thải carbon"
-                    },
-                    {
-                      "en": "harm the environment",
-                      "vi": "gây hại cho môi trường"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
                 "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
                 "point_en": "Tall glass buildings cause serious light pollution at night.",
-                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
-                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
-                "collocations": [
-                  {
-                    "en": "tall glass buildings",
-                    "vi": "các tòa nhà kính cao tầng"
-                  },
-                  {
-                    "en": "cause serious light pollution",
-                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
-                  },
-                  {
-                    "en": "light pollution at night",
-                    "vi": "ô nhiễm ánh sáng vào ban đêm"
-                  },
-                  {
-                    "en": "leave bright lights on all night",
-                    "vi": "bật đèn sáng suốt đêm"
-                  },
-                  {
-                    "en": "bright lights at night",
-                    "vi": "ánh sáng rực rỡ vào ban đêm"
-                  },
-                  {
-                    "en": "intense light",
-                    "vi": "ánh sáng mạnh"
-                  },
-                  {
-                    "en": "disrupt the sleep of local residents",
-                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
-                  },
-                  {
-                    "en": "local residents",
-                    "vi": "người dân địa phương"
-                  },
-                  {
-                    "en": "natural behavior of birds",
-                    "vi": "tập tính tự nhiên của loài chim"
-                  },
-                  {
-                    "en": "modern glass architecture",
-                    "vi": "kiến trúc kính hiện đại"
-                  }
-                ],
                 "point_collocations": [
                   {
                     "en": "tall glass buildings",
@@ -157962,337 +157237,157 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "cause serious light pollution",
-                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
-                  },
-                  {
-                    "en": "light pollution at night",
-                    "vi": "ô nhiễm ánh sáng vào ban đêm"
-                  },
-                  {
-                    "en": "bright lights at night",
-                    "vi": "ánh sáng rực rỡ vào ban đêm"
-                  },
-                  {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
+                    "vi": "gây ra ô nhiễm ánh sáng nghiêm trọng"
                   }
                 ],
+                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
+                "evidence_en": "Offices leave bright lights on all night, so intense lighting disrupts sleep for local residents and birds.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "light pollution at night",
-                      "vi": "ô nhiễm ánh sáng vào ban đêm"
-                    },
-                    {
-                      "en": "leave bright lights on all night",
-                      "vi": "bật đèn sáng suốt đêm"
-                    },
-                    {
-                      "en": "bright lights at night",
-                      "vi": "ánh sáng rực rỡ vào ban đêm"
-                    },
-                    {
-                      "en": "intense light",
-                      "vi": "ánh sáng mạnh"
-                    },
-                    {
-                      "en": "local residents",
-                      "vi": "người dân địa phương"
-                    }
-                  ]
+                  {
+                    "en": "leave bright lights on all night",
+                    "vi": "bật đèn sáng rực suốt đêm"
+                  },
+                  {
+                    "en": "intense lighting",
+                    "vi": "ánh sáng gay gắt (mạnh)"
+                  },
+                  {
+                    "en": "disrupts sleep",
+                    "vi": "làm gián đoạn giấc ngủ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "light pollution at night",
+                    "vi": "ô nhiễm ánh sáng ban đêm"
+                  },
+                  {
+                    "en": "disrupt sleep",
+                    "vi": "gián đoạn giấc ngủ"
+                  }
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
                 "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
-                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
-                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
-                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
-                "collocations": [
-                  {
-                    "en": "glass walls",
-                    "vi": "vách kính"
-                  },
-                  {
-                    "en": "increase temperatures inside offices",
-                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "temperatures inside offices",
-                    "vi": "nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "surrounding environment",
-                    "vi": "môi trường xung quanh"
-                  },
-                  {
-                    "en": "make the surrounding environment hotter",
-                    "vi": "làm môi trường xung quanh nóng hơn"
-                  },
-                  {
-                    "en": "absorb heat from the sun",
-                    "vi": "hấp thụ nhiệt từ mặt trời"
-                  },
-                  {
-                    "en": "absorb a lot of heat",
-                    "vi": "hấp thụ nhiều nhiệt lượng"
-                  },
-                  {
-                    "en": "heat from the sun",
-                    "vi": "nhiệt lượng từ mặt trời"
-                  },
-                  {
-                    "en": "cities with many glass buildings",
-                    "vi": "các thành phố có nhiều tòa nhà kính"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  },
-                  {
-                    "en": "often much hotter",
-                    "vi": "thường nóng bức hơn nhiều"
-                  },
-                  {
-                    "en": "green areas",
-                    "vi": "các khu vực nhiều cây xanh"
-                  },
-                  {
-                    "en": "urban heat",
-                    "vi": "nhiệt độ đô thị"
-                  }
-                ],
+                "point_en": "Glass walls increase indoor temperatures and make the surrounding environment hotter.",
                 "point_collocations": [
                   {
                     "en": "glass walls",
                     "vi": "vách kính"
                   },
                   {
-                    "en": "increase temperatures inside offices",
-                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "temperatures inside offices",
-                    "vi": "nhiệt độ bên trong văn phòng"
-                  },
-                  {
-                    "en": "surrounding environment",
-                    "vi": "môi trường xung quanh"
-                  },
-                  {
-                    "en": "make the surrounding environment hotter",
-                    "vi": "làm môi trường xung quanh nóng hơn"
+                    "en": "increase indoor temperatures",
+                    "vi": "làm tăng nhiệt độ bên trong"
                   }
                 ],
+                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
+                "evidence_en": "Glass absorbs a lot of solar heat, so cities with many glass towers are hotter than green neighborhoods.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "heat from the sun",
-                      "vi": "nhiệt lượng từ mặt trời"
-                    },
-                    {
-                      "en": "cities with many glass buildings",
-                      "vi": "các thành phố có nhiều tòa nhà kính"
-                    },
-                    {
-                      "en": "glass buildings",
-                      "vi": "các tòa nhà kính"
-                    },
-                    {
-                      "en": "often much hotter",
-                      "vi": "thường nóng bức hơn nhiều"
-                    },
-                    {
-                      "en": "green areas",
-                      "vi": "các khu vực nhiều cây xanh"
-                    }
-                  ]
+                  {
+                    "en": "absorb solar heat",
+                    "vi": "hấp thụ nhiệt lượng mặt trời"
+                  },
+                  {
+                    "en": "glass towers",
+                    "vi": "các tòa tháp bằng kính"
+                  },
+                  {
+                    "en": "green neighborhoods",
+                    "vi": "các khu vực nhiều cây xanh"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "indoor temperatures",
+                    "vi": "nhiệt độ trong phòng"
+                  },
+                  {
+                    "en": "absorb solar heat",
+                    "vi": "hấp thụ nhiệt mặt trời"
+                  }
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
                 "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
-                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
-                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
-                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
-                "collocations": [
+                "point_en": "Working in glass offices can cause stress and harm employees' health.",
+                "point_collocations": [
                   {
                     "en": "working in glass offices",
-                    "vi": "làm việc trong văn phòng kính"
+                    "vi": "làm việc trong các văn phòng kính"
                   },
                   {
-                    "en": "cause stress",
-                    "vi": "gây căng thẳng"
-                  },
+                    "en": "harm employees' health",
+                    "vi": "gây hại cho sức khỏe của nhân viên"
+                  }
+                ],
+                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
+                "evidence_en": "Glare from windows makes staff suffer from eye strain, and lacking natural plants reduces work focus.",
+                "evidence_collocations": [
                   {
-                    "en": "harm the health of employees",
-                    "vi": "làm hại sức khỏe nhân viên"
-                  },
-                  {
-                    "en": "glare from glass windows",
-                    "vi": "ánh sáng chói từ cửa kính"
+                    "en": "glare from windows",
+                    "vi": "ánh sáng chói từ cửa sổ kính"
                   },
                   {
                     "en": "suffer from eye strain",
                     "vi": "bị mỏi mắt"
                   },
                   {
-                    "en": "workspace without natural plants",
-                    "vi": "không gian làm việc thiếu cây xanh"
-                  },
-                  {
-                    "en": "natural plants",
-                    "vi": "cây xanh tự nhiên"
-                  },
-                  {
-                    "en": "reduce concentration",
-                    "vi": "làm giảm sự tập trung"
-                  },
-                  {
-                    "en": "during work hours",
-                    "vi": "trong giờ làm việc"
-                  },
-                  {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
+                    "en": "reduces work focus",
+                    "vi": "làm giảm sự tập trung trong công việc"
                   }
                 ],
-                "point_collocations": [
+                "collocations": [
                   {
-                    "en": "working in glass offices",
-                    "vi": "làm việc trong văn phòng kính"
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
                   },
                   {
-                    "en": "cause stress",
-                    "vi": "gây căng thẳng"
-                  },
-                  {
-                    "en": "harm the health of employees",
-                    "vi": "làm hại sức khỏe nhân viên"
-                  },
-                  {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
-                  },
-                  {
-                    "en": "glass",
-                    "vi": "kính, thủy tinh"
+                    "en": "glare from windows",
+                    "vi": "ánh sáng chói từ cửa sổ"
                   }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "working in glass offices",
-                      "vi": "làm việc trong văn phòng kính"
-                    },
-                    {
-                      "en": "glare from glass windows",
-                      "vi": "ánh sáng chói từ cửa kính"
-                    },
-                    {
-                      "en": "suffer from eye strain",
-                      "vi": "bị mỏi mắt"
-                    },
-                    {
-                      "en": "workspace without natural plants",
-                      "vi": "không gian làm việc thiếu cây xanh"
-                    },
-                    {
-                      "en": "natural plants",
-                      "vi": "cây xanh tự nhiên"
-                    }
-                  ]
                 ]
               },
               {
                 "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
                 "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
-                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
-                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
-                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
-                "collocations": [
-                  {
-                    "en": "deadly danger to birds",
-                    "vi": "mối nguy hiểm chết người với loài chim"
-                  },
-                  {
-                    "en": "birds in the city",
-                    "vi": "các loài chim trong thành phố"
-                  },
-                  {
-                    "en": "transparent glass",
-                    "vi": "kính trong suốt"
-                  },
-                  {
-                    "en": "reflect the sky and trees",
-                    "vi": "phản chiếu bầu trời và cây cối"
-                  },
-                  {
-                    "en": "cannot see the glass",
-                    "vi": "không nhìn thấy kính"
-                  },
-                  {
-                    "en": "fly into windows",
-                    "vi": "bay đâm vào cửa kính"
-                  },
-                  {
-                    "en": "leading to death",
-                    "vi": "dẫn đến tử vong"
-                  },
-                  {
-                    "en": "injure or kill birds",
-                    "vi": "làm chim bị thương hoặc tử vong"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  }
-                ],
+                "point_en": "Glass buildings are a deadly hazard for city birds.",
                 "point_collocations": [
                   {
-                    "en": "deadly danger to birds",
-                    "vi": "mối nguy hiểm chết người với loài chim"
+                    "en": "deadly hazard",
+                    "vi": "mối nguy hiểm chết người"
                   },
                   {
-                    "en": "birds in the city",
+                    "en": "city birds",
                     "vi": "các loài chim trong thành phố"
-                  },
-                  {
-                    "en": "cannot see the glass",
-                    "vi": "không nhìn thấy kính"
-                  },
-                  {
-                    "en": "glass buildings",
-                    "vi": "các tòa nhà kính"
-                  },
-                  {
-                    "en": "glass office buildings",
-                    "vi": "tòa nhà văn phòng bằng kính"
                   }
                 ],
+                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
+                "evidence_en": "Reflective glass mirrors the sky and trees, so birds crash into windows and die.",
                 "evidence_collocations": [
-                  [
-                    {
-                      "en": "deadly danger to birds",
-                      "vi": "mối nguy hiểm chết người với loài chim"
-                    },
-                    {
-                      "en": "birds in the city",
-                      "vi": "các loài chim trong thành phố"
-                    },
-                    {
-                      "en": "transparent glass",
-                      "vi": "kính trong suốt"
-                    },
-                    {
-                      "en": "cannot see the glass",
-                      "vi": "không nhìn thấy kính"
-                    },
-                    {
-                      "en": "fly into windows",
-                      "vi": "bay đâm vào cửa kính"
-                    }
-                  ]
+                  {
+                    "en": "reflective glass",
+                    "vi": "mặt kính phản quang (phản chiếu)"
+                  },
+                  {
+                    "en": "mirrors the sky and trees",
+                    "vi": "phản chiếu bầu trời và cây xanh"
+                  },
+                  {
+                    "en": "crash into windows",
+                    "vi": "bay đâm vào cửa sổ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "deadly hazard",
+                    "vi": "nguy hiểm chết người"
+                  },
+                  {
+                    "en": "crash into windows",
+                    "vi": "đâm vào cửa sổ"
+                  }
                 ]
               }
             ],
@@ -180493,7 +179588,3 @@ const ESSAY_DATA = [
     ]
   }
 ];
-
-if (typeof module !== "undefined" && module.exports) {
-  module.exports = { ESSAY_DATA };
-}
