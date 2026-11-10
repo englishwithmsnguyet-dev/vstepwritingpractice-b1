@@ -2195,9 +2195,17 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? item.evidence_collocations[sIdx]
-          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        let evCols = [];
+        if (Array.isArray(item.evidence_collocations)) {
+          if (Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0) {
+            evCols = item.evidence_collocations[sIdx];
+          } else if (item.evidence_collocations.length > 0 && item.evidence_collocations[0] && item.evidence_collocations[0].en) {
+            evCols = item.evidence_collocations;
+          }
+        }
+        if (!evCols || evCols.length === 0) {
+          evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        }
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
@@ -2238,9 +2246,17 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
-          ? item.evidence_collocations[sIdx]
-          : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        let evCols = [];
+        if (Array.isArray(item.evidence_collocations)) {
+          if (Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0) {
+            evCols = item.evidence_collocations[sIdx];
+          } else if (item.evidence_collocations.length > 0 && item.evidence_collocations[0] && item.evidence_collocations[0].en) {
+            evCols = item.evidence_collocations;
+          }
+        }
+        if (!evCols || evCols.length === 0) {
+          evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        }
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
