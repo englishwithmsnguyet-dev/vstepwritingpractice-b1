@@ -2859,183 +2859,303 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "LỢI ÍCH 01: TIẾP CẬN NỀN GIÁO DỤC CHẤT LƯỢNG CAO HƠN",
-                "collocations": [
-                  {
-                    "en": "higher-quality education",
-                    "vi": "nền giáo dục chất lượng cao hơn"
-                  },
-                  {
-                    "en": "educational programmes",
-                    "vi": "chương trình đào tạo"
-                  },
-                  {
-                    "en": "learning resources",
-                    "vi": "nguồn học liệu"
-                  },
-                  {
-                    "en": "modern environment",
-                    "vi": "môi trường hiện đại"
-                  }
-                ],
                 "point_vi": "Du học giúp sinh viên tiếp cận nền giáo dục chất lượng cao hơn.",
                 "point_en": "Studying abroad helps students access higher-quality education.",
+                "point_collocations": [
+                  {
+                    "en": "studying abroad",
+                    "vi": "du học"
+                  },
+                  {
+                    "en": "access higher-quality education",
+                    "vi": "tiếp cận nền giáo dục chất lượng cao hơn"
+                  }
+                ],
                 "evidence_vi": "Sinh viên có cơ hội học tập trong môi trường hiện đại với chương trình đào tạo tiên tiến, nhờ đó họ có thể tiếp thu kiến thức chuyên môn sâu rộng hơn.",
-                "evidence_en": "Students have opportunities to study in modern facilities with advanced curricula, so they can acquire deeper professional knowledge."
+                "evidence_en": "Students have the opportunity to study in modern environments with advanced programmes, so they can gain better professional knowledge.",
+                "evidence_collocations": [
+                  {
+                    "en": "opportunity to study",
+                    "vi": "cơ hội học tập"
+                  },
+                  {
+                    "en": "modern environments",
+                    "vi": "môi trường hiện đại"
+                  },
+                  {
+                    "en": "advanced programmes",
+                    "vi": "chương trình đào tạo tiên tiến"
+                  },
+                  {
+                    "en": "gain better professional knowledge",
+                    "vi": "tiếp thu kiến thức chuyên môn tốt hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "access higher-quality education",
+                    "vi": "tiếp cận nền giáo dục chất lượng cao hơn"
+                  },
+                  {
+                    "en": "opportunity to study",
+                    "vi": "cơ hội học tập"
+                  },
+                  {
+                    "en": "modern environments",
+                    "vi": "môi trường hiện đại"
+                  },
+                  {
+                    "en": "gain better professional knowledge",
+                    "vi": "tiếp thu kiến thức chuyên môn tốt hơn"
+                  }
+                ]
               },
               {
                 "title": "LỢI ÍCH 02: MỞ RỘNG CƠ HỘI NGHỀ NGHIỆP",
-                "collocations": [
+                "point_vi": "Du học có thể tạo ra nhiều cơ hội nghề nghiệp hơn trong tương lai.",
+                "point_en": "Studying abroad can create more career opportunities in the future.",
+                "point_collocations": [
                   {
-                    "en": "career opportunities",
-                    "vi": "cơ hội nghề nghiệp"
+                    "en": "studying abroad",
+                    "vi": "du học"
                   },
                   {
-                    "en": "international qualifications",
-                    "vi": "bằng cấp quốc tế"
+                    "en": "create more career opportunities",
+                    "vi": "tạo ra nhiều cơ hội nghề nghiệp hơn"
                   },
                   {
-                    "en": "overseas study experience",
-                    "vi": "kinh nghiệm học tập ở nước ngoài"
-                  },
+                    "en": "in the future",
+                    "vi": "trong tương lai"
+                  }
+                ],
+                "evidence_vi": "Nhà tuyển dụng thường đánh giá cao bằng cấp quốc tế và kỹ năng ngoại ngữ tốt, vì vậy du học sinh có thể tìm kiếm những công việc với mức lương hấp dẫn.",
+                "evidence_en": "Employers often value international degrees and good foreign language skills, so graduates can find well-paid jobs.",
+                "evidence_collocations": [
                   {
                     "en": "employers",
                     "vi": "nhà tuyển dụng"
+                  },
+                  {
+                    "en": "value international degrees",
+                    "vi": "đánh giá cao bằng cấp quốc tế"
+                  },
+                  {
+                    "en": "foreign language skills",
+                    "vi": "kỹ năng ngoại ngữ"
+                  },
+                  {
+                    "en": "find well-paid jobs",
+                    "vi": "tìm kiếm những công việc lương cao"
                   }
                 ],
-                "point_vi": "Du học có thể tạo ra nhiều cơ hội nghề nghiệp hơn trong tương lai.",
-                "point_en": "Studying abroad can create more career opportunities in the future.",
-                "evidence_vi": "Nhà tuyển dụng thường đánh giá cao bằng cấp quốc tế và kỹ năng ngoại ngữ tốt, vì vậy du học sinh có thể tìm kiếm những công việc với mức lương hấp dẫn.",
-                "evidence_en": "Employers often value international qualifications and strong foreign language skills, so graduates can secure high-paying job opportunities."
+                "collocations": [
+                  {
+                    "en": "create more career opportunities",
+                    "vi": "tạo ra nhiều cơ hội nghề nghiệp"
+                  },
+                  {
+                    "en": "value international degrees",
+                    "vi": "đánh giá cao bằng cấp quốc tế"
+                  },
+                  {
+                    "en": "foreign language skills",
+                    "vi": "kỹ năng ngoại ngữ"
+                  },
+                  {
+                    "en": "find well-paid jobs",
+                    "vi": "tìm kiếm công việc lương cao"
+                  }
+                ]
               },
               {
                 "title": "LỢI ÍCH 03: PHÁT TRIỂN TÍNH ĐỘC LẬP VÀ KỸ NĂNG SỐNG",
-                "collocations": [
-                  {
-                    "en": "become independent",
-                    "vi": "trở nên độc lập"
-                  },
-                  {
-                    "en": "manage one's life",
-                    "vi": "quản lý cuộc sống"
-                  },
-                  {
-                    "en": "daily problems",
-                    "vi": "các vấn đề hằng ngày"
-                  },
-                  {
-                    "en": "become mature",
-                    "vi": "trở nên trưởng thành"
-                  },
-                  {
-                    "en": "direct support",
-                    "vi": "sự hỗ trợ trực tiếp"
-                  },
-                  {
-                    "en": "deal with",
-                    "vi": "giải quyết, ứng phó"
-                  }
-                ],
                 "point_vi": "Du học giúp sinh viên trở nên độc lập và trưởng thành hơn.",
                 "point_en": "Studying abroad helps students become more independent and mature.",
+                "point_collocations": [
+                  {
+                    "en": "studying abroad",
+                    "vi": "du học"
+                  },
+                  {
+                    "en": "become more independent and mature",
+                    "vi": "trở nên độc lập và trưởng thành hơn"
+                  }
+                ],
                 "evidence_vi": "Sinh viên phải tự quản lý chi tiêu và giải quyết các vấn đề hằng ngày, vì vậy họ nhanh chóng trưởng thành và sống tự lập hơn.",
-                "evidence_en": "Students must manage their personal finances and solve daily problems alone, so they quickly mature and become more self-reliant."
+                "evidence_en": "Students must manage daily spending and solve daily problems alone, so they quickly mature and live more independently.",
+                "evidence_collocations": [
+                  {
+                    "en": "manage daily spending",
+                    "vi": "tự quản lý chi tiêu"
+                  },
+                  {
+                    "en": "solve daily problems alone",
+                    "vi": "tự giải quyết các vấn đề hằng ngày"
+                  },
+                  {
+                    "en": "quickly mature",
+                    "vi": "nhanh chóng trưởng thành"
+                  },
+                  {
+                    "en": "live more independently",
+                    "vi": "sống tự lập hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "become more independent and mature",
+                    "vi": "trở nên độc lập và trưởng thành"
+                  },
+                  {
+                    "en": "manage daily spending",
+                    "vi": "quản lý chi tiêu hằng ngày"
+                  },
+                  {
+                    "en": "solve daily problems alone",
+                    "vi": "tự giải quyết vấn đề hằng ngày"
+                  },
+                  {
+                    "en": "live more independently",
+                    "vi": "sống tự lập hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
                 "title": "BẤT LỢI 01: CHI PHÍ HỌC TẬP VÀ SINH HOẠT CAO",
-                "collocations": [
+                "point_vi": "Du học thường đi kèm với chi phí học tập và sinh hoạt cao.",
+                "point_en": "Studying abroad often involves high tuition fees and living costs.",
+                "point_collocations": [
                   {
-                    "en": "tuition fees",
-                    "vi": "học phí"
+                    "en": "studying abroad",
+                    "vi": "du học"
                   },
                   {
-                    "en": "involve",
-                    "vi": "bao gồm, đi kèm"
-                  },
-                  {
-                    "en": "living costs",
-                    "vi": "chi phí sinh hoạt"
-                  },
-                  {
-                    "en": "accommodation",
-                    "vi": "chỗ ở"
-                  },
-                  {
-                    "en": "daily necessities",
-                    "vi": "nhu cầu thiết yếu hằng ngày"
-                  },
-                  {
-                    "en": "educational expenses",
-                    "vi": "chi phí học tập"
-                  },
-                  {
-                    "en": "living expenses",
-                    "vi": "chi phí sinh hoạt"
-                  },
-                  {
-                    "en": "a large amount of money",
-                    "vi": "một khoản tiền lớn"
+                    "en": "high tuition fees and living costs",
+                    "vi": "chi phí học tập và sinh hoạt cao"
                   }
                 ],
-                "point_vi": "Du học thường đi kèm với chi phí học tập và sinh hoạt cao.",
-                "point_en": "Studying abroad often involves high educational and living expenses.",
                 "evidence_vi": "Học phí và sinh hoạt phí ở nước ngoài rất đắt đỏ, do đó nhiều sinh viên và gia đình phải chịu gánh nặng tài chính lớn.",
-                "evidence_en": "Tuition fees and living expenses abroad are very expensive, so many students and their families face heavy financial pressure."
+                "evidence_en": "Tuition and living costs abroad are very expensive, so many students and families face heavy financial pressure.",
+                "evidence_collocations": [
+                  {
+                    "en": "costs abroad",
+                    "vi": "chi phí ở nước ngoài"
+                  },
+                  {
+                    "en": "very expensive",
+                    "vi": "rất đắt đỏ"
+                  },
+                  {
+                    "en": "face heavy financial pressure",
+                    "vi": "chịu gánh nặng tài chính lớn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "high tuition fees and living costs",
+                    "vi": "chi phí học tập và sinh hoạt cao"
+                  },
+                  {
+                    "en": "costs abroad",
+                    "vi": "chi phí ở nước ngoài"
+                  },
+                  {
+                    "en": "face heavy financial pressure",
+                    "vi": "chịu gánh nặng tài chính lớn"
+                  }
+                ]
               },
               {
                 "title": "BẤT LỢI 02: NHỚ NHÀ VÀ THIẾU SỰ HỖ TRỢ TỪ GIA ĐÌNH",
-                "collocations": [
-                  {
-                    "en": "feel homesick",
-                    "vi": "cảm thấy nhớ nhà"
-                  },
-                  {
-                    "en": "feel lonely",
-                    "vi": "cảm thấy cô đơn"
-                  },
-                  {
-                    "en": "emotional support",
-                    "vi": "sự hỗ trợ tinh thần"
-                  },
-                  {
-                    "en": "live away from family",
-                    "vi": "sống xa gia đình"
-                  },
-                  {
-                    "en": "cause + O + Vo: khiến ai đó làm gì đó",
-                    "vi": "cause + O + Vo: khiến ai đó làm gì đó"
-                  }
-                ],
                 "point_vi": "Du học có thể khiến sinh viên cảm thấy nhớ nhà và cô đơn.",
                 "point_en": "Studying abroad may make students feel homesick and lonely.",
+                "point_collocations": [
+                  {
+                    "en": "feel homesick and lonely",
+                    "vi": "cảm thấy nhớ nhà và cô đơn"
+                  }
+                ],
                 "evidence_vi": "Việc sống xa gia đình và bạn bè trong thời gian dài có thể khiến sinh viên cảm thấy cô đơn và nhớ nhà.",
-                "evidence_en": "Living far away from family and friends for a long time can make students feel lonely and homesick."
+                "evidence_en": "Living far away from family and friends for a long time can make students feel lonely and homesick.",
+                "evidence_collocations": [
+                  {
+                    "en": "live far away from family and friends",
+                    "vi": "sống xa gia đình và bạn bè"
+                  },
+                  {
+                    "en": "for a long time",
+                    "vi": "trong thời gian dài"
+                  },
+                  {
+                    "en": "feel lonely and homesick",
+                    "vi": "cảm thấy cô đơn và nhớ nhà"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "live far away from family and friends",
+                    "vi": "sống xa gia đình và bạn bè"
+                  },
+                  {
+                    "en": "for a long time",
+                    "vi": "trong thời gian dài"
+                  },
+                  {
+                    "en": "feel lonely and homesick",
+                    "vi": "cảm thấy cô đơn và nhớ nhà"
+                  }
+                ]
               },
               {
                 "title": "BẤT LỢI 03: ÁP LỰC HỌC TẬP VÀ CẠNH TRANH",
-                "collocations": [
+                "point_vi": "Sinh viên du học thường phải đối mặt với áp lực học tập và sự cạnh tranh cao.",
+                "point_en": "International students often face heavy study pressure and strong competition.",
+                "point_collocations": [
                   {
-                    "en": "academic pressure",
-                    "vi": "áp lực học tập"
+                    "en": "international students",
+                    "vi": "sinh viên du học"
+                  },
+                  {
+                    "en": "heavy study pressure",
+                    "vi": "áp lực học tập lớn"
                   },
                   {
                     "en": "strong competition",
                     "vi": "sự cạnh tranh cao"
-                  },
-                  {
-                    "en": "demanding  academic requirements",
-                    "vi": "yêu cầu học tập khắt khe, đòi hỏi nhiều cố gắng"
-                  },
-                  {
-                    "en": "talented students",
-                    "vi": "sinh viên tài năng"
                   }
                 ],
-                "point_vi": "Sinh viên du học thường phải đối mặt với áp lực học tập và sự cạnh tranh cao.",
-                "point_en": "International students often face academic pressure and strong competition.",
                 "evidence_vi": "Sinh viên phải học bằng ngôn ngữ thứ hai và cạnh tranh với bạn bè quốc tế giỏi, vì vậy họ thường xuyên gặp áp lực học tập lớn.",
-                "evidence_en": "Students must study in a second language and compete with talented international peers, so they often experience great academic pressure."
+                "evidence_en": "Students have to study in a foreign language and compete with talented classmates, so they often experience heavy study stress.",
+                "evidence_collocations": [
+                  {
+                    "en": "study in a foreign language",
+                    "vi": "học bằng tiếng nước ngoài"
+                  },
+                  {
+                    "en": "compete with talented classmates",
+                    "vi": "cạnh tranh với bạn bè giỏi"
+                  },
+                  {
+                    "en": "experience heavy study stress",
+                    "vi": "gặp áp lực học tập lớn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "study in a foreign language",
+                    "vi": "học bằng ngoại ngữ"
+                  },
+                  {
+                    "en": "compete with talented classmates",
+                    "vi": "cạnh tranh với bạn bè giỏi"
+                  },
+                  {
+                    "en": "experience heavy study stress",
+                    "vi": "gặp áp lực học tập lớn"
+                  }
+                ]
               }
             ]
           },
@@ -5114,167 +5234,299 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "LỢI ÍCH 01: TIẾP CẬN THÔNG TIN NHANH CHÓNG",
+                "point_vi": "Internet giúp mọi người tiếp cận thông tin một cách nhanh chóng.",
+                "point_en": "The Internet helps people access information quickly.",
+                "point_collocations": [
+                  {
+                    "en": "access information quickly",
+                    "vi": "tiếp cận thông tin một cách nhanh chóng"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể tìm kiếm thông tin và cập nhật tin tức chỉ sau vài giây, nhờ đó việc học tập và nghiên cứu trở nên dễ dàng hơn.",
+                "evidence_en": "Users can search for information and read the latest news in seconds, so studying and doing research become much easier.",
+                "evidence_collocations": [
+                  {
+                    "en": "search for information",
+                    "vi": "tìm kiếm thông tin"
+                  },
+                  {
+                    "en": "read the latest news",
+                    "vi": "cập nhật (đọc) tin tức mới nhất"
+                  },
+                  {
+                    "en": "in seconds",
+                    "vi": "chỉ sau vài giây"
+                  },
+                  {
+                    "en": "become much easier",
+                    "vi": "trở nên dễ dàng hơn nhiều"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "access information",
-                    "vi": "tiếp cận thông tin"
+                    "en": "access information quickly",
+                    "vi": "tiếp cận thông tin nhanh chóng"
                   },
                   {
                     "en": "search for information",
                     "vi": "tìm kiếm thông tin"
                   },
                   {
-                    "en": "the latest news",
-                    "vi": "tin tức mới nhất"
+                    "en": "read the latest news",
+                    "vi": "đọc tin tức mới nhất"
                   },
                   {
-                    "en": "in a few seconds",
-                    "vi": "trong vài giây"
-                  },
-                  {
-                    "en": "keep up with ~ update",
-                    "vi": "cập nhật"
+                    "en": "become much easier",
+                    "vi": "trở nên dễ dàng hơn"
                   }
-                ],
-                "point_vi": "Internet giúp mọi người tiếp cận thông tin một cách nhanh chóng.",
-                "point_en": "The Internet helps people access information quickly.",
-                "evidence_vi": "Người dùng có thể tìm kiếm thông tin và cập nhật tin tức chỉ sau vài giây, nhờ đó việc học tập và nghiên cứu trở nên dễ dàng hơn.",
-                "evidence_en": "Users can search for information and access the latest news in seconds, so studying and researching become much easier."
+                ]
               },
               {
                 "title": "LỢI ÍCH 02: CẢI THIỆN GIAO TIẾP VÀ KẾT NỐI",
-                "collocations": [
-                  {
-                    "en": "communicate with",
-                    "vi": "giao tiếp với"
-                  },
-                  {
-                    "en": "stay connected",
-                    "vi": "duy trì kết nối"
-                  },
-                  {
-                    "en": "family members",
-                    "vi": "thành viên gia đình"
-                  },
-                  {
-                    "en": "anywhere in the world",
-                    "vi": "ở bất kỳ đâu trên thế giới"
-                  }
-                ],
                 "point_vi": "Internet giúp mọi người giao tiếp và kết nối với nhau dễ dàng hơn.",
                 "point_en": "The Internet helps people communicate and stay connected more easily.",
+                "point_collocations": [
+                  {
+                    "en": "communicate and stay connected",
+                    "vi": "giao tiếp và kết nối"
+                  },
+                  {
+                    "en": "more easily",
+                    "vi": "dễ dàng hơn"
+                  }
+                ],
                 "evidence_vi": "Mọi người có thể gọi điện hoặc nhắn tin miễn phí với người thân ở bất kỳ đâu, vì vậy khoảng cách địa lý không còn là rào cản lớn.",
-                "evidence_en": "People can make free voice calls and send messages to relatives anywhere, so distance is no longer a major barrier."
+                "evidence_en": "People can make free calls and send messages to relatives anywhere, so distance is no longer a big problem.",
+                "evidence_collocations": [
+                  {
+                    "en": "make free calls",
+                    "vi": "gọi điện miễn phí"
+                  },
+                  {
+                    "en": "send messages to relatives",
+                    "vi": "nhắn tin cho người thân"
+                  },
+                  {
+                    "en": "anywhere",
+                    "vi": "ở bất kỳ đâu"
+                  },
+                  {
+                    "en": "no longer a big problem",
+                    "vi": "không còn là vấn đề lớn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "communicate and stay connected",
+                    "vi": "giao tiếp và kết nối"
+                  },
+                  {
+                    "en": "make free calls",
+                    "vi": "gọi điện miễn phí"
+                  },
+                  {
+                    "en": "send messages to relatives",
+                    "vi": "nhắn tin cho người thân"
+                  }
+                ]
               },
               {
                 "title": "LỢI ÍCH 03: HỖ TRỢ HỌC TẬP VÀ LÀM VIỆC",
-                "collocations": [
-                  {
-                    "en": "support learning and working",
-                    "vi": "hỗ trợ học tập và làm việc"
-                  },
-                  {
-                    "en": "access online materials",
-                    "vi": "truy cập tài liệu trực tuyến"
-                  },
-                  {
-                    "en": "remote learning",
-                    "vi": "học tập từ xa"
-                  },
-                  {
-                    "en": "working activities",
-                    "vi": "hoạt động làm việc"
-                  },
-                  {
-                    "en": "take part in",
-                    "vi": "tham gia"
-                  }
-                ],
                 "point_vi": "Internet hỗ trợ việc học tập và làm việc hiệu quả hơn.",
                 "point_en": "The Internet supports learning and working more effectively.",
-                "evidence_vi": "Học sinh và nhân viên có thể tham gia các lớp học trực tuyến và làm việc từ xa, vì vậy họ có thể hoàn thành công việc một cách linh hoạt.",
-                "evidence_en": "Students and employees can attend online classes and work remotely, so they can complete their tasks more flexibly."
+                "point_collocations": [
+                  {
+                    "en": "support learning and working",
+                    "vi": "hỗ trợ việc học tập và làm việc"
+                  },
+                  {
+                    "en": "more effectively",
+                    "vi": "hiệu quả hơn"
+                  }
+                ],
+                "evidence_vi": "Nhiều khóa học trực tuyến và công cụ làm việc từ xa có sẵn trên mạng, nhờ đó người dùng có thể nâng cao năng suất mỗi ngày.",
+                "evidence_en": "Many online courses and remote working tools are available on the web, so users can improve their daily productivity.",
+                "evidence_collocations": [
+                  {
+                    "en": "online courses",
+                    "vi": "khóa học trực tuyến"
+                  },
+                  {
+                    "en": "remote working tools",
+                    "vi": "công cụ làm việc từ xa"
+                  },
+                  {
+                    "en": "available on the web",
+                    "vi": "có sẵn trên mạng"
+                  },
+                  {
+                    "en": "improve daily productivity",
+                    "vi": "nâng cao năng suất hằng ngày"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "online courses",
+                    "vi": "khóa học trực tuyến"
+                  },
+                  {
+                    "en": "remote working tools",
+                    "vi": "công cụ làm việc từ xa"
+                  },
+                  {
+                    "en": "improve daily productivity",
+                    "vi": "nâng cao năng suất hằng ngày"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: DỄ GÂY NGHIỆN VÀ LÃNG PHÍ THỜI GIAN",
-                "collocations": [
+                "title": "BẤT LỢI 01: NGUY CƠ GÂY NGHIỆN VÀ LÃNG PHÍ THỜI GIAN",
+                "point_vi": "Sử dụng Internet quá nhiều có thể gây nghiện và lãng phí thời gian.",
+                "point_en": "Using the Internet too much can cause addiction and waste time.",
+                "point_collocations": [
+                  {
+                    "en": "cause addiction",
+                    "vi": "gây nghiện"
+                  },
                   {
                     "en": "waste time",
                     "vi": "lãng phí thời gian"
-                  },
-                  {
-                    "en": "spend too much time on",
-                    "vi": "dành quá nhiều thời gian cho"
-                  },
-                  {
-                    "en": "social media",
-                    "vi": "mạng xã hội"
-                  },
-                  {
-                    "en": "online games",
-                    "vi": "trò chơi trực tuyến"
-                  },
-                  {
-                    "en": "cause + O + to Vo: khiến ai đó làm gì",
-                    "vi": "cause + O + to Vo: khiến ai đó làm gì"
                   }
                 ],
-                "point_vi": "Internet có thể khiến người dùng lãng phí nhiều thời gian.",
-                "point_en": "The Internet may cause users to waste a lot of time.",
-                "evidence_vi": "Nhiều người dành quá nhiều thời gian lướt mạng xã hội và chơi điện tử, do đó họ thường xao nhãng việc học và công việc chính.",
-                "evidence_en": "Many people spend too much time browsing social networks and playing online games, so they easily neglect their studies and work."
-              },
-              {
-                "title": "BẤT LỢI 02: RỦI RO VỀ QUYỀN RIÊNG TƯ VÀ BẢO MẬT",
+                "evidence_vi": "Nhiều người dành hàng giờ lướt mạng xã hội và chơi game, vì vậy họ bỏ bê việc học hành và công việc quan trọng.",
+                "evidence_en": "Many people spend hours scrolling through social media and playing games, so they neglect their studies and important work.",
+                "evidence_collocations": [
+                  {
+                    "en": "spend hours scrolling through social media",
+                    "vi": "dành hàng giờ lướt mạng xã hội"
+                  },
+                  {
+                    "en": "play games",
+                    "vi": "chơi game"
+                  },
+                  {
+                    "en": "neglect studies and important work",
+                    "vi": "bỏ bê học hành và công việc quan trọng"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "privacy and security risks",
-                    "vi": "rủi ro về quyền riêng tư và bảo mật"
+                    "en": "cause addiction",
+                    "vi": "gây nghiện"
                   },
                   {
-                    "en": "personal information",
-                    "vi": "thông tin cá nhân"
+                    "en": "spend hours scrolling through social media",
+                    "vi": "lướt mạng xã hội hàng giờ"
                   },
                   {
-                    "en": "be stolen",
-                    "vi": "bị đánh cắp"
-                  },
-                  {
-                    "en": "be misused",
-                    "vi": "bị sử dụng sai mục đích"
+                    "en": "neglect studies and important work",
+                    "vi": "bỏ bê việc học và công việc"
                   }
-                ],
-                "point_vi": "Internet có thể gây ra những rủi ro về quyền riêng tư và bảo mật.",
-                "point_en": "The Internet may create privacy and security risks.",
-                "evidence_vi": "Kẻ xấu có thể đánh cắp mật khẩu và dữ liệu ngân hàng của người dùng, vì vậy người dùng có nguy cơ bị lừa đảo hoặc mất tài sản.",
-                "evidence_en": "Hackers can steal personal passwords and banking details, so users face serious risks of financial loss and identity theft."
+                ]
               },
               {
-                "title": "BẤT LỢI 03: ẢNH HƯỞNG ĐẾN SỨC KHỎE",
-                "collocations": [
+                "title": "BẤT LỢI 02: NGUY CƠ MẤT AN TOÀN THÔNG TIN",
+                "point_vi": "Internet tiềm ẩn nhiều nguy cơ về bảo mật và đánh cắp thông tin cá nhân.",
+                "point_en": "The Internet has many risks regarding security and identity theft.",
+                "point_collocations": [
                   {
-                    "en": "excessive Internet use ~ using the Internet too much",
-                    "vi": "sử dụng Internet quá nhiều"
+                    "en": "security risks",
+                    "vi": "nguy cơ về bảo mật"
                   },
                   {
-                    "en": "have negative effects on health ~ negatively affect health",
-                    "vi": "ảnh hưởng tiêu cực đến sức khỏe"
-                  },
-                  {
-                    "en": "eye strain",
-                    "vi": "mỏi mắt"
-                  },
-                  {
-                    "en": "physical activity",
-                    "vi": "hoạt động thể chất"
+                    "en": "identity theft",
+                    "vi": "đánh cắp thông tin cá nhân"
                   }
                 ],
-                "point_vi": "Việc sử dụng Internet quá nhiều có thể ảnh hưởng đến sức khỏe.",
-                "point_en": "Excessive Internet use may have negative effects on health.",
-                "evidence_vi": "Việc ngồi trước màn hình máy tính liên tục nhiều giờ gây mỏi mắt và đau lưng, vì vậy sức khỏe thể chất của người dùng dễ bị suy giảm.",
-                "evidence_en": "Sitting in front of computer screens continuously for long hours causes eye strain and back pain, so physical health may decline."
+                "evidence_vi": "Tội phạm mạng có thể tấn công tài khoản và đánh cắp thông tin cá nhân, do đó người dùng có nguy cơ bị lừa đảo hoặc mất tiền.",
+                "evidence_en": "Cyber criminals can hack accounts and steal personal information, so users risk losing money and falling for scams.",
+                "evidence_collocations": [
+                  {
+                    "en": "hack accounts",
+                    "vi": "tấn công tài khoản"
+                  },
+                  {
+                    "en": "steal personal information",
+                    "vi": "đánh cắp thông tin cá nhân"
+                  },
+                  {
+                    "en": "fall for scams",
+                    "vi": "bị lừa đảo"
+                  },
+                  {
+                    "en": "lose money",
+                    "vi": "mất tiền"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "security risks",
+                    "vi": "nguy cơ bảo mật"
+                  },
+                  {
+                    "en": "hack accounts",
+                    "vi": "tấn công tài khoản"
+                  },
+                  {
+                    "en": "steal personal information",
+                    "vi": "đánh cắp thông tin cá nhân"
+                  },
+                  {
+                    "en": "fall for scams",
+                    "vi": "bị lừa đảo"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: ẢNH HƯỞNG TIÊU CỰC ĐẾN SỨC KHỎE",
+                "point_vi": "Tiếp xúc với màn hình quá nhiều có thể gây hại cho sức khỏe.",
+                "point_en": "Looking at screens too much can harm people's health.",
+                "point_collocations": [
+                  {
+                    "en": "look at screens too much",
+                    "vi": "nhìn màn hình quá nhiều"
+                  },
+                  {
+                    "en": "harm health",
+                    "vi": "gây hại cho sức khỏe"
+                  }
+                ],
+                "evidence_vi": "Ngồi trước máy tính cả ngày dễ gây mỏi mắt, đau lưng và lười vận động, vì vậy người dùng có thể mắc các vấn đề sức khỏe lâu dài.",
+                "evidence_en": "Sitting in front of computers all day can cause eye strain, back pain, and a lack of exercise, so users may develop long-term health problems.",
+                "evidence_collocations": [
+                  {
+                    "en": "sit in front of computers all day",
+                    "vi": "ngồi trước máy tính cả ngày"
+                  },
+                  {
+                    "en": "cause eye strain and back pain",
+                    "vi": "gây mỏi mắt và đau lưng"
+                  },
+                  {
+                    "en": "lack of exercise",
+                    "vi": "lười vận động"
+                  },
+                  {
+                    "en": "long-term health problems",
+                    "vi": "các vấn đề sức khỏe lâu dài"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "harm health",
+                    "vi": "gây hại cho sức khỏe"
+                  },
+                  {
+                    "en": "cause eye strain and back pain",
+                    "vi": "gây mỏi mắt và đau lưng"
+                  },
+                  {
+                    "en": "long-term health problems",
+                    "vi": "vấn đề sức khỏe lâu dài"
+                  }
+                ]
               }
             ]
           },
@@ -7336,160 +7588,260 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: MÔI TRƯỜNG HỌC TẬP LINH HOẠT HƠN",
+                "title": "LỢI ÍCH 01: MÔI TRƯỜNG HỌC TẬP LINH HOẠT",
+                "point_vi": "Học tại nhà mang lại môi trường học tập linh hoạt hơn cho trẻ em.",
+                "point_en": "Homeschooling provides a more flexible learning environment for children.",
+                "point_collocations": [
+                  {
+                    "en": "homeschooling",
+                    "vi": "học tại nhà"
+                  },
+                  {
+                    "en": "flexible learning environment",
+                    "vi": "môi trường học tập linh hoạt"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ có thể lựa chọn nội dung bài giảng phù hợp với khả năng tiếp thu của con, nhờ đó trẻ hiểu bài nhanh và sâu hơn.",
+                "evidence_en": "Parents can choose suitable lessons for their child's learning speed, so children understand the lessons much better.",
+                "evidence_collocations": [
+                  {
+                    "en": "choose suitable lessons",
+                    "vi": "lựa chọn bài giảng phù hợp"
+                  },
+                  {
+                    "en": "learning speed",
+                    "vi": "khả năng (tốc độ) tiếp thu"
+                  },
+                  {
+                    "en": "understand the lessons much better",
+                    "vi": "hiểu bài học tốt hơn nhiều"
+                  }
+                ],
                 "collocations": [
+                  {
+                    "en": "homeschooling",
+                    "vi": "học tại nhà"
+                  },
                   {
                     "en": "flexible learning environment",
                     "vi": "môi trường học tập linh hoạt"
                   },
                   {
-                    "en": "choose study schedules",
-                    "vi": "lựa chọn thời gian biểu học tập"
+                    "en": "choose suitable lessons",
+                    "vi": "chọn bài giảng phù hợp"
                   },
                   {
-                    "en": "learning pace",
-                    "vi": "tốc độ học tập"
+                    "en": "understand the lessons much better",
+                    "vi": "hiểu bài học tốt hơn"
                   }
-                ],
-                "point_vi": "Học tại nhà mang lại môi trường học tập linh hoạt hơn cho trẻ em.",
-                "point_en": "Homeschooling provides a more flexible learning environment for children.",
-                "evidence_vi": "Cha mẹ có thể lựa chọn nội dung bài giảng phù hợp với khả năng tiếp thu của con, nhờ đó trẻ hiểu bài nhanh và sâu hơn.",
-                "evidence_en": "Parents can choose learning materials matching their child's ability, so the child understands lessons more quickly and deeply."
+                ]
               },
               {
-                "title": "LỢI ÍCH 02: MÔI TRƯỜNG HỌC TẬP THOẢI MÁI VÀ AN TOÀN HƠN",
-                "collocations": [
-                  {
-                    "en": "comfortable environment",
-                    "vi": "môi trường thoải mái"
-                  },
-                  {
-                    "en": "safer learning environment",
-                    "vi": "môi trường học tập an toàn hơn"
-                  },
-                  {
-                    "en": "a familiar environment",
-                    "vi": "môi trường quen thuộc"
-                  },
-                  {
-                    "en": "bullying",
-                    "vi": "bắt nạt"
-                  },
-                  {
-                    "en": "peer pressure",
-                    "vi": "áp lực đồng trang lứa"
-                  }
-                ],
+                "title": "LỢI ÍCH 02: MÔI TRƯỜNG THOẢI MÁI VÀ AN TOÀN",
                 "point_vi": "Học tại nhà có thể tạo ra môi trường học tập thoải mái và an toàn hơn.",
-                "point_en": "Homeschooling can create a more comfortable and safer learning environment.",
-                "evidence_vi": "Gia đình có thể tự sắp xếp giờ học linh hoạt theo ngày, vì vậy trẻ không bị áp lực về thời gian biểu cố định như ở trường học.",
-                "evidence_en": "Families can arrange flexible study schedules each day, so children do not face pressure from rigid school timetables."
-              },
-              {
-                "title": "LỢI ÍCH 03: CHA MẸ CÓ THỂ THEO SÁT QUÁ TRÌNH HỌC TẬP",
-                "collocations": [
+                "point_en": "Homeschooling can create a more comfortable and safer study environment.",
+                "point_collocations": [
                   {
-                    "en": "monitor learning",
-                    "vi": "theo dõi việc học"
-                  },
-                  {
-                    "en": "provide support",
-                    "vi": "hỗ trợ"
-                  },
-                  {
-                    "en": "adjust learning activities",
-                    "vi": "điều chỉnh hoạt động học tập"
-                  },
-                  {
-                    "en": "when necessary",
-                    "vi": "khi cần thiết"
+                    "en": "comfortable and safer study environment",
+                    "vi": "môi trường học tập thoải mái và an toàn hơn"
                   }
                 ],
-                "point_vi": "Học tại nhà giúp cha mẹ theo dõi quá trình học tập của con chặt chẽ hơn.",
-                "point_en": "Homeschooling allows parents to monitor their children's learning more closely.",
-                "evidence_vi": "Cha mẹ và con cái có nhiều thời gian trò chuyện và cùng nhau học tập, do đó tình cảm gia đình trở nên khăng khít hơn.",
-                "evidence_en": "Parents and children spend abundant quality time talking and learning together, so family bonds become much stronger."
+                "evidence_vi": "Gia đình có thể tự sắp xếp giờ học linh hoạt theo ngày, vì vậy trẻ không bị áp lực về thời gian biểu cố định như ở trường học.",
+                "evidence_en": "Families can arrange flexible study hours each day, so children do not feel stress from fixed school timetables.",
+                "evidence_collocations": [
+                  {
+                    "en": "arrange flexible study hours",
+                    "vi": "sắp xếp giờ học linh hoạt"
+                  },
+                  {
+                    "en": "fixed school timetables",
+                    "vi": "thời gian biểu cố định ở trường"
+                  },
+                  {
+                    "en": "do not feel stress",
+                    "vi": "không cảm thấy áp lực"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "arrange flexible study hours",
+                    "vi": "sắp xếp giờ học linh hoạt"
+                  },
+                  {
+                    "en": "fixed school timetables",
+                    "vi": "thời gian biểu cố định"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: TĂNG CƯỜNG SỰ GẮN KẾT GIA ĐÌNH",
+                "point_vi": "Học tại nhà giúp tăng cường sự gắn kết giữa cha mẹ và con cái.",
+                "point_en": "Homeschooling strengthens the bond between parents and children.",
+                "point_collocations": [
+                  {
+                    "en": "strengthen the bond",
+                    "vi": "tăng cường sự gắn kết"
+                  },
+                  {
+                    "en": "between parents and children",
+                    "vi": "giữa cha mẹ và con cái"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ dành nhiều thời gian đồng hành và trò chuyện cùng con trong các buổi học, nhờ đó tình cảm gia đình trở nên khăng khít hơn.",
+                "evidence_en": "Parents spend more time guiding and talking with their children during lessons, so family relationships become closer.",
+                "evidence_collocations": [
+                  {
+                    "en": "guide and talk with children",
+                    "vi": "đồng hành và trò chuyện cùng con"
+                  },
+                  {
+                    "en": "during lessons",
+                    "vi": "trong các buổi học"
+                  },
+                  {
+                    "en": "family relationships become closer",
+                    "vi": "tình cảm gia đình trở nên khăng khít hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strengthen the bond",
+                    "vi": "tăng cường sự gắn kết"
+                  },
+                  {
+                    "en": "guide and talk with children",
+                    "vi": "đồng hành và trò chuyện cùng con"
+                  },
+                  {
+                    "en": "family relationships become closer",
+                    "vi": "tình cảm gia đình khăng khít hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: THIẾU CƠ HỘI PHÁT TRIỂN KỸ NĂNG XÃ HỘI",
-                "collocations": [
+                "title": "BẤT LỢI 01: GIẢM CƠ HỘI GIAO TIẾP XÃ HỘI",
+                "point_vi": "Học tại nhà có thể làm giảm cơ hội giao tiếp xã hội của trẻ em.",
+                "point_en": "Homeschooling can reduce children's social interaction opportunities.",
+                "point_collocations": [
                   {
-                    "en": "social skill development",
-                    "vi": "sự phát triển kỹ năng xã hội"
-                  },
-                  {
-                    "en": "interact with peers",
-                    "vi": "tương tác với bạn bè cùng trang lứa"
-                  },
-                  {
-                    "en": "group activities",
-                    "vi": "hoạt động nhóm"
-                  },
-                  {
-                    "en": "social interaction",
-                    "vi": "sự tương tác xã hội"
+                    "en": "reduce social interaction opportunities",
+                    "vi": "làm giảm cơ hội giao tiếp xã hội"
                   }
                 ],
-                "point_vi": "Học tại nhà có thể hạn chế sự phát triển kỹ năng xã hội của trẻ.",
-                "point_en": "Homeschooling may limit children's social skill development.",
-                "evidence_vi": "Trẻ học tại nhà ít có cơ hội tiếp xúc với bạn bè đồng trang lứa, vì vậy các em có thể cảm thấy cô đơn và thiếu kỹ năng xã hội.",
-                "evidence_en": "Homeschooled children have few opportunities to interact with peers, so they may feel isolated and lack essential social skills."
+                "evidence_vi": "Trẻ không có bạn cùng lớp để vui chơi và học nhóm hằng ngày, do đó các em có thể thiếu hụt các kỹ năng làm việc nhóm cần thiết.",
+                "evidence_en": "Children do not have classmates to play with or study together every day, so they may lack basic teamwork skills.",
+                "evidence_collocations": [
+                  {
+                    "en": "classmates to play with",
+                    "vi": "bạn cùng lớp để chơi cùng"
+                  },
+                  {
+                    "en": "study together every day",
+                    "vi": "học cùng nhau mỗi ngày"
+                  },
+                  {
+                    "en": "lack basic teamwork skills",
+                    "vi": "thiếu hụt kỹ năng làm việc nhóm cơ bản"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce social interaction opportunities",
+                    "vi": "giảm cơ hội giao tiếp xã hội"
+                  },
+                  {
+                    "en": "lack basic teamwork skills",
+                    "vi": "thiếu kỹ năng làm việc nhóm cơ bản"
+                  }
+                ]
               },
               {
-                "title": "BẤT LỢI 02: THIẾU CƠ SỞ VẬT CHẤT VÀ NGUỒN LỰC GIÁO DỤC",
-                "collocations": [
+                "title": "BẤT LỢI 02: THIẾU KINH NGHIỆM GIẢNG DẠY CHUYÊN MÔN",
+                "point_vi": "Cha mẹ có thể gặp khó khăn vì thiếu kiến thức sư phạm chuyên sâu.",
+                "point_en": "Parents may struggle due to a lack of teaching experience.",
+                "point_collocations": [
                   {
-                    "en": "educational facilities",
-                    "vi": "cơ sở vật chất giáo dục"
+                    "en": "struggle",
+                    "vi": "gặp khó khăn"
                   },
                   {
-                    "en": "learning resources",
-                    "vi": "nguồn học tập"
-                  },
-                  {
-                    "en": "have access to",
-                    "vi": "có quyền tiếp cận, được tiếp cận"
-                  },
-                  {
-                    "en": "modern learning equipment",
-                    "vi": "thiết bị học tập hiện đại"
+                    "en": "lack of teaching experience",
+                    "vi": "thiếu kinh nghiệm giảng dạy"
                   }
                 ],
-                "point_vi": "Học tại nhà có thể thiếu cơ sở vật chất và nguồn học tập cần thiết.",
-                "point_en": "Homeschooling may lack educational facilities and learning resources.",
-                "evidence_vi": "Nhiều cha mẹ không có kỹ năng sư phạm chuyên nghiệp, do đó họ gặp nhiều khó khăn khi giảng dạy những môn học nâng cao.",
-                "evidence_en": "Many parents lack professional teaching training, so they struggle to explain advanced academic subjects effectively."
+                "evidence_vi": "Nhiều bậc phụ huynh không thành thạo các môn học nâng cao ở bậc trung học, vì vậy việc giải thích các khái niệm phức tạp cho con gặp nhiều trở ngại.",
+                "evidence_en": "Many parents are not good at advanced school subjects, so they find it difficult to explain complicated topics to their children.",
+                "evidence_collocations": [
+                  {
+                    "en": "advanced school subjects",
+                    "vi": "các môn học nâng cao ở trường"
+                  },
+                  {
+                    "en": "find it difficult to",
+                    "vi": "cảm thấy khó khăn để"
+                  },
+                  {
+                    "en": "explain complicated topics",
+                    "vi": "giải thích các khái niệm phức tạp"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lack of teaching experience",
+                    "vi": "thiếu kinh nghiệm giảng dạy"
+                  },
+                  {
+                    "en": "explain complicated topics",
+                    "vi": "giải thích khái niệm phức tạp"
+                  }
+                ]
               },
               {
-                "title": "BẤT LỢI 03: KHÓ ĐẢM BẢO CHẤT LƯỢNG GIÁO DỤC TOÀN DIỆN",
-                "collocations": [
+                "title": "BẤT LỢI 03: ĐÒI HỎI NHIỀU THỜI GIAN VÀ CÔNG SỨC CỦA PHỤ HUYNH",
+                "point_vi": "Dạy con tại nhà đòi hỏi rất nhiều thời gian và công sức của cha mẹ.",
+                "point_en": "Homeschooling demands a lot of time and effort from parents.",
+                "point_collocations": [
                   {
-                    "en": "well-rounded education",
-                    "vi": "nền giáo dục toàn diện"
-                  },
-                  {
-                    "en": "important subjects",
-                    "vi": "môn học quan trọng"
-                  },
-                  {
-                    "en": "important skills",
-                    "vi": "kỹ năng quan trọng"
-                  },
-                  {
-                    "en": "be taught fully",
-                    "vi": "được dạy đầy đủ"
-                  },
-                  {
-                    "en": "traditional schools",
-                    "vi": "trường học truyền thống"
+                    "en": "demand a lot of time and effort",
+                    "vi": "đòi hỏi nhiều thời gian và công sức"
                   }
                 ],
-                "point_vi": "Học tại nhà có thể không đảm bảo được chất lượng giáo dục toàn diện.",
-                "point_en": "Homeschooling may not provide a well-rounded education.",
-                "evidence_vi": "Cha mẹ phải dành phần lớn thời gian để dạy con học mỗi ngày, vì vậy họ khó có thể tập trung phát triển sự nghiệp cá nhân.",
-                "evidence_en": "Parents must dedicate substantial time each day to teaching their children, so they find it difficult to pursue full-time careers."
+                "evidence_vi": "Cha mẹ phải vừa đi làm kiếm sống vừa chuẩn bị giáo án dạy con mỗi ngày, do đó họ dễ rơi vào trạng thái kiệt sức và căng thẳng.",
+                "evidence_en": "Parents have to work for a living and prepare lesson plans every day, so they can easily become exhausted and stressed.",
+                "evidence_collocations": [
+                  {
+                    "en": "work for a living",
+                    "vi": "đi làm kiếm sống"
+                  },
+                  {
+                    "en": "prepare lesson plans",
+                    "vi": "chuẩn bị giáo án"
+                  },
+                  {
+                    "en": "become exhausted and stressed",
+                    "vi": "trở nên kiệt sức và căng thẳng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "demand a lot of time and effort",
+                    "vi": "đòi hỏi nhiều thời gian và công sức"
+                  },
+                  {
+                    "en": "work for a living",
+                    "vi": "đi làm kiếm sống"
+                  },
+                  {
+                    "en": "prepare lesson plans",
+                    "vi": "chuẩn bị giáo án"
+                  },
+                  {
+                    "en": "become exhausted and stressed",
+                    "vi": "kiệt sức và căng thẳng"
+                  }
+                ]
               }
             ]
           },
@@ -9595,39 +9947,87 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI (SAVE MONEY)",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI",
                 "point_vi": "Giao thông công cộng giúp mọi người tiết kiệm chi phí đi lại.",
-                "point_en": "Public transport helps people save money on daily travel.",
-                "evidence_vi": "Giá vé xe buýt và tàu điện rẻ hơn nhiều so với chi phí xăng xe và gửi xe cá nhân, nhờ đó người dân có thể tiết kiệm một khoản tiền đáng kể mỗi tháng.",
-                "evidence_en": "Bus and train fares are much cheaper than fuel and parking fees for private vehicles, so commuters can save a substantial amount each month.",
+                "point_en": "Public transport helps people save travel costs.",
+                "point_collocations": [
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
+                  },
+                  {
+                    "en": "save travel costs",
+                    "vi": "tiết kiệm chi phí đi lại"
+                  }
+                ],
+                "evidence_vi": "Giá vé xe buýt và tàu điện rất rẻ, nhờ đó người dân có thể tiết kiệm một khoản tiền lớn mỗi tháng.",
+                "evidence_en": "Bus and train tickets are very cheap, so people can save a lot of money every month.",
+                "evidence_collocations": [
+                  {
+                    "en": "bus and train tickets",
+                    "vi": "vé xe buýt và tàu điện"
+                  },
+                  {
+                    "en": "very cheap",
+                    "vi": "rất rẻ"
+                  },
+                  {
+                    "en": "save a lot of money",
+                    "vi": "tiết kiệm nhiều tiền"
+                  },
+                  {
+                    "en": "every month",
+                    "vi": "mỗi tháng"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "save money",
-                    "vi": "tiết kiệm tiền"
+                    "en": "save travel costs",
+                    "vi": "tiết kiệm chi phí đi lại"
                   },
                   {
-                    "en": "daily travel",
-                    "vi": "việc đi lại hằng ngày"
+                    "en": "bus and train tickets",
+                    "vi": "vé xe buýt và tàu điện"
                   },
                   {
-                    "en": "fuel costs",
-                    "vi": "chi phí nhiên liệu"
-                  },
-                  {
-                    "en": "vehicle maintenance",
-                    "vi": "bảo dưỡng phương tiện"
+                    "en": "save a lot of money",
+                    "vi": "tiết kiệm nhiều tiền"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG (REDUCE TRAFFIC CONGESTION)",
+                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG",
                 "point_vi": "Giao thông công cộng góp phần giảm bớt tình trạng ùn tắc giao thông.",
-                "point_en": "Public transport contributes to reducing traffic congestion.",
-                "evidence_vi": "Mỗi chiếc xe buýt có thể chở được hàng chục hành khách cùng lúc, vì vậy số lượng ô tô và xe máy trên đường phố giảm đi đáng kể.",
-                "evidence_en": "Each bus can transport dozens of commuters simultaneously, so the volume of cars and motorbikes on streets decreases noticeably.",
+                "point_en": "Public transport helps reduce traffic jams.",
+                "point_collocations": [
+                  {
+                    "en": "reduce traffic jams",
+                    "vi": "giảm bớt tình trạng ùn tắc giao thông"
+                  }
+                ],
+                "evidence_vi": "Một chiếc xe buýt có thể chở được nhiều hành khách cùng lúc, vì vậy số lượng ô tô và xe máy trên đường phố giảm đi đáng kể.",
+                "evidence_en": "One bus can carry many passengers at the same time, so there are fewer cars and motorbikes on the roads.",
+                "evidence_collocations": [
+                  {
+                    "en": "carry many passengers",
+                    "vi": "chở nhiều hành khách"
+                  },
+                  {
+                    "en": "at the same time",
+                    "vi": "cùng lúc"
+                  },
+                  {
+                    "en": "fewer cars and motorbikes",
+                    "vi": "ít ô tô và xe máy hơn"
+                  },
+                  {
+                    "en": "on the roads",
+                    "vi": "trên đường phố"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "reduce traffic congestion",
+                    "en": "reduce traffic jams",
                     "vi": "giảm ùn tắc giao thông"
                   },
                   {
@@ -9635,186 +10035,350 @@ const ESSAY_DATA = [
                     "vi": "chở nhiều hành khách"
                   },
                   {
-                    "en": "fewer private vehicles",
-                    "vi": "ít phương tiện cá nhân hơn"
+                    "en": "fewer cars and motorbikes",
+                    "vi": "ít ô tô và xe máy hơn"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 03: BẢO VỆ MÔI TRƯỜNG (PROTECT THE ENVIRONMENT)",
-                "point_vi": "Giao thông công cộng giúp bảo vệ môi trường sống.",
-                "point_en": "Public transport helps protect the environment.",
-                "evidence_vi": "Việc sử dụng phương tiện công cộng giúp cắt giảm lượng khí thải độc hại, do đó chất lượng không khí ở các đô thị được cải thiện rõ rệt.",
-                "evidence_en": "Using public transport significantly cuts greenhouse emissions, so urban air quality improves noticeably.",
+                "title": "LỢI ÍCH 03: BẢO VỆ MÔI TRƯỜNG",
+                "point_vi": "Sử dụng phương tiện công cộng giúp giảm ô nhiễm môi trường.",
+                "point_en": "Using public transport helps reduce environmental pollution.",
+                "point_collocations": [
+                  {
+                    "en": "using public transport",
+                    "vi": "sử dụng phương tiện công cộng"
+                  },
+                  {
+                    "en": "reduce environmental pollution",
+                    "vi": "giảm ô nhiễm môi trường"
+                  }
+                ],
+                "evidence_vi": "Khi nhiều người cùng đi xe điện hoặc xe buýt, lượng khí thải độc hại xả vào không khí sẽ giảm đi rất nhiều.",
+                "evidence_en": "When more people travel by train or bus, harmful emissions into the air drop significantly.",
+                "evidence_collocations": [
+                  {
+                    "en": "travel by train or bus",
+                    "vi": "đi lại bằng tàu hỏa hoặc xe buýt"
+                  },
+                  {
+                    "en": "harmful emissions",
+                    "vi": "lượng khí thải độc hại"
+                  },
+                  {
+                    "en": "into the air",
+                    "vi": "vào không khí"
+                  },
+                  {
+                    "en": "drop significantly",
+                    "vi": "giảm đi đáng kể"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "protect the environment",
-                    "vi": "bảo vệ môi trường"
+                    "en": "reduce environmental pollution",
+                    "vi": "giảm ô nhiễm môi trường"
                   },
                   {
-                    "en": "produce less smoke",
-                    "vi": "thải ra ít khói hơn"
+                    "en": "harmful emissions",
+                    "vi": "lượng khí thải độc hại"
                   },
                   {
-                    "en": "keep the air cleaner",
-                    "vi": "giữ không khí trong lành hơn"
+                    "en": "drop significantly",
+                    "vi": "giảm đáng kể"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 04: MANG LẠI SỰ THUẬN TIỆN (PROVIDE CONVENIENCE)",
-                "point_vi": "Giao thông công cộng mang lại sự thuận tiện cho người đi lại hằng ngày.",
-                "point_en": "Public transport provides considerable convenience for urban residents.",
-                "evidence_vi": "Xe buýt có lộ trình cố định và các chuyến đi thường xuyên, vì vậy hành khách không cần phải tự lái xe.",
-                "evidence_en": "Modern transport systems operate extensive routes and provide frequent departures throughout the city, so passengers can commute comfortably without the physical stress of driving in congested traffic.",
+                "title": "LỢI ÍCH 04: AN TOÀN HƠN",
+                "point_vi": "Đi phương tiện công cộng an toàn hơn so với việc tự lái xe cá nhân.",
+                "point_en": "Traveling by public transport is safer than driving private vehicles.",
+                "point_collocations": [
+                  {
+                    "en": "safer than driving private vehicles",
+                    "vi": "an toàn hơn so với việc tự lái xe cá nhân"
+                  }
+                ],
+                "evidence_vi": "Tài xế xe buýt và tàu điện được đào tạo chuyên nghiệp, vì vậy nguy cơ xảy ra tai nạn giao thông thấp hơn rất nhiều.",
+                "evidence_en": "Bus and train drivers receive professional training, so the risk of road accidents is much lower.",
+                "evidence_collocations": [
+                  {
+                    "en": "receive professional training",
+                    "vi": "được đào tạo chuyên nghiệp"
+                  },
+                  {
+                    "en": "risk of road accidents",
+                    "vi": "nguy cơ tai nạn giao thông"
+                  },
+                  {
+                    "en": "much lower",
+                    "vi": "thấp hơn rất nhiều"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "provide convenience",
-                    "vi": "mang lại sự thuận tiện"
+                    "en": "receive professional training",
+                    "vi": "đào tạo chuyên nghiệp"
                   },
                   {
-                    "en": "fixed routes",
-                    "vi": "lộ trình cố định"
-                  },
-                  {
-                    "en": "frequent trips",
-                    "vi": "các chuyến đi thường xuyên"
-                  },
-                  {
-                    "en": "no need to drive",
-                    "vi": "không cần tự lái xe"
+                    "en": "risk of road accidents",
+                    "vi": "nguy cơ tai nạn giao thông"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 05: NÂNG CAO AN TOÀN GIAO THÔNG (IMPROVE ROAD SAFETY)",
-                "point_vi": "Giao thông công cộng giúp nâng cao mức độ an toàn giao thông.",
-                "point_en": "Public transport helps improve road safety.",
-                "evidence_vi": "Các tài xế chuyên nghiệp điều khiển phương tiện công cộng, vì vậy hành khách có thể đi lại an toàn hơn.",
-                "evidence_en": "Professional drivers drive public vehicles, so passengers can travel more safely.",
+                "title": "LỢI ÍCH 05: CÓ THỜI GIAN THƯ GIÃN KHI DI CHUYỂN",
+                "point_vi": "Hành khách có thể thư giãn hoặc làm việc riêng trong suốt chuyến đi.",
+                "point_en": "Passengers can relax or do personal tasks during the journey.",
+                "point_collocations": [
+                  {
+                    "en": "relax or do personal tasks",
+                    "vi": "thư giãn hoặc làm việc riêng"
+                  },
+                  {
+                    "en": "during the journey",
+                    "vi": "trong suốt chuyến đi"
+                  }
+                ],
+                "evidence_vi": "Mọi người không cần phải tập trung lái xe trên đường đông đúc, nhờ đó họ có thể đọc sách hoặc nghe nhạc thoải mái.",
+                "evidence_en": "Commuters do not have to focus on driving on busy roads, so they can read books or listen to music comfortably.",
+                "evidence_collocations": [
+                  {
+                    "en": "do not have to focus on driving",
+                    "vi": "không cần phải tập trung lái xe"
+                  },
+                  {
+                    "en": "on busy roads",
+                    "vi": "trên đường đông đúc"
+                  },
+                  {
+                    "en": "read books or listen to music",
+                    "vi": "đọc sách hoặc nghe nhạc"
+                  },
+                  {
+                    "en": "comfortably",
+                    "vi": "một cách thoải mái"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "improve road safety",
-                    "vi": "nâng cao an toàn giao thông"
+                    "en": "relax or do personal tasks",
+                    "vi": "thư giãn hoặc làm việc riêng"
                   },
                   {
-                    "en": "professional drivers",
-                    "vi": "tài xế chuyên nghiệp"
-                  },
-                  {
-                    "en": "travel more safely",
-                    "vi": "đi lại an toàn hơn"
+                    "en": "read books or listen to music",
+                    "vi": "đọc sách hoặc nghe nhạc"
                   }
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀ KHÔNG THOẢI MÁI (CROWDED)",
-                "point_vi": "Giao thông công cộng thường đông đúc và không thoải mái.",
-                "point_en": "Public transport is often crowded and uncomfortable.",
-                "evidence_vi": "Hành khách thường phải chen chúc trong giờ cao điểm và khó tìm được chỗ ngồi, vì vậy chuyến đi có thể gây mệt mỏi và khó chịu.",
-                "evidence_en": "Passengers often have to stand in crowded buses during peak hours, so their daily travel can be exhausting and uncomfortable.",
+                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀO GIỜ CAO ĐIỂM",
+                "point_vi": "Phương tiện công cộng thường đông đúc và chật chội vào giờ cao điểm.",
+                "point_en": "Public transport is often crowded during peak hours.",
+                "point_collocations": [
+                  {
+                    "en": "crowded during peak hours",
+                    "vi": "đông đúc vào giờ cao điểm"
+                  }
+                ],
+                "evidence_vi": "Quá nhiều hành khách chen chúc trên một chuyến xe, vì vậy mọi người khó tìm được chỗ ngồi và cảm thấy rất mệt mỏi.",
+                "evidence_en": "Too many passengers crowd onto one vehicle, so people struggle to find a seat and feel very tired.",
+                "evidence_collocations": [
+                  {
+                    "en": "crowd onto one vehicle",
+                    "vi": "chen chúc trên một chuyến xe"
+                  },
+                  {
+                    "en": "struggle to find a seat",
+                    "vi": "khó tìm được chỗ ngồi"
+                  },
+                  {
+                    "en": "feel very tired",
+                    "vi": "cảm thấy rất mệt mỏi"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "crowded and uncomfortable",
-                    "vi": "đông đúc và không thoải mái"
+                    "en": "crowded during peak hours",
+                    "vi": "đông đúc vào giờ cao điểm"
                   },
                   {
-                    "en": "rush hours",
-                    "vi": "giờ cao điểm"
+                    "en": "struggle to find a seat",
+                    "vi": "khó tìm được chỗ ngồi"
                   },
                   {
-                    "en": "crowded spaces",
-                    "vi": "không gian chật chội"
+                    "en": "feel very tired",
+                    "vi": "cảm thấy rất mệt mỏi"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 02: THIẾU TÍNH LINH HOẠT (LACK OF FLEXIBILITY)",
-                "point_vi": "Giao thông công cộng thiếu tính linh hoạt cho người sử dụng.",
-                "point_en": "Using public transport lacks operational flexibility for commuters.",
-                "evidence_vi": "Xe buýt chạy theo lộ trình và thời gian cố định, do đó hành khách không thể chủ động thay đổi tuyến đường theo ý muốn.",
-                "evidence_en": "Buses run on fixed routes and schedules, so commuters cannot alter their journey routes flexibly according to personal needs.",
-                "collocations": [
+                "title": "BẤT LỢI 02: THIẾU TÍNH LINH HOẠT",
+                "point_vi": "Giao thông công cộng thiếu tính linh hoạt về thời gian và lộ trình.",
+                "point_en": "Public transport lacks flexibility in schedules and routes.",
+                "point_collocations": [
                   {
-                    "en": "lack of flexibility",
+                    "en": "lack flexibility",
                     "vi": "thiếu tính linh hoạt"
                   },
                   {
-                    "en": "fixed schedules",
-                    "vi": "lịch trình cố định"
+                    "en": "schedules and routes",
+                    "vi": "lịch trình và lộ trình"
+                  }
+                ],
+                "evidence_vi": "Xe buýt chạy theo các tuyến đường và giờ giấc cố định, do đó người đi lại không thể chủ động thay đổi lộ trình theo ý muốn.",
+                "evidence_en": "Buses run on fixed routes and timetables, so commuters cannot change their journeys according to personal needs.",
+                "evidence_collocations": [
+                  {
+                    "en": "run on fixed routes and timetables",
+                    "vi": "chạy theo lộ trình và giờ giấc cố định"
                   },
                   {
-                    "en": "fixed stops",
-                    "vi": "trạm dừng cố định"
+                    "en": "change journeys",
+                    "vi": "thay đổi lộ trình"
+                  },
+                  {
+                    "en": "according to personal needs",
+                    "vi": "theo ý muốn (nhu cầu cá nhân)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "fixed routes and timetables",
+                    "vi": "lộ trình và giờ giấc cố định"
+                  },
+                  {
+                    "en": "change journeys",
+                    "vi": "thay đổi lộ trình"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 03: TÌNH TRẠNG CHẬM TRỄ (DELAYS)",
-                "point_vi": "Người đi lại thường gặp phải sự chậm trễ bất ngờ.",
+                "title": "BẤT LỢI 03: TÌNH TRẠNG CHẬM TRỄ",
+                "point_vi": "Người đi phương tiện công cộng thường gặp phải tình trạng trễ giờ.",
                 "point_en": "Commuters often face unexpected delays.",
+                "point_collocations": [
+                  {
+                    "en": "face unexpected delays",
+                    "vi": "gặp phải tình trạng trễ giờ"
+                  }
+                ],
                 "evidence_vi": "Xe buýt dễ bị kẹt xe vào các khung giờ cao điểm hoặc thời tiết xấu, vì vậy hành khách có thể bị trễ giờ làm hoặc giờ học.",
-                "evidence_en": "Buses easily get delayed by heavy traffic jams or severe weather, so passengers may arrive late for school or work.",
+                "evidence_en": "Buses can get stuck in traffic jams during rush hours or bad weather, so passengers may arrive late for work or school.",
+                "evidence_collocations": [
+                  {
+                    "en": "get stuck in traffic jams",
+                    "vi": "bị kẹt xe"
+                  },
+                  {
+                    "en": "during rush hours or bad weather",
+                    "vi": "vào giờ cao điểm hoặc thời tiết xấu"
+                  },
+                  {
+                    "en": "arrive late for work or school",
+                    "vi": "bị trễ giờ làm hoặc giờ học"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "unexpected delays",
-                    "vi": "sự chậm trễ bất ngờ"
+                    "en": "face unexpected delays",
+                    "vi": "gặp phải sự chậm trễ"
                   },
                   {
-                    "en": "traffic jams",
-                    "vi": "tắc đường"
+                    "en": "get stuck in traffic jams",
+                    "vi": "bị kẹt xe"
                   },
                   {
-                    "en": "bad weather",
-                    "vi": "thời tiết xấu"
+                    "en": "arrive late for work or school",
+                    "vi": "trễ giờ làm hoặc giờ học"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 04: THIẾU SỰ RIÊNG TƯ (LESS PRIVACY)",
+                "title": "BẤT LỢI 04: THIẾU SỰ RIÊNG TƯ",
                 "point_vi": "Giao thông công cộng mang lại ít sự riêng tư cho người dùng.",
-                "point_en": "Public transport inevitably compromises personal privacy.",
-                "evidence_vi": "Mọi người phải đi chung với người lạ và nghe tiếng ồn lớn, vì vậy họ khó thư giãn.",
-                "evidence_en": "Commuters must share confined spaces with unfamiliar individuals and endure ambient disturbances, so this environment prevents passengers from unwinding or focusing on private tasks during their commutes.",
+                "point_en": "Public transport provides little personal privacy.",
+                "point_collocations": [
+                  {
+                    "en": "provide little personal privacy",
+                    "vi": "mang lại ít sự riêng tư"
+                  }
+                ],
+                "evidence_vi": "Mọi người phải đi chung với người lạ và nghe tiếng ồn lớn, vì vậy họ khó thư giãn hoặc tập trung làm việc.",
+                "evidence_en": "People have to travel with strangers and hear loud noise, so they find it hard to relax or focus.",
+                "evidence_collocations": [
+                  {
+                    "en": "travel with strangers",
+                    "vi": "đi chung với người lạ"
+                  },
+                  {
+                    "en": "hear loud noise",
+                    "vi": "nghe tiếng ồn lớn"
+                  },
+                  {
+                    "en": "find it hard to relax or focus",
+                    "vi": "khó thư giãn hoặc tập trung"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "less privacy",
-                    "vi": "ít sự riêng tư hơn"
+                    "en": "provide little personal privacy",
+                    "vi": "ít sự riêng tư"
                   },
                   {
                     "en": "travel with strangers",
                     "vi": "đi chung với người lạ"
                   },
                   {
-                    "en": "loud noise",
-                    "vi": "tiếng ồn lớn"
-                  },
-                  {
-                    "en": "relax easily",
-                    "vi": "thư giãn dễ dàng"
+                    "en": "hear loud noise",
+                    "vi": "nghe tiếng ồn lớn"
                   }
                 ]
               },
               {
-                "title": "BẤT LỢI 05: LO NGẠI VỀ SỨC KHỎE VÀ VỆ SINH (HEALTH CONCERNS)",
-                "point_vi": "Giao thông công cộng có thể gây ra những lo ngại về sức khỏe và vệ sinh.",
-                "point_en": "Public transport can cause health and hygiene concerns.",
-                "evidence_vi": "Bệnh tật có thể lây lan trên xe buýt đông người, và một số xe không được dọn dẹp sạch sẽ.",
-                "evidence_en": "Illnesses can spread in crowded buses, and some vehicles are not clean.",
+                "title": "BẤT LỢI 05: LO NGẠI VỀ VỆ SINH VÀ LÂY LAN BỆNH TẬT",
+                "point_vi": "Phương tiện công cộng tiềm ẩn những lo ngại về vệ sinh và lây lan bệnh tật.",
+                "point_en": "Public transport carries concerns about hygiene and disease.",
+                "point_collocations": [
+                  {
+                    "en": "hygiene concerns",
+                    "vi": "lo ngại về vệ sinh"
+                  },
+                  {
+                    "en": "spread of disease",
+                    "vi": "lây lan bệnh tật"
+                  }
+                ],
+                "evidence_vi": "Không gian đông người tạo điều kiện cho vi khuẩn lây lan nhanh chóng, và một số xe buýt cũ không được vệ sinh sạch sẽ thường xuyên.",
+                "evidence_en": "Crowded spaces allow illnesses to spread quickly, and some older buses are not cleaned regularly.",
+                "evidence_collocations": [
+                  {
+                    "en": "crowded spaces",
+                    "vi": "không gian đông người"
+                  },
+                  {
+                    "en": "spread quickly",
+                    "vi": "lây lan nhanh chóng"
+                  },
+                  {
+                    "en": "not cleaned regularly",
+                    "vi": "không được vệ sinh sạch sẽ thường xuyên"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "health and hygiene concerns",
-                    "vi": "lo ngại về sức khỏe và vệ sinh"
+                    "en": "hygiene concerns",
+                    "vi": "lo ngại về vệ sinh"
                   },
                   {
-                    "en": "spread illnesses",
-                    "vi": "lây lan bệnh tật"
+                    "en": "crowded spaces",
+                    "vi": "không gian đông người"
                   },
                   {
-                    "en": "crowded buses",
-                    "vi": "xe buýt đông đúc"
+                    "en": "spread quickly",
+                    "vi": "lây lan nhanh chóng"
                   }
                 ]
               }
@@ -12081,7 +12645,39 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM THỜI GIAN VÀ TIỀN BẠC",
+                "point_vi": "Làm việc tại nhà giúp nhân viên tiết kiệm thời gian và tiền bạc.",
+                "point_en": "Working from home helps employees save time and money.",
+                "point_collocations": [
+                  {
+                    "en": "working from home",
+                    "vi": "làm việc tại nhà"
+                  },
+                  {
+                    "en": "save time and money",
+                    "vi": "tiết kiệm thời gian và tiền bạc"
+                  }
+                ],
+                "evidence_vi": "Người lao động không cần phải di chuyển đến văn phòng mỗi ngày, nhờ đó họ có thể tiết kiệm chi phí xăng xe và dành nhiều thời gian hơn cho gia đình.",
+                "evidence_en": "Workers do not have to travel to the office every day, so they can save money on fuel and spend more time with family.",
+                "evidence_collocations": [
+                  {
+                    "en": "do not have to travel to the office",
+                    "vi": "không cần phải di chuyển đến văn phòng"
+                  },
+                  {
+                    "en": "every day",
+                    "vi": "mỗi ngày"
+                  },
+                  {
+                    "en": "save money on fuel",
+                    "vi": "tiết kiệm chi phí xăng xe"
+                  },
+                  {
+                    "en": "spend more time with family",
+                    "vi": "dành nhiều thời gian hơn cho gia đình"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "working from home",
@@ -12092,149 +12688,253 @@ const ESSAY_DATA = [
                     "vi": "tiết kiệm thời gian và tiền bạc"
                   },
                   {
-                    "en": "commute to the office",
-                    "vi": "đi lại đến văn phòng"
+                    "en": "save money on fuel",
+                    "vi": "tiết kiệm tiền xăng"
+                  },
+                  {
+                    "en": "spend more time with family",
+                    "vi": "dành nhiều thời gian cho gia đình"
                   }
-                ],
-                "point_vi": "Làm việc tại nhà giúp nhân viên tiết kiệm thời gian và tiền bạc.",
-                "point_en": "Working from home helps employees save time and money.",
-                "evidence_vi": "Người lao động không cần phải di chuyển đến văn phòng mỗi ngày, nhờ đó họ có thể tiết kiệm chi phí xăng xe và dành nhiều thời gian hơn cho gia đình.",
-                "evidence_en": "Workers do not need to commute to the office every day, so they can save money on fuel and spend more time with their families."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 02: TÍNH LINH HOẠT VÀ THUẬN TIỆN",
+                "point_vi": "Làm việc từ xa mang lại sự linh hoạt và thuận tiện.",
+                "point_en": "Remote work offers flexibility and convenience.",
+                "point_collocations": [
                   {
                     "en": "remote work",
                     "vi": "làm việc từ xa"
                   },
                   {
-                    "en": "flexibility and convenience",
-                    "vi": "sự linh hoạt và thuận tiện"
-                  },
-                  {
-                    "en": "manage their own schedules",
-                    "vi": "quản lý lịch trình của riêng mình"
-                  },
-                  {
-                    "en": "comfortable environment",
-                    "vi": "môi trường thoải mái"
+                    "en": "offer flexibility and convenience",
+                    "vi": "mang lại sự linh hoạt và thuận tiện"
                   }
                 ],
-                "point_vi": "Làm việc từ xa mang lại sự linh hoạt và thuận tiện.",
-                "point_en": "Remote work offers flexibility and convenience.",
                 "evidence_vi": "Nhân viên có thể tự sắp xếp thời gian làm việc trong không gian thoải mái, vì vậy họ cảm thấy bớt căng thẳng và cân bằng cuộc sống tốt hơn.",
-                "evidence_en": "Employees can organize their working hours in a comfortable environment, so they feel less stressed and maintain a better work-life balance."
+                "evidence_en": "Employees can arrange their working hours in a comfortable space, so they feel less stressed and balance their lives better.",
+                "evidence_collocations": [
+                  {
+                    "en": "arrange working hours",
+                    "vi": "sắp xếp thời gian làm việc"
+                  },
+                  {
+                    "en": "comfortable space",
+                    "vi": "không gian thoải mái"
+                  },
+                  {
+                    "en": "feel less stressed",
+                    "vi": "cảm thấy bớt căng thẳng"
+                  },
+                  {
+                    "en": "balance life better",
+                    "vi": "cân bằng cuộc sống tốt hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "offer flexibility and convenience",
+                    "vi": "mang lại sự linh hoạt và tiện lợi"
+                  },
+                  {
+                    "en": "arrange working hours",
+                    "vi": "sắp xếp giờ làm việc"
+                  },
+                  {
+                    "en": "feel less stressed",
+                    "vi": "bớt căng thẳng"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "title": "LỢI ÍCH 03: CẢI THIỆN NĂNG SUẤT CÔNG VIỆC",
+                "point_vi": "Làm việc tại nhà có thể giúp cải thiện năng suất công việc.",
+                "point_en": "Working from home can help improve work productivity.",
+                "point_collocations": [
                   {
                     "en": "improve work productivity",
                     "vi": "cải thiện năng suất công việc"
-                  },
-                  {
-                    "en": "quiet space",
-                    "vi": "không gian yên tĩnh"
-                  },
-                  {
-                    "en": "avoid interruptions",
-                    "vi": "tránh được sự gián đoạn"
-                  },
-                  {
-                    "en": "colleagues",
-                    "vi": "đồng nghiệp"
                   }
                 ],
-                "point_vi": "Làm việc tại nhà có thể giúp cải thiện năng suất công việc.",
-                "point_en": "Working from home can help improve work productivity.",
                 "evidence_vi": "Không gian làm việc yên tĩnh tại nhà giúp giảm bớt sự làm phiền từ đồng nghiệp, do đó nhân viên có thể tập trung cao độ và hoàn thành công việc nhanh hơn.",
-                "evidence_en": "A quiet workspace at home reduces noise and interruptions from colleagues, so workers can concentrate deeply and complete tasks faster."
-              }
-            ],
-            "drawbacks": [
-              {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "evidence_en": "A quiet workspace at home reduces interruptions from colleagues, so employees can stay focused and finish tasks faster.",
+                "evidence_collocations": [
                   {
-                    "en": "reduce interaction",
-                    "vi": "làm giảm sự tương tác"
+                    "en": "quiet workspace at home",
+                    "vi": "không gian làm việc yên tĩnh tại nhà"
                   },
                   {
-                    "en": "between colleagues",
-                    "vi": "giữa các đồng nghiệp"
+                    "en": "reduce interruptions from colleagues",
+                    "vi": "giảm bớt sự làm phiền từ đồng nghiệp"
                   },
                   {
-                    "en": "communication",
-                    "vi": "giao tiếp"
+                    "en": "stay focused",
+                    "vi": "tập trung cao độ (giữ tập trung)"
                   },
                   {
-                    "en": "take place",
-                    "vi": "diễn ra"
-                  },
-                  {
-                    "en": "through screens",
-                    "vi": "qua màn hình"
-                  },
-                  {
-                    "en": "isolated",
-                    "vi": "bị cô lập"
+                    "en": "finish tasks faster",
+                    "vi": "hoàn thành công việc nhanh hơn"
                   }
                 ],
-                "point_vi": "Làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp.",
-                "point_en": "Working from home may reduce interaction between colleagues.",
-                "evidence_vi": "Mọi trao đổi công việc chủ yếu diễn ra qua màn hình máy tính, vì vậy các thành viên khó xây dựng mối quan hệ thân thiết và dễ cảm thấy cô lập.",
-                "evidence_en": "Communication mainly takes place through screens, so team members struggle to build close relationships and easily feel isolated."
-              },
-              {
-                "title": "DISADVANTAGE 02",
                 "collocations": [
                   {
-                    "en": "find it difficult to",
-                    "vi": "thấy khó khăn trong việc"
+                    "en": "improve work productivity",
+                    "vi": "cải thiện năng suất"
+                  },
+                  {
+                    "en": "quiet workspace at home",
+                    "vi": "không gian làm việc yên tĩnh"
                   },
                   {
                     "en": "stay focused",
                     "vi": "giữ tập trung"
                   },
                   {
-                    "en": "many distractions",
-                    "vi": "nhiều sự xao nhãng"
+                    "en": "finish tasks faster",
+                    "vi": "hoàn thành công việc nhanh hơn"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "BẤT LỢI 01: GIẢM SỰ TƯƠNG TÁC ĐỒNG NGHIỆP",
+                "point_vi": "Làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp.",
+                "point_en": "Working from home can reduce direct interaction among colleagues.",
+                "point_collocations": [
+                  {
+                    "en": "reduce direct interaction",
+                    "vi": "giảm sự tương tác trực tiếp"
                   },
                   {
-                    "en": "housework",
-                    "vi": "việc nhà"
+                    "en": "among colleagues",
+                    "vi": "giữa các đồng nghiệp"
                   }
                 ],
-                "point_vi": "Nhiều người thấy khó giữ tập trung khi ở nhà.",
-                "point_en": "Many people find it difficult to stay focused at home.",
-                "evidence_vi": "Môi trường ở nhà có nhiều yếu tố gây phân tâm như tivi, việc nhà và tiếng ồn xung quanh, do đó hiệu suất làm việc có thể bị giảm sút.",
-                "evidence_en": "Home environments contain many distractions like television, housework, and background noise, so work productivity can decline."
-              },
-              {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "evidence_vi": "Mọi trao đổi công việc chủ yếu diễn ra qua màn hình máy tính, vì vậy các thành viên khó xây dựng mối quan hệ thân thiết và dễ cảm thấy cô lập.",
+                "evidence_en": "Communication mainly happens through computer screens, so team members find it hard to build close relationships and easily feel isolated.",
+                "evidence_collocations": [
                   {
-                    "en": "separate",
-                    "vi": "tách bạch / phân tách"
+                    "en": "happen through computer screens",
+                    "vi": "diễn ra qua màn hình máy tính"
                   },
                   {
-                    "en": "work and rest time",
-                    "vi": "công việc và thời gian nghỉ ngơi"
+                    "en": "build close relationships",
+                    "vi": "xây dựng mối quan hệ thân thiết"
+                  },
+                  {
+                    "en": "easily feel isolated",
+                    "vi": "dễ cảm thấy cô lập"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce direct interaction",
+                    "vi": "giảm tương tác trực tiếp"
+                  },
+                  {
+                    "en": "build close relationships",
+                    "vi": "xây dựng quan hệ thân thiết"
+                  },
+                  {
+                    "en": "feel isolated",
+                    "vi": "cảm thấy cô lập"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: DỄ MẤT TẬP TRUNG TẠI NHÀ",
+                "point_vi": "Nhiều người thấy khó giữ tập trung khi ở nhà.",
+                "point_en": "Many people find it difficult to stay focused at home.",
+                "point_collocations": [
+                  {
+                    "en": "find it difficult to",
+                    "vi": "thấy khó để"
+                  },
+                  {
+                    "en": "stay focused at home",
+                    "vi": "giữ tập trung khi ở nhà"
+                  }
+                ],
+                "evidence_vi": "Môi trường ở nhà có nhiều yếu tố gây phân tâm như tivi, việc nhà và tiếng ồn xung quanh, do đó hiệu suất làm việc có thể bị giảm sút.",
+                "evidence_en": "Home environments have many distractions like television, housework, and noise, so work results can drop.",
+                "evidence_collocations": [
+                  {
+                    "en": "distractions at home",
+                    "vi": "yếu tố gây phân tâm ở nhà"
+                  },
+                  {
+                    "en": "television, housework, and noise",
+                    "vi": "tivi, việc nhà và tiếng ồn"
+                  },
+                  {
+                    "en": "work results",
+                    "vi": "hiệu suất (kết quả) làm việc"
+                  },
+                  {
+                    "en": "drop",
+                    "vi": "giảm sút"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "stay focused at home",
+                    "vi": "giữ tập trung ở nhà"
+                  },
+                  {
+                    "en": "distractions at home",
+                    "vi": "yếu tố gây xao nhãng ở nhà"
+                  },
+                  {
+                    "en": "drop",
+                    "vi": "giảm sút"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: KHÓ KHĂN TRONG VIỆC CÂN BẰNG THỜI GIAN",
+                "point_vi": "Rất khó để tách bạch giữa công việc và thời gian nghỉ ngơi.",
+                "point_en": "It is hard to separate work from rest time.",
+                "point_collocations": [
+                  {
+                    "en": "hard to separate work from rest time",
+                    "vi": "khó để tách bạch giữa công việc và thời gian nghỉ ngơi"
+                  }
+                ],
+                "evidence_vi": "Nhiều người không tách bạch rõ ràng giữa giờ làm và giờ nghỉ, vì vậy họ thường xuyên làm việc quá giờ và dễ rơi vào tình trạng kiệt sức.",
+                "evidence_en": "Many people fail to separate working hours from resting hours, so they often work overtime and suffer from exhaustion.",
+                "evidence_collocations": [
+                  {
+                    "en": "fail to separate",
+                    "vi": "không tách bạch rõ ràng"
+                  },
+                  {
+                    "en": "working hours from resting hours",
+                    "vi": "giờ làm và giờ nghỉ"
                   },
                   {
                     "en": "work overtime",
                     "vi": "làm việc quá giờ"
                   },
                   {
-                    "en": "leave their workplace",
-                    "vi": "rời khỏi nơi làm việc"
+                    "en": "suffer from exhaustion",
+                    "vi": "rơi vào tình trạng kiệt sức"
                   }
                 ],
-                "point_vi": "Rất khó để tách bạch giữa công việc và thời gian nghỉ ngơi.",
-                "point_en": "Remote work can blur the boundaries between professional and personal life.",
-                "evidence_vi": "Nhiều người không tách bạch rõ ràng giữa giờ làm và giờ nghỉ, vì vậy họ thường xuyên làm việc quá giờ và dễ rơi vào tình trạng kiệt sức.",
-                "evidence_en": "Many people fail to separate work from rest time, so they frequently work overtime and easily suffer from mental burnout."
+                "collocations": [
+                  {
+                    "en": "hard to separate work from rest time",
+                    "vi": "khó tách biệt công việc và nghỉ ngơi"
+                  },
+                  {
+                    "en": "work overtime",
+                    "vi": "làm việc quá giờ"
+                  },
+                  {
+                    "en": "suffer from exhaustion",
+                    "vi": "kiệt sức"
+                  }
+                ]
               }
             ]
           },
@@ -13943,8 +14643,10 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: KHÔNG GIAN RIÊNG TƯ VÀ TỰ DO",
+                "point_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư hơn cho các thành viên.",
+                "point_en": "Nuclear families provide more privacy for family members.",
+                "point_collocations": [
                   {
                     "en": "nuclear families",
                     "vi": "gia đình hạt nhân"
@@ -13952,167 +14654,257 @@ const ESSAY_DATA = [
                   {
                     "en": "provide more privacy",
                     "vi": "mang lại nhiều sự riêng tư hơn"
-                  },
-                  {
-                    "en": "make their own decisions",
-                    "vi": "tự đưa ra quyết định"
-                  },
-                  {
-                    "en": "private living space",
-                    "vi": "không gian sống riêng"
-                  },
-                  {
-                    "en": "without being influenced",
-                    "vi": "mà không bị ảnh hưởng"
-                  },
-                  {
-                    "en": "other relatives",
-                    "vi": "những người thân khác"
                   }
                 ],
-                "point_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư hơn cho các thành viên.",
-                "point_en": "Nuclear families provide more privacy for family members.",
                 "evidence_vi": "Cha mẹ có thể tự do quyết định lối sống và không gian riêng tư của mình, nhờ đó gia đình nhỏ ít gặp phải những bất đồng giữa các thế hệ.",
-                "evidence_en": "Parents can make their own lifestyle decisions and enjoy private space freely, so small families face fewer generational disagreements."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "evidence_en": "Parents can freely decide their lifestyle and private space, so small families face fewer generational disagreements.",
+                "evidence_collocations": [
                   {
-                    "en": "encourage independence",
-                    "vi": "khuyến khích sự tự lập"
+                    "en": "freely decide lifestyle",
+                    "vi": "tự do quyết định lối sống"
                   },
                   {
-                    "en": "be responsible for",
-                    "vi": "chịu trách nhiệm về"
+                    "en": "private space",
+                    "vi": "không gian riêng tư"
                   },
                   {
-                    "en": "take care of themselves",
-                    "vi": "tự chăm sóc bản thân"
-                  },
-                  {
-                    "en": "from an early age",
-                    "vi": "từ nhỏ"
+                    "en": "face fewer generational disagreements",
+                    "vi": "ít gặp phải bất đồng giữa các thế hệ"
                   }
                 ],
-                "point_vi": "Gia đình hạt nhân giúp các thành viên trở nên tự lập hơn.",
-                "point_en": "Nuclear families encourage family members to become more independent.",
-                "evidence_vi": "Quy mô gia đình nhỏ giúp cha mẹ dễ dàng lắng nghe và quan tâm đến từng đứa con, vì vậy con cái nhận được sự chăm sóc chu đáo và toàn diện hơn.",
-                "evidence_en": "A small family size enables parents to listen and care for each child attentively, so children receive comprehensive and loving guidance."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "easier to manage",
-                    "vi": "dễ quản lý hơn"
+                    "en": "provide more privacy",
+                    "vi": "mang lại nhiều sự riêng tư"
                   },
                   {
-                    "en": "daily life",
-                    "vi": "cuộc sống hằng ngày"
+                    "en": "freely decide lifestyle",
+                    "vi": "tự do quyết định lối sống"
                   },
                   {
-                    "en": "fewer family members",
-                    "vi": "ít thành viên hơn"
-                  },
+                    "en": "face fewer generational disagreements",
+                    "vi": "ít bất đồng giữa các thế hệ"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: CHĂM SÓC CON CÁI CHU ĐÁO HƠN",
+                "point_vi": "Cha mẹ trong gia đình hạt nhân có thể quan tâm đến con cái chu đáo hơn.",
+                "point_en": "Parents in nuclear families can care for their children more attentively.",
+                "point_collocations": [
                   {
-                    "en": "take care of children",
+                    "en": "care for children",
                     "vi": "chăm sóc con cái"
                   },
                   {
-                    "en": "family activities",
-                    "vi": "hoạt động gia đình"
+                    "en": "more attentively",
+                    "vi": "chu đáo hơn"
                   }
                 ],
-                "point_vi": "Gia đình hạt nhân giúp việc quản lý cuộc sống hằng ngày trở nên dễ dàng hơn.",
-                "point_en": "Nuclear families make daily life easier to manage.",
+                "evidence_vi": "Quy mô gia đình nhỏ giúp cha mẹ dễ dàng lắng nghe và quan tâm đến từng đứa con, vì vậy con cái nhận được sự chăm sóc chu đáo và toàn diện hơn.",
+                "evidence_en": "A small family size helps parents listen to each child easily, so children receive better care and loving guidance.",
+                "evidence_collocations": [
+                  {
+                    "en": "small family size",
+                    "vi": "quy mô gia đình nhỏ"
+                  },
+                  {
+                    "en": "listen to each child easily",
+                    "vi": "dễ dàng lắng nghe từng đứa con"
+                  },
+                  {
+                    "en": "receive better care",
+                    "vi": "nhận được sự chăm sóc tốt hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "small family size",
+                    "vi": "quy mô gia đình nhỏ"
+                  },
+                  {
+                    "en": "care for children",
+                    "vi": "chăm sóc con cái"
+                  },
+                  {
+                    "en": "receive better care",
+                    "vi": "nhận sự chăm sóc tốt hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: RÈN LUYỆN TÍNH TỰ LẬP",
+                "point_vi": "Gia đình hạt nhân giúp các thành viên trở nên tự lập hơn.",
+                "point_en": "Nuclear families encourage family members to become more independent.",
+                "point_collocations": [
+                  {
+                    "en": "encourage family members",
+                    "vi": "khuyến khích các thành viên"
+                  },
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  }
+                ],
                 "evidence_vi": "Mỗi thành viên trong gia đình nhỏ sớm phải tự làm việc nhà và quản lý công việc cá nhân, do đó các con hình thành thói quen tự lập từ bé.",
-                "evidence_en": "Each member in a nuclear family soon manages personal chores independently, so children develop strong self-reliance from an early age."
+                "evidence_en": "Each member in a small family soon does personal chores alone, so children develop independent habits from an early age.",
+                "evidence_collocations": [
+                  {
+                    "en": "do personal chores alone",
+                    "vi": "tự làm việc nhà cá nhân"
+                  },
+                  {
+                    "en": "develop independent habits",
+                    "vi": "hình thành thói quen tự lập"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "từ khi còn nhỏ (từ bé)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "become more independent",
+                    "vi": "trở nên tự lập hơn"
+                  },
+                  {
+                    "en": "do personal chores alone",
+                    "vi": "tự làm việc nhà"
+                  },
+                  {
+                    "en": "develop independent habits",
+                    "vi": "hình thành thói quen tự lập"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: THIẾU SỰ HỖ TRỢ CHĂM SÓC CON CÁI",
+                "point_vi": "Các thành viên trong gia đình hạt nhân có thể nhận được ít sự hỗ trợ hơn.",
+                "point_en": "Family members in nuclear families may receive less daily support.",
+                "point_collocations": [
                   {
-                    "en": "receive less support",
-                    "vi": "nhận được ít sự hỗ trợ hơn"
-                  },
-                  {
-                    "en": "deal with",
-                    "vi": "giải quyết"
-                  },
-                  {
-                    "en": "household responsibilities",
-                    "vi": "trách nhiệm trong gia đình"
-                  },
-                  {
-                    "en": "without support",
-                    "vi": "mà không có sự hỗ trợ"
-                  },
-                  {
-                    "en": "grandparents",
-                    "vi": "ông bà"
+                    "en": "receive less daily support",
+                    "vi": "nhận được ít sự hỗ trợ hằng ngày hơn"
                   }
                 ],
-                "point_vi": "Các thành viên trong gia đình có thể nhận được ít sự hỗ trợ hơn.",
-                "point_en": "Family members may receive less support.",
                 "evidence_vi": "Cha mẹ đi làm cả ngày không có ông bà đỡ đần việc nhà và trông nom con cái, vì vậy họ thường xuyên cảm thấy mệt mỏi và quá tải.",
-                "evidence_en": "Working parents have no grandparents around to help with childcare and cooking, so they frequently feel exhausted and overwhelmed."
-              },
-              {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "evidence_en": "Working parents have no grandparents around to help with childcare and cooking, so they often feel tired and overwhelmed.",
+                "evidence_collocations": [
                   {
-                    "en": "have less contact with",
-                    "vi": "ít tiếp xúc với"
+                    "en": "working parents",
+                    "vi": "cha mẹ đi làm"
                   },
                   {
-                    "en": "miss",
-                    "vi": "bỏ lỡ"
+                    "en": "help with childcare and cooking",
+                    "vi": "giúp đỡ trông nom con cái và nấu ăn"
                   },
                   {
-                    "en": "valuable life experiences",
-                    "vi": "kinh nghiệm sống quý báu"
-                  },
-                  {
-                    "en": "family traditions",
-                    "vi": "truyền thống gia đình"
+                    "en": "feel tired and overwhelmed",
+                    "vi": "cảm thấy mệt mỏi và quá tải"
                   }
                 ],
+                "collocations": [
+                  {
+                    "en": "receive less daily support",
+                    "vi": "nhận ít sự hỗ trợ"
+                  },
+                  {
+                    "en": "help with childcare and cooking",
+                    "vi": "giúp trông nom con và nấu ăn"
+                  },
+                  {
+                    "en": "feel tired and overwhelmed",
+                    "vi": "mệt mỏi và quá tải"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: ÍT GẦN GŨI VỚI ÔNG BÀ",
                 "point_vi": "Trẻ em có ít cơ hội gần gũi với ông bà hơn.",
-                "point_en": "Children have fewer opportunities to learn from their grandparents.",
-                "evidence_vi": "Trẻ nhỏ trong gia đình hạt nhân ít có cơ hội trò chuyện cùng ông bà và họ hàng, do đó sợi dây tình cảm gia đình lớn dễ trở nên xa cách.",
-                "evidence_en": "Young children rarely interact with grandparents and relatives daily, so emotional bonds with the extended family can weaken."
-              },
-              {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "point_en": "Children have fewer opportunities to spend time with their grandparents.",
+                "point_collocations": [
                   {
-                    "en": "have more responsibilities",
-                    "vi": "chịu nhiều trách nhiệm hơn"
+                    "en": "fewer opportunities",
+                    "vi": "ít cơ hội hơn"
                   },
                   {
-                    "en": "balance work",
-                    "vi": "cân bằng công việc"
-                  },
-                  {
-                    "en": "childcare",
-                    "vi": "việc chăm sóc con cái"
-                  },
-                  {
-                    "en": "household chores",
-                    "vi": "việc nhà"
-                  },
-                  {
-                    "en": "without much support",
-                    "vi": "không có nhiều sự hỗ trợ"
+                    "en": "spend time with grandparents",
+                    "vi": "dành thời gian cho ông bà"
                   }
                 ],
-                "point_vi": "Cha mẹ có thể phải chịu nhiều trách nhiệm hơn.",
-                "point_en": "Parents may have more responsibilities.",
+                "evidence_vi": "Trẻ nhỏ trong gia đình hạt nhân ít có cơ hội trò chuyện cùng ông bà và họ hàng, do đó sợi dây tình cảm gia đình lớn dễ trở nên xa cách.",
+                "evidence_en": "Young children rarely talk with grandparents and relatives, so family bonds can easily become distant.",
+                "evidence_collocations": [
+                  {
+                    "en": "rarely talk with grandparents",
+                    "vi": "hiếm khi (ít khi) trò chuyện với ông bà"
+                  },
+                  {
+                    "en": "family bonds",
+                    "vi": "sợi dây tình cảm gia đình"
+                  },
+                  {
+                    "en": "become distant",
+                    "vi": "trở nên xa cách"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "spend time with grandparents",
+                    "vi": "gần gũi ông bà"
+                  },
+                  {
+                    "en": "family bonds",
+                    "vi": "tình cảm gia đình"
+                  },
+                  {
+                    "en": "become distant",
+                    "vi": "trở nên xa cách"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: ÁP LỰC KHI GẶP BIẾN CỐ",
+                "point_vi": "Cha mẹ có thể phải chịu nhiều áp lực hơn khi gặp khó khăn.",
+                "point_en": "Parents may face more pressure when facing sudden problems.",
+                "point_collocations": [
+                  {
+                    "en": "face more pressure",
+                    "vi": "chịu nhiều áp lực hơn"
+                  },
+                  {
+                    "en": "sudden problems",
+                    "vi": "khó khăn (biến cố) bất ngờ"
+                  }
+                ],
                 "evidence_vi": "Khi cha mẹ gặp biến cố về sức khỏe hoặc công việc, gia đình nhỏ không có người thân kề bên hỗ trợ tức thì, vì vậy họ gặp nhiều khó khăn tài chính.",
-                "evidence_en": "When unexpected health or financial troubles occur, nuclear families lack immediate support from relatives, so they face heavier difficulties."
+                "evidence_en": "When unexpected illness or job loss happens, small families lack immediate help from relatives, so they face heavy financial trouble.",
+                "evidence_collocations": [
+                  {
+                    "en": "unexpected illness or job loss",
+                    "vi": "biến cố sức khỏe hoặc mất việc bất ngờ"
+                  },
+                  {
+                    "en": "lack immediate help from relatives",
+                    "vi": "thiếu sự giúp đỡ tức thì từ người thân"
+                  },
+                  {
+                    "en": "face heavy financial trouble",
+                    "vi": "đối mặt với khó khăn tài chính nặng nề"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lack immediate help from relatives",
+                    "vi": "thiếu sự hỗ trợ từ người thân"
+                  },
+                  {
+                    "en": "face heavy financial trouble",
+                    "vi": "gặp khó khăn tài chính"
+                  }
+                ]
               }
             ]
           },
@@ -16131,20 +16923,22 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: SỰ HỖ TRỢ LẪN NHAU",
+                "point_vi": "Gia đình nhiều thế hệ mang lại nhiều sự hỗ trợ hơn cho các thành viên.",
+                "point_en": "Extended families provide more daily support for family members.",
+                "point_collocations": [
                   {
                     "en": "extended families",
                     "vi": "gia đình nhiều thế hệ"
                   },
                   {
-                    "en": "provide more support",
-                    "vi": "mang lại nhiều sự hỗ trợ hơn"
-                  },
-                  {
-                    "en": "family members",
-                    "vi": "các thành viên trong gia đình"
-                  },
+                    "en": "provide more daily support",
+                    "vi": "mang lại nhiều sự hỗ trợ hằng ngày hơn"
+                  }
+                ],
+                "evidence_vi": "Các thành viên có thể giúp đỡ nhau trong việc chăm sóc trẻ em, làm việc nhà và giải quyết những khó khăn hằng ngày.",
+                "evidence_en": "Family members can help each other with childcare, household chores, and daily problems.",
+                "evidence_collocations": [
                   {
                     "en": "help each other",
                     "vi": "giúp đỡ lẫn nhau"
@@ -16159,280 +16953,386 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "daily problems",
-                    "vi": "những khó khăn hằng ngày"
+                    "vi": "khó khăn hằng ngày"
                   }
                 ],
-                "point_vi": "Gia đình nhiều thế hệ mang lại nhiều sự hỗ trợ hơn cho các thành viên.",
-                "point_en": "Extended families provide more support for family members.",
-                "evidence_vi": "Các thành viên có thể giúp đỡ nhau trong việc chăm sóc trẻ em, làm việc nhà và giải quyết những khó khăn hằng ngày.",
-                "evidence_en": "Family members can help each other with childcare, household chores, and daily problems."
-              },
-              {
-                "title": "ADVANTAGE 02",
                 "collocations": [
                   {
-                    "en": "strengthen family relationships",
-                    "vi": "tăng cường mối quan hệ gia đình"
+                    "en": "extended families",
+                    "vi": "gia đình nhiều thế hệ"
                   },
                   {
-                    "en": "live together",
+                    "en": "help each other",
+                    "vi": "giúp đỡ nhau"
+                  },
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TĂNG CƯỜNG TÌNH CẢM GIA ĐÌNH",
+                "point_vi": "Gia đình nhiều thế hệ giúp các thành viên gắn kết hơn.",
+                "point_en": "Extended families strengthen family relationships.",
+                "point_collocations": [
+                  {
+                    "en": "strengthen family relationships",
+                    "vi": "tăng cường (gắn kết) tình cảm gia đình"
+                  }
+                ],
+                "evidence_vi": "Sống cùng nhau giúp các thành viên dành nhiều thời gian trò chuyện và chia sẻ với nhau hơn.",
+                "evidence_en": "Living together allows family members to spend more time talking and sharing with one another.",
+                "evidence_collocations": [
+                  {
+                    "en": "living together",
                     "vi": "sống cùng nhau"
                   },
                   {
-                    "en": "spend more time",
-                    "vi": "dành nhiều thời gian hơn"
+                    "en": "spend more time talking",
+                    "vi": "dành nhiều thời gian trò chuyện hơn"
                   },
                   {
-                    "en": "talking and sharing",
-                    "vi": "trò chuyện và chia sẻ"
-                  },
-                  {
-                    "en": "close relationships",
-                    "vi": "mối quan hệ gắn bó"
+                    "en": "share with one another",
+                    "vi": "chia sẻ với nhau"
                   }
                 ],
-                "point_vi": "Gia đình nhiều thế hệ giúp các thành viên gắn kết hơn.",
-                "point_en": "Extended families strengthen family relationships.",
-                "evidence_vi": "Sống cùng nhau giúp các thành viên dành nhiều thời gian trò chuyện và chia sẻ với nhau hơn.",
-                "evidence_en": "Living together allows family members to spend more time talking and sharing with one another."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "learn from",
-                    "vi": "học hỏi từ"
+                    "en": "strengthen family relationships",
+                    "vi": "gắn kết tình cảm gia đình"
+                  },
+                  {
+                    "en": "spend more time talking",
+                    "vi": "dành thời gian trò chuyện"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: HỌC HỎI TỪ ÔNG BÀ",
+                "point_vi": "Trẻ em có thể học hỏi từ những người lớn tuổi trong gia đình.",
+                "point_en": "Children can learn valuable lessons from older family members.",
+                "point_collocations": [
+                  {
+                    "en": "learn valuable lessons",
+                    "vi": "học hỏi những bài học quý giá"
                   },
                   {
                     "en": "older family members",
                     "vi": "những người lớn tuổi trong gia đình"
-                  },
-                  {
-                    "en": "grandparents",
-                    "vi": "ông bà"
-                  },
+                  }
+                ],
+                "evidence_vi": "Ông bà có thể chia sẻ kinh nghiệm sống và dạy các em những giá trị truyền thống.",
+                "evidence_en": "Grandparents can share life experiences and teach children traditional values.",
+                "evidence_collocations": [
                   {
                     "en": "share life experiences",
                     "vi": "chia sẻ kinh nghiệm sống"
                   },
                   {
-                    "en": "teach children",
-                    "vi": "dạy trẻ em"
-                  },
-                  {
-                    "en": "traditional values",
-                    "vi": "giá trị truyền thống"
+                    "en": "teach traditional values",
+                    "vi": "dạy những giá trị truyền thống"
                   }
                 ],
-                "point_vi": "Trẻ em có thể học hỏi từ những người lớn tuổi trong gia đình.",
-                "point_en": "Children can learn from older family members.",
-                "evidence_vi": "Ông bà có thể chia sẻ kinh nghiệm sống và dạy các em những giá trị truyền thống.",
-                "evidence_en": "Grandparents can share life experiences and teach children traditional values."
-              },
-              {
-                "title": "ADVANTAGE 04",
                 "collocations": [
                   {
-                    "en": "reduce living expenses per person",
-                    "vi": "giảm chi phí sinh hoạt bình quân đầu người"
+                    "en": "share life experiences",
+                    "vi": "chia sẻ kinh nghiệm sống"
                   },
                   {
-                    "en": "share household utilities",
-                    "vi": "chia sẻ chi phí tiện ích gia đình"
-                  },
-                  {
-                    "en": "housing and maintenance costs",
-                    "vi": "chi phí nhà ở và bảo trì"
-                  },
-                  {
-                    "en": "pool financial resources",
-                    "vi": "gộp nguồn lực tài chính"
-                  },
-                  {
-                    "en": "save money for the future",
-                    "vi": "tiết kiệm tiền cho tương lai"
+                    "en": "teach traditional values",
+                    "vi": "dạy giá trị truyền thống"
                   }
-                ],
-                "point_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí nhà ở, tiện ích.",
-                "point_en": "Living together helps family members share and save on housing and utility costs.",
-                "evidence_vi": "Thay vì mỗi thế hệ phải thuê hoặc mua nhà riêng, các thành viên có thể cùng đóng góp tiền điện, nước và bảo trì nhà cửa, nhờ đó các cặp vợ chồng trẻ có thể tiết kiệm tài chính cho tương lai.",
-                "evidence_en": "Instead of each generation renting or buying a separate home, family members can contribute money together for utilities and house maintenance, so young couples can save more money for the future."
+                ]
               },
               {
-                "title": "ADVANTAGE 05",
-                "collocations": [
+                "title": "LỢI ÍCH 04: TIẾT KIỆM CHI PHÍ SINH HOẠT",
+                "point_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí sinh hoạt.",
+                "point_en": "Living together helps family members share and save on living expenses.",
+                "point_collocations": [
                   {
-                    "en": "prevent loneliness among the elderly",
-                    "vi": "ngăn ngừa sự cô đơn ở người cao tuổi"
+                    "en": "living together",
+                    "vi": "sống chung"
                   },
                   {
-                    "en": "emotional companionship",
-                    "vi": "sự đồng hành về mặt tinh thần"
-                  },
-                  {
-                    "en": "daily interaction with grandchildren",
-                    "vi": "tương tác hằng ngày với con cháu"
-                  },
-                  {
-                    "en": "feel valued and respected",
-                    "vi": "cảm thấy được trân trọng và kính trọng"
-                  },
-                  {
-                    "en": "improve mental well-being",
-                    "vi": "cải thiện sức khỏe tinh thần"
+                    "en": "save on living expenses",
+                    "vi": "tiết kiệm chi phí sinh hoạt"
                   }
                 ],
-                "point_vi": "Gia đình nhiều thế hệ giúp người cao tuổi tránh khỏi cảm giác cô đơn.",
-                "point_en": "Extended families help prevent loneliness among elderly family members.",
-                "evidence_vi": "Việc trò chuyện hằng ngày với con cháu mang lại niềm vui và sự đồng hành tinh thần cho ông bà, nhờ đó giúp người lớn tuổi cảm thấy mình luôn được yêu thương và có đời sống tinh thần khỏe mạnh hơn.",
-                "evidence_en": "Daily interaction with children and grandchildren brings joy and emotional companionship to grandparents, so older adults feel valued and enjoy much better mental well-being."
+                "evidence_vi": "Các thế hệ có thể cùng đóng góp tiền điện nước và ăn uống, nhờ đó chi phí hằng tháng của mỗi người giảm đi rất nhiều.",
+                "evidence_en": "Generations can share utility bills and food costs, so monthly spending for each person drops significantly.",
+                "evidence_collocations": [
+                  {
+                    "en": "share utility bills and food costs",
+                    "vi": "chia sẻ tiền điện nước và ăn uống"
+                  },
+                  {
+                    "en": "monthly spending",
+                    "vi": "chi phí chi tiêu hằng tháng"
+                  },
+                  {
+                    "en": "drop significantly",
+                    "vi": "giảm đi rất nhiều"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "save on living expenses",
+                    "vi": "tiết kiệm chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "share utility bills",
+                    "vi": "chia sẻ tiền điện nước"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: ĐEM LẠI NIỀM VUI CHO NGƯỜI CAO TUỔI",
+                "point_vi": "Sống cùng con cháu đem lại niềm vui và sự an ủi cho ông bà.",
+                "point_en": "Living with grandchildren brings joy and comfort to grandparents.",
+                "point_collocations": [
+                  {
+                    "en": "bring joy and comfort",
+                    "vi": "đem lại niềm vui và sự an ủi"
+                  },
+                  {
+                    "en": "to grandparents",
+                    "vi": "cho ông bà"
+                  }
+                ],
+                "evidence_vi": "Trò chuyện hằng ngày với con cháu giúp người già bớt cô đơn và có sức khỏe tinh thần tốt hơn.",
+                "evidence_en": "Daily chats with grandchildren help older adults feel less lonely and enjoy better mental health.",
+                "evidence_collocations": [
+                  {
+                    "en": "daily chats with grandchildren",
+                    "vi": "trò chuyện hằng ngày với con cháu"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "cảm thấy bớt cô đơn"
+                  },
+                  {
+                    "en": "better mental health",
+                    "vi": "sức khỏe tinh thần tốt hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "bring joy and comfort",
+                    "vi": "mang lại niềm vui và an ủi"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "bớt cô đơn"
+                  },
+                  {
+                    "en": "better mental health",
+                    "vi": "sức khỏe tinh thần tốt hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
-                  {
-                    "en": "have disagreements",
-                    "vi": "xảy ra bất đồng"
-                  },
+                "title": "BẤT LỢI 01: BẤT ĐỒNG QUAN ĐIỂM GIỮA CÁC THẾ HỆ",
+                "point_vi": "Các thế hệ khác nhau thường có những quan điểm và lối sống khác nhau.",
+                "point_en": "Different generations often have different opinions and lifestyles.",
+                "point_collocations": [
                   {
                     "en": "different generations",
                     "vi": "các thế hệ khác nhau"
                   },
                   {
-                    "en": "different opinions",
-                    "vi": "những quan điểm khác nhau"
-                  },
-                  {
-                    "en": "lifestyles",
-                    "vi": "lối sống"
+                    "en": "different opinions and lifestyles",
+                    "vi": "quan điểm và lối sống khác nhau"
                   }
                 ],
-                "point_vi": "Gia đình nhiều thế hệ có thể xảy ra nhiều bất đồng.",
-                "point_en": "Extended families may have more disagreements.",
-                "evidence_vi": "Các thế hệ khác nhau thường có những quan điểm và lối sống khác nhau.",
-                "evidence_en": "Different generations often have different opinions and lifestyles."
-              },
-              {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "evidence_vi": "Sự khác biệt về suy nghĩ dễ dẫn đến tranh cãi giữa người già và giới trẻ trong sinh hoạt hằng ngày.",
+                "evidence_en": "Differences in thinking can easily cause arguments between older and younger members in daily life.",
+                "evidence_collocations": [
                   {
-                    "en": "have less privacy",
-                    "vi": "có ít sự riêng tư hơn"
+                    "en": "differences in thinking",
+                    "vi": "sự khác biệt về suy nghĩ"
                   },
                   {
-                    "en": "many people",
-                    "vi": "nhiều người"
+                    "en": "cause arguments",
+                    "vi": "gây ra tranh cãi"
                   },
                   {
-                    "en": "live in the same house",
-                    "vi": "sống trong cùng một ngôi nhà"
-                  },
-                  {
-                    "en": "difficult to have",
-                    "vi": "khó để có"
-                  },
-                  {
-                    "en": "private space",
-                    "vi": "không gian riêng"
+                    "en": "in daily life",
+                    "vi": "trong sinh hoạt hằng ngày"
                   }
                 ],
-                "point_vi": "Các thành viên có thể có ít sự riêng tư hơn.",
-                "point_en": "Family members may have less privacy.",
-                "evidence_vi": "Nhiều người sống trong cùng một ngôi nhà nên rất khó có không gian riêng.",
-                "evidence_en": "Many people live in the same house, so it is difficult to have private space."
-              },
-              {
-                "title": "DISADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "living costs",
-                    "vi": "chi phí sinh hoạt"
+                    "en": "different opinions and lifestyles",
+                    "vi": "quan điểm và lối sống khác nhau"
                   },
                   {
-                    "en": "may be higher",
-                    "vi": "có thể cao hơn"
+                    "en": "cause arguments",
+                    "vi": "dẫn đến tranh cãi"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 02: THIẾU KHÔNG GIAN RIÊNG TƯ",
+                "point_vi": "Sống trong gia đình nhiều thế hệ mang lại ít sự riêng tư.",
+                "point_en": "Living in an extended family provides less privacy.",
+                "point_collocations": [
+                  {
+                    "en": "provide less privacy",
+                    "vi": "mang lại ít sự riêng tư"
+                  }
+                ],
+                "evidence_vi": "Nhiều người sống chung trong một ngôi nhà, vì vậy các thành viên khó có không gian yên tĩnh cho bản thân.",
+                "evidence_en": "Many people live together in one house, so members find it hard to have quiet personal space.",
+                "evidence_collocations": [
+                  {
+                    "en": "live together in one house",
+                    "vi": "sống chung trong một ngôi nhà"
                   },
                   {
-                    "en": "large families",
+                    "en": "find it hard to",
+                    "vi": "thấy khó để"
+                  },
+                  {
+                    "en": "quiet personal space",
+                    "vi": "không gian cá nhân yên tĩnh"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "provide less privacy",
+                    "vi": "ít sự riêng tư"
+                  },
+                  {
+                    "en": "quiet personal space",
+                    "vi": "không gian cá nhân yên tĩnh"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: CHI PHÍ TỔNG THỂ LỚN",
+                "point_vi": "Một gia đình đông người đòi hỏi chi phí ăn uống và tiện ích rất lớn.",
+                "point_en": "A large family requires high spending on food and utilities.",
+                "point_collocations": [
+                  {
+                    "en": "large family",
                     "vi": "gia đình đông người"
                   },
                   {
-                    "en": "need more money",
-                    "vi": "cần nhiều tiền hơn"
-                  },
-                  {
-                    "en": "electricity and water",
-                    "vi": "điện nước"
-                  },
-                  {
-                    "en": "other expenses",
-                    "vi": "các chi phí khác"
+                    "en": "high spending on food and utilities",
+                    "vi": "chi phí ăn uống và tiện ích lớn"
                   }
                 ],
-                "point_vi": "Chi phí sinh hoạt có thể cao hơn.",
-                "point_en": "Family living expenses may be higher.",
-                "evidence_vi": "Gia đình đông người cần nhiều tiền hơn cho thực phẩm, điện nước và các chi phí khác.",
-                "evidence_en": "Large families need more money for food and monthly bills, and this may place financial pressure on family members."
-              },
-              {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "evidence_vi": "Gia đình đông thành viên cần nhiều tiền hơn cho hóa đơn hằng tháng, do đó người đi làm phải chịu nhiều áp lực tài chính.",
+                "evidence_en": "Large families need more money for monthly bills, so working members face heavy financial pressure.",
+                "evidence_collocations": [
                   {
-                    "en": "disagreements over parenting styles",
-                    "vi": "bất đồng về phương pháp nuôi dạy con"
+                    "en": "money for monthly bills",
+                    "vi": "tiền cho hóa đơn hằng tháng"
                   },
                   {
-                    "en": "traditional vs modern upbringing",
-                    "vi": "cách nuôi dạy truyền thống và hiện đại"
+                    "en": "working members",
+                    "vi": "người đi làm (thành viên lao động)"
+                  },
+                  {
+                    "en": "face heavy financial pressure",
+                    "vi": "đối mặt với áp lực tài chính nặng nề"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "monthly bills",
+                    "vi": "hóa đơn hằng tháng"
+                  },
+                  {
+                    "en": "face heavy financial pressure",
+                    "vi": "áp lực tài chính lớn"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 04: MÂU THUẪN TRONG CÁCH NUÔI DẠY CON CÁI",
+                "point_vi": "Cha mẹ và ông bà có thể bất đồng về cách nuôi dạy con cái.",
+                "point_en": "Parents and grandparents can disagree on how to raise children.",
+                "point_collocations": [
+                  {
+                    "en": "disagree on",
+                    "vi": "bất đồng về"
+                  },
+                  {
+                    "en": "raise children",
+                    "vi": "nuôi dạy con cái"
+                  }
+                ],
+                "evidence_vi": "Cha mẹ muốn kỷ luật nghiêm khắc trong khi ông bà thường nuông chiều cháu, vì vậy việc dạy dỗ trẻ dễ gặp khó khăn.",
+                "evidence_en": "Parents want strict discipline while grandparents often spoil grandchildren, so teaching children becomes difficult.",
+                "evidence_collocations": [
+                  {
+                    "en": "strict discipline",
+                    "vi": "kỷ luật nghiêm khắc"
                   },
                   {
                     "en": "spoil grandchildren",
                     "vi": "nuông chiều cháu"
                   },
                   {
-                    "en": "confuse young children",
-                    "vi": "làm trẻ nhỏ bối rối"
-                  },
-                  {
-                    "en": "family tension",
-                    "vi": "căng thẳng trong gia đình"
+                    "en": "teaching children becomes difficult",
+                    "vi": "việc dạy dỗ con cái trở nên khó khăn"
                   }
                 ],
-                "point_vi": "Sự khác biệt trong cách nuôi dạy con cái giữa ông bà và cha mẹ dễ gây bất đồng.",
-                "point_en": "Differences in parenting styles between grandparents and parents can easily cause disagreements.",
-                "evidence_vi": "Cha mẹ trẻ thường áp dụng phương pháp giáo dục khoa học hiện đại, trong khi ông bà có xu hướng nuông chiều cháu theo kinh nghiệm truyền thống, và điều này có thể khiến trẻ bối rối và gây căng thẳng trong gia đình.",
-                "evidence_en": "Young parents often apply modern scientific parenting methods, whereas grandparents tend to spoil grandchildren based on traditional habits, and this can confuse young children and create tension within the household."
-              },
-              {
-                "title": "DISADVANTAGE 05",
                 "collocations": [
                   {
-                    "en": "limit personal independence",
-                    "vi": "hạn chế sự tự lập cá nhân"
+                    "en": "strict discipline",
+                    "vi": "kỷ luật nghiêm khắc"
                   },
                   {
-                    "en": "rely heavily on family support",
-                    "vi": "ỷ lại quá nhiều vào sự hỗ trợ của gia đình"
+                    "en": "spoil grandchildren",
+                    "vi": "nuông chiều cháu"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 05: GIẢM TÍNH ĐỘC LẬP CỦA GIỚI TRẺ",
+                "point_vi": "Người trẻ có thể trở nên phụ thuộc vào sự giúp đỡ của gia đình lớn.",
+                "point_en": "Young adults may become too dependent on help from extended family.",
+                "point_collocations": [
+                  {
+                    "en": "young adults",
+                    "vi": "người trẻ"
                   },
                   {
-                    "en": "consult elders before making decisions",
-                    "vi": "hỏi ý kiến người lớn trước khi quyết định"
-                  },
-                  {
-                    "en": "slow down personal growth",
-                    "vi": "làm chậm sự trưởng thành cá nhân"
-                  },
-                  {
-                    "en": "autonomous decision-making",
-                    "vi": "việc tự đưa ra quyết định"
+                    "en": "become too dependent on",
+                    "vi": "trở nên quá phụ thuộc vào"
                   }
                 ],
-                "point_vi": "Người trẻ có thể bị hạn chế sự tự lập và quyền tự quyết cá nhân.",
-                "point_en": "Young adults may experience limited personal independence and decision-making freedom.",
-                "evidence_vi": "Khi sống chung, các thành viên trẻ thường phải hỏi ý kiến người lớn tuổi trước khi đưa ra các quyết định quan trọng hoặc dễ ỷ lại vào sự giúp đỡ của ông bà, và hệ quả là họ có thể chậm trưởng thành và thiếu tính tự lập.",
-                "evidence_en": "Consequently, they may mature more slowly and lack independence."
+                "evidence_vi": "Nhiều người trẻ ỷ lại vào việc nấu ăn và dọn dẹp của người lớn, do đó họ chậm học cách sống tự lập.",
+                "evidence_en": "Many young adults rely on older relatives for cooking and cleaning, so they learn independent living skills slowly.",
+                "evidence_collocations": [
+                  {
+                    "en": "rely on older relatives",
+                    "vi": "ỷ lại vào người lớn (người thân lớn tuổi)"
+                  },
+                  {
+                    "en": "cooking and cleaning",
+                    "vi": "nấu ăn và dọn dẹp"
+                  },
+                  {
+                    "en": "independent living skills",
+                    "vi": "kỹ năng sống tự lập"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "become too dependent on",
+                    "vi": "quá phụ thuộc vào"
+                  },
+                  {
+                    "en": "independent living skills",
+                    "vi": "kỹ năng sống tự lập"
+                  }
+                ]
               }
             ]
           },
@@ -18499,312 +19399,460 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: TÌM HIỂU VĂN HÓA VÀ LỊCH SỬ",
+                "point_vi": "Du lịch tâm linh giúp du khách tìm hiểu sâu sắc về văn hóa và lịch sử.",
+                "point_en": "Spiritual tourism helps visitors explore local culture and history.",
+                "point_collocations": [
                   {
-                    "en": "religious tourism",
+                    "en": "spiritual tourism",
                     "vi": "du lịch tâm linh"
                   },
                   {
-                    "en": "local culture",
-                    "vi": "văn hóa địa phương"
-                  },
-                  {
-                    "en": "religious sites",
-                    "vi": "địa điểm tôn giáo"
-                  },
-                  {
-                    "en": "local history",
-                    "vi": "lịch sử địa phương"
-                  },
-                  {
-                    "en": "traditions",
-                    "vi": "truyền thống"
-                  },
-                  {
-                    "en": "customs",
-                    "vi": "phong tục"
-                  },
-                  {
-                    "en": "learn about",
-                    "vi": "tìm hiểu về"
-                  },
-                  {
-                    "en": "explore",
-                    "vi": "khám phá"
+                    "en": "explore local culture and history",
+                    "vi": "tìm hiểu văn hóa và lịch sử địa phương"
                   }
                 ],
-                "point_vi": "Du lịch tâm linh giúp mọi người hiểu hơn về văn hóa địa phương.",
-                "point_en": "Religious tourism helps people learn about local culture.",
                 "evidence_vi": "Du khách có thể tham quan các địa điểm tôn giáo và tìm hiểu về lịch sử, truyền thống và phong tục của địa phương.",
-                "evidence_en": "Visitors can explore religious sites and learn about local history, traditions, and customs."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "evidence_en": "Visitors can tour religious sites and learn about local history, traditions, and customs.",
+                "evidence_collocations": [
                   {
-                    "en": "support the local economy",
-                    "vi": "hỗ trợ nền kinh tế địa phương"
+                    "en": "tour religious sites",
+                    "vi": "tham quan các địa điểm tôn giáo"
                   },
                   {
-                    "en": "tourists",
-                    "vi": "khách du lịch"
+                    "en": "learn about local history",
+                    "vi": "tìm hiểu về lịch sử địa phương"
+                  },
+                  {
+                    "en": "traditions and customs",
+                    "vi": "truyền thống và phong tục"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "explore local culture and history",
+                    "vi": "tìm hiểu văn hóa và lịch sử"
+                  },
+                  {
+                    "en": "tour religious sites",
+                    "vi": "tham quan địa điểm tôn giáo"
+                  },
+                  {
+                    "en": "traditions and customs",
+                    "vi": "truyền thống và phong tục"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: PHÁT TRIỂN KINH TẾ ĐỊA PHƯƠNG",
+                "point_vi": "Du lịch tâm linh thúc đẩy kinh tế địa phương phát triển.",
+                "point_en": "Spiritual tourism boosts the local economy.",
+                "point_collocations": [
+                  {
+                    "en": "boost the local economy",
+                    "vi": "thúc đẩy kinh tế địa phương"
+                  }
+                ],
+                "evidence_vi": "Nhiều du khách chi tiền cho khách sạn, nhà hàng và các dịch vụ địa phương, nhờ đó người dân bản xứ có thêm thu nhập.",
+                "evidence_en": "Many tourists spend money on hotels, restaurants, and local services, so local residents earn more income.",
+                "evidence_collocations": [
+                  {
+                    "en": "spend money on hotels and restaurants",
+                    "vi": "chi tiền cho khách sạn và nhà hàng"
                   },
                   {
                     "en": "local services",
                     "vi": "dịch vụ địa phương"
                   },
                   {
-                    "en": "hotels",
-                    "vi": "khách sạn"
+                    "en": "local residents",
+                    "vi": "người dân bản xứ"
                   },
                   {
-                    "en": "restaurants",
-                    "vi": "nhà hàng"
-                  },
-                  {
-                    "en": "spend money on",
-                    "vi": "chi tiền cho"
-                  },
-                  {
-                    "en": "support",
-                    "vi": "hỗ trợ"
+                    "en": "earn more income",
+                    "vi": "có thêm thu nhập"
                   }
                 ],
-                "point_vi": "Du lịch tâm linh góp phần phát triển nền kinh tế địa phương.",
-                "point_en": "Religious tourism supports the local economy.",
-                "evidence_vi": "Nhiều du khách chi tiền cho khách sạn, nhà hàng và các dịch vụ địa phương.",
-                "evidence_en": "Many tourists spend money on hotels, restaurants, and local services."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "peace",
-                    "vi": "sự bình yên"
+                    "en": "boost the local economy",
+                    "vi": "phát triển kinh tế địa phương"
                   },
                   {
-                    "en": "relaxation",
-                    "vi": "sự thư giãn"
+                    "en": "spend money on hotels and restaurants",
+                    "vi": "chi tiêu cho khách sạn và ăn uống"
                   },
                   {
-                    "en": "pray",
-                    "vi": "cầu nguyện"
-                  },
+                    "en": "earn more income",
+                    "vi": "kiếm thêm thu nhập"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: GIẢM CĂNG THẲNG VÀ TÌM LẠI SỰ BÌNH YÊN",
+                "point_vi": "Du lịch tâm linh giúp con người giảm bớt căng thẳng và tìm thấy sự bình yên.",
+                "point_en": "Spiritual trips help people reduce stress and find peace of mind.",
+                "point_collocations": [
                   {
                     "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
+                    "vi": "giảm bớt căng thẳng"
                   },
                   {
-                    "en": "religious places",
-                    "vi": "nơi thờ tự, địa điểm tôn giáo"
+                    "en": "find peace of mind",
+                    "vi": "tìm thấy sự bình yên trong tâm hồn"
                   }
                 ],
-                "point_vi": "Du lịch tâm linh giúp mọi người cảm thấy bình yên và thư giãn hơn.",
-                "point_en": "Religious tourism brings peace and relaxation.",
-                "evidence_vi": "Nhiều người đến các địa điểm tôn giáo để cầu nguyện và giảm căng thẳng.",
-                "evidence_en": "Many people visit religious places to pray and reduce stress."
-              },
-              {
-                "title": "ADVANTAGE 04",
+                "evidence_vi": "Nhiều người đến các địa điểm tôn giáo để cầu nguyện và hòa mình vào thiên nhiên thanh tịnh, vì vậy họ cảm thấy nhẹ nhõm hơn.",
+                "evidence_en": "Many people visit religious places to pray and enjoy peaceful nature, so they feel much more relaxed.",
+                "evidence_collocations": [
+                  {
+                    "en": "visit religious places to pray",
+                    "vi": "đến các địa điểm tôn giáo để cầu nguyện"
+                  },
+                  {
+                    "en": "enjoy peaceful nature",
+                    "vi": "hòa mình vào thiên nhiên thanh tịnh"
+                  },
+                  {
+                    "en": "feel much more relaxed",
+                    "vi": "cảm thấy nhẹ nhõm (thư giãn) hơn nhiều"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "foster cultural exchange and tolerance",
-                    "vi": "thúc đẩy giao lưu văn hóa và sự bao dung"
+                    "en": "find peace of mind",
+                    "vi": "tìm lại sự bình yên"
                   },
                   {
-                    "en": "understand diverse spiritual beliefs",
-                    "vi": "hiểu biết về các tín ngưỡng đa dạng"
+                    "en": "visit religious places to pray",
+                    "vi": "đến nơi tôn giáo cầu nguyện"
                   },
                   {
-                    "en": "promote mutual respect",
-                    "vi": "thúc đẩy sự tôn trọng lẫn nhau"
-                  },
-                  {
-                    "en": "bridge cultural divides",
-                    "vi": "thu hẹp khoảng cách văn hóa"
-                  },
-                  {
-                    "en": "social harmony",
-                    "vi": "sự hòa hợp xã hội"
+                    "en": "feel much more relaxed",
+                    "vi": "cảm thấy thư thái hơn"
                   }
-                ],
-                "point_vi": "Du lịch tâm linh giúp thúc đẩy giao lưu văn hóa và sự tôn trọng giữa các cộng đồng.",
-                "point_en": "Religious tourism fosters cultural exchange and mutual respect among communities.",
-                "evidence_vi": "Khi tham quan các đền chùa, nhà thờ hay thánh địa, du khách hiểu rõ hơn về tín ngưỡng và phong tục của các vùng miền khác nhau, nhờ đó giúp tăng cường sự bao dung và gắn kết xã hội.",
-                "evidence_en": "When visiting temples, churches, or sacred sites, visitors gain a deeper understanding of different regional customs and spiritual beliefs, so this promotes tolerance and social harmony."
+                ]
               },
               {
-                "title": "ADVANTAGE 05",
-                "collocations": [
+                "title": "LỢI ÍCH 04: TĂNG CƯỜNG SỰ GẮN KẾT XÃ HỘI",
+                "point_vi": "Du lịch tâm linh giúp tăng cường sự gắn kết giữa mọi người trong xã hội.",
+                "point_en": "Spiritual travel promotes social harmony and mutual respect.",
+                "point_collocations": [
                   {
-                    "en": "fund the restoration of historical monuments",
-                    "vi": "tài trợ cho việc trùng tu các di tích lịch sử"
+                    "en": "promote social harmony",
+                    "vi": "thúc đẩy sự gắn kết xã hội"
                   },
                   {
-                    "en": "entrance fees and donations",
-                    "vi": "phí tham quan và tiền công đức/quyên góp"
-                  },
-                  {
-                    "en": "maintain ancient architecture",
-                    "vi": "duy trì kiến trúc cổ kính"
-                  },
-                  {
-                    "en": "protect national heritage",
-                    "vi": "bảo vệ di sản quốc gia"
-                  },
-                  {
-                    "en": "future generations",
-                    "vi": "các thế hệ tương lai"
+                    "en": "mutual respect",
+                    "vi": "sự tôn trọng lẫn nhau"
                   }
                 ],
-                "point_vi": "Nguồn thu từ du lịch tâm linh đóng góp kinh phí lớn để trùng tu các di tích cổ.",
-                "point_en": "Revenue from religious tourism provides vital funding for the restoration of ancient monuments.",
-                "evidence_vi": "Tiền vé tham quan và sự đóng góp của du khách giúp ban quản lý có ngân sách tu bổ các công trình kiến trúc tôn giáo xuống cấp, và nhờ vậy, các di sản quý giá được bảo tồn bền vững cho thế hệ sau.",
-                "evidence_en": "Entrance fees and voluntary donations from visitors provide management boards with funds to repair deteriorating religious architecture, so precious heritage sites are sustainably preserved for future generations."
+                "evidence_vi": "Khi tham quan các đền chùa và thánh địa, du khách hiểu rõ hơn về tín ngưỡng của người khác, nhờ đó xã hội trở nên bao dung hơn.",
+                "evidence_en": "When visiting temples and holy sites, tourists understand other faiths better, so society becomes more tolerant.",
+                "evidence_collocations": [
+                  {
+                    "en": "visit temples and holy sites",
+                    "vi": "tham quan đền chùa và các thánh địa"
+                  },
+                  {
+                    "en": "understand other faiths better",
+                    "vi": "hiểu rõ hơn về tín ngưỡng của người khác"
+                  },
+                  {
+                    "en": "become more tolerant",
+                    "vi": "trở nên bao dung hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "promote social harmony",
+                    "vi": "tăng cường gắn kết xã hội"
+                  },
+                  {
+                    "en": "visit temples and holy sites",
+                    "vi": "tham quan đền chùa"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: GÓP PHẦN BẢO TỒN DI SẢN",
+                "point_vi": "Doanh thu từ du lịch tâm linh giúp bảo tồn các di sản tôn giáo quý giá.",
+                "point_en": "Revenue from spiritual tourism helps protect valuable religious heritage.",
+                "point_collocations": [
+                  {
+                    "en": "revenue from spiritual tourism",
+                    "vi": "doanh thu từ du lịch tâm linh"
+                  },
+                  {
+                    "en": "protect valuable religious heritage",
+                    "vi": "bảo vệ di sản tôn giáo quý giá"
+                  }
+                ],
+                "evidence_vi": "Tiền vé và tiền công đức giúp ban quản lý tu sửa các ngôi chùa cổ, nhờ đó các di tích lịch sử được giữ gìn lâu dài.",
+                "evidence_en": "Ticket sales and donations help repair old temples, so historic sites remain well preserved.",
+                "evidence_collocations": [
+                  {
+                    "en": "ticket sales and donations",
+                    "vi": "tiền vé và tiền công đức (đóng góp)"
+                  },
+                  {
+                    "en": "repair old temples",
+                    "vi": "tu sửa các ngôi chùa cổ"
+                  },
+                  {
+                    "en": "remain well preserved",
+                    "vi": "được giữ gìn (bảo tồn) tốt"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "protect valuable religious heritage",
+                    "vi": "bảo tồn di sản tôn giáo"
+                  },
+                  {
+                    "en": "ticket sales and donations",
+                    "vi": "tiền vé và công đức"
+                  },
+                  {
+                    "en": "remain well preserved",
+                    "vi": "được bảo tồn lâu dài"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: QUÁ TẢI VÀ MẤT ĐI SỰ YÊN TĨNH",
+                "point_vi": "Quá nhiều du khách có thể làm mất đi không khí yên bình vốn có.",
+                "point_en": "Too many visitors can damage the peaceful atmosphere.",
+                "point_collocations": [
                   {
-                    "en": "overcrowded",
-                    "vi": "quá đông"
-                  },
-                  {
-                    "en": "visitors",
-                    "vi": "du khách"
-                  },
-                  {
-                    "en": "congestion",
-                    "vi": "sự ùn tắc"
-                  },
-                  {
-                    "en": "peaceful atmosphere",
-                    "vi": "bầu không khí yên bình"
-                  },
-                  {
-                    "en": "become",
-                    "vi": "trở nên"
-                  },
-                  {
-                    "en": "cause",
-                    "vi": "gây ra"
+                    "en": "damage the peaceful atmosphere",
+                    "vi": "làm mất đi không khí yên bình"
                   }
                 ],
-                "point_vi": "Các địa điểm tôn giáo có thể trở nên quá đông.",
-                "point_en": "Religious sites may become overcrowded.",
-                "evidence_vi": "Quá nhiều khách du lịch có thể gây ùn tắc và làm giảm sự yên tĩnh của những nơi này.",
-                "evidence_en": "Too many visitors may cause congestion and reduce the peaceful atmosphere."
+                "evidence_vi": "Quá nhiều khách du lịch có thể gây ùn tắc và làm giảm sự yên tĩnh của những nơi tôn nghiêm này.",
+                "evidence_en": "Too many visitors cause traffic jams and reduce the quiet atmosphere of these sacred places.",
+                "evidence_collocations": [
+                  {
+                    "en": "too many visitors",
+                    "vi": "quá nhiều khách du lịch"
+                  },
+                  {
+                    "en": "cause traffic jams",
+                    "vi": "gây kẹt xe (ùn tắc)"
+                  },
+                  {
+                    "en": "quiet atmosphere",
+                    "vi": "không khí yên tĩnh"
+                  },
+                  {
+                    "en": "sacred places",
+                    "vi": "những nơi tôn nghiêm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "damage the peaceful atmosphere",
+                    "vi": "mất đi không khí yên bình"
+                  },
+                  {
+                    "en": "cause traffic jams",
+                    "vi": "gây kẹt xe"
+                  },
+                  {
+                    "en": "sacred places",
+                    "vi": "nơi tôn nghiêm"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: Ô NHIỄM MÔI TRƯỜNG VÀ RÁC THẢI",
+                "point_vi": "Du lịch tâm linh phát triển quá nhanh có thể gây ô nhiễm môi trường.",
+                "point_en": "Rapid spiritual tourism growth can cause environmental pollution.",
+                "point_collocations": [
                   {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
+                    "en": "rapid growth",
+                    "vi": "sự phát triển nhanh chóng"
                   },
                   {
-                    "en": "leave litter",
-                    "vi": "xả rác"
-                  },
-                  {
-                    "en": "surrounding environment",
-                    "vi": "môi trường xung quanh"
-                  },
-                  {
-                    "en": "damage",
-                    "vi": "làm hư hại"
+                    "en": "cause environmental pollution",
+                    "vi": "gây ô nhiễm môi trường"
                   }
                 ],
-                "point_vi": "Du lịch tâm linh có thể gây ảnh hưởng đến môi trường.",
-                "point_en": "Religious tourism may harm the environment.",
-                "evidence_vi": "Một số du khách xả rác hoặc làm hư hại cảnh quan xung quanh.",
-                "evidence_en": "Some visitors leave litter or damage the surrounding environment."
+                "evidence_vi": "Một số du khách xả rác bừa bãi và đốt nhiều hương khói, vì vậy cảnh quan xung quanh đền chùa dễ bị ô nhiễm.",
+                "evidence_en": "Some visitors drop litter carelessly and burn too much incense, so temple surroundings become dirty and polluted.",
+                "evidence_collocations": [
+                  {
+                    "en": "drop litter carelessly",
+                    "vi": "xả rác bừa bãi"
+                  },
+                  {
+                    "en": "burn too much incense",
+                    "vi": "đốt quá nhiều hương khói"
+                  },
+                  {
+                    "en": "temple surroundings",
+                    "vi": "cảnh quan xung quanh đền chùa"
+                  },
+                  {
+                    "en": "dirty and polluted",
+                    "vi": "dơ bẩn và ô nhiễm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "cause environmental pollution",
+                    "vi": "gây ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "drop litter carelessly",
+                    "vi": "xả rác bừa bãi"
+                  },
+                  {
+                    "en": "burn too much incense",
+                    "vi": "đốt nhiều nhang khói"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: THƯƠNG MẠI HÓA QUÁ MỨC",
+                "point_vi": "Nhiều điểm đến tâm linh đang bị thương mại hóa quá mức.",
+                "point_en": "Many spiritual sites are becoming overly commercialized.",
+                "point_collocations": [
                   {
-                    "en": "commercial activities",
-                    "vi": "hoạt động thương mại"
+                    "en": "spiritual sites",
+                    "vi": "điểm đến tâm linh"
                   },
                   {
-                    "en": "shops and services",
-                    "vi": "cửa hàng và dịch vụ"
-                  },
-                  {
-                    "en": "sacred atmosphere",
-                    "vi": "bầu không khí linh thiêng"
-                  },
-                  {
-                    "en": "increase",
-                    "vi": "gia tăng"
+                    "en": "overly commercialized",
+                    "vi": "thương mại hóa quá mức"
                   }
                 ],
-                "point_vi": "Các hoạt động thương mại có thể gia tăng tại các địa điểm tôn giáo.",
-                "point_en": "Commercial activities may increase at religious sites.",
-                "evidence_vi": "Quá nhiều cửa hàng và dịch vụ có thể làm mất đi không khí trang nghiêm của những nơi này.",
-                "evidence_en": "Too many shops and services may reduce the sacred atmosphere of these places."
+                "evidence_vi": "Quá nhiều cửa hàng buôn bán và dịch vụ chèo kéo có thể làm mất đi không khí trang nghiêm của những nơi này.",
+                "evidence_en": "Too many shops and aggressive sellers can destroy the sacred feeling of these religious sites.",
+                "evidence_collocations": [
+                  {
+                    "en": "too many shops",
+                    "vi": "quá nhiều cửa hàng"
+                  },
+                  {
+                    "en": "aggressive sellers",
+                    "vi": "người bán hàng chèo kéo"
+                  },
+                  {
+                    "en": "destroy the sacred feeling",
+                    "vi": "làm mất đi cảm giác trang nghiêm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "overly commercialized",
+                    "vi": "thương mại hóa quá mức"
+                  },
+                  {
+                    "en": "aggressive sellers",
+                    "vi": "người chèo kéo bán hàng"
+                  },
+                  {
+                    "en": "destroy the sacred feeling",
+                    "vi": "mất đi vẻ trang nghiêm"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "title": "BẤT LỢI 04: HÀNH VI ỨNG XỬ THIẾU TÔN TRỌNG",
+                "point_vi": "Một số du khách có hành vi ứng xử thiếu tôn trọng nơi thờ tự.",
+                "point_en": "Some tourists show disrespectful behavior at religious sites.",
+                "point_collocations": [
                   {
-                    "en": "inappropriate tourist behaviour",
-                    "vi": "hành vi thiếu chuẩn mực của du khách"
+                    "en": "disrespectful behavior",
+                    "vi": "hành vi ứng xử thiếu tôn trọng"
                   },
                   {
-                    "en": "disrespect local dress codes",
-                    "vi": "không tôn trọng quy định trang phục địa phương"
-                  },
-                  {
-                    "en": "disturb religious ceremonies",
-                    "vi": "làm phiền các nghi lễ tôn giáo"
-                  },
-                  {
-                    "en": "offend local worshippers",
-                    "vi": "gây phản cảm với các tín đồ địa phương"
-                  },
-                  {
-                    "en": "erode spiritual solemnity",
-                    "vi": "làm suy giảm sự trang nghiêm"
+                    "en": "at religious sites",
+                    "vi": "tại các nơi thờ tự (tôn giáo)"
                   }
                 ],
-                "point_vi": "Hành vi thiếu ý thức của một số du khách có thể làm mất đi sự tôn nghiêm nơi thờ tự.",
-                "point_en": "Inappropriate behaviour from some tourists can disturb the solemnity of worship places.",
-                "evidence_vi": "Một số khách du lịch mặc trang phục không phù hợp, nói cười lớn tiếng hoặc chụp ảnh thiếu tôn trọng trong lúc đang diễn ra nghi lễ, và điều này gây bức xúc cho các tín đồ và cộng đồng địa phương.",
-                "evidence_en": "Some visitors wear inappropriate clothing, speak loudly, or take photos disrespectfully during ongoing religious ceremonies, and this causes frustration for worshippers and the local community."
+                "evidence_vi": "Nhiều người mặc trang phục không phù hợp hoặc cười nói lớn tiếng trong lúc làm lễ, vì vậy các tín đồ cảm thấy bị xúc phạm.",
+                "evidence_en": "Many people wear improper clothes or talk loudly during prayers, so local worshippers feel offended.",
+                "evidence_collocations": [
+                  {
+                    "en": "wear improper clothes",
+                    "vi": "mặc trang phục không phù hợp"
+                  },
+                  {
+                    "en": "talk loudly during prayers",
+                    "vi": "cười nói lớn tiếng trong lúc cầu nguyện (làm lễ)"
+                  },
+                  {
+                    "en": "feel offended",
+                    "vi": "cảm thấy bị xúc phạm (phiền lòng)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "disrespectful behavior",
+                    "vi": "hành vi thiếu tôn trọng"
+                  },
+                  {
+                    "en": "wear improper clothes",
+                    "vi": "mặc đồ không phù hợp"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 05",
-                "collocations": [
+                "title": "BẤT LỢI 05: HƯ HẠI CÁC CÔNG TRÌNH CỔ KÍNH",
+                "point_vi": "Lượng khách quá đông có thể làm hư hại các công trình cổ kính.",
+                "point_en": "Large crowds can cause physical damage to ancient structures.",
+                "point_collocations": [
                   {
-                    "en": "accelerate wear and tear on ancient structures",
-                    "vi": "làm đẩy nhanh sự xuống cấp của các công trình cổ"
+                    "en": "large crowds",
+                    "vi": "lượng khách (đám đông) quá lớn"
                   },
                   {
-                    "en": "massive foot traffic",
-                    "vi": "lượng người qua lại khổng lồ"
+                    "en": "physical damage",
+                    "vi": "hư hại vật lý"
                   },
                   {
-                    "en": "fragile historical relics",
-                    "vi": "các di vật lịch sử dễ hư tổn"
-                  },
-                  {
-                    "en": "irreversible structural damage",
-                    "vi": "hư hại cấu trúc không thể phục hồi"
-                  },
-                  {
-                    "en": "overburden local infrastructure",
-                    "vi": "gây quá tải cơ sở hạ tầng địa phương"
+                    "en": "ancient structures",
+                    "vi": "các công trình cổ kính"
                   }
                 ],
-                "point_vi": "Lượng khách quá lớn có thể làm hư hại nhanh chóng các kiến trúc cổ nhạy cảm.",
-                "point_en": "Excessively large tourist numbers can rapidly damage fragile ancient structures.",
-                "evidence_vi": "Việc hàng vạn người dẫm đạp, chạm tay vào tượng cổ hoặc đốt quá nhiều hương khói trong không gian hẹp có thể gây hư hại không thể phục hồi cho các di tích lịch sử hàng trăm năm tuổi.",
-                "evidence_en": "Thousands of visitors walking on ancient floors, touching statues, or burning excessive incense in enclosed spaces can cause irreversible damage to centuries-old historical relics."
+                "evidence_vi": "Nhiều người chạm tay vào tượng cổ và đi lại trên sàn gạch cũ, do đó các di tích hàng trăm năm tuổi dễ bị xuống cấp nhanh chóng.",
+                "evidence_en": "Many visitors touch old statues and walk on ancient floors, so historic relics degrade quickly.",
+                "evidence_collocations": [
+                  {
+                    "en": "touch old statues",
+                    "vi": "chạm tay vào tượng cổ"
+                  },
+                  {
+                    "en": "walk on ancient floors",
+                    "vi": "đi lại trên sàn gạch cũ"
+                  },
+                  {
+                    "en": "historic relics",
+                    "vi": "các di tích lịch sử"
+                  },
+                  {
+                    "en": "degrade quickly",
+                    "vi": "xuống cấp nhanh chóng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "damage to ancient structures",
+                    "vi": "hư hại công trình cổ"
+                  },
+                  {
+                    "en": "touch old statues",
+                    "vi": "chạm vào tượng cổ"
+                  },
+                  {
+                    "en": "degrade quickly",
+                    "vi": "xuống cấp nhanh"
+                  }
+                ]
               }
             ]
           },
@@ -20817,292 +21865,460 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: GIẢM ÙN TẮC GIAO THÔNG",
+                "point_vi": "Tàu điện trên cao góp phần giảm bớt tình trạng ùn tắc giao thông đô thị.",
+                "point_en": "Skytrains help reduce urban traffic jams.",
+                "point_collocations": [
                   {
                     "en": "skytrains",
                     "vi": "tàu điện trên cao"
                   },
                   {
-                    "en": "reduce traffic congestion",
-                    "vi": "giảm ùn tắc giao thông"
-                  },
-                  {
-                    "en": "big cities",
-                    "vi": "thành phố lớn"
-                  },
-                  {
-                    "en": "public transport",
-                    "vi": "phương tiện giao thông công cộng"
-                  },
-                  {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
-                  },
-                  {
-                    "en": "instead of",
-                    "vi": "thay vì"
+                    "en": "reduce urban traffic jams",
+                    "vi": "giảm bớt tình trạng ùn tắc giao thông đô thị"
                   }
                 ],
-                "point_vi": "Tàu điện trên cao giúp giảm ùn tắc giao thông ở các thành phố lớn.",
-                "point_en": "Skytrains help reduce traffic congestion in big cities.",
-                "evidence_vi": "Nhiều người sẽ sử dụng phương tiện giao thông công cộng thay vì phương tiện cá nhân.",
-                "evidence_en": "More people will use public transport instead of private vehicles."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "evidence_vi": "Nhiều người sẽ sử dụng tàu điện thay vì lái ô tô và xe máy, vì vậy lượng xe cộ trên đường phố giảm đi đáng kể.",
+                "evidence_en": "Many people will ride skytrains instead of driving cars and motorbikes, so road traffic drops noticeably.",
+                "evidence_collocations": [
                   {
-                    "en": "travel more quickly",
-                    "vi": "di chuyển nhanh hơn"
+                    "en": "ride skytrains",
+                    "vi": "đi tàu điện trên cao"
                   },
                   {
-                    "en": "traffic jams",
-                    "vi": "kẹt xe"
+                    "en": "instead of driving cars and motorbikes",
+                    "vi": "thay vì lái ô tô và xe máy"
                   },
                   {
-                    "en": "travel around the city",
-                    "vi": "di chuyển trong thành phố"
+                    "en": "road traffic",
+                    "vi": "lượng xe cộ trên đường phố"
                   },
                   {
-                    "en": "save travel time",
-                    "vi": "tiết kiệm thời gian đi lại"
-                  },
-                  {
-                    "en": "be affected by",
-                    "vi": "bị ảnh hưởng bởi"
+                    "en": "drop noticeably",
+                    "vi": "giảm đi đáng kể"
                   }
                 ],
-                "point_vi": "Tàu điện trên cao giúp việc đi lại nhanh hơn.",
-                "point_en": "Skytrains help people travel more quickly.",
-                "evidence_vi": "Tàu điện trên cao không bị ảnh hưởng bởi tình trạng kẹt xe.",
-                "evidence_en": "Skytrains are not affected by traffic jams."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "environmentally friendly",
-                    "vi": "thân thiện với môi trường"
+                    "en": "reduce urban traffic jams",
+                    "vi": "giảm ùn tắc đô thị"
                   },
                   {
-                    "en": "air pollution",
-                    "vi": "ô nhiễm không khí"
+                    "en": "ride skytrains",
+                    "vi": "đi tàu điện trên cao"
                   },
+                  {
+                    "en": "drop noticeably",
+                    "vi": "giảm đáng kể"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: DI CHUYỂN ĐÚNG GIỜ VÀ NHANH CHÓNG",
+                "point_vi": "Tàu điện trên cao giúp hành khách di chuyển nhanh chóng và đúng giờ.",
+                "point_en": "Skytrains help passengers travel fast and stay on schedule.",
+                "point_collocations": [
+                  {
+                    "en": "travel fast",
+                    "vi": "di chuyển nhanh chóng"
+                  },
+                  {
+                    "en": "stay on schedule",
+                    "vi": "đúng giờ (đúng lịch trình)"
+                  }
+                ],
+                "evidence_vi": "Tàu điện chạy trên đường ray riêng biệt trên cao, do đó hành khách không lo bị kẹt xe vào các khung giờ cao điểm.",
+                "evidence_en": "Skytrains run on separate elevated tracks, so commuters do not worry about traffic jams during rush hours.",
+                "evidence_collocations": [
+                  {
+                    "en": "separate elevated tracks",
+                    "vi": "đường ray riêng biệt trên cao"
+                  },
+                  {
+                    "en": "do not worry about traffic jams",
+                    "vi": "không lo bị kẹt xe"
+                  },
+                  {
+                    "en": "during rush hours",
+                    "vi": "vào khung giờ cao điểm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "stay on schedule",
+                    "vi": "đúng giờ"
+                  },
+                  {
+                    "en": "separate elevated tracks",
+                    "vi": "đường ray riêng trên cao"
+                  },
+                  {
+                    "en": "during rush hours",
+                    "vi": "giờ cao điểm"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: GIẢM Ô NHIỄM KHÔNG KHÍ",
+                "point_vi": "Tàu điện trên cao giúp giảm ô nhiễm không khí ở các thành phố lớn.",
+                "point_en": "Skytrains help reduce air pollution in big cities.",
+                "point_collocations": [
                   {
                     "en": "reduce air pollution",
                     "vi": "giảm ô nhiễm không khí"
                   },
                   {
-                    "en": "the number of",
-                    "vi": "số lượng"
+                    "en": "in big cities",
+                    "vi": "ở các thành phố lớn"
                   }
                 ],
-                "point_vi": "Tàu điện trên cao thân thiện hơn với môi trường.",
-                "point_en": "Skytrains are more environmentally friendly.",
-                "evidence_vi": "Việc giảm số lượng phương tiện cá nhân có thể giúp giảm ô nhiễm không khí.",
-                "evidence_en": "Reducing the number of private vehicles can help reduce air pollution."
-              },
-              {
-                "title": "ADVANTAGE 04",
+                "evidence_vi": "Tàu điện sử dụng năng lượng điện sạch thay vì xăng dầu, nhờ đó lượng khói bụi độc hại thải ra môi trường giảm đi rất nhiều.",
+                "evidence_en": "Skytrains use clean electric energy instead of gasoline, so harmful smoke released into the air decreases greatly.",
+                "evidence_collocations": [
+                  {
+                    "en": "clean electric energy",
+                    "vi": "năng lượng điện sạch"
+                  },
+                  {
+                    "en": "instead of gasoline",
+                    "vi": "thay vì xăng dầu"
+                  },
+                  {
+                    "en": "harmful smoke",
+                    "vi": "khói bụi độc hại"
+                  },
+                  {
+                    "en": "decrease greatly",
+                    "vi": "giảm đi rất nhiều"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "reduce traffic accidents",
-                    "vi": "giảm thiểu tai nạn giao thông"
+                    "en": "reduce air pollution",
+                    "vi": "giảm ô nhiễm không khí"
                   },
                   {
-                    "en": "dedicated elevated tracks",
-                    "vi": "đường ray trên cao chuyên biệt"
+                    "en": "clean electric energy",
+                    "vi": "năng lượng điện sạch"
                   },
                   {
-                    "en": "automated safety systems",
-                    "vi": "hệ thống an toàn tự động"
-                  },
-                  {
-                    "en": "avoid road collisions",
-                    "vi": "tránh va chạm đường bộ"
-                  },
-                  {
-                    "en": "safe daily commuting",
-                    "vi": "việc đi lại hằng ngày an toàn"
+                    "en": "harmful smoke",
+                    "vi": "khói bụi độc hại"
                   }
-                ],
-                "point_vi": "Tàu điện trên cao giúp giảm thiểu tai nạn giao thông đường bộ.",
-                "point_en": "Skytrains help significantly reduce road traffic accidents.",
-                "evidence_vi": "Do di chuyển trên đường ray riêng biệt trên cao và được vận hành bằng hệ thống tự động hiện đại, tàu điện tránh được các va chạm với xe máy, ô tô dưới mặt đất, và nhờ vậy, hành khách được đảm bảo an toàn cao hơn.",
-                "evidence_en": "Because they run on dedicated elevated tracks operated by modern automated systems, skytrains avoid collisions with cars and motorbikes on the ground, so commuters enjoy a much safer travel experience."
+                ]
               },
               {
-                "title": "ADVANTAGE 05",
-                "collocations": [
+                "title": "LỢI ÍCH 04: AN TOÀN CAO CHO HÀNH KHÁCH",
+                "point_vi": "Tàu điện trên cao mang lại sự an toàn cao cho hành khách.",
+                "point_en": "Skytrains offer high safety for passengers.",
+                "point_collocations": [
                   {
-                    "en": "stimulate urban economic growth",
-                    "vi": "kích thích tăng trưởng kinh tế đô thị"
-                  },
-                  {
-                    "en": "attract commercial investment",
-                    "vi": "thu hút đầu tư thương mại"
-                  },
-                  {
-                    "en": "boost property values around stations",
-                    "vi": "tăng giá trị bất động sản quanh nhà ga"
-                  },
-                  {
-                    "en": "modernize city landscapes",
-                    "vi": "hiện đại hóa diện mạo thành phố"
-                  },
-                  {
-                    "en": "connect suburban areas",
-                    "vi": "kết nối các khu vực ngoại ô"
+                    "en": "offer high safety",
+                    "vi": "mang lại sự an toàn cao"
                   }
                 ],
-                "point_vi": "Hệ thống tàu điện trên cao thúc đẩy phát triển kinh tế và đô thị dọc các tuyến đường.",
-                "point_en": "Skytrain systems stimulate economic and urban development along transit corridors.",
-                "evidence_vi": "Các khu vực xung quanh nhà ga thường thu hút nhiều trung tâm thương mại, văn phòng và khu dân cư mới, nhờ đó giúp kết nối vùng ngoại ô với trung tâm và tạo động lực tăng trưởng kinh tế mạnh mẽ.",
-                "evidence_en": "Areas surrounding train stations often attract new shopping centers, offices, and residential developments, so this connects suburban areas to the city center and drives strong economic growth."
+                "evidence_vi": "Tàu điện không giao cắt với các phương tiện giao thông trên mặt đất, vì vậy nguy cơ va chạm và tai nạn giao thông rất thấp.",
+                "evidence_en": "Skytrains do not cross paths with road vehicles, so the risk of accidents is extremely low.",
+                "evidence_collocations": [
+                  {
+                    "en": "cross paths with road vehicles",
+                    "vi": "giao cắt với phương tiện trên mặt đất"
+                  },
+                  {
+                    "en": "risk of accidents",
+                    "vi": "nguy cơ tai nạn"
+                  },
+                  {
+                    "en": "extremely low",
+                    "vi": "rất thấp (cực kỳ thấp)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "offer high safety",
+                    "vi": "an toàn cao"
+                  },
+                  {
+                    "en": "risk of accidents",
+                    "vi": "nguy cơ tai nạn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: THÚC ĐẨY KINH TẾ QUANH CÁC NHÀ GA",
+                "point_vi": "Các nhà ga tàu điện giúp thúc đẩy hoạt động kinh doanh xung quanh.",
+                "point_en": "Skytrain stations boost business activities in surrounding areas.",
+                "point_collocations": [
+                  {
+                    "en": "skytrain stations",
+                    "vi": "các nhà ga tàu điện trên cao"
+                  },
+                  {
+                    "en": "boost business activities",
+                    "vi": "thúc đẩy hoạt động kinh doanh"
+                  },
+                  {
+                    "en": "surrounding areas",
+                    "vi": "các khu vực xung quanh"
+                  }
+                ],
+                "evidence_vi": "Nhiều trung tâm mua sắm và nhà hàng mở ra gần ga tàu, nhờ đó việc làm và thu nhập của người dân tăng lên.",
+                "evidence_en": "Many shopping malls and eateries open near train stations, so local jobs and incomes increase.",
+                "evidence_collocations": [
+                  {
+                    "en": "shopping malls and eateries",
+                    "vi": "trung tâm mua sắm và quán ăn"
+                  },
+                  {
+                    "en": "near train stations",
+                    "vi": "gần ga tàu"
+                  },
+                  {
+                    "en": "local jobs and incomes",
+                    "vi": "việc làm và thu nhập của người dân"
+                  },
+                  {
+                    "en": "increase",
+                    "vi": "tăng lên"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "boost business activities",
+                    "vi": "thúc đẩy kinh doanh"
+                  },
+                  {
+                    "en": "shopping malls and eateries",
+                    "vi": "trung tâm mua sắm và quán ăn"
+                  },
+                  {
+                    "en": "near train stations",
+                    "vi": "gần ga tàu"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: CHI PHÍ XÂY DỰNG RẤT CAO",
+                "point_vi": "Chi phí đầu tư xây dựng hệ thống tàu điện trên cao vô cùng tốn kém.",
+                "point_en": "Building a skytrain system requires extremely high investment costs.",
+                "point_collocations": [
                   {
-                    "en": "financial investment",
-                    "vi": "nguồn vốn đầu tư"
+                    "en": "investment costs",
+                    "vi": "chi phí đầu tư"
                   },
                   {
-                    "en": "railway lines",
-                    "vi": "đường ray"
-                  },
-                  {
-                    "en": "stations",
-                    "vi": "nhà ga"
-                  },
-                  {
-                    "en": "a large amount of money",
-                    "vi": "một khoản tiền lớn"
-                  },
-                  {
-                    "en": "invest in",
-                    "vi": "đầu tư vào"
-                  },
-                  {
-                    "en": "require",
-                    "vi": "đòi hỏi"
+                    "en": "extremely high",
+                    "vi": "vô cùng tốn kém (rất cao)"
                   }
                 ],
-                "point_vi": "Việc xây dựng tàu điện trên cao đòi hỏi chi phí rất lớn.",
-                "point_en": "Building skytrains requires a huge capital investment.",
-                "evidence_vi": "Chính phủ phải đầu tư rất nhiều tiền để xây dựng hệ thống đường ray và nhà ga.",
-                "evidence_en": "The government must spend a large amount of money on railway lines, stations, and related infrastructure, and this may reduce the budget available for other public services."
+                "evidence_vi": "Chính phủ phải bỏ ra một khoản ngân sách khổng lồ cho đường ray và nhà ga, do đó các dịch vụ công cộng khác có thể bị cắt giảm vốn.",
+                "evidence_en": "The government must spend a huge budget on tracks and stations, so other public services may receive less money.",
+                "evidence_collocations": [
+                  {
+                    "en": "spend a huge budget on",
+                    "vi": "bỏ ra khoản ngân sách khổng lồ cho"
+                  },
+                  {
+                    "en": "tracks and stations",
+                    "vi": "đường ray và nhà ga"
+                  },
+                  {
+                    "en": "other public services",
+                    "vi": "các dịch vụ công cộng khác"
+                  },
+                  {
+                    "en": "receive less money",
+                    "vi": "nhận được ít tiền hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "high investment costs",
+                    "vi": "chi phí đầu tư cao"
+                  },
+                  {
+                    "en": "spend a huge budget on",
+                    "vi": "chi khoản ngân sách lớn cho"
+                  },
+                  {
+                    "en": "other public services",
+                    "vi": "dịch vụ công khác"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: ÙN TẮC VÀ TIẾNG ỒN TRONG KHI THI CÔNG",
+                "point_vi": "Quá trình xây dựng tàu điện thường kéo dài và gây xáo trộn giao thông.",
+                "point_en": "The construction process often lasts long and disrupts traffic.",
+                "point_collocations": [
                   {
-                    "en": "inconvenience",
-                    "vi": "sự bất tiện"
+                    "en": "construction process",
+                    "vi": "quá trình xây dựng (thi công)"
                   },
                   {
-                    "en": "construction work",
-                    "vi": "công trình xây dựng"
-                  },
-                  {
-                    "en": "construction period",
-                    "vi": "giai đoạn xây dựng"
-                  },
-                  {
-                    "en": "noise",
-                    "vi": "tiếng ồn"
+                    "en": "disrupt traffic",
+                    "vi": "gây xáo trộn (ảnh hưởng) giao thông"
                   }
                 ],
-                "point_vi": "Việc xây dựng tàu điện trên cao có thể gây nhiều bất tiện.",
-                "point_en": "Building skytrains may disrupt daily life.",
-                "evidence_vi": "Các công trình có thể gây kẹt xe và tiếng ồn trong thời gian xây dựng.",
-                "evidence_en": "Construction work may cause traffic congestion and noise for a long period, and this may affect people's travel and daily activities."
+                "evidence_vi": "Các công trình thi công chiếm lòng đường và gây bụi bẩn, vì vậy người dân đi lại rất vất vả trong nhiều năm.",
+                "evidence_en": "Construction projects block roads and produce dust, so citizens travel with great difficulty for years.",
+                "evidence_collocations": [
+                  {
+                    "en": "construction projects",
+                    "vi": "các công trình thi công"
+                  },
+                  {
+                    "en": "block roads and produce dust",
+                    "vi": "chiếm lòng đường và tạo ra bụi bẩn"
+                  },
+                  {
+                    "en": "travel with great difficulty",
+                    "vi": "đi lại rất vất vả"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "disrupt traffic",
+                    "vi": "xáo trộn giao thông"
+                  },
+                  {
+                    "en": "block roads",
+                    "vi": "chiếm lòng đường"
+                  },
+                  {
+                    "en": "travel with great difficulty",
+                    "vi": "đi lại vất vả"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: PHẠM VI TIẾP CẬN CÒN HẠN CHẾ",
+                "point_vi": "Tàu điện trên cao có phạm vi tiếp cận hạn chế ở nhiều khu vực.",
+                "point_en": "Skytrains have limited coverage across many areas.",
+                "point_collocations": [
                   {
-                    "en": "conveniently",
-                    "vi": "một cách thuận tiện"
-                  },
-                  {
-                    "en": "train stations",
-                    "vi": "nhà ga"
-                  },
-                  {
-                    "en": "forms of transport",
-                    "vi": "phương tiện giao thông"
-                  },
-                  {
-                    "en": "live far from",
-                    "vi": "sống xa"
+                    "en": "limited coverage",
+                    "vi": "phạm vi tiếp cận (phủ sóng) hạn chế"
                   }
                 ],
-                "point_vi": "Không phải ai cũng có thể sử dụng tàu điện trên cao một cách thuận tiện.",
-                "point_en": "Not everyone can use skytrains conveniently.",
-                "evidence_vi": "Một số người sống quá xa nhà ga nên vẫn phải sử dụng các phương tiện khác.",
-                "evidence_en": "Some people live too far from train stations, so they still need to use other forms of transport."
+                "evidence_vi": "Nhiều người sống quá xa nhà ga tàu điện, do đó họ vẫn phải sử dụng xe máy cá nhân để đi làm.",
+                "evidence_en": "Many people live too far from train stations, so they still need private motorbikes for daily travel.",
+                "evidence_collocations": [
+                  {
+                    "en": "live too far from train stations",
+                    "vi": "sống quá xa nhà ga tàu điện"
+                  },
+                  {
+                    "en": "private motorbikes",
+                    "vi": "xe máy cá nhân"
+                  },
+                  {
+                    "en": "daily travel",
+                    "vi": "việc đi lại hằng ngày"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "limited coverage",
+                    "vi": "phạm vi hạn chế"
+                  },
+                  {
+                    "en": "live too far from train stations",
+                    "vi": "sống xa ga tàu"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "title": "BẤT LỢI 04: ẢNH HƯỞNG ĐẾN CẢNH QUAN ĐÔ THỊ",
+                "point_vi": "Các trụ bê tông của tàu điện có thể làm xấu cảnh quan đô thị.",
+                "point_en": "Concrete pillars of skytrains can spoil urban views.",
+                "point_collocations": [
                   {
-                    "en": "affect urban aesthetics",
-                    "vi": "ảnh hưởng đến mỹ quan đô thị"
+                    "en": "concrete pillars",
+                    "vi": "các trụ bê tông"
                   },
                   {
-                    "en": "massive concrete pillars and viaducts",
-                    "vi": "những trụ bê tông và cầu cạn khổng lồ"
-                  },
-                  {
-                    "en": "block natural sunlight and views",
-                    "vi": "che khuất ánh sáng tự nhiên và tầm nhìn"
-                  },
-                  {
-                    "en": "cut down urban green trees",
-                    "vi": "đốn hạ cây xanh đô thị"
-                  },
-                  {
-                    "en": "visual pollution",
-                    "vi": "ô nhiễm thị giác"
+                    "en": "spoil urban views",
+                    "vi": "làm xấu cảnh quan đô thị"
                   }
                 ],
-                "point_vi": "Các trụ bê tông lớn trên cao có thể làm ảnh hưởng đến cảnh quan và cây xanh đô thị.",
-                "point_en": "Massive elevated concrete structures may negatively affect urban aesthetics and green spaces.",
-                "evidence_vi": "Để xây dựng cầu cạn trên cao, thành phố đôi khi phải chặt bỏ nhiều hàng cây cổ thụ và dựng lên các khối bê tông đồ sộ, và điều này có thể che khuất tầm nhìn và làm giảm vẻ đẹp kiến trúc truyền thống.",
-                "evidence_en": "To construct elevated viaducts, cities sometimes have to cut down mature street trees and erect massive concrete pillars, and this can block natural views and diminish the traditional architectural beauty of the city."
+                "evidence_vi": "Những cây cầu cạn bằng bê tông đồ sộ che khuất tầm nhìn, vì vậy đường phố có thể trở nên ngột ngạt và thiếu ánh sáng tự nhiên.",
+                "evidence_en": "Huge concrete bridges block natural views, so streets can become dark and lack natural light.",
+                "evidence_collocations": [
+                  {
+                    "en": "huge concrete bridges",
+                    "vi": "những cây cầu bê tông đồ sộ"
+                  },
+                  {
+                    "en": "block natural views",
+                    "vi": "che khuất tầm nhìn tự nhiên"
+                  },
+                  {
+                    "en": "lack natural light",
+                    "vi": "thiếu ánh sáng tự nhiên"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "spoil urban views",
+                    "vi": "làm xấu cảnh quan"
+                  },
+                  {
+                    "en": "block natural views",
+                    "vi": "che tầm nhìn"
+                  },
+                  {
+                    "en": "lack natural light",
+                    "vi": "thiếu ánh sáng tự nhiên"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 05",
-                "collocations": [
+                "title": "BẤT LỢI 05: CHI PHÍ BẢO TRÌ ĐẮT ĐỎ",
+                "point_vi": "Việc bảo trì và vận hành hệ thống tàu điện đòi hỏi chi phí liên tục.",
+                "point_en": "Maintaining and operating skytrain systems demands ongoing expenses.",
+                "point_collocations": [
                   {
-                    "en": "high operation and maintenance costs",
-                    "vi": "chi phí vận hành và bảo trì cao"
+                    "en": "maintaining and operating",
+                    "vi": "bảo trì và vận hành"
                   },
                   {
-                    "en": "require specialized technical experts",
-                    "vi": "đòi hỏi chuyên gia kỹ thuật chuyên sâu"
-                  },
-                  {
-                    "en": "subsidize ticket prices",
-                    "vi": "trợ giá vé"
-                  },
-                  {
-                    "en": "long payback period",
-                    "vi": "thời gian hoàn vốn kéo dài"
-                  },
-                  {
-                    "en": "long-term municipal debt",
-                    "vi": "nợ công đô thị dài hạn"
+                    "en": "ongoing expenses",
+                    "vi": "chi phí liên tục"
                   }
                 ],
-                "point_vi": "Chi phí vận hành, bảo dưỡng và trợ giá vé hằng năm rất tốn kém.",
-                "point_en": "Annual operation, maintenance, and ticket subsidy costs are extremely high.",
-                "evidence_vi": "Sau khi đi vào hoạt động, chính quyền thành phố vẫn phải chi nguồn ngân sách lớn để bảo trì thiết bị công nghệ cao và trợ giá vé cho người dân, và điều này tạo ra gánh nặng tài chính kéo dài nhiều thập kỷ.",
-                "evidence_en": "Even after construction is completed, municipal governments must spend large sums on maintaining high-tech equipment and subsidizing ticket prices for citizens, and this creates a financial burden that can last for decades."
+                "evidence_vi": "Thành phố phải chi nhiều tiền kiểm tra kỹ thuật định kỳ, vì vậy tiền vé có thể tăng cao đối với người có thu nhập thấp.",
+                "evidence_en": "Cities must spend a lot of money on regular safety checks, so ticket prices may rise for low-income commuters.",
+                "evidence_collocations": [
+                  {
+                    "en": "regular safety checks",
+                    "vi": "kiểm tra kỹ thuật (an toàn) định kỳ"
+                  },
+                  {
+                    "en": "ticket prices may rise",
+                    "vi": "tiền vé có thể tăng cao"
+                  },
+                  {
+                    "en": "low-income commuters",
+                    "vi": "người đi lại có thu nhập thấp"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "ongoing expenses",
+                    "vi": "chi phí liên tục"
+                  },
+                  {
+                    "en": "regular safety checks",
+                    "vi": "kiểm tra an toàn định kỳ"
+                  },
+                  {
+                    "en": "ticket prices may rise",
+                    "vi": "giá vé có thể tăng"
+                  }
+                ]
               }
             ]
           },
@@ -23001,308 +24217,448 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM THỜI GIAN DỊCH THUẬT",
+                "point_vi": "Dịch máy giúp người dùng tiết kiệm rất nhiều thời gian.",
+                "point_en": "Machine translation helps users save a lot of time.",
+                "point_collocations": [
+                  {
+                    "en": "machine translation",
+                    "vi": "dịch máy"
+                  },
+                  {
+                    "en": "save a lot of time",
+                    "vi": "tiết kiệm rất nhiều thời gian"
+                  }
+                ],
+                "evidence_vi": "Người dùng có thể dịch cả một văn bản dài chỉ trong vài giây, nhờ đó họ xử lý công việc nhanh hơn rất nhiều.",
+                "evidence_en": "Users can translate long texts in a few seconds, so they handle work much faster.",
+                "evidence_collocations": [
+                  {
+                    "en": "translate long texts",
+                    "vi": "dịch các văn bản dài"
+                  },
+                  {
+                    "en": "in a few seconds",
+                    "vi": "chỉ trong vài giây"
+                  },
+                  {
+                    "en": "handle work much faster",
+                    "vi": "xử lý công việc nhanh hơn nhiều"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "machine translation",
                     "vi": "dịch máy"
                   },
                   {
-                    "en": "save time",
-                    "vi": "tiết kiệm thời gian"
+                    "en": "translate long texts",
+                    "vi": "dịch văn bản dài"
                   },
                   {
-                    "en": "users",
-                    "vi": "người dùng"
-                  },
-                  {
-                    "en": "words",
-                    "vi": "từ"
-                  },
-                  {
-                    "en": "sentences",
-                    "vi": "câu"
-                  },
-                  {
-                    "en": "texts",
-                    "vi": "văn bản"
-                  },
-                  {
-                    "en": "translate",
-                    "vi": "dịch"
+                    "en": "in a few seconds",
+                    "vi": "trong vài giây"
                   }
-                ],
-                "point_vi": "Dịch máy giúp mọi người tiết kiệm thời gian.",
-                "point_en": "Machine translation helps people save time.",
-                "evidence_vi": "Người dùng có thể dịch từ, câu hoặc văn bản chỉ trong vài giây.",
-                "evidence_en": "Users can translate words, sentences, or texts in just a few seconds."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 02: TIẾP CẬN NGUỒN THÔNG TIN ĐA NGÔN NGỮ",
+                "point_vi": "Dịch máy giúp mọi người dễ dàng tiếp cận thông tin bằng nhiều thứ tiếng.",
+                "point_en": "Machine translation makes foreign information easier to access.",
+                "point_collocations": [
                   {
-                    "en": "access information",
-                    "vi": "tiếp cận thông tin"
+                    "en": "foreign information",
+                    "vi": "thông tin nước ngoài (bằng tiếng nước ngoài)"
                   },
                   {
-                    "en": "materials",
-                    "vi": "tài liệu"
-                  },
-                  {
-                    "en": "different languages",
-                    "vi": "nhiều ngôn ngữ khác nhau"
-                  },
-                  {
-                    "en": "read materials",
-                    "vi": "đọc tài liệu"
+                    "en": "easier to access",
+                    "vi": "dễ dàng tiếp cận hơn"
                   }
                 ],
-                "point_vi": "Dịch máy giúp mọi người dễ tiếp cận thông tin hơn.",
-                "point_en": "Machine translation makes information easier to access.",
-                "evidence_vi": "Mọi người có thể đọc các tài liệu bằng nhiều ngôn ngữ khác nhau.",
-                "evidence_en": "People can read materials in different languages."
+                "evidence_vi": "Mọi người có thể đọc các bài báo và tài liệu bằng nhiều ngôn ngữ khác nhau mà không cần biết tiếng bản địa.",
+                "evidence_en": "People can read articles and documents in different languages without knowing the local language.",
+                "evidence_collocations": [
+                  {
+                    "en": "read articles and documents",
+                    "vi": "đọc các bài báo và tài liệu"
+                  },
+                  {
+                    "en": "in different languages",
+                    "vi": "bằng nhiều ngôn ngữ khác nhau"
+                  },
+                  {
+                    "en": "without knowing the local language",
+                    "vi": "mà không cần biết tiếng bản địa"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "easier to access",
+                    "vi": "dễ tiếp cận hơn"
+                  },
+                  {
+                    "en": "read articles and documents",
+                    "vi": "đọc bài báo và tài liệu"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "title": "LỢI ÍCH 03: HỖ TRỢ HỌC NGOẠI NGỮ HIỆU QUẢ",
+                "point_vi": "Các công cụ dịch trực tuyến hỗ trợ việc học ngoại ngữ rất tốt.",
+                "point_en": "Online translation tools support language learning well.",
+                "point_collocations": [
                   {
-                    "en": "language learning",
-                    "vi": "việc học ngoại ngữ"
+                    "en": "online translation tools",
+                    "vi": "các công cụ dịch trực tuyến"
                   },
                   {
-                    "en": "learners",
-                    "vi": "người học"
-                  },
-                  {
-                    "en": "meanings",
-                    "vi": "nghĩa"
-                  },
-                  {
-                    "en": "new words",
-                    "vi": "từ mới"
-                  },
-                  {
-                    "en": "understand",
-                    "vi": "hiểu"
-                  },
-                  {
-                    "en": "support",
-                    "vi": "hỗ trợ"
+                    "en": "support language learning",
+                    "vi": "hỗ trợ việc học ngoại ngữ"
                   }
                 ],
-                "point_vi": "Dịch máy hỗ trợ việc học ngoại ngữ.",
-                "point_en": "Machine translation supports language learning.",
-                "evidence_vi": "Người học có thể nhanh chóng hiểu nghĩa của từ và câu mới.",
-                "evidence_en": "Learners can quickly understand the meanings of new words and sentences."
+                "evidence_vi": "Người học có thể nhanh chóng tra cứu nghĩa của từ và nghe phát âm chuẩn, vì vậy họ nhớ từ vựng mới dễ dàng hơn.",
+                "evidence_en": "Learners can quickly look up word meanings and listen to pronunciations, so they remember new words more easily.",
+                "evidence_collocations": [
+                  {
+                    "en": "look up word meanings",
+                    "vi": "tra cứu nghĩa của từ"
+                  },
+                  {
+                    "en": "listen to pronunciations",
+                    "vi": "nghe phát âm"
+                  },
+                  {
+                    "en": "remember new words more easily",
+                    "vi": "nhớ từ vựng mới dễ dàng hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "support language learning",
+                    "vi": "hỗ trợ học ngoại ngữ"
+                  },
+                  {
+                    "en": "look up word meanings",
+                    "vi": "tra nghĩa của từ"
+                  },
+                  {
+                    "en": "listen to pronunciations",
+                    "vi": "nghe phát âm"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 04",
-                "collocations": [
+                "title": "LỢI ÍCH 04: TIẾT KIỆM CHI PHÍ THUÊ DỊCH GIẢ",
+                "point_vi": "Dịch máy giúp tiết kiệm chi phí so với việc thuê biên dịch viên chuyên nghiệp.",
+                "point_en": "Machine translation saves costs compared to hiring human translators.",
+                "point_collocations": [
                   {
-                    "en": "reduce translation costs",
-                    "vi": "giảm chi phí dịch thuật"
+                    "en": "save costs",
+                    "vi": "tiết kiệm chi phí"
                   },
                   {
-                    "en": "free online translation tools",
-                    "vi": "các công cụ dịch trực tuyến miễn phí"
-                  },
-                  {
-                    "en": "hire professional human translators",
-                    "vi": "thuê biên dịch viên chuyên nghiệp"
-                  },
-                  {
-                    "en": "support small businesses and students",
-                    "vi": "hỗ trợ doanh nghiệp nhỏ và sinh viên"
-                  },
-                  {
-                    "en": "cost-effective solution",
-                    "vi": "giải pháp tiết kiệm chi phí"
+                    "en": "compared to hiring human translators",
+                    "vi": "so với việc thuê biên dịch viên chuyên nghiệp"
                   }
                 ],
-                "point_vi": "Dịch máy giúp tiết kiệm đáng kể chi phí so với việc thuê biên dịch viên.",
-                "point_en": "Machine translation significantly reduces costs compared to hiring human translators.",
-                "evidence_vi": "Hầu hết các ứng dụng dịch thuật hiện nay đều miễn phí hoặc có chi phí rất thấp, và điều này đặc biệt hữu ích cho học sinh, sinh viên và các doanh nghiệp nhỏ khi cần xử lý khối lượng tài liệu đa ngôn ngữ lớn.",
-                "evidence_en": "Most modern translation applications are free or very affordable, and this provides a cost-effective solution for students and small businesses that need to process large volumes of multilingual documents."
+                "evidence_vi": "Hầu hết các ứng dụng dịch thuật hiện nay đều miễn phí, vì vậy người dùng không phải tốn tiền thuê phiên dịch viên.",
+                "evidence_en": "Most translation applications are free today, so users do not have to spend money on human translators.",
+                "evidence_collocations": [
+                  {
+                    "en": "translation applications",
+                    "vi": "các ứng dụng dịch thuật"
+                  },
+                  {
+                    "en": "free today",
+                    "vi": "miễn phí hiện nay"
+                  },
+                  {
+                    "en": "spend money on human translators",
+                    "vi": "tốn tiền vào (thuê) người dịch"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "save costs",
+                    "vi": "tiết kiệm chi phí"
+                  },
+                  {
+                    "en": "translation applications",
+                    "vi": "ứng dụng dịch thuật"
+                  },
+                  {
+                    "en": "human translators",
+                    "vi": "người dịch"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 05",
-                "collocations": [
-                  {
-                    "en": "facilitate international travel and tourism",
-                    "vi": "tạo thuận lợi cho du lịch và đi lại quốc tế"
-                  },
-                  {
-                    "en": "real-time voice and image translation",
-                    "vi": "dịch giọng nói và hình ảnh theo thời gian thực"
-                  },
-                  {
-                    "en": "overcome language barriers",
-                    "vi": "vượt qua rào cản ngôn ngữ"
-                  },
-                  {
-                    "en": "read street signs and menus",
-                    "vi": "đọc biển báo đường phố và thực đơn"
-                  },
-                  {
-                    "en": "communicate with locals",
-                    "vi": "giao tiếp với người dân bản địa"
-                  }
-                ],
+                "title": "LỢI ÍCH 05: HỖ TRỢ DU KHÁCH KHI ĐI NƯỚC NGOÀI",
                 "point_vi": "Công cụ dịch máy hỗ trợ đắc lực cho khách du lịch khi đi nước ngoài.",
-                "point_en": "Machine translation tools greatly assist travellers when visiting foreign countries.",
-                "evidence_vi": "Với tính năng dịch giọng nói và hình ảnh tức thời trên điện thoại, du khách có thể dễ dàng đọc biển báo, thực đơn và hỏi đường người dân bản xứ, nhờ đó rào cản ngôn ngữ khi du lịch quốc tế được xóa bỏ.",
-                "evidence_en": "With instant voice and camera translation features on smartphones, tourists can easily read street signs, menus, and ask locals for directions, so language barriers during international travel are effectively overcome."
+                "point_en": "Machine translation tools greatly assist tourists traveling abroad.",
+                "point_collocations": [
+                  {
+                    "en": "greatly assist tourists",
+                    "vi": "hỗ trợ đắc lực cho khách du lịch"
+                  },
+                  {
+                    "en": "traveling abroad",
+                    "vi": "đi du lịch nước ngoài"
+                  }
+                ],
+                "evidence_vi": "Với tính năng dịch trên điện thoại, du khách có thể dễ dàng đọc biển báo và hỏi đường, nhờ đó việc đi lại ở nước ngoài thuận tiện hơn.",
+                "evidence_en": "With mobile translation apps, tourists can easily read street signs and ask for directions, so traveling abroad becomes more convenient.",
+                "evidence_collocations": [
+                  {
+                    "en": "mobile translation apps",
+                    "vi": "ứng dụng dịch trên điện thoại"
+                  },
+                  {
+                    "en": "read street signs",
+                    "vi": "đọc biển báo"
+                  },
+                  {
+                    "en": "ask for directions",
+                    "vi": "hỏi đường"
+                  },
+                  {
+                    "en": "become more convenient",
+                    "vi": "trở nên thuận tiện hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "assist tourists",
+                    "vi": "hỗ trợ khách du lịch"
+                  },
+                  {
+                    "en": "read street signs",
+                    "vi": "đọc biển báo"
+                  },
+                  {
+                    "en": "ask for directions",
+                    "vi": "hỏi đường"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
+                "title": "BẤT LỢI 01: ĐỘ CHÍNH XÁC KHÔNG HOÀN HẢO",
+                "point_vi": "Dịch máy không phải lúc nào cũng dịch chính xác hoàn toàn.",
+                "point_en": "Machine translation is not always completely accurate.",
+                "point_collocations": [
+                  {
+                    "en": "not always completely accurate",
+                    "vi": "không phải lúc nào cũng chính xác hoàn toàn"
+                  }
+                ],
+                "evidence_vi": "Một số bản dịch tự động vẫn chứa lỗi ngữ pháp hoặc dùng từ sai, do đó người đọc có thể hiểu lầm nội dung.",
+                "evidence_en": "Some automatic translations still contain grammar mistakes or wrong words, so readers can misunderstand the content.",
+                "evidence_collocations": [
+                  {
+                    "en": "automatic translations",
+                    "vi": "bản dịch tự động"
+                  },
+                  {
+                    "en": "grammar mistakes or wrong words",
+                    "vi": "lỗi ngữ pháp hoặc dùng từ sai"
+                  },
+                  {
+                    "en": "misunderstand the content",
+                    "vi": "hiểu lầm nội dung"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "accurate",
-                    "vi": "chính xác"
-                  },
-                  {
-                    "en": "translations",
-                    "vi": "bản dịch"
-                  },
-                  {
-                    "en": "vocabulary mistakes",
-                    "vi": "lỗi từ vựng"
+                    "en": "not completely accurate",
+                    "vi": "không hoàn toàn chính xác"
                   },
                   {
                     "en": "grammar mistakes",
                     "vi": "lỗi ngữ pháp"
                   },
                   {
-                    "en": "contain",
-                    "vi": "chứa"
-                  },
-                  {
-                    "en": "make mistakes",
-                    "vi": "mắc lỗi"
+                    "en": "misunderstand the content",
+                    "vi": "hiểu lầm nội dung"
                   }
-                ],
-                "point_vi": "Dịch máy không phải lúc nào cũng chính xác.",
-                "point_en": "Machine translation is not always accurate.",
-                "evidence_vi": "Một số bản dịch có thể chứa lỗi về từ vựng hoặc ngữ pháp.",
-                "evidence_en": "Some translations may contain vocabulary or grammar mistakes."
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: THIẾU KHẢ NĂNG HIỂU NGỮ CẢNH",
+                "point_vi": "Dịch máy khó hiểu đúng ngữ cảnh và thành ngữ phức tạp.",
+                "point_en": "Machine translation struggles to understand context and complex idioms.",
+                "point_collocations": [
                   {
-                    "en": "context",
-                    "vi": "ngữ cảnh"
+                    "en": "struggle to understand context",
+                    "vi": "khó hiểu đúng ngữ cảnh"
                   },
                   {
-                    "en": "unnatural translations",
-                    "vi": "bản dịch không tự nhiên"
-                  },
-                  {
-                    "en": "incorrect translations",
-                    "vi": "bản dịch sai"
-                  },
-                  {
-                    "en": "lead to",
-                    "vi": "dẫn đến"
-                  },
-                  {
-                    "en": "understand the context",
-                    "vi": "hiểu ngữ cảnh"
+                    "en": "complex idioms",
+                    "vi": "thành ngữ phức tạp"
                   }
                 ],
-                "point_vi": "Dịch máy không phải lúc nào cũng hiểu đúng ngữ cảnh.",
-                "point_en": "Machine translation cannot always understand the context correctly.",
-                "evidence_vi": "Điều này có thể dẫn đến những bản dịch không tự nhiên hoặc sai nghĩa.",
-                "evidence_en": "This may lead to unnatural or incorrect translations."
+                "evidence_vi": "Máy móc chỉ dịch theo nghĩa đen của từng từ, vì vậy nhiều câu văn dịch ra nghe rất buồn cười và thiếu tự nhiên.",
+                "evidence_en": "Machines only translate the literal meaning of words, so many translated sentences sound unnatural and awkward.",
+                "evidence_collocations": [
+                  {
+                    "en": "translate the literal meaning",
+                    "vi": "dịch theo nghĩa đen của từ"
+                  },
+                  {
+                    "en": "translated sentences",
+                    "vi": "các câu văn được dịch"
+                  },
+                  {
+                    "en": "sound unnatural and awkward",
+                    "vi": "nghe thiếu tự nhiên và kỳ cục (buồn cười)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "struggle to understand context",
+                    "vi": "khó hiểu ngữ cảnh"
+                  },
+                  {
+                    "en": "literal meaning",
+                    "vi": "nghĩa đen"
+                  },
+                  {
+                    "en": "sound unnatural",
+                    "vi": "nghe không tự nhiên"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: GÂY PHỤ THUỘC VÀ LƯỜI SUY NGHĨ",
+                "point_vi": "Người học có thể trở nên quá phụ thuộc vào công cụ dịch.",
+                "point_en": "Learners may become overly dependent on translation tools.",
+                "point_collocations": [
                   {
-                    "en": "depend on",
-                    "vi": "phụ thuộc vào"
+                    "en": "overly dependent on",
+                    "vi": "quá phụ thuộc vào"
                   },
                   {
-                    "en": "foreign language",
-                    "vi": "ngoại ngữ"
-                  },
-                  {
-                    "en": "ability",
-                    "vi": "khả năng"
-                  },
-                  {
-                    "en": "become dependent on",
-                    "vi": "trở nên phụ thuộc vào"
-                  },
-                  {
-                    "en": "reduce",
-                    "vi": "làm giảm"
+                    "en": "translation tools",
+                    "vi": "công cụ dịch"
                   }
                 ],
-                "point_vi": "Mọi người có thể trở nên quá phụ thuộc vào dịch máy.",
-                "point_en": "People may rely too much on machine translation.",
-                "evidence_vi": "Điều này có thể làm giảm khả năng sử dụng ngoại ngữ của họ.",
-                "evidence_en": "They may practise their foreign language skills less, and this may slow down the improvement of their language ability."
+                "evidence_vi": "Học sinh lười nhớ ngữ pháp và từ vựng vì có máy dịch sẵn, do đó khả năng tư duy ngoại ngữ của các em bị giảm sút.",
+                "evidence_en": "Students become lazy to memorize vocabulary and grammar, so their language thinking skills decline.",
+                "evidence_collocations": [
+                  {
+                    "en": "lazy to memorize vocabulary and grammar",
+                    "vi": "lười ghi nhớ từ vựng và ngữ pháp"
+                  },
+                  {
+                    "en": "language thinking skills",
+                    "vi": "kỹ năng tư duy ngoại ngữ"
+                  },
+                  {
+                    "en": "decline",
+                    "vi": "bị giảm sút"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "overly dependent on",
+                    "vi": "quá phụ thuộc"
+                  },
+                  {
+                    "en": "memorize vocabulary and grammar",
+                    "vi": "ghi nhớ từ vựng và ngữ pháp"
+                  },
+                  {
+                    "en": "language thinking skills",
+                    "vi": "kỹ năng tư duy ngôn ngữ"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "title": "BẤT LỢI 04: NGUY CƠ RÒ RỈ THÔNG TIN BẢO MẬT",
+                "point_vi": "Sử dụng công cụ dịch trực tuyến miễn phí có thể làm lộ thông tin cá nhân.",
+                "point_en": "Using free online translation tools may expose private information.",
+                "point_collocations": [
                   {
-                    "en": "pose data privacy and security risks",
-                    "vi": "tiềm ẩn rủi ro về bảo mật và quyền riêng tư dữ liệu"
-                  },
-                  {
-                    "en": "upload confidential documents",
-                    "vi": "tải lên các tài liệu mật"
-                  },
-                  {
-                    "en": "third-party cloud servers",
-                    "vi": "máy chủ đám mây của bên thứ ba"
-                  },
-                  {
-                    "en": "leak sensitive business information",
-                    "vi": "rò rỉ thông tin kinh doanh nhạy cảm"
-                  },
-                  {
-                    "en": "cybersecurity concerns",
-                    "vi": "mối lo ngại về an ninh mạng"
+                    "en": "expose private information",
+                    "vi": "làm lộ thông tin cá nhân (riêng tư)"
                   }
                 ],
-                "point_vi": "Sử dụng công cụ dịch trực tuyến miễn phí có thể làm lộ thông tin bảo mật.",
-                "point_en": "Using free online translation tools may expose confidential information to security risks.",
-                "evidence_vi": "Khi người dùng sao chép các hợp đồng kinh doanh, hồ sơ y tế hoặc dữ liệu cá nhân lên các trang web dịch máy công cộng, thông tin có thể bị lưu trữ trên máy chủ bên thứ ba và dẫn đến nguy cơ rò rỉ dữ liệu.",
-                "evidence_en": "When users paste business contracts, medical records, or personal data into public translation websites, the information may be stored on third-party servers, leading to potential data leaks."
+                "evidence_vi": "Người dùng đưa tài liệu mật lên các trang web dịch miễn phí có thể khiến dữ liệu quan trọng bị rò rỉ ra ngoài.",
+                "evidence_en": "Users putting secret documents on free translation websites can risk leaking important personal data.",
+                "evidence_collocations": [
+                  {
+                    "en": "secret documents",
+                    "vi": "tài liệu mật"
+                  },
+                  {
+                    "en": "free translation websites",
+                    "vi": "các trang web dịch miễn phí"
+                  },
+                  {
+                    "en": "leak important personal data",
+                    "vi": "rò rỉ dữ liệu cá nhân quan trọng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "expose private information",
+                    "vi": "lộ thông tin riêng tư"
+                  },
+                  {
+                    "en": "secret documents",
+                    "vi": "tài liệu mật"
+                  },
+                  {
+                    "en": "leak important personal data",
+                    "vi": "rò rỉ dữ liệu cá nhân"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 05",
-                "collocations": [
+                "title": "BẤT LỢI 05: THIẾU CẢM XÚC TRONG VĂN HỌC",
+                "point_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc trong các tác phẩm nghệ thuật.",
+                "point_en": "Machine translation cannot express emotions in literary works.",
+                "point_collocations": [
                   {
-                    "en": "lack emotional nuance and literary creativity",
-                    "vi": "thiếu sắc thái cảm xúc và sự sáng tạo văn học"
+                    "en": "express emotions",
+                    "vi": "truyền tải cảm xúc"
                   },
                   {
-                    "en": "word-for-word mechanical translation",
-                    "vi": "dịch máy móc từng từ"
-                  },
-                  {
-                    "en": "fail to convey cultural subtleties",
-                    "vi": "không truyền tải được sự tinh tế về văn hóa"
-                  },
-                  {
-                    "en": "poetry and creative literature",
-                    "vi": "thơ ca và văn học sáng tạo"
-                  },
-                  {
-                    "en": "reduce the quality of artistic works",
-                    "vi": "làm giảm chất lượng tác phẩm nghệ thuật"
+                    "en": "literary works",
+                    "vi": "các tác phẩm văn học (nghệ thuật)"
                   }
                 ],
-                "point_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc và chiều sâu văn hóa trong các tác phẩm văn học.",
-                "point_en": "Machine translation fails to capture emotional depth and cultural nuances in literary works.",
-                "evidence_vi": "Các thuật toán máy tính thường dịch theo khuôn mẫu thống kê nên không cảm nhận được nhịp điệu, ẩn dụ hay cảm xúc tinh tế của thơ ca, tiểu thuyết, do đó bản dịch máy thường khô khan và thiếu hồn.",
-                "evidence_en": "Computer algorithms rely on statistical patterns and cannot truly feel the rhythm, metaphors, or subtle emotions of poetry and novels, so machine-translated literary texts often sound robotic and lifeless."
+                "evidence_vi": "Máy tính không có trái tim và tâm hồn, vì vậy thơ ca dịch bằng máy thường khô khan và thiếu cảm xúc sâu lắng.",
+                "evidence_en": "Computers do not have feelings or hearts, so machine-translated poetry often sounds flat and lacks emotion.",
+                "evidence_collocations": [
+                  {
+                    "en": "feelings or hearts",
+                    "vi": "trái tim hay cảm xúc"
+                  },
+                  {
+                    "en": "machine-translated poetry",
+                    "vi": "thơ ca dịch bằng máy"
+                  },
+                  {
+                    "en": "sound flat and lack emotion",
+                    "vi": "nghe khô khan và thiếu cảm xúc"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "express emotions",
+                    "vi": "truyền tải cảm xúc"
+                  },
+                  {
+                    "en": "literary works",
+                    "vi": "tác phẩm văn học"
+                  },
+                  {
+                    "en": "lack emotion",
+                    "vi": "thiếu cảm xúc"
+                  }
+                ]
               }
             ]
           },
@@ -25355,304 +26711,400 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
-                  {
-                    "en": "educational",
-                    "vi": "mang tính giáo dục"
-                  },
-                  {
-                    "en": "television programmes",
-                    "vi": "chương trình truyền hình"
-                  },
-                  {
-                    "en": "science",
-                    "vi": "khoa học"
-                  },
-                  {
-                    "en": "nature",
-                    "vi": "thiên nhiên"
-                  },
-                  {
-                    "en": "history",
-                    "vi": "lịch sử"
-                  },
-                  {
-                    "en": "life skills",
-                    "vi": "kỹ năng sống"
-                  },
-                  {
-                    "en": "teach somebody about",
-                    "vi": "dạy ai về"
-                  },
-                  {
-                    "en": "learn about",
-                    "vi": "học về"
-                  }
-                ],
+                "title": "LỢI ÍCH 01: HỌC HỎI KIẾN THỨC BỔ ÍCH",
                 "point_vi": "Xem truyền hình có thể giúp trẻ em học được nhiều điều bổ ích.",
-                "point_en": "Watching television can be educational for children.",
-                "evidence_vi": "Nhiều chương trình dạy trẻ em về khoa học, thiên nhiên, lịch sử và các kỹ năng sống.",
-                "evidence_en": "Many television programmes teach children about science, nature, history, and life skills."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "point_en": "Watching television can help children learn useful knowledge.",
+                "point_collocations": [
                   {
-                    "en": "relax",
-                    "vi": "thư giãn"
+                    "en": "watching television",
+                    "vi": "xem truyền hình (tivi)"
                   },
                   {
-                    "en": "after school",
-                    "vi": "sau giờ học"
-                  },
-                  {
-                    "en": "entertainment programmes",
-                    "vi": "chương trình giải trí"
-                  },
-                  {
-                    "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
-                  },
-                  {
-                    "en": "feel happier",
-                    "vi": "cảm thấy vui vẻ hơn"
+                    "en": "learn useful knowledge",
+                    "vi": "học được nhiều điều bổ ích"
                   }
                 ],
-                "point_vi": "Xem truyền hình giúp trẻ em thư giãn sau giờ học.",
-                "point_en": "Watching television helps children relax after school.",
-                "evidence_vi": "Các chương trình giải trí có thể giúp các em giảm căng thẳng và cảm thấy vui vẻ hơn.",
-                "evidence_en": "Entertainment programmes can help them reduce stress and feel happier."
-              },
-              {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "evidence_vi": "Nhiều chương trình dạy trẻ em về khoa học và thế giới tự nhiên, nhờ đó các em mở rộng hiểu biết về cuộc sống.",
+                "evidence_en": "Many programmes teach children about science and nature, so they broaden their understanding of life.",
+                "evidence_collocations": [
                   {
-                    "en": "language skills",
-                    "vi": "kỹ năng ngôn ngữ"
+                    "en": "teach children about science and nature",
+                    "vi": "dạy trẻ em về khoa học và tự nhiên"
                   },
                   {
-                    "en": "vocabulary",
-                    "vi": "từ vựng"
-                  },
-                  {
-                    "en": "pronunciation",
-                    "vi": "phát âm"
-                  },
-                  {
-                    "en": "suitable programmes",
-                    "vi": "chương trình phù hợp"
-                  },
-                  {
-                    "en": "improve",
-                    "vi": "cải thiện"
+                    "en": "broaden understanding of life",
+                    "vi": "mở rộng hiểu biết về cuộc sống"
                   }
                 ],
+                "collocations": [
+                  {
+                    "en": "learn useful knowledge",
+                    "vi": "học kiến thức bổ ích"
+                  },
+                  {
+                    "en": "teach children about science and nature",
+                    "vi": "dạy về khoa học và tự nhiên"
+                  },
+                  {
+                    "en": "broaden understanding of life",
+                    "vi": "mở rộng hiểu biết"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: GIẢI TRÍ VÀ GIẢM CĂNG THẲNG",
+                "point_vi": "Xem truyền hình giúp trẻ em thư giãn sau những giờ học tập căng thẳng.",
+                "point_en": "Watching television helps children relax after hard study hours.",
+                "point_collocations": [
+                  {
+                    "en": "relax after hard study hours",
+                    "vi": "thư giãn sau những giờ học căng thẳng"
+                  }
+                ],
+                "evidence_vi": "Các bộ phim hoạt hình vui nhộn mang lại tiếng cười sảng khoái, vì vậy trẻ cảm thấy vui vẻ và tràn đầy năng lượng.",
+                "evidence_en": "Funny cartoons bring cheerful laughter, so children feel happy and full of energy.",
+                "evidence_collocations": [
+                  {
+                    "en": "funny cartoons",
+                    "vi": "phim hoạt hình vui nhộn"
+                  },
+                  {
+                    "en": "bring cheerful laughter",
+                    "vi": "mang lại tiếng cười sảng khoái"
+                  },
+                  {
+                    "en": "feel happy and full of energy",
+                    "vi": "cảm thấy vui vẻ và tràn đầy năng lượng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "relax after hard study hours",
+                    "vi": "thư giãn sau giờ học"
+                  },
+                  {
+                    "en": "funny cartoons",
+                    "vi": "phim hoạt hình vui nhộn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: PHÁT TRIỂN KỸ NĂNG NGÔN NGỮ",
                 "point_vi": "Xem truyền hình có thể giúp trẻ cải thiện kỹ năng ngôn ngữ.",
-                "point_en": "Watching television can improve children's language skills.",
-                "evidence_vi": "Các em có thể học thêm từ vựng và cách phát âm thông qua các chương trình phù hợp.",
-                "evidence_en": "They can learn new vocabulary and pronunciation through suitable programmes."
-              },
-              {
-                "title": "ADVANTAGE 04",
-                "collocations": [
+                "point_en": "Watching television can help children improve language skills.",
+                "point_collocations": [
                   {
-                    "en": "foster family bonding time",
-                    "vi": "thúc đẩy thời gian gắn kết gia đình"
-                  },
-                  {
-                    "en": "watch family-friendly programmes together",
-                    "vi": "cùng nhau xem các chương trình gia đình"
-                  },
-                  {
-                    "en": "discuss moral lessons",
-                    "vi": "thảo luận về các bài học đạo đức"
-                  },
-                  {
-                    "en": "share laughter and emotions",
-                    "vi": "chia sẻ tiếng cười và cảm xúc"
-                  },
-                  {
-                    "en": "create warm family memories",
-                    "vi": "tạo nên những kỷ niệm gia đình ấm áp"
+                    "en": "improve language skills",
+                    "vi": "cải thiện kỹ năng ngôn ngữ"
                   }
                 ],
+                "evidence_vi": "Trẻ nghe các nhân vật nói tiếng Anh trên tivi hằng ngày, do đó các em phát âm chuẩn hơn và học thêm từ mới.",
+                "evidence_en": "Children hear characters speaking English on television daily, so they pronounce words better and learn new vocabulary.",
+                "evidence_collocations": [
+                  {
+                    "en": "hear characters speaking English",
+                    "vi": "nghe các nhân vật nói tiếng Anh"
+                  },
+                  {
+                    "en": "pronounce words better",
+                    "vi": "phát âm từ ngữ chuẩn hơn"
+                  },
+                  {
+                    "en": "learn new vocabulary",
+                    "vi": "học thêm từ vựng mới"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "improve language skills",
+                    "vi": "cải thiện kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "pronounce words better",
+                    "vi": "phát âm tốt hơn"
+                  },
+                  {
+                    "en": "learn new vocabulary",
+                    "vi": "học từ mới"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: GẮN KẾT TÌNH CẢM GIA ĐÌNH",
                 "point_vi": "Cùng xem truyền hình giúp gắn kết tình cảm giữa cha mẹ và con cái.",
-                "point_en": "Watching television together can strengthen family bonds between parents and children.",
-                "evidence_vi": "Khi cả gia đình cùng xem một bộ phim hoạt hình hay chương trình đố vui vào buổi tối, cha mẹ và con cái có dịp trò chuyện, chia sẻ cảm xúc và giải thích cho trẻ những bài học ý nghĩa.",
-                "evidence_en": "When the whole family watches an animated movie or a quiz show together in the evening, parents and children can chat, share laughter, and discuss meaningful moral lessons."
-              },
-              {
-                "title": "ADVANTAGE 05",
-                "collocations": [
+                "point_en": "Watching television together strengthens family bonds.",
+                "point_collocations": [
                   {
-                    "en": "spark curiosity and artistic creativity",
-                    "vi": "khơi dậy sự tò mò và óc sáng tạo nghệ thuật"
+                    "en": "watching television together",
+                    "vi": "cùng xem truyền hình"
                   },
                   {
-                    "en": "music, art, and DIY programmes",
-                    "vi": "các chương trình âm nhạc, hội họa và thủ công"
-                  },
-                  {
-                    "en": "inspire new hobbies and talents",
-                    "vi": "truyền cảm hứng cho những sở thích và tài năng mới"
-                  },
-                  {
-                    "en": "develop vivid imagination",
-                    "vi": "phát triển trí tưởng tượng phong phú"
-                  },
-                  {
-                    "en": "explore diverse cultures",
-                    "vi": "khám phá các nền văn hóa đa dạng"
+                    "en": "strengthen family bonds",
+                    "vi": "gắn kết tình cảm gia đình"
                   }
                 ],
-                "point_vi": "Các chương trình nghệ thuật và khám phá giúp khơi dậy trí tưởng tượng và năng khiếu của trẻ.",
-                "point_en": "Art and discovery programmes help spark children's imagination and creative talents.",
-                "evidence_vi": "Những chương trình dạy vẽ, âm nhạc hay thí nghiệm khoa học vui trên tivi khuyến khích trẻ thử nghiệm các sở thích mới và phát triển tư duy sáng tạo trong cuộc sống.",
-                "evidence_en": "Television shows featuring drawing, music, or fun science experiments encourage children to try new hobbies and develop creative thinking in life."
+                "evidence_vi": "Cả nhà cùng xem các chương trình đố vui vào buổi tối, nhờ đó cha mẹ và con cái có nhiều kỷ niệm vui vẻ bên nhau.",
+                "evidence_en": "The whole family watches game shows together in the evening, so parents and children share many happy memories.",
+                "evidence_collocations": [
+                  {
+                    "en": "watch game shows together",
+                    "vi": "cùng xem các chương trình trò chơi (đố vui)"
+                  },
+                  {
+                    "en": "in the evening",
+                    "vi": "vào buổi tối"
+                  },
+                  {
+                    "en": "share happy memories",
+                    "vi": "chia sẻ nhiều kỷ niệm vui vẻ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "gắn kết tình cảm gia đình"
+                  },
+                  {
+                    "en": "watch game shows together",
+                    "vi": "cùng xem chương trình truyền hình"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: KHƠI DẬY TRÍ TƯỞNG TƯỢNG VÀ SÁNG TẠO",
+                "point_vi": "Các chương trình nghệ thuật trên tivi khơi dậy trí tưởng tượng của trẻ.",
+                "point_en": "Artistic television programmes inspire children's imagination.",
+                "point_collocations": [
+                  {
+                    "en": "inspire children's imagination",
+                    "vi": "khơi dậy trí tưởng tượng của trẻ"
+                  }
+                ],
+                "evidence_vi": "Những chương trình dạy vẽ và âm nhạc khuyến khích trẻ tự do sáng tạo, vì vậy các em hào hứng khám phá năng khiếu riêng.",
+                "evidence_en": "Drawing and music shows encourage children to create freely, so they feel excited to explore their own talents.",
+                "evidence_collocations": [
+                  {
+                    "en": "drawing and music shows",
+                    "vi": "các chương trình dạy vẽ và âm nhạc"
+                  },
+                  {
+                    "en": "create freely",
+                    "vi": "tự do sáng tạo"
+                  },
+                  {
+                    "en": "explore talents",
+                    "vi": "khám phá năng khiếu riêng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "inspire imagination",
+                    "vi": "khơi dậy trí tưởng tượng"
+                  },
+                  {
+                    "en": "create freely",
+                    "vi": "tự do sáng tạo"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
+                "title": "BẤT LỢI 01: LÃNG PHÍ THỜI GIAN HỌC TẬP",
+                "point_vi": "Xem truyền hình quá nhiều làm trẻ em lãng phí thời gian.",
+                "point_en": "Watching too much television wastes children's precious time.",
+                "point_collocations": [
+                  {
+                    "en": "watch too much television",
+                    "vi": "xem truyền hình quá nhiều"
+                  },
+                  {
+                    "en": "waste precious time",
+                    "vi": "lãng phí thời gian quý báu"
+                  }
+                ],
+                "evidence_vi": "Trẻ mải mê xem tivi suốt nhiều tiếng đồng hồ, do đó các em không còn thời gian để làm bài tập về nhà.",
+                "evidence_en": "Children get hooked on television for hours, so they have no time left for homework.",
+                "evidence_collocations": [
+                  {
+                    "en": "hooked on television for hours",
+                    "vi": "mải mê xem tivi suốt nhiều tiếng"
+                  },
+                  {
+                    "en": "no time left for homework",
+                    "vi": "không còn thời gian cho bài tập về nhà"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "waste time",
+                    "en": "waste precious time",
                     "vi": "lãng phí thời gian"
                   },
                   {
-                    "en": "useful activities",
-                    "vi": "hoạt động bổ ích"
-                  },
-                  {
-                    "en": "spend time",
-                    "vi": "dành thời gian"
-                  },
-                  {
-                    "en": "study",
-                    "vi": "học tập"
-                  },
-                  {
-                    "en": "waste",
-                    "vi": "lãng phí"
+                    "en": "no time left for homework",
+                    "vi": "không có thời gian làm bài tập"
                   }
-                ],
-                "point_vi": "Xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian.",
-                "point_en": "Watching too much television can waste children's time.",
-                "evidence_vi": "Các em có thể dành ít thời gian hơn cho việc học và các hoạt động hữu ích khác.",
-                "evidence_en": "They may spend less time studying and reading books, and this may affect their academic performance."
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
+                "title": "BẤT LỢI 02: ẢNH HƯỞNG XẤU ĐẾN THỂ CHẤT",
+                "point_vi": "Ngồi trước màn hình tivi quá lâu gây hại cho sức khỏe của trẻ nhỏ.",
+                "point_en": "Sitting in front of television screens too long harms young children's health.",
+                "point_collocations": [
+                  {
+                    "en": "sit in front of screens too long",
+                    "vi": "ngồi trước màn hình quá lâu"
+                  },
+                  {
+                    "en": "harm health",
+                    "vi": "gây hại cho sức khỏe"
+                  }
+                ],
+                "evidence_vi": "Thói quen ít vận động và nhìn màn hình liên tục dễ gây mỏi mắt, vì vậy trẻ có nguy cơ cao bị cận thị và béo phì.",
+                "evidence_en": "A lack of physical exercise and continuous screen time cause eye strain, so children face high risks of nearsightedness and obesity.",
+                "evidence_collocations": [
+                  {
+                    "en": "lack of physical exercise",
+                    "vi": "thiếu (ít) vận động thể chất"
+                  },
+                  {
+                    "en": "continuous screen time",
+                    "vi": "thời gian nhìn màn hình liên tục"
+                  },
+                  {
+                    "en": "cause eye strain",
+                    "vi": "gây mỏi mắt"
+                  },
+                  {
+                    "en": "high risks of nearsightedness and obesity",
+                    "vi": "nguy cơ cao bị cận thị và béo phì"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "affect health",
-                    "vi": "ảnh hưởng đến sức khỏe"
+                    "en": "harm health",
+                    "vi": "gây hại sức khỏe"
                   },
                   {
-                    "en": "screen",
-                    "vi": "màn hình"
+                    "en": "cause eye strain",
+                    "vi": "gây mỏi mắt"
                   },
                   {
-                    "en": "eye strain",
-                    "vi": "mỏi mắt"
-                  },
-                  {
-                    "en": "physical activity",
-                    "vi": "hoạt động thể chất"
-                  },
-                  {
-                    "en": "affect",
-                    "vi": "ảnh hưởng"
+                    "en": "risks of nearsightedness and obesity",
+                    "vi": "nguy cơ cận thị và béo phì"
                   }
-                ],
-                "point_vi": "Xem truyền hình quá nhiều có thể ảnh hưởng đến sức khỏe của trẻ em.",
-                "point_en": "Watching too much television may affect children's health.",
-                "evidence_vi": "Việc ngồi trước màn hình trong thời gian dài có thể gây mỏi mắt và ít vận động hơn.",
-                "evidence_en": "Sitting in front of the screen for a long time may cause eye strain and less physical activity."
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
+                "title": "BẤT LỢI 03: NGUY CƠ TIẾP XÚC NỘI DUNG XẤU",
+                "point_vi": "Một số chương trình truyền hình có thể chứa nội dung không phù hợp.",
+                "point_en": "Some television programmes contain inappropriate content for children.",
+                "point_collocations": [
+                  {
+                    "en": "contain inappropriate content",
+                    "vi": "chứa nội dung không phù hợp"
+                  }
+                ],
+                "evidence_vi": "Những cảnh bạo lực hoặc ngôn ngữ thô tục trên tivi có thể khiến trẻ bắt chước các hành vi xấu ngoài đời.",
+                "evidence_en": "Violent scenes or bad language on television can make children copy negative behaviors in real life.",
+                "evidence_collocations": [
+                  {
+                    "en": "violent scenes",
+                    "vi": "những cảnh bạo lực"
+                  },
+                  {
+                    "en": "bad language",
+                    "vi": "ngôn ngữ thô tục (xấu)"
+                  },
+                  {
+                    "en": "copy negative behaviors in real life",
+                    "vi": "bắt chước hành vi tiêu cực ngoài đời thực"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "inappropriate content",
                     "vi": "nội dung không phù hợp"
                   },
                   {
-                    "en": "parental guidance",
-                    "vi": "sự hướng dẫn của cha mẹ"
+                    "en": "violent scenes",
+                    "vi": "cảnh bạo lực"
                   },
                   {
-                    "en": "behaviour",
-                    "vi": "hành vi"
-                  },
-                  {
-                    "en": "contain",
-                    "vi": "chứa"
+                    "en": "copy negative behaviors",
+                    "vi": "bắt chước hành vi xấu"
                   }
-                ],
-                "point_vi": "Một số chương trình truyền hình có thể chứa nội dung không phù hợp.",
-                "point_en": "Some television programmes may contain inappropriate content.",
-                "evidence_vi": "Nếu không có sự hướng dẫn của cha mẹ, trẻ em có thể học những hành vi không tốt.",
-                "evidence_en": "Without parental guidance, children may learn inappropriate behaviour."
+                ]
               },
               {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "title": "BẤT LỢI 04: GIẢM SỰ TƯƠNG TÁC XÃ HỘI",
+                "point_vi": "Xem tivi quá nhiều làm giảm thời gian giao tiếp thực tế của trẻ em.",
+                "point_en": "Watching too much television reduces children's real-life social interaction.",
+                "point_collocations": [
                   {
-                    "en": "reduce face-to-face social interaction",
-                    "vi": "làm giảm sự tương tác xã hội trực tiếp"
-                  },
-                  {
-                    "en": "isolate children from peers",
-                    "vi": "cô lập trẻ khỏi bạn bè đồng trang lứa"
-                  },
-                  {
-                    "en": "spend less time playing outdoors",
-                    "vi": "dành ít thời gian vui chơi ngoài trời hơn"
-                  },
-                  {
-                    "en": "hinder communication skills",
-                    "vi": "cản trở kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "emotional detachment",
-                    "vi": "sự xa cách về mặt cảm xúc"
+                    "en": "reduce real-life social interaction",
+                    "vi": "giảm thời gian giao tiếp thực tế"
                   }
                 ],
-                "point_vi": "Xem tivi quá nhiều làm giảm thời gian giao tiếp trực tiếp với gia đình và bạn bè.",
-                "point_en": "Excessive television viewing reduces children's face-to-face interaction with family and peers.",
-                "evidence_vi": "Trẻ dành hàng giờ dán mắt vào màn hình sẽ ít ra ngoài vui chơi cùng bạn bè hoặc trò chuyện với người thân, và điều này có thể làm chậm sự phát triển kỹ năng giao tiếp và hòa nhập xã hội của trẻ.",
-                "evidence_en": "When children spend hours glued to screens, they spend far less time playing outdoors with friends or talking with relatives, so this habit can hinder the development of their social and communication skills."
+                "evidence_vi": "Trẻ ít ra ngoài chơi đùa cùng bạn bè hàng xóm, do đó các em chậm phát triển các kỹ năng giao tiếp cơ bản.",
+                "evidence_en": "Children rarely play outside with neighborhood friends, so they develop basic communication skills more slowly.",
+                "evidence_collocations": [
+                  {
+                    "en": "rarely play outside with friends",
+                    "vi": "hiếm khi ra ngoài chơi với bạn bè"
+                  },
+                  {
+                    "en": "develop basic communication skills slowly",
+                    "vi": "chậm phát triển kỹ năng giao tiếp cơ bản"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "reduce social interaction",
+                    "vi": "giảm giao tiếp xã hội"
+                  },
+                  {
+                    "en": "basic communication skills",
+                    "vi": "kỹ năng giao tiếp cơ bản"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 05",
-                "collocations": [
+                "title": "BẤT LỢI 05: GIẢM KHẢ NĂNG TẬP TRUNG KHI ĐỌC SÁCH",
+                "point_vi": "Thói quen xem tivi có thể làm giảm khả năng tập trung của trẻ.",
+                "point_en": "Television viewing habits can shorten children's attention spans.",
+                "point_collocations": [
                   {
-                    "en": "shortened attention span",
-                    "vi": "khả năng tập trung bị rút ngắn"
-                  },
-                  {
-                    "en": "passive information consumption",
-                    "vi": "tiếp nhận thông tin một cách thụ động"
-                  },
-                  {
-                    "en": "fast-paced visual effects",
-                    "vi": "hiệu ứng hình ảnh chuyển động nhanh"
-                  },
-                  {
-                    "en": "discourage critical thinking",
-                    "vi": "làm giảm tư duy phản biện"
-                  },
-                  {
-                    "en": "lose interest in reading books",
-                    "vi": "mất hứng thú với việc đọc sách"
+                    "en": "shorten children's attention spans",
+                    "vi": "làm giảm (ngắn lại) khả năng tập trung của trẻ"
                   }
                 ],
-                "point_vi": "Thói quen tiếp nhận hình ảnh thụ động có thể làm giảm khả năng tập trung và tư duy độc lập.",
-                "point_en": "Passive screen viewing can shorten children's attention spans and reduce independent thinking.",
-                "evidence_vi": "Khi quen với các hình ảnh chuyển động nhanh và âm thanh bắt tai trên tivi, trẻ dễ cảm thấy nhàm chán khi phải đọc sách hoặc giải quyết các bài tập đòi hỏi sự kiên nhẫn và suy nghĩ sâu.",
-                "evidence_en": "Once accustomed to fast-paced visuals and catchy sounds on television, children may easily feel bored when reading books or solving school tasks that require patience and deep thinking."
+                "evidence_vi": "Trẻ quen với hình ảnh nhấp nháy nhanh trên màn hình, vì vậy các em dễ cảm thấy buồn ngủ và chán nản khi đọc sách chữ.",
+                "evidence_en": "Children get used to fast-moving visuals on screens, so they easily feel bored when reading text books.",
+                "evidence_collocations": [
+                  {
+                    "en": "fast-moving visuals on screens",
+                    "vi": "hình ảnh chuyển động nhanh trên màn hình"
+                  },
+                  {
+                    "en": "feel bored",
+                    "vi": "cảm thấy chán nản"
+                  },
+                  {
+                    "en": "reading text books",
+                    "vi": "đọc sách chữ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "shorten attention spans",
+                    "vi": "giảm khả năng tập trung"
+                  },
+                  {
+                    "en": "feel bored",
+                    "vi": "cảm thấy chán nản"
+                  }
+                ]
               }
             ]
           },
@@ -27597,8 +29049,10 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: BẢO VỆ MÔI TRƯỜNG VÀ KHÍ HẬU",
+                "point_vi": "Năng lượng xanh giúp bảo vệ môi trường và chống biến đổi khí hậu.",
+                "point_en": "Green energy helps protect the environment and fight climate change.",
+                "point_collocations": [
                   {
                     "en": "green energy",
                     "vi": "năng lượng xanh"
@@ -27608,309 +29062,419 @@ const ESSAY_DATA = [
                     "vi": "bảo vệ môi trường"
                   },
                   {
-                    "en": "fossil fuels",
-                    "vi": "nhiên liệu hóa thạch"
-                  },
-                  {
-                    "en": "produce pollution",
-                    "vi": "tạo ra ô nhiễm"
-                  },
-                  {
-                    "en": "generate electricity",
-                    "vi": "sản xuất điện"
-                  },
-                  {
-                    "en": "much less pollution",
-                    "vi": "ít ô nhiễm hơn nhiều"
-                  },
-                  {
-                    "en": "unlike",
-                    "vi": "không giống như"
-                  },
-                  {
-                    "en": "produce",
-                    "vi": "tạo ra"
+                    "en": "fight climate change",
+                    "vi": "chống biến đổi khí hậu"
                   }
                 ],
-                "point_vi": "Năng lượng xanh giúp bảo vệ môi trường.",
-                "point_en": "Green energy helps protect the environment.",
-                "evidence_vi": "Không giống như nhiên liệu hóa thạch, năng lượng xanh tạo ra rất ít chất ô nhiễm trong quá trình sản xuất điện.",
-                "evidence_en": "Unlike fossil fuels, green energy produces much less pollution when generating electricity."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "evidence_vi": "Năng lượng mặt trời và gió không thải ra khí độc hại, nhờ đó bầu không khí trở nên trong lành và sạch đẹp hơn.",
+                "evidence_en": "Solar and wind power do not release toxic gases, so the air becomes much cleaner and fresher.",
+                "evidence_collocations": [
                   {
-                    "en": "renewable energy sources",
-                    "vi": "nguồn năng lượng tái tạo"
+                    "en": "solar and wind power",
+                    "vi": "năng lượng mặt trời và gió"
                   },
                   {
-                    "en": "solar power",
-                    "vi": "năng lượng mặt trời"
+                    "en": "do not release toxic gases",
+                    "vi": "không thải ra khí độc hại"
                   },
                   {
-                    "en": "wind power",
-                    "vi": "năng lượng gió"
-                  },
-                  {
-                    "en": "hydropower",
-                    "vi": "thủy điện"
-                  },
-                  {
-                    "en": "run out",
-                    "vi": "cạn kiệt"
-                  },
-                  {
-                    "en": "use",
-                    "vi": "sử dụng"
-                  },
-                  {
-                    "en": "can be used",
-                    "vi": "có thể được sử dụng"
+                    "en": "cleaner and fresher",
+                    "vi": "trong lành và sạch sẽ hơn"
                   }
                 ],
-                "point_vi": "Năng lượng xanh sử dụng các nguồn năng lượng tái tạo.",
-                "point_en": "Green energy uses renewable energy sources.",
-                "evidence_vi": "Năng lượng mặt trời, gió và nước có thể được sử dụng trong thời gian dài mà không bị cạn kiệt.",
-                "evidence_en": "Solar power, wind power, and hydropower can be used for a long time without running out."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "dependence on",
-                    "vi": "sự phụ thuộc vào"
+                    "en": "green energy",
+                    "vi": "năng lượng xanh"
                   },
                   {
-                    "en": "clean energy",
-                    "vi": "năng lượng sạch"
+                    "en": "solar and wind power",
+                    "vi": "năng lượng mặt trời và gió"
                   },
                   {
-                    "en": "future",
-                    "vi": "tương lai"
+                    "en": "cleaner and fresher",
+                    "vi": "trong lành và sạch hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: NGUỒN NĂNG LƯỢNG VÔ TẬN",
+                "point_vi": "Năng lượng tái tạo là nguồn năng lượng vô tận không bao giờ cạn kiệt.",
+                "point_en": "Renewable energy is an endless source that never runs out.",
+                "point_collocations": [
+                  {
+                    "en": "renewable energy",
+                    "vi": "năng lượng tái tạo"
                   },
                   {
-                    "en": "reduce dependence on",
-                    "vi": "giảm sự phụ thuộc vào"
+                    "en": "endless source",
+                    "vi": "nguồn vô tận"
+                  },
+                  {
+                    "en": "never runs out",
+                    "vi": "không bao giờ cạn kiệt"
                   }
                 ],
-                "point_vi": "Năng lượng xanh giúp giảm sự phụ thuộc vào nhiên liệu hóa thạch.",
-                "point_en": "Green energy reduces dependence on fossil fuels.",
-                "evidence_vi": "Điều này giúp các quốc gia sử dụng nhiều nguồn năng lượng sạch hơn trong tương lai.",
-                "evidence_en": "This helps countries use more clean energy in the future."
-              },
-              {
-                "title": "ADVANTAGE 04",
-                "collocations": [
+                "evidence_vi": "Ánh nắng mặt trời và sức gió luôn có sẵn tự nhiên hằng ngày, vì vậy con người không lo bị cạn kiệt như than đá và dầu mỏ.",
+                "evidence_en": "Sunlight and wind are naturally available every day, so humans do not worry about shortages like coal and oil.",
+                "evidence_collocations": [
                   {
-                    "en": "create green jobs and economic opportunities",
-                    "vi": "tạo việc làm xanh và cơ hội kinh tế"
+                    "en": "naturally available every day",
+                    "vi": "có sẵn tự nhiên mỗi ngày"
                   },
                   {
-                    "en": "renewable energy sector",
+                    "en": "do not worry about shortages",
+                    "vi": "không lo lắng về sự thiếu hụt (cạn kiệt)"
+                  },
+                  {
+                    "en": "like coal and oil",
+                    "vi": "như than đá và dầu mỏ"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "renewable energy",
+                    "vi": "năng lượng tái tạo"
+                  },
+                  {
+                    "en": "naturally available",
+                    "vi": "có sẵn tự nhiên"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: TIẾT KIỆM TIỀN ĐIỆN VỀ LÂU DÀI",
+                "point_vi": "Sử dụng năng lượng xanh giúp tiết kiệm chi phí năng lượng về lâu dài.",
+                "point_en": "Using green energy helps save energy costs in the long run.",
+                "point_collocations": [
+                  {
+                    "en": "save energy costs",
+                    "vi": "tiết kiệm chi phí năng lượng"
+                  },
+                  {
+                    "en": "in the long run",
+                    "vi": "về lâu dài"
+                  }
+                ],
+                "evidence_vi": "Khi lắp đặt pin mặt trời trên mái nhà, các hộ gia đình có thể tự tạo ra điện và giảm tiền điện hằng tháng.",
+                "evidence_en": "When installing solar panels on rooftops, households can produce their own power and cut monthly electricity bills.",
+                "evidence_collocations": [
+                  {
+                    "en": "install solar panels on rooftops",
+                    "vi": "lắp đặt pin mặt trời trên mái nhà"
+                  },
+                  {
+                    "en": "produce own power",
+                    "vi": "tự sản xuất điện"
+                  },
+                  {
+                    "en": "cut monthly electricity bills",
+                    "vi": "cắt giảm hóa đơn tiền điện hằng tháng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "save energy costs",
+                    "vi": "tiết kiệm tiền điện"
+                  },
+                  {
+                    "en": "install solar panels",
+                    "vi": "lắp pin mặt trời"
+                  },
+                  {
+                    "en": "cut monthly electricity bills",
+                    "vi": "giảm hóa đơn tiền điện"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 04: CẢI THIỆN SỨC KHỎE CỘNG ĐỒNG",
+                "point_vi": "Chuyển sang năng lượng sạch giúp cải thiện sức khỏe của người dân.",
+                "point_en": "Switching to clean energy helps improve public health.",
+                "point_collocations": [
+                  {
+                    "en": "switch to clean energy",
+                    "vi": "chuyển sang năng lượng sạch"
+                  },
+                  {
+                    "en": "improve public health",
+                    "vi": "cải thiện sức khỏe cộng đồng"
+                  }
+                ],
+                "evidence_vi": "Việc đóng cửa các nhà máy nhiệt điện than giúp giảm khói bụi, do đó người dân ít mắc các bệnh về đường hô hấp hơn.",
+                "evidence_en": "Closing coal power plants reduces fine dust, so citizens suffer from fewer breathing diseases.",
+                "evidence_collocations": [
+                  {
+                    "en": "close coal power plants",
+                    "vi": "đóng cửa các nhà máy nhiệt điện than"
+                  },
+                  {
+                    "en": "reduce fine dust",
+                    "vi": "giảm khói bụi mịn"
+                  },
+                  {
+                    "en": "fewer breathing diseases",
+                    "vi": "ít bệnh về đường hô hấp hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "improve public health",
+                    "vi": "cải thiện sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "fewer breathing diseases",
+                    "vi": "ít bệnh hô hấp hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 05: TẠO THÊM NHIỀU VIỆC LÀM MỚI",
+                "point_vi": "Ngành công nghiệp năng lượng tái tạo tạo ra hàng triệu việc làm mới.",
+                "point_en": "The renewable energy industry creates millions of new jobs.",
+                "point_collocations": [
+                  {
+                    "en": "renewable energy industry",
                     "vi": "ngành công nghiệp năng lượng tái tạo"
                   },
                   {
-                    "en": "manufacturing, installation, and maintenance",
-                    "vi": "sản xuất, lắp đặt và bảo trì"
-                  },
-                  {
-                    "en": "attract foreign technological investment",
-                    "vi": "thu hút đầu tư công nghệ nước ngoài"
-                  },
-                  {
-                    "en": "boost sustainable economic growth",
-                    "vi": "thúc đẩy tăng trưởng kinh tế bền vững"
+                    "en": "create millions of new jobs",
+                    "vi": "tạo ra hàng triệu việc làm mới"
                   }
                 ],
-                "point_vi": "Phát triển năng lượng xanh tạo ra hàng triệu việc làm mới trong ngành công nghệ sạch.",
-                "point_en": "Developing green energy creates millions of new jobs in the clean technology sector.",
-                "evidence_vi": "Việc sản xuất, lắp đặt và vận hành các tấm pin mặt trời hay tua-bin gió đòi hỏi lực lượng lao động lớn, nhờ đó giúp tạo thêm nhiều việc làm ổn định và thúc đẩy kinh tế địa phương phát triển.",
-                "evidence_en": "Manufacturing, installing, and maintaining solar panels and wind turbines require a large workforce, so this creates stable employment opportunities and stimulates local economic growth."
-              },
-              {
-                "title": "ADVANTAGE 05",
+                "evidence_vi": "Nhiều kỹ sư và công nhân được tuyển dụng để sản xuất và bảo trì tuabin gió, nhờ đó tỷ lệ thất nghiệp giảm xuống.",
+                "evidence_en": "Many engineers and workers get hired to build and maintain wind turbines, so unemployment rates fall.",
+                "evidence_collocations": [
+                  {
+                    "en": "engineers and workers",
+                    "vi": "kỹ sư và công nhân"
+                  },
+                  {
+                    "en": "build and maintain wind turbines",
+                    "vi": "sản xuất và bảo trì tuabin gió"
+                  },
+                  {
+                    "en": "unemployment rates fall",
+                    "vi": "tỷ lệ thất nghiệp giảm xuống"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "lower long-term operating costs",
-                    "vi": "giảm chi phí vận hành trong dài hạn"
+                    "en": "create new jobs",
+                    "vi": "tạo việc làm mới"
                   },
                   {
-                    "en": "free natural resources like sunlight and wind",
-                    "vi": "nguồn tài nguyên tự nhiên miễn phí như nắng và gió"
-                  },
-                  {
-                    "en": "reduce household electricity bills",
-                    "vi": "giảm hóa đơn tiền điện hộ gia đình"
-                  },
-                  {
-                    "en": "rooftop solar panels",
-                    "vi": "điện mặt trời áp mái"
-                  },
-                  {
-                    "en": "stable long-term energy prices",
-                    "vi": "giá năng lượng ổn định lâu dài"
+                    "en": "build and maintain wind turbines",
+                    "vi": "sản xuất và bảo dưỡng tuabin gió"
                   }
-                ],
-                "point_vi": "Năng lượng tái tạo giúp tiết kiệm chi phí vận hành và tiền điện trong dài hạn.",
-                "point_en": "Renewable energy helps lower operating costs and electricity bills in the long run.",
-                "evidence_vi": "Dù chi phí lắp đặt ban đầu cao, nguồn nắng và gió tự nhiên là hoàn toàn miễn phí, và nhờ vậy, các hộ gia đình và nhà máy lắp đặt điện mặt trời áp mái có thể giảm đáng kể hóa đơn tiền điện hằng tháng.",
-                "evidence_en": "Although initial installation costs are high, natural sunlight and wind are completely free, so households and factories with rooftop solar panels can significantly reduce their monthly electricity bills."
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: CHI PHÍ ĐẦU TƯ BAN ĐẦU CAO",
+                "point_vi": "Chi phí đầu tư ban đầu cho hệ thống năng lượng xanh rất đắt đỏ.",
+                "point_en": "Initial setup costs for green energy systems are very expensive.",
+                "point_collocations": [
                   {
-                    "en": "investment costs",
-                    "vi": "chi phí đầu tư"
+                    "en": "initial setup costs",
+                    "vi": "chi phí thiết lập (đầu tư) ban đầu"
                   },
                   {
-                    "en": "solar energy systems",
-                    "vi": "hệ thống năng lượng mặt trời"
-                  },
-                  {
-                    "en": "wind energy systems",
-                    "vi": "hệ thống điện gió"
-                  },
-                  {
-                    "en": "a large amount of money",
-                    "vi": "một khoản tiền lớn"
-                  },
-                  {
-                    "en": "require",
-                    "vi": "đòi hỏi"
-                  },
-                  {
-                    "en": "build",
-                    "vi": "xây dựng"
+                    "en": "very expensive",
+                    "vi": "rất đắt đỏ"
                   }
                 ],
-                "point_vi": "Năng lượng xanh đòi hỏi chi phí đầu tư cao.",
-                "point_en": "Green energy requires high investment costs.",
-                "evidence_vi": "Việc xây dựng các hệ thống năng lượng mặt trời hoặc điện gió cần rất nhiều tiền.",
-                "evidence_en": "Building solar or wind power plants requires huge capital, and this may put pressure on the budgets of governments or businesses."
+                "evidence_vi": "Việc mua sắm pin mặt trời và tuabin gió đòi hỏi số vốn lớn, vì vậy nhiều người nghèo khó có khả năng tiếp cận.",
+                "evidence_en": "Purchasing solar panels and wind turbines requires a large capital, so many poor families cannot afford them.",
+                "evidence_collocations": [
+                  {
+                    "en": "purchase solar panels and wind turbines",
+                    "vi": "mua sắm pin mặt trời và tuabin gió"
+                  },
+                  {
+                    "en": "require large capital",
+                    "vi": "đòi hỏi nguồn vốn lớn"
+                  },
+                  {
+                    "en": "cannot afford",
+                    "vi": "không có khả năng chi trả (tiếp cận)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "initial setup costs",
+                    "vi": "chi phí ban đầu"
+                  },
+                  {
+                    "en": "cannot afford",
+                    "vi": "không thể chi trả"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: PHỤ THUỘC VÀO THỜI TIẾT",
+                "point_vi": "Sản lượng điện xanh phụ thuộc rất nhiều vào điều kiện thời tiết.",
+                "point_en": "Green electricity generation depends heavily on weather conditions.",
+                "point_collocations": [
                   {
-                    "en": "weather conditions",
-                    "vi": "điều kiện thời tiết"
+                    "en": "electricity generation",
+                    "vi": "sản lượng điện (sản xuất điện)"
                   },
                   {
-                    "en": "produce electricity",
-                    "vi": "sản xuất điện"
-                  },
-                  {
-                    "en": "efficiently",
-                    "vi": "hiệu quả"
-                  },
-                  {
-                    "en": "poor weather conditions",
-                    "vi": "điều kiện thời tiết không thuận lợi"
-                  },
-                  {
-                    "en": "depend on",
-                    "vi": "phụ thuộc vào"
+                    "en": "depend heavily on weather conditions",
+                    "vi": "phụ thuộc nhiều vào điều kiện thời tiết"
                   }
                 ],
-                "point_vi": "Năng lượng xanh phụ thuộc vào điều kiện thời tiết.",
-                "point_en": "Green energy depends on weather conditions.",
-                "evidence_vi": "Ví dụ, năng lượng mặt trời và năng lượng gió không thể tạo ra điện hiệu quả khi thời tiết không thuận lợi.",
-                "evidence_en": "For example, solar and wind power cannot produce electricity efficiently in poor weather conditions."
+                "evidence_vi": "Vào những ngày trời mưa hoặc không có gió, lượng điện tạo ra rất ít và không đủ cung cấp cho sinh hoạt.",
+                "evidence_en": "On rainy or windless days, the electricity produced is very small and insufficient for daily needs.",
+                "evidence_collocations": [
+                  {
+                    "en": "rainy or windless days",
+                    "vi": "những ngày mưa hoặc không có gió"
+                  },
+                  {
+                    "en": "electricity produced",
+                    "vi": "lượng điện được tạo ra"
+                  },
+                  {
+                    "en": "insufficient for daily needs",
+                    "vi": "không đủ cho nhu cầu hằng ngày"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "depend on weather conditions",
+                    "vi": "phụ thuộc vào thời tiết"
+                  },
+                  {
+                    "en": "insufficient for daily needs",
+                    "vi": "không đủ cho nhu cầu hằng ngày"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: CHI PHÍ LƯU TRỮ VÀ PIN ĐẮT ĐỎ",
+                "point_vi": "Công nghệ lưu trữ điện mặt trời và điện gió còn nhiều hạn chế.",
+                "point_en": "Battery storage technology for renewable power remains limited.",
+                "point_collocations": [
                   {
-                    "en": "green energy facilities",
-                    "vi": "các công trình năng lượng xanh"
+                    "en": "battery storage technology",
+                    "vi": "công nghệ pin lưu trữ"
                   },
                   {
-                    "en": "large areas of land",
-                    "vi": "diện tích đất lớn"
-                  },
-                  {
-                    "en": "solar farms",
-                    "vi": "trang trại điện mặt trời"
-                  },
-                  {
-                    "en": "wind farms",
-                    "vi": "trang trại điện gió"
-                  },
-                  {
-                    "en": "operate",
-                    "vi": "hoạt động"
-                  },
-                  {
-                    "en": "need",
-                    "vi": "cần"
+                    "en": "remain limited",
+                    "vi": "vẫn còn nhiều hạn chế"
                   }
                 ],
-                "point_vi": "Các công trình năng lượng xanh cần nhiều diện tích đất.",
-                "point_en": "Green energy facilities require large areas of land.",
-                "evidence_vi": "Các trang trại điện mặt trời hoặc điện gió thường cần không gian rộng để hoạt động.",
-                "evidence_en": "Solar farms and wind farms usually need large areas to operate."
+                "evidence_vi": "Pin lưu trữ dung lượng lớn có giá thành rất cao và tuổi thọ ngắn, do đó người dùng phải thay pin tốn kém sau vài năm.",
+                "evidence_en": "Large storage batteries are expensive and have short lifespans, so users must replace them expensively after a few years.",
+                "evidence_collocations": [
+                  {
+                    "en": "large storage batteries",
+                    "vi": "pin lưu trữ dung lượng lớn"
+                  },
+                  {
+                    "en": "short lifespans",
+                    "vi": "tuổi thọ ngắn"
+                  },
+                  {
+                    "en": "replace after a few years",
+                    "vi": "thay thế sau vài năm"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "battery storage",
+                    "vi": "lưu trữ pin"
+                  },
+                  {
+                    "en": "short lifespans",
+                    "vi": "tuổi thọ ngắn"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 04",
-                "collocations": [
+                "title": "BẤT LỢI 04: CHIẾM NHIỀU DIỆN TÍCH ĐẤT ĐAI",
+                "point_vi": "Các trang trại điện gió và mặt trời chiếm diện tích đất đai khổng lồ.",
+                "point_en": "Wind and solar farms take up vast amounts of land.",
+                "point_collocations": [
                   {
-                    "en": "energy storage and grid integration challenges",
-                    "vi": "thách thức về lưu trữ năng lượng và tích hợp lưới điện"
+                    "en": "wind and solar farms",
+                    "vi": "các trang trại điện gió và mặt trời"
                   },
                   {
-                    "en": "expensive battery storage systems",
-                    "vi": "hệ thống pin lưu trữ đắt đỏ"
-                  },
-                  {
-                    "en": "overload existing power grids",
-                    "vi": "gây quá tải lưới điện hiện hữu"
-                  },
-                  {
-                    "en": "waste surplus electricity",
-                    "vi": "lãng phí lượng điện dư thừa"
-                  },
-                  {
-                    "en": "require smart grid upgrades",
-                    "vi": "đòi hỏi nâng cấp lưới điện thông minh"
+                    "en": "take up vast amounts of land",
+                    "vi": "chiếm diện tích đất đai khổng lồ"
                   }
                 ],
-                "point_vi": "Việc lưu trữ điện năng và tích hợp vào lưới điện quốc gia còn gặp nhiều rào cản kỹ thuật.",
-                "point_en": "Storing renewable electricity and integrating it into national power grids remain technically challenging.",
-                "evidence_vi": "Hệ thống pin lưu trữ công suất lớn hiện nay vẫn rất đắt đỏ, trong khi lượng điện mặt trời tạo ra vào buổi trưa dễ gây quá tải lưới điện truyền tải nếu hạ tầng chưa được nâng cấp đồng bộ.",
-                "evidence_en": "High-capacity battery storage systems remain very expensive, and surplus solar electricity generated at midday can easily overload transmission grids if infrastructure is not upgraded."
+                "evidence_vi": "Việc lắp đặt hàng triệu tấm pin mặt trời cần phá bỏ nhiều cánh rừng, vì vậy môi trường sống của các loài động vật bị thu hẹp.",
+                "evidence_en": "Installing millions of solar panels requires clearing natural land, so wildlife habitats get reduced.",
+                "evidence_collocations": [
+                  {
+                    "en": "clear natural land",
+                    "vi": "phát quang đất đai tự nhiên (rừng)"
+                  },
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống của động vật hoang dã"
+                  },
+                  {
+                    "en": "get reduced",
+                    "vi": "bị thu hẹp"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "take up vast land",
+                    "vi": "chiếm diện tích đất lớn"
+                  },
+                  {
+                    "en": "wildlife habitats",
+                    "vi": "môi trường sống hoang dã"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 05",
-                "collocations": [
+                "title": "BẤT LỢI 05: VẤN ĐỀ TÁI CHẾ VÀ XỬ LÝ RÁC THẢI PIN",
+                "point_vi": "Việc xử lý các tấm pin mặt trời hết hạn sử dụng là thách thức lớn.",
+                "point_en": "Recycling expired solar panels is a major challenge.",
+                "point_collocations": [
                   {
-                    "en": "environmental impact of equipment disposal",
-                    "vi": "tác động môi trường của việc xử lý thiết bị hết hạn"
+                    "en": "recycling expired solar panels",
+                    "vi": "tái chế pin mặt trời hết hạn"
                   },
                   {
-                    "en": "expired solar panels and wind turbine blades",
-                    "vi": "tấm pin mặt trời và cánh quạt gió hết niên hạn"
-                  },
-                  {
-                    "en": "difficult to recycle heavy metals",
-                    "vi": "khó tái chế các kim loại nặng"
-                  },
-                  {
-                    "en": "affect local wildlife and bird migration",
-                    "vi": "ảnh hưởng đến động vật hoang dã và chim di cư"
-                  },
-                  {
-                    "en": "industrial waste management",
-                    "vi": "quản lý chất thải công nghiệp"
+                    "en": "major challenge",
+                    "vi": "thách thức lớn"
                   }
                 ],
-                "point_vi": "Việc xử lý các tấm pin mặt trời hết hạn sử dụng và tác động đến hệ sinh thái địa phương là vấn đề đáng lo ngại.",
-                "point_en": "Disposing of expired solar panels and protecting local ecosystems pose new environmental concerns.",
-                "evidence_vi": "Sau khoảng 20–25 năm hoạt động, các tấm pin mặt trời và cánh tua-bin gió cũ sẽ trở thành rác thải công nghiệp khó tái chế, và các trạm điện gió có thể gây tiếng ồn và ảnh hưởng đến loài chim di cư.",
-                "evidence_en": "After 20 to 25 years of use, old solar panels and wind turbine blades become industrial waste that is difficult to recycle, and wind farms can create noise and affect migrating birds."
+                "evidence_vi": "Các tấm pin cũ chứa nhiều kim loại nặng độc hại, do đó nếu không được xử lý cẩn thận, chúng có thể làm nhiễm độc đất và nguồn nước.",
+                "evidence_en": "Old panels contain toxic heavy metals, so if not treated properly, they can poison soil and water sources.",
+                "evidence_collocations": [
+                  {
+                    "en": "toxic heavy metals",
+                    "vi": "các kim loại nặng độc hại"
+                  },
+                  {
+                    "en": "not treated properly",
+                    "vi": "nếu không được xử lý cẩn thận"
+                  },
+                  {
+                    "en": "poison soil and water sources",
+                    "vi": "làm nhiễm độc đất và nguồn nước"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "toxic heavy metals",
+                    "vi": "kim loại nặng độc hại"
+                  },
+                  {
+                    "en": "poison soil and water",
+                    "vi": "làm nhiễm độc đất và nước"
+                  }
+                ]
               }
             ]
           },
@@ -29887,180 +31451,244 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: NỘI DUNG CHUẨN MỰC VÀ ĐƯỢC KIỂM ĐỊNH",
+                "point_vi": "Sách giáo khoa cung cấp nội dung kiến thức chuẩn mực và đáng tin cậy.",
+                "point_en": "Textbooks provide standardized and reliable knowledge.",
+                "point_collocations": [
+                  {
+                    "en": "standardized and reliable knowledge",
+                    "vi": "kiến thức chuẩn mực và đáng tin cậy"
+                  }
+                ],
+                "evidence_vi": "Các bài học được biên soạn kỹ lưỡng bởi các chuyên gia giáo dục, vì vậy học sinh luôn được tiếp thu thông tin chính xác.",
+                "evidence_en": "Lessons are carefully written by educational experts, so students always receive accurate information.",
+                "evidence_collocations": [
+                  {
+                    "en": "carefully written by experts",
+                    "vi": "được biên soạn kỹ lưỡng bởi các chuyên gia"
+                  },
+                  {
+                    "en": "receive accurate information",
+                    "vi": "tiếp thu thông tin chính xác"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "organized lessons",
-                    "vi": "bài học có hệ thống"
+                    "en": "reliable knowledge",
+                    "vi": "kiến thức đáng tin cậy"
                   },
                   {
-                    "en": "clear order",
-                    "vi": "trình tự rõ ràng"
+                    "en": "receive accurate information",
+                    "vi": "nhận thông tin chính xác"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: CẤU TRÚC HỌC TẬP RÕ RÀNG VÀ HỆ THỐNG",
+                "point_vi": "Sách giáo khoa có cấu trúc bài học rõ ràng và có hệ thống.",
+                "point_en": "Textbooks offer clear and structured learning paths.",
+                "point_collocations": [
+                  {
+                    "en": "structured learning paths",
+                    "vi": "lộ trình học tập rõ ràng và có hệ thống"
+                  }
+                ],
+                "evidence_vi": "Kiến thức được sắp xếp từ dễ đến khó theo từng chương, nhờ đó học sinh có thể tự ôn tập ở nhà một cách khoa học.",
+                "evidence_en": "Lessons progress from basic to advanced levels chapter by chapter, so students can review at home systematically.",
+                "evidence_collocations": [
+                  {
+                    "en": "from basic to advanced levels",
+                    "vi": "từ cơ bản đến nâng cao"
                   },
                   {
-                    "en": "follow the content",
-                    "vi": "theo dõi nội dung"
+                    "en": "chapter by chapter",
+                    "vi": "theo từng chương"
                   },
                   {
-                    "en": "systematic learning",
+                    "en": "review at home systematically",
+                    "vi": "tự ôn tập ở nhà một cách khoa học (hệ thống)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "structured learning",
                     "vi": "học tập có hệ thống"
                   },
                   {
-                    "en": "study more easily",
-                    "vi": "học tập dễ dàng hơn"
+                    "en": "review at home",
+                    "vi": "tự ôn tập tại nhà"
                   }
-                ],
-                "point_vi": "Sách giáo khoa cung cấp các bài học được sắp xếp có hệ thống.",
-                "point_en": "Textbooks provide organized lessons.",
-                "evidence_vi": "Các bài học được trình bày theo một thứ tự khoa học và rõ ràng, nhờ đó học sinh có thể theo dõi và tiếp thu kiến thức từng bước một.",
-                "evidence_en": "Lessons are arranged in a logical and systematic order, so students can follow and absorb knowledge step by step."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 03: TIỆN LỢI VÀ KHÔNG PHỤ THUỘC CÔNG NGHỆ",
+                "point_vi": "Sách giáo khoa in giấy rất tiện lợi và không phụ thuộc vào thiết bị điện tử.",
+                "point_en": "Printed textbooks are convenient and do not rely on electronic devices.",
+                "point_collocations": [
                   {
-                    "en": "useful exercises",
-                    "vi": "bài tập hữu ích"
+                    "en": "printed textbooks",
+                    "vi": "sách giáo khoa in giấy"
                   },
                   {
-                    "en": "practise and review",
-                    "vi": "thực hành và ôn tập"
-                  },
-                  {
-                    "en": "reinforce knowledge",
-                    "vi": "củng cố kiến thức"
-                  },
-                  {
-                    "en": "apply knowledge",
-                    "vi": "áp dụng kiến thức"
-                  },
-                  {
-                    "en": "remember lessons",
-                    "vi": "nhớ bài học"
+                    "en": "do not rely on electronic devices",
+                    "vi": "không phụ thuộc vào thiết bị điện tử"
                   }
                 ],
-                "point_vi": "Sách giáo khoa cung cấp các bài tập hữu ích cho học sinh.",
-                "point_en": "Textbooks provide useful exercises for students.",
-                "evidence_vi": "Sách giáo khoa cung cấp nguồn tài liệu chuẩn hóa cho tất cả các trường, vì vậy mọi học sinh đều được tiếp cận nền giáo dục công bằng.",
-                "evidence_en": "Textbooks provide standardized knowledge across all schools, so all students enjoy equal access to core educational content."
-              },
-              {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "evidence_vi": "Học sinh có thể mở sách học mọi lúc mọi nơi mà không lo bị hết pin hay mất mạng Internet.",
+                "evidence_en": "Students can open books anywhere without worrying about battery life or lost Internet connection.",
+                "evidence_collocations": [
                   {
-                    "en": "important knowledge",
-                    "vi": "kiến thức quan trọng"
+                    "en": "open books anywhere",
+                    "vi": "mở sách học ở bất cứ đâu"
                   },
                   {
-                    "en": "learning resource",
-                    "vi": "nguồn tài liệu học tập"
+                    "en": "battery life",
+                    "vi": "thời lượng pin"
                   },
                   {
-                    "en": "different subjects",
-                    "vi": "các môn học khác nhau"
-                  },
-                  {
-                    "en": "study and review",
-                    "vi": "học bài và ôn tập"
-                  },
-                  {
-                    "en": "reliable material",
-                    "vi": "tài liệu đáng tin cậy"
+                    "en": "lost Internet connection",
+                    "vi": "mất kết nối mạng Internet"
                   }
                 ],
-                "point_vi": "Sách giáo khoa cung cấp kiến thức quan trọng cho các môn học khác nhau.",
-                "point_en": "Textbooks provide important knowledge for different subjects.",
-                "evidence_vi": "Học sinh có thể tự xem lại bài giảng và làm bài tập ôn tập tại nhà, do đó các em củng cố kiến thức đã học trên lớp hiệu quả hơn.",
-                "evidence_en": "Students can review lesson explanations and complete practice exercises at home, so they consolidate classroom learning effectively."
+                "collocations": [
+                  {
+                    "en": "printed textbooks",
+                    "vi": "sách in giấy"
+                  },
+                  {
+                    "en": "lost Internet connection",
+                    "vi": "mất kết nối mạng"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: THÔNG TIN CHẬM CẬP NHẬT",
+                "point_vi": "Sách giáo khoa thường chậm cập nhật những kiến thức mới nhất.",
+                "point_en": "Textbooks are often slow to update the latest knowledge.",
+                "point_collocations": [
                   {
-                    "en": "rely on textbooks",
-                    "vi": "phụ thuộc vào sách giáo khoa"
+                    "en": "slow to update",
+                    "vi": "chậm cập nhật"
                   },
                   {
-                    "en": "limit creativity",
-                    "vi": "hạn chế sự sáng tạo"
-                  },
-                  {
-                    "en": "fixed content",
-                    "vi": "nội dung cố định / có sẵn"
-                  },
-                  {
-                    "en": "develop own ideas",
-                    "vi": "phát triển ý tưởng riêng"
-                  },
-                  {
-                    "en": "lack of original thinking",
-                    "vi": "thiếu tư duy độc lập"
+                    "en": "latest knowledge",
+                    "vi": "kiến thức mới nhất"
                   }
                 ],
-                "point_vi": "Việc phụ thuộc quá nhiều vào sách giáo khoa có thể hạn chế sự sáng tạo của học sinh.",
-                "point_en": "Relying too much on textbooks may limit students' creativity.",
-                "evidence_vi": "Học sinh thường chỉ học thụ động theo những gì sách viết sẵn, vì vậy các em ít có cơ hội rèn luyện tư duy phản biện và óc sáng tạo.",
-                "evidence_en": "Students often rely passively on fixed textbook content, so they have fewer opportunities to develop critical thinking and creativity."
+                "evidence_vi": "Quá trình tái bản sách mất nhiều năm, do đó nhiều số liệu thực tế trong sách đã trở nên lỗi thời.",
+                "evidence_en": "Reprinting books takes many years, so much data in textbooks quickly becomes outdated.",
+                "evidence_collocations": [
+                  {
+                    "en": "reprinting books",
+                    "vi": "tái bản sách"
+                  },
+                  {
+                    "en": "takes many years",
+                    "vi": "mất nhiều năm"
+                  },
+                  {
+                    "en": "becomes outdated",
+                    "vi": "trở nên lỗi thời"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "slow to update",
+                    "vi": "chậm cập nhật"
+                  },
+                  {
+                    "en": "becomes outdated",
+                    "vi": "trở nên lỗi thời"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: THIẾU TÍNH TƯƠNG TÁC VÀ HÌNH ẢNH ĐỘNG",
+                "point_vi": "Sách giáo khoa truyền thống thiếu tính tương tác sinh động.",
+                "point_en": "Traditional textbooks lack lively interactivity.",
+                "point_collocations": [
                   {
-                    "en": "less flexible",
-                    "vi": "kém linh hoạt hơn"
+                    "en": "traditional textbooks",
+                    "vi": "sách giáo khoa truyền thống"
                   },
                   {
-                    "en": "match students' needs",
-                    "vi": "phù hợp với nhu cầu học sinh"
-                  },
-                  {
-                    "en": "adapt teaching content",
-                    "vi": "điều chỉnh nội dung dạy học"
-                  },
-                  {
-                    "en": "rigid learning method",
-                    "vi": "phương pháp học tập cứng nhắc"
-                  },
-                  {
-                    "en": "different learning paces",
-                    "vi": "các tốc độ học khác nhau"
+                    "en": "lack lively interactivity",
+                    "vi": "thiếu tính tương tác sinh động"
                   }
                 ],
-                "point_vi": "Việc chỉ sử dụng sách giáo khoa có thể khiến việc học kém linh hoạt hơn.",
-                "point_en": "Using only textbooks may make learning less flexible.",
-                "evidence_vi": "Sách giáo khoa in ấn mất nhiều năm mới được tái bản, do đó một số số liệu và thông tin trong sách có thể trở nên lỗi thời.",
-                "evidence_en": "Printed textbooks take years to revise, so certain data and examples can become outdated compared to rapid real-world changes."
+                "evidence_vi": "Các trang sách chỉ toàn chữ và hình ảnh tĩnh, vì vậy học sinh dễ cảm thấy nhàm chán khi phải đọc quá lâu.",
+                "evidence_en": "Pages only have text and still pictures, so students easily feel bored when reading too long.",
+                "evidence_collocations": [
+                  {
+                    "en": "text and still pictures",
+                    "vi": "chữ viết và hình ảnh tĩnh"
+                  },
+                  {
+                    "en": "feel bored",
+                    "vi": "cảm thấy nhàm chán"
+                  },
+                  {
+                    "en": "reading too long",
+                    "vi": "đọc quá lâu"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lack interactivity",
+                    "vi": "thiếu tương tác"
+                  },
+                  {
+                    "en": "feel bored",
+                    "vi": "cảm thấy nhàm chán"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: GÁNH NẶNG CẶP SÁCH VÀ CHI PHÍ IN ẤN",
+                "point_vi": "Mang vác nhiều sách giáo khoa có thể gây hại cho cột sống của trẻ.",
+                "point_en": "Carrying heavy textbooks can harm children's spinal health.",
+                "point_collocations": [
                   {
-                    "en": "too dependent on",
-                    "vi": "quá phụ thuộc vào"
+                    "en": "carrying heavy textbooks",
+                    "vi": "mang vác sách giáo khoa nặng"
                   },
                   {
-                    "en": "search for information",
-                    "vi": "tìm kiếm thông tin"
-                  },
-                  {
-                    "en": "other learning resources",
-                    "vi": "các nguồn học tập khác"
-                  },
-                  {
-                    "en": "passive learning habit",
-                    "vi": "thói quen học tập thụ động"
-                  },
-                  {
-                    "en": "expand knowledge",
-                    "vi": "mở rộng kiến thức"
+                    "en": "harm spinal health",
+                    "vi": "gây hại cho sức khỏe cột sống"
                   }
                 ],
-                "point_vi": "Học sinh có thể trở nên quá phụ thuộc vào sách giáo khoa.",
-                "point_en": "Students may become too dependent on textbooks.",
-                "evidence_vi": "Một bộ sách giáo khoa duy nhất khó có thể phù hợp với mọi đối tượng, vì vậy những học sinh yếu dễ bị đuối sức và chán nản.",
-                "evidence_en": "A single textbook series cannot suit every student's learning pace, so slower learners may struggle and feel discouraged."
+                "evidence_vi": "Học sinh phải mang theo cặp sách nặng trĩu mỗi ngày đến trường, do đó các em dễ bị đau lưng và gù lưng.",
+                "evidence_en": "Children must carry heavy backpacks to school every day, so they easily suffer from back pain.",
+                "evidence_collocations": [
+                  {
+                    "en": "carry heavy backpacks",
+                    "vi": "mang theo cặp sách nặng trĩu"
+                  },
+                  {
+                    "en": "to school every day",
+                    "vi": "đến trường mỗi ngày"
+                  },
+                  {
+                    "en": "suffer from back pain",
+                    "vi": "bị đau lưng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy textbooks",
+                    "vi": "sách giáo khoa nặng"
+                  },
+                  {
+                    "en": "carry heavy backpacks",
+                    "vi": "đeo cặp nặng"
+                  },
+                  {
+                    "en": "suffer from back pain",
+                    "vi": "đau lưng"
+                  }
+                ]
               }
             ]
           },
@@ -32107,136 +33735,317 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: CUNG CẤP NHIỀU NGUỒN TÀI LIỆU (PROVIDE MORE LEARNING RESOURCES)",
+                "title": "LỢI ÍCH 01: CUNG CẤP NHIỀU NGUỒN TÀI LIỆU",
                 "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nhiều tài liệu học tập hơn.",
                 "point_en": "Using multiple textbooks provides students with more diverse learning resources.",
+                "point_collocations": [
+                  {
+                    "en": "multiple textbooks",
+                    "vi": "nhiều bộ sách giáo khoa"
+                  },
+                  {
+                    "en": "diverse learning resources",
+                    "vi": "nhiều tài liệu học tập đa dạng hơn"
+                  }
+                ],
                 "evidence_vi": "Các bộ sách giáo khoa khác nhau có thể giải thích cùng một bài học theo nhiều cách thú vị. Ngoài ra, học sinh có cơ hội tiếp cận nhiều ví dụ và bài tập thực hành phong phú hơn. Nhờ đó, người học có thể hiểu sâu sắc các kiến thức khó và nâng cao kết quả học tập.",
                 "evidence_en": "Different textbooks can explain the same subject in varied and interesting ways. In addition, students have opportunities to access richer examples and practical exercises. As a result, learners can understand difficult concepts deeply and improve their test results.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "different textbooks",
+                      "vi": "các bộ sách giáo khoa khác nhau"
+                    },
+                    {
+                      "en": "explain the same subject",
+                      "vi": "giải thích cùng một bài học"
+                    },
+                    {
+                      "en": "varied and interesting ways",
+                      "vi": "nhiều cách thú vị và phong phú"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "access richer examples",
+                      "vi": "tiếp cận nhiều ví dụ phong phú hơn"
+                    },
+                    {
+                      "en": "practical exercises",
+                      "vi": "bài tập thực hành"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "understand difficult concepts deeply",
+                      "vi": "hiểu sâu sắc các kiến thức khó"
+                    },
+                    {
+                      "en": "improve test results",
+                      "vi": "nâng cao kết quả học tập (thi cử)"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
                     "en": "multiple textbooks",
                     "vi": "nhiều sách giáo khoa"
                   },
                   {
-                    "en": "learning materials",
-                    "vi": "tài liệu học tập"
+                    "en": "diverse learning resources",
+                    "vi": "tài liệu phong phú"
                   },
                   {
-                    "en": "different explanations",
-                    "vi": "cách giải thích khác nhau"
-                  },
-                  {
-                    "en": "practice exercises",
+                    "en": "practical exercises",
                     "vi": "bài tập thực hành"
-                  },
-                  {
-                    "en": "difficult lessons",
-                    "vi": "bài học khó"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 02: ĐÁP ỨNG NHU CẦU HỌC TẬP KHÁC NHAU (MEET DIFFERENT LEARNING NEEDS)",
+                "title": "LỢI ÍCH 02: ĐÁP ỨNG NHU CẦU HỌC TẬP KHÁC NHAU",
                 "point_vi": "Có nhiều bộ sách giáo khoa giúp đáp ứng các nhu cầu học tập khác nhau của học sinh.",
                 "point_en": "Having multiple textbooks helps meet different learning needs of students.",
-                "evidence_vi": "Các cuốn sách giáo khoa thường có sự khác biệt rõ rệt về độ khó và phong cách trình bày. Vì vậy, giáo viên có thể lựa chọn những cuốn sách phù hợp nhất cho từng nhóm học sinh. Do đó, tất cả người học đều có thể tiếp thu bài giảng dễ dàng và học tập tự tin hơn.",
-                "evidence_en": "Textbooks often differ noticeably in difficulty and presentation style. Therefore, teachers can select the most suitable books for each group of students. Consequently, all learners can absorb lessons easily and study with greater confidence.",
-                "collocations": [
+                "point_collocations": [
                   {
                     "en": "meet different learning needs",
-                    "vi": "đáp ứng nhu cầu học tập khác nhau"
-                  },
+                    "vi": "đáp ứng các nhu cầu học tập khác nhau"
+                  }
+                ],
+                "evidence_vi": "Các cuốn sách giáo khoa thường có sự khác biệt rõ rệt về độ khó và phong cách trình bày. Vì vậy, giáo viên có thể lựa chọn những cuốn sách phù hợp nhất cho từng nhóm học sinh. Do đó, tất cả người học đều có thể tiếp thu bài giảng dễ dàng và học tập tự tin hơn.",
+                "evidence_en": "Textbooks often differ noticeably in difficulty and presentation style. Therefore, teachers can select the most suitable books for each group of students. Consequently, all learners can absorb lessons easily and study with greater confidence.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "differ in difficulty",
+                      "vi": "khác biệt về độ khó"
+                    },
+                    {
+                      "en": "presentation style",
+                      "vi": "phong cách trình bày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "select the most suitable books",
+                      "vi": "lựa chọn những cuốn sách phù hợp nhất"
+                    },
+                    {
+                      "en": "each group of students",
+                      "vi": "từng nhóm học sinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "absorb lessons easily",
+                      "vi": "tiếp thu bài giảng dễ dàng"
+                    },
+                    {
+                      "en": "study with greater confidence",
+                      "vi": "học tập với sự tự tin cao hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
                   {
-                    "en": "learning styles",
-                    "vi": "phong cách học tập"
-                  },
-                  {
-                    "en": "study ability",
-                    "vi": "khả năng học tập"
+                    "en": "meet learning needs",
+                    "vi": "đáp ứng nhu cầu học tập"
                   },
                   {
                     "en": "suitable books",
                     "vi": "sách phù hợp"
+                  },
+                  {
+                    "en": "study with confidence",
+                    "vi": "học tập tự tin"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 03: TĂNG TÍNH LINH HOẠT CHO GIÁO VIÊN (GIVE TEACHERS MORE FLEXIBILITY)",
+                "title": "LỢI ÍCH 03: TĂNG TÍNH LINH HOẠT CHO GIÁO VIÊN",
                 "point_vi": "Nhiều sách giáo khoa mang lại cho giáo viên sự linh hoạt hơn trong giảng dạy.",
                 "point_en": "Multiple textbooks give teachers more flexibility in teaching.",
+                "point_collocations": [
+                  {
+                    "en": "give teachers more flexibility",
+                    "vi": "mang lại cho giáo viên sự linh hoạt hơn"
+                  },
+                  {
+                    "en": "in teaching",
+                    "vi": "trong giảng dạy"
+                  }
+                ],
                 "evidence_vi": "Thầy cô có thể chọn lọc những chương hay nhất và bài tập tốt nhất từ mỗi cuốn sách. Thêm vào đó, giáo viên có thể linh hoạt thay đổi phương pháp để tạo cảm hứng cho học sinh. Vì vậy, các tiết học trên lớp trở nên sinh động và lôi cuốn hơn rất nhiều.",
                 "evidence_en": "Teachers can choose the best chapters and exercises from each textbook. In addition, educators can flexibly adapt their methods to inspire students. Therefore, classroom lessons become much more lively and engaging.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "choose the best chapters and exercises",
+                      "vi": "chọn lọc những chương và bài tập hay nhất"
+                    },
+                    {
+                      "en": "from each textbook",
+                      "vi": "từ mỗi cuốn sách"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "adapt methods flexibly",
+                      "vi": "linh hoạt thay đổi phương pháp"
+                    },
+                    {
+                      "en": "inspire students",
+                      "vi": "tạo cảm hứng cho học sinh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "classroom lessons",
+                      "vi": "các tiết học trên lớp"
+                    },
+                    {
+                      "en": "lively and engaging",
+                      "vi": "sinh động và lôi cuốn"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
                     "en": "flexibility in teaching",
-                    "vi": "sự linh hoạt trong giảng dạy"
+                    "vi": "linh hoạt trong giảng dạy"
                   },
                   {
-                    "en": "suitable chapters",
-                    "vi": "các chương phù hợp"
+                    "en": "inspire students",
+                    "vi": "tạo cảm hứng cho học sinh"
                   },
                   {
-                    "en": "students' interests",
-                    "vi": "sở thích của học sinh"
-                  },
-                  {
-                    "en": "interesting classes",
-                    "vi": "lớp học thú vị"
+                    "en": "lively and engaging",
+                    "vi": "sinh động và lôi cuốn"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 04: CẢI THIỆN TRẢI NGHIỆM HỌC TẬP (IMPROVE LEARNING EXPERIENCE)",
+                "title": "LỢI ÍCH 04: CẢI THIỆN TRẢI NGHIỆM HỌC TẬP",
                 "point_vi": "Nhiều sách giáo khoa cải thiện trải nghiệm học tập hằng ngày của học sinh.",
                 "point_en": "Multiple textbooks improve students' daily learning experience.",
+                "point_collocations": [
+                  {
+                    "en": "improve learning experience",
+                    "vi": "cải thiện trải nghiệm học tập"
+                  }
+                ],
                 "evidence_vi": "Học sinh được khám phá nhiều hình ảnh đẹp mắt và các bài tập sáng tạo trong những bộ sách mới. Nhờ đó, việc học tập hằng ngày bớt đơn điệu và không còn nhàm chán đối với học sinh. Kết quả là, các em luôn cảm thấy hào hứng và yêu thích việc đến trường mỗi ngày.",
                 "evidence_en": "Students can explore colorful illustrations and creative exercises in newly designed books. As a result, daily learning becomes less repetitive and boring for young learners. Therefore, children always feel excited and motivated to attend school every day.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "colorful illustrations",
+                      "vi": "hình ảnh minh họa đẹp mắt (đầy màu sắc)"
+                    },
+                    {
+                      "en": "creative exercises",
+                      "vi": "bài tập sáng tạo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "daily learning",
+                      "vi": "việc học tập hằng ngày"
+                    },
+                    {
+                      "en": "less repetitive and boring",
+                      "vi": "bớt đơn điệu và nhàm chán"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "excited and motivated",
+                      "vi": "hào hứng và có động lực"
+                    },
+                    {
+                      "en": "attend school every day",
+                      "vi": "đến trường mỗi ngày"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "learning experience",
-                    "vi": "trải nghiệm học tập"
+                    "en": "improve learning experience",
+                    "vi": "cải thiện trải nghiệm học tập"
                   },
                   {
                     "en": "creative exercises",
                     "vi": "bài tập sáng tạo"
                   },
                   {
-                    "en": "less repetitive",
-                    "vi": "bớt lặp đi lặp lại"
-                  },
-                  {
-                    "en": "motivated to attend school",
-                    "vi": "có động lực đi học"
+                    "en": "excited and motivated",
+                    "vi": "hào hứng và có động lực"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 05: PHÁT TRIỂN NĂNG LỰC TỰ HỌC (DEVELOP INDEPENDENT LEARNING)",
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN NĂNG LỰC TỰ HỌC",
                 "point_vi": "Sử dụng nhiều sách giáo khoa khuyến khích học sinh phát triển các kỹ năng tự học.",
                 "point_en": "Using multiple textbooks encourages students to develop self-study skills.",
+                "point_collocations": [
+                  {
+                    "en": "develop self-study skills",
+                    "vi": "phát triển các kỹ năng tự học"
+                  }
+                ],
                 "evidence_vi": "Học sinh học được cách so sánh và đối chiếu thông tin giữa nhiều nguồn tài liệu khác nhau. Ngoài ra, các em rèn luyện thói quen tự tìm kiếm câu trả lời cho các bài tập khó. Do đó, học sinh từng bước hình thành tinh thần tự giác và kỹ năng tự học vững vàng.",
-                "evidence_en": "Students learn to compare and synthesize information across different learning materials. In addition, they practice finding answers to challenging questions on their own. Consequently, learners gradually develop strong self-discipline and independent study habits.",
+                "evidence_en": "Students learn to compare information across different learning materials. In addition, they practice finding answers to challenging questions on their own. Consequently, learners gradually develop strong self-discipline and independent study habits.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "compare information",
+                      "vi": "so sánh và đối chiếu thông tin"
+                    },
+                    {
+                      "en": "across different learning materials",
+                      "vi": "giữa nhiều nguồn tài liệu khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "practice finding answers",
+                      "vi": "rèn luyện việc tìm kiếm câu trả lời"
+                    },
+                    {
+                      "en": "challenging questions",
+                      "vi": "các bài tập (câu hỏi) khó"
+                    },
+                    {
+                      "en": "on own",
+                      "vi": "tự mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "self-discipline",
+                      "vi": "tinh thần tự giác"
+                    },
+                    {
+                      "en": "independent study habits",
+                      "vi": "thói quen tự học vững vàng"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "self-study skills",
-                    "vi": "kỹ năng tự học"
+                    "en": "develop self-study skills",
+                    "vi": "phát triển kỹ năng tự học"
                   },
                   {
                     "en": "compare information",
                     "vi": "so sánh thông tin"
                   },
                   {
-                    "en": "helpful ideas",
-                    "vi": "ý tưởng hữu ích"
-                  },
-                  {
-                    "en": "independent and confident",
-                    "vi": "độc lập và tự tin"
+                    "en": "independent study habits",
+                    "vi": "thói quen tự học"
                   }
                 ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "benefits": [
@@ -33748,110 +35557,195 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "BENEFIT 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: GIẢI THÍCH NGÔN NGỮ RÕ RÀNG VÀ DỄ HIỂU",
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
+                "point_en": "Using multiple textbooks helps students understand lessons more deeply.",
+                "point_collocations": [
                   {
-                    "en": "different textbooks",
-                    "vi": "nhiều sách giáo khoa khác nhau"
-                  },
+                    "en": "understand lessons more deeply",
+                    "vi": "hiểu bài học sâu sắc hơn"
+                  }
+                ],
+                "evidence_vi": "Mỗi bộ sách ngôn ngữ có phương pháp giải thích ngữ pháp và từ vựng theo cách riêng rất thực tế. Ngoài ra, học sinh có cơ hội tiếp cận nhiều đoạn đối thoại sinh động và ví dụ giao tiếp tự nhiên. Nhờ đó, quá trình học ngoại ngữ trở nên dễ hiểu, lôi cuốn và đạt hiệu quả cao hơn.",
+                "evidence_en": "Each language textbook explains grammar and vocabulary in its own practical way. In addition, students have access to lively dialogues and natural conversational examples. As a result, language learning becomes easier to understand, more engaging, and far more effective.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "explain grammar and vocabulary",
+                      "vi": "giải thích ngữ pháp và từ vựng"
+                    },
+                    {
+                      "en": "practical way",
+                      "vi": "cách thức thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "access lively dialogues",
+                      "vi": "tiếp cận các đoạn đối thoại sinh động"
+                    },
+                    {
+                      "en": "natural conversational examples",
+                      "vi": "ví dụ giao tiếp tự nhiên"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "easier to understand",
+                      "vi": "dễ hiểu hơn"
+                    },
+                    {
+                      "en": "more engaging and effective",
+                      "vi": "lôi cuốn và hiệu quả hơn nhiều"
+                    }
+                  ]
+                ],
+                "collocations": [
                   {
                     "en": "understand lessons deeply",
-                    "vi": "hiểu bài sâu hơn"
+                    "vi": "hiểu bài sâu sắc"
                   },
                   {
-                    "en": "explain the same content",
-                    "vi": "giải thích cùng một nội dung"
+                    "en": "lively dialogues",
+                    "vi": "đối thoại sinh động"
                   },
                   {
-                    "en": "explain in different ways",
-                    "vi": "giải thích theo những cách khác nhau"
-                  },
-                  {
-                    "en": "access more examples",
-                    "vi": "tiếp cận nhiều ví dụ hơn"
-                  },
-                  {
-                    "en": "difficult knowledge",
-                    "vi": "kiến thức khó"
-                  },
-                  {
-                    "en": "effective language learning",
-                    "vi": "việc học ngôn ngữ hiệu quả"
+                    "en": "engaging and effective",
+                    "vi": "lôi cuốn và hiệu quả"
                   }
-                ],
-                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
-                "point_en": "Using different textbooks helps students understand lessons more deeply.",
-                "evidence_vi": "Mỗi bộ sách ngôn ngữ có phương pháp giải thích ngữ pháp và từ vựng theo cách riêng rất thực tế. Ngoài ra, học sinh có cơ hội tiếp cận nhiều đoạn đối thoại sinh động và ví dụ giao tiếp tự nhiên. Nhờ đó, quá trình học ngoại ngữ trở nên dễ hiểu, lôi cuốn và đạt hiệu quả cao hơn.",
-                "evidence_en": "Each language textbook explains grammar and vocabulary in its own practical way. In addition, students have access to lively dialogues and natural conversational examples. As a result, language learning becomes easier to understand, more engaging, and far more effective."
+                ]
               },
               {
-                "title": "BENEFIT 02",
-                "collocations": [
-                  {
-                    "en": "match students' levels",
-                    "vi": "phù hợp với trình độ học sinh"
-                  },
-                  {
-                    "en": "learning needs",
-                    "vi": "nhu cầu học tập"
-                  },
-                  {
-                    "en": "differ in structure and difficulty",
-                    "vi": "khác nhau về cấu trúc và độ khó"
-                  },
-                  {
-                    "en": "suit student abilities",
-                    "vi": "phù hợp với khả năng của học sinh"
-                  },
-                  {
-                    "en": "understand the lessons",
-                    "vi": "tiếp thu / hiểu bài học"
-                  },
-                  {
-                    "en": "learn confidently and effectively",
-                    "vi": "học tập tự tin và hiệu quả"
-                  }
-                ],
+                "title": "LỢI ÍCH 02: PHÙ HỢP VỚI NĂNG LỰC HỌC SINH TỪNG TRƯỜNG",
                 "point_vi": "Các trường có thể lựa chọn sách phù hợp hơn với trình độ và nhu cầu học tập của học sinh.",
-                "point_en": "Schools can choose textbooks that better match students' levels and learning needs.",
-                "evidence_vi": "Các bộ sách giáo khoa thường có sự phân hóa rõ rệt về độ khó, tốc độ bài học và nội dung văn hóa. Vì vậy, ban giám hiệu và thầy cô có thể chọn giáo trình sát với trình độ thực tế của học sinh trường mình. Do đó, các em học tập thoải mái, tự tin hơn và không bị quá tải kiến thức.",
-                "evidence_en": "Textbooks differ noticeably in difficulty level, lesson pace, and cultural context. Therefore, school administrators and teachers can choose materials closely matching their students' actual abilities. Consequently, students study comfortably with greater confidence and avoid academic stress."
-              },
-              {
-                "title": "BENEFIT 03",
-                "collocations": [
+                "point_en": "Schools can choose books that match their students' learning levels.",
+                "point_collocations": [
                   {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập"
-                  },
-                  {
-                    "en": "review and reinforce knowledge",
-                    "vi": "ôn tập và củng cố kiến thức"
-                  },
-                  {
-                    "en": "additional materials",
-                    "vi": "tài liệu bổ sung"
-                  },
-                  {
-                    "en": "fill gaps in knowledge",
-                    "vi": "lấp đầy khoảng trống kiến thức"
-                  },
-                  {
-                    "en": "prepare for tests and assignments",
-                    "vi": "chuẩn bị cho bài kiểm tra và bài tập"
-                  },
-                  {
-                    "en": "independent learning skills",
-                    "vi": "kỹ năng tự học"
+                    "en": "match students' learning levels",
+                    "vi": "phù hợp với trình độ học tập của học sinh"
                   }
                 ],
+                "evidence_vi": "Các bộ sách giáo khoa thường có sự phân hóa rõ rệt về độ khó, tốc độ bài học và nội dung văn hóa. Vì vậy, ban giám hiệu và thầy cô có thể chọn giáo trình sát với trình độ thực tế của học sinh trường mình. Do đó, các em học tập thoải mái, tự tin hơn và không bị quá tải kiến thức.",
+                "evidence_en": "Textbooks differ noticeably in difficulty level, lesson pace, and cultural context. Therefore, school administrators and teachers can choose materials closely matching their students' actual abilities. Consequently, students study comfortably with greater confidence and avoid academic stress.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "differ in difficulty level",
+                      "vi": "khác biệt về độ khó"
+                    },
+                    {
+                      "en": "lesson pace",
+                      "vi": "tốc độ bài học"
+                    },
+                    {
+                      "en": "cultural context",
+                      "vi": "bối cảnh văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "choose materials",
+                      "vi": "chọn lựa tài liệu giáo trình"
+                    },
+                    {
+                      "en": "match actual abilities",
+                      "vi": "phù hợp năng lực thực tế"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "study comfortably",
+                      "vi": "học tập thoải mái"
+                    },
+                    {
+                      "en": "greater confidence",
+                      "vi": "sự tự tin cao hơn"
+                    },
+                    {
+                      "en": "avoid academic stress",
+                      "vi": "tránh căng thẳng học tập (quá tải)"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "match learning levels",
+                    "vi": "phù hợp trình độ"
+                  },
+                  {
+                    "en": "study comfortably",
+                    "vi": "học tập thoải mái"
+                  },
+                  {
+                    "en": "avoid academic stress",
+                    "vi": "tránh áp lực học tập"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: ĐA DẠNG NGUỒN TÀI LIỆU VÀ KỸ NĂNG",
                 "point_vi": "Việc sử dụng các sách giáo khoa khác nhau cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.",
                 "point_en": "Using different textbooks provides students with more learning resources.",
+                "point_collocations": [
+                  {
+                    "en": "different textbooks",
+                    "vi": "các sách giáo khoa khác nhau"
+                  },
+                  {
+                    "en": "provide more learning resources",
+                    "vi": "cung cấp nhiều tài liệu học tập hơn"
+                  }
+                ],
                 "evidence_vi": "Giáo viên có thể kết hợp những bài đọc hay và bài tập bổ trợ chất lượng từ nhiều đầu sách khác nhau. Hơn nữa, học sinh được tiếp cận kho học liệu đa dạng để rèn luyện đầy đủ cả bốn kỹ năng nghe, nói, đọc, viết. Vì vậy, người học có thể tự tin trau dồi vốn từ và nâng cao năng lực tự học của bản thân.",
-                "evidence_en": "Teachers can combine excellent reading texts and quality supplementary tasks from varied books. Furthermore, students access diverse materials to practice all four skills of listening, speaking, reading, and writing. Therefore, learners can confidently build their vocabulary and develop independent study skills."
+                "evidence_en": "Teachers can combine excellent reading texts and quality supplementary tasks from varied books. Furthermore, students access diverse materials to practice all four skills of listening, speaking, reading, and writing. Therefore, learners can confidently build their vocabulary and develop independent study skills.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "combine reading texts and supplementary tasks",
+                      "vi": "kết hợp bài đọc và bài tập bổ trợ"
+                    },
+                    {
+                      "en": "from varied books",
+                      "vi": "từ nhiều cuốn sách khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "diverse materials",
+                      "vi": "tài liệu học tập đa dạng"
+                    },
+                    {
+                      "en": "practice all four skills",
+                      "vi": "rèn luyện đầy đủ cả bốn kỹ năng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "build vocabulary",
+                      "vi": "trau dồi vốn từ vựng"
+                    },
+                    {
+                      "en": "develop independent study skills",
+                      "vi": "phát triển kỹ năng tự học"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "supplementary tasks",
+                    "vi": "bài tập bổ trợ"
+                  },
+                  {
+                    "en": "practice four skills",
+                    "vi": "rèn luyện 4 kỹ năng"
+                  },
+                  {
+                    "en": "build vocabulary",
+                    "vi": "trau dồi từ vựng"
+                  }
+                ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "benefits": [
@@ -35382,180 +37276,260 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: TẠO THÊM NHIỀU VIỆC LÀM",
+                "point_vi": "Du lịch tạo thêm nhiều việc làm cho người dân địa phương.",
+                "point_en": "Tourism creates many jobs for local residents.",
+                "point_collocations": [
                   {
-                    "en": "create more jobs",
+                    "en": "create many jobs",
                     "vi": "tạo thêm nhiều việc làm"
                   },
                   {
-                    "en": "local people",
+                    "en": "local residents",
                     "vi": "người dân địa phương"
-                  },
-                  {
-                    "en": "tourism services",
-                    "vi": "dịch vụ du lịch"
-                  },
+                  }
+                ],
+                "evidence_vi": "Người dân có thể làm việc trong các khách sạn, nhà hàng và dịch vụ vận tải, nhờ đó họ có thu nhập ổn định và nâng cao mức sống.",
+                "evidence_en": "Residents can work in hotels, restaurants, and transport services, so they gain stable incomes and improve living standards.",
+                "evidence_collocations": [
                   {
                     "en": "work in hotels and restaurants",
                     "vi": "làm việc trong khách sạn và nhà hàng"
                   },
                   {
-                    "en": "job opportunities",
-                    "vi": "cơ hội việc làm"
-                  }
-                ],
-                "point_vi": "Du lịch tạo thêm nhiều việc làm cho người dân địa phương.",
-                "point_en": "Tourism creates more employment opportunities for local people.",
-                "evidence_vi": "Người dân có thể làm việc trong các khách sạn, nhà hàng và dịch vụ vận tải, nhờ đó họ có thu nhập ổn định và nâng cao mức sống.",
-                "evidence_en": "Residents can work in hotels, restaurants, and transport services, so they gain stable incomes and improve their living standards."
-              },
-              {
-                "title": "ADVANTAGE 02",
-                "collocations": [
-                  {
-                    "en": "increase local income",
-                    "vi": "tăng thu nhập địa phương"
+                    "en": "transport services",
+                    "vi": "dịch vụ vận tải (xe cộ)"
                   },
                   {
-                    "en": "spend money on",
-                    "vi": "chi tiền cho"
+                    "en": "gain stable incomes",
+                    "vi": "có thu nhập ổn định"
                   },
                   {
-                    "en": "local products",
-                    "vi": "sản phẩm địa phương"
-                  },
-                  {
-                    "en": "transportation services",
-                    "vi": "dịch vụ đi lại"
-                  },
-                  {
-                    "en": "boost living standards",
+                    "en": "improve living standards",
                     "vi": "nâng cao mức sống"
                   }
                 ],
-                "point_vi": "Du lịch giúp tăng thu nhập cho cộng đồng địa phương.",
-                "point_en": "Tourism increases local income.",
-                "evidence_vi": "Doanh thu từ du lịch khuyến khích người dân bảo tồn làng nghề và di tích lịch sử, vì vậy bản sắc văn hóa địa phương được gìn giữ tốt hơn.",
-                "evidence_en": "Tourism revenue motivates communities to preserve traditional crafts and historical sites, so local cultural identity is preserved well."
-              },
-              {
-                "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "protect local culture",
-                    "vi": "bảo tồn văn hóa địa phương"
+                    "en": "create jobs",
+                    "vi": "tạo việc làm"
                   },
                   {
-                    "en": "traditional festivals",
-                    "vi": "lễ hội truyền thống"
+                    "en": "stable incomes",
+                    "vi": "thu nhập ổn định"
                   },
                   {
-                    "en": "local crafts",
-                    "vi": "nghề truyền thống"
+                    "en": "improve living standards",
+                    "vi": "nâng cao mức sống"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TĂNG THU NHẬP VÀ PHÁT TRIỂN KINH TẾ",
+                "point_vi": "Du lịch giúp tăng thu nhập cho cộng đồng địa phương.",
+                "point_en": "Tourism boosts income for the local community.",
+                "point_collocations": [
+                  {
+                    "en": "boost income",
+                    "vi": "tăng thu nhập"
                   },
                   {
-                    "en": "traditional customs",
-                    "vi": "phong tục truyền thống"
-                  },
-                  {
-                    "en": "introduce to visitors",
-                    "vi": "giới thiệu cho du khách"
+                    "en": "local community",
+                    "vi": "cộng đồng địa phương"
                   }
                 ],
-                "point_vi": "Du lịch giúp bảo tồn văn hóa địa phương.",
-                "point_en": "Tourism contributes to preserving local culture and traditions.",
+                "evidence_vi": "Doanh thu từ du lịch khuyến khích người dân bảo tồn làng nghề và di tích lịch sử, vì vậy bản sắc văn hóa địa phương được gìn giữ tốt hơn.",
+                "evidence_en": "Tourism money encourages people to preserve traditional craft villages, so local culture stays well protected.",
+                "evidence_collocations": [
+                  {
+                    "en": "tourism money",
+                    "vi": "doanh thu (tiền) từ du lịch"
+                  },
+                  {
+                    "en": "preserve traditional craft villages",
+                    "vi": "bảo tồn làng nghề truyền thống"
+                  },
+                  {
+                    "en": "local culture",
+                    "vi": "văn hóa địa phương"
+                  },
+                  {
+                    "en": "stay well protected",
+                    "vi": "được gìn giữ (bảo vệ) tốt"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "boost income",
+                    "vi": "tăng thu nhập"
+                  },
+                  {
+                    "en": "traditional craft villages",
+                    "vi": "làng nghề truyền thống"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: NÂNG CẤP CƠ SỞ HẠ TẦNG ĐỊA PHƯƠNG",
+                "point_vi": "Ngành du lịch thúc đẩy việc nâng cấp cơ sở hạ tầng địa phương.",
+                "point_en": "The tourism industry encourages upgrading local infrastructure.",
+                "point_collocations": [
+                  {
+                    "en": "upgrade local infrastructure",
+                    "vi": "nâng cấp cơ sở hạ tầng địa phương"
+                  }
+                ],
                 "evidence_vi": "Chính quyền đầu tư nâng cấp đường sá, cầu cống và hệ thống chiếu sáng để phục vụ du khách, do đó đời sống của người dân địa phương cũng thuận tiện hơn.",
-                "evidence_en": "Authorities invest in upgrading roads, bridges, and lighting to serve visitors, so local residents also enjoy much better infrastructure."
+                "evidence_en": "Authorities invest in upgrading roads and street lights to serve visitors, so local life becomes much more convenient.",
+                "evidence_collocations": [
+                  {
+                    "en": "invest in upgrading roads",
+                    "vi": "đầu tư nâng cấp đường sá"
+                  },
+                  {
+                    "en": "street lights",
+                    "vi": "hệ thống đèn đường chiếu sáng"
+                  },
+                  {
+                    "en": "serve visitors",
+                    "vi": "phục vụ du khách"
+                  },
+                  {
+                    "en": "become much more convenient",
+                    "vi": "trở nên thuận tiện hơn nhiều"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "upgrade infrastructure",
+                    "vi": "nâng cấp hạ tầng"
+                  },
+                  {
+                    "en": "more convenient",
+                    "vi": "thuận tiện hơn"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
+                "title": "BẤT LỢI 01: Ô NHIỄM MÔI TRƯỜNG TẠI ĐIỂM THAM QUAN",
+                "point_vi": "Du lịch có thể gây ra các vấn đề nghiêm trọng về môi trường.",
+                "point_en": "Tourism can cause serious environmental problems.",
+                "point_collocations": [
+                  {
+                    "en": "cause serious environmental problems",
+                    "vi": "gây ra các vấn đề môi trường nghiêm trọng"
+                  }
+                ],
+                "evidence_vi": "Lượng du khách đông đúc xả nhiều rác thải tại các điểm tham quan, do đó môi trường tự nhiên và cảnh quan địa phương dễ bị ô nhiễm.",
+                "evidence_en": "Large crowds of tourists drop plastic waste at sightseeing spots, so natural landscapes easily suffer pollution.",
+                "evidence_collocations": [
+                  {
+                    "en": "large crowds of tourists",
+                    "vi": "lượng lớn du khách"
+                  },
+                  {
+                    "en": "drop plastic waste",
+                    "vi": "xả rác thải nhựa"
+                  },
+                  {
+                    "en": "sightseeing spots",
+                    "vi": "các điểm tham quan"
+                  },
+                  {
+                    "en": "suffer pollution",
+                    "vi": "bị ô nhiễm"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "environmental problems",
                     "vi": "vấn đề môi trường"
                   },
                   {
-                    "en": "large numbers of visitors",
-                    "vi": "lượng lớn du khách"
+                    "en": "sightseeing spots",
+                    "vi": "điểm tham quan"
                   },
                   {
-                    "en": "create a lot of waste",
-                    "vi": "tạo ra nhiều rác thải"
-                  },
-                  {
-                    "en": "tourist attractions",
-                    "vi": "điểm du lịch"
-                  },
-                  {
-                    "en": "littering and pollution",
-                    "vi": "xả rác và ô nhiễm"
+                    "en": "suffer pollution",
+                    "vi": "bị ô nhiễm"
                   }
-                ],
-                "point_vi": "Du lịch có thể gây ra các vấn đề về môi trường.",
-                "point_en": "Tourism can cause environmental problems.",
-                "evidence_vi": "Lượng du khách đông đúc xả nhiều rác thải tại các điểm tham quan, do đó môi trường tự nhiên và cảnh quan địa phương dễ bị ô nhiễm.",
-                "evidence_en": "Large numbers of visitors generate significant waste at tourist spots, so local natural environments and landscapes easily suffer pollution."
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: TĂNG GIÁ CẢ VÀ CHI PHÍ SINH HOẠT",
+                "point_vi": "Du lịch có thể làm tăng chi phí sinh hoạt ở các cộng đồng địa phương.",
+                "point_en": "Tourism can increase daily living costs for local people.",
+                "point_collocations": [
                   {
-                    "en": "change traditional ways of life",
-                    "vi": "làm thay đổi lối sống truyền thống"
-                  },
-                  {
-                    "en": "meet tourists' needs",
-                    "vi": "đáp ứng nhu cầu của du khách"
-                  },
-                  {
-                    "en": "alter local customs",
-                    "vi": "thay đổi phong tục địa phương"
-                  },
-                  {
-                    "en": "loss of cultural identity",
-                    "vi": "mất bản sắc văn hóa"
-                  },
-                  {
-                    "en": "impact on community life",
-                    "vi": "ảnh hưởng đến đời sống cộng đồng"
+                    "en": "increase daily living costs",
+                    "vi": "làm tăng chi phí sinh hoạt hằng ngày"
                   }
                 ],
-                "point_vi": "Du lịch có thể làm thay đổi lối sống truyền thống của người dân địa phương.",
-                "point_en": "Tourism can threaten the traditional ways of life of local communities.",
                 "evidence_vi": "Sự phát triển ồ ạt của du lịch làm giá cả thực phẩm và nhà ở tăng vọt, vì vậy nhiều người dân bản địa gặp khó khăn trong sinh hoạt hằng ngày.",
-                "evidence_en": "Rapid tourism growth drives up food and housing prices sharply, so many local families face higher living costs and financial strain."
-              },
-              {
-                "title": "DISADVANTAGE 03",
+                "evidence_en": "Fast tourism growth pushes food and rent prices up quickly, so many local families face financial difficulties.",
+                "evidence_collocations": [
+                  {
+                    "en": "fast tourism growth",
+                    "vi": "sự phát triển du lịch nhanh chóng"
+                  },
+                  {
+                    "en": "push food and rent prices up",
+                    "vi": "đẩy giá thực phẩm và tiền thuê nhà lên cao"
+                  },
+                  {
+                    "en": "face financial difficulties",
+                    "vi": "đối mặt với khó khăn tài chính"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "make local areas more expensive",
-                    "vi": "làm tăng chi phí khu vực địa phương"
-                  },
-                  {
-                    "en": "prices of housing and food",
-                    "vi": "giá nhà ở và thực phẩm"
-                  },
-                  {
-                    "en": "cost of living",
+                    "en": "living costs",
                     "vi": "chi phí sinh hoạt"
                   },
                   {
-                    "en": "increase service prices",
-                    "vi": "tăng giá dịch vụ"
-                  },
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "BẤT LỢI 03: GÂY ÙN TẮC VÀ ỒN ÀO XÁO TRỘN ĐỜI SỐNG",
+                "point_vi": "Du lịch quá mức làm xáo trộn cuộc sống yên bình của cư dân bản xứ.",
+                "point_en": "Excessive tourism disrupts the quiet lifestyle of local residents.",
+                "point_collocations": [
                   {
-                    "en": "financial pressure on locals",
-                    "vi": "áp lực tài chính lên người dân địa phương"
+                    "en": "disrupt the quiet lifestyle",
+                    "vi": "làm xáo trộn lối sống yên bình"
                   }
                 ],
-                "point_vi": "Du lịch có thể làm tăng chi phí sinh hoạt ở các cộng đồng địa phương.",
-                "point_en": "Tourism can make local areas more expensive.",
                 "evidence_vi": "Các điểm đến du lịch thường xuyên phải đối mặt với tình trạng tắc đường và tiếng ồn lớn, vì vậy sự bình yên vốn có của khu dân cư bị xáo trộn.",
-                "evidence_en": "Popular destinations frequently experience severe traffic congestion and loud noise, so the peaceful daily life of residents is disrupted."
+                "evidence_en": "Popular destinations frequently face traffic jams and loud noise, so the peaceful daily life of residents gets disrupted.",
+                "evidence_collocations": [
+                  {
+                    "en": "popular destinations",
+                    "vi": "các điểm đến nổi tiếng"
+                  },
+                  {
+                    "en": "face traffic jams and loud noise",
+                    "vi": "đối mặt với tắc đường và tiếng ồn lớn"
+                  },
+                  {
+                    "en": "peaceful daily life",
+                    "vi": "cuộc sống hằng ngày yên bình"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "disrupt lifestyle",
+                    "vi": "xáo trộn cuộc sống"
+                  },
+                  {
+                    "en": "traffic jams and loud noise",
+                    "vi": "kẹt xe và tiếng ồn"
+                  }
+                ]
               }
             ]
           },
@@ -37606,106 +39580,203 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: PHÁT TRIỂN KỸ NĂNG NGÔN NGỮ",
+                "point_vi": "Đọc sách tranh giúp trẻ phát triển kỹ năng ngôn ngữ.",
+                "point_en": "Reading picture books helps children develop language skills.",
+                "point_collocations": [
+                  {
+                    "en": "reading picture books",
+                    "vi": "đọc sách tranh"
+                  },
+                  {
+                    "en": "develop language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ"
+                  }
+                ],
+                "evidence_vi": "Trẻ có thể tiếp thu nhiều từ vựng và cấu trúc câu đơn giản qua từng câu chuyện sinh động. Ngoài ra, tranh vẽ nhiều màu sắc giúp các em nắm bắt nghĩa của từ mà không cần dịch nghĩa phức tạp. Nhờ đó, trẻ ghi nhớ từ lâu hơn và biết cách diễn đạt tự nhiên khi trò chuyện hằng ngày.",
+                "evidence_en": "Children can acquire new words and simple sentence structures through lively stories. In addition, colorful pictures help young readers grasp word meanings without complex explanations. As a result, children remember vocabulary longer and express themselves naturally in daily conversation.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "acquire new words",
+                      "vi": "tiếp thu từ vựng mới"
+                    },
+                    {
+                      "en": "simple sentence structures",
+                      "vi": "cấu trúc câu đơn giản"
+                    },
+                    {
+                      "en": "lively stories",
+                      "vi": "các câu chuyện sinh động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "colorful pictures",
+                      "vi": "tranh vẽ nhiều màu sắc"
+                    },
+                    {
+                      "en": "grasp word meanings",
+                      "vi": "nắm bắt nghĩa của từ"
+                    },
+                    {
+                      "en": "without complex explanations",
+                      "vi": "không cần giải thích phức tạp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "remember vocabulary longer",
+                      "vi": "nhớ từ vựng lâu hơn"
+                    },
+                    {
+                      "en": "express naturally",
+                      "vi": "diễn đạt tự nhiên"
+                    },
+                    {
+                      "en": "in daily conversation",
+                      "vi": "trong giao tiếp hằng ngày"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
                     "en": "develop language skills",
                     "vi": "phát triển kỹ năng ngôn ngữ"
                   },
                   {
-                    "en": "learn new words",
-                    "vi": "học từ mới"
+                    "en": "colorful pictures",
+                    "vi": "tranh ảnh nhiều màu sắc"
                   },
                   {
-                    "en": "understand word meanings",
-                    "vi": "hiểu nghĩa của từ"
-                  },
-                  {
-                    "en": "use words in sentences",
-                    "vi": "sử dụng từ trong câu"
-                  },
-                  {
-                    "en": "communicate better",
-                    "vi": "giao tiếp tốt hơn"
-                  },
-                  {
-                    "en": "picture stories",
-                    "vi": "những câu chuyện bằng tranh"
+                    "en": "remember vocabulary longer",
+                    "vi": "nhớ từ vựng lâu hơn"
                   }
-                ],
-                "point_vi": "Đọc sách tranh giúp trẻ phát triển kỹ năng ngôn ngữ.",
-                "point_en": "Reading picture books helps children develop their language skills.",
-                "evidence_vi": "Trẻ có thể tiếp thu nhiều từ vựng và cấu trúc câu đơn giản qua từng câu chuyện sinh động. Ngoài ra, tranh vẽ nhiều màu sắc giúp các em nắm bắt nghĩa của từ mà không cần dịch nghĩa phức tạp. Nhờ đó, trẻ ghi nhớ từ lâu hơn và biết cách diễn đạt tự nhiên khi trò chuyện hằng ngày.",
-                "evidence_en": "Children can acquire new words and simple sentence structures through lively stories. In addition, colorful pictures help young readers grasp word meanings without complex explanations. As a result, children remember vocabulary longer and express themselves naturally in daily conversation."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
-                  {
-                    "en": "develop imagination",
-                    "vi": "phát triển trí tưởng tượng"
-                  },
-                  {
-                    "en": "imagine characters and events",
-                    "vi": "tưởng tượng về nhân vật và sự việc"
-                  },
-                  {
-                    "en": "create own ideas",
-                    "vi": "tạo ra ý tưởng riêng"
-                  },
-                  {
-                    "en": "think creatively",
-                    "vi": "suy nghĩ sáng tạo"
-                  },
-                  {
-                    "en": "creative abilities",
-                    "vi": "khả năng sáng tạo"
-                  },
-                  {
-                    "en": "visual stimulation",
-                    "vi": "kích thích thị giác"
-                  }
-                ],
+                "title": "LỢI ÍCH 02: PHÁT TRIỂN TRÍ TƯỞNG TƯỢNG VÀ SÁNG TẠO",
                 "point_vi": "Đọc sách tranh giúp phát triển trí tưởng tượng của trẻ.",
-                "point_en": "Reading picture books develops children's imagination.",
-                "evidence_vi": "Các bức vẽ minh họa đẹp mắt kích thích trí tò mò và mở rộng trí tưởng tượng của trẻ nhỏ. Thêm vào đó, các em thường tự đoán tình tiết tiếp theo hoặc hào hứng kể lại câu chuyện theo cách của mình. Vì vậy, thói quen đọc sách tranh góp phần nuôi dưỡng óc sáng tạo từ thuở nhỏ.",
-                "evidence_en": "Beautiful illustrations stimulate curiosity and broaden young children's imagination. In addition, young readers often guess next events or excitedly retell stories in their own creative words. Therefore, reading picture books nurtures creative thinking from an early age."
-              },
-              {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "point_en": "Reading picture books helps expand children's imagination.",
+                "point_collocations": [
                   {
-                    "en": "good reading habits",
-                    "vi": "thói quen đọc sách tốt"
-                  },
-                  {
-                    "en": "colourful pictures",
-                    "vi": "hình ảnh nhiều màu sắc"
-                  },
-                  {
-                    "en": "make reading enjoyable",
-                    "vi": "làm việc đọc trở nên thú vị"
-                  },
-                  {
-                    "en": "interested in reading",
-                    "vi": "thích đọc sách hơn"
-                  },
-                  {
-                    "en": "regular habit",
-                    "vi": "thói quen thường xuyên"
-                  },
-                  {
-                    "en": "spend time reading",
-                    "vi": "dành thời gian đọc sách"
+                    "en": "expand children's imagination",
+                    "vi": "mở rộng trí tưởng tượng của trẻ"
                   }
                 ],
+                "evidence_vi": "Các bức vẽ minh họa đẹp mắt kích thích trí tò mò và mở rộng trí tưởng tượng của trẻ nhỏ. Thêm vào đó, các em thường tự đoán tình tiết tiếp theo hoặc hào hứng kể lại câu chuyện theo cách của mình. Vì vậy, thói quen đọc sách tranh góp phần nuôi dưỡng óc sáng tạo từ thuở nhỏ.",
+                "evidence_en": "Beautiful illustrations stimulate curiosity and broaden young children's imagination. In addition, young readers often guess next events or excitedly retell stories in their own creative words. Therefore, reading picture books nurtures creative thinking from an early age.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "beautiful illustrations",
+                      "vi": "hình ảnh minh họa đẹp mắt"
+                    },
+                    {
+                      "en": "stimulate curiosity",
+                      "vi": "kích thích trí tò mò"
+                    },
+                    {
+                      "en": "broaden imagination",
+                      "vi": "mở rộng trí tưởng tượng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "guess next events",
+                      "vi": "đoán trước tình tiết tiếp theo"
+                    },
+                    {
+                      "en": "retell stories creatively",
+                      "vi": "kể lại câu chuyện một cách sáng tạo"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "nurture creative thinking",
+                      "vi": "nuôi dưỡng tư duy sáng tạo"
+                    },
+                    {
+                      "en": "from an early age",
+                      "vi": "từ khi còn nhỏ"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "expand imagination",
+                    "vi": "mở rộng trí tưởng tượng"
+                  },
+                  {
+                    "en": "stimulate curiosity",
+                    "vi": "kích thích tò mò"
+                  },
+                  {
+                    "en": "creative thinking",
+                    "vi": "tư duy sáng tạo"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: HÌNH THÀNH THÓI QUEN ĐỌC SÁCH TỰ GIÁC",
                 "point_vi": "Đọc sách tranh giúp trẻ hình thành thói quen đọc sách tốt.",
-                "point_en": "Reading picture books helps children develop good reading habits.",
-                "evidence_vi": "Những trang sách tranh rực rỡ biến thời gian đọc thành một hoạt động giải trí nhẹ nhàng và thú vị. Hơn nữa, sự đồng hành của bố mẹ trong giờ đọc truyện giúp các em cảm thấy vui vẻ và được yêu thương. Do đó, trẻ dần coi việc đọc sách là sở thích tự nhiên và duy trì thói quen đọc lâu dài.",
-                "evidence_en": "Vibrant book pages turn reading time into a fun and relaxing activity. Furthermore, parents' company during story sessions makes children feel loved and happy. Consequently, young learners treat reading as an enjoyable hobby and maintain this positive habit for life."
+                "point_en": "Reading picture books helps children build positive reading habits.",
+                "point_collocations": [
+                  {
+                    "en": "build positive reading habits",
+                    "vi": "xây dựng thói quen đọc sách tích cực"
+                  }
+                ],
+                "evidence_vi": "Những trang sách tranh rực rỡ biến thời gian đọc thành một hoạt động giải trí nhẹ nhàng và thú vị. Hơn nữa, sự đồng hành của cha mẹ trong giờ đọc sách trước khi đi ngủ giúp trẻ cảm thấy ấm áp và yêu thích sách hơn. Do đó, các em dần chủ động tìm đọc những cuốn sách mới mà không cần người lớn thúc giục.",
+                "evidence_en": "Colorful pages turn reading time into a fun and relaxing activity for children. Furthermore, reading together with parents at bedtime makes kids feel loved and enjoy books more. Consequently, young learners independently explore new books without being forced by adults.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "turn reading into a fun activity",
+                      "vi": "biến việc đọc sách thành hoạt động thú vị"
+                    },
+                    {
+                      "en": "relaxing activity",
+                      "vi": "hoạt động thư giãn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "read together with parents",
+                      "vi": "cùng đọc sách với cha mẹ"
+                    },
+                    {
+                      "en": "at bedtime",
+                      "vi": "vào giờ đi ngủ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "independently explore new books",
+                      "vi": "tự giác khám phá những cuốn sách mới"
+                    },
+                    {
+                      "en": "without being forced by adults",
+                      "vi": "mà không bị người lớn thúc ép"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "build reading habits",
+                    "vi": "hình thành thói quen đọc"
+                  },
+                  {
+                    "en": "read together with parents",
+                    "vi": "đọc sách cùng cha mẹ"
+                  },
+                  {
+                    "en": "independently explore books",
+                    "vi": "tự giác đọc sách"
+                  }
+                ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "benefits": [
@@ -39202,176 +41273,252 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: PHÁT TRIỂN PHẢN XẠ VÀ TƯ DUY CHIẾN THUẬT",
+                "point_vi": "Trò chơi điện tử giúp trẻ rèn luyện phản xạ và tư duy giải quyết vấn đề.",
+                "point_en": "Video games help children train quick reflexes and problem-solving skills.",
+                "point_collocations": [
+                  {
+                    "en": "train quick reflexes",
+                    "vi": "rèn luyện phản xạ nhanh nhạy"
+                  },
+                  {
+                    "en": "problem-solving skills",
+                    "vi": "kỹ năng giải quyết vấn đề"
+                  }
+                ],
+                "evidence_vi": "Nhiều trò chơi đòi hỏi người chơi phải vượt qua chướng ngại vật và lập chiến thuật nhanh, nhờ đó các em rèn luyện óc phán đoán linh hoạt.",
+                "evidence_en": "Many games require players to overcome obstacles and plan tactics quickly, so children train flexible thinking.",
+                "evidence_collocations": [
+                  {
+                    "en": "overcome obstacles",
+                    "vi": "vượt qua các chướng ngại vật"
+                  },
+                  {
+                    "en": "plan tactics quickly",
+                    "vi": "lập chiến thuật nhanh chóng"
+                  },
+                  {
+                    "en": "train flexible thinking",
+                    "vi": "rèn luyện tư duy linh hoạt"
+                  }
+                ],
                 "collocations": [
+                  {
+                    "en": "train reflexes",
+                    "vi": "rèn luyện phản xạ"
+                  },
                   {
                     "en": "problem-solving skills",
                     "vi": "kỹ năng giải quyết vấn đề"
                   },
                   {
-                    "en": "overcome challenges",
-                    "vi": "vượt qua thử thách"
-                  },
-                  {
-                    "en": "think strategically",
-                    "vi": "suy nghĩ chiến lược"
-                  },
-                  {
-                    "en": "find solutions",
-                    "vi": "tìm giải pháp"
-                  },
-                  {
-                    "en": "in-game tasks",
-                    "vi": "nhiệm vụ trong trò chơi"
+                    "en": "flexible thinking",
+                    "vi": "tư duy linh hoạt"
                   }
-                ],
-                "point_vi": "Chơi trò chơi giúp trẻ phát triển khả năng giải quyết vấn đề.",
-                "point_en": "Playing games improves children's problem-solving skills.",
-                "evidence_vi": "Trẻ em phải liên tục suy nghĩ và tìm cách vượt qua các thử thách trong game, nhờ đó các em rèn luyện được khả năng phản xạ và tư duy logic.",
-                "evidence_en": "Children must constantly think and find solutions to overcome game challenges, so they sharpen their reflexes and logical thinking."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 02: GIẢI TỎA CĂNG THẲNG SAU GIỜ HỌC",
+                "point_vi": "Chơi game có chừng mực giúp trẻ em thư giãn đầu óc.",
+                "point_en": "Playing games in moderation helps children relax their minds.",
+                "point_collocations": [
                   {
-                    "en": "entertainment and relaxation",
-                    "vi": "giải trí và thư giãn"
+                    "en": "play games in moderation",
+                    "vi": "chơi game có chừng mực (điều độ)"
                   },
                   {
-                    "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
-                  },
-                  {
-                    "en": "feel happier",
-                    "vi": "cảm thấy vui vẻ hơn"
-                  },
-                  {
-                    "en": "relax after school",
-                    "vi": "thư giãn sau giờ học"
-                  },
-                  {
-                    "en": "leisure activity",
-                    "vi": "hoạt động giải trí"
+                    "en": "relax minds",
+                    "vi": "thư giãn đầu óc"
                   }
                 ],
-                "point_vi": "Chơi trò chơi giúp trẻ giải trí và giảm căng thẳng.",
-                "point_en": "Playing games provides entertainment and reduces stress.",
-                "evidence_vi": "Nhiều trò chơi hiện đại đòi hỏi người chơi phải phối hợp ăn ý với đồng đội, vì vậy trẻ học được kỹ năng làm việc nhóm và giao tiếp linh hoạt.",
-                "evidence_en": "Many modern games require close coordination with teammates, so children learn teamwork and flexible communication skills."
+                "evidence_vi": "Đồ họa vui nhộn và âm nhạc sinh động trong game mang lại niềm vui sảng khoái, vì vậy học sinh xua tan được áp lực học tập.",
+                "evidence_en": "Lively graphics and catchy music in games bring pleasant entertainment, so students release study stress.",
+                "evidence_collocations": [
+                  {
+                    "en": "lively graphics and catchy music",
+                    "vi": "đồ họa sinh động và âm nhạc bắt tai"
+                  },
+                  {
+                    "en": "pleasant entertainment",
+                    "vi": "sự giải trí dễ chịu"
+                  },
+                  {
+                    "en": "release study stress",
+                    "vi": "xua tan áp lực học tập"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "relax minds",
+                    "vi": "thư giãn đầu óc"
+                  },
+                  {
+                    "en": "release study stress",
+                    "vi": "giải tỏa áp lực học tập"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "title": "LỢI ÍCH 03: HỌC KỸ NĂNG LÀM VIỆC NHÓM",
+                "point_vi": "Nhiều trò chơi trực tuyến giúp trẻ em học cách phối hợp đồng đội.",
+                "point_en": "Many online games help children learn team cooperation.",
+                "point_collocations": [
                   {
-                    "en": "social skills",
-                    "vi": "kỹ năng xã hội"
+                    "en": "online games",
+                    "vi": "các trò chơi trực tuyến"
                   },
                   {
-                    "en": "multiplayer games",
-                    "vi": "trò chơi nhiều người chơi"
-                  },
-                  {
-                    "en": "communicate with others",
-                    "vi": "giao tiếp với người khác"
-                  },
-                  {
-                    "en": "cooperate effectively",
-                    "vi": "hợp tác hiệu quả"
-                  },
-                  {
-                    "en": "teamwork spirit",
-                    "vi": "tinh thần làm việc nhóm"
+                    "en": "learn team cooperation",
+                    "vi": "học cách phối hợp làm việc nhóm"
                   }
                 ],
-                "point_vi": "Chơi trò chơi có thể giúp trẻ phát triển các kỹ năng xã hội.",
-                "point_en": "Playing games can improve children's social skills.",
-                "evidence_vi": "Chơi game một cách điều độ sau những giờ học căng thẳng giúp trẻ thư giãn tinh thần, do đó các em cảm thấy vui vẻ và hào hứng hơn.",
-                "evidence_en": "Playing games moderately after stressful school hours relieves mental pressure, so children feel refreshed and cheerful."
+                "evidence_vi": "Trẻ phải giao tiếp và bàn bạc với bạn cùng chơi để hoàn thành nhiệm vụ, do đó các em nâng cao tinh thần đồng đội.",
+                "evidence_en": "Children communicate and discuss with teammates to complete missions, so they improve teamwork spirit.",
+                "evidence_collocations": [
+                  {
+                    "en": "communicate with teammates",
+                    "vi": "giao tiếp với đồng đội"
+                  },
+                  {
+                    "en": "complete missions",
+                    "vi": "hoàn thành các nhiệm vụ"
+                  },
+                  {
+                    "en": "improve teamwork spirit",
+                    "vi": "nâng cao tinh thần đồng đội"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "team cooperation",
+                    "vi": "hợp tác nhóm"
+                  },
+                  {
+                    "en": "complete missions",
+                    "vi": "hoàn thành nhiệm vụ"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: NGUY CƠ GÂY NGHIỆN VÀ SA SÚT HỌC TẬP",
+                "point_vi": "Chơi game quá nhiều dễ khiến trẻ bị nghiện và bỏ bê bài vở.",
+                "point_en": "Excessive gaming easily leads to addiction and neglected studies.",
+                "point_collocations": [
                   {
-                    "en": "harm children's health",
-                    "vi": "gây hại cho sức khỏe của trẻ"
+                    "en": "excessive gaming",
+                    "vi": "chơi game quá nhiều"
                   },
                   {
-                    "en": "sit for too long",
-                    "vi": "ngồi quá lâu"
+                    "en": "lead to addiction",
+                    "vi": "dẫn đến nghiện ngập"
                   },
                   {
-                    "en": "less physical activity",
-                    "vi": "ít hoạt động thể chất"
-                  },
-                  {
-                    "en": "sedentary lifestyle",
-                    "vi": "lối sống thụ động"
-                  },
-                  {
-                    "en": "poor eyesight",
-                    "vi": "thị lực kém"
+                    "en": "neglected studies",
+                    "vi": "học tập bị sa sút (bỏ bê)"
                   }
                 ],
-                "point_vi": "Chơi game quá nhiều có thể gây hại cho sức khỏe của trẻ.",
-                "point_en": "Playing games too much can harm children's health.",
-                "evidence_vi": "Trẻ thường ngồi yên một chỗ dán mắt vào màn hình trong nhiều giờ liền, vì vậy các em dễ bị suy giảm thị lực và lười vận động thể chất.",
-                "evidence_en": "Children often sit in one place staring at screens for hours, so they face poor eyesight and a severe lack of physical activity."
+                "evidence_vi": "Nhiều trẻ em ngồi trước màn hình điện tử nhiều giờ liền mỗi ngày, do đó điểm số và kết quả thi cử bị giảm sút nghiêm trọng.",
+                "evidence_en": "Many children sit in front of screens for hours every day, so their school grades drop seriously.",
+                "evidence_collocations": [
+                  {
+                    "en": "sit in front of screens for hours",
+                    "vi": "ngồi trước màn hình hàng giờ"
+                  },
+                  {
+                    "en": "school grades",
+                    "vi": "điểm số ở trường"
+                  },
+                  {
+                    "en": "drop seriously",
+                    "vi": "giảm sút nghiêm trọng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "lead to addiction",
+                    "vi": "gây nghiện"
+                  },
+                  {
+                    "en": "school grades drop",
+                    "vi": "điểm số giảm"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: TÁC HẠI ĐẾN SỨC KHỎE VÀ THỂ CHẤT",
+                "point_vi": "Ngồi chơi game liên tục có thể gây hại nghiêm trọng cho sức khỏe của trẻ.",
+                "point_en": "Playing games continuously can harm children's physical health.",
+                "point_collocations": [
                   {
-                    "en": "affect children's studies",
-                    "vi": "ảnh hưởng đến việc học của trẻ"
-                  },
-                  {
-                    "en": "spend less time on homework",
-                    "vi": "dành ít thời gian cho bài tập"
-                  },
-                  {
-                    "en": "neglect schoolwork",
-                    "vi": "sao nhãng bài vở"
-                  },
-                  {
-                    "en": "lower academic grades",
-                    "vi": "điểm số học tập giảm sút"
+                    "en": "harm physical health",
+                    "vi": "gây hại cho sức khỏe thể chất"
                   }
                 ],
-                "point_vi": "Chơi game quá nhiều có thể ảnh hưởng đến việc học của trẻ.",
-                "point_en": "Playing games too much can affect children's studies.",
-                "evidence_vi": "Nhiều em quá say mê trò chơi điện tử dẫn đến việc bỏ bê học hành, do đó kết quả học tập ở trường bị giảm sút nghiêm trọng.",
-                "evidence_en": "Many young gamers become addicted to playing games and neglect homework, so their academic performance at school drops significantly."
+                "evidence_vi": "Thói quen nhìn màn hình máy tính quá lâu dễ gây mỏi mắt và béo phì, vì vậy thể lực của các em ngày càng suy yếu.",
+                "evidence_en": "Staring at screens too long causes eye strain and obesity, so children's physical fitness becomes weaker.",
+                "evidence_collocations": [
+                  {
+                    "en": "stare at screens too long",
+                    "vi": "nhìn màn hình quá lâu"
+                  },
+                  {
+                    "en": "cause eye strain and obesity",
+                    "vi": "gây mỏi mắt và béo phì"
+                  },
+                  {
+                    "en": "physical fitness becomes weaker",
+                    "vi": "thể lực trở nên yếu ớt hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "harm physical health",
+                    "vi": "hại sức khỏe thể chất"
+                  },
+                  {
+                    "en": "cause eye strain and obesity",
+                    "vi": "gây mỏi mắt và béo phì"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: NGUY CƠ TIẾP XÚC BẠO LỰC",
+                "point_vi": "Nhiều trò chơi điện tử chứa các yếu tố bạo lực và hiếu chiến.",
+                "point_en": "Many video games contain violent and aggressive elements.",
+                "point_collocations": [
                   {
-                    "en": "affect children's behaviour",
-                    "vi": "ảnh hưởng đến hành vi của trẻ"
-                  },
-                  {
-                    "en": "become impatient",
-                    "vi": "trở nên thiếu kiên nhẫn"
-                  },
-                  {
-                    "en": "easily angry",
-                    "vi": "dễ tức giận / cáu gắt"
-                  },
-                  {
-                    "en": "play for too long",
-                    "vi": "chơi quá lâu"
-                  },
-                  {
-                    "en": "irritability",
-                    "vi": "sự cáu kỉnh"
+                    "en": "violent and aggressive elements",
+                    "vi": "các yếu tố bạo lực và hiếu chiến"
                   }
                 ],
-                "point_vi": "Chơi game quá nhiều có thể ảnh hưởng đến hành vi của trẻ.",
-                "point_en": "Playing games too much can affect children's behaviour.",
-                "evidence_vi": "Trẻ dành phần lớn thời gian rảnh trong thế giới ảo thay vì trò chuyện cùng cha mẹ và bạn bè, vì vậy các em dễ trở nên rụt rè và thiếu kỹ năng xã hội.",
-                "evidence_en": "Children spend most free time in virtual worlds instead of talking to parents and peers, so they easily become shy and socially isolated."
+                "evidence_vi": "Trẻ thường xuyên chơi các game bắn súng và đánh nhau có thể học theo hành vi thô lỗ, do đó các em dễ xảy ra xích mích với bạn bè ở trường.",
+                "evidence_en": "Children playing shooting and fighting games can copy aggressive behaviors, so they easily get into fights with classmates.",
+                "evidence_collocations": [
+                  {
+                    "en": "shooting and fighting games",
+                    "vi": "trò chơi bắn súng và đánh nhau"
+                  },
+                  {
+                    "en": "copy aggressive behaviors",
+                    "vi": "bắt chước hành vi hiếu chiến"
+                  },
+                  {
+                    "en": "get into fights with classmates",
+                    "vi": "xảy ra xích mích (đánh nhau) với bạn học"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "violent elements",
+                    "vi": "yếu tố bạo lực"
+                  },
+                  {
+                    "en": "copy aggressive behaviors",
+                    "vi": "bắt chước hành vi xấu"
+                  }
+                ]
               }
             ]
           },
@@ -41414,180 +43561,232 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: CƠ HỘI TĂNG THU NHẬP NHANH CHÓNG",
+                "point_vi": "Chuyển việc giúp người lao động có cơ hội đàm phán mức lương cao hơn.",
+                "point_en": "Changing jobs gives workers opportunities to negotiate higher salaries.",
+                "point_collocations": [
+                  {
+                    "en": "changing jobs",
+                    "vi": "chuyển việc (nhảy việc)"
+                  },
+                  {
+                    "en": "negotiate higher salaries",
+                    "vi": "đàm phán mức lương cao hơn"
+                  }
+                ],
+                "evidence_vi": "Các công ty mới sẵn sàng trả thù lao hấp dẫn để thu hút nhân sự có kinh nghiệm, nhờ đó người nhảy việc có thể tăng thu nhập nhanh chóng.",
+                "evidence_en": "New companies are willing to pay attractive pay to hire experienced staff, so job switchers can increase their income quickly.",
+                "evidence_collocations": [
+                  {
+                    "en": "attractive pay",
+                    "vi": "mức thù lao (tiền lương) hấp dẫn"
+                  },
+                  {
+                    "en": "experienced staff",
+                    "vi": "nhân sự có kinh nghiệm"
+                  },
+                  {
+                    "en": "increase income quickly",
+                    "vi": "tăng thu nhập nhanh chóng"
+                  }
+                ],
                 "collocations": [
                   {
-                    "en": "better salaries",
-                    "vi": "mức lương tốt hơn"
+                    "en": "negotiate higher salaries",
+                    "vi": "đàm phán lương cao"
                   },
                   {
-                    "en": "offer higher salaries",
-                    "vi": "trả lương cao hơn"
-                  },
-                  {
-                    "en": "experience and skills",
-                    "vi": "kinh nghiệm và kỹ năng"
+                    "en": "attractive pay",
+                    "vi": "mức lương hấp dẫn"
                   },
                   {
                     "en": "increase income",
                     "vi": "tăng thu nhập"
-                  },
-                  {
-                    "en": "financial rewards",
-                    "vi": "phần thưởng tài chính"
                   }
-                ],
-                "point_vi": "Nhảy việc có thể giúp người lao động có mức lương tốt hơn.",
-                "point_en": "Job hopping can help workers get better salaries.",
-                "evidence_vi": "Người lao động có cơ hội tìm kiếm những công ty mới sẵn sàng trả mức lương cao hơn, nhờ đó họ cải thiện được thu nhập và đời sống cá nhân.",
-                "evidence_en": "Workers have opportunities to find new employers offering higher salaries, so they can improve their income and living conditions."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 02: TÍCH LŨY NHIỀU KỸ NĂNG VÀ MÔI TRƯỜNG MỚI",
+                "point_vi": "Làm việc tại nhiều công ty giúp mở rộng kỹ năng chuyên môn.",
+                "point_en": "Working in different companies helps expand professional skills.",
+                "point_collocations": [
                   {
-                    "en": "new work experiences",
-                    "vi": "kinh nghiệm làm việc mới"
-                  },
-                  {
-                    "en": "different positions",
-                    "vi": "nhiều vị trí khác nhau"
-                  },
-                  {
-                    "en": "working environment",
-                    "vi": "môi trường làm việc"
-                  },
-                  {
-                    "en": "learn new skills",
-                    "vi": "học các kỹ năng mới"
-                  },
-                  {
-                    "en": "adapt to changes",
-                    "vi": "thích nghi với thay đổi"
+                    "en": "expand professional skills",
+                    "vi": "mở rộng các kỹ năng chuyên môn"
                   }
                 ],
-                "point_vi": "Nhảy việc giúp người lao động có thêm những kinh nghiệm làm việc mới.",
-                "point_en": "Job hopping gives workers new work experiences.",
-                "evidence_vi": "Làm việc ở nhiều môi trường khác nhau giúp nhân viên tiếp cận những quy trình làm việc mới, vì vậy họ tích lũy được nhiều kinh nghiệm quý báu.",
-                "evidence_en": "Working in varied professional environments exposes employees to new working processes, so they gain diverse and valuable experience."
+                "evidence_vi": "Mỗi môi trường làm việc mới đòi hỏi thích nghi với công nghệ và văn hóa khác nhau, do đó người lao động trở nên năng động và linh hoạt hơn.",
+                "evidence_en": "Each new workplace requires adapting to different tools and cultures, so workers become more active and versatile.",
+                "evidence_collocations": [
+                  {
+                    "en": "adapt to different tools and cultures",
+                    "vi": "thích nghi với công nghệ và văn hóa khác nhau"
+                  },
+                  {
+                    "en": "active and versatile",
+                    "vi": "năng động và linh hoạt"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "expand skills",
+                    "vi": "mở rộng kỹ năng"
+                  },
+                  {
+                    "en": "active and versatile",
+                    "vi": "năng động và linh hoạt"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "title": "LỢI ÍCH 03: MỞ RỘNG MẠNG LƯỚI QUAN HỆ NGHỀ NGHIỆP",
+                "point_vi": "Nhảy việc giúp xây dựng mạng lưới quan hệ công việc rộng rãi.",
+                "point_en": "Job hopping helps build broader professional networks.",
+                "point_collocations": [
                   {
-                    "en": "suit them better",
-                    "vi": "phù hợp hơn với bản thân"
+                    "en": "job hopping",
+                    "vi": "nhảy việc"
                   },
                   {
-                    "en": "match career goals",
-                    "vi": "phù hợp với mục tiêu nghề nghiệp"
-                  },
-                  {
-                    "en": "personal interests",
-                    "vi": "sở thích cá nhân"
-                  },
-                  {
-                    "en": "suitable job",
-                    "vi": "công việc phù hợp"
-                  },
-                  {
-                    "en": "job satisfaction",
-                    "vi": "sự hài lòng trong công việc"
+                    "en": "build broader professional networks",
+                    "vi": "xây dựng mạng lưới quan hệ nghề nghiệp rộng rãi hơn"
                   }
                 ],
-                "point_vi": "Nhảy việc giúp người lao động tìm được công việc phù hợp hơn với bản thân.",
-                "point_en": "Job hopping helps workers find jobs that suit them better.",
-                "evidence_vi": "Chuyển việc giúp mở rộng mạng lưới quan hệ với nhiều đồng nghiệp và đối tác mới, do đó người lao động có thêm nhiều cơ hội thăng tiến tương lai.",
-                "evidence_en": "Changing jobs expands professional connections with new colleagues and partners, so workers gain more advancement opportunities."
+                "evidence_vi": "Người chuyển việc có cơ hội làm quen với nhiều đồng nghiệp và đối tác mới, vì vậy họ dễ dàng tìm kiếm cơ hội thăng tiến trong tương lai.",
+                "evidence_en": "Job switchers meet many new colleagues and industry partners, so they easily find future promotion opportunities.",
+                "evidence_collocations": [
+                  {
+                    "en": "meet new colleagues and partners",
+                    "vi": "làm quen đồng nghiệp và đối tác mới"
+                  },
+                  {
+                    "en": "future promotion opportunities",
+                    "vi": "cơ hội thăng tiến trong tương lai"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "build professional networks",
+                    "vi": "xây dựng mạng lưới quan hệ"
+                  },
+                  {
+                    "en": "promotion opportunities",
+                    "vi": "cơ hội thăng tiến"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
+                "title": "BẤT LỢI 01: THIẾU SỰ ỔN ĐỊNH VÀ BẢO ĐẢM TÀI CHÍNH",
+                "point_vi": "Nhảy việc thường xuyên mang lại rủi ro mất ổn định tài chính.",
+                "point_en": "Frequent job hopping brings risks of financial instability.",
+                "point_collocations": [
+                  {
+                    "en": "frequent job hopping",
+                    "vi": "nhảy việc thường xuyên"
+                  },
+                  {
+                    "en": "financial instability",
+                    "vi": "mất ổn định tài chính"
+                  }
+                ],
+                "evidence_vi": "Người chuyển việc phải trải qua giai đoạn thử việc với mức lương thấp hơn, do đó họ có thể gặp khó khăn trong việc chi trả sinh hoạt phí.",
+                "evidence_en": "Job hoppers must pass probation periods with lower pay, so they can struggle to cover daily living costs.",
+                "evidence_collocations": [
+                  {
+                    "en": "probation periods with lower pay",
+                    "vi": "thời gian thử việc với mức lương thấp hơn"
+                  },
+                  {
+                    "en": "cover daily living costs",
+                    "vi": "chi trả các chi phí sinh hoạt hằng ngày"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "financial instability",
-                    "vi": "sự thiếu ổn định về tài chính"
+                    "vi": "bấp bênh tài chính"
                   },
                   {
-                    "en": "lose income",
-                    "vi": "mất thu nhập"
-                  },
-                  {
-                    "en": "period between jobs",
-                    "vi": "khoảng thời gian giữa hai công việc"
-                  },
-                  {
-                    "en": "unemployment gap",
-                    "vi": "khoảng trống thất nghiệp"
-                  },
-                  {
-                    "en": "cover living costs",
-                    "vi": "chi trả chi phí sinh hoạt"
+                    "en": "probation periods",
+                    "vi": "giai đoạn thử việc"
                   }
-                ],
-                "point_vi": "Nhảy việc thường xuyên có thể gây ra sự thiếu ổn định về tài chính.",
-                "point_en": "Frequent job hopping may cause financial instability.",
-                "evidence_vi": "Người lao động có thể mất nguồn thu nhập ổn định trong giai đoạn chuyển đổi giữa hai công việc, vì vậy họ dễ gặp khó khăn về tài chính ngắn hạn.",
-                "evidence_en": "Workers may lose steady income during the transitional period between jobs, so they easily face short-term financial difficulties."
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: ÁP LỰC HÒA NHẬP MÔI TRƯỜNG MỚI",
+                "point_vi": "Thường xuyên đổi chỗ làm tạo ra nhiều căng thẳng cho người lao động.",
+                "point_en": "Frequently changing workplaces creates much stress for workers.",
+                "point_collocations": [
                   {
-                    "en": "limit career development",
-                    "vi": "hạn chế sự phát triển nghề nghiệp"
-                  },
-                  {
-                    "en": "develop expertise",
-                    "vi": "phát triển chuyên môn"
-                  },
-                  {
-                    "en": "reach higher positions",
-                    "vi": "đạt được các vị trí cao hơn"
-                  },
-                  {
-                    "en": "promotion opportunity",
-                    "vi": "cơ hội thăng tiến"
-                  },
-                  {
-                    "en": "short tenure",
-                    "vi": "thời gian làm việc ngắn"
+                    "en": "create much stress",
+                    "vi": "tạo ra nhiều căng thẳng"
                   }
                 ],
-                "point_vi": "Nhảy việc quá thường xuyên có thể hạn chế sự phát triển nghề nghiệp.",
-                "point_en": "Job hopping too frequently may limit career development.",
-                "evidence_vi": "Nhân viên liên tục phải làm quen với đồng nghiệp mới và quy định mới của công ty, do đó họ thường xuyên cảm thấy căng thẳng và áp lực thích nghi.",
-                "evidence_en": "Employees must constantly adjust to new coworkers and unfamiliar workplace rules, so they often feel stressed and overwhelmed."
+                "evidence_vi": "Người mới phải liên tục học lại các quy trình và làm quen đồng nghiệp từ đầu, vì vậy họ dễ cảm thấy mệt mỏi và kiệt sức.",
+                "evidence_en": "New employees must constantly learn procedures and adjust to new coworkers, so they easily feel tired and stressed.",
+                "evidence_collocations": [
+                  {
+                    "en": "learn procedures",
+                    "vi": "học lại các quy trình công việc"
+                  },
+                  {
+                    "en": "adjust to new coworkers",
+                    "vi": "làm quen (thích nghi) với đồng nghiệp mới"
+                  },
+                  {
+                    "en": "feel tired and stressed",
+                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "create stress",
+                    "vi": "tạo ra căng thẳng"
+                  },
+                  {
+                    "en": "adjust to coworkers",
+                    "vi": "thích nghi với đồng nghiệp"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: ẤN TƯỢNG XẤU VỚI NHÀ TUYỂN DỤNG",
+                "point_vi": "Nhảy việc quá nhiều khiến hồ sơ xin việc trở nên kém hấp dẫn.",
+                "point_en": "Hopping jobs too often makes a resume look unreliable.",
+                "point_collocations": [
                   {
-                    "en": "problems for companies",
-                    "vi": "vấn đề đối với các công ty"
-                  },
-                  {
-                    "en": "spend time and money",
-                    "vi": "tốn thời gian và tiền bạc"
-                  },
-                  {
-                    "en": "recruit new employees",
-                    "vi": "tuyển dụng nhân viên mới"
-                  },
-                  {
-                    "en": "training costs",
-                    "vi": "chi phí đào tạo"
-                  },
-                  {
-                    "en": "high staff turnover",
-                    "vi": "tỷ lệ luân chuyển nhân sự cao"
+                    "en": "make a resume look unreliable",
+                    "vi": "làm cho hồ sơ xin việc có vẻ thiếu tin cậy"
                   }
                 ],
-                "point_vi": "Nhảy việc thường xuyên có thể gây ra nhiều vấn đề cho các công ty.",
-                "point_en": "Frequent job hopping can create several problems for companies.",
-                "evidence_vi": "Những người nhảy việc quá thường xuyên có thể bị nhà tuyển dụng đánh giá là thiếu trung thành, vì vậy hồ sơ xin việc của họ trở nên kém tin cậy.",
-                "evidence_en": "Frequent job hoppers may be viewed by recruiters as lacking loyalty, so their job applications become less attractive and reliable."
+                "evidence_vi": "Nhà tuyển dụng e ngại ứng viên thiếu lòng trung thành và dễ bỏ việc, do đó những người này khó được cất nhắc vào các vị trí lãnh đạo quan trọng.",
+                "evidence_en": "Employers doubt candidate loyalty and fear quick resignations, so job hoppers struggle to get hired for senior management roles.",
+                "evidence_collocations": [
+                  {
+                    "en": "doubt candidate loyalty",
+                    "vi": "nghi ngờ lòng trung thành của ứng viên"
+                  },
+                  {
+                    "en": "fear quick resignations",
+                    "vi": "lo sợ việc nhân viên nghỉ ngang (nghỉ sớm)"
+                  },
+                  {
+                    "en": "senior management roles",
+                    "vi": "các vị trí quản lý (lãnh đạo) cấp cao"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "make resume look unreliable",
+                    "vi": "hồ sơ thiếu tin cậy"
+                  },
+                  {
+                    "en": "candidate loyalty",
+                    "vi": "lòng trung thành của ứng viên"
+                  }
+                ]
               }
             ]
           },
@@ -43610,180 +45809,248 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: NÂNG CAO NĂNG SUẤT VÀ SẢN LƯỢNG",
+                "point_vi": "Thực phẩm công nghệ sinh học giúp tăng năng suất mùa màng đáng kể.",
+                "point_en": "Biotech food helps increase crop yields significantly.",
+                "point_collocations": [
                   {
-                    "en": "increase food production",
-                    "vi": "tăng sản lượng lương thực"
+                    "en": "biotech food",
+                    "vi": "thực phẩm công nghệ sinh học"
                   },
                   {
-                    "en": "grow faster",
-                    "vi": "phát triển nhanh hơn"
-                  },
-                  {
-                    "en": "produce higher yields",
-                    "vi": "cho năng suất cao hơn"
-                  },
-                  {
-                    "en": "meet food needs",
-                    "vi": "đáp ứng nhu cầu lương thực"
-                  },
-                  {
-                    "en": "growing population",
-                    "vi": "dân số ngày càng tăng"
+                    "en": "increase crop yields",
+                    "vi": "tăng năng suất cây trồng (mùa màng)"
                   }
                 ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể giúp tăng sản lượng lương thực.",
-                "point_en": "Biotech food can help increase food production.",
-                "evidence_vi": "Các giống cây trồng biến đổi gen phát triển nhanh hơn và cho sản lượng vượt trội, nhờ đó có thể đáp ứng đủ nhu cầu lương thực của dân số toàn cầu.",
-                "evidence_en": "Genetically modified crops grow faster and produce higher yields, so they can satisfy the increasing food demands of the global population."
+                "evidence_vi": "Các giống cây biến đổi gen có khả năng kháng sâu bệnh và chịu hạn tốt, nhờ đó người nông dân thu hoạch được sản lượng lúa ngô cao hơn.",
+                "evidence_en": "Genetically modified crops resist pests and drought well, so farmers harvest much higher food output.",
+                "evidence_collocations": [
+                  {
+                    "en": "genetically modified crops",
+                    "vi": "các giống cây biến đổi gen"
+                  },
+                  {
+                    "en": "resist pests and drought",
+                    "vi": "kháng sâu bệnh và chịu hạn tốt"
+                  },
+                  {
+                    "en": "harvest higher food output",
+                    "vi": "thu hoạch sản lượng lương thực cao hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "increase crop yields",
+                    "vi": "tăng năng suất cây trồng"
+                  },
+                  {
+                    "en": "resist pests and drought",
+                    "vi": "chống chịu sâu bệnh và hạn hán"
+                  }
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
+                "title": "LỢI ÍCH 02: BẢO QUẢN ĐƯỢC LÂU HƠN VÀ GIẢM LÃNG PHÍ",
+                "point_vi": "Thực phẩm sinh học có thời hạn bảo quản lâu hơn thực phẩm thông thường.",
+                "point_en": "Biotech food has a longer shelf life than regular produce.",
+                "point_collocations": [
+                  {
+                    "en": "longer shelf life",
+                    "vi": "thời hạn bảo quản (hạn sử dụng) lâu hơn"
+                  },
+                  {
+                    "en": "regular produce",
+                    "vi": "nông sản thông thường"
+                  }
+                ],
+                "evidence_vi": "Cà chua và trái cây được chỉnh sửa gen để chậm chín nát, vì vậy lượng thực phẩm hư hỏng trong quá trình vận chuyển giảm đi rất nhiều.",
+                "evidence_en": "Genetically modified fruits stay fresh longer without rotting, so food waste during transportation drops sharply.",
+                "evidence_collocations": [
+                  {
+                    "en": "stay fresh longer without rotting",
+                    "vi": "tươi lâu hơn mà không bị thối hỏng"
+                  },
+                  {
+                    "en": "food waste during transportation",
+                    "vi": "thực phẩm lãng phí (hư hỏng) trong quá trình vận chuyển"
+                  },
+                  {
+                    "en": "drop sharply",
+                    "vi": "giảm đi rõ rệt"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "longer shelf life",
-                    "vi": "thời hạn sử dụng lâu hơn"
+                    "vi": "hạn bảo quản lâu hơn"
                   },
                   {
-                    "en": "stay fresh",
-                    "vi": "giữ được độ tươi ngon"
-                  },
-                  {
-                    "en": "maintain food quality",
-                    "vi": "duy trì chất lượng thực phẩm"
-                  },
-                  {
-                    "en": "reduce food waste",
-                    "vi": "giảm lãng phí thực phẩm"
-                  },
-                  {
-                    "en": "spoil less quickly",
-                    "vi": "ít bị hỏng nhanh"
+                    "en": "stay fresh longer",
+                    "vi": "giữ tươi lâu hơn"
                   }
-                ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể để được lâu hơn.",
-                "point_en": "Biotech food can have a longer shelf life.",
-                "evidence_vi": "Nhiều loại cây trồng có khả năng kháng sâu bệnh và chống chịu hạn hán tốt, vì vậy nông dân tiết kiệm được chi phí mua thuốc trừ sâu.",
-                "evidence_en": "Many crop varieties resist pests and severe droughts naturally, so farmers save substantial money on chemical pesticides."
+                ]
               },
               {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "title": "LỢI ÍCH 03: TĂNG GIÁ TRỊ DINH DƯỠNG",
+                "point_vi": "Công nghệ sinh học giúp bổ sung thêm nhiều vi chất dinh dưỡng thiết yếu.",
+                "point_en": "Biotechnology helps add essential nutrients into basic crops.",
+                "point_collocations": [
                   {
-                    "en": "provide more nutrients",
-                    "vi": "cung cấp nhiều chất dinh dưỡng hơn"
+                    "en": "biotechnology",
+                    "vi": "công nghệ sinh học"
                   },
                   {
-                    "en": "higher levels of vitamins",
-                    "vi": "hàm lượng vitamin cao hơn"
-                  },
-                  {
-                    "en": "essential minerals",
-                    "vi": "các khoáng chất thiết yếu"
-                  },
-                  {
-                    "en": "improve consumers' diets",
-                    "vi": "cải thiện chế độ ăn của người tiêu dùng"
-                  },
-                  {
-                    "en": "better nutritional value",
-                    "vi": "giá trị dinh dưỡng tốt hơn"
+                    "en": "add essential nutrients",
+                    "vi": "bổ sung các chất dinh dưỡng thiết yếu"
                   }
                 ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn.",
-                "point_en": "Biotech food can provide more nutrients.",
-                "evidence_vi": "Thực phẩm công nghệ sinh học có thời gian bảo quản dài hơn mà không bị hư hỏng, do đó lượng thực phẩm lãng phí giảm đi đáng kể.",
-                "evidence_en": "Biotech food products stay fresh longer without spoiling quickly, so food waste during transportation is reduced significantly."
+                "evidence_vi": "Các nhà khoa học tạo ra giống gạo vàng giàu vitamin A, nhờ đó giúp cải thiện tình trạng suy dinh dưỡng ở các quốc gia nghèo.",
+                "evidence_en": "Scientists develop golden rice enriched with vitamin A, so this helps improve malnutrition in developing countries.",
+                "evidence_collocations": [
+                  {
+                    "en": "golden rice enriched with vitamin A",
+                    "vi": "gạo vàng giàu vitamin A"
+                  },
+                  {
+                    "en": "improve malnutrition",
+                    "vi": "cải thiện tình trạng suy dinh dưỡng"
+                  },
+                  {
+                    "en": "developing countries",
+                    "vi": "các quốc gia đang phát triển"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "add essential nutrients",
+                    "vi": "bổ sung dinh dưỡng thiết yếu"
+                  },
+                  {
+                    "en": "improve malnutrition",
+                    "vi": "cải thiện suy dinh dưỡng"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: LO NGẠI VỀ ẢNH HƯỞNG SỨC KHỎE LÂU DÀI",
+                "point_vi": "Thực phẩm biến đổi gen gây ra những lo ngại về sức khỏe lâu dài.",
+                "point_en": "Genetically modified food raises concerns about long-term human health.",
+                "point_collocations": [
                   {
-                    "en": "health concerns",
-                    "vi": "những lo ngại về sức khỏe"
+                    "en": "raise concerns",
+                    "vi": "gây ra những lo ngại"
                   },
                   {
-                    "en": "consuming modified food",
-                    "vi": "tiêu thụ thực phẩm biến đổi gen"
-                  },
-                  {
-                    "en": "health problems",
-                    "vi": "vấn đề sức khỏe"
-                  },
-                  {
-                    "en": "unknown long-term effects",
-                    "vi": "tác động lâu dài chưa rõ ràng"
-                  },
-                  {
-                    "en": "allergic reactions",
-                    "vi": "phản ứng dị ứng"
+                    "en": "long-term human health",
+                    "vi": "sức khỏe lâu dài của con người"
                   }
                 ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể gây ra những lo ngại về sức khỏe.",
-                "point_en": "Biotech food may cause health concerns.",
-                "evidence_vi": "Nhiều người tiêu dùng lo ngại các chất biến đổi gen có thể gây dị ứng hoặc ảnh hưởng tiêu cực lâu dài đến sức khỏe con người.",
-                "evidence_en": "Many consumers worry that genetically altered ingredients might trigger unexpected allergies or long-term health problems."
+                "evidence_vi": "Một số loại gen lạ đưa vào cây trồng có thể gây dị ứng thức ăn nghiêm trọng, vì vậy nhiều người tiêu dùng vẫn ngần ngại sử dụng.",
+                "evidence_en": "Foreign genes inserted into crops may cause severe food allergies, so many consumers feel hesitant to eat them.",
+                "evidence_collocations": [
+                  {
+                    "en": "foreign genes",
+                    "vi": "các loại gen ngoại lai (lạ)"
+                  },
+                  {
+                    "en": "cause severe food allergies",
+                    "vi": "gây ra dị ứng thức ăn nghiêm trọng"
+                  },
+                  {
+                    "en": "hesitant to eat",
+                    "vi": "ngần ngại sử dụng (ăn)"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "concerns about health",
+                    "vi": "lo ngại về sức khỏe"
+                  },
+                  {
+                    "en": "food allergies",
+                    "vi": "dị ứng thực phẩm"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
-                "collocations": [
+                "title": "BẤT LỢI 02: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐA DẠNG SINH HỌC",
+                "point_vi": "Cây trồng biến đổi gen có thể làm mất cân bằng hệ sinh thái tự nhiên.",
+                "point_en": "Modified crops can disrupt the natural ecosystem balance.",
+                "point_collocations": [
                   {
-                    "en": "harm the environment",
-                    "vi": "gây hại cho môi trường"
-                  },
-                  {
-                    "en": "modified crops",
-                    "vi": "cây trồng biến đổi gen"
-                  },
-                  {
-                    "en": "affect plants and animals",
-                    "vi": "ảnh hưởng đến thực vật và động vật"
-                  },
-                  {
-                    "en": "natural balance",
-                    "vi": "sự cân bằng tự nhiên"
-                  },
-                  {
-                    "en": "environmental impact",
-                    "vi": "tác động môi trường"
+                    "en": "disrupt the natural ecosystem balance",
+                    "vi": "làm mất cân bằng hệ sinh thái tự nhiên"
                   }
                 ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể gây ảnh hưởng xấu đến môi trường.",
-                "point_en": "Biotech food may harm the environment.",
-                "evidence_vi": "Cây trồng công nghệ sinh học có thể lấn át và làm suy giảm các giống bản địa, vì vậy sự đa dạng sinh học tự nhiên có nguy cơ bị đe dọa.",
-                "evidence_en": "Biotech crops may outcompete and displace native plant species, so natural biodiversity faces serious risks of decline."
+                "evidence_vi": "Các loài sâu bọ tự nhiên có thể chết hàng loạt hoặc phát triển thành siêu sâu bọ kháng thuốc, do đó hệ sinh vật đất đai bị xáo trộn nghiêm trọng.",
+                "evidence_en": "Useful insects may die out or pests evolve into superbugs, so local biodiversity gets disturbed severely.",
+                "evidence_collocations": [
+                  {
+                    "en": "useful insects may die out",
+                    "vi": "côn trùng có ích có thể bị tuyệt chủng"
+                  },
+                  {
+                    "en": "evolve into superbugs",
+                    "vi": "tiến hóa thành siêu sâu bọ"
+                  },
+                  {
+                    "en": "biodiversity gets disturbed",
+                    "vi": "đa dạng sinh học bị xáo trộn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "ecosystem balance",
+                    "vi": "cân bằng hệ sinh thái"
+                  },
+                  {
+                    "en": "biodiversity disturbed",
+                    "vi": "xáo trộn đa dạng sinh học"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: SỰ PHỤ THUỘC VÀO CÁC TẬP ĐOÀN ĐỘC QUYỀN",
+                "point_vi": "Nông dân có nguy cơ phụ thuộc hoàn toàn vào các tập đoàn hạt giống lớn.",
+                "point_en": "Farmers risk becoming fully dependent on big seed corporations.",
+                "point_collocations": [
                   {
-                    "en": "expensive food products",
-                    "vi": "sản phẩm thực phẩm đắt đỏ"
+                    "en": "fully dependent on",
+                    "vi": "phụ thuộc hoàn toàn vào"
                   },
                   {
-                    "en": "advanced technology",
-                    "vi": "công nghệ tiên tiến"
-                  },
-                  {
-                    "en": "scientific research",
-                    "vi": "nghiên cứu khoa học"
-                  },
-                  {
-                    "en": "costly production",
-                    "vi": "việc sản xuất tốn kém"
-                  },
-                  {
-                    "en": "increase product prices",
-                    "vi": "tăng giá sản phẩm"
+                    "en": "big seed corporations",
+                    "vi": "các tập đoàn hạt giống lớn"
                   }
                 ],
-                "point_vi": "Thực phẩm công nghệ sinh học có thể có giá cao.",
-                "point_en": "Biotech food may be expensive.",
-                "evidence_vi": "Hạt giống công nghệ cao thường thuộc quyền sở hữu của các tập đoàn lớn với giá rất đắt, do đó người nông dân nghèo khó có thể tiếp cận được.",
-                "evidence_en": "Patented high-tech seeds belong to large corporations at expensive prices, so poor smallholder farmers struggle to afford them."
+                "evidence_vi": "Hạt giống biến đổi gen được cấp bằng sáng chế độc quyền và không thể tái gieo trồng, vì vậy người nông dân nghèo phải tốn tiền mua hạt mới mỗi mùa vụ.",
+                "evidence_en": "Patented seeds cannot be replanted for next seasons, so poor farmers must spend large sums purchasing new seeds every crop.",
+                "evidence_collocations": [
+                  {
+                    "en": "patented seeds",
+                    "vi": "hạt giống được cấp bằng sáng chế (độc quyền)"
+                  },
+                  {
+                    "en": "cannot be replanted",
+                    "vi": "không thể tái gieo trồng"
+                  },
+                  {
+                    "en": "spend large sums purchasing seeds",
+                    "vi": "tốn khoản tiền lớn mua hạt giống"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "dependent on seed corporations",
+                    "vi": "phụ thuộc tập đoàn hạt giống"
+                  },
+                  {
+                    "en": "patented seeds",
+                    "vi": "hạt giống độc quyền"
+                  }
+                ]
               }
             ]
           },
@@ -46856,192 +49123,325 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
-                "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế quan trọng.",
-                "point_en": "Doing community work helps participants develop important practical skills.",
-                "evidence_vi": "Tình nguyện viên có cơ hội rèn luyện kỹ năng giao tiếp khi làm việc với nhiều người. Ngoài ra, người tham gia học cách phối hợp làm việc nhóm và xử lý tình huống thực tế hiệu quả. Nhờ đó, họ tích lũy được nhiều kinh nghiệm sống quý báu để phục vụ cho công việc mai sau.",
-                "evidence_en": "Volunteers have opportunities to improve communication skills when working with different people. In addition, participants practice teamwork and solve real-life problems effectively. As a result, they gain valuable life experience for their future careers.",
+                "title": "LỢI ÍCH 01: PHÁT TRIỂN KỸ NĂNG XÃ HỘI VÀ KINH NGHIỆM",
+                "point_vi": "Tham gia hoạt động cộng đồng giúp học sinh rèn luyện nhiều kỹ năng thực tế.",
+                "point_en": "Volunteering helps students develop many practical life skills.",
+                "point_collocations": [
+                  {
+                    "en": "volunteering",
+                    "vi": "làm tình nguyện (hoạt động cộng đồng)"
+                  },
+                  {
+                    "en": "develop practical life skills",
+                    "vi": "phát triển nhiều kỹ năng sống thực tế"
+                  }
+                ],
+                "evidence_vi": "Thanh thiếu niên học được cách làm việc nhóm, giao tiếp tự tin và giải quyết vấn đề khi hỗ trợ người khác. Ngoài ra, các em có cơ hội cọ xát với những tình huống thực tế ngoài đời sống. Nhờ đó, người trẻ trở nên chững chạc và tích lũy được nhiều kinh nghiệm quý báu cho công việc tương lai.",
+                "evidence_en": "Young people learn how to work in teams, communicate confidently, and solve daily problems when helping others. In addition, teenagers face practical situations outside the classroom. As a result, youths mature quickly and build valuable experience for future careers.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "work in teams",
+                      "vi": "làm việc nhóm"
+                    },
+                    {
+                      "en": "communicate confidently",
+                      "vi": "giao tiếp tự tin"
+                    },
+                    {
+                      "en": "solve daily problems",
+                      "vi": "giải quyết các vấn đề hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "face practical situations",
+                      "vi": "cọ xát (đối mặt) với tình huống thực tế"
+                    },
+                    {
+                      "en": "outside the classroom",
+                      "vi": "bên ngoài lớp học"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mature quickly",
+                      "vi": "trưởng thành nhanh chóng"
+                    },
+                    {
+                      "en": "build valuable experience",
+                      "vi": "tích lũy kinh nghiệm quý báu"
+                    },
+                    {
+                      "en": "future careers",
+                      "vi": "sự nghiệp tương lai"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "doing community work",
-                    "vi": "làm công tác cộng đồng",
-                    "level": "B1"
+                    "en": "practical life skills",
+                    "vi": "kỹ năng sống thực tế"
                   },
                   {
-                    "en": "helps participants / helps people",
-                    "vi": "giúp người tham gia / giúp mọi người",
-                    "level": "B1"
+                    "en": "communicate confidently",
+                    "vi": "giao tiếp tự tin"
                   },
                   {
-                    "en": "develop practical skills",
-                    "vi": "phát triển các kỹ năng thực tế",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "important practical skills",
-                    "vi": "các kỹ năng thực tế quan trọng",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "work better in teams",
-                    "vi": "làm việc nhóm tốt hơn",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "solve difficult problems",
-                    "vi": "giải quyết các vấn đề khó khăn",
-                    "level": "B1"
+                    "en": "valuable experience",
+                    "vi": "kinh nghiệm quý báu"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
-                "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân kết bạn mới và mở rộng các mối quan hệ xã hội.",
-                "point_en": "Doing volunteer work helps people make new friends and expand their social connections.",
-                "evidence_vi": "Hoạt động tình nguyện tập hợp nhiều bạn bè có chung sở thích và tinh thần tương thân tương ái. Thêm vào đó, việc hợp tác trong các dự án xã hội giúp mọi người dễ dàng kết bạn mới. Vì vậy, người tham gia có thể mở rộng mạng lưới quan hệ xã hội một cách tự nhiên và bền chặt.",
-                "evidence_en": "Volunteer activities bring together peers with similar interests and a generous spirit. In addition, collaborating on social projects helps people easily form new friendships. Therefore, participants can expand their social networks naturally and build lasting relationships.",
+                "title": "LỢI ÍCH 02: NUÔI DƯỠNG LÒNG NHÂN ÁI VÀ TRÁCH NHIỆM",
+                "point_vi": "Làm việc cộng đồng nuôi dưỡng lòng trắc ẩn và tinh thần trách nhiệm của học sinh.",
+                "point_en": "Community service nurtures empathy and social responsibility in students.",
+                "point_collocations": [
+                  {
+                    "en": "nurture empathy",
+                    "vi": "nuôi dưỡng lòng trắc ẩn (nhân ái)"
+                  },
+                  {
+                    "en": "social responsibility",
+                    "vi": "trách nhiệm xã hội"
+                  }
+                ],
+                "evidence_vi": "Khi tận mắt chứng kiến và giúp đỡ những hoàn cảnh khó khăn, học sinh thấu hiểu sâu sắc hơn về cuộc sống quanh mình. Thêm vào đó, các em nhận ra giá trị của sự sẻ chia và biết quý trọng những gì mình đang có. Do đó, giới trẻ từng bước hình thành lối sống tử tế và có trách nhiệm với cộng đồng.",
+                "evidence_en": "When directly witnessing and helping people in need, students understand life around them more deeply. In addition, young volunteers realize the value of sharing and appreciate their own blessings. Therefore, youth gradually build a kind and socially responsible lifestyle.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "directly witness and help people in need",
+                      "vi": "trực tiếp chứng kiến và giúp đỡ người khó khăn"
+                    },
+                    {
+                      "en": "understand life deeply",
+                      "vi": "thấu hiểu cuộc sống sâu sắc hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "realize the value of sharing",
+                      "vi": "nhận ra giá trị của sự sẻ chia"
+                    },
+                    {
+                      "en": "appreciate blessings",
+                      "vi": "biết quý trọng những gì mình có"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "kind and socially responsible lifestyle",
+                      "vi": "lối sống tử tế và có trách nhiệm xã hội"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "doing volunteer work",
-                    "vi": "tham gia hoạt động tình nguyện",
-                    "level": "B1"
+                    "en": "nurture empathy",
+                    "vi": "nuôi dưỡng lòng nhân ái"
                   },
                   {
-                    "en": "make new friends",
-                    "vi": "kết bạn mới",
-                    "level": "B1"
+                    "en": "value of sharing",
+                    "vi": "giá trị của chia sẻ"
                   },
                   {
-                    "en": "expand social connections",
-                    "vi": "mở rộng các mối quan hệ xã hội",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "meet different people",
-                    "vi": "gặp gỡ nhiều người khác nhau",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "build lasting friendships",
-                    "vi": "xây dựng tình bạn lâu dài",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "useful connections for the future",
-                    "vi": "các mối quan hệ hữu ích cho tương lai",
-                    "level": "B1"
+                    "en": "socially responsible lifestyle",
+                    "vi": "lối sống có trách nhiệm"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
-                "point_vi": "Các hoạt động tình nguyện giúp người tham gia cảm thấy vui vẻ và giảm căng thẳng.",
-                "point_en": "Volunteer activities help participants feel happier and reduce daily stress.",
-                "evidence_vi": "Việc trực tiếp giúp đỡ những người có hoàn cảnh khó khăn đem lại niềm vui và sự thanh thản trong tâm hồn. Ngoài ra, các hoạt động ngoài trời ý nghĩa giúp người trẻ tránh xa lối sống cô lập và màn hình điện thoại. Do đó, người tham gia giải tỏa được áp lực cuộc sống và duy trì trạng thái tinh thần tích cực.",
-                "evidence_en": "Directly helping disadvantaged people brings genuine happiness and mental peace. In addition, meaningful outdoor activities keep young people away from isolated lifestyles and digital screens. Consequently, participants reduce life stress and maintain a positive mindset.",
+                "title": "LỢI ÍCH 03: LÀM ĐẸP HỒ SƠ HỌC TẬP VÀ XIN VIỆC",
+                "point_vi": "Các hoạt động thiện nguyện giúp hồ sơ xin việc và xin học bổng nổi bật hơn.",
+                "point_en": "Volunteering makes university applications and job resumes stand out.",
+                "point_collocations": [
+                  {
+                    "en": "university applications and job resumes",
+                    "vi": "hồ sơ đại học và xin việc"
+                  },
+                  {
+                    "en": "stand out",
+                    "vi": "nổi bật hơn"
+                  }
+                ],
+                "evidence_vi": "Các trường đại học danh tiếng và nhà tuyển dụng luôn ưu tiên ứng viên có tinh thần cống hiến vì xã hội. Hơn nữa, việc tham gia các dự án cộng đồng chứng minh kỹ năng lãnh đạo và tinh thần nhiệt huyết của học sinh. Vì vậy, các em dễ dàng trúng tuyển và mở rộng con đường sự nghiệp sau này.",
+                "evidence_en": "Top universities and employers always value candidates showing community dedication. Furthermore, joining volunteer projects demonstrates leadership skills and strong enthusiasm. Therefore, students easily win scholarships and open promising career paths.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "top universities and employers",
+                      "vi": "các trường đại học hàng đầu và nhà tuyển dụng"
+                    },
+                    {
+                      "en": "value community dedication",
+                      "vi": "đánh giá cao sự cống hiến vì cộng đồng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "join volunteer projects",
+                      "vi": "tham gia các dự án tình nguyện"
+                    },
+                    {
+                      "en": "demonstrate leadership skills",
+                      "vi": "thể hiện (chứng minh) kỹ năng lãnh đạo"
+                    },
+                    {
+                      "en": "strong enthusiasm",
+                      "vi": "tinh thần nhiệt huyết"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "win scholarships",
+                      "vi": "giành được học bổng"
+                    },
+                    {
+                      "en": "promising career paths",
+                      "vi": "con đường sự nghiệp đầy triển vọng"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "volunteer activities",
-                    "vi": "các hoạt động tình nguyện",
-                    "level": "B1"
+                    "en": "stand out",
+                    "vi": "nổi bật"
                   },
                   {
-                    "en": "help participants feel happier",
-                    "vi": "giúp người tham gia cảm thấy vui vẻ hơn",
-                    "level": "B1"
+                    "en": "leadership skills",
+                    "vi": "kỹ năng lãnh đạo"
                   },
                   {
-                    "en": "reduce daily stress",
-                    "vi": "giải tỏa căng thẳng hằng ngày",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "helping others",
-                    "vi": "việc giúp đỡ người khác",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "feel less lonely",
-                    "vi": "cảm thấy bớt cô đơn",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "positive lifestyle",
-                    "vi": "lối sống tích cực",
-                    "level": "B1"
+                    "en": "promising career paths",
+                    "vi": "con đường sự nghiệp triển vọng"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
-                "point_vi": "Tham gia việc cộng đồng giúp người trẻ học được tinh thần trách nhiệm đối với xã hội.",
-                "point_en": "Participating in community work helps young people learn a strong sense of responsibility toward society.",
-                "evidence_vi": "Tình nguyện viên luôn phải tuân thủ kỷ luật và nỗ lực hoàn thành tốt nhiệm vụ được giao. Hơn nữa, việc chứng kiến những mảnh đời cơ cực nhắc nhở các bạn trẻ biết chia sẻ với xã hội. Vì vậy, người tham gia dần hình thành phẩm chất sống nhân hậu và tinh thần trách nhiệm công dân cao.",
-                "evidence_en": "Volunteers must follow discipline and strive to complete their assigned duties well. Furthermore, witnessing difficult lives reminds young adults to share with society. Therefore, participants gradually develop compassionate character and a strong sense of civic responsibility.",
+                "title": "LỢI ÍCH 04: MỞ RỘNG MẠNG LƯỚI QUAN HỆ BẠN BÈ TÍCH CỰC",
+                "point_vi": "Tham gia tình nguyện giúp thanh niên kết nối với những người bạn cùng chí hướng.",
+                "point_en": "Volunteering connects young people with like-minded friends.",
+                "point_collocations": [
+                  {
+                    "en": "connect with like-minded friends",
+                    "vi": "kết nối với những người bạn cùng chí hướng"
+                  }
+                ],
+                "evidence_vi": "Học sinh có dịp gặp gỡ những người bạn nhiệt huyết và giàu lòng nhân ái từ nhiều trường học khác nhau. Ngoài ra, việc cùng nhau vượt qua thử thách trong các chuyến đi thiện nguyện tạo nên những tình bạn bền chặt. Nhờ đó, các em xây dựng được mạng lưới quan hệ tích cực và lành mạnh cho bản thân.",
+                "evidence_en": "Students meet warm-hearted and enthusiastic peers from various schools. In addition, overcoming challenges together during charity trips creates lasting friendships. As a result, teenagers build positive and healthy social circles.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "warm-hearted and enthusiastic peers",
+                      "vi": "những người bạn giàu lòng nhân ái và nhiệt huyết"
+                    },
+                    {
+                      "en": "from various schools",
+                      "vi": "từ nhiều trường học khác nhau"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "overcome challenges together",
+                      "vi": "cùng nhau vượt qua thử thách"
+                    },
+                    {
+                      "en": "charity trips",
+                      "vi": "các chuyến đi thiện nguyện"
+                    },
+                    {
+                      "en": "lasting friendships",
+                      "vi": "những tình bạn bền chặt"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "positive and healthy social circles",
+                      "vi": "vòng tròn quan hệ xã hội tích cực và lành mạnh"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "participating in community work",
-                    "vi": "tham gia việc cộng đồng",
-                    "level": "B1"
+                    "en": "like-minded friends",
+                    "vi": "bạn cùng chí hướng"
                   },
                   {
-                    "en": "learn a sense of responsibility",
-                    "vi": "học tinh thần trách nhiệm",
-                    "level": "B1"
+                    "en": "lasting friendships",
+                    "vi": "tình bạn bền chặt"
                   },
                   {
-                    "en": "finish tasks on time",
-                    "vi": "hoàn thành công việc đúng giờ",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "take responsibility",
-                    "vi": "chịu trách nhiệm",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "help people in need",
-                    "vi": "giúp đỡ những người khó khăn",
-                    "level": "B1"
+                    "en": "healthy social circles",
+                    "vi": "mối quan hệ tích cực"
                   }
                 ]
               },
               {
-                "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
-                "point_vi": "Các chương trình tình nguyện mang lại nhiều thay đổi tích cực cho đời sống cộng đồng.",
-                "point_en": "Volunteer programs bring many positive changes to community life.",
-                "evidence_vi": "Các chiến dịch thiện nguyện cung cấp sách vở, thức ăn và quần áo ấm cho các gia đình khó khăn. Ngoài ra, những buổi dọn rác và trồng cây xanh làm cho đường phố thêm sạch đẹp và trong lành. Do đó, sự chung tay của tình nguyện viên mang lại nhiều đổi thay tích cực cho cộng đồng địa phương.",
-                "evidence_en": "Charity campaigns supply books, food, and warm clothes to families in need. In addition, street cleanups and tree planting keep neighborhoods clean, green, and pleasant. Consequently, volunteers' united efforts bring many positive changes to the local community.",
-                "collocations": [
+                "title": "LỢI ÍCH 05: GÓP PHẦN XÂY DỰNG XÃ HỘI TỐT ĐẸP HƠN",
+                "point_vi": "Sự đóng góp của học sinh mang lại những thay đổi tích cực cho cộng đồng.",
+                "point_en": "Students' volunteer contributions bring positive changes to the community.",
+                "point_collocations": [
                   {
-                    "en": "volunteer programs",
-                    "vi": "các chương trình tình nguyện",
-                    "level": "B1"
+                    "en": "volunteer contributions",
+                    "vi": "những đóng góp tình nguyện"
                   },
                   {
                     "en": "bring positive changes",
-                    "vi": "mang lại thay đổi tích cực",
-                    "level": "B1"
+                    "vi": "mang lại những thay đổi tích cực"
+                  }
+                ],
+                "evidence_vi": "Những việc làm như dạy học miễn phí cho trẻ em nghèo hay dọn rác khu dân cư trực tiếp giúp đỡ những người có hoàn cảnh khó khăn. Thêm vào đó, tinh thần tương thân tương ái được lan tỏa rộng rãi khắp mọi nơi. Kết quả là, xã hội ngày càng trở nên ấm áp, văn minh và đáng sống hơn.",
+                "evidence_en": "Actions like teaching poor children for free or cleaning neighborhood streets directly support disadvantaged groups. In addition, the spirit of solidarity spreads widely across society. Consequently, the local community becomes warmer, more civilized, and a better place to live.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "teach poor children for free",
+                      "vi": "dạy học miễn phí cho trẻ em nghèo"
+                    },
+                    {
+                      "en": "clean neighborhood streets",
+                      "vi": "dọn dẹp đường phố khu dân cư"
+                    },
+                    {
+                      "en": "support disadvantaged groups",
+                      "vi": "giúp đỡ những nhóm người thiệt thòi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "spirit of solidarity",
+                      "vi": "tinh thần tương thân tương ái (đoàn kết)"
+                    },
+                    {
+                      "en": "spreads widely",
+                      "vi": "lan tỏa rộng rãi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warm and civilized community",
+                      "vi": "cộng đồng ấm áp và văn minh"
+                    },
+                    {
+                      "en": "better place to live",
+                      "vi": "nơi đáng sống hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "volunteer contributions",
+                    "vi": "đóng góp tình nguyện"
                   },
                   {
-                    "en": "donate books and clothes",
-                    "vi": "quyên góp sách vở và quần áo",
-                    "level": "B1"
+                    "en": "support disadvantaged groups",
+                    "vi": "giúp đỡ người khó khăn"
                   },
                   {
-                    "en": "plant trees and clean streets",
-                    "vi": "trồng cây và dọn rác đường phố",
-                    "level": "B1"
-                  },
-                  {
-                    "en": "make the community a better place",
-                    "vi": "làm cho cộng đồng tốt đẹp hơn",
-                    "level": "B1"
+                    "en": "civilized community",
+                    "vi": "cộng đồng văn minh"
                   }
                 ]
               }
@@ -80078,212 +82478,252 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM THỜI GIAN VÀ CÔNG SỨC",
+                "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm rất nhiều thời gian.",
+                "point_en": "Food delivery services help people save significant time.",
+                "point_collocations": [
+                  {
+                    "en": "food delivery services",
+                    "vi": "dịch vụ giao đồ ăn"
+                  },
+                  {
+                    "en": "save significant time",
+                    "vi": "tiết kiệm thời gian đáng kể"
+                  }
+                ],
+                "evidence_vi": "Khách hàng có thể đặt bữa ăn nóng hổi ngay tại nhà hoặc văn phòng làm việc, nhờ đó họ tiết kiệm được rất nhiều thời gian nấu nướng và đi lại.",
+                "evidence_en": "Customers can order hot meals right at home or the office, so they save a lot of time on shopping and cooking.",
+                "evidence_collocations": [
+                  {
+                    "en": "order hot meals right at home",
+                    "vi": "đặt bữa ăn nóng hổi ngay tại nhà"
+                  },
+                  {
+                    "en": "save a lot of time",
+                    "vi": "tiết kiệm nhiều thời gian"
+                  },
+                  {
+                    "en": "shopping and cooking",
+                    "vi": "mua sắm và nấu nướng"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "food delivery services",
                     "vi": "dịch vụ giao đồ ăn"
                   },
                   {
+                    "en": "order hot meals",
+                    "vi": "đặt bữa ăn nóng hổi"
+                  },
+                  {
                     "en": "save time",
                     "vi": "tiết kiệm thời gian"
-                  },
-                  {
-                    "en": "visit restaurants",
-                    "vi": "đến nhà hàng"
-                  },
-                  {
-                    "en": "order meals",
-                    "vi": "đặt món ăn"
-                  },
-                  {
-                    "en": "become more common",
-                    "vi": "trở nên phổ biến hơn"
-                  },
-                  {
-                    "en": "modern society",
-                    "vi": "xã hội hiện đại"
-                  },
-                  {
-                    "en": "do not need to + Vo",
-                    "vi": "không cần làm gì"
                   }
-                ],
-                "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian.",
-                "point_en": "Food delivery services help people save time.",
-                "evidence_vi": "Khách hàng có thể đặt bữa ăn nóng hổi ngay tại nhà hoặc văn phòng làm việc, nhờ đó họ tiết kiệm được rất nhiều thời gian nấu nướng và đi lại.",
-                "evidence_en": "Customers can order hot meals right at home or the office, so they save significant time on grocery shopping and cooking."
+                ]
               },
               {
-                "title": "ADVANTAGE 02",
-                "collocations": [
+                "title": "LỢI ÍCH 02: THUẬN TIỆN VÀ NHIỀU LỰA CHỌN MÓN ĂN",
+                "point_vi": "Dịch vụ giao đồ ăn mang lại sự thuận tiện vượt trội cho người dùng.",
+                "point_en": "Food delivery services offer great convenience for users.",
+                "point_collocations": [
                   {
-                    "en": "convenient",
-                    "vi": "thuận tiện"
-                  },
-                  {
-                    "en": "anytime",
-                    "vi": "bất cứ lúc nào"
-                  },
-                  {
-                    "en": "mobile phone",
-                    "vi": "điện thoại di động"
-                  },
-                  {
-                    "en": "application",
-                    "vi": "ứng dụng"
-                  },
-                  {
-                    "en": "a positive aspect",
-                    "vi": "một khía cạnh tích cực"
-                  },
-                  {
-                    "en": "without leaving their homes",
-                    "vi": "mà không cần ra khỏi nhà"
-                  },
-                  {
-                    "en": "the main reason is that",
-                    "vi": "lý do chính là"
+                    "en": "offer great convenience",
+                    "vi": "mang lại sự thuận tiện vượt trội"
                   }
                 ],
-                "point_vi": "Dịch vụ giao đồ ăn rất thuận tiện.",
-                "point_en": "Food delivery services are very convenient.",
                 "evidence_vi": "Các ứng dụng giao đồ ăn cung cấp thực đơn vô cùng phong phú từ hàng trăm nhà hàng, vì vậy người dùng có thể thoải mái lựa chọn món ăn yêu thích.",
-                "evidence_en": "Food delivery apps offer extensive menus from hundreds of restaurants, so users can freely choose their favorite dishes."
-              },
-              {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "evidence_en": "Food delivery apps offer extensive menus from hundreds of restaurants, so users can freely choose their favorite dishes.",
+                "evidence_collocations": [
                   {
-                    "en": "a wider variety of meals",
-                    "vi": "nhiều lựa chọn món ăn hơn"
+                    "en": "food delivery apps",
+                    "vi": "các ứng dụng giao đồ ăn"
                   },
                   {
-                    "en": "choose meals",
-                    "vi": "chọn món ăn"
+                    "en": "extensive menus",
+                    "vi": "thực đơn phong phú"
                   },
                   {
-                    "en": "different restaurants",
-                    "vi": "nhiều nhà hàng khác nhau"
-                  },
-                  {
-                    "en": "a further good point",
-                    "vi": "một điểm tốt nữa"
-                  },
-                  {
-                    "en": "customer",
-                    "vi": "khách hàng"
-                  },
-                  {
-                    "en": "offer + N",
-                    "vi": "cung cấp cái gì"
+                    "en": "freely choose favorite dishes",
+                    "vi": "thoải mái lựa chọn món ăn yêu thích"
                   }
                 ],
-                "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn.",
-                "point_en": "Food delivery services offer a wider variety of meals.",
+                "collocations": [
+                  {
+                    "en": "food delivery apps",
+                    "vi": "ứng dụng giao đồ ăn"
+                  },
+                  {
+                    "en": "extensive menus",
+                    "vi": "thực đơn phong phú"
+                  },
+                  {
+                    "en": "favorite dishes",
+                    "vi": "món ăn yêu thích"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: TẠO THÊM NHIỀU VIỆC LÀM CHO XÃ HỘI",
+                "point_vi": "Ngành giao đồ ăn phát triển tạo ra nhiều cơ hội việc làm linh hoạt.",
+                "point_en": "The food delivery industry creates many flexible job opportunities.",
+                "point_collocations": [
+                  {
+                    "en": "flexible job opportunities",
+                    "vi": "cơ hội việc làm linh hoạt"
+                  }
+                ],
                 "evidence_vi": "Ngành giao đồ ăn phát triển mạnh mẽ tạo ra hàng triệu việc làm cho tài xế và đầu bếp, do đó góp phần thúc đẩy kinh tế địa phương tăng trưởng.",
-                "evidence_en": "The delivery industry creates millions of flexible jobs for riders and kitchen staff, so it helps boost the local economy."
+                "evidence_en": "The food delivery industry creates many jobs for drivers and cooks, so local businesses grow faster.",
+                "evidence_collocations": [
+                  {
+                    "en": "jobs for drivers and cooks",
+                    "vi": "việc làm cho tài xế và đầu bếp"
+                  },
+                  {
+                    "en": "local businesses grow faster",
+                    "vi": "các doanh nghiệp địa phương phát triển nhanh hơn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "flexible jobs",
+                    "vi": "việc làm linh hoạt"
+                  },
+                  {
+                    "en": "jobs for drivers",
+                    "vi": "việc làm cho tài xế"
+                  }
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "DISADVANTAGE 01",
-                "collocations": [
+                "title": "BẤT LỢI 01: CHI PHÍ TỐN KÉM VÌ PHỤ PHÍ",
+                "point_vi": "Đặt đồ ăn giao tận nơi có thể làm tăng chi tiêu hằng tháng.",
+                "point_en": "Ordering food delivery can increase monthly living expenses.",
+                "point_collocations": [
                   {
-                    "en": "expensive",
-                    "vi": "tốn kém"
+                    "en": "ordering food delivery",
+                    "vi": "đặt đồ ăn giao tận nơi"
                   },
                   {
-                    "en": "pay delivery and service fees",
-                    "vi": "trả phí giao hàng và dịch vụ"
-                  },
-                  {
-                    "en": "in addition to",
-                    "vi": "ngoài ra"
-                  },
-                  {
-                    "en": "the cost of the meal",
-                    "vi": "chi phí của bữa ăn"
-                  },
-                  {
-                    "en": "a possible drawback",
-                    "vi": "một hạn chế có thể xảy ra"
+                    "en": "increase monthly living expenses",
+                    "vi": "tăng chi tiêu sinh hoạt hằng tháng"
                   }
                 ],
-                "point_vi": "Dịch vụ giao đồ ăn có thể tốn kém.",
-                "point_en": "Food delivery services can increase living expenses.",
                 "evidence_vi": "Khách hàng phải trả thêm phí vận chuyển và phụ phí dịch vụ cho mỗi đơn hàng, vì vậy chi tiêu cho ăn uống hằng tháng tăng lên đáng kể.",
-                "evidence_en": "Customers must pay extra delivery and service fees for each order, so monthly food expenditures increase considerably."
+                "evidence_en": "Customers must pay extra delivery fees and service charges, so monthly food spending increases noticeably.",
+                "evidence_collocations": [
+                  {
+                    "en": "pay extra delivery fees",
+                    "vi": "trả thêm phí vận chuyển"
+                  },
+                  {
+                    "en": "service charges",
+                    "vi": "phụ phí dịch vụ"
+                  },
+                  {
+                    "en": "monthly food spending",
+                    "vi": "chi tiêu ăn uống hằng tháng"
+                  },
+                  {
+                    "en": "increase noticeably",
+                    "vi": "tăng lên đáng kể"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "delivery fees",
+                    "vi": "phí giao hàng"
+                  },
+                  {
+                    "en": "monthly food spending",
+                    "vi": "chi tiêu ăn uống hằng tháng"
+                  }
+                ]
               },
               {
-                "title": "DISADVANTAGE 02",
+                "title": "BẤT LỢI 02: THÓI QUEN ĂN UỐNG KÉM LÀNH MẠNH",
+                "point_vi": "Dịch vụ giao đồ ăn có thể khuyến khích thói quen ăn uống không lành mạnh.",
+                "point_en": "Food delivery services may encourage unhealthy eating habits.",
+                "point_collocations": [
+                  {
+                    "en": "encourage unhealthy eating habits",
+                    "vi": "khuyến khích thói quen ăn uống không lành mạnh"
+                  }
+                ],
+                "evidence_vi": "Nhiều người thường xuyên gọi đồ ăn nhanh nhiều dầu mỡ thay vì nấu cơm nhà, do đó thói quen này gây hại lớn cho sức khỏe tim mạch.",
+                "evidence_en": "Many people regularly order fast food instead of cooking healthy meals, so this bad habit easily leads to health problems.",
+                "evidence_collocations": [
+                  {
+                    "en": "order fast food",
+                    "vi": "gọi đồ ăn nhanh"
+                  },
+                  {
+                    "en": "instead of cooking healthy meals",
+                    "vi": "thay vì nấu những bữa ăn lành mạnh"
+                  },
+                  {
+                    "en": "lead to health problems",
+                    "vi": "dẫn đến các vấn đề sức khỏe"
+                  }
+                ],
                 "collocations": [
                   {
                     "en": "unhealthy eating habits",
                     "vi": "thói quen ăn uống không lành mạnh"
                   },
                   {
-                    "en": "encourage",
-                    "vi": "khuyến khích, tạo điều kiện cho"
-                  },
-                  {
                     "en": "order fast food",
-                    "vi": "gọi đồ ăn nhanh"
+                    "vi": "đặt thức ăn nhanh"
                   },
                   {
-                    "en": "cook at home",
-                    "vi": "tự nấu ăn ở nhà"
-                  },
-                  {
-                    "en": "harmful to their health",
-                    "vi": "có hại cho sức khỏe của họ"
-                  },
-                  {
-                    "en": "instead of + V-ing",
-                    "vi": "thay vì làm gì"
-                  },
-                  {
-                    "en": "a negative aspect",
-                    "vi": "một khía cạnh tiêu cực"
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
                   }
-                ],
-                "point_vi": "Dịch vụ giao đồ ăn có thể khuyến khích thói quen ăn uống không lành mạnh.",
-                "point_en": "Food delivery services may encourage unhealthy eating habits.",
-                "evidence_vi": "Nhiều người thường xuyên gọi đồ ăn nhanh nhiều dầu mỡ thay vì nấu cơm nhà, do đó thói quen này gây hại lớn cho sức khỏe tim mạch.",
-                "evidence_en": "Many people frequently order oily fast foods instead of home-cooked meals, so this unhealthy habit harms long-term cardiovascular health."
+                ]
               },
               {
-                "title": "DISADVANTAGE 03",
-                "collocations": [
+                "title": "BẤT LỢI 03: RÁC THẢI NHỰA GÂY Ô NHIỄM MÔI TRƯỜNG",
+                "point_vi": "Dịch vụ giao đồ ăn tạo ra lượng lớn rác thải nhựa dùng một lần.",
+                "point_en": "Food delivery generates huge amounts of single-use plastic waste.",
+                "point_collocations": [
                   {
-                    "en": "create more waste",
-                    "vi": "tạo ra nhiều rác thải hơn"
-                  },
-                  {
-                    "en": "disposable plastic boxes",
-                    "vi": "hộp nhựa dùng một lần"
-                  },
-                  {
-                    "en": "plastic bags",
-                    "vi": "túi nhựa"
-                  },
-                  {
-                    "en": "the amount of waste increases",
-                    "vi": "lượng rác thải tăng lên"
-                  },
-                  {
-                    "en": "a further problem",
-                    "vi": "một vấn đề nữa"
-                  },
-                  {
-                    "en": "environmental impact",
-                    "vi": "tác động môi trường"
+                    "en": "single-use plastic waste",
+                    "vi": "rác thải nhựa dùng một lần"
                   }
                 ],
-                "point_vi": "Dịch vụ giao đồ ăn tạo ra nhiều rác thải.",
-                "point_en": "Food delivery services create more waste.",
                 "evidence_vi": "Hàng triệu đơn hàng giao đi mỗi ngày sử dụng lượng lớn hộp xốp, túi nilon và thìa nhựa, vì vậy lượng rác thải nhựa thải ra môi trường tăng vọt.",
-                "evidence_en": "Millions of daily delivery orders use single-use plastic boxes, bags, and cutlery, so plastic waste pollutes the environment heavily."
+                "evidence_en": "Millions of daily delivery orders use plastic containers and bags, so plastic waste pollutes the environment heavily.",
+                "evidence_collocations": [
+                  {
+                    "en": "delivery orders",
+                    "vi": "đơn hàng giao đồ ăn"
+                  },
+                  {
+                    "en": "plastic containers and bags",
+                    "vi": "hộp và túi nhựa"
+                  },
+                  {
+                    "en": "pollute the environment heavily",
+                    "vi": "gây ô nhiễm môi trường nặng nề"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
+                  },
+                  {
+                    "en": "plastic containers and bags",
+                    "vi": "hộp và túi nhựa"
+                  },
+                  {
+                    "en": "pollute the environment",
+                    "vi": "gây ô nhiễm môi trường"
+                  }
+                ]
               }
             ]
           },
@@ -84327,118 +86767,187 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
-                "collocations": [
+                "title": "LỢI ÍCH 01: GIẢM BỚT GÁNH NẶNG VÀ CĂNG THẲNG",
+                "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho mỗi thành viên trong gia đình.",
+                "point_en": "Sharing household chores reduces the workload for each family member.",
+                "point_collocations": [
                   {
-                    "en": "share housework",
+                    "en": "sharing household chores",
                     "vi": "chia sẻ việc nhà"
                   },
                   {
                     "en": "reduce the workload",
-                    "vi": "giảm khối lượng công việc"
-                  },
-                  {
-                    "en": "family members",
-                    "vi": "các thành viên trong gia đình"
-                  },
-                  {
-                    "en": "part of the housework",
-                    "vi": "một phần việc nhà"
-                  },
-                  {
-                    "en": "family life",
-                    "vi": "cuộc sống gia đình"
-                  },
-                  {
-                    "en": "balanced",
-                    "vi": "cân bằng"
-                  },
-                  {
-                    "en": "reduce + N",
-                    "vi": "giảm..."
-                  },
-                  {
-                    "en": "have time to + Vo",
-                    "vi": "có thời gian làm gì"
+                    "vi": "giảm bớt khối lượng công việc"
                   }
                 ],
-                "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho mỗi thành viên trong gia đình.",
-                "point_en": "Sharing housework reduces the workload for all family members.",
                 "evidence_vi": "Các công việc nhà được chia đều cho mọi thành viên, vì vậy không ai phải chịu áp lực làm việc một mình. Ngoài ra, cha mẹ và con cái đều có thời gian nghỉ ngơi thư giãn sau giờ làm việc và học tập căng thẳng. Nhờ đó, sức khỏe thể chất và tinh thần của các thành viên trong gia đình được cải thiện rõ rệt.",
-                "evidence_en": "Household chores are divided equally among all members, so no one has to face the stress of doing everything alone. In addition, parents and children have time to relax after stressful working and studying hours. As a result, the physical and mental health of all family members improves noticeably."
-              },
-              {
-                "title": "ADVANTAGE 02",
+                "evidence_en": "Household chores are divided equally among all members, so no one has to face the stress of doing everything alone. In addition, parents and children have time to relax after stressful working and studying hours. As a result, the physical and mental health of all family members improves noticeably.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "divide chores equally",
+                      "vi": "chia đều việc nhà"
+                    },
+                    {
+                      "en": "stress of doing everything alone",
+                      "vi": "áp lực làm mọi thứ một mình"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "time to relax",
+                      "vi": "thời gian nghỉ ngơi thư giãn"
+                    },
+                    {
+                      "en": "stressful working and studying hours",
+                      "vi": "những giờ làm việc và học tập căng thẳng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "physical and mental health",
+                      "vi": "sức khỏe thể chất và tinh thần"
+                    },
+                    {
+                      "en": "improve noticeably",
+                      "vi": "cải thiện rõ rệt"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "strengthen family relationships",
-                    "vi": "tăng cường mối quan hệ gia đình"
+                    "en": "sharing household chores",
+                    "vi": "chia sẻ việc nhà"
                   },
                   {
-                    "en": "work together",
-                    "vi": "cùng nhau làm việc"
+                    "en": "divide chores equally",
+                    "vi": "chia đều việc nhà"
                   },
                   {
-                    "en": "talk to one another",
-                    "vi": "trò chuyện với nhau"
-                  },
-                  {
-                    "en": "understand each other",
-                    "vi": "hiểu nhau"
-                  },
-                  {
-                    "en": "happier families",
-                    "vi": "gia đình hạnh phúc hơn"
-                  },
-                  {
-                    "en": "spend time + V-ing",
-                    "vi": "dành thời gian làm gì"
+                    "en": "physical and mental health",
+                    "vi": "sức khỏe thể chất và tinh thần"
                   }
-                ],
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: TĂNG CƯỜNG TÌNH CẢM VÀ SỰ GẮN KẾT",
                 "point_vi": "Chia sẻ việc nhà giúp các thành viên trong gia đình gắn kết hơn.",
-                "point_en": "Sharing housework strengthens family relationships.",
-                "evidence_vi": "Các thành viên có nhiều cơ hội làm việc cùng nhau và hỗ trợ lẫn nhau trong các công việc thường ngày. Thêm vào đó, việc trò chuyện khi cùng nấu nướng hoặc dọn dẹp giúp mọi người thấu hiểu nhau hơn. Do đó, tình cảm gia đình ngày càng trở nên gắn kết, ấm áp và hạnh phúc hơn.",
-                "evidence_en": "Family members have frequent opportunities to work together and support one another in daily chores. In addition, chatting while cooking or cleaning helps everyone understand each other better. Consequently, family bonds become much closer, warmer, and happier."
-              },
-              {
-                "title": "ADVANTAGE 03",
-                "collocations": [
+                "point_en": "Sharing housework strengthens family bonds and mutual understanding.",
+                "point_collocations": [
                   {
-                    "en": "responsibility",
-                    "vi": "trách nhiệm"
+                    "en": "strengthen family bonds",
+                    "vi": "tăng cường tình cảm gắn kết gia đình"
                   },
                   {
-                    "en": "complete tasks",
-                    "vi": "hoàn thành công việc"
-                  },
-                  {
-                    "en": "help parents",
-                    "vi": "giúp cha mẹ"
-                  },
-                  {
-                    "en": "independent",
-                    "vi": "tự lập"
-                  },
-                  {
-                    "en": "future life",
-                    "vi": "cuộc sống tương lai"
-                  },
-                  {
-                    "en": "learn to + Vo",
-                    "vi": "học cách làm gì"
-                  },
-                  {
-                    "en": "become + adj",
-                    "vi": "trở nên"
+                    "en": "mutual understanding",
+                    "vi": "sự thấu hiểu lẫn nhau"
                   }
                 ],
-                "point_vi": "Chia sẻ việc nhà giúp trẻ em học cách có trách nhiệm.",
-                "point_en": "Sharing housework teaches children responsibility.",
+                "evidence_vi": "Các thành viên có nhiều cơ hội làm việc cùng nhau và hỗ trợ lẫn nhau trong các công việc thường ngày. Thêm vào đó, việc trò chuyện khi cùng nấu nướng hoặc dọn dẹp giúp mọi người thấu hiểu nhau hơn. Do đó, tình cảm gia đình ngày càng trở nên gắn kết, ấm áp và hạnh phúc hơn.",
+                "evidence_en": "Family members have frequent opportunities to work together and support one another in daily chores. In addition, chatting while cooking or cleaning helps everyone understand each other better. Consequently, family bonds become much closer, warmer, and happier.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "frequent opportunities to work together",
+                      "vi": "nhiều cơ hội làm việc cùng nhau"
+                    },
+                    {
+                      "en": "support one another in daily chores",
+                      "vi": "hỗ trợ lẫn nhau trong các việc vặt hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "chat while cooking or cleaning",
+                      "vi": "trò chuyện khi cùng nấu nướng hoặc dọn dẹp"
+                    },
+                    {
+                      "en": "understand each other better",
+                      "vi": "thấu hiểu nhau tốt hơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "closer, warmer, and happier",
+                      "vi": "gắn kết, ấm áp và hạnh phúc hơn"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "gắn kết tình cảm gia đình"
+                  },
+                  {
+                    "en": "support one another",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "closer and warmer",
+                    "vi": "gần gũi và ấm áp hơn"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: RÈN LUYỆN TÍNH TỰ LẬP VÀ TRÁCH NHIỆM CHO TRẺ",
+                "point_vi": "Chia sẻ việc nhà giúp trẻ em học cách có trách nhiệm và sống tự lập.",
+                "point_en": "Sharing household chores teaches children responsibility and self-reliance.",
+                "point_collocations": [
+                  {
+                    "en": "responsibility and self-reliance",
+                    "vi": "trách nhiệm và tính tự lập"
+                  }
+                ],
                 "evidence_vi": "Trẻ nhỏ học được cách tự sắp xếp đồ đạc và hoàn thành các nhiệm vụ cá nhân mà không ỷ lại vào cha mẹ. Hơn nữa, các em rèn luyện được tinh thần trách nhiệm và lòng biết ơn đối với sự vất vả của người lớn. Vì vậy, trẻ phát triển được tính tự lập và chuẩn bị tốt cho cuộc sống tự lập mai sau.",
-                "evidence_en": "Children learn to organize their personal belongings and complete tasks without depending on parents. Furthermore, they develop a strong sense of responsibility and gratitude for their parents' hard work. Therefore, young learners build self-reliance and prepare well for independent adult life."
+                "evidence_en": "Children learn to organize their personal belongings and complete tasks without depending on parents. Furthermore, they develop a strong sense of responsibility and gratitude for their parents' hard work. Therefore, young learners build self-reliance and prepare well for independent adult life.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "organize personal belongings",
+                      "vi": "sắp xếp đồ đạc cá nhân"
+                    },
+                    {
+                      "en": "without depending on parents",
+                      "vi": "không phụ thuộc (ỷ lại) vào cha mẹ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sense of responsibility",
+                      "vi": "tinh thần trách nhiệm"
+                    },
+                    {
+                      "en": "gratitude for hard work",
+                      "vi": "lòng biết ơn đối với sự vất vả"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "build self-reliance",
+                      "vi": "xây dựng (phát triển) tính tự lập"
+                    },
+                    {
+                      "en": "independent adult life",
+                      "vi": "cuộc sống tự lập khi trưởng thành"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "responsibility and self-reliance",
+                    "vi": "trách nhiệm và tự lập"
+                  },
+                  {
+                    "en": "organize personal belongings",
+                    "vi": "tự sắp xếp đồ đạc"
+                  },
+                  {
+                    "en": "build self-reliance",
+                    "vi": "rèn luyện tính tự lập"
+                  }
+                ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "benefits": [
@@ -85781,118 +88290,203 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "BENEFIT 01",
-                "collocations": [
-                  {
-                    "en": "musical instrument",
-                    "vi": "nhạc cụ"
-                  },
-                  {
-                    "en": "thinking skills",
-                    "vi": "khả năng tư duy"
-                  },
-                  {
-                    "en": "memory skills",
-                    "vi": "khả năng ghi nhớ"
-                  },
-                  {
-                    "en": "musical notes",
-                    "vi": "nốt nhạc"
-                  },
-                  {
-                    "en": "playing techniques",
-                    "vi": "kỹ thuật chơi"
-                  },
-                  {
-                    "en": "keep the brain active",
-                    "vi": "giúp não bộ hoạt động tích cực"
-                  },
-                  {
-                    "en": "concentrate",
-                    "vi": "tập trung"
-                  },
-                  {
-                    "en": "improve",
-                    "vi": "cải thiện"
-                  },
-                  {
-                    "en": "learn effectively",
-                    "vi": "học hiệu quả"
-                  }
-                ],
+                "title": "LỢI ÍCH 01: CẢI THIỆN TRÍ NHỚ VÀ KHẢ NĂNG TƯ DUY",
                 "point_vi": "Học chơi một loại nhạc cụ giúp cải thiện khả năng tư duy và ghi nhớ.",
-                "point_en": "Learning to play a musical instrument improves thinking and memory skills.",
+                "point_en": "Learning to play an instrument sharpens memory and mental focus.",
+                "point_collocations": [
+                  {
+                    "en": "play an instrument",
+                    "vi": "chơi một nhạc cụ"
+                  },
+                  {
+                    "en": "memory and mental focus",
+                    "vi": "trí nhớ và khả năng tập trung"
+                  }
+                ],
                 "evidence_vi": "Người học cần ghi nhớ các nốt nhạc, giai điệu và phối hợp linh hoạt giữa các giác quan. Ngoài ra, việc đọc tổng phổ âm nhạc và luyện ngón đều đặn giúp kích thích các vùng não bộ hoạt động tích cực. Nhờ đó, người chơi rèn luyện được khả năng tập trung cao độ và cải thiện trí nhớ khi học tập.",
-                "evidence_en": "Learners must memorize musical notes and melodies while coordinating their senses flexibly. In addition, reading sheet music and regular finger practice actively stimulate brain function. As a result, players sharpen their mental focus and improve their memory in daily studies."
-              },
-              {
-                "title": "BENEFIT 02",
+                "evidence_en": "Learners must memorize musical notes and melodies while coordinating their senses flexibly. In addition, reading sheet music and regular finger practice actively stimulate brain function. As a result, players sharpen their mental focus and improve their memory in daily studies.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "memorize musical notes and melodies",
+                      "vi": "ghi nhớ các nốt nhạc và giai điệu"
+                    },
+                    {
+                      "en": "coordinate senses flexibly",
+                      "vi": "phối hợp linh hoạt giữa các giác quan"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "read sheet music",
+                      "vi": "đọc bản nhạc (tổng phổ âm nhạc)"
+                    },
+                    {
+                      "en": "regular finger practice",
+                      "vi": "luyện ngón đều đặn"
+                    },
+                    {
+                      "en": "stimulate brain function",
+                      "vi": "kích thích chức năng não bộ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "sharpen mental focus",
+                      "vi": "mài giũa khả năng tập trung cao độ"
+                    },
+                    {
+                      "en": "improve memory in daily studies",
+                      "vi": "cải thiện trí nhớ khi học tập hằng ngày"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "reduce stress",
-                    "vi": "giảm căng thẳng"
+                    "en": "play an instrument",
+                    "vi": "chơi nhạc cụ"
                   },
                   {
-                    "en": "relax",
-                    "vi": "thư giãn"
+                    "en": "memorize musical notes",
+                    "vi": "nhớ nốt nhạc"
                   },
                   {
-                    "en": "mental health",
-                    "vi": "sức khỏe tinh thần"
+                    "en": "sharpen mental focus",
+                    "vi": "tập trung cao độ"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 02: THƯ GIÃN VÀ GIẢI TỎA CĂNG THẲNG",
+                "point_vi": "Chơi nhạc cụ giúp mọi người thư giãn và giảm căng thẳng hiệu quả.",
+                "point_en": "Playing a musical instrument helps people relax and reduce stress effectively.",
+                "point_collocations": [
+                  {
+                    "en": "playing a musical instrument",
+                    "vi": "chơi một loại nhạc cụ"
                   },
                   {
-                    "en": "daily life",
-                    "vi": "cuộc sống hằng ngày"
-                  },
-                  {
-                    "en": "a sense of peace",
-                    "vi": "cảm giác bình yên"
-                  },
-                  {
-                    "en": "feel happier",
-                    "vi": "cảm thấy hạnh phúc hơn"
+                    "en": "reduce stress effectively",
+                    "vi": "giảm căng thẳng hiệu quả"
                   }
                 ],
-                "point_vi": "Chơi nhạc cụ giúp mọi người thư giãn và giảm căng thẳng.",
-                "point_en": "Playing a musical instrument helps people relax and reduce stress.",
                 "evidence_vi": "Âm nhạc mang lại những giai điệu du dương giúp làm dịu tâm trí sau những giờ làm việc mệt mỏi. Thêm vào đó, việc thả mình vào các bản nhạc yêu thích giúp xua tan những lo âu và căng thẳng trong cuộc sống. Do đó, chơi nhạc cụ là một liệu pháp tự nhiên giúp tinh thần luôn thư thái và vui vẻ.",
-                "evidence_en": "Music brings gentle melodies that soothe the mind after exhausting working hours. In addition, immersing in favorite songs helps release daily worries and anxiety. Therefore, playing an instrument serves as a natural therapy to keep the mind relaxed and joyful."
-              },
-              {
-                "title": "BENEFIT 03",
+                "evidence_en": "Music brings gentle melodies to soothe the mind after tiring working hours. In addition, immersing in favorite songs helps release daily worries and anxiety. Therefore, playing an instrument serves as a natural therapy to keep the mind relaxed and joyful.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "gentle melodies",
+                      "vi": "những giai điệu du dương"
+                    },
+                    {
+                      "en": "soothe the mind",
+                      "vi": "làm dịu tâm trí"
+                    },
+                    {
+                      "en": "tiring working hours",
+                      "vi": "những giờ làm việc mệt mỏi"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "immerse in favorite songs",
+                      "vi": "thả mình vào các bản nhạc yêu thích"
+                    },
+                    {
+                      "en": "release daily worries and anxiety",
+                      "vi": "xua tan lo âu và căng thẳng hằng ngày"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "natural therapy",
+                      "vi": "liệu pháp tự nhiên"
+                    },
+                    {
+                      "en": "relaxed and joyful",
+                      "vi": "thư thái và vui vẻ"
+                    }
+                  ]
+                ],
                 "collocations": [
                   {
-                    "en": "self-confidence",
-                    "vi": "sự tự tin"
+                    "en": "gentle melodies",
+                    "vi": "giai điệu du dương"
                   },
                   {
-                    "en": "perform",
-                    "vi": "biểu diễn"
+                    "en": "soothe the mind",
+                    "vi": "làm dịu tâm trí"
                   },
                   {
-                    "en": "abilities",
-                    "vi": "khả năng"
+                    "en": "relaxed and joyful",
+                    "vi": "thư thái và vui vẻ"
+                  }
+                ]
+              },
+              {
+                "title": "LỢI ÍCH 03: RÈN TÍNH KIÊN NHẪN VÀ SỰ TỰ TIN",
+                "point_vi": "Học chơi nhạc cụ giúp mọi người trở nên kiên nhẫn và tự tin hơn.",
+                "point_en": "Learning an instrument builds patience and boosts personal self-confidence.",
+                "point_collocations": [
+                  {
+                    "en": "build patience",
+                    "vi": "rèn luyện tính kiên nhẫn"
                   },
                   {
-                    "en": "practise",
-                    "vi": "luyện tập"
-                  },
-                  {
-                    "en": "believe in",
-                    "vi": "tin vào"
-                  },
-                  {
-                    "en": "encourage",
-                    "vi": "khuyến khích"
+                    "en": "boost self-confidence",
+                    "vi": "nâng cao sự tự tin"
                   }
                 ],
-                "point_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin hơn.",
-                "point_en": "Learning to play a musical instrument builds self-confidence.",
                 "evidence_vi": "Để đánh thành thạo một bản nhạc, người học phải kiên trì luyện tập từng đoạn nhỏ trong nhiều ngày. Hơn nữa, cảm giác tự hào khi biểu diễn trọn vẹn một tác phẩm trước người thân mang lại niềm vui lớn. Vì vậy, người chơi dần hình thành tính kiên nhẫn và sự tự tin vững vàng vào khả năng của mình.",
-                "evidence_en": "To play a piece proficiently, learners must persistently practice each short section for days. Furthermore, the proud feeling of performing a complete piece for loved ones brings great joy. Consequently, players develop patience and strong self-confidence in their abilities."
+                "evidence_en": "To play a piece proficiently, learners must persistently practice each short section for days. Furthermore, the proud feeling of performing a complete piece for loved ones brings great joy. Consequently, players develop patience and strong self-confidence in their abilities.",
+                "evidence_collocations": [
+                  [
+                    {
+                      "en": "play a piece proficiently",
+                      "vi": "chơi thành thạo một bản nhạc"
+                    },
+                    {
+                      "en": "persistently practice each section",
+                      "vi": "kiên trì luyện tập từng đoạn nhỏ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "proud feeling of performing",
+                      "vi": "cảm giác tự hào khi biểu diễn"
+                    },
+                    {
+                      "en": "for loved ones",
+                      "vi": "trước những người thân yêu"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "develop patience",
+                      "vi": "hình thành tính kiên nhẫn"
+                    },
+                    {
+                      "en": "strong self-confidence",
+                      "vi": "sự tự tin vững vàng"
+                    }
+                  ]
+                ],
+                "collocations": [
+                  {
+                    "en": "play proficiently",
+                    "vi": "chơi thành thạo"
+                  },
+                  {
+                    "en": "develop patience",
+                    "vi": "rèn luyện tính kiên nhẫn"
+                  },
+                  {
+                    "en": "strong self-confidence",
+                    "vi": "sự tự tin vững vàng"
+                  }
+                ]
               }
-            ],
-            "drawbacks": []
+            ]
           },
           "ideas_b2": {
             "benefits": [
