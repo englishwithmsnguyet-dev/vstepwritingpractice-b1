@@ -603,7 +603,7 @@ function renderCategoryTopics(searchQuery = '') {
         banner.appendChild(groupWrapper);
       };
 
-      createGroupSection('NHÓM 1: CÁC ĐỀ ĐA HƯỚNG TIẾP CẬN (ĐỒNG Ý / PHẢN ĐỐI / CÂN BẰNG)', '🎯', 'var(--accent-primary)', multiApproachList);
+      createGroupSection('NHÓM 1: CÁC ĐỀ ĐA HƯỚNG TIẾP CẬN (ĐỒNG Ý / PHẢN ĐỐI)', '🎯', 'var(--accent-primary)', multiApproachList);
       createGroupSection('NHÓM 2: CÁC ĐỀ BÀI LUẬN QUAN ĐIỂM CHI TIẾT (OPINION TOPICS)', '💬', '#10b981', otherDetailedList);
     } else {
       const grid = document.createElement('div');
@@ -2151,15 +2151,12 @@ function buildTranslationExercises(topic, transLevel, category) {
       : null;
     if (activeApp && activeApp.name) {
       const appName = activeApp.name.toUpperCase();
-      if (appName.includes('PHẢN ĐỐI') && !appName.includes('ĐỒNG Ý')) {
+      if (appName.includes('PHẢN ĐỐI')) {
         benefitLabel = "Lý do phản đối";
         drawbackLabel = "Lý do phản đối";
-      } else if (appName.includes('ĐỒNG Ý') && !appName.includes('PHẢN ĐỐI') && !appName.includes('CÂN BẰNG')) {
+      } else {
         benefitLabel = "Lý do đồng ý";
         drawbackLabel = "Lý do đồng ý";
-      } else if (appName.includes('CÂN BẰNG') || (appName.includes('ĐỒNG Ý') && appName.includes('PHẢN ĐỐI'))) {
-        benefitLabel = "Lý do đồng ý";
-        drawbackLabel = "Lý do phản đối";
       }
     } else {
       benefitLabel = "Lý do đồng ý";
@@ -7136,7 +7133,7 @@ function getTopicSubtypeLabel(topic, catId) {
   }
   if (catId === 3) {
     if (topic.approaches && topic.approaches.length > 0) {
-      return `${topic.approaches.length} HƯỚNG TIẾP CẬN (AGREE / DISAGREE / BALANCED)`;
+      return `${topic.approaches.length} HƯỚNG TIẾP CẬN (AGREE / DISAGREE)`;
     }
     return "Ý KIẾN (AGREE / DISAGREE)";
   }
@@ -7472,15 +7469,12 @@ function renderStep1Reading() {
         : null;
       if (activeApp && activeApp.name) {
         const appName = activeApp.name.toUpperCase();
-        if (appName.includes('PHẢN ĐỐI') && !appName.includes('ĐỒNG Ý')) {
+        if (appName.includes('PHẢN ĐỐI')) {
           defaultLabel1 = 'LÝ DO PHẢN ĐỐI';
           defaultLabel2 = 'LÝ DO PHẢN ĐỐI';
-        } else if (appName.includes('ĐỒNG Ý') && !appName.includes('PHẢN ĐỐI') && !appName.includes('CÂN BẰNG')) {
+        } else {
           defaultLabel1 = 'LÝ DO ĐỒNG Ý';
           defaultLabel2 = 'LÝ DO ĐỒNG Ý';
-        } else if (appName.includes('CÂN BẰNG') || (appName.includes('ĐỒNG Ý') && appName.includes('PHẢN ĐỐI'))) {
-          defaultLabel1 = 'LÝ DO ĐỒNG Ý';
-          defaultLabel2 = 'LÝ DO PHẢN ĐỐI';
         }
       }
     } else if (category.id === 4) {
