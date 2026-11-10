@@ -2201,9 +2201,10 @@ function buildTranslationExercises(topic, transLevel, category) {
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
+        const evTitle = (viSentences.length === 1) ? `${baseTitle}<br/>Luận cứ` : `${baseTitle}<br/>Luận cứ ${sNum}`;
         exercises.push({
           type: 'benefit_evidence',
-          title: `${baseTitle}<br/>Luận cứ ${sNum}`,
+          title: evTitle,
           vi: viS,
           en: transLevel === 'B1' ? adaptSentenceForB1(enS) : enS,
           collocations: evCols
@@ -2243,9 +2244,10 @@ function buildTranslationExercises(topic, transLevel, category) {
         if (transLevel === 'B1') {
           evCols = evCols.map(adaptCollocationForB1);
         }
+        const evTitle = (viSentences.length === 1) ? `${baseTitle}<br/>Luận cứ` : `${baseTitle}<br/>Luận cứ ${sNum}`;
         exercises.push({
           type: 'drawback_evidence',
-          title: `${baseTitle}<br/>Luận cứ ${sNum}`,
+          title: evTitle,
           vi: viS,
           en: transLevel === 'B1' ? adaptSentenceForB1(enS) : enS,
           collocations: evCols

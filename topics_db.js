@@ -322,8 +322,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến mang lại sự linh hoạt và tiện lợi vượt trội cho người học.",
                 "point_en": "Online learning offers greater flexibility and convenience for learners.",
-                "evidence_vi": "Người học có thể tham gia các khóa học mọi lúc, mọi nơi khi có thiết bị phù hợp và kết nối Internet ổn định. Nhờ đó, họ có thể dễ dàng sắp xếp lịch học phù hợp với các công việc và trách nhiệm cá nhân khác.",
-                "evidence_en": "Learners can attend courses anytime and anywhere when they have suitable devices and a stable Internet connection. As a result, they can easily arrange their study schedules around other work and personal responsibilities."
+                "evidence_vi": "Người học có thể tham gia các khóa học mọi lúc, mọi nơi khi có thiết bị phù hợp và kết nối Internet ổn định, nhờ đó họ có thể dễ dàng sắp xếp lịch học phù hợp với các công việc và trách nhiệm cá nhân khác.",
+                "evidence_en": "Learners can attend courses anytime and anywhere when they have suitable devices and a stable Internet connection, so they can easily arrange their study schedules around other work and personal responsibilities."
               },
               {
                 "title": "LỢI ÍCH 02: TIẾT KIỆM CHI PHÍ",
@@ -351,8 +351,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến giúp giảm thiểu các chi phí giáo dục đáng kể.",
                 "point_en": "Online learning helps reduce educational expenses significantly.",
-                "evidence_vi": "Học phí của các khóa học trực tuyến thường rẻ hơn đáng kể so với các lớp học truyền thống. Ngoài ra, người học có thể tiết kiệm một khoản tiền lớn cho chi phí đi lại và chi phí thuê chỗ ở.",
-                "evidence_en": "Tuition fees for online courses are often significantly cheaper than traditional classes. In addition, learners can save a substantial amount of money on transportation and accommodation costs."
+                "evidence_vi": "Học phí của các khóa học trực tuyến thường rẻ hơn đáng kể so với các lớp học truyền thống, và người học có thể tiết kiệm một khoản tiền lớn cho chi phí đi lại và chi phí thuê chỗ ở.",
+                "evidence_en": "Tuition fees for online courses are often significantly cheaper than traditional classes, and learners can save a substantial amount of money on transportation and accommodation costs."
               },
               {
                 "title": "LỢI ÍCH 03: TIẾP CẬN NHIỀU NGUỒN TÀI LIỆU",
@@ -380,8 +380,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến cung cấp quyền tiếp cận nguồn tài liệu học tập vô cùng phong phú.",
                 "point_en": "Online learning provides access to a wide range of learning resources.",
-                "evidence_vi": "Người học có thể dễ dàng sử dụng các thư viện trực tuyến, trang web giáo dục và video bài giảng chất lượng cao. Bên cạnh đó, họ có cơ hội học hỏi trực tiếp từ các giảng viên giàu kinh nghiệm và chuyên gia trên khắp thế giới.",
-                "evidence_en": "Learners can easily use online libraries, educational websites, and high-quality instructional videos. Furthermore, they have opportunities to learn directly from experienced lecturers and experts around the world."
+                "evidence_vi": "Người học có thể dễ dàng sử dụng các thư viện trực tuyến, trang web giáo dục và video bài giảng chất lượng cao, và họ có cơ hội học hỏi trực tiếp từ các giảng viên giàu kinh nghiệm và chuyên gia trên khắp thế giới.",
+                "evidence_en": "Learners can easily use online libraries, educational websites, and high-quality instructional videos, and they have opportunities to learn directly from experienced lecturers and experts around the world."
               },
               {
                 "title": "LỢI ÍCH 04: HỌC THEO TỐC ĐỘ CỦA BẢN THÂN",
@@ -409,8 +409,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến cho phép người học tiến bộ theo tốc độ tiếp thu của riêng mình.",
                 "point_en": "Online learning allows learners to progress at their own pace.",
-                "evidence_vi": "Học viên có thể tạm dừng hoặc xem lại các bài giảng đã ghi hình bất cứ khi nào cần thiết. Nhờ đó, họ có thêm nhiều thời gian để suy ngẫm và hiểu sâu các khái niệm khó mà không cảm thấy áp lực.",
-                "evidence_en": "Students can pause or replay recorded lessons whenever necessary. Consequently, they have more time to reflect on and understand difficult concepts thoroughly without feeling pressured."
+                "evidence_vi": "Học viên có thể tạm dừng hoặc xem lại các bài giảng đã ghi hình bất cứ khi nào cần thiết, nhờ đó họ có thêm nhiều thời gian để suy ngẫm và hiểu sâu các khái niệm khó mà không cảm thấy áp lực.",
+                "evidence_en": "Students can pause or replay recorded lessons whenever necessary, so they have more time to reflect on and understand difficult concepts thoroughly without feeling pressured."
               },
               {
                 "title": "LỢI ÍCH 05: PHÁT TRIỂN KỸ NĂNG CÔNG NGHỆ",
@@ -438,8 +438,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến giúp người học phát triển các kỹ năng công nghệ số thiết yếu.",
                 "point_en": "Online learning helps learners develop essential digital skills.",
-                "evidence_vi": "Người học nhanh chóng làm quen và sử dụng thành thạo nhiều nền tảng cùng các công cụ học tập kỹ thuật số. Điều này giúp nâng cao kỹ năng sử dụng máy tính, tạo lợi thế lớn cho con đường nghề nghiệp trong tương lai.",
-                "evidence_en": "Learners quickly become familiar with and proficiently use various platforms and digital learning tools. This helps improve computer skills and creates a major advantage for their future career path."
+                "evidence_vi": "Người học nhanh chóng làm quen và sử dụng thành thạo nhiều nền tảng cùng các công cụ học tập kỹ thuật số, nhờ đó giúp nâng cao kỹ năng sử dụng máy tính, tạo lợi thế lớn cho con đường nghề nghiệp trong tương lai.",
+                "evidence_en": "Learners quickly become familiar with and proficiently use various platforms and digital learning tools, so this helps improve computer skills and creates a major advantage for their future career path."
               }
             ],
             "drawbacks": [
@@ -469,8 +469,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến làm giảm đáng kể sự tương tác trực tiếp giữa người học và giáo viên.",
                 "point_en": "Online learning significantly reduces face-to-face interaction between learners and teachers.",
-                "evidence_vi": "Học viên có ít cơ hội giao tiếp trực tiếp với thầy cô và bạn học trong lớp. Điều này khiến việc đặt câu hỏi thắc mắc và nhận phản hồi ngay lập tức trở nên khó khăn hơn.",
-                "evidence_en": "Students have fewer opportunities to communicate directly with teachers and classmates. This makes it more difficult to ask questions and receive immediate feedback."
+                "evidence_vi": "Học viên có ít cơ hội giao tiếp trực tiếp với thầy cô và bạn học trong lớp, và điều này khiến việc đặt câu hỏi thắc mắc và nhận phản hồi ngay lập tức trở nên khó khăn hơn.",
+                "evidence_en": "Students have fewer opportunities to communicate directly with teachers and classmates, and this makes it more difficult to ask questions and receive immediate feedback."
               },
               {
                 "title": "BẤT LỢI 02: DỄ BỊ ẢNH HƯỞNG BỞI SỰ CỐ KỸ THUẬT",
@@ -498,8 +498,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Quá trình học trực tuyến dễ bị gián đoạn bởi các sự cố kỹ thuật và đường truyền mạng.",
                 "point_en": "Online learning is easily disrupted by technical problems and network connections.",
-                "evidence_vi": "Người học luôn cần có kết nối Internet ổn định và các thiết bị điện tử tương thích. Đường truyền mạng chập chờn có thể làm gián đoạn bài học và khiến người học gặp nhiều khó khăn khi theo dõi bài giảng.",
-                "evidence_en": "Learners always require a stable Internet connection and compatible electronic devices. Unstable network connections can interrupt lessons and make it difficult for learners to follow lectures."
+                "evidence_vi": "Người học luôn cần có kết nối Internet ổn định và các thiết bị điện tử tương thích, và đường truyền mạng chập chờn có thể làm gián đoạn bài học và khiến người học gặp nhiều khó khăn khi theo dõi bài giảng.",
+                "evidence_en": "Learners always require a stable Internet connection and compatible electronic devices, and unstable network connections can interrupt lessons and make it difficult for learners to follow lectures."
               },
               {
                 "title": "BẤT LỢI 03: ĐÒI HỎI TÍNH KỶ LUẬT TỰ GIÁC CAO",
@@ -527,8 +527,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học trực tuyến đòi hỏi người học phải có mức độ kỷ luật tự giác rất cao.",
                 "point_en": "Online learning requires learners to have a very high level of self-discipline.",
-                "evidence_vi": "Khi học tập tại nhà mà không có sự giám sát trực tiếp, học viên rất dễ bị xao nhãng bởi mạng xã hội, trò chơi hoặc các hoạt động khác. Hậu quả là, họ có thể trì hoãn việc học và không hoàn thành bài tập đúng hạn.",
-                "evidence_en": "When studying at home without direct supervision, students are easily distracted by social media, games, or other activities. Consequently, they may procrastinate on their studies and fail to complete assignments on time."
+                "evidence_vi": "Khi học tập tại nhà mà không có sự giám sát trực tiếp, học viên rất dễ bị xao nhãng bởi mạng xã hội, trò chơi hoặc các hoạt động khác, và hậu quả là, họ có thể trì hoãn việc học và không hoàn thành bài tập đúng hạn.",
+                "evidence_en": "When studying at home without direct supervision, students are easily distracted by social media, games, or other activities, so they may procrastinate on their studies and fail to complete assignments on time."
               },
               {
                 "title": "BẤT LỢI 04: ẢNH HƯỞNG TIÊU CỰC ĐẾN SỨC KHỎE",
@@ -556,8 +556,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc ngồi học trực tuyến liên tục có thể gây ra những tác động tiêu cực đến sức khỏe.",
                 "point_en": "Studying online continuously can have negative effects on health.",
-                "evidence_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu. Hơn nữa, thói quen ngồi yên một chỗ kéo dài làm giảm vận động thể chất và dễ dẫn đến đau lưng cùng sự căng thẳng.",
-                "evidence_en": "Staring at screens for long hours can cause eye strain, poor eyesight, and headaches. Furthermore, the habit of sitting in one place for extended periods reduces physical activity and easily leads to back pain and stress."
+                "evidence_vi": "Việc dán mắt vào màn hình nhiều giờ liền có thể gây mỏi mắt, suy giảm thị lực và đau đầu, đồng thời thói quen ngồi yên một chỗ kéo dài làm giảm vận động thể chất và dễ dẫn đến đau lưng cùng sự căng thẳng.",
+                "evidence_en": "Staring at screens for long hours can cause eye strain, poor eyesight, and headaches, and the habit of sitting in one place for extended periods reduces physical activity and easily leads to back pain and stress."
               },
               {
                 "title": "BẤT LỢI 05: HẠN CHẾ TRẢI NGHIỆM THỰC HÀNH",
@@ -585,8 +585,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học từ xa mang lại rất ít cơ hội cho việc rèn luyện và trải nghiệm thực hành.",
                 "point_en": "Distance learning provides very few opportunities for practice and hands-on experience.",
-                "evidence_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp. Do đó, người học qua mạng thường gặp khó khăn trong việc rèn luyện kỹ năng thực tế và áp dụng kiến thức vào đời sống.",
-                "evidence_en": "Many subjects require practical hands-on activities, experiments, or direct interaction. Therefore, online learners often find it difficult to develop practical skills and apply knowledge in real life."
+                "evidence_vi": "Nhiều môn học đòi hỏi phải có các hoạt động thực hành thực tế, làm thí nghiệm hoặc tương tác trực tiếp, do đó người học qua mạng thường gặp khó khăn trong việc rèn luyện kỹ năng thực tế và áp dụng kiến thức vào đời sống.",
+                "evidence_en": "Many subjects require practical hands-on activities, experiments, or direct interaction, so online learners often find it difficult to develop practical skills and apply knowledge in real life."
               }
             ]
           },
@@ -9438,7 +9438,7 @@ const ESSAY_DATA = [
                 "point_vi": "Giao thông công cộng mang lại sự thuận tiện cho người đi lại hằng ngày.",
                 "point_en": "Public transport provides considerable convenience for urban residents.",
                 "evidence_vi": "Xe buýt có lộ trình cố định và các chuyến đi thường xuyên, vì vậy hành khách không cần phải tự lái xe.",
-                "evidence_en": "Modern transport systems operate extensive routes and provide frequent departures throughout the city. As a result, passengers can commute comfortably without the physical stress of driving in congested traffic.",
+                "evidence_en": "Modern transport systems operate extensive routes and provide frequent departures throughout the city, so passengers can commute comfortably without the physical stress of driving in congested traffic.",
                 "collocations": [
                   {
                     "en": "provide convenience",
@@ -9549,7 +9549,7 @@ const ESSAY_DATA = [
                 "point_vi": "Giao thông công cộng mang lại ít sự riêng tư cho người dùng.",
                 "point_en": "Public transport inevitably compromises personal privacy.",
                 "evidence_vi": "Mọi người phải đi chung với người lạ và nghe tiếng ồn lớn, vì vậy họ khó thư giãn.",
-                "evidence_en": "Commuters must share confined spaces with unfamiliar individuals and endure ambient disturbances. Consequently, this environment prevents passengers from unwinding or focusing on private tasks during their commutes.",
+                "evidence_en": "Commuters must share confined spaces with unfamiliar individuals and endure ambient disturbances, so this environment prevents passengers from unwinding or focusing on private tasks during their commutes.",
                 "collocations": [
                   {
                     "en": "less privacy",
@@ -16027,8 +16027,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sống chung giúp các thành viên chia sẻ và tiết kiệm chi phí nhà ở, tiện ích.",
                 "point_en": "Living together helps family members share and save on housing and utility costs.",
-                "evidence_vi": "Thay vì mỗi thế hệ phải thuê hoặc mua nhà riêng, các thành viên có thể cùng đóng góp tiền điện, nước và bảo trì nhà cửa. Nhờ đó, các cặp vợ chồng trẻ có thể tiết kiệm tài chính cho tương lai.",
-                "evidence_en": "Instead of each generation renting or buying a separate home, family members can contribute money together for utilities and house maintenance. As a result, young couples can save more money for the future."
+                "evidence_vi": "Thay vì mỗi thế hệ phải thuê hoặc mua nhà riêng, các thành viên có thể cùng đóng góp tiền điện, nước và bảo trì nhà cửa, nhờ đó các cặp vợ chồng trẻ có thể tiết kiệm tài chính cho tương lai.",
+                "evidence_en": "Instead of each generation renting or buying a separate home, family members can contribute money together for utilities and house maintenance, so young couples can save more money for the future."
               },
               {
                 "title": "ADVANTAGE 05",
@@ -16056,8 +16056,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Gia đình nhiều thế hệ giúp người cao tuổi tránh khỏi cảm giác cô đơn.",
                 "point_en": "Extended families help prevent loneliness among elderly family members.",
-                "evidence_vi": "Việc trò chuyện hằng ngày với con cháu mang lại niềm vui và sự đồng hành tinh thần cho ông bà. Điều này giúp người lớn tuổi cảm thấy mình luôn được yêu thương và có đời sống tinh thần khỏe mạnh hơn.",
-                "evidence_en": "Daily interaction with children and grandchildren brings joy and emotional companionship to grandparents. Consequently, older adults feel valued and enjoy much better mental well-being."
+                "evidence_vi": "Việc trò chuyện hằng ngày với con cháu mang lại niềm vui và sự đồng hành tinh thần cho ông bà, nhờ đó giúp người lớn tuổi cảm thấy mình luôn được yêu thương và có đời sống tinh thần khỏe mạnh hơn.",
+                "evidence_en": "Daily interaction with children and grandchildren brings joy and emotional companionship to grandparents, so older adults feel valued and enjoy much better mental well-being."
               }
             ],
             "drawbacks": [
@@ -16146,7 +16146,7 @@ const ESSAY_DATA = [
                 "point_vi": "Chi phí sinh hoạt có thể cao hơn.",
                 "point_en": "Family living expenses may be higher.",
                 "evidence_vi": "Gia đình đông người cần nhiều tiền hơn cho thực phẩm, điện nước và các chi phí khác.",
-                "evidence_en": "Large families need more money for food and monthly bills. This may place financial pressure on family members."
+                "evidence_en": "Large families need more money for food and monthly bills, and this may place financial pressure on family members."
               },
               {
                 "title": "DISADVANTAGE 04",
@@ -16174,8 +16174,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sự khác biệt trong cách nuôi dạy con cái giữa ông bà và cha mẹ dễ gây bất đồng.",
                 "point_en": "Differences in parenting styles between grandparents and parents can easily cause disagreements.",
-                "evidence_vi": "Cha mẹ trẻ thường áp dụng phương pháp giáo dục khoa học hiện đại, trong khi ông bà có xu hướng nuông chiều cháu theo kinh nghiệm truyền thống. Điều này có thể khiến trẻ bối rối và gây căng thẳng trong gia đình.",
-                "evidence_en": "Young parents often apply modern scientific parenting methods, whereas grandparents tend to spoil grandchildren based on traditional habits. This can confuse young children and create tension within the household."
+                "evidence_vi": "Cha mẹ trẻ thường áp dụng phương pháp giáo dục khoa học hiện đại, trong khi ông bà có xu hướng nuông chiều cháu theo kinh nghiệm truyền thống, và điều này có thể khiến trẻ bối rối và gây căng thẳng trong gia đình.",
+                "evidence_en": "Young parents often apply modern scientific parenting methods, whereas grandparents tend to spoil grandchildren based on traditional habits, and this can confuse young children and create tension within the household."
               },
               {
                 "title": "DISADVANTAGE 05",
@@ -16203,7 +16203,7 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Người trẻ có thể bị hạn chế sự tự lập và quyền tự quyết cá nhân.",
                 "point_en": "Young adults may experience limited personal independence and decision-making freedom.",
-                "evidence_vi": "Khi sống chung, các thành viên trẻ thường phải hỏi ý kiến người lớn tuổi trước khi đưa ra các quyết định quan trọng hoặc dễ ỷ lại vào sự giúp đỡ của ông bà. Hệ quả là họ có thể chậm trưởng thành và thiếu tính tự lập.",
+                "evidence_vi": "Khi sống chung, các thành viên trẻ thường phải hỏi ý kiến người lớn tuổi trước khi đưa ra các quyết định quan trọng hoặc dễ ỷ lại vào sự giúp đỡ của ông bà, và hệ quả là họ có thể chậm trưởng thành và thiếu tính tự lập.",
                 "evidence_en": "Consequently, they may mature more slowly and lack independence."
               }
             ]
@@ -18403,8 +18403,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Du lịch tâm linh giúp thúc đẩy giao lưu văn hóa và sự tôn trọng giữa các cộng đồng.",
                 "point_en": "Religious tourism fosters cultural exchange and mutual respect among communities.",
-                "evidence_vi": "Khi tham quan các đền chùa, nhà thờ hay thánh địa, du khách hiểu rõ hơn về tín ngưỡng và phong tục của các vùng miền khác nhau. Điều này giúp tăng cường sự bao dung và gắn kết xã hội.",
-                "evidence_en": "When visiting temples, churches, or sacred sites, visitors gain a deeper understanding of different regional customs and spiritual beliefs. Consequently, this promotes tolerance and social harmony."
+                "evidence_vi": "Khi tham quan các đền chùa, nhà thờ hay thánh địa, du khách hiểu rõ hơn về tín ngưỡng và phong tục của các vùng miền khác nhau, nhờ đó giúp tăng cường sự bao dung và gắn kết xã hội.",
+                "evidence_en": "When visiting temples, churches, or sacred sites, visitors gain a deeper understanding of different regional customs and spiritual beliefs, so this promotes tolerance and social harmony."
               },
               {
                 "title": "ADVANTAGE 05",
@@ -18432,8 +18432,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nguồn thu từ du lịch tâm linh đóng góp kinh phí lớn để trùng tu các di tích cổ.",
                 "point_en": "Revenue from religious tourism provides vital funding for the restoration of ancient monuments.",
-                "evidence_vi": "Tiền vé tham quan và sự đóng góp của du khách giúp ban quản lý có ngân sách tu bổ các công trình kiến trúc tôn giáo xuống cấp. Nhờ vậy, các di sản quý giá được bảo tồn bền vững cho thế hệ sau.",
-                "evidence_en": "Entrance fees and voluntary donations from visitors provide management boards with funds to repair deteriorating religious architecture. As a result, precious heritage sites are sustainably preserved for future generations."
+                "evidence_vi": "Tiền vé tham quan và sự đóng góp của du khách giúp ban quản lý có ngân sách tu bổ các công trình kiến trúc tôn giáo xuống cấp, và nhờ vậy, các di sản quý giá được bảo tồn bền vững cho thế hệ sau.",
+                "evidence_en": "Entrance fees and voluntary donations from visitors provide management boards with funds to repair deteriorating religious architecture, so precious heritage sites are sustainably preserved for future generations."
               }
             ],
             "drawbacks": [
@@ -18546,8 +18546,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Hành vi thiếu ý thức của một số du khách có thể làm mất đi sự tôn nghiêm nơi thờ tự.",
                 "point_en": "Inappropriate behaviour from some tourists can disturb the solemnity of worship places.",
-                "evidence_vi": "Một số khách du lịch mặc trang phục không phù hợp, nói cười lớn tiếng hoặc chụp ảnh thiếu tôn trọng trong lúc đang diễn ra nghi lễ. Điều này gây bức xúc cho các tín đồ và cộng đồng địa phương.",
-                "evidence_en": "Some visitors wear inappropriate clothing, speak loudly, or take photos disrespectfully during ongoing religious ceremonies. This causes frustration for worshippers and the local community."
+                "evidence_vi": "Một số khách du lịch mặc trang phục không phù hợp, nói cười lớn tiếng hoặc chụp ảnh thiếu tôn trọng trong lúc đang diễn ra nghi lễ, và điều này gây bức xúc cho các tín đồ và cộng đồng địa phương.",
+                "evidence_en": "Some visitors wear inappropriate clothing, speak loudly, or take photos disrespectfully during ongoing religious ceremonies, and this causes frustration for worshippers and the local community."
               },
               {
                 "title": "DISADVANTAGE 05",
@@ -20701,8 +20701,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Tàu điện trên cao giúp giảm thiểu tai nạn giao thông đường bộ.",
                 "point_en": "Skytrains help significantly reduce road traffic accidents.",
-                "evidence_vi": "Do di chuyển trên đường ray riêng biệt trên cao và được vận hành bằng hệ thống tự động hiện đại, tàu điện tránh được các va chạm với xe máy, ô tô dưới mặt đất. Nhờ vậy, hành khách được đảm bảo an toàn cao hơn.",
-                "evidence_en": "Because they run on dedicated elevated tracks operated by modern automated systems, skytrains avoid collisions with cars and motorbikes on the ground. As a result, commuters enjoy a much safer travel experience."
+                "evidence_vi": "Do di chuyển trên đường ray riêng biệt trên cao và được vận hành bằng hệ thống tự động hiện đại, tàu điện tránh được các va chạm với xe máy, ô tô dưới mặt đất, và nhờ vậy, hành khách được đảm bảo an toàn cao hơn.",
+                "evidence_en": "Because they run on dedicated elevated tracks operated by modern automated systems, skytrains avoid collisions with cars and motorbikes on the ground, so commuters enjoy a much safer travel experience."
               },
               {
                 "title": "ADVANTAGE 05",
@@ -20730,8 +20730,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Hệ thống tàu điện trên cao thúc đẩy phát triển kinh tế và đô thị dọc các tuyến đường.",
                 "point_en": "Skytrain systems stimulate economic and urban development along transit corridors.",
-                "evidence_vi": "Các khu vực xung quanh nhà ga thường thu hút nhiều trung tâm thương mại, văn phòng và khu dân cư mới. Điều này giúp kết nối vùng ngoại ô với trung tâm và tạo động lực tăng trưởng kinh tế mạnh mẽ.",
-                "evidence_en": "Areas surrounding train stations often attract new shopping centers, offices, and residential developments. Consequently, this connects suburban areas to the city center and drives strong economic growth."
+                "evidence_vi": "Các khu vực xung quanh nhà ga thường thu hút nhiều trung tâm thương mại, văn phòng và khu dân cư mới, nhờ đó giúp kết nối vùng ngoại ô với trung tâm và tạo động lực tăng trưởng kinh tế mạnh mẽ.",
+                "evidence_en": "Areas surrounding train stations often attract new shopping centers, offices, and residential developments, so this connects suburban areas to the city center and drives strong economic growth."
               }
             ],
             "drawbacks": [
@@ -20766,7 +20766,7 @@ const ESSAY_DATA = [
                 "point_vi": "Việc xây dựng tàu điện trên cao đòi hỏi chi phí rất lớn.",
                 "point_en": "Building skytrains requires a huge capital investment.",
                 "evidence_vi": "Chính phủ phải đầu tư rất nhiều tiền để xây dựng hệ thống đường ray và nhà ga.",
-                "evidence_en": "The government must spend a large amount of money on railway lines, stations, and related infrastructure. This may reduce the budget available for other public services."
+                "evidence_en": "The government must spend a large amount of money on railway lines, stations, and related infrastructure, and this may reduce the budget available for other public services."
               },
               {
                 "title": "DISADVANTAGE 02",
@@ -20791,7 +20791,7 @@ const ESSAY_DATA = [
                 "point_vi": "Việc xây dựng tàu điện trên cao có thể gây nhiều bất tiện.",
                 "point_en": "Building skytrains may disrupt daily life.",
                 "evidence_vi": "Các công trình có thể gây kẹt xe và tiếng ồn trong thời gian xây dựng.",
-                "evidence_en": "Construction work may cause traffic congestion and noise for a long period. This may affect people's travel and daily activities."
+                "evidence_en": "Construction work may cause traffic congestion and noise for a long period, and this may affect people's travel and daily activities."
               },
               {
                 "title": "DISADVANTAGE 03",
@@ -20844,8 +20844,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Các trụ bê tông lớn trên cao có thể làm ảnh hưởng đến cảnh quan và cây xanh đô thị.",
                 "point_en": "Massive elevated concrete structures may negatively affect urban aesthetics and green spaces.",
-                "evidence_vi": "Để xây dựng cầu cạn trên cao, thành phố đôi khi phải chặt bỏ nhiều hàng cây cổ thụ và dựng lên các khối bê tông đồ sộ. Điều này có thể che khuất tầm nhìn và làm giảm vẻ đẹp kiến trúc truyền thống.",
-                "evidence_en": "To construct elevated viaducts, cities sometimes have to cut down mature street trees and erect massive concrete pillars. This can block natural views and diminish the traditional architectural beauty of the city."
+                "evidence_vi": "Để xây dựng cầu cạn trên cao, thành phố đôi khi phải chặt bỏ nhiều hàng cây cổ thụ và dựng lên các khối bê tông đồ sộ, và điều này có thể che khuất tầm nhìn và làm giảm vẻ đẹp kiến trúc truyền thống.",
+                "evidence_en": "To construct elevated viaducts, cities sometimes have to cut down mature street trees and erect massive concrete pillars, and this can block natural views and diminish the traditional architectural beauty of the city."
               },
               {
                 "title": "DISADVANTAGE 05",
@@ -20873,8 +20873,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Chi phí vận hành, bảo dưỡng và trợ giá vé hằng năm rất tốn kém.",
                 "point_en": "Annual operation, maintenance, and ticket subsidy costs are extremely high.",
-                "evidence_vi": "Sau khi đi vào hoạt động, chính quyền thành phố vẫn phải chi nguồn ngân sách lớn để bảo trì thiết bị công nghệ cao và trợ giá vé cho người dân. Điều này tạo ra gánh nặng tài chính kéo dài nhiều thập kỷ.",
-                "evidence_en": "Even after construction is completed, municipal governments must spend large sums on maintaining high-tech equipment and subsidizing ticket prices for citizens. This creates a financial burden that can last for decades."
+                "evidence_vi": "Sau khi đi vào hoạt động, chính quyền thành phố vẫn phải chi nguồn ngân sách lớn để bảo trì thiết bị công nghệ cao và trợ giá vé cho người dân, và điều này tạo ra gánh nặng tài chính kéo dài nhiều thập kỷ.",
+                "evidence_en": "Even after construction is completed, municipal governments must spend large sums on maintaining high-tech equipment and subsidizing ticket prices for citizens, and this creates a financial burden that can last for decades."
               }
             ]
           },
@@ -22893,8 +22893,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Dịch máy giúp tiết kiệm đáng kể chi phí so với việc thuê biên dịch viên.",
                 "point_en": "Machine translation significantly reduces costs compared to hiring human translators.",
-                "evidence_vi": "Hầu hết các ứng dụng dịch thuật hiện nay đều miễn phí hoặc có chi phí rất thấp. Điều này đặc biệt hữu ích cho học sinh, sinh viên và các doanh nghiệp nhỏ khi cần xử lý khối lượng tài liệu đa ngôn ngữ lớn.",
-                "evidence_en": "Most modern translation applications are free or very affordable. This provides a cost-effective solution for students and small businesses that need to process large volumes of multilingual documents."
+                "evidence_vi": "Hầu hết các ứng dụng dịch thuật hiện nay đều miễn phí hoặc có chi phí rất thấp, và điều này đặc biệt hữu ích cho học sinh, sinh viên và các doanh nghiệp nhỏ khi cần xử lý khối lượng tài liệu đa ngôn ngữ lớn.",
+                "evidence_en": "Most modern translation applications are free or very affordable, and this provides a cost-effective solution for students and small businesses that need to process large volumes of multilingual documents."
               },
               {
                 "title": "ADVANTAGE 05",
@@ -22922,8 +22922,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Công cụ dịch máy hỗ trợ đắc lực cho khách du lịch khi đi nước ngoài.",
                 "point_en": "Machine translation tools greatly assist travellers when visiting foreign countries.",
-                "evidence_vi": "Với tính năng dịch giọng nói và hình ảnh tức thời trên điện thoại, du khách có thể dễ dàng đọc biển báo, thực đơn và hỏi đường người dân bản xứ. Nhờ đó, rào cản ngôn ngữ khi du lịch quốc tế được xóa bỏ.",
-                "evidence_en": "With instant voice and camera translation features on smartphones, tourists can easily read street signs, menus, and ask locals for directions. Consequently, language barriers during international travel are effectively overcome."
+                "evidence_vi": "Với tính năng dịch giọng nói và hình ảnh tức thời trên điện thoại, du khách có thể dễ dàng đọc biển báo, thực đơn và hỏi đường người dân bản xứ, nhờ đó rào cản ngôn ngữ khi du lịch quốc tế được xóa bỏ.",
+                "evidence_en": "With instant voice and camera translation features on smartphones, tourists can easily read street signs, menus, and ask locals for directions, so language barriers during international travel are effectively overcome."
               }
             ],
             "drawbacks": [
@@ -23016,7 +23016,7 @@ const ESSAY_DATA = [
                 "point_vi": "Mọi người có thể trở nên quá phụ thuộc vào dịch máy.",
                 "point_en": "People may rely too much on machine translation.",
                 "evidence_vi": "Điều này có thể làm giảm khả năng sử dụng ngoại ngữ của họ.",
-                "evidence_en": "They may practise their foreign language skills less. This may slow down the improvement of their language ability."
+                "evidence_en": "They may practise their foreign language skills less, and this may slow down the improvement of their language ability."
               },
               {
                 "title": "DISADVANTAGE 04",
@@ -23073,8 +23073,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Dịch máy không thể truyền tải trọn vẹn cảm xúc và chiều sâu văn hóa trong các tác phẩm văn học.",
                 "point_en": "Machine translation fails to capture emotional depth and cultural nuances in literary works.",
-                "evidence_vi": "Các thuật toán máy tính thường dịch theo khuôn mẫu thống kê nên không cảm nhận được nhịp điệu, ẩn dụ hay cảm xúc tinh tế của thơ ca, tiểu thuyết. Do đó, bản dịch máy thường khô khan và thiếu hồn.",
-                "evidence_en": "Computer algorithms rely on statistical patterns and cannot truly feel the rhythm, metaphors, or subtle emotions of poetry and novels. As a result, machine-translated literary texts often sound robotic and lifeless."
+                "evidence_vi": "Các thuật toán máy tính thường dịch theo khuôn mẫu thống kê nên không cảm nhận được nhịp điệu, ẩn dụ hay cảm xúc tinh tế của thơ ca, tiểu thuyết, do đó bản dịch máy thường khô khan và thiếu hồn.",
+                "evidence_en": "Computer algorithms rely on statistical patterns and cannot truly feel the rhythm, metaphors, or subtle emotions of poetry and novels, so machine-translated literary texts often sound robotic and lifeless."
               }
             ]
           },
@@ -25312,7 +25312,7 @@ const ESSAY_DATA = [
                 "point_vi": "Xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian.",
                 "point_en": "Watching too much television can waste children's time.",
                 "evidence_vi": "Các em có thể dành ít thời gian hơn cho việc học và các hoạt động hữu ích khác.",
-                "evidence_en": "They may spend less time studying and reading books. This may affect their academic performance."
+                "evidence_en": "They may spend less time studying and reading books, and this may affect their academic performance."
               },
               {
                 "title": "DISADVANTAGE 02",
@@ -25394,8 +25394,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Xem tivi quá nhiều làm giảm thời gian giao tiếp trực tiếp với gia đình và bạn bè.",
                 "point_en": "Excessive television viewing reduces children's face-to-face interaction with family and peers.",
-                "evidence_vi": "Trẻ dành hàng giờ dán mắt vào màn hình sẽ ít ra ngoài vui chơi cùng bạn bè hoặc trò chuyện với người thân. Điều này có thể làm chậm sự phát triển kỹ năng giao tiếp và hòa nhập xã hội của trẻ.",
-                "evidence_en": "When children spend hours glued to screens, they spend far less time playing outdoors with friends or talking with relatives. Consequently, this habit can hinder the development of their social and communication skills."
+                "evidence_vi": "Trẻ dành hàng giờ dán mắt vào màn hình sẽ ít ra ngoài vui chơi cùng bạn bè hoặc trò chuyện với người thân, và điều này có thể làm chậm sự phát triển kỹ năng giao tiếp và hòa nhập xã hội của trẻ.",
+                "evidence_en": "When children spend hours glued to screens, they spend far less time playing outdoors with friends or talking with relatives, so this habit can hinder the development of their social and communication skills."
               },
               {
                 "title": "DISADVANTAGE 05",
@@ -27497,8 +27497,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Phát triển năng lượng xanh tạo ra hàng triệu việc làm mới trong ngành công nghệ sạch.",
                 "point_en": "Developing green energy creates millions of new jobs in the clean technology sector.",
-                "evidence_vi": "Việc sản xuất, lắp đặt và vận hành các tấm pin mặt trời hay tua-bin gió đòi hỏi lực lượng lao động lớn. Điều này giúp tạo thêm nhiều việc làm ổn định và thúc đẩy kinh tế địa phương phát triển.",
-                "evidence_en": "Manufacturing, installing, and maintaining solar panels and wind turbines require a large workforce. Consequently, this creates stable employment opportunities and stimulates local economic growth."
+                "evidence_vi": "Việc sản xuất, lắp đặt và vận hành các tấm pin mặt trời hay tua-bin gió đòi hỏi lực lượng lao động lớn, nhờ đó giúp tạo thêm nhiều việc làm ổn định và thúc đẩy kinh tế địa phương phát triển.",
+                "evidence_en": "Manufacturing, installing, and maintaining solar panels and wind turbines require a large workforce, so this creates stable employment opportunities and stimulates local economic growth."
               },
               {
                 "title": "ADVANTAGE 05",
@@ -27526,8 +27526,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Năng lượng tái tạo giúp tiết kiệm chi phí vận hành và tiền điện trong dài hạn.",
                 "point_en": "Renewable energy helps lower operating costs and electricity bills in the long run.",
-                "evidence_vi": "Dù chi phí lắp đặt ban đầu cao, nguồn nắng và gió tự nhiên là hoàn toàn miễn phí. Nhờ vậy, các hộ gia đình và nhà máy lắp đặt điện mặt trời áp mái có thể giảm đáng kể hóa đơn tiền điện hằng tháng.",
-                "evidence_en": "Although initial installation costs are high, natural sunlight and wind are completely free. As a result, households and factories with rooftop solar panels can significantly reduce their monthly electricity bills."
+                "evidence_vi": "Dù chi phí lắp đặt ban đầu cao, nguồn nắng và gió tự nhiên là hoàn toàn miễn phí, và nhờ vậy, các hộ gia đình và nhà máy lắp đặt điện mặt trời áp mái có thể giảm đáng kể hóa đơn tiền điện hằng tháng.",
+                "evidence_en": "Although initial installation costs are high, natural sunlight and wind are completely free, so households and factories with rooftop solar panels can significantly reduce their monthly electricity bills."
               }
             ],
             "drawbacks": [
@@ -27562,7 +27562,7 @@ const ESSAY_DATA = [
                 "point_vi": "Năng lượng xanh đòi hỏi chi phí đầu tư cao.",
                 "point_en": "Green energy requires high investment costs.",
                 "evidence_vi": "Việc xây dựng các hệ thống năng lượng mặt trời hoặc điện gió cần rất nhiều tiền.",
-                "evidence_en": "Building solar or wind power plants requires huge capital. This may put pressure on the budgets of governments or businesses."
+                "evidence_en": "Building solar or wind power plants requires huge capital, and this may put pressure on the budgets of governments or businesses."
               },
               {
                 "title": "DISADVANTAGE 02",
@@ -27681,8 +27681,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc xử lý các tấm pin mặt trời hết hạn sử dụng và tác động đến hệ sinh thái địa phương là vấn đề đáng lo ngại.",
                 "point_en": "Disposing of expired solar panels and protecting local ecosystems pose new environmental concerns.",
-                "evidence_vi": "Sau khoảng 20–25 năm hoạt động, các tấm pin mặt trời và cánh tua-bin gió cũ sẽ trở thành rác thải công nghiệp khó tái chế. Ngoài ra, các trạm điện gió có thể gây tiếng ồn và ảnh hưởng đến loài chim di cư.",
-                "evidence_en": "After 20 to 25 years of use, old solar panels and wind turbine blades become industrial waste that is difficult to recycle. Furthermore, wind farms can create noise and affect migrating birds."
+                "evidence_vi": "Sau khoảng 20–25 năm hoạt động, các tấm pin mặt trời và cánh tua-bin gió cũ sẽ trở thành rác thải công nghiệp khó tái chế, và các trạm điện gió có thể gây tiếng ồn và ảnh hưởng đến loài chim di cư.",
+                "evidence_en": "After 20 to 25 years of use, old solar panels and wind turbine blades become industrial waste that is difficult to recycle, and wind farms can create noise and affect migrating birds."
               }
             ]
           },
@@ -49083,8 +49083,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Công nghệ máy tính giúp người học dễ dàng tiếp cận nguồn tài liệu học ngôn ngữ phong phú.",
                 "point_en": "Computer technology helps learners easily access many useful language learning materials.",
-                "evidence_vi": "Học sinh có thể sử dụng từ điển điện tử, video và các bản ghi âm của người bản xứ bất cứ lúc nào. Điều này giúp họ mở rộng vốn từ vựng và cải thiện kỹ năng nghe một cách hiệu quả.",
-                "evidence_en": "Students can use digital dictionaries, videos, and audio recordings from native speakers at any time. This helps them expand their vocabulary and improve their listening skills effectively.",
+                "evidence_vi": "Học sinh có thể sử dụng từ điển điện tử, video và các bản ghi âm của người bản xứ bất cứ lúc nào, nhờ đó giúp họ mở rộng vốn từ vựng và cải thiện kỹ năng nghe một cách hiệu quả.",
+                "evidence_en": "Students can use digital dictionaries, videos, and audio recordings from native speakers at any time, so this helps them expand their vocabulary and improve their listening skills effectively.",
                 "point_collocations": [
                   {
                     "en": "computer technology",
@@ -49151,8 +49151,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Công nghệ máy tính làm cho việc học ngôn ngữ trở nên sinh động và hấp dẫn hơn.",
                 "point_en": "Computers make language learning more interesting and fun for students.",
-                "evidence_vi": "Các phần mềm học tập thường kết hợp hình ảnh trực quan, âm thanh và các trò chơi từ vựng thú vị. Nhờ đó, người học duy trì được động lực và ghi nhớ kiến thức mới lâu hơn.",
-                "evidence_en": "Learning software often combines visual images, sound effects, and enjoyable vocabulary games. As a result, learners stay motivated and remember new knowledge for longer periods.",
+                "evidence_vi": "Các phần mềm học tập thường kết hợp hình ảnh trực quan, âm thanh và các trò chơi từ vựng thú vị, nhờ đó người học duy trì được động lực và ghi nhớ kiến thức mới lâu hơn.",
+                "evidence_en": "Learning software often combines visual images, sound effects, and enjoyable vocabulary games, so learners stay motivated and remember new knowledge for longer periods.",
                 "point_collocations": [
                   {
                     "en": "computer technology",
@@ -49219,8 +49219,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Các công cụ máy tính có thể đưa ra phản hồi ngay lập tức về phát âm và ngữ pháp.",
                 "point_en": "Computer tools can give immediate feedback on pronunciation and grammar mistakes.",
-                "evidence_vi": "Phần mềm nhận diện giọng nói và công cụ kiểm tra chính tả giúp phát hiện lỗi sai của người học chỉ trong vài giây. Nhờ vậy, học sinh có thể tự sửa lỗi nhanh chóng và nâng cao độ chính xác khi sử dụng ngôn ngữ.",
-                "evidence_en": "Speech recognition software and spell checkers help detect learners' mistakes within seconds. Therefore, students can correct their errors quickly and improve their accuracy in language use.",
+                "evidence_vi": "Phần mềm nhận diện giọng nói và công cụ kiểm tra chính tả giúp phát hiện lỗi sai của người học chỉ trong vài giây, và nhờ vậy, học sinh có thể tự sửa lỗi nhanh chóng và nâng cao độ chính xác khi sử dụng ngôn ngữ.",
+                "evidence_en": "Speech recognition software and spell checkers help detect learners' mistakes within seconds, so students can correct their errors quickly and improve their accuracy in language use.",
                 "point_collocations": [
                   {
                     "en": "computer tools",
@@ -49287,8 +49287,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Công nghệ máy tính cho phép người học tự rèn luyện ngôn ngữ theo tốc độ phù hợp với bản thân.",
                 "point_en": "Computer technology allows learners to practice a language at their own pace.",
-                "evidence_vi": "Những học sinh tiếp thu chậm có thể nghe lại bài giảng hoặc làm lại bài tập ngữ pháp nhiều lần mà không cảm thấy áp lực. Điều này giúp xây dựng sự tự tin và tính tự chủ trong học tập.",
-                "evidence_en": "Slower students can replay audio lessons or repeat grammar exercises multiple times without feeling pressured. This helps build confidence and promotes learner autonomy.",
+                "evidence_vi": "Những học sinh tiếp thu chậm có thể nghe lại bài giảng hoặc làm lại bài tập ngữ pháp nhiều lần mà không cảm thấy áp lực, nhờ đó giúp xây dựng sự tự tin và tính tự chủ trong học tập.",
+                "evidence_en": "Slower students can replay audio lessons or repeat grammar exercises multiple times without feeling pressured, so this helps build confidence and promotes learner autonomy.",
                 "point_collocations": [
                   {
                     "en": "computer technology",
@@ -49351,8 +49351,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc sử dụng máy tính giúp người học tiết kiệm thời gian tra cứu và sắp xếp ghi chú.",
                 "point_en": "Using computers helps learners save a lot of time looking up words and organizing notes.",
-                "evidence_vi": "Thay vì lật tìm trong sách từ điển dày, học sinh có thể tra nghĩa và cách dùng từ ngay tức thì chỉ bằng một cú nhấp chuột. Họ cũng dễ dàng lưu trữ hàng trăm tài liệu học tập gọn gàng trên một thiết bị duy nhất.",
-                "evidence_en": "Instead of flipping through thick paper dictionaries, students can check word meanings and usage instantly with a single click. They can also store hundreds of study files neatly on one device.",
+                "evidence_vi": "Thay vì lật tìm trong sách từ điển dày, học sinh có thể tra nghĩa và cách dùng từ ngay tức thì chỉ bằng một cú nhấp chuột, và họ cũng dễ dàng lưu trữ hàng trăm tài liệu học tập gọn gàng trên một thiết bị duy nhất.",
+                "evidence_en": "Instead of flipping through thick paper dictionaries, students can check word meanings and usage instantly with a single click, and they can also store hundreds of study files neatly on one device.",
                 "point_collocations": [
                   {
                     "en": "save considerable time",
@@ -49442,8 +49442,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc phụ thuộc vào máy tính có thể làm giảm cơ hội giao tiếp trực tiếp của người học.",
                 "point_en": "Relying heavily on computers may reduce learners' opportunities for face-to-face communication.",
-                "evidence_vi": "Phần mềm máy tính khó có thể thay thế được cảm xúc tự nhiên, ngôn ngữ cơ thể và phản xạ trò chuyện thực tế giữa con người với nhau. Do đó, học sinh có thể nắm vững ngữ pháp trên máy nhưng lại lúng túng khi giao tiếp ngoài đời thực.",
-                "evidence_en": "Computer software cannot fully replace natural emotions, body language, and real-life conversational responses between people. Consequently, students may master grammar on screen but struggle to speak confidently in real situations.",
+                "evidence_vi": "Phần mềm máy tính khó có thể thay thế được cảm xúc tự nhiên, ngôn ngữ cơ thể và phản xạ trò chuyện thực tế giữa con người với nhau, do đó học sinh có thể nắm vững ngữ pháp trên máy nhưng lại lúng túng khi giao tiếp ngoài đời thực.",
+                "evidence_en": "Computer software cannot fully replace natural emotions, body language, and real-life conversational responses between people, so students may master grammar on screen but struggle to speak confidently in real situations.",
                 "point_collocations": [
                   {
                     "en": "rely heavily on computers",
@@ -49531,8 +49531,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Máy tính có kết nối mạng rất dễ khiến người học bị xao nhãng khỏi bài học.",
                 "point_en": "Computers connected to the Internet can easily distract learners from their studies.",
-                "evidence_vi": "Trong lúc học ngoại ngữ, học sinh thường bị cám dỗ bởi mạng xã hội, trò chơi điện tử hoặc các video giải trí. Sự mất tập trung này làm gián đoạn việc tiếp thu và làm giảm đáng kể hiệu quả học tập.",
-                "evidence_en": "While studying a language, students are often tempted by social media, video games, or entertainment videos. Such loss of concentration interrupts learning and significantly reduces academic effectiveness.",
+                "evidence_vi": "Trong lúc học ngoại ngữ, học sinh thường bị cám dỗ bởi mạng xã hội, trò chơi điện tử hoặc các video giải trí, và sự mất tập trung này làm gián đoạn việc tiếp thu và làm giảm đáng kể hiệu quả học tập.",
+                "evidence_en": "While studying a language, students are often tempted by social media, video games, or entertainment videos, and such loss of concentration interrupts learning and significantly reduces academic effectiveness.",
                 "point_collocations": [
                   {
                     "en": "computers connected to the Internet",
@@ -49620,8 +49620,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Người học có nguy cơ phụ thuộc quá mức vào các công cụ dịch thuật và sửa lỗi tự động.",
                 "point_en": "Learners may become overly dependent on automatic translation and correction tools.",
-                "evidence_vi": "Nhiều học sinh sao chép nguyên câu từ phần mềm dịch máy thay vì tự suy nghĩ cách diễn đạt bằng vốn từ của mình. Thói quen thụ động này cản trở khả năng tư duy bằng ngoại ngữ và làm yếu kỹ năng viết độc lập.",
-                "evidence_en": "Many students copy entire sentences from machine translators instead of thinking about how to express ideas in their own words. This passive habit hinders thinking in the target language and weakens independent writing skills.",
+                "evidence_vi": "Nhiều học sinh sao chép nguyên câu từ phần mềm dịch máy thay vì tự suy nghĩ cách diễn đạt bằng vốn từ của mình, và thói quen thụ động này cản trở khả năng tư duy bằng ngoại ngữ và làm yếu kỹ năng viết độc lập.",
+                "evidence_en": "Many students copy entire sentences from machine translators instead of thinking about how to express ideas in their own words, and this passive habit hinders thinking in the target language and weakens independent writing skills.",
                 "point_collocations": [
                   {
                     "en": "become overly dependent on",
@@ -49709,8 +49709,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Ngồi trước màn hình máy tính trong nhiều giờ liền có thể gây hại cho sức khỏe của người học.",
                 "point_en": "Sitting in front of a computer screen for long hours can harm learners' health.",
-                "evidence_vi": "Ánh sáng xanh từ màn hình và tư thế ngồi cố định dễ dẫn đến mỏi mắt, đau đầu và đau mỏi lưng. Về lâu dài, sự mệt mỏi thể chất này khiến người học giảm hứng thú rèn luyện ngoại ngữ mỗi ngày.",
-                "evidence_en": "Blue light from monitors and a fixed sitting posture can easily cause eye strain, headaches, and backache. In the long run, such physical fatigue reduces learners' enthusiasm for daily language practice.",
+                "evidence_vi": "Ánh sáng xanh từ màn hình và tư thế ngồi cố định dễ dẫn đến mỏi mắt, đau đầu và đau mỏi lưng, và về lâu dài, sự mệt mỏi thể chất này khiến người học giảm hứng thú rèn luyện ngoại ngữ mỗi ngày.",
+                "evidence_en": "Blue light from monitors and a fixed sitting posture can easily cause eye strain, headaches, and backache, and in the long run, such physical fatigue reduces learners' enthusiasm for daily language practice.",
                 "point_collocations": [
                   {
                     "en": "sit in front of a computer screen",
@@ -49798,8 +49798,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Chi phí mua sắm thiết bị và các sự cố kỹ thuật cũng tạo ra rào cản đối với nhiều người học.",
                 "point_en": "Equipment costs and technical problems can also create barriers for many learners.",
-                "evidence_vi": "Không phải học sinh nào cũng đủ điều kiện mua máy tính cấu hình tốt hoặc bản quyền phần mềm học tập chất lượng cao. Ngoài ra, lỗi phần mềm hoặc mất kết nối mạng đột ngột có thể làm gián đoạn quá trình ôn luyện.",
-                "evidence_en": "Not every student can afford a reliable computer or paid licenses for high-quality learning software. Moreover, software glitches or sudden network failures can disrupt their study sessions.",
+                "evidence_vi": "Không phải học sinh nào cũng đủ điều kiện mua máy tính cấu hình tốt hoặc bản quyền phần mềm học tập chất lượng cao, và lỗi phần mềm hoặc mất kết nối mạng đột ngột có thể làm gián đoạn quá trình ôn luyện.",
+                "evidence_en": "Not every student can afford a reliable computer or paid licenses for high-quality learning software, and software glitches or sudden network failures can disrupt their study sessions.",
                 "point_collocations": [
                   {
                     "en": "equipment costs",
@@ -52102,8 +52102,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Máy tính và các chương trình trực tuyến mang lại sự linh hoạt lớn về thời gian và địa điểm cho người học ngoại ngữ.",
                 "point_en": "Computers and online programs allow language learners to study flexibly anytime and anywhere.",
-                "evidence_vi": "Học sinh và người đi làm có thể học vào sáng sớm hoặc buổi tối ngay tại nhà mà không tốn thời gian đi lại đến trung tâm. Điều này giúp họ duy trì thói quen rèn luyện ngoại ngữ đều đặn dù lịch trình bận rộn.",
-                "evidence_en": "Students and working adults can study early in the morning or late at night from home without commuting to language centers. This helps them maintain regular language practice despite busy schedules.",
+                "evidence_vi": "Học sinh và người đi làm có thể học vào sáng sớm hoặc buổi tối ngay tại nhà mà không tốn thời gian đi lại đến trung tâm, nhờ đó giúp họ duy trì thói quen rèn luyện ngoại ngữ đều đặn dù lịch trình bận rộn.",
+                "evidence_en": "Students and working adults can study early in the morning or late at night from home without commuting to language centers, so this helps them maintain regular language practice despite busy schedules.",
                 "point_collocations": [
                   {
                     "en": "computers and online programs",
@@ -52166,8 +52166,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Các chương trình học trực tuyến giúp người học kết nối trực tiếp với giáo viên bản ngữ ở nhiều quốc gia.",
                 "point_en": "Online programs help students connect directly with native teachers from different countries.",
-                "evidence_vi": "Ngay cả khi sống ở thị trấn nhỏ, học viên vẫn có thể tham gia lớp luyện nói trực tuyến với giáo viên nước ngoài. Sự tiếp xúc này giúp họ làm quen với ngữ điệu tự nhiên và nâng cao phản xạ giao tiếp.",
-                "evidence_en": "Even learners living in small towns can join virtual speaking classes with foreign teachers. Such exposure helps them become familiar with natural intonation and improve their communication skills.",
+                "evidence_vi": "Ngay cả khi sống ở thị trấn nhỏ, học viên vẫn có thể tham gia lớp luyện nói trực tuyến với giáo viên nước ngoài, và sự tiếp xúc này giúp họ làm quen với ngữ điệu tự nhiên và nâng cao phản xạ giao tiếp.",
+                "evidence_en": "Even learners living in small towns can join virtual speaking classes with foreign teachers, and such exposure helps them become familiar with natural intonation and improve their communication skills.",
                 "point_collocations": [
                   {
                     "en": "online learning programs",
@@ -52234,8 +52234,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nhiều nền tảng học ngoại ngữ hiện nay thiết kế lộ trình bài tập phù hợp với trình độ của từng cá nhân.",
                 "point_en": "Many learning apps create personal study plans that fit each student's current level.",
-                "evidence_vi": "Hệ thống tự động ghi nhận những phần từ vựng hoặc ngữ pháp còn yếu để đưa ra bài ôn tập bổ sung. Nhờ vậy, người học theo dõi rõ sự tiến bộ hằng tuần và khắc phục lỗ hổng kiến thức nhanh hơn.",
-                "evidence_en": "The system automatically identifies weak areas in vocabulary or grammar to suggest extra practice exercises. Consequently, learners can track their weekly progress clearly and fill knowledge gaps faster.",
+                "evidence_vi": "Hệ thống tự động ghi nhận những phần từ vựng hoặc ngữ pháp còn yếu để đưa ra bài ôn tập bổ sung, và nhờ vậy, người học theo dõi rõ sự tiến bộ hằng tuần và khắc phục lỗ hổng kiến thức nhanh hơn.",
+                "evidence_en": "The system automatically identifies weak areas in vocabulary or grammar to suggest extra practice exercises, so learners can track their weekly progress clearly and fill knowledge gaps faster.",
                 "point_collocations": [
                   {
                     "en": "modern language platforms",
@@ -52302,8 +52302,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Các khóa học trực tuyến và ứng dụng ngoại ngữ thường có chi phí tiết kiệm hơn so với lớp học truyền thống.",
                 "point_en": "Online courses and language apps are usually much cheaper than traditional classroom classes.",
-                "evidence_vi": "Nhiều trang web cung cấp bài tập miễn phí hoặc gói đăng ký tháng với mức giá rất hợp lý, đồng thời cắt giảm chi phí xăng xe và tài liệu in ấn. Điều này mở ra cơ hội học ngoại ngữ cho đông đảo học sinh có ngân sách hạn hẹp.",
-                "evidence_en": "Many websites offer free exercises or reasonably priced monthly subscriptions while cutting transport and printed textbook expenses. This opens up second language learning opportunities to students on a tight budget.",
+                "evidence_vi": "Nhiều trang web cung cấp bài tập miễn phí hoặc gói đăng ký tháng với mức giá rất hợp lý, đồng thời cắt giảm chi phí xăng xe và tài liệu in ấn, và điều này mở ra cơ hội học ngoại ngữ cho đông đảo học sinh có ngân sách hạn hẹp.",
+                "evidence_en": "Many websites offer free exercises or reasonably priced monthly subscriptions while cutting transport and printed textbook expenses, and this opens up second language learning opportunities to students on a tight budget.",
                 "point_collocations": [
                   {
                     "en": "online courses and language applications",
@@ -52366,8 +52366,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Luyện tập với các chương trình trực tuyến giúp người mới bắt đầu giảm bớt nỗi sợ mắc lỗi trước đám đông.",
                 "point_en": "Practicing online helps beginners feel less afraid of making mistakes in front of other people.",
-                "evidence_vi": "Những người học rụt rè có thể thoải mái thu âm giọng nói và luyện hội thoại nhiều lần trong không gian riêng tư tại nhà. Khi đã nắm vững cách phát âm cơ bản, họ sẽ tự tin hơn nhiều khi bước vào giao tiếp thực tế.",
-                "evidence_en": "Shy learners can comfortably record their voices and practice dialogues repeatedly in the privacy of their own homes. Once they master basic pronunciation, they feel much more confident in real conversations.",
+                "evidence_vi": "Những người học rụt rè có thể thoải mái thu âm giọng nói và luyện hội thoại nhiều lần trong không gian riêng tư tại nhà, và khi đã nắm vững cách phát âm cơ bản, họ sẽ tự tin hơn nhiều khi bước vào giao tiếp thực tế.",
+                "evidence_en": "Shy learners can comfortably record their voices and practice dialogues repeatedly in the privacy of their own homes, and once they master basic pronunciation, they feel much more confident in real conversations.",
                 "point_collocations": [
                   {
                     "en": "practice with online programs",
@@ -52457,8 +52457,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Học ngoại ngữ qua các chương trình trực tuyến đòi hỏi tính tự giác cao mà nhiều người học còn thiếu.",
                 "point_en": "Learning a second language through online programs requires strong self-discipline that many learners lack.",
-                "evidence_vi": "Khi không có giáo viên trực tiếp nhắc nhở trên lớp, học viên rất dễ trì hoãn bài tập hoặc bỏ dở khóa học sau vài tuần đầu hào hứng. Vì vậy, việc tự học trên mạng thường kém hiệu quả đối với những người thiếu kiên trì.",
-                "evidence_en": "Without a classroom teacher reminding them directly, learners easily postpone assignments or abandon courses after a few enthusiastic weeks. Therefore, online self-study is often ineffective for learners without self-discipline.",
+                "evidence_vi": "Khi không có giáo viên trực tiếp nhắc nhở trên lớp, học viên rất dễ trì hoãn bài tập hoặc bỏ dở khóa học sau vài tuần đầu hào hứng, vì vậy việc tự học trên mạng thường kém hiệu quả đối với những người thiếu kiên trì.",
+                "evidence_en": "Without a classroom teacher reminding them directly, learners easily postpone assignments or abandon courses after a few enthusiastic weeks, so online self-study is often ineffective for learners without self-discipline.",
                 "point_collocations": [
                   {
                     "en": "require strong self-discipline",
@@ -52546,8 +52546,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nhiều ứng dụng và khóa học trực tuyến chưa tạo được môi trường giao tiếp nhóm sôi nổi như lớp học truyền thống.",
                 "point_en": "Many apps and online courses fail to provide the lively group interaction found in traditional classrooms.",
-                "evidence_vi": "Phần lớn các bài tập kỹ thuật số chỉ tập trung vào chọn đáp án đúng hoặc lặp lại các mẫu câu có sẵn. Điều này khiến người học thiếu kỹ năng thảo luận nhóm, tranh luận và xử lý tình huống giao tiếp bất ngờ.",
-                "evidence_en": "Most digital exercises focus mainly on choosing correct answers or repeating fixed sentence patterns. This leaves learners lacking skills in group discussion, debate, and handling unexpected communicative situations.",
+                "evidence_vi": "Phần lớn các bài tập kỹ thuật số chỉ tập trung vào chọn đáp án đúng hoặc lặp lại các mẫu câu có sẵn, và điều này khiến người học thiếu kỹ năng thảo luận nhóm, tranh luận và xử lý tình huống giao tiếp bất ngờ.",
+                "evidence_en": "Most digital exercises focus mainly on choosing correct answers or repeating fixed sentence patterns, and this leaves learners lacking skills in group discussion, debate, and handling unexpected communicative situations.",
                 "point_collocations": [
                   {
                     "en": "apps and online courses",
@@ -52635,8 +52635,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Chất lượng của các trang web và chương trình học ngoại ngữ trực tuyến hiện nay rất không đồng đều.",
                 "point_en": "The quality of language learning websites and online programs varies considerably.",
-                "evidence_vi": "Bên cạnh các nền tảng uy tín, vẫn có nhiều khóa học thiếu kiểm duyệt chuyên môn, dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên. Người mới học rất dễ chọn nhầm chương trình kém chất lượng, gây lãng phí cả tiền bạc lẫn thời gian.",
-                "evidence_en": "Alongside reputable platforms, many unverified courses lack academic standards and teach fragmented grammar or unnatural expressions. Beginners can easily choose poor-quality programs, wasting both money and time.",
+                "evidence_vi": "Bên cạnh các nền tảng uy tín, vẫn có nhiều khóa học thiếu kiểm duyệt chuyên môn, dạy ngữ pháp rời rạc hoặc cách diễn đạt thiếu tự nhiên, và người mới học rất dễ chọn nhầm chương trình kém chất lượng, gây lãng phí cả tiền bạc lẫn thời gian.",
+                "evidence_en": "Alongside reputable platforms, many unverified courses lack academic standards and teach fragmented grammar or unnatural expressions, and beginners can easily choose poor-quality programs, wasting both money and time.",
                 "point_collocations": [
                   {
                     "en": "the quality of language learning websites",
@@ -52724,8 +52724,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Hiệu quả của các chương trình học trực tuyến phụ thuộc chặt chẽ vào chất lượng đường truyền Internet.",
                 "point_en": "The effectiveness of online learning programs depends heavily on a stable Internet connection.",
-                "evidence_vi": "Khi mạng yếu hoặc mất kết nối, âm thanh trong lớp học ngoại ngữ bị giật ngắt khiến người học không nghe rõ cách phát âm của giáo viên. Sự cố này gây ức chế tâm lý và làm giảm chất lượng buổi học thực hành.",
-                "evidence_en": "When the network is weak or disconnected, audio in language classes lags and prevents learners from hearing the teacher's pronunciation clearly. Such disruptions cause frustration and lower the quality of speaking lessons.",
+                "evidence_vi": "Khi mạng yếu hoặc mất kết nối, âm thanh trong lớp học ngoại ngữ bị giật ngắt khiến người học không nghe rõ cách phát âm của giáo viên, và sự cố này gây ức chế tâm lý và làm giảm chất lượng buổi học thực hành.",
+                "evidence_en": "When the network is weak or disconnected, audio in language classes lags and prevents learners from hearing the teacher's pronunciation clearly, and such disruptions cause frustration and lower the quality of speaking lessons.",
                 "point_collocations": [
                   {
                     "en": "the effectiveness of online learning programs",
@@ -52813,8 +52813,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Các chương trình tự động trên máy tính thường khó chấm sửa sâu sắc cho kỹ năng viết luận và nói dài.",
                 "point_en": "Automated computer programs often struggle to give in-depth feedback on extended speaking and essay writing.",
-                "evidence_vi": "Phần mềm có thể nhận biết lỗi chính tả cơ bản nhưng khó đánh giá chính xác mạch lập luận, giọng văn hay sự tinh tế trong cách dùng từ. Người học vẫn cần giáo viên có chuyên môn hướng dẫn để đạt trình độ ngoại ngữ nâng cao.",
-                "evidence_en": "Software can spot basic spelling errors, yet it struggles to evaluate logical flow, tone, or subtle word choices accurately. Learners still need experienced teachers to reach advanced language proficiency.",
+                "evidence_vi": "Phần mềm có thể nhận biết lỗi chính tả cơ bản nhưng khó đánh giá chính xác mạch lập luận, giọng văn hay sự tinh tế trong cách dùng từ, và người học vẫn cần giáo viên có chuyên môn hướng dẫn để đạt trình độ ngoại ngữ nâng cao.",
+                "evidence_en": "Software can spot basic spelling errors, yet it struggles to evaluate logical flow, tone, or subtle word choices accurately, and learners still need experienced teachers to reach advanced language proficiency.",
                 "point_collocations": [
                   {
                     "en": "automated computer programs",
@@ -55126,8 +55126,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sống tự lập giúp trẻ sớm hình thành những kỹ năng thực tế cần thiết cho cuộc sống hằng ngày.",
                 "point_en": "Living on their own helps children learn useful daily life skills from an early age.",
-                "evidence_vi": "Khi tự dọn dẹp phòng ốc, chuẩn bị bữa ăn đơn giản và sắp xếp thời gian học, trẻ biết cách tự chăm sóc bản thân mà không ỷ lại vào cha mẹ. Những thói quen này giúp các em thích nghi dễ dàng khi sau này học xa nhà hoặc bước vào tuổi trưởng thành.",
-                "evidence_en": "When tidying their rooms, preparing simple meals, and managing study schedules, children learn to look after themselves without relying on their parents. These habits help them adapt easily when studying away from home or entering adulthood later.",
+                "evidence_vi": "Khi tự dọn dẹp phòng ốc, chuẩn bị bữa ăn đơn giản và sắp xếp thời gian học, trẻ biết cách tự chăm sóc bản thân mà không ỷ lại vào cha mẹ, và những thói quen này giúp các em thích nghi dễ dàng khi sau này học xa nhà hoặc bước vào tuổi trưởng thành.",
+                "evidence_en": "When tidying their rooms, preparing simple meals, and managing study schedules, children learn to look after themselves without relying on their parents, and these habits help them adapt easily when studying away from home or entering adulthood later.",
                 "point_collocations": [
                   {
                     "en": "live independently",
@@ -55194,8 +55194,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc tự giải quyết công việc cá nhân giúp trẻ rèn luyện tinh thần trách nhiệm và tính kỷ luật.",
                 "point_en": "Doing personal chores by themselves helps kids build good discipline and responsibility.",
-                "evidence_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó. Nhờ vậy, trẻ trở nên cẩn thận hơn và chủ động hoàn thành nhiệm vụ đúng hạn.",
-                "evidence_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves. As a result, they become more careful and complete their duties on time.",
+                "evidence_vi": "Trẻ hiểu rằng nếu quên làm bài tập về nhà hoặc không giữ gìn đồ dùng cá nhân, chính các em sẽ phải đối mặt với kết quả đó, và nhờ vậy, trẻ trở nên cẩn thận hơn và chủ động hoàn thành nhiệm vụ đúng hạn.",
+                "evidence_en": "Children understand that if they forget their homework or fail to keep personal belongings tidy, they must face the consequences themselves, so they become more careful and complete their duties on time.",
                 "point_collocations": [
                   {
                     "en": "handle personal tasks",
@@ -55258,8 +55258,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Trẻ sống tự lập thường tự tin hơn và phát triển tốt kỹ năng giải quyết vấn đề.",
                 "point_en": "Independent children are usually more confident and solve daily problems better.",
-                "evidence_vi": "Khi được phép tự đưa ra những lựa chọn phù hợp với lứa tuổi và tự vượt qua thử thách nhỏ, trẻ cảm thấy tự hào về năng lực của mình. Sự tự tin tích cực này giúp các em không dễ nản lòng khi gặp khó khăn ở trường học.",
-                "evidence_en": "When allowed to make age-appropriate choices and overcome small challenges alone, children feel proud of their own abilities. Such positive self-esteem prevents them from giving up easily when facing difficulties at school.",
+                "evidence_vi": "Khi được phép tự đưa ra những lựa chọn phù hợp với lứa tuổi và tự vượt qua thử thách nhỏ, trẻ cảm thấy tự hào về năng lực của mình, và sự tự tin tích cực này giúp các em không dễ nản lòng khi gặp khó khăn ở trường học.",
+                "evidence_en": "When allowed to make age-appropriate choices and overcome small challenges alone, children feel proud of their own abilities, and such positive self-esteem prevents them from giving up easily when facing difficulties at school.",
                 "point_collocations": [
                   {
                     "en": "independent children",
@@ -55326,8 +55326,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Khi trẻ biết tự lo cho bản thân và phụ giúp việc nhà, gánh nặng của cha mẹ được giảm bớt.",
                 "point_en": "When children can look after themselves, parents have less daily stress and hard work.",
-                "evidence_vi": "Trong xã hội hiện đại, hầu hết các bậc phụ huynh đều bận rộn với công việc cả ngày nên khó thể làm thay con mọi thứ. Sự tự giác của con cái giúp không khí gia đình bớt căng thẳng và hài hòa hơn.",
-                "evidence_en": "In modern families, most working parents have busy jobs all day and cannot do everything for their children. Children's cooperation reduces family stress and creates a more harmonious home atmosphere.",
+                "evidence_vi": "Trong xã hội hiện đại, hầu hết các bậc phụ huynh đều bận rộn với công việc cả ngày nên khó thể làm thay con mọi thứ, và sự tự giác của con cái giúp không khí gia đình bớt căng thẳng và hài hòa hơn.",
+                "evidence_en": "In modern families, most working parents have busy jobs all day and cannot do everything for their children, and children's cooperation reduces family stress and creates a more harmonious home atmosphere.",
                 "point_collocations": [
                   {
                     "en": "take care of themselves",
@@ -55394,8 +55394,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sống tự lập còn dạy trẻ biết quản lý quỹ thời gian và khoản tiền tiêu vặt hợp lý.",
                 "point_en": "Living independently also teaches children how to manage their time and spend pocket money wisely.",
-                "evidence_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt. Những kỹ năng tự quản này là nền tảng quý giá cho sự thành công trong tương lai.",
-                "evidence_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks. Such self-management skills lay a valuable foundation for future success.",
+                "evidence_vi": "Trẻ học cách cân đối giữa giờ học và giờ giải trí, đồng thời suy nghĩ kỹ trước khi chi tiêu cho đồ chơi hay quà vặt, và những kỹ năng tự quản này là nền tảng quý giá cho sự thành công trong tương lai.",
+                "evidence_en": "Children learn to balance study hours with leisure activities and think carefully before spending money on toys or snacks, and such self-management skills lay a valuable foundation for future success.",
                 "point_collocations": [
                   {
                     "en": "manage their time",
@@ -55485,8 +55485,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Vì còn nhỏ và thiếu kinh nghiệm sống, trẻ tự lập quá sớm có thể đưa ra những quyết định thiếu khôn ngoan.",
                 "point_en": "Because children are young and inexperienced, living too independently may lead them to make unwise decisions.",
-                "evidence_vi": "Khi không có người lớn định hướng sát sao, trẻ có thể sắp xếp lịch sinh hoạt thiếu khoa học, ăn uống không lành mạnh hoặc nghe theo lời rủ rê xấu của bạn bè. Những sai lầm này có thể ảnh hưởng tiêu cực đến kết quả học tập và sức khỏe của trẻ.",
-                "evidence_en": "Without close adult guidance, children may plan unhealthy routines, eat junk food regularly, or follow bad peer influences. These mistakes can negatively affect both their academic performance and health.",
+                "evidence_vi": "Khi không có người lớn định hướng sát sao, trẻ có thể sắp xếp lịch sinh hoạt thiếu khoa học, ăn uống không lành mạnh hoặc nghe theo lời rủ rê xấu của bạn bè, và những sai lầm này có thể ảnh hưởng tiêu cực đến kết quả học tập và sức khỏe của trẻ.",
+                "evidence_en": "Without close adult guidance, children may plan unhealthy routines, eat junk food regularly, or follow bad peer influences, and these mistakes can negatively affect both their academic performance and health.",
                 "point_collocations": [
                   {
                     "en": "young and inexperienced",
@@ -55574,8 +55574,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc phải gánh vác quá nhiều trách nhiệm từ quá sớm có thể khiến trẻ cảm thấy căng thẳng và quá tải.",
                 "point_en": "Taking on too many responsibilities too early can make children feel stressed and overwhelmed.",
-                "evidence_vi": "Một số trẻ khi gặp rắc rối trong việc học hay sinh hoạt lại ngại chia sẻ vì nghĩ mình phải tự giải quyết một mình. Áp lực kéo dài này có thể lấy đi sự hồn nhiên tuổi thơ và gây lo âu về mặt tâm lý.",
-                "evidence_en": "Some children hesitate to ask for help with schoolwork or daily problems because they believe they must handle everything alone. Prolonged pressure may take away their carefree childhood and cause emotional anxiety.",
+                "evidence_vi": "Một số trẻ khi gặp rắc rối trong việc học hay sinh hoạt lại ngại chia sẻ vì nghĩ mình phải tự giải quyết một mình, và áp lực kéo dài này có thể lấy đi sự hồn nhiên tuổi thơ và gây lo âu về mặt tâm lý.",
+                "evidence_en": "Some children hesitate to ask for help with schoolwork or daily problems because they believe they must handle everything alone, and prolonged pressure may take away their carefree childhood and cause emotional anxiety.",
                 "point_collocations": [
                   {
                     "en": "take on too many responsibilities",
@@ -55663,8 +55663,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Để trẻ tự xoay xở khi thiếu sự giám sát của người lớn có thể dẫn đến những rủi ro mất an toàn.",
                 "point_en": "Leaving children to manage tasks without adult supervision may expose them to safety risks.",
-                "evidence_vi": "Chẳng hạn, trẻ nhỏ tự nấu ăn, sử dụng thiết bị điện hoặc tự đi lại ngoài đường rất dễ gặp tai nạn ngoài ý muốn. Các em chưa đủ kỹ năng xử lý tình huống khẩn cấp khi xảy ra sự cố bất ngờ.",
-                "evidence_en": "For instance, young children cooking alone, using electrical appliances, or traveling outside by themselves can easily have unexpected accidents. They often lack the skills to handle emergencies when sudden dangers occur.",
+                "evidence_vi": "Chẳng hạn, trẻ nhỏ tự nấu ăn, sử dụng thiết bị điện hoặc tự đi lại ngoài đường rất dễ gặp tai nạn ngoài ý muốn, và các em chưa đủ kỹ năng xử lý tình huống khẩn cấp khi xảy ra sự cố bất ngờ.",
+                "evidence_en": "For instance, young children cooking alone, using electrical appliances, or traveling outside by themselves can easily have unexpected accidents, and they often lack the skills to handle emergencies when sudden dangers occur.",
                 "point_collocations": [
                   {
                     "en": "manage tasks",
@@ -55748,8 +55748,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nếu việc rèn tính tự lập không đi kèm sự quan tâm tinh tế, tình cảm giữa cha mẹ và con cái có thể trở nên xa cách.",
                 "point_en": "If independence is encouraged without emotional warmth, the bond between parents and children may weaken.",
-                "evidence_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con. Lâu dần, trẻ có thể cảm thấy cô đơn ngay trong chính ngôi nhà của mình.",
-                "evidence_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries. Over time, children might feel lonely even within their own homes.",
+                "evidence_vi": "Khi trẻ quen tự làm mọi việc trong phòng riêng và ít trò chuyện hằng ngày, cha mẹ khó nắm bắt kịp thời những tâm tư hay nỗi buồn của con, và lâu dần, trẻ có thể cảm thấy cô đơn ngay trong chính ngôi nhà của mình.",
+                "evidence_en": "When children get used to doing everything alone in their rooms and talking less each day, parents may fail to notice their worries, and over time, children might feel lonely even within their own homes.",
                 "point_collocations": [
                   {
                     "en": "without emotional warmth",
@@ -55833,8 +55833,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Một số trẻ khi quen tự quyết định mọi việc có thể trở nên bướng bỉnh và ít lắng nghe lời khuyên của người lớn.",
                 "point_en": "When children get used to deciding everything alone, they may become stubborn and ignore adult advice.",
-                "evidence_vi": "Trẻ có thể đánh giá quá cao khả năng của bản thân và phản ứng gay gắt khi cha mẹ góp ý hay đặt ra quy tắc chung. Điều này đôi khi gây ra mâu thuẫn không đáng có giữa các thế hệ trong gia đình.",
-                "evidence_en": "They may overestimate their own judgment and react negatively when parents offer guidance or set family rules. This attitude sometimes causes unnecessary conflicts between generations at home.",
+                "evidence_vi": "Trẻ có thể đánh giá quá cao khả năng của bản thân và phản ứng gay gắt khi cha mẹ góp ý hay đặt ra quy tắc chung, và điều này đôi khi gây ra mâu thuẫn không đáng có giữa các thế hệ trong gia đình.",
+                "evidence_en": "They may overestimate their own judgment and react negatively when parents offer guidance or set family rules, and this attitude sometimes causes unnecessary conflicts between generations at home.",
                 "point_collocations": [
                   {
                     "en": "decide everything alone",
@@ -58150,8 +58150,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Có nhiều bạn trực tuyến giúp người trẻ dễ dàng kết nối với những người có chung sở thích và đam mê.",
                 "point_en": "Having many online friends allows young people to connect easily with peers with similar interests.",
-                "evidence_vi": "Thông qua các hội nhóm về âm nhạc, đọc sách, thể thao hay học thuật trên mạng xã hội, họ luôn tìm được người trò chuyện tâm đầu ý hợp. Điều này mang lại niềm vui tinh thần và giúp họ học hỏi thêm nhiều kiến thức bổ ích.",
-                "evidence_en": "Through online groups for music, reading, sports, or study, they can always find like-minded peers to chat with. This brings emotional joy and helps them exchange useful knowledge.",
+                "evidence_vi": "Thông qua các hội nhóm về âm nhạc, đọc sách, thể thao hay học thuật trên mạng xã hội, họ luôn tìm được người trò chuyện tâm đầu ý hợp, và điều này mang lại niềm vui tinh thần và giúp họ học hỏi thêm nhiều kiến thức bổ ích.",
+                "evidence_en": "Through online groups for music, reading, sports, or study, they can always find like-minded peers to chat with, and this brings emotional joy and helps them exchange useful knowledge.",
                 "point_collocations": [
                   {
                     "en": "have many online friends",
@@ -58239,8 +58239,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Mạng lưới bạn bè trực tuyến rộng khắp giúp mở rộng tầm hiểu biết văn hóa và rèn luyện ngoại ngữ.",
                 "point_en": "A wide network of online friends helps broaden cultural understanding and improve foreign language skills.",
-                "evidence_vi": "Thanh thiếu niên có thể kết bạn với người trẻ ở nhiều vùng miền và quốc gia khác nhau mà không bị giới hạn bởi khoảng cách địa lý. Những cuộc trò chuyện xuyên biên giới giúp họ cởi mở hơn và giao tiếp ngoại ngữ tự nhiên hơn.",
-                "evidence_en": "Teenagers can make friends with peers from different regions and countries without geographical limitations. Cross-border conversations help them become more open-minded and practice foreign languages naturally.",
+                "evidence_vi": "Thanh thiếu niên có thể kết bạn với người trẻ ở nhiều vùng miền và quốc gia khác nhau mà không bị giới hạn bởi khoảng cách địa lý, và những cuộc trò chuyện xuyên biên giới giúp họ cởi mở hơn và giao tiếp ngoại ngữ tự nhiên hơn.",
+                "evidence_en": "Teenagers can make friends with peers from different regions and countries without geographical limitations, and cross-border conversations help them become more open-minded and practice foreign languages naturally.",
                 "point_collocations": [
                   {
                     "en": "a wide network of online friends",
@@ -58328,8 +58328,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Kết bạn qua mạng tạo không gian thoải mái để những người hướng nội hoặc rụt rè dễ dàng bày tỏ suy nghĩ.",
                 "point_en": "Making friends online provides a comfortable space for shy or introverted people to express their thoughts.",
-                "evidence_vi": "Nhiều bạn trẻ thường lúng túng khi bắt chuyện trực tiếp nhưng lại chia sẻ rất cởi mở qua tin nhắn trực tuyến. Nhờ sự đồng cảm từ bạn bè trên mạng, họ vơi bớt cảm giác cô đơn và nhận được sự khích lệ tinh thần kịp thời.",
-                "evidence_en": "Many young individuals feel nervous in face-to-face talks, yet they communicate openly through text messages. Thanks to empathy from online friends, they feel less lonely and receive timely emotional encouragement.",
+                "evidence_vi": "Nhiều bạn trẻ thường lúng túng khi bắt chuyện trực tiếp nhưng lại chia sẻ rất cởi mở qua tin nhắn trực tuyến, và nhờ sự đồng cảm từ bạn bè trên mạng, họ vơi bớt cảm giác cô đơn và nhận được sự khích lệ tinh thần kịp thời.",
+                "evidence_en": "Many young individuals feel nervous in face-to-face talks, yet they communicate openly through text messages, and thanks to empathy from online friends, they feel less lonely and receive timely emotional encouragement.",
                 "point_collocations": [
                   {
                     "en": "make friends online",
@@ -58417,8 +58417,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Một mạng lưới bạn bè trực tuyến lớn giúp cá nhân nhanh chóng hỏi đáp thông tin và kinh nghiệm thực tế.",
                 "point_en": "A large circle of online friends helps individuals obtain useful information and practical advice quickly.",
-                "evidence_vi": "Khi cần tìm tài liệu học tập, định hướng nghề nghiệp hay kinh nghiệm du lịch, một bài đăng trên mạng xã hội có thể nhận được hàng chục gợi ý hữu ích. Sự hỗ trợ tập thể này giúp tiết kiệm rất nhiều thời gian tự tìm kiếm.",
-                "evidence_en": "When looking for study materials, career advice, or travel tips, a single social media post can attract dozens of helpful suggestions. Such collective support saves considerable time compared to searching alone.",
+                "evidence_vi": "Khi cần tìm tài liệu học tập, định hướng nghề nghiệp hay kinh nghiệm du lịch, một bài đăng trên mạng xã hội có thể nhận được hàng chục gợi ý hữu ích, và sự hỗ trợ tập thể này giúp tiết kiệm rất nhiều thời gian tự tìm kiếm.",
+                "evidence_en": "When looking for study materials, career advice, or travel tips, a single social media post can attract dozens of helpful suggestions, and such collective support saves considerable time compared to searching alone.",
                 "point_collocations": [
                   {
                     "en": "a large circle of online friends",
@@ -58502,8 +58502,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Tình bạn trực tuyến rất dễ duy trì nhờ khả năng liên lạc tức thì mọi lúc mọi nơi.",
                 "point_en": "Online friendships are convenient to maintain thanks to instant communication at any time.",
-                "evidence_vi": "Dù bận học tập hay làm việc, người trẻ vẫn có thể nhắn tin ngắn hoặc tương tác dưới bài viết để cập nhật cuộc sống của nhau. Nhờ vậy, họ giữ được sự kết nối xã hội sôi động mà không tốn chi phí gặp gỡ thường xuyên.",
-                "evidence_en": "Even during busy school or work weeks, young adults can send quick messages or react to posts to stay updated on one another's lives. Thus, they maintain active social connections without spending money on frequent outings.",
+                "evidence_vi": "Dù bận học tập hay làm việc, người trẻ vẫn có thể nhắn tin ngắn hoặc tương tác dưới bài viết để cập nhật cuộc sống của nhau, và nhờ vậy, họ giữ được sự kết nối xã hội sôi động mà không tốn chi phí gặp gỡ thường xuyên.",
+                "evidence_en": "Even during busy school or work weeks, young adults can send quick messages or react to posts to stay updated on one another's lives, and thus, they maintain active social connections without spending money on frequent outings.",
                 "point_collocations": [
                   {
                     "en": "online friendships",
@@ -58589,8 +58589,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Phần lớn các mối quan hệ bạn bè trên mạng thường mang tính bề nổi và thiếu sự gắn kết chân thành.",
                 "point_en": "Most online friendships tend to be superficial and lack genuine emotional depth.",
-                "evidence_vi": "Một người có thể sở hữu hàng nghìn bạn bè trên Facebook nhưng chỉ dừng ở những lượt nhấn thích xã giao. Khi họ gặp biến cố hay khó khăn thực sự ngoài đời, rất ít người bạn ảo có thể có mặt để giúp đỡ thiết thực.",
-                "evidence_en": "A person may have thousands of friends on Facebook yet only exchange casual likes and brief comments. When they face real-life hardships, very few virtual friends can show up to offer practical support.",
+                "evidence_vi": "Một người có thể sở hữu hàng nghìn bạn bè trên Facebook nhưng chỉ dừng ở những lượt nhấn thích xã giao, và khi họ gặp biến cố hay khó khăn thực sự ngoài đời, rất ít người bạn ảo có thể có mặt để giúp đỡ thiết thực.",
+                "evidence_en": "A person may have thousands of friends on Facebook yet only exchange casual likes and brief comments, and when they face real-life hardships, very few virtual friends can show up to offer practical support.",
                 "point_collocations": [
                   {
                     "en": "online friendships",
@@ -58678,8 +58678,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Kết bạn với quá nhiều người lạ chưa từng gặp mặt tiềm ẩn nguy cơ bị lừa dối và xâm phạm thông tin cá nhân.",
                 "point_en": "Making friends with too many strangers carries serious risks of deception, scams, and privacy invasion.",
-                "evidence_vi": "Trên không gian mạng, kẻ xấu dễ dàng tạo hồ sơ giả mạo để lấy lòng tin của những thanh thiếu niên nhẹ dạ. Hệ quả là nhiều người dùng đã bị đánh cắp dữ liệu riêng tư, tống tiền hoặc lừa đảo tài chính.",
-                "evidence_en": "In cyberspace, dishonest individuals can easily create fake profiles to win the trust of naive teenagers. Consequently, many users have suffered from stolen personal data, blackmail, or financial fraud.",
+                "evidence_vi": "Trên không gian mạng, kẻ xấu dễ dàng tạo hồ sơ giả mạo để lấy lòng tin của những thanh thiếu niên nhẹ dạ, và hệ quả là nhiều người dùng đã bị đánh cắp dữ liệu riêng tư, tống tiền hoặc lừa đảo tài chính.",
+                "evidence_en": "In cyberspace, dishonest individuals can easily create fake profiles to win the trust of naive teenagers, so many users have suffered from stolen personal data, blackmail, or financial fraud.",
                 "point_collocations": [
                   {
                     "en": "make friends with too many strangers",
@@ -58763,8 +58763,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Dành quá nhiều thời gian cho bạn bè trên mạng dễ khiến người trẻ bỏ bê gia đình và bạn bè ngoài đời thực.",
                 "point_en": "Spending excessive time with online friends can cause young people to neglect family and real-life relationships.",
-                "evidence_vi": "Nhiều bạn trẻ dán mắt vào điện thoại nhắn tin suốt bữa cơm gia đình hoặc khi đi cà phê cùng bạn học. Thói quen này làm phai nhạt sự gắn kết trực tiếp và làm suy giảm kỹ năng giao tiếp xã hội ngoài đời.",
-                "evidence_en": "Many youths stay glued to their phones texting during family meals or outings with classmates. This habit weakens real-world bonds and gradually damages their face-to-face social skills.",
+                "evidence_vi": "Nhiều bạn trẻ dán mắt vào điện thoại nhắn tin suốt bữa cơm gia đình hoặc khi đi cà phê cùng bạn học, và thói quen này làm phai nhạt sự gắn kết trực tiếp và làm suy giảm kỹ năng giao tiếp xã hội ngoài đời.",
+                "evidence_en": "Many youths stay glued to their phones texting during family meals or outings with classmates, and this habit weakens real-world bonds and gradually damages their face-to-face social skills.",
                 "point_collocations": [
                   {
                     "en": "spend excessive time",
@@ -58844,8 +58844,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc liên tục trả lời tin nhắn từ hàng trăm người bạn trên mạng làm tiêu tốn rất nhiều thời gian học tập và làm việc.",
                 "point_en": "Constantly replying to messages from hundreds of online friends consumes a lot of study and work time.",
-                "evidence_vi": "Thông báo liên tục từ Facebook, TikTok hay các phòng trò chơi trực tuyến khiến thanh thiếu niên mất tập trung và thức khuya thường xuyên. Hậu quả là sức khỏe suy giảm và kết quả học tập ở trường đi xuống.",
-                "evidence_en": "Endless notifications from Facebook, TikTok, or gaming chats break teenagers' concentration and keep them up late at night. As a result, their health declines and their school grades suffer.",
+                "evidence_vi": "Thông báo liên tục từ Facebook, TikTok hay các phòng trò chơi trực tuyến khiến thanh thiếu niên mất tập trung và thức khuya thường xuyên, và hậu quả là sức khỏe suy giảm và kết quả học tập ở trường đi xuống.",
+                "evidence_en": "Endless notifications from Facebook, TikTok, or gaming chats break teenagers' concentration and keep them up late at night, so their health declines and their school grades suffer.",
                 "point_collocations": [
                   {
                     "en": "constantly reply to messages",
@@ -58929,8 +58929,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Mạng lưới bạn bè ảo quá rộng cũng làm tăng nguy cơ gặp bình luận tiêu cực và áp lực so sánh trên mạng.",
                 "point_en": "An overly large network of online contacts increases exposure to negative comments and social comparison.",
-                "evidence_vi": "Những hiểu lầm nhỏ trên mạng xã hội rất dễ bùng phát thành tranh cãi tập thể hoặc hành vi công kích cá nhân. Bên cạnh đó, việc liên tục nhìn thấy hình ảnh hào nhoáng của người khác khiến người trẻ dễ tự ti về bản thân.",
-                "evidence_en": "Minor misunderstandings on social media can quickly escalate into public arguments or personal attacks. Furthermore, constantly viewing others' glamorous posts often makes young users feel insecure about their own lives.",
+                "evidence_vi": "Những hiểu lầm nhỏ trên mạng xã hội rất dễ bùng phát thành tranh cãi tập thể hoặc hành vi công kích cá nhân, và việc liên tục nhìn thấy hình ảnh hào nhoáng của người khác khiến người trẻ dễ tự ti về bản thân.",
+                "evidence_en": "Minor misunderstandings on social media can quickly escalate into public arguments or personal attacks, and constantly viewing others' glamorous posts often makes young users feel insecure about their own lives.",
                 "point_collocations": [
                   {
                     "en": "an overly large network of online contacts",
@@ -61226,8 +61226,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Trở nên nổi tiếng có thể mang lại nguồn thu nhập rất cao và cuộc sống sung túc.",
                 "point_en": "Becoming famous can help people earn a high income and live a comfortable life.",
-                "evidence_vi": "Bên cạnh cát-xê biểu diễn, người nổi tiếng còn kiếm được khoản tiền lớn từ hợp đồng đại diện thương hiệu, quảng cáo và kinh doanh riêng. Nhờ đó, họ có thể tận hưởng mức sống cao và hỗ trợ tốt cho gia đình mình.",
-                "evidence_en": "Besides performance fees, celebrities earn generous amounts of money from brand endorsements, advertisements, and personal businesses. As a result, they can enjoy a high standard of living and support their families well.",
+                "evidence_vi": "Bên cạnh cát-xê biểu diễn, người nổi tiếng còn kiếm được khoản tiền lớn từ hợp đồng đại diện thương hiệu, quảng cáo và kinh doanh riêng, nhờ đó họ có thể tận hưởng mức sống cao và hỗ trợ tốt cho gia đình mình.",
+                "evidence_en": "Besides performance fees, celebrities earn generous amounts of money from brand endorsements, advertisements, and personal businesses, so they can enjoy a high standard of living and support their families well.",
                 "point_collocations": [
                   {
                     "en": "become famous",
@@ -61290,8 +61290,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Danh tiếng giúp các cá nhân dễ dàng mở ra nhiều cơ hội nghề nghiệp hấp dẫn.",
                 "point_en": "Fame gives people great opportunities to advance their careers and meet successful people.",
-                "evidence_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín. Họ cũng có cơ hội hợp tác với những chuyên gia hàng đầu trong lĩnh vực của mình.",
-                "evidence_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events. They also have chances to collaborate with leading experts in their fields.",
+                "evidence_vi": "Khi đã được công chúng biết đến rộng rãi, các ca sĩ, diễn viên hay nhà sáng tạo nội dung dễ nhận được lời mời tham gia những dự án lớn và sự kiện uy tín, và họ cũng có cơ hội hợp tác với những chuyên gia hàng đầu trong lĩnh vực của mình.",
+                "evidence_en": "Once widely recognized by the public, singers, actors, or content creators are frequently invited to join major projects and prestigious events, and they also have chances to collaborate with leading experts in their fields.",
                 "point_collocations": [
                   {
                     "en": "open up attractive career opportunities",
@@ -61358,8 +61358,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Người nổi tiếng có thể dùng sức ảnh hưởng của mình để truyền cảm hứng và giúp đỡ xã hội.",
                 "point_en": "Famous people can use their popularity to inspire others and help poor communities.",
-                "evidence_vi": "Với lượng người theo dõi đông đảo, họ dễ dàng kêu gọi quyên góp từ thiện, nâng cao nhận thức bảo vệ môi trường hoặc khích lệ giới trẻ nỗ lực theo đuổi ước mơ. Tiếng nói của họ tạo ra tác động lan tỏa mạnh mẽ hơn nhiều so với một cá nhân bình thường.",
-                "evidence_en": "With millions of followers, they can easily raise funds for charity, promote environmental awareness, or motivate young fans to pursue their dreams. Their voices create a much stronger social impact than those of ordinary citizens.",
+                "evidence_vi": "Với lượng người theo dõi đông đảo, họ dễ dàng kêu gọi quyên góp từ thiện, nâng cao nhận thức bảo vệ môi trường hoặc khích lệ giới trẻ nỗ lực theo đuổi ước mơ, và tiếng nói của họ tạo ra tác động lan tỏa mạnh mẽ hơn nhiều so với một cá nhân bình thường.",
+                "evidence_en": "With millions of followers, they can easily raise funds for charity, promote environmental awareness, or motivate young fans to pursue their dreams, and their voices create a much stronger social impact than those of ordinary citizens.",
                 "point_collocations": [
                   {
                     "en": "use their public influence",
@@ -61426,8 +61426,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sự nổi tiếng mang lại niềm tự hào lớn khi tài năng và nỗ lực cá nhân được nhiều người công nhận.",
                 "point_en": "Fame brings great personal pride when hard work and talent are admired by the public.",
-                "evidence_vi": "Sự cổ vũ nồng nhiệt từ người hâm mộ giúp các nghệ sĩ và vận động viên cảm thấy những tháng ngày khổ luyện của mình hoàn toàn xứng đáng. Nguồn động viên tinh thần đó thúc đẩy họ tiếp tục sáng tạo và cống hiến.",
-                "evidence_en": "Warm support from fans makes artists and athletes feel that their years of dedication are truly worthwhile. Such emotional encouragement motivates them to keep creating and striving for excellence.",
+                "evidence_vi": "Sự cổ vũ nồng nhiệt từ người hâm mộ giúp các nghệ sĩ và vận động viên cảm thấy những tháng ngày khổ luyện của mình hoàn toàn xứng đáng, và nguồn động viên tinh thần đó thúc đẩy họ tiếp tục sáng tạo và cống hiến.",
+                "evidence_en": "Warm support from fans makes artists and athletes feel that their years of dedication are truly worthwhile, and such emotional encouragement motivates them to keep creating and striving for excellence.",
                 "point_collocations": [
                   {
                     "en": "a strong sense of pride",
@@ -61494,8 +61494,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Những người có tên tuổi thường nhận được sự chào đón nồng nhiệt và nhiều thuận lợi trong cuộc sống.",
                 "point_en": "Well-known people often enjoy warm welcomes and special advantages in everyday life.",
-                "evidence_vi": "Họ thường được mời vào khu vực ưu tiên tại sự kiện, nhận quà tặng tài trợ từ các nhãn hàng lớn và dễ tạo dựng uy tín khi khởi nghiệp kinh doanh. Những thuận lợi này giúp công việc của họ diễn ra suôn sẻ hơn nhiều.",
-                "evidence_en": "They are frequently offered VIP access at events, gifted sponsored products by major brands, and trusted faster when launching new businesses. These advantages help their professional plans run much more smoothly.",
+                "evidence_vi": "Họ thường được mời vào khu vực ưu tiên tại sự kiện, nhận quà tặng tài trợ từ các nhãn hàng lớn và dễ tạo dựng uy tín khi khởi nghiệp kinh doanh, và những thuận lợi này giúp công việc của họ diễn ra suôn sẻ hơn nhiều.",
+                "evidence_en": "They are frequently offered VIP access at events, gifted sponsored products by major brands, and trusted faster when launching new businesses, and these advantages help their professional plans run much more smoothly.",
                 "point_collocations": [
                   {
                     "en": "well-known individuals",
@@ -61577,8 +61577,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Một trong những cái giá lớn nhất của sự nổi tiếng là việc đánh mất nghiêm trọng quyền riêng tư cá nhân.",
                 "point_en": "One of the biggest prices of becoming famous is the severe loss of personal privacy.",
-                "evidence_vi": "Người nổi tiếng thường xuyên bị thợ săn ảnh và đám đông hiếu kỳ theo dõi ở nơi công cộng, thậm chí ngay cả khi đi ăn tối hay nghỉ ngơi cùng gia đình. Họ rất khó tận hưởng một cuộc sống tự do, bình dị như những người bình thường khác.",
-                "evidence_en": "Celebrities are constantly followed by paparazzi and curious crowds in public places, even during quiet dinners or family vacations. Consequently, they struggle to enjoy a peaceful, ordinary life like other ordinary people.",
+                "evidence_vi": "Người nổi tiếng thường xuyên bị thợ săn ảnh và đám đông hiếu kỳ theo dõi ở nơi công cộng, thậm chí ngay cả khi đi ăn tối hay nghỉ ngơi cùng gia đình, và họ rất khó tận hưởng một cuộc sống tự do, bình dị như những người bình thường khác.",
+                "evidence_en": "Celebrities are constantly followed by paparazzi and curious crowds in public places, even during quiet dinners or family vacations, so they struggle to enjoy a peaceful, ordinary life like other ordinary people.",
                 "point_collocations": [
                   {
                     "en": "the biggest prices",
@@ -61658,8 +61658,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Người nổi tiếng phải chịu áp lực tâm lý nặng nề khi mọi lời nói và hành động đều bị dư luận săm soi.",
                 "point_en": "Famous individuals face intense mental pressure because their every word and action is closely scrutinized.",
-                "evidence_vi": "Chỉ một lỗi lầm nhỏ hay một phát ngôn thiếu khéo léo cũng có thể dẫn đến làn sóng chỉ trích gay gắt và tin đồn ác ý trên mạng xã hội. Gánh nặng phải luôn xuất hiện hoàn hảo khiến nhiều ngôi sao rơi vào lo âu, mất ngủ và trầm cảm.",
-                "evidence_en": "Even a minor mistake or a careless comment can trigger harsh online criticism and malicious rumors. The constant burden of maintaining a flawless image causes many stars to suffer from anxiety, insomnia, and depression.",
+                "evidence_vi": "Chỉ một lỗi lầm nhỏ hay một phát ngôn thiếu khéo léo cũng có thể dẫn đến làn sóng chỉ trích gay gắt và tin đồn ác ý trên mạng xã hội, và gánh nặng phải luôn xuất hiện hoàn hảo khiến nhiều ngôi sao rơi vào lo âu, mất ngủ và trầm cảm.",
+                "evidence_en": "Even a minor mistake or a careless comment can trigger harsh online criticism and malicious rumors, and the constant burden of maintaining a flawless image causes many stars to suffer from anxiety, insomnia, and depression.",
                 "point_collocations": [
                   {
                     "en": "face intense mental pressure",
@@ -61747,8 +61747,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Ánh hào quang và sự giàu có đôi khi khiến người nổi tiếng khó phân biệt ai mới là người yêu quý họ thật lòng.",
                 "point_en": "Wealth and stardom sometimes make it difficult for famous people to find people truly caring about them.",
-                "evidence_vi": "Một số người tiếp cận người nổi tiếng chỉ nhằm lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ có lợi cho bản thân. Vì sợ bị phản bội hay lợi dụng, nhiều ngôi sao thu mình lại và cảm thấy cô đơn dù xung quanh có rất đông người hâm mộ.",
-                "evidence_en": "Some people approach celebrities only to take advantage of their money, status, or business connections. Fearing betrayal or ulterior motives, many stars isolate themselves and feel deeply lonely despite having millions of fans.",
+                "evidence_vi": "Một số người tiếp cận người nổi tiếng chỉ nhằm lợi dụng tiền bạc, danh tiếng hoặc các mối quan hệ có lợi cho bản thân, và vì sợ bị phản bội hay lợi dụng, nhiều ngôi sao thu mình lại và cảm thấy cô đơn dù xung quanh có rất đông người hâm mộ.",
+                "evidence_en": "Some people approach celebrities only to take advantage of their money, status, or business connections, and fearing betrayal or ulterior motives, many stars isolate themselves and feel deeply lonely despite having millions of fans.",
                 "point_collocations": [
                   {
                     "en": "wealth and stardom",
@@ -61836,8 +61836,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sự nổi tiếng không chỉ tác động đến bản thân ngôi sao mà còn kéo người thân của họ vào sự chú ý ngoài ý muốn.",
                 "point_en": "Fame affects not only celebrities themselves but also exposes their loved ones to unwanted attention.",
-                "evidence_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối. Điều này khiến nhiều người nổi tiếng luôn lo lắng cho sự an toàn và cuộc sống bình thường của gia đình mình.",
-                "evidence_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans. This leaves many public figures constantly worried about their family's safety and well-being.",
+                "evidence_vi": "Con cái hoặc người thân của nghệ sĩ có thể bị chụp ảnh lén, bàn tán trên báo chí hoặc thậm chí bị kẻ quá khích quấy rối, và điều này khiến nhiều người nổi tiếng luôn lo lắng cho sự an toàn và cuộc sống bình thường của gia đình mình.",
+                "evidence_en": "Celebrities' children or relatives may be photographed secretly, discussed in tabloids, or even harassed by obsessive fans, and this leaves many public figures constantly worried about their family's safety and well-being.",
                 "point_collocations": [
                   {
                     "en": "expose their loved ones to unwanted attention",
@@ -61925,8 +61925,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Để duy trì sức hút trước công chúng, người nổi tiếng thường phải làm việc kiệt sức trong khi danh tiếng lại rất dễ phai nhạt.",
                 "point_en": "To stay relevant in the spotlight, famous people often endure exhausting schedules while fame itself remains unstable.",
-                "evidence_vi": "Lịch quay hình, lưu diễn liên miên khiến họ thiếu thời gian nghỉ ngơi và chăm sóc sức khỏe cá nhân. Hơn nữa, khi thị hiếu khán giả thay đổi và sự chú ý giảm sút, nhiều nghệ sĩ dễ rơi vào khủng hoảng tâm lý lẫn tài chính.",
-                "evidence_en": "Non-stop filming and touring schedules leave them with little time for rest and personal health care. Moreover, when audience tastes shift and public attention fades, many entertainers easily fall into psychological and financial crisis.",
+                "evidence_vi": "Lịch quay hình, lưu diễn liên miên khiến họ thiếu thời gian nghỉ ngơi và chăm sóc sức khỏe cá nhân, đồng thời khi thị hiếu khán giả thay đổi và sự chú ý giảm sút, nhiều nghệ sĩ dễ rơi vào khủng hoảng tâm lý lẫn tài chính.",
+                "evidence_en": "Non-stop filming and touring schedules leave them with little time for rest and personal health care, and when audience tastes shift and public attention fades, many entertainers easily fall into psychological and financial crisis.",
                 "point_collocations": [
                   {
                     "en": "stay relevant in the spotlight",
@@ -64262,8 +64262,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Quảng cáo cung cấp thông tin hữu ích giúp người tiêu dùng đưa ra lựa chọn mua sắm phù hợp hơn.",
                 "point_en": "Advertising provides useful information that helps consumers make better purchasing decisions.",
-                "evidence_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau. Nhờ đó, họ dễ dàng so sánh các thương hiệu và chọn được sản phẩm đáp ứng đúng nhu cầu hằng ngày.",
-                "evidence_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods. Consequently, they can compare different brands easily and choose products that match their daily needs.",
+                "evidence_vi": "Thông qua các mẩu quảng cáo, khách hàng nhanh chóng nắm được tính năng mới, mức giá và chương trình khuyến mãi của nhiều mặt hàng khác nhau, nhờ đó họ dễ dàng so sánh các thương hiệu và chọn được sản phẩm đáp ứng đúng nhu cầu hằng ngày.",
+                "evidence_en": "Through advertisements, customers quickly learn about new features, prices, and special discounts of various goods, so they can compare different brands easily and choose products that match their daily needs.",
                 "point_collocations": [
                   {
                     "en": "provide useful information",
@@ -64351,8 +64351,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Quảng cáo đóng vai trò then chốt giúp doanh nghiệp thu hút khách hàng và gia tăng doanh thu.",
                 "point_en": "Advertising plays a vital role in helping businesses attract customers and increase sales.",
-                "evidence_vi": "Khi ra mắt sản phẩm mới, các chiến dịch tiếp thị hiệu quả giúp nâng cao độ nhận diện thương hiệu tới hàng triệu người trong thời gian ngắn. Khi doanh số tăng trưởng, công ty có thể mở rộng sản xuất và tạo thêm nhiều việc làm cho xã hội.",
-                "evidence_en": "When launching a new product, effective marketing campaigns build brand awareness among millions of people within a short time. As sales grow, companies can expand production and create more jobs for society.",
+                "evidence_vi": "Khi ra mắt sản phẩm mới, các chiến dịch tiếp thị hiệu quả giúp nâng cao độ nhận diện thương hiệu tới hàng triệu người trong thời gian ngắn, và khi doanh số tăng trưởng, công ty có thể mở rộng sản xuất và tạo thêm nhiều việc làm cho xã hội.",
+                "evidence_en": "When launching a new product, effective marketing campaigns build brand awareness among millions of people within a short time, and as sales grow, companies can expand production and create more jobs for society.",
                 "point_collocations": [
                   {
                     "en": "play a vital role",
@@ -64436,8 +64436,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Hoạt động quảng cáo thúc đẩy sự cạnh tranh sôi nổi giữa các doanh nghiệp, từ đó mang lại lợi ích cho người mua.",
                 "point_en": "Advertising encourages healthy competition among companies, so consumers can buy better products at lower prices.",
-                "evidence_vi": "Để nổi bật trên thị trường, các nhà sản xuất buộc phải không ngừng cải tiến chất lượng hàng hóa, dịch vụ hậu mãi và giữ mức giá hợp lý. Nhờ sự cạnh tranh này, người tiêu dùng được tiếp cận những sản phẩm ngày càng tốt hơn.",
-                "evidence_en": "To stand out in the market, manufacturers must constantly improve product quality, customer service, and pricing. Thanks to such competition, consumers enjoy better goods.",
+                "evidence_vi": "Để nổi bật trên thị trường, các nhà sản xuất buộc phải không ngừng cải tiến chất lượng hàng hóa, dịch vụ hậu mãi và giữ mức giá hợp lý, và nhờ sự cạnh tranh này, người tiêu dùng được tiếp cận những sản phẩm ngày càng tốt hơn.",
+                "evidence_en": "To stand out in the market, manufacturers must constantly improve product quality, customer service, and pricing, and thanks to such competition, consumers enjoy better goods.",
                 "point_collocations": [
                   {
                     "en": "encourage healthy competition",
@@ -64521,8 +64521,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nguồn thu từ quảng cáo giúp duy trì nhiều nền tảng truyền thông miễn phí và các sự kiện văn hóa lớn.",
                 "point_en": "Advertising revenue helps fund many free media services and major cultural or sporting events.",
-                "evidence_vi": "Nhờ kinh phí từ các nhà quảng cáo, công chúng có thể đọc báo điện tử, sử dụng công cụ tìm kiếm hoặc xem các chương trình truyền hình giải trí mà không phải trả phí. Nhiều giải đấu thể thao và chương trình cộng đồng cũng được tổ chức thành công nhờ nguồn tài trợ thương mại.",
-                "evidence_en": "Thanks to payments from advertisers, the public can read online newspapers, use search engines, or watch entertainment shows free of charge. Many sports tournaments and community programs also succeed through commercial sponsorship.",
+                "evidence_vi": "Nhờ kinh phí từ các nhà quảng cáo, công chúng có thể đọc báo điện tử, sử dụng công cụ tìm kiếm hoặc xem các chương trình truyền hình giải trí mà không phải trả phí, và nhiều giải đấu thể thao và chương trình cộng đồng cũng được tổ chức thành công nhờ nguồn tài trợ thương mại.",
+                "evidence_en": "Thanks to payments from advertisers, the public can read online newspapers, use search engines, or watch entertainment shows free of charge, and many sports tournaments and community programs also succeed through commercial sponsorship.",
                 "point_collocations": [
                   {
                     "en": "advertising revenue",
@@ -64610,8 +64610,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Ngoài mục đích thương mại, các chiến dịch quảng cáo cộng đồng còn góp phần nâng cao nhận thức xã hội.",
                 "point_en": "Beyond commercial goals, public-service advertisements help raise awareness about important social issues.",
-                "evidence_vi": "Nhiều chiến dịch truyền thông ấn tượng đã nhắc nhở người dân đội mũ bảo hiểm an toàn giao thông, tiết kiệm điện nước và bảo vệ môi trường sống. Những hình ảnh sáng tạo dễ nhớ giúp thông điệp nhân văn lan tỏa sâu rộng trong đời sống.",
-                "evidence_en": "Many memorable media campaigns remind citizens to wear helmets in traffic, save energy, and protect the natural environment. Creative visuals help positive messages spread widely across society.",
+                "evidence_vi": "Nhiều chiến dịch truyền thông ấn tượng đã nhắc nhở người dân đội mũ bảo hiểm an toàn giao thông, tiết kiệm điện nước và bảo vệ môi trường sống, và những hình ảnh sáng tạo dễ nhớ giúp thông điệp nhân văn lan tỏa sâu rộng trong đời sống.",
+                "evidence_en": "Many memorable media campaigns remind citizens to wear helmets in traffic, save energy, and protect the natural environment, and creative visuals help positive messages spread widely across society.",
                 "point_collocations": [
                   {
                     "en": "public-service advertisements",
@@ -64701,8 +64701,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Một số quảng cáo phóng đại công dụng sản phẩm hoặc đưa thông tin sai lệch khiến người tiêu dùng bị lừa dối.",
                 "point_en": "Some advertisements exaggerate product quality or give misleading information that deceives consumers.",
-                "evidence_vi": "Chẳng hạn, nhiều mặt hàng mỹ phẩm hay thực phẩm chức năng trên mạng được quảng bá như có tác dụng tức thì dù chất lượng thực tế rất kém. Khi mua phải những sản phẩm này, khách hàng không chỉ mất tiền oan mà còn có nguy cơ tổn hại sức khỏe.",
-                "evidence_en": "For example, many online cosmetics or health supplements are promoted as miracle solutions although their actual quality is poor. Buyers not only waste their money on disappointing goods but also face potential health risks.",
+                "evidence_vi": "Chẳng hạn, nhiều mặt hàng mỹ phẩm hay thực phẩm chức năng trên mạng được quảng bá như có tác dụng tức thì dù chất lượng thực tế rất kém, và khi mua phải những sản phẩm này, khách hàng không chỉ mất tiền oan mà còn có nguy cơ tổn hại sức khỏe.",
+                "evidence_en": "For example, many online cosmetics or health supplements are promoted as miracle solutions although their actual quality is poor, and buyers not only waste their money on disappointing goods but also face potential health risks.",
                 "point_collocations": [
                   {
                     "en": "exaggerate product quality",
@@ -64790,8 +64790,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Quảng cáo hấp dẫn dễ thúc đẩy thói quen mua sắm bốc đồng những món đồ không thực sự cần thiết.",
                 "point_en": "Attractive advertisements often encourage people to buy unnecessary items impulsively.",
-                "evidence_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng. Lối tiêu dùng quá mức này gây áp lực tài chính cá nhân và làm gia tăng lượng rác thải ra môi trường.",
-                "evidence_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought. Such overconsumption leads to personal financial strain and generates excessive household waste.",
+                "evidence_vi": "Các kỹ thuật tiếp thị khéo léo đánh vào tâm lý sợ bỏ lỡ ưu đãi khiến nhiều người vội vàng đặt hàng dù chưa có nhu cầu sử dụng, và lối tiêu dùng quá mức này gây áp lực tài chính cá nhân và làm gia tăng lượng rác thải ra môi trường.",
+                "evidence_en": "Clever marketing techniques create a sense of urgency that pushes shoppers to place orders without careful thought, and such overconsumption leads to personal financial strain and generates excessive household waste.",
                 "point_collocations": [
                   {
                     "en": "attractive advertisements",
@@ -64879,8 +64879,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sự xuất hiện dày đặc của quảng cáo trên mọi nền tảng thường gây phiền toái và gián đoạn trải nghiệm của người dùng.",
                 "point_en": "The constant presence of advertisements across platforms often annoys people and interrupts users' experience.",
-                "evidence_vi": "Người xem liên tục bị cắt ngang bởi các cửa sổ quảng cáo bật lên khi đang đọc tin tức, học tập trực tuyến hoặc xem video giải trí. Tần suất lặp lại quá nhiều khiến công chúng cảm thấy mệt mỏi và khó chịu.",
-                "evidence_en": "Users are repeatedly interrupted by pop-up ads while reading news articles, studying online, or watching videos. Excessive repetition makes audiences feel frustrated and mentally tired.",
+                "evidence_vi": "Người xem liên tục bị cắt ngang bởi các cửa sổ quảng cáo bật lên khi đang đọc tin tức, học tập trực tuyến hoặc xem video giải trí, và tần suất lặp lại quá nhiều khiến công chúng cảm thấy mệt mỏi và khó chịu.",
+                "evidence_en": "Users are repeatedly interrupted by pop-up ads while reading news articles, studying online, or watching videos, and excessive repetition makes audiences feel frustrated and mentally tired.",
                 "point_collocations": [
                   {
                     "en": "the constant presence of advertisements",
@@ -64968,8 +64968,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Quảng cáo thương mại có thể gây ảnh hưởng không tốt đến thói quen và tâm lý của trẻ em.",
                 "point_en": "Commercial advertisements can negatively affect children's habits and emotional well-being.",
-                "evidence_vi": "Trẻ nhỏ chưa đủ nhận thức để phân biệt thông điệp bán hàng nên rất dễ đòi cha mẹ mua đồ ăn nhanh nhiều đường béo hoặc đồ chơi đắt tiền. Ngoài ra, hình ảnh người mẫu quá hoàn hảo trên quảng cáo còn dễ khiến thanh thiếu niên tự ti về ngoại hình.",
-                "evidence_en": "Young children cannot fully recognize sales persuasion, so they often pester parents for sugary fast food or expensive toys. Moreover, idealized body images in ads may make teenagers feel insecure about their appearance.",
+                "evidence_vi": "Trẻ nhỏ chưa đủ nhận thức để phân biệt thông điệp bán hàng nên rất dễ đòi cha mẹ mua đồ ăn nhanh nhiều đường béo hoặc đồ chơi đắt tiền, và hình ảnh người mẫu quá hoàn hảo trên quảng cáo còn dễ khiến thanh thiếu niên tự ti về ngoại hình.",
+                "evidence_en": "Young children cannot fully recognize sales persuasion, so they often pester parents for sugary fast food or expensive toys, and idealized body images in ads may make teenagers feel insecure about their appearance.",
                 "point_collocations": [
                   {
                     "en": "commercial advertisements",
@@ -65057,8 +65057,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Chi phí quảng cáo khổng lồ thường được cộng vào giá bán hàng hóa và gây bất lợi cho các doanh nghiệp nhỏ.",
                 "point_en": "Huge advertising expenses often push up retail prices and put small businesses at a disadvantage.",
-                "evidence_vi": "Các tập đoàn lớn chi khoản ngân sách khổng lồ cho truyền thông rồi thu hồi bằng cách nâng giá bán sản phẩm tới tay người tiêu dùng. Trong khi đó, những cửa hàng nhỏ dù có hàng hóa chất lượng tốt vẫn khó cạnh tranh vì thiếu kinh phí quảng bá.",
-                "evidence_en": "Large corporations spend massive budgets on marketing and recover those costs by charging customers higher prices. Meanwhile, small shops with good products struggle to compete because they lack promotional funds.",
+                "evidence_vi": "Các tập đoàn lớn chi khoản ngân sách khổng lồ cho truyền thông rồi thu hồi bằng cách nâng giá bán sản phẩm tới tay người tiêu dùng, và trong khi đó, những cửa hàng nhỏ dù có hàng hóa chất lượng tốt vẫn khó cạnh tranh vì thiếu kinh phí quảng bá.",
+                "evidence_en": "Large corporations spend massive budgets on marketing and recover those costs by charging customers higher prices, and meanwhile, small shops with good products struggle to compete because they lack promotional funds.",
                 "point_collocations": [
                   {
                     "en": "huge advertising expenses",
@@ -67398,8 +67398,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại di động giúp học sinh dễ dàng giữ liên lạc với cha mẹ, đặc biệt trong những tình huống đột xuất.",
                 "point_en": "Mobile phones allow students to stay in touch with their parents easily, especially in emergencies.",
-                "evidence_vi": "Khi lịch học thay đổi bất ngờ, trời mưa lớn hoặc học sinh cảm thấy không khỏe, các em có thể gọi điện báo ngay cho gia đình đến đón. Sự kết nối thuận tiện này giúp các bậc phụ huynh yên tâm hơn rất nhiều mỗi ngày.",
-                "evidence_en": "When class schedules change suddenly, heavy rain occurs, or students feel unwell, they can call their families immediately for pickup. Such convenient communication gives parents much greater peace of mind every day.",
+                "evidence_vi": "Khi lịch học thay đổi bất ngờ, trời mưa lớn hoặc học sinh cảm thấy không khỏe, các em có thể gọi điện báo ngay cho gia đình đến đón, và sự kết nối thuận tiện này giúp các bậc phụ huynh yên tâm hơn rất nhiều mỗi ngày.",
+                "evidence_en": "When class schedules change suddenly, heavy rain occurs, or students feel unwell, they can call their families immediately for pickup, and such convenient communication gives parents much greater peace of mind every day.",
                 "point_collocations": [
                   {
                     "en": "mobile phones",
@@ -67487,8 +67487,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại thông minh là công cụ hữu ích giúp học sinh tra cứu kiến thức nhanh chóng ngay tại lớp.",
                 "point_en": "Smartphones serve as useful tools that help students look up knowledge quickly in class.",
-                "evidence_vi": "Khi được giáo viên cho phép, học sinh có thể mở từ điển điện tử, tìm số liệu cho bài thuyết trình nhóm hoặc đọc tài liệu tham khảo chỉ trong vài giây. Điều này giúp tiết học trở nên chủ động và cập nhật thực tế hơn.",
-                "evidence_en": "With teachers' permission, students can open digital dictionaries, find data for group presentations, or read reference materials within seconds. This makes lessons more active and connected to real-world knowledge.",
+                "evidence_vi": "Khi được giáo viên cho phép, học sinh có thể mở từ điển điện tử, tìm số liệu cho bài thuyết trình nhóm hoặc đọc tài liệu tham khảo chỉ trong vài giây, nhờ đó giúp tiết học trở nên chủ động và cập nhật thực tế hơn.",
+                "evidence_en": "With teachers' permission, students can open digital dictionaries, find data for group presentations, or read reference materials within seconds, and this makes lessons more active and connected to real-world knowledge.",
                 "point_collocations": [
                   {
                     "en": "serve as useful tools",
@@ -67576,8 +67576,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc sử dụng các ứng dụng giáo dục trên điện thoại giúp bài giảng trên lớp sinh động và hào hứng hơn.",
                 "point_en": "Using educational applications on mobile phones makes classroom lessons more lively and engaging.",
-                "evidence_vi": "Giáo viên có thể tổ chức các trò chơi trắc nghiệm trực tiếp như Kahoot hoặc khảo sát nhanh để kiểm tra mức độ hiểu bài của cả lớp. Hình thức tương tác hiện đại này khuyến khích cả những học sinh nhút nhát tích cực tham gia xây dựng bài.",
-                "evidence_en": "Teachers can organize live quiz games or quick polls on smartphones to check the whole class's understanding. Such modern interactive activities encourage even shy students to participate actively in lessons.",
+                "evidence_vi": "Giáo viên có thể tổ chức các trò chơi trắc nghiệm trực tiếp như Kahoot hoặc khảo sát nhanh để kiểm tra mức độ hiểu bài của cả lớp, và hình thức tương tác hiện đại này khuyến khích cả những học sinh nhút nhát tích cực tham gia xây dựng bài.",
+                "evidence_en": "Teachers can organize live quiz games or quick polls on smartphones to check the whole class's understanding, and such modern interactive activities encourage even shy students to participate actively in lessons.",
                 "point_collocations": [
                   {
                     "en": "educational applications",
@@ -67665,8 +67665,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại giúp học sinh ghi chú lịch học, lưu trữ tài liệu và phối hợp bài tập nhóm rất thuận tiện.",
                 "point_en": "Mobile phones help students record study schedules, store documents, and coordinate group assignments conveniently.",
-                "evidence_vi": "Các em có thể chụp lại sơ đồ bài giảng chi tiết, nhận tệp bài tập qua nhóm lớp và trao đổi phân công nhiệm vụ nhanh chóng. Nhờ vậy, việc hợp tác học tập giữa các thành viên trong lớp trở nên trôi chảy hơn.",
-                "evidence_en": "Students can photograph detailed board diagrams, receive digital worksheets in class groups, and divide project tasks quickly. Consequently, academic collaboration among classmates becomes much smoother.",
+                "evidence_vi": "Các em có thể chụp lại sơ đồ bài giảng chi tiết, nhận tệp bài tập qua nhóm lớp và trao đổi phân công nhiệm vụ nhanh chóng, và nhờ vậy, việc hợp tác học tập giữa các thành viên trong lớp trở nên trôi chảy hơn.",
+                "evidence_en": "Students can photograph detailed board diagrams, receive digital worksheets in class groups, and divide project tasks quickly, so academic collaboration among classmates becomes much smoother.",
                 "point_collocations": [
                   {
                     "en": "record study schedules",
@@ -67754,8 +67754,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Hướng dẫn học sinh dùng điện thoại đúng quy định ở trường giúp các em hình thành ý thức sử dụng công nghệ văn minh.",
                 "point_en": "Guiding students to use phones properly at school helps them develop responsible digital habits.",
-                "evidence_vi": "Thay vì cấm đoán hoàn toàn, việc đặt ra ranh giới rõ ràng dạy học sinh biết khi nào nên bật thiết bị phục vụ việc học và khi nào cần cất đi để tập trung. Kỹ năng tự kiểm soát này rất cần thiết cho môi trường đại học và công sở sau này.",
-                "evidence_en": "Rather than imposing a total ban, setting clear rules teaches pupils when to use devices for study and when to put them away. Such self-control prepares them well for future university and workplace environments.",
+                "evidence_vi": "Thay vì cấm đoán hoàn toàn, việc đặt ra ranh giới rõ ràng dạy học sinh biết khi nào nên bật thiết bị phục vụ việc học và khi nào cần cất đi để tập trung, và kỹ năng tự kiểm soát này rất cần thiết cho môi trường đại học và công sở sau này.",
+                "evidence_en": "Rather than imposing a total ban, setting clear rules teaches pupils when to use devices for study and when to put them away, and such self-control prepares them well for future university and workplace environments.",
                 "point_collocations": [
                   {
                     "en": "guide students",
@@ -67845,8 +67845,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại di động rất dễ khiến học sinh mất tập trung vào bài giảng của thầy cô trên lớp.",
                 "point_en": "Mobile phones can easily distract students from paying attention to teachers' lectures in class.",
-                "evidence_vi": "Nhiều học sinh lén nhắn tin, lướt mạng xã hội hoặc chơi trò chơi điện tử dưới gầm bàn thay vì ghi chép và nghe giảng. Sự phân tâm thường xuyên này làm hỏng thói quen học tập và kéo tụt kết quả thi cử ở trường.",
-                "evidence_en": "Many pupils secretly send messages, scroll through social media, or play mobile games under their desks instead of taking notes. Constant distraction harms their study habits and lowers their academic performance.",
+                "evidence_vi": "Nhiều học sinh lén nhắn tin, lướt mạng xã hội hoặc chơi trò chơi điện tử dưới gầm bàn thay vì ghi chép và nghe giảng, và sự phân tâm thường xuyên này làm hỏng thói quen học tập và kéo tụt kết quả thi cử ở trường.",
+                "evidence_en": "Many pupils secretly send messages, scroll through social media, or play mobile games under their desks instead of taking notes, and constant distraction harms their study habits and lowers their academic performance.",
                 "point_collocations": [
                   {
                     "en": "easily distract students",
@@ -67934,8 +67934,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc lạm dụng điện thoại ở trường làm giảm sự giao tiếp trực tiếp và vận động thể chất vào giờ giải lao.",
                 "point_en": "Overusing mobile phones at school reduces face-to-face interaction and physical activity during break time.",
-                "evidence_vi": "Thay vì trò chuyện vui vẻ với bạn bè hoặc chơi thể thao ngoài sân trường, nhiều học sinh chỉ ngồi yên một chỗ nhìn chằm chằm vào màn hình. Điều này khiến tình bạn học đường trở nên kém gắn kết và làm tăng lối sống thụ động.",
-                "evidence_en": "Instead of chatting happily with classmates or playing sports in the schoolyard, many students sit silently staring at their screens. This weakens school friendships and encourages an unhealthy sedentary lifestyle.",
+                "evidence_vi": "Thay vì trò chuyện vui vẻ với bạn bè hoặc chơi thể thao ngoài sân trường, nhiều học sinh chỉ ngồi yên một chỗ nhìn chằm chằm vào màn hình, và điều này khiến tình bạn học đường trở nên kém gắn kết và làm tăng lối sống thụ động.",
+                "evidence_en": "Instead of chatting happily with classmates or playing sports in the schoolyard, many students sit silently staring at their screens, and this weakens school friendships and encourages an unhealthy sedentary lifestyle.",
                 "point_collocations": [
                   {
                     "en": "overuse mobile phones at school",
@@ -68023,8 +68023,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Cho phép mang điện thoại vào lớp cũng làm gia tăng nguy cơ gian lận trong các bài kiểm tra.",
                 "point_en": "Allowing mobile phones in classrooms increases the risk of cheating during tests and examinations.",
-                "evidence_vi": "Học sinh thiếu trung thực có thể dùng điện thoại chụp đề thi, nhắn tin hỏi đáp án từ bạn khác hoặc tra cứu lời giải có sẵn trên mạng. Hành vi này gây bất công với những bạn học tập nghiêm túc và làm sai lệch đánh giá học lực.",
-                "evidence_en": "Dishonest students may use smartphones to photograph test papers, text classmates for answers, or search for solutions online. Such behavior creates unfairness for hard-working peers and undermines honest academic assessment.",
+                "evidence_vi": "Học sinh thiếu trung thực có thể dùng điện thoại chụp đề thi, nhắn tin hỏi đáp án từ bạn khác hoặc tra cứu lời giải có sẵn trên mạng, và hành vi này gây bất công với những bạn học tập nghiêm túc và làm sai lệch đánh giá học lực.",
+                "evidence_en": "Dishonest students may use smartphones to photograph test papers, text classmates for answers, or search for solutions online, and such behavior creates unfairness for hard-working peers and undermines honest academic assessment.",
                 "point_collocations": [
                   {
                     "en": "allow mobile phones in classrooms",
@@ -68112,8 +68112,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc sử dụng điện thoại thiếu kiểm soát ở trường còn có thể dẫn đến hành vi quay lén và bắt nạt trên mạng.",
                 "point_en": "Uncontrolled phone use at school may also lead to secret recording and cyberbullying among students.",
-                "evidence_vi": "Một số học sinh tự ý chụp ảnh, quay video khoảnh khắc xấu hổ của bạn học hay thầy cô rồi đăng lên mạng xã hội kèm bình luận chế giễu. Những sự việc này gây tổn thương tâm lý nặng nề cho nạn nhân và ảnh hưởng xấu đến môi trường giáo dục.",
-                "evidence_en": "Some students take embarrassing photos or videos of classmates and teachers without consent and post them online with mocking comments. These incidents cause deep emotional hurt to victims and damage the school environment.",
+                "evidence_vi": "Một số học sinh tự ý chụp ảnh, quay video khoảnh khắc xấu hổ của bạn học hay thầy cô rồi đăng lên mạng xã hội kèm bình luận chế giễu, và những sự việc này gây tổn thương tâm lý nặng nề cho nạn nhân và ảnh hưởng xấu đến môi trường giáo dục.",
+                "evidence_en": "Some students take embarrassing photos or videos of classmates and teachers without consent and post them online with mocking comments, and these incidents cause deep emotional hurt to victims and damage the school environment.",
                 "point_collocations": [
                   {
                     "en": "uncontrolled phone use at school",
@@ -68201,8 +68201,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Mang điện thoại đắt tiền đến trường dễ dẫn đến tình trạng mất cắp và tâm lý so bì vật chất trong lớp học.",
                 "point_en": "Bringing expensive smartphones to school can cause theft problems and unhealthy comparison among peers.",
-                "evidence_vi": "Trường học đông người khiến điện thoại rất dễ bị thất lạc hoặc hư hỏng trong các tiết thể dục và hoạt động ngoại khóa. Bên cạnh đó, sự chênh lệch về mẫu mã điện thoại đôi khi khiến học sinh có hoàn cảnh khó khăn cảm thấy tự ti.",
-                "evidence_en": "In crowded school settings, expensive phones can easily get lost, stolen, or broken during physical education classes. Furthermore, differences in phone models sometimes make students from modest families feel inferior.",
+                "evidence_vi": "Trường học đông người khiến điện thoại rất dễ bị thất lạc hoặc hư hỏng trong các tiết thể dục và hoạt động ngoại khóa, và sự chênh lệch về mẫu mã điện thoại đôi khi khiến học sinh có hoàn cảnh khó khăn cảm thấy tự ti.",
+                "evidence_en": "In crowded school settings, expensive phones can easily get lost, stolen, or broken during physical education classes, and differences in phone models sometimes make students from modest families feel inferior.",
                 "point_collocations": [
                   {
                     "en": "bring expensive smartphones to school",
@@ -70530,8 +70530,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại di động giúp nhân viên liên lạc nhanh chóng với đồng nghiệp và khách hàng trong suốt ngày làm việc.",
                 "point_en": "Mobile phones help workers quickly stay in touch with coworkers and customers during the day.",
-                "evidence_vi": "Thông qua cuộc gọi hoặc ứng dụng nhắn tin công việc, các bộ phận có thể trao đổi thông tin khẩn và giải quyết vướng mắc phát sinh chỉ trong vài phút. Sự phản hồi kịp thời này giúp nâng cao hiệu suất phối hợp và làm hài lòng đối tác.",
-                "evidence_en": "Through phone calls or work messaging apps, departments can exchange urgent updates and resolve unexpected issues within minutes. Such timely responses improve team coordination and increase client satisfaction.",
+                "evidence_vi": "Thông qua cuộc gọi hoặc ứng dụng nhắn tin công việc, các bộ phận có thể trao đổi thông tin khẩn và giải quyết vướng mắc phát sinh chỉ trong vài phút, và sự phản hồi kịp thời này giúp nâng cao hiệu suất phối hợp và làm hài lòng đối tác.",
+                "evidence_en": "Through phone calls or work messaging apps, departments can exchange urgent updates and resolve unexpected issues within minutes, and such timely responses improve team coordination and increase client satisfaction.",
                 "point_collocations": [
                   {
                     "en": "mobile phones",
@@ -70598,8 +70598,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại thông minh cho phép người lao động xử lý công việc linh hoạt ngay cả khi đang di chuyển bên ngoài.",
                 "point_en": "Smartphones allow staff to handle work flexibly even when traveling or meeting clients outside.",
-                "evidence_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn. Điều này đặc biệt hữu ích cho đội ngũ kinh doanh, kỹ thuật hiện trường và quản lý dự án.",
-                "evidence_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk. This mobility is especially helpful for sales representatives, field engineers, and project managers.",
+                "evidence_vi": "Nhân viên có thể kiểm tra thư điện tử, tham gia cuộc họp trực tuyến hoặc xem tài liệu trên nền tảng đám mây mà không cần ngồi cố định trước máy tính bàn, và điều này đặc biệt hữu ích cho đội ngũ kinh doanh, kỹ thuật hiện trường và quản lý dự án.",
+                "evidence_en": "Employees can check emails, attend online meetings, or review cloud documents without sitting at an office desk, and this mobility is especially helpful for sales representatives, field engineers, and project managers.",
                 "point_collocations": [
                   {
                     "en": "smartphones",
@@ -70666,8 +70666,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Nhiều ứng dụng tiện ích trên điện thoại giúp nhân viên sắp xếp lịch trình và tra cứu dữ liệu công việc nhanh chóng.",
                 "point_en": "Helpful phone apps assist workers in organizing schedules and checking job details quickly.",
-                "evidence_vi": "Người đi làm có thể cài lịch hẹn nhắc việc, quét tài liệu nhanh bằng camera, xác thực bảo mật hai lớp hoặc tra cứu số liệu thị trường ngay tức thì. Những tiện ích nhỏ gọn này giúp tiết kiệm đáng kể thời gian thao tác thủ công.",
-                "evidence_en": "Workers can set calendar reminders, scan documents with their cameras, complete two-factor authentication, or check market data instantly. Such handy features save considerable time compared to manual office procedures.",
+                "evidence_vi": "Người đi làm có thể cài lịch hẹn nhắc việc, quét tài liệu nhanh bằng camera, xác thực bảo mật hai lớp hoặc tra cứu số liệu thị trường ngay tức thì, và những tiện ích nhỏ gọn này giúp tiết kiệm đáng kể thời gian thao tác thủ công.",
+                "evidence_en": "Workers can set calendar reminders, scan documents with their cameras, complete two-factor authentication, or check market data instantly, and such handy features save considerable time compared to manual office procedures.",
                 "point_collocations": [
                   {
                     "en": "useful mobile applications",
@@ -70734,8 +70734,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Được giữ điện thoại bên mình giúp người lao động yên tâm hơn khi có thể nhận thông báo khẩn từ gia đình.",
                 "point_en": "Keeping phones nearby gives employees peace of mind in case their family needs urgent contact.",
-                "evidence_vi": "Những nhân viên có con nhỏ đi học hoặc cha mẹ lớn tuổi ở nhà có thể kịp thời nắm bắt tình hình nếu chẳng may xảy ra ốm đau hay sự cố. Khi tâm lý an tâm về gia đình, họ sẽ tập trung cống hiến tốt hơn cho công việc tại cơ quan.",
-                "evidence_en": "Staff members with school-age children or elderly parents at home can respond promptly if sudden illness or emergencies arise. Feeling reassured about their loved ones helps them focus better on their duties at work.",
+                "evidence_vi": "Những nhân viên có con nhỏ đi học hoặc cha mẹ lớn tuổi ở nhà có thể kịp thời nắm bắt tình hình nếu chẳng may xảy ra ốm đau hay sự cố, và khi tâm lý an tâm về gia đình, họ sẽ tập trung cống hiến tốt hơn cho công việc tại cơ quan.",
+                "evidence_en": "Staff members with school-age children or elderly parents at home can respond promptly if sudden illness or emergencies arise, and feeling reassured about their loved ones helps them focus better on their duties at work.",
                 "point_collocations": [
                   {
                     "en": "keep mobile phones nearby",
@@ -70802,8 +70802,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sử dụng điện thoại hợp lý trong giờ nghỉ trưa giúp nhân viên thư giãn ngắn và nạp lại năng lượng tinh thần.",
                 "point_en": "Using phones moderately during lunch breaks helps staff relax briefly and refresh their minds.",
-                "evidence_vi": "Sau nhiều giờ làm việc căng thẳng, việc nghe một bản nhạc nhẹ hoặc đọc tin tức vài phút trong giờ nghỉ giúp đầu óc bớt mệt mỏi. Nhờ khoảng nghỉ ngắn này, nhân viên lấy lại sự tỉnh táo cho ca làm việc buổi chiều.",
-                "evidence_en": "After hours of demanding tasks, listening to soft music or reading light news during official breaks eases mental fatigue. Thanks to this short rest, employees regain alertness for their afternoon shift.",
+                "evidence_vi": "Sau nhiều giờ làm việc căng thẳng, việc nghe một bản nhạc nhẹ hoặc đọc tin tức vài phút trong giờ nghỉ giúp đầu óc bớt mệt mỏi, và nhờ khoảng nghỉ ngắn này, nhân viên lấy lại sự tỉnh táo cho ca làm việc buổi chiều.",
+                "evidence_en": "After hours of demanding tasks, listening to soft music or reading light news during official breaks eases mental fatigue, and thanks to this short rest, employees regain alertness for their afternoon shift.",
                 "point_collocations": [
                   {
                     "en": "during lunch breaks",
@@ -70893,8 +70893,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Điện thoại di động rất dễ khiến nhân viên xao nhãng vì mục đích cá nhân và làm sụt giảm năng suất lao động.",
                 "point_en": "Mobile phones can easily distract employees with personal entertainment and reduce overall workplace productivity.",
-                "evidence_vi": "Nhiều nhân viên thường xuyên kiểm tra mạng xã hội, mua sắm trực tuyến hoặc nhắn tin riêng tư ngay trong giờ hành chính. Những lần ngắt quãng liên tục này làm đứt mạch tập trung sâu, khiến công việc hoàn thành chậm trễ và dễ phát sinh sai sót.",
-                "evidence_en": "Many workers frequently check social media, shop online, or send private texts during office hours. Constant interruptions break deep concentration, leading to delayed deadlines and avoidable mistakes.",
+                "evidence_vi": "Nhiều nhân viên thường xuyên kiểm tra mạng xã hội, mua sắm trực tuyến hoặc nhắn tin riêng tư ngay trong giờ hành chính, và những lần ngắt quãng liên tục này làm đứt mạch tập trung sâu, khiến công việc hoàn thành chậm trễ và dễ phát sinh sai sót.",
+                "evidence_en": "Many workers frequently check social media, shop online, or send private texts during office hours, and constant interruptions break deep concentration, leading to delayed deadlines and avoidable mistakes.",
                 "point_collocations": [
                   {
                     "en": "easily distract employees",
@@ -70982,8 +70982,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sử dụng điện thoại không đúng lúc trong cuộc họp hoặc khi tiếp khách tạo ra ấn tượng rất thiếu chuyên nghiệp.",
                 "point_en": "Using mobile phones inappropriately during meetings or client discussions creates an unprofessional impression.",
-                "evidence_vi": "Tiếng chuông reo bất ngờ hoặc hình ảnh nhân viên cúi đầu nhìn màn hình khi người khác đang trình bày thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác. Hành vi này có thể làm xấu đi văn hóa công sở cũng như uy tín của doanh nghiệp.",
-                "evidence_en": "Sudden ringtones or employees looking down at screens while others are speaking show disrespect toward colleagues and partners. Such habits can harm office culture and damage a company's reputation.",
+                "evidence_vi": "Tiếng chuông reo bất ngờ hoặc hình ảnh nhân viên cúi đầu nhìn màn hình khi người khác đang trình bày thể hiện sự thiếu tôn trọng đồng nghiệp và đối tác, và hành vi này có thể làm xấu đi văn hóa công sở cũng như uy tín của doanh nghiệp.",
+                "evidence_en": "Sudden ringtones or employees looking down at screens while others are speaking show disrespect toward colleagues and partners, and such habits can harm office culture and damage a company's reputation.",
                 "point_collocations": [
                   {
                     "en": "use mobile phones inappropriately",
@@ -71071,8 +71071,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Việc dùng điện thoại cá nhân thiếu kiểm soát tại cơ quan tiềm ẩn nguy cơ rò rỉ thông tin bảo mật của doanh nghiệp.",
                 "point_en": "Unrestricted use of personal phones at work poses serious risks to company data security and confidentiality.",
-                "evidence_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty. Những sơ suất này có thể gây thiệt hại lớn về tài chính và pháp lý cho tổ chức.",
-                "evidence_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks. These security breaches can cause severe financial and legal damage to organizations.",
+                "evidence_vi": "Nhân viên có thể vô tình chụp ảnh tài liệu nội bộ, lưu thông tin khách hàng trên máy cá nhân kém bảo mật hoặc truy cập đường dẫn chứa mã độc qua mạng công ty, và những sơ suất này có thể gây thiệt hại lớn về tài chính và pháp lý cho tổ chức.",
+                "evidence_en": "Workers might accidentally photograph internal documents, store client records on unsecured devices, or click malicious links on office networks, and these security breaches can cause severe financial and legal damage to organizations.",
                 "point_collocations": [
                   {
                     "en": "unrestricted use of personal phones",
@@ -71160,8 +71160,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Sự kết nối liên tục qua điện thoại công việc dễ làm mờ ranh giới giữa giờ làm và giờ nghỉ, dẫn đến kiệt sức.",
                 "point_en": "Constant connectivity through mobile phones blurs the boundary between working hours and rest time.",
-                "evidence_vi": "Nhiều nhân viên cảm thấy áp lực phải trả lời tin nhắn nhóm chat của cấp trên ngay cả vào buổi tối muộn hay ngày nghỉ cuối tuần. Tình trạng làm việc không ngắt kết nối kéo dài gây căng thẳng tâm lý và kiệt sức nghề nghiệp.",
-                "evidence_en": "Many employees feel pressured to reply to managers' group messages late at night or even during weekends. Being unable to disconnect from work causes chronic stress and eventual professional burnout.",
+                "evidence_vi": "Nhiều nhân viên cảm thấy áp lực phải trả lời tin nhắn nhóm chat của cấp trên ngay cả vào buổi tối muộn hay ngày nghỉ cuối tuần, và tình trạng làm việc không ngắt kết nối kéo dài gây căng thẳng tâm lý và kiệt sức nghề nghiệp.",
+                "evidence_en": "Many employees feel pressured to reply to managers' group messages late at night or even during weekends, and being unable to disconnect from work causes chronic stress and eventual professional burnout.",
                 "point_collocations": [
                   {
                     "en": "constant connectivity",
@@ -71249,8 +71249,8 @@ const ESSAY_DATA = [
                 ],
                 "point_vi": "Tại các nhà máy, công trường hoặc vị trí vận hành máy móc, việc nhìn điện thoại có thể gây tai nạn lao động nguy hiểm.",
                 "point_en": "In factories, construction sites, or transport jobs, looking at mobile phones can cause dangerous workplace accidents.",
-                "evidence_vi": "Chỉ vài giây mất tập trung để đọc tin nhắn khi đang điều khiển thiết bị nặng hoặc lái xe giao hàng cũng đủ dẫn đến chấn thương nghiêm trọng. Vì vậy, sự lơ là vì điện thoại đe dọa trực tiếp đến an toàn của cả bản thân lẫn đồng nghiệp.",
-                "evidence_en": "Even a few seconds of inattention to read a text while operating heavy machinery or driving delivery vehicles can result in severe injuries. Thus, phone distraction directly threatens the physical safety of workers and their teammates.",
+                "evidence_vi": "Chỉ vài giây mất tập trung để đọc tin nhắn khi đang điều khiển thiết bị nặng hoặc lái xe giao hàng cũng đủ dẫn đến chấn thương nghiêm trọng, vì vậy sự lơ là vì điện thoại đe dọa trực tiếp đến an toàn của cả bản thân lẫn đồng nghiệp.",
+                "evidence_en": "Even a few seconds of inattention to read a text while operating heavy machinery or driving delivery vehicles can result in severe injuries, and thus, phone distraction directly threatens the physical safety of workers and their teammates.",
                 "point_collocations": [
                   {
                     "en": "construction sites",
@@ -72050,8 +72050,8 @@ const ESSAY_DATA = [
                     "vi": "giảm căng thẳng"
                   }
                 ],
-                "evidence_vi": "Chơi đùa với chó mèo sau giờ học tập giúp mọi người cảm thấy thư giãn. Thú cưng cũng giúp người nuôi bớt cảm giác cô đơn khi ở nhà một mình.",
-                "evidence_en": "Playing with dogs and cats after study hours helps people feel relaxed. Pets also help owners feel less lonely when staying home alone.",
+                "evidence_vi": "Chơi đùa với chó mèo sau giờ học tập giúp mọi người cảm thấy thư giãn, và thú cưng cũng giúp người nuôi bớt cảm giác cô đơn khi ở nhà một mình.",
+                "evidence_en": "Playing with dogs and cats after study hours helps people feel relaxed, and pets also help owners feel less lonely when staying home alone.",
                 "evidence_collocations": [
                   [
                     {
@@ -72115,8 +72115,8 @@ const ESSAY_DATA = [
                     "vi": "học được tính trách nhiệm"
                   }
                 ],
-                "evidence_vi": "Người nuôi phải cho thú cưng ăn đúng giờ và dọn dẹp nơi ở của chúng mỗi ngày. Những công việc này giúp hình thành thói quen kỷ luật và biết quan tâm đến người khác.",
-                "evidence_en": "Owners need to feed pets on time and clean their living areas every day. These tasks help form disciplined habits and show care for others.",
+                "evidence_vi": "Người nuôi phải cho thú cưng ăn đúng giờ và dọn dẹp nơi ở của chúng mỗi ngày, và những công việc này giúp hình thành thói quen kỷ luật và biết quan tâm đến người khác.",
+                "evidence_en": "Owners need to feed pets on time and clean their living areas every day, and these tasks help form disciplined habits and show care for others.",
                 "evidence_collocations": [
                   [
                     {
@@ -72172,8 +72172,8 @@ const ESSAY_DATA = [
                     "vi": "vận động thể chất"
                   }
                 ],
-                "evidence_vi": "Chủ chó thường xuyên dắt chó đi dạo trong công viên vào mỗi buổi sáng hoặc chiều. Hoạt động này giúp người nuôi tăng cường sức khỏe và hít thở không khí trong lành.",
-                "evidence_en": "Dog owners regularly walk their dogs in parks every morning or afternoon. This activity helps owners improve their health and breathe fresh air.",
+                "evidence_vi": "Chủ chó thường xuyên dắt chó đi dạo trong công viên vào mỗi buổi sáng hoặc chiều, và hoạt động này giúp người nuôi tăng cường sức khỏe và hít thở không khí trong lành.",
+                "evidence_en": "Dog owners regularly walk their dogs in parks every morning or afternoon, and this activity helps owners improve their health and breathe fresh air.",
                 "evidence_collocations": [
                   [
                     {
@@ -72225,8 +72225,8 @@ const ESSAY_DATA = [
                     "vi": "trò chuyện với mọi người xung quanh"
                   }
                 ],
-                "evidence_vi": "Khi dắt thú cưng ra ngoài, mọi người thường dừng lại để chào hỏi và hỏi thăm về con vật. Điều này tạo cơ hội thuận lợi để người nuôi mở rộng mối quan hệ bạn bè.",
-                "evidence_en": "When taking pets outside, people often stop to greet each other and ask about the animals. This creates great opportunities for owners to expand their friendships.",
+                "evidence_vi": "Khi dắt thú cưng ra ngoài, mọi người thường dừng lại để chào hỏi và hỏi thăm về con vật, và điều này tạo cơ hội thuận lợi để người nuôi mở rộng mối quan hệ bạn bè.",
+                "evidence_en": "When taking pets outside, people often stop to greet each other and ask about the animals, and this creates great opportunities for owners to expand their friendships.",
                 "evidence_collocations": [
                   [
                     {
@@ -72278,8 +72278,8 @@ const ESSAY_DATA = [
                     "vi": "phát hiện người lạ đột nhập"
                   }
                 ],
-                "evidence_vi": "Chó có khứu giác và thính giác rất nhạy bén nên có thể sủa to khi nghe thấy tiếng động bất thường. Sự cảnh giác này giúp xua đuổi kẻ gian và bảo vệ gia đình an toàn.",
-                "evidence_en": "Dogs have keen senses of smell and hearing, so they bark loudly when hearing unusual sounds. This alertness helps deter thieves and keep families safe.",
+                "evidence_vi": "Chó có khứu giác và thính giác rất nhạy bén nên có thể sủa to khi nghe thấy tiếng động bất thường, và sự cảnh giác này giúp xua đuổi kẻ gian và bảo vệ gia đình an toàn.",
+                "evidence_en": "Dogs have keen senses of smell and hearing, so they bark loudly when hearing unusual sounds, and this alertness helps deter thieves and keep families safe.",
                 "evidence_collocations": [
                   [
                     {
@@ -72337,8 +72337,8 @@ const ESSAY_DATA = [
                     "vi": "nhiều chi phí sinh hoạt tốn kém"
                   }
                 ],
-                "evidence_vi": "Chủ nuôi phải chi tiền mua thức ăn, đồ chơi và trả tiền thuốc men định kỳ. Các chi phí này có thể tạo gánh nặng tiền bạc cho những gia đình có thu nhập thấp.",
-                "evidence_en": "Owners have to spend money on food, toys, and routine medical care. These expenses can create a financial burden for low-income families.",
+                "evidence_vi": "Chủ nuôi phải chi tiền mua thức ăn, đồ chơi và trả tiền thuốc men định kỳ, và các chi phí này có thể tạo gánh nặng tiền bạc cho những gia đình có thu nhập thấp.",
+                "evidence_en": "Owners have to spend money on food, toys, and routine medical care, and these expenses can create a financial burden for low-income families.",
                 "evidence_collocations": [
                   [
                     {
@@ -72394,8 +72394,8 @@ const ESSAY_DATA = [
                     "vi": "làm mất nhiều thời gian và công sức mỗi ngày"
                   }
                 ],
-                "evidence_vi": "Người nuôi phải tắm rửa cho thú cưng, dọn dẹp phân và dắt chúng đi dạo đều đặn. Khi muốn đi du lịch hay công tác xa, họ thường gặp khó khăn trong việc tìm người trông nom giúp.",
-                "evidence_en": "Owners have to bathe pets, clean pet waste, and walk them regularly. When traveling or going on business trips, they often struggle to find reliable pet sitters.",
+                "evidence_vi": "Người nuôi phải tắm rửa cho thú cưng, dọn dẹp phân và dắt chúng đi dạo đều đặn, và khi muốn đi du lịch hay công tác xa, họ thường gặp khó khăn trong việc tìm người trông nom giúp.",
+                "evidence_en": "Owners have to bathe pets, clean pet waste, and walk them regularly, and when traveling or going on business trips, they often struggle to find reliable pet sitters.",
                 "evidence_collocations": [
                   [
                     {
@@ -72451,8 +72451,8 @@ const ESSAY_DATA = [
                     "vi": "làm phát sinh dị ứng"
                   }
                 ],
-                "evidence_vi": "Lông chó mèo rụng khắp sàn nhà và ghế sofa dễ khiến trẻ nhỏ bị ho hoặc hắt hơi. Ngoài ra, phân và nước tiểu của thú cưng nếu không dọn dẹp ngay sẽ gây mùi khó chịu.",
-                "evidence_en": "Pet hair shedding all over floors and sofas easily causes young children to cough or sneeze. Additionally, pet waste causes unpleasant odors if not cleaned immediately.",
+                "evidence_vi": "Lông chó mèo rụng khắp sàn nhà và ghế sofa dễ khiến trẻ nhỏ bị ho hoặc hắt hơi, và phân và nước tiểu của thú cưng nếu không dọn dẹp ngay sẽ gây mùi khó chịu.",
+                "evidence_en": "Pet hair shedding all over floors and sofas easily causes young children to cough or sneeze, and additionally, pet waste causes unpleasant odors if not cleaned immediately.",
                 "evidence_collocations": [
                   [
                     {
@@ -72508,8 +72508,8 @@ const ESSAY_DATA = [
                     "vi": "làm mất lòng hàng xóm"
                   }
                 ],
-                "evidence_vi": "Tiếng chó sủa suốt đêm dễ làm phiền giấc ngủ của những người sống xung quanh. Việc thú cưng phóng uế bừa bãi ra đường chung cũng dễ dẫn đến tranh cãi giữa các gia đình.",
-                "evidence_en": "Dogs barking all night easily disturbs the sleep of surrounding residents. Pets defecating on public walkways also readily causes arguments between families.",
+                "evidence_vi": "Tiếng chó sủa suốt đêm dễ làm phiền giấc ngủ của những người sống xung quanh, và việc thú cưng phóng uế bừa bãi ra đường chung cũng dễ dẫn đến tranh cãi giữa các gia đình.",
+                "evidence_en": "Dogs barking all night easily disturbs the sleep of surrounding residents, and pets defecating on public walkways also readily causes arguments between families.",
                 "evidence_collocations": [
                   [
                     {
@@ -72569,8 +72569,8 @@ const ESSAY_DATA = [
                     "vi": "qua đời"
                   }
                 ],
-                "evidence_vi": "Động vật có thể cào cắn khi tức giận, gây nguy hiểm cho trẻ nhỏ. Ngoài ra, tuổi thọ của thú cưng khá ngắn nên việc chia ly khiến cả gia đình cảm thấy rất đau xót.",
-                "evidence_en": "Animals can scratch or bite when aggressive, posing danger to young children. Furthermore, pets have short lifespans, so their passing brings immense sorrow to families.",
+                "evidence_vi": "Động vật có thể cào cắn khi tức giận, gây nguy hiểm cho trẻ nhỏ, và tuổi thọ của thú cưng khá ngắn nên việc chia ly khiến cả gia đình cảm thấy rất đau xót.",
+                "evidence_en": "Animals can scratch or bite when aggressive, posing danger to young children, and pets have short lifespans, so their passing brings immense sorrow to families.",
                 "evidence_collocations": [
                   [
                     {
@@ -77363,8 +77363,8 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 01: Có nhiều sự tự do cá nhân",
                 "point_vi": "Một lợi ích lớn là người độc thân có nhiều sự tự do cá nhân hơn.",
                 "point_en": "One major benefit is that single people have more personal freedom.",
-                "evidence_vi": "Họ có thể tự quyết định lịch trình hàng ngày mà không cần hỏi ý kiến người khác. Nhờ đó, họ cảm thấy thoải mái và làm chủ cuộc sống của mình.",
-                "evidence_en": "They can decide their daily schedule by themselves without asking another person. As a result, they feel comfortable and in control of their own lives.",
+                "evidence_vi": "Họ có thể tự quyết định lịch trình hàng ngày mà không cần hỏi ý kiến người khác, nhờ đó họ cảm thấy thoải mái và làm chủ cuộc sống của mình.",
+                "evidence_en": "They can decide their daily schedule by themselves without asking another person, so they feel comfortable and in control of their own lives.",
                 "point_collocations": [
                   {
                     "en": "single people",
@@ -77402,8 +77402,8 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 02: Tập trung tốt hơn cho công việc và việc học",
                 "point_vi": "Một điểm tích cực khác là họ có thể tập trung nhiều thời gian hơn cho sự nghiệp và việc học.",
                 "point_en": "Another positive aspect is that they can focus more time on their career and education.",
-                "evidence_vi": "Vì không bận chăm sóc vợ chồng hay con cái, họ có thể làm thêm giờ hoặc học lên cao. Điều này giúp họ dễ dàng đạt được thành công trong công việc.",
-                "evidence_en": "Because they are not busy taking care of a spouse or children, they can work overtime or study further. This helps them achieve success at work more easily.",
+                "evidence_vi": "Vì không bận chăm sóc vợ chồng hay con cái, họ có thể làm thêm giờ hoặc học lên cao, nhờ đó giúp họ dễ dàng đạt được thành công trong công việc.",
+                "evidence_en": "Because they are not busy taking care of a spouse or children, they can work overtime or study further, so this helps them achieve success at work more easily.",
                 "point_collocations": [
                   {
                     "en": "focus more time on",
@@ -77437,8 +77437,8 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 03: Tự chủ về tài chính và sở thích cá nhân",
                 "point_vi": "Một lợi thế nữa là người sống độc thân có thể tự do quản lý tiền bạc và theo đuổi sở thích riêng.",
                 "point_en": "A further advantage to consider is that single individuals can freely manage their money and pursue their own hobbies.",
-                "evidence_vi": "Họ có thể tiết kiệm tiền hoặc chi tiêu cho du lịch, thể thao và gặp gỡ bạn bè. Điều này mang lại cho họ cuộc sống tinh thần vui vẻ và ít áp lực tiền bạc.",
-                "evidence_en": "They can save money or spend it on travel, sports, and meeting friends. This brings them a happy mental life and less financial pressure.",
+                "evidence_vi": "Họ có thể tiết kiệm tiền hoặc chi tiêu cho du lịch, thể thao và gặp gỡ bạn bè, và điều này mang lại cho họ cuộc sống tinh thần vui vẻ và ít áp lực tiền bạc.",
+                "evidence_en": "They can save money or spend it on travel, sports, and meeting friends, and this brings them a happy mental life and less financial pressure.",
                 "point_collocations": [
                   {
                     "en": "freely manage their money",
@@ -77476,8 +77476,8 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 04: Tránh được các mâu thuẫn trong hôn nhân",
                 "point_vi": "Ngoài ra, sống độc thân giúp mọi người tránh được những cuộc cãi vã và căng thẳng trong đời sống vợ chồng.",
                 "point_en": "Moreover, staying single helps people avoid arguments and stress in married life.",
-                "evidence_vi": "Nhiều cặp vợ chồng thường bất đồng về chuyện tiền nong và nuôi dạy con cái. Khi sống một mình, con người sẽ có không gian bình yên để nghỉ ngơi sau giờ làm việc.",
-                "evidence_en": "Many married couples often disagree about money and raising children. When living alone, people have a peaceful space to rest after work.",
+                "evidence_vi": "Nhiều cặp vợ chồng thường bất đồng về chuyện tiền nong và nuôi dạy con cái, và khi sống một mình, con người sẽ có không gian bình yên để nghỉ ngơi sau giờ làm việc.",
+                "evidence_en": "Many married couples often disagree about money and raising children, and when living alone, people have a peaceful space to rest after work.",
                 "point_collocations": [
                   {
                     "en": "avoid arguments and stress",
@@ -77515,8 +77515,8 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 05: Có nhiều thời gian cho bạn bè và bản thân",
                 "point_vi": "Cuối cùng, người độc thân có nhiều thời gian để chăm sóc sức khỏe và mở rộng các mối quan hệ xã hội.",
                 "point_en": "Finally, single people have plenty of time to take care of their health and expand their social relationships.",
-                "evidence_vi": "Họ có thể tập thể dục mỗi ngày, tham gia hoạt động tình nguyện và kết bạn mới. Nhờ vậy, cuộc sống của họ luôn năng động và giàu trải nghiệm.",
-                "evidence_en": "They can exercise every day, join volunteer activities, and make new friends. Therefore, their lives remain active and full of experiences.",
+                "evidence_vi": "Họ có thể tập thể dục mỗi ngày, tham gia hoạt động tình nguyện và kết bạn mới, và nhờ vậy, cuộc sống của họ luôn năng động và giàu trải nghiệm.",
+                "evidence_en": "They can exercise every day, join volunteer activities, and make new friends, so their lives remain active and full of experiences.",
                 "point_collocations": [
                   {
                     "en": "take care of their health",
@@ -77556,8 +77556,8 @@ const ESSAY_DATA = [
                 "title": "BẤT LỢI 01: Thường xuyên cảm thấy cô đơn",
                 "point_vi": "Một bất lợi có thể xảy ra là người độc thân dễ cảm thấy cô đơn và trống trải.",
                 "point_en": "One possible drawback is that single people can easily feel lonely and empty.",
-                "evidence_vi": "Vào các dịp lễ tết hoặc khi trở về căn phòng trống sau giờ làm, họ không có người bạn đời bên cạnh để trò chuyện. Điều này có thể làm họ buồn bã và chán nản.",
-                "evidence_en": "During holidays or when returning to an empty room after work, they do not have a partner beside them to talk to. This can make them feel sad and depressed.",
+                "evidence_vi": "Vào các dịp lễ tết hoặc khi trở về căn phòng trống sau giờ làm, họ không có người bạn đời bên cạnh để trò chuyện, và điều này có thể làm họ buồn bã và chán nản.",
+                "evidence_en": "During holidays or when returning to an empty room after work, they do not have a partner beside them to talk to, and this can make them feel sad and depressed.",
                 "point_collocations": [
                   {
                     "en": "feel lonely and empty",
@@ -77587,8 +77587,8 @@ const ESSAY_DATA = [
                 "title": "BẤT LỢI 02: Thiếu người chăm sóc và hỗ trợ lúc khó khăn",
                 "point_vi": "Một mặt hạn chế khác là họ thiếu sự chăm sóc và giúp đỡ khi ốm đau hoặc gặp rắc rối.",
                 "point_en": "Another negative aspect is that they lack care and support when they are sick or in trouble.",
-                "evidence_vi": "Khi bị bệnh hoặc khi về già, người sống một mình phải tự xoay xở mọi thứ mà không có vợ chồng hay con cái đỡ đần. Điều này khiến cuộc sống tuổi già trở nên vất vả và thiếu an toàn.",
-                "evidence_en": "When falling ill or growing old, people living alone must handle everything by themselves without a spouse or children to help. This makes life in old age harder and less secure.",
+                "evidence_vi": "Khi bị bệnh hoặc khi về già, người sống một mình phải tự xoay xở mọi thứ mà không có vợ chồng hay con cái đỡ đần, và điều này khiến cuộc sống tuổi già trở nên vất vả và thiếu an toàn.",
+                "evidence_en": "When falling ill or growing old, people living alone must handle everything by themselves without a spouse or children to help, and this makes life in old age harder and less secure.",
                 "point_collocations": [
                   {
                     "en": "lack care and support",
@@ -77626,8 +77626,8 @@ const ESSAY_DATA = [
                 "title": "BẤT LỢI 03: Phải tự gánh vác mọi chi phí sinh hoạt",
                 "point_vi": "Một mối lo ngại nữa là người độc thân phải tự chi trả toàn bộ chi phí sinh hoạt một mình.",
                 "point_en": "A further concern is that single individuals have to pay all living expenses by themselves.",
-                "evidence_vi": "Thay vì chia sẻ tiền thuê nhà và hóa đơn với người bạn đời, họ phải tự gánh mọi khoản tiền. Nếu chẳng may mất việc, họ sẽ gặp khủng hoảng tài chính rất lớn.",
-                "evidence_en": "Instead of sharing house rent and bills with a partner, they have to bear all costs alone. If they unfortunately lose their job, they will face a serious financial crisis.",
+                "evidence_vi": "Thay vì chia sẻ tiền thuê nhà và hóa đơn với người bạn đời, họ phải tự gánh mọi khoản tiền, và nếu chẳng may mất việc, họ sẽ gặp khủng hoảng tài chính rất lớn.",
+                "evidence_en": "Instead of sharing house rent and bills with a partner, they have to bear all costs alone, and if they unfortunately lose their job, they will face a serious financial crisis.",
                 "point_collocations": [
                   {
                     "en": "pay all living expenses",
@@ -77661,8 +77661,8 @@ const ESSAY_DATA = [
                 "title": "BẤT LỢI 04: Đối mặt với áp lực từ gia đình và xã hội",
                 "point_vi": "Bên cạnh đó, người sống độc thân thường chịu nhiều áp lực và câu hỏi thúc giục từ gia đình.",
                 "point_en": "Besides, unmarried people often face heavy pressure and constant questions from their families.",
-                "evidence_vi": "Ở nhiều nước châu Á, cha mẹ và họ hàng thường lo lắng khi con cái chưa kết hôn. Sự thúc giục này có thể gây căng thẳng tâm lý trong các buổi họp mặt gia đình.",
-                "evidence_en": "In many Asian countries, parents and relatives often worry when their children remain unmarried. This constant urging can cause mental stress during family gatherings.",
+                "evidence_vi": "Ở nhiều nước châu Á, cha mẹ và họ hàng thường lo lắng khi con cái chưa kết hôn, và sự thúc giục này có thể gây căng thẳng tâm lý trong các buổi họp mặt gia đình.",
+                "evidence_en": "In many Asian countries, parents and relatives often worry when their children remain unmarried, and this constant urging can cause mental stress during family gatherings.",
                 "point_collocations": [
                   {
                     "en": "unmarried people",
@@ -77696,8 +77696,8 @@ const ESSAY_DATA = [
                 "title": "BẤT LỢI 05: Phải tự làm toàn bộ công việc nhà",
                 "point_vi": "Cuối cùng, họ phải tự mình giải quyết tất cả công việc nhà sau những giờ làm việc mệt mỏi.",
                 "point_en": "Finally, they have to handle all household chores by themselves after tiring working hours.",
-                "evidence_vi": "Từ nấu ăn, dọn dẹp đến sửa chữa đồ đạc trong nhà, họ không có ai san sẻ cùng. Đôi khi điều này khiến họ cảm thấy quá tải và kiệt sức.",
-                "evidence_en": "From cooking and cleaning to fixing things in the house, they have no one to share the workload with. Sometimes this makes them feel overloaded and exhausted.",
+                "evidence_vi": "Từ nấu ăn, dọn dẹp đến sửa chữa đồ đạc trong nhà, họ không có ai san sẻ cùng, và đôi khi điều này khiến họ cảm thấy quá tải và kiệt sức.",
+                "evidence_en": "From cooking and cleaning to fixing things in the house, they have no one to share the workload with, and sometimes this makes them feel overloaded and exhausted.",
                 "point_collocations": [
                   {
                     "en": "handle all household chores",
@@ -82565,8 +82565,8 @@ const ESSAY_DATA = [
                     "vi": "tiết kiệm thời gian đi lại"
                   }
                 ],
-                "evidence_vi": "Khách hàng có thể đặt mua hàng hóa bất cứ lúc nào ngay tại nhà. Hàng hóa sau đó được giao đến tận cửa nhà mà không cần phải đi đến siêu thị.",
-                "evidence_en": "Customers can order goods anytime directly from home. Products are then delivered to their doorstep without needing to travel to supermarkets.",
+                "evidence_vi": "Khách hàng có thể đặt mua hàng hóa bất cứ lúc nào ngay tại nhà, và hàng hóa sau đó được giao đến tận cửa nhà mà không cần phải đi đến siêu thị.",
+                "evidence_en": "Customers can order goods anytime directly from home, and products are then delivered to their doorstep without needing to travel to supermarkets.",
                 "evidence_collocations": [
                   [
                     {
@@ -82622,8 +82622,8 @@ const ESSAY_DATA = [
                     "vi": "chương trình giảm giá hấp dẫn"
                   }
                 ],
-                "evidence_vi": "Nhiều cửa hàng trực tuyến thường xuyên tặng phiếu giảm giá và miễn phí vận chuyển. Khách hàng có thể kiểm tra nhiều cửa hàng cùng lúc để chọn được mức giá tốt nhất.",
-                "evidence_en": "Many online stores regularly offer discount vouchers and free shipping promotions. Consumers can check multiple retailers simultaneously to select the best price.",
+                "evidence_vi": "Nhiều cửa hàng trực tuyến thường xuyên tặng phiếu giảm giá và miễn phí vận chuyển, và khách hàng có thể kiểm tra nhiều cửa hàng cùng lúc để chọn được mức giá tốt nhất.",
+                "evidence_en": "Many online stores regularly offer discount vouchers and free shipping promotions, and consumers can check multiple retailers simultaneously to select the best price.",
                 "evidence_collocations": [
                   [
                     {
@@ -82683,8 +82683,8 @@ const ESSAY_DATA = [
                     "vi": "sự đa dạng sản phẩm vô cùng phong phú"
                   }
                 ],
-                "evidence_vi": "Người tiêu dùng có thể tìm thấy nhiều mặt hàng hiếm mà các chợ truyền thống không có bán. Việc tìm kiếm mẫu mã phù hợp trở nên rất nhanh chóng và thuận tiện.",
-                "evidence_en": "Consumers can find various rare items that are not available in traditional local markets. Searching for suitable designs becomes remarkably fast and convenient.",
+                "evidence_vi": "Người tiêu dùng có thể tìm thấy nhiều mặt hàng hiếm mà các chợ truyền thống không có bán, và việc tìm kiếm mẫu mã phù hợp trở nên rất nhanh chóng và thuận tiện.",
+                "evidence_en": "Consumers can find various rare items that are not available in traditional local markets, and searching for suitable designs becomes remarkably fast and convenient.",
                 "evidence_collocations": [
                   [
                     {
@@ -82736,8 +82736,8 @@ const ESSAY_DATA = [
                     "vi": "quyết định mua đồ"
                   }
                 ],
-                "evidence_vi": "Mục bình luận hiển thị hình ảnh chụp thực tế và nhận xét chân thật về chất lượng sản phẩm. Nhờ đó, người mua cảm thấy yên tâm hơn khi chọn mua sản phẩm.",
-                "evidence_en": "Comment sections display real photos and honest remarks about product quality. Consequently, buyers feel more confident when selecting merchandise.",
+                "evidence_vi": "Mục bình luận hiển thị hình ảnh chụp thực tế và nhận xét chân thật về chất lượng sản phẩm, nhờ đó người mua cảm thấy yên tâm hơn khi chọn mua sản phẩm.",
+                "evidence_en": "Comment sections display real photos and honest remarks about product quality, so buyers feel more confident when selecting merchandise.",
                 "evidence_collocations": [
                   [
                     {
@@ -82793,8 +82793,8 @@ const ESSAY_DATA = [
                     "vi": "tiện lợi và an toàn"
                   }
                 ],
-                "evidence_vi": "Người dùng có thể chuyển khoản ngân hàng hoặc thanh toán khi nhận hàng. Các phương thức thanh toán linh hoạt giúp việc mua bán diễn ra trơn tru hơn.",
-                "evidence_en": "Users can make bank transfers or choose cash on delivery upon receiving their parcels. Flexible payment options make daily buying transactions run much smoother.",
+                "evidence_vi": "Người dùng có thể chuyển khoản ngân hàng hoặc thanh toán khi nhận hàng, và các phương thức thanh toán linh hoạt giúp việc mua bán diễn ra trơn tru hơn.",
+                "evidence_en": "Users can make bank transfers or choose cash on delivery upon receiving their parcels, and flexible payment options make daily buying transactions run much smoother.",
                 "evidence_collocations": [
                   [
                     {
@@ -82852,8 +82852,8 @@ const ESSAY_DATA = [
                     "vi": "hàng kém chất lượng"
                   }
                 ],
-                "evidence_vi": "Khách hàng không thể sờ trực tiếp hoặc thử đồ trước khi trả tiền mua. Nhiều sản phẩm nhận về có chất lượng khác hoàn toàn so với hình ảnh quảng cáo trên mạng.",
-                "evidence_en": "Consumers cannot physically touch or try on items before completing payment. Many delivered goods differ completely from promotional photos displayed online.",
+                "evidence_vi": "Khách hàng không thể sờ trực tiếp hoặc thử đồ trước khi trả tiền mua, và nhiều sản phẩm nhận về có chất lượng khác hoàn toàn so với hình ảnh quảng cáo trên mạng.",
+                "evidence_en": "Consumers cannot physically touch or try on items before completing payment, and many delivered goods differ completely from promotional photos displayed online.",
                 "evidence_collocations": [
                   [
                     {
@@ -82901,8 +82901,8 @@ const ESSAY_DATA = [
                     "vi": "lừa đảo tiền bạc"
                   }
                 ],
-                "evidence_vi": "Một số trang web bán hàng giả mạo có thể đánh cắp mật khẩu và thông tin tài khoản ngân hàng. Người mua có thể bị mất tiền oan nếu không cẩn thận khi giao dịch.",
-                "evidence_en": "Certain fraudulent e-stores can steal passwords and bank account credentials. Buyers may lose money unfairly if they are careless during online transactions.",
+                "evidence_vi": "Một số trang web bán hàng giả mạo có thể đánh cắp mật khẩu và thông tin tài khoản ngân hàng, và người mua có thể bị mất tiền oan nếu không cẩn thận khi giao dịch.",
+                "evidence_en": "Certain fraudulent e-stores can steal passwords and bank account credentials, and buyers may lose money unfairly if they are careless during online transactions.",
                 "evidence_collocations": [
                   [
                     {
@@ -82958,8 +82958,8 @@ const ESSAY_DATA = [
                     "vi": "tốn kém tiền bạc"
                   }
                 ],
-                "evidence_vi": "Các thông báo khuyến mãi liên tục xuất hiện khiến nhiều người dễ dàng bấm mua đồ không cần thiết. Việc này dẫn đến tình trạng chi tiêu quá mức vào cuối tháng.",
-                "evidence_en": "Continuous promotional alerts prompt many users to impulsively purchase non-essential goods. This habit leads directly to severe overspending at the end of the month.",
+                "evidence_vi": "Các thông báo khuyến mãi liên tục xuất hiện khiến nhiều người dễ dàng bấm mua đồ không cần thiết, và việc này dẫn đến tình trạng chi tiêu quá mức vào cuối tháng.",
+                "evidence_en": "Continuous promotional alerts prompt many users to impulsively purchase non-essential goods, and this habit leads directly to severe overspending at the end of the month.",
                 "evidence_collocations": [
                   [
                     {
@@ -83011,8 +83011,8 @@ const ESSAY_DATA = [
                     "vi": "hàng hóa bị hư hỏng khi vận chuyển"
                   }
                 ],
-                "evidence_vi": "Hàng hóa có thể bị thất lạc hoặc vỡ nát trong quá trình bốc xếp vận chuyển đường dài. Người mua thường phải chờ đợi nhiều ngày mới nhận được món đồ mình cần.",
-                "evidence_en": "Parcels can be misplaced or shattered during long-distance handling and transit. Customers frequently have to wait for many days to receive essential items.",
+                "evidence_vi": "Hàng hóa có thể bị thất lạc hoặc vỡ nát trong quá trình bốc xếp vận chuyển đường dài, và người mua thường phải chờ đợi nhiều ngày mới nhận được món đồ mình cần.",
+                "evidence_en": "Parcels can be misplaced or shattered during long-distance handling and transit, and customers frequently have to wait for many days to receive essential items.",
                 "evidence_collocations": [
                   [
                     {
@@ -83064,8 +83064,8 @@ const ESSAY_DATA = [
                     "vi": "khiếu nại mua hàng"
                   }
                 ],
-                "evidence_vi": "Một số người bán từ chối nhận lại hàng hoặc yêu cầu khách chịu phí vận chuyển đắt đỏ. Người tiêu dùng cảm thấy rất mệt mỏi khi phải giải quyết các tranh chấp mua bán.",
-                "evidence_en": "Some sellers refuse return requests or demand that customers bear exorbitant return freight fees. Consumers feel exhausted when navigating complex commercial disputes.",
+                "evidence_vi": "Một số người bán từ chối nhận lại hàng hoặc yêu cầu khách chịu phí vận chuyển đắt đỏ, và người tiêu dùng cảm thấy rất mệt mỏi khi phải giải quyết các tranh chấp mua bán.",
+                "evidence_en": "Some sellers refuse return requests or demand that customers bear exorbitant return freight fees, and consumers feel exhausted when navigating complex commercial disputes.",
                 "evidence_collocations": [
                   [
                     {
@@ -87879,8 +87879,8 @@ const ESSAY_DATA = [
                     "vi": "người lao động"
                   }
                 ],
-                "evidence_vi": "Nhiều nhà máy, văn phòng và cơ sở dịch vụ tập trung ở các thành phố lớn. Nhờ đó, người dân từ nông thôn có thể dễ dàng tìm kiếm việc làm với thu nhập tốt hơn.",
-                "evidence_en": "Many factories, offices, and service centers are concentrated in major cities. Consequently, people from rural areas can easily find jobs with better income.",
+                "evidence_vi": "Nhiều nhà máy, văn phòng và cơ sở dịch vụ tập trung ở các thành phố lớn, nhờ đó người dân từ nông thôn có thể dễ dàng tìm kiếm việc làm với thu nhập tốt hơn.",
+                "evidence_en": "Many factories, offices, and service centers are concentrated in major cities, so people from rural areas can easily find jobs with better income.",
                 "evidence_collocations": [
                   [
                     {
@@ -87952,8 +87952,8 @@ const ESSAY_DATA = [
                     "vi": "y tế chất lượng cao"
                   }
                 ],
-                "evidence_vi": "Thành phố tập trung nhiều trường đại học hàng đầu và bệnh viện hiện đại. Nhờ vậy, người dân được học tập tốt hơn và được chữa bệnh kịp thời khi có vấn đề sức khỏe.",
-                "evidence_en": "Cities gather many leading universities and modern hospitals. Therefore, citizens can study better and receive timely treatment for health issues.",
+                "evidence_vi": "Thành phố tập trung nhiều trường đại học hàng đầu và bệnh viện hiện đại, và nhờ vậy, người dân được học tập tốt hơn và được chữa bệnh kịp thời khi có vấn đề sức khỏe.",
+                "evidence_en": "Cities gather many leading universities and modern hospitals, so citizens can study better and receive timely treatment for health issues.",
                 "evidence_collocations": [
                   [
                     {
@@ -88021,8 +88021,8 @@ const ESSAY_DATA = [
                     "vi": "hệ thống cơ sở hạ tầng hiện đại"
                   }
                 ],
-                "evidence_vi": "Đường xá rộng rãi, hệ thống điện nước ổn định và internet tốc độ cao được xây dựng đồng bộ. Cuộc sống của cư dân thành thị nhờ đó trở nên thuận tiện và thoải mái hơn.",
-                "evidence_en": "Spacious roads, stable power and water supplies, and high-speed internet are built systematically. Urban residents enjoy a more convenient and comfortable daily life.",
+                "evidence_vi": "Đường xá rộng rãi, hệ thống điện nước ổn định và internet tốc độ cao được xây dựng đồng bộ, và cuộc sống của cư dân thành thị nhờ đó trở nên thuận tiện và thoải mái hơn.",
+                "evidence_en": "Spacious roads, stable power and water supplies, and high-speed internet are built systematically, and urban residents enjoy a more convenient and comfortable daily life.",
                 "evidence_collocations": [
                   [
                     {
@@ -88094,8 +88094,8 @@ const ESSAY_DATA = [
                     "vi": "giải trí phong phú"
                   }
                 ],
-                "evidence_vi": "Các trung tâm thương mại, rạp chiếu phim và công viên công cộng luôn sẵn sàng phục vụ người dân. Mọi người có nhiều lựa chọn để thư giãn cùng bạn bè vào dịp cuối tuần.",
-                "evidence_en": "Shopping malls, cinemas, and public parks are always available to serve citizens. People have various options to relax with friends on weekends.",
+                "evidence_vi": "Các trung tâm thương mại, rạp chiếu phim và công viên công cộng luôn sẵn sàng phục vụ người dân, và mọi người có nhiều lựa chọn để thư giãn cùng bạn bè vào dịp cuối tuần.",
+                "evidence_en": "Shopping malls, cinemas, and public parks are always available to serve citizens, and people have various options to relax with friends on weekends.",
                 "evidence_collocations": [
                   [
                     {
@@ -88163,8 +88163,8 @@ const ESSAY_DATA = [
                     "vi": "tăng trưởng kinh tế"
                   }
                 ],
-                "evidence_vi": "Sự tập trung dân cư kích thích các hoạt động mua bán và dịch vụ phát triển nhộn nhịp. Nhờ đó, nhiều doanh nghiệp nhỏ có cơ hội kinh doanh và tăng trưởng.",
-                "evidence_en": "High population density stimulates vibrant commercial activities and services. As a result, many small enterprises have opportunities to do business and grow.",
+                "evidence_vi": "Sự tập trung dân cư kích thích các hoạt động mua bán và dịch vụ phát triển nhộn nhịp, nhờ đó nhiều doanh nghiệp nhỏ có cơ hội kinh doanh và tăng trưởng.",
+                "evidence_en": "High population density stimulates vibrant commercial activities and services, so many small enterprises have opportunities to do business and grow.",
                 "evidence_collocations": [
                   [
                     {
@@ -88230,8 +88230,8 @@ const ESSAY_DATA = [
                     "vi": "giờ cao điểm"
                   }
                 ],
-                "evidence_vi": "Số lượng phương tiện cá nhân tăng nhanh khiến đường phố luôn trong tình trạng quá tải. Người dân thường xuyên phải chôn chân hàng giờ liền trên đường đi làm.",
-                "evidence_en": "The rapid increase in personal vehicles causes streets to be perpetually overloaded. Commuters frequently spend hours stuck in jams on their way to work.",
+                "evidence_vi": "Số lượng phương tiện cá nhân tăng nhanh khiến đường phố luôn trong tình trạng quá tải, và người dân thường xuyên phải chôn chân hàng giờ liền trên đường đi làm.",
+                "evidence_en": "The rapid increase in personal vehicles causes streets to be perpetually overloaded, and commuters frequently spend hours stuck in jams on their way to work.",
                 "evidence_collocations": [
                   [
                     {
@@ -88295,8 +88295,8 @@ const ESSAY_DATA = [
                     "vi": "tiếng ồn nặng nề"
                   }
                 ],
-                "evidence_vi": "Khói bụi từ xe cộ và các công trình xây dựng làm giảm chất lượng không khí. Hít thở bầu không khí ô nhiễm khiến nhiều người mắc bệnh về đường hô hấp.",
-                "evidence_en": "Emissions from vehicles and construction sites reduce air quality. Breathing polluted air leads many residents to suffer from respiratory illnesses.",
+                "evidence_vi": "Khói bụi từ xe cộ và các công trình xây dựng làm giảm chất lượng không khí, và hít thở bầu không khí ô nhiễm khiến nhiều người mắc bệnh về đường hô hấp.",
+                "evidence_en": "Emissions from vehicles and construction sites reduce air quality, and breathing polluted air leads many residents to suffer from respiratory illnesses.",
                 "evidence_collocations": [
                   [
                     {
@@ -88364,8 +88364,8 @@ const ESSAY_DATA = [
                     "vi": "các đô thị"
                   }
                 ],
-                "evidence_vi": "Giá thuê nhà, chi phí ăn uống và dịch vụ tại thành phố cao hơn nhiều so với nông thôn. Người có thu nhập trung bình thường gặp nhiều áp lực tài chính hàng tháng.",
-                "evidence_en": "Rental prices, food costs, and service charges in cities are much higher than in the countryside. Average-income earners face substantial financial pressure every month.",
+                "evidence_vi": "Giá thuê nhà, chi phí ăn uống và dịch vụ tại thành phố cao hơn nhiều so với nông thôn, và người có thu nhập trung bình thường gặp nhiều áp lực tài chính hàng tháng.",
+                "evidence_en": "Rental prices, food costs, and service charges in cities are much higher than in the countryside, and average-income earners face substantial financial pressure every month.",
                 "evidence_collocations": [
                   [
                     {
@@ -88433,8 +88433,8 @@ const ESSAY_DATA = [
                     "vi": "trường học"
                   }
                 ],
-                "evidence_vi": "Các bệnh viện công thường xuyên thiếu giường bệnh và bệnh nhân phải chờ đợi rất lâu. Tương tự, các lớp học trường công lập trở nên quá đông đúc học sinh.",
-                "evidence_en": "Public hospitals frequently lack patient beds, forcing patients to wait for long hours. Similarly, public school classrooms become overcrowded with students.",
+                "evidence_vi": "Các bệnh viện công thường xuyên thiếu giường bệnh và bệnh nhân phải chờ đợi rất lâu, và tương tự, các lớp học trường công lập trở nên quá đông đúc học sinh.",
+                "evidence_en": "Public hospitals frequently lack patient beds, forcing patients to wait for long hours, and similarly, public school classrooms become overcrowded with students.",
                 "evidence_collocations": [
                   [
                     {
@@ -88502,8 +88502,8 @@ const ESSAY_DATA = [
                     "vi": "tệ nạn xã hội"
                   }
                 ],
-                "evidence_vi": "Nhiều người di cư nghèo phải sinh sống trong những khu nhà tồi tàn thiếu điều kiện vệ sinh. Những nơi này tiềm ẩn nguy cơ cao về trộm cắp và mất trật tự an ninh.",
-                "evidence_en": "Many poor migrants have to live in substandard shelters lacking basic sanitation. These areas harbor high risks of theft and public disorder.",
+                "evidence_vi": "Nhiều người di cư nghèo phải sinh sống trong những khu nhà tồi tàn thiếu điều kiện vệ sinh, và những nơi này tiềm ẩn nguy cơ cao về trộm cắp và mất trật tự an ninh.",
+                "evidence_en": "Many poor migrants have to live in substandard shelters lacking basic sanitation, and these areas harbor high risks of theft and public disorder.",
                 "evidence_collocations": [
                   [
                     {
