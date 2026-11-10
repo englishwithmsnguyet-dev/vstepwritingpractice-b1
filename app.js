@@ -205,12 +205,12 @@ function switchScreen(screenName) {
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
     return;
   }
-  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
+  if (userClass === 'CB210' && catId === 4) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, Dạng 2 và Dạng 3!', 'warning');
     return;
   }
 
@@ -327,7 +327,7 @@ function renderDashboard() {
   // Grab all topics that have full details (ideas and sample essays)
   const featuredTopics = [];
   ESSAY_DATA.forEach(cat => {
-    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2) return;
+    if (isGiaTueUser && cat.id !== 1 && cat.id !== 2 && cat.id !== 3) return;
     cat.topics.forEach(t => {
       if (t.hidden) return;
       if (t.has_full_details) {
@@ -562,6 +562,49 @@ function renderCategoryTopics(searchQuery = '') {
         groupWrapper.appendChild(groupGrid);
         banner.appendChild(groupWrapper);
       });
+    } else if (currentCategory.id === 3) {
+      const multiApproachList = updatedTopics.filter(t => t.approaches && t.approaches.length > 0);
+      const otherDetailedList = updatedTopics.filter(t => !t.approaches || t.approaches.length === 0);
+
+      const createGroupSection = (title, icon, color, list) => {
+        if (list.length === 0) return;
+        const groupWrapper = document.createElement('div');
+        groupWrapper.style.marginTop = '1.25rem';
+
+        const groupTitle = document.createElement('div');
+        groupTitle.style.fontWeight = '700';
+        groupTitle.style.color = color;
+        groupTitle.style.marginBottom = '0.65rem';
+        groupTitle.style.fontSize = '0.95rem';
+        groupTitle.style.display = 'flex';
+        groupTitle.style.alignItems = 'center';
+        groupTitle.style.gap = '0.4rem';
+        groupTitle.innerHTML = `${icon} <span>${title} (${list.length})</span>`;
+        groupWrapper.appendChild(groupTitle);
+
+        const groupGrid = document.createElement('div');
+        groupGrid.className = 'updated-topics-grid';
+
+        list.forEach(topic => {
+          const pill = document.createElement('div');
+          pill.className = 'updated-topic-pill';
+          pill.onclick = () => startPractice(currentCategory.id, topic.id);
+          const apprBadge = (topic.approaches && topic.approaches.length > 0)
+            ? `<span style="font-size: 0.72rem; background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); padding: 0.1rem 0.35rem; border-radius: 4px; font-weight: 700; margin-left: 0.35rem;">${topic.approaches.length} Hướng</span>`
+            : '';
+          pill.innerHTML = `
+            <span class="pill-icon">🎯</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi} ${apprBadge}</span>
+          `;
+          groupGrid.appendChild(pill);
+        });
+
+        groupWrapper.appendChild(groupGrid);
+        banner.appendChild(groupWrapper);
+      };
+
+      createGroupSection('NHÓM 1: CÁC ĐỀ ĐA HƯỚNG TIẾP CẬN (ĐỒNG Ý / PHẢN ĐỐI / CÂN BẰNG)', '🎯', 'var(--accent-primary)', multiApproachList);
+      createGroupSection('NHÓM 2: CÁC ĐỀ BÀI LUẬN QUAN ĐIỂM CHI TIẾT (OPINION TOPICS)', '💬', '#10b981', otherDetailedList);
     } else {
       const grid = document.createElement('div');
       grid.className = 'updated-topics-grid';
@@ -718,12 +761,12 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01 và TYPE 02!', 'warning');
+  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
     return;
   }
-  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
+  if (userClass === 'CB210' && catId === 4) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, Dạng 2 và Dạng 3!', 'warning');
     return;
   }
 
@@ -2102,6 +2145,27 @@ function buildTranslationExercises(topic, transLevel, category) {
   const isDiscussion = category.id === 4;
   let benefitLabel = isCausesSolutions ? "Nguyên nhân" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 1" : "Lợi ích"));
   let drawbackLabel = isCausesSolutions ? "Giải pháp" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 2" : "Bất lợi"));
+  if (isOpinion) {
+    const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+      ? topic.approaches[currentApproachIndex]
+      : null;
+    if (activeApp && activeApp.name) {
+      const appName = activeApp.name.toUpperCase();
+      if (appName.includes('PHẢN ĐỐI') && !appName.includes('ĐỒNG Ý')) {
+        benefitLabel = "Lý do phản đối";
+        drawbackLabel = "Lý do phản đối";
+      } else if (appName.includes('ĐỒNG Ý') && !appName.includes('PHẢN ĐỐI') && !appName.includes('CÂN BẰNG')) {
+        benefitLabel = "Lý do đồng ý";
+        drawbackLabel = "Lý do đồng ý";
+      } else if (appName.includes('CÂN BẰNG') || (appName.includes('ĐỒNG Ý') && appName.includes('PHẢN ĐỐI'))) {
+        benefitLabel = "Lý do đồng ý";
+        drawbackLabel = "Lý do phản đối";
+      }
+    } else {
+      benefitLabel = "Lý do đồng ý";
+      drawbackLabel = "Lý do phản đối";
+    }
+  }
   if (isCausesSolutions) {
     const tags = (Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || '')).toLowerCase();
     if (tags.includes('effect') || tags.includes('impact')) {
@@ -2306,6 +2370,24 @@ function renderTranslationExercises() {
     const selWrapper = document.createElement('div');
     selWrapper.innerHTML = renderIdeaSelectionComponent(topic);
     container.appendChild(selWrapper);
+  }
+
+  if (topic.approaches && topic.approaches.length > 0) {
+    const activeApp = topic.approaches[currentApproachIndex] || topic.approaches[0];
+    const apprBanner = document.createElement('div');
+    apprBanner.className = 'translation-approach-banner';
+    apprBanner.style.cssText = "margin-bottom: 1.25rem; padding: 0.85rem 1.15rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%); border-radius: 10px; border: 1px solid rgba(99, 102, 241, 0.25); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;";
+    apprBanner.innerHTML = `
+      <div style="font-size: 0.88rem; font-weight: 600; color: var(--accent-primary); display: flex; align-items: center; gap: 0.45rem;">
+        <span style="font-size: 1.1rem;">🎯</span>
+        <span>HƯỚNG BÀI ĐANG CHỌN:</span>
+        <span style="font-weight: 700; color: #4338ca; background: rgba(99, 102, 241, 0.12); padding: 0.2rem 0.55rem; border-radius: 6px;">${activeApp.name}</span>
+      </div>
+      <div style="font-size: 0.8rem; color: var(--text-secondary);">
+        (Bấm chọn hướng khác ở thanh <strong>"HƯỚNG BÀI VIẾT"</strong> phía trên)
+      </div>
+    `;
+    container.appendChild(apprBanner);
   }
   
   exercises.forEach((ex, idx) => {
@@ -7053,6 +7135,9 @@ function getTopicSubtypeLabel(topic, catId) {
     return "NGUYÊN NHÂN – TÁC ĐỘNG – GIẢI PHÁP";
   }
   if (catId === 3) {
+    if (topic.approaches && topic.approaches.length > 0) {
+      return `${topic.approaches.length} HƯỚNG TIẾP CẬN (AGREE / DISAGREE / BALANCED)`;
+    }
     return "Ý KIẾN (AGREE / DISAGREE)";
   }
   if (catId === 4) {
@@ -7380,8 +7465,24 @@ function renderStep1Reading() {
         }
       }
     } else if (category.id === 3) {
-      defaultLabel1 = 'LÝ DO';
-      defaultLabel2 = 'LÝ DO';
+      defaultLabel1 = 'LÝ DO ĐỒNG Ý';
+      defaultLabel2 = 'LÝ DO PHẢN ĐỐI';
+      const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+        ? topic.approaches[currentApproachIndex]
+        : null;
+      if (activeApp && activeApp.name) {
+        const appName = activeApp.name.toUpperCase();
+        if (appName.includes('PHẢN ĐỐI') && !appName.includes('ĐỒNG Ý')) {
+          defaultLabel1 = 'LÝ DO PHẢN ĐỐI';
+          defaultLabel2 = 'LÝ DO PHẢN ĐỐI';
+        } else if (appName.includes('ĐỒNG Ý') && !appName.includes('PHẢN ĐỐI') && !appName.includes('CÂN BẰNG')) {
+          defaultLabel1 = 'LÝ DO ĐỒNG Ý';
+          defaultLabel2 = 'LÝ DO ĐỒNG Ý';
+        } else if (appName.includes('CÂN BẰNG') || (appName.includes('ĐỒNG Ý') && appName.includes('PHẢN ĐỐI'))) {
+          defaultLabel1 = 'LÝ DO ĐỒNG Ý';
+          defaultLabel2 = 'LÝ DO PHẢN ĐỐI';
+        }
+      }
     } else if (category.id === 4) {
       defaultLabel1 = 'QUAN ĐIỂM 1';
       defaultLabel2 = 'QUAN ĐIỂM 2';
@@ -8209,39 +8310,38 @@ function updateClassAccessUI() {
   const isCB210 = (userClass === 'CB210');
   const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Category 2 lock/unlock (Unlocked for Gia Tuệ and CB210)
-  const cat2Link = document.getElementById('nav-link-cat-2');
-  if (cat2Link) {
-    const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
-    if (existingBadge2) existingBadge2.remove();
-    cat2Link.classList.remove('is-locked');
-    cat2Link.removeAttribute('title');
-  }
-
-  [3, 4].forEach(catId => {
+  // Category 2 & 3 lock/unlock (Unlocked for Gia Tuệ and CB210)
+  [2, 3].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
-    if (!link) return;
-    
-    // Remove existing lock badge if any
-    const existingBadge = link.querySelector('.cat-lock-badge');
-    if (existingBadge) existingBadge.remove();
-    
-    if (isGiaTue || isCB210) {
-      link.classList.add('is-locked');
-      link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01 & TYPE 02)' : 'Dạng luận này chưa mở cho lớp CB210');
-      const badge = document.createElement('span');
-      badge.className = 'cat-lock-badge';
-      badge.innerHTML = '🔒 Khoá';
-      link.appendChild(badge);
-    } else {
+    if (link) {
+      const existingBadge = link.querySelector('.cat-lock-badge');
+      if (existingBadge) existingBadge.remove();
       link.classList.remove('is-locked');
       link.removeAttribute('title');
     }
   });
 
-  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2) {
+  // Category 4 lock (Only Category 4 remains locked for now)
+  const cat4Link = document.getElementById('nav-link-cat-4');
+  if (cat4Link) {
+    const existingBadge4 = cat4Link.querySelector('.cat-lock-badge');
+    if (existingBadge4) existingBadge4.remove();
+    if (isGiaTue || isCB210) {
+      cat4Link.classList.add('is-locked');
+      cat4Link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)' : 'Dạng luận này chưa mở cho lớp CB210');
+      const badge = document.createElement('span');
+      badge.className = 'cat-lock-badge';
+      badge.innerHTML = '🔒 Khoá';
+      cat4Link.appendChild(badge);
+    } else {
+      cat4Link.classList.remove('is-locked');
+      cat4Link.removeAttribute('title');
+    }
+  }
+
+  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2 && currentCategory.id !== 3) {
     switchCategory(1);
-  } else if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
+  } else if (isCB210 && currentCategory && currentCategory.id === 4) {
     switchCategory(1);
   }
 }
