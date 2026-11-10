@@ -741,10 +741,11 @@ function startPractice(catId, topicId) {
     if (topic.approaches[0].tags) topic.tags = topic.approaches[0].tags;
     if (topic.approaches[0].paraphrases) topic.paraphrases = topic.approaches[0].paraphrases;
   }
-  currentOutlineLevel = 'B1';
-  currentTransLevel = 'B1'; // reset translation exercises level to B2
-  currentVocabLevel = 'B1'; // reset vocabulary booster level to B2
-  currentSampleLevel = 'B1';
+  const siteLevel = (typeof currentVocabLevel !== 'undefined' && currentVocabLevel === 'B1') ? 'B1' : 'B2';
+  currentOutlineLevel = siteLevel;
+  currentTransLevel = siteLevel;
+  currentVocabLevel = siteLevel;
+  currentSampleLevel = siteLevel;
   
   // Switch to Workspace view state
   switchScreen('workspace');
@@ -996,7 +997,7 @@ function renderWorkspaceStepHeader() {
         <span class="step-num">3</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 03</span>
-          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+          <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
@@ -1027,7 +1028,7 @@ function renderWorkspaceStepHeader() {
         <span class="step-num">2</span>
         <span class="step-label">
           <span class="step-kicker">BƯỚC 02</span>
-          <span class="step-title">TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+          <span class="step-title">TẬP DIỄN ĐẠT Ý TƯỞNG</span>
         </span>
       </div>
       <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
@@ -1271,28 +1272,35 @@ function renderStepVocab() {
     ];
   }
 
-  // Level check & automatic fallback so user NEVER gets an empty/blank screen
-  let hasMatchingLevelSingle = (vData.single_words || []).some(w => !w.level || w.level.toUpperCase() === currentVocabLevel.toUpperCase());
+  // Detect current site level (B1 vs B2)
+  const siteLevel = (typeof currentVocabLevel !== 'undefined' && currentVocabLevel === 'B1') ? 'B1' : 'B2';
+  currentVocabLevel = siteLevel;
+
+  // Level filter strictly for current site level
+  const filterByLevel = (item) => {
+    if (!item) return false;
+    const lvl = (item.level || '').toUpperCase().trim();
+    if (!lvl) return true; // available for both if unlabelled
+    if (siteLevel === 'B1') {
+      return lvl.includes('B1') || lvl === 'ALL';
+    } else {
+      return lvl.includes('B2') || lvl === 'ALL';
+    }
+  };
+
+  let hasMatchingLevelSingle = (vData.single_words || []).some(filterByLevel);
   let hasMatchingLevelCols = false;
   (rawGroups || []).forEach(group => {
     const rawItems = group.items || group.collocations || [];
-    if (rawItems.some(c => !c.level || c.level.toUpperCase() === currentVocabLevel.toUpperCase())) {
+    if (rawItems.some(filterByLevel)) {
       hasMatchingLevelCols = true;
     }
   });
 
-  const isLevelEmpty = (currentVocabLevel !== 'all' && !hasMatchingLevelSingle && !hasMatchingLevelCols);
-  const effectiveVocabLevel = isLevelEmpty ? 'all' : currentVocabLevel;
-  
-  // Level filter helper
-  const filterByLevel = (item) => {
-    if (!item) return false;
-    if (effectiveVocabLevel === 'all') return true;
-    if (!item.level) return true;
-    return item.level.toUpperCase() === effectiveVocabLevel.toUpperCase();
-  };
+  const isLevelEmpty = !hasMatchingLevelSingle && !hasMatchingLevelCols;
+  const effectiveFilter = isLevelEmpty ? () => true : filterByLevel;
 
-  const levelSingleWords = (vData.single_words || []).filter(filterByLevel);
+  const levelSingleWords = (vData.single_words || []).filter(effectiveFilter);
   const singleWordsCount = levelSingleWords.length;
 
   let collocationsCount = 0;
@@ -1302,7 +1310,7 @@ function renderStepVocab() {
       ...c,
       en: c.en || c.phrase,
       example_en: c.example_en || c.example
-    })).filter(filterByLevel);
+    })).filter(effectiveFilter);
     collocationsCount += items.length;
     return { ...group, items };
   });
@@ -1317,11 +1325,10 @@ function renderStepVocab() {
   // Filter pills
   let pills = [];
   if (hasModernSchema) {
-    const levelLabel = currentVocabLevel === 'all' ? '' : ` (${currentVocabLevel})`;
     pills = [
-      { id: 'all', label: `🌟 Tất cả${levelLabel} (${singleWordsCount + collocationsCount})` },
-      { id: 'single_words', label: `🔤 Từ đơn${levelLabel} (${singleWordsCount})` },
-      { id: 'collocations', label: `🔗 Cụm Collocations${levelLabel} (${collocationsCount})` }
+      { id: 'all', label: `🌟 Tất cả (${singleWordsCount + collocationsCount})` },
+      { id: 'single_words', label: `🔤 Từ đơn (${singleWordsCount})` },
+      { id: 'collocations', label: `🔗 Cụm Collocations (${collocationsCount})` }
     ];
   } else {
     pills = [
@@ -1589,20 +1596,20 @@ function renderStepVocab() {
       <div class="vocab-stat-card" onclick="filterVocabCategory('single_words')" style="cursor: pointer;">
         <div class="vocab-stat-icon">🔤</div>
         <div class="vocab-stat-info">
-          <h4>${singleWordsCount} Từ đơn cốt lõi ${currentVocabLevel !== 'all' ? `(Band ${currentVocabLevel})` : ''}</h4>
+          <h4>${singleWordsCount} Từ đơn cốt lõi (Bậc ${siteLevel})</h4>
           <p>Kèm phiên âm IPA & Họ từ (Word Family)</p>
         </div>
       </div>
       <div class="vocab-stat-card" onclick="filterVocabCategory('collocations')" style="cursor: pointer;">
         <div class="vocab-stat-icon">🔗</div>
         <div class="vocab-stat-info">
-          <h4>${collocationsCount} Cụm Collocations ${currentVocabLevel !== 'all' ? `(Band ${currentVocabLevel})` : ''}</h4>
+          <h4>${collocationsCount} Cụm Collocations & Cấu trúc (Bậc ${siteLevel})</h4>
           <p>Phân loại: Nguyên nhân • Hậu quả • Giải pháp</p>
         </div>
       </div>
     </div>
   ` : '';
-  
+
   let safeThemeTitle = '';
   if (typeof vData.theme === 'string' && vData.theme.trim()) {
     safeThemeTitle = vData.theme;
@@ -1619,16 +1626,10 @@ function renderStepVocab() {
       ${vData.overview ? `<p>${vData.overview}</p>` : ''}
     </div>
     
-    <!-- LEVEL SELECTOR: Tách riêng B1 và B2 rõ ràng -->
-    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px;">
-      <div class="level-pill ${currentVocabLevel === 'B1' ? 'active' : ''}" onclick="switchVocabLevel('B1')">
-        📘 TỪ VỰNG CẤP ĐỘ B1 (DỄ HỌC - VỪA SỨC)
-      </div>
-      <div class="level-pill ${currentVocabLevel === 'B2' ? 'active' : ''}" onclick="switchVocabLevel('B2')">
-        📕 TỪ VỰNG CẤP ĐỘ B2 (HỌC THUẬT - NÂNG CAO)
-      </div>
-      <div class="level-pill ${currentVocabLevel === 'all' ? 'active' : ''}" onclick="switchVocabLevel('all')">
-        🌟 TẤT CẢ (B1 & B2)
+    <!-- LEVEL BANNER: Trang web bậc nào chỉ hiện đúng bậc đó -->
+    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px; justify-content: center;">
+      <div class="level-pill active" style="pointer-events: none; width: 100%; justify-content: center; font-weight: 700; font-size: 0.95rem; padding: 0.65rem 1.25rem; ${siteLevel === 'B1' ? 'background: rgba(59, 130, 246, 0.12); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.35);' : 'background: rgba(225, 29, 72, 0.12); color: #e11d48; border: 1px solid rgba(225, 29, 72, 0.35);'}">
+        ${siteLevel === 'B1' ? '📘 BỘ TỪ VỰNG & CẤU TRÚC DIỄN ĐẠT BẬC B1 (DỄ HỌC - VỪA SỨC - DỄ ÁP DỤNG)' : '📕 BỘ TỪ VỰNG & CẤU TRÚC HỌC THUẬT BẬC B2 (NÂNG CAO - ĂN ĐIỂM TỪ VỰNG)'}
       </div>
     </div>
     ${isLevelEmpty ? `
@@ -1658,7 +1659,7 @@ function renderStepVocab() {
         ← QUAY LẠI: BƯỚC 01 - ĐỌC HIỂU ĐỀ
       </button>
       <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('trans')">
-        TIẾP THEO: BƯỚC 03 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
+        TIẾP THEO: BƯỚC 03 - TẬP DIỄN ĐẠT Ý TƯỞNG →
       </button>
     </div>
   `;
@@ -1666,6 +1667,9 @@ function renderStepVocab() {
 
 // Switch between B1 and B2 level outlines for Step 1 Translation Exercises
 function switchTransLevel(level) {
+  if (level !== 'B1' && level !== 'B2') {
+    level = (typeof currentTransLevel !== 'undefined' && currentTransLevel === 'B1') ? 'B1' : 'B2';
+  }
   currentTransLevel = level;
   currentVocabLevel = level;
   
@@ -2033,6 +2037,61 @@ function renderIdeaSelectionComponent(topic) {
 }
 
 // Helper to build flat translation exercises list
+// Level adaptation helper to ensure B1 translation hints and model answers are genuinely simple & appropriate
+function adaptCollocationForB1(col) {
+  if (!col || !col.en) return col;
+  let en = col.en;
+  let vi = col.vi || '';
+  
+  const b1Map = [
+    { pattern: /\benable participants to\b/gi, replacement: 'helps participants' },
+    { pattern: /\benable participants\b/gi, replacement: 'helps participants / helps people' },
+    { pattern: /\benables participants\b/gi, replacement: 'helps participants / helps people' },
+    { pattern: /\benables? (people|students|workers|children|learners)\b/gi, replacement: 'helps $1' },
+    { pattern: /\benables? (them|us|individuals)\b/gi, replacement: 'helps $1' },
+    { pattern: /\bdevelop essential practical skills\b/gi, replacement: 'develop practical skills' },
+    { pattern: /\bessential practical skills\b/gi, replacement: 'important practical skills' },
+    { pattern: /\bessential skills\b/gi, replacement: 'important skills' },
+    { pattern: /\bessential\b/gi, replacement: 'important' },
+    { pattern: /\bsubstantial income\b/gi, replacement: 'high income' },
+    { pattern: /\bfoster teamwork and effective cooperation\b/gi, replacement: 'work better in teams' },
+    { pattern: /\bfoster teamwork\b/gi, replacement: 'improve teamwork' },
+    { pattern: /\bfoster\b/gi, replacement: 'build / learn' },
+    { pattern: /\bstrengthen problem-solving skills\b/gi, replacement: 'solve difficult problems' },
+    { pattern: /\bfacilitate\b/gi, replacement: 'help' },
+    { pattern: /\bindispensable\b/gi, replacement: 'very important' },
+    { pattern: /\bcultivate\b/gi, replacement: 'learn / build' },
+    { pattern: /\butilize\b/gi, replacement: 'use' },
+    { pattern: /\bmitigate\b/gi, replacement: 'reduce' },
+    { pattern: /\balleviate\b/gi, replacement: 'reduce' }
+  ];
+
+  for (const item of b1Map) {
+    if (item.pattern.test(en)) {
+      en = en.replace(item.pattern, item.replacement);
+    }
+  }
+  
+  if (vi.includes('thiết yếu') && !vi.includes('cần thiết')) {
+    vi = vi.replace('thiết yếu', 'quan trọng / thực tế');
+  }
+  
+  return { ...col, en, vi };
+}
+
+function adaptSentenceForB1(enStr) {
+  if (!enStr || typeof enStr !== 'string') return enStr;
+  let s = enStr;
+  s = s.replace(/\bcommunity service enables participants to develop essential practical skills\b/gi, 'Doing community work helps participants develop important practical skills');
+  s = s.replace(/\benables? participants to develop essential practical skills\b/gi, 'helps participants develop important practical skills');
+  s = s.replace(/\benables? (participants|people|students|workers|learners) to\b/gi, 'helps $1');
+  s = s.replace(/\bessential practical skills\b/gi, 'important practical skills');
+  s = s.replace(/\bessential skills\b/gi, 'important skills');
+  s = s.replace(/\bsubstantial income\b/gi, 'high income');
+  s = s.replace(/\bfoster teamwork and effective cooperation\b/gi, 'work better in teams');
+  return s;
+}
+
 function buildTranslationExercises(topic, transLevel, category) {
   const ideasObj = transLevel === 'B1' ? topic.details.ideas_b1 : topic.details.ideas_b2;
   if (!ideasObj) return [];
@@ -2085,27 +2144,30 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
 
-  // Extract topic-level fallback collocations from all available topic vocab pools
+  // Extract topic-level fallback collocations strictly matching current transLevel
   let topicFallbackCols = [];
-  const pushFallback = (enVal, viVal) => {
+  const pushFallback = (enVal, viVal, lvl) => {
     if (!enVal || !viVal) return;
+    const l = (lvl || '').toUpperCase().trim();
+    if (transLevel === 'B1' && l.includes('B2') && !l.includes('B1')) return;
+    if (transLevel === 'B2' && l.includes('B1') && !l.includes('B2')) return;
     if (!topicFallbackCols.some(x => (x.en || '').toLowerCase() === enVal.toLowerCase())) {
       topicFallbackCols.push({ en: enVal, vi: viVal });
     }
   };
   if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations)) {
-    topic.details.vocab_step.collocations.forEach(c => pushFallback(c.en || c.phrase, c.vi));
+    topic.details.vocab_step.collocations.forEach(c => pushFallback(c.en || c.phrase, c.vi, c.level));
   }
   if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups)) {
     topic.details.vocab_step.collocation_groups.forEach(g => {
-      (g.items || g.collocations || []).forEach(c => pushFallback(c.en || c.phrase, c.vi));
+      (g.items || g.collocations || []).forEach(c => pushFallback(c.en || c.phrase, c.vi, c.level));
     });
   }
   if (Array.isArray(topic.details.vocab)) {
-    topic.details.vocab.forEach(c => pushFallback(c.en || c.phrase, c.vi));
+    topic.details.vocab.forEach(c => pushFallback(c.en || c.phrase, c.vi, c.level));
   }
   if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words)) {
-    topic.details.vocab_step.single_words.forEach(w => pushFallback(w.word || w.en, w.meaning || w.vi));
+    topic.details.vocab_step.single_words.forEach(w => pushFallback(w.word || w.en, w.meaning || w.vi, w.level));
   }
 
   // Push group 1 (benefits / causes / reasons)
@@ -2117,11 +2179,14 @@ function buildTranslationExercises(topic, transLevel, category) {
       let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
         ? item.point_collocations
         : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
+      if (transLevel === 'B1') {
+        pointCols = pointCols.map(adaptCollocationForB1);
+      }
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
-        en: item.point_en,
+        en: transLevel === 'B1' ? adaptSentenceForB1(item.point_en) : item.point_en,
         collocations: pointCols
       });
       // 2. Evidence
@@ -2133,11 +2198,14 @@ function buildTranslationExercises(topic, transLevel, category) {
         let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
           ? item.evidence_collocations[sIdx]
           : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        if (transLevel === 'B1') {
+          evCols = evCols.map(adaptCollocationForB1);
+        }
         exercises.push({
           type: 'benefit_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
-          en: enS,
+          en: transLevel === 'B1' ? adaptSentenceForB1(enS) : enS,
           collocations: evCols
         });
       });
@@ -2153,11 +2221,14 @@ function buildTranslationExercises(topic, transLevel, category) {
       let pointCols = (Array.isArray(item.point_collocations) && item.point_collocations.length > 0)
         ? item.point_collocations
         : getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 3, 6);
+      if (transLevel === 'B1') {
+        pointCols = pointCols.map(adaptCollocationForB1);
+      }
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
-        en: item.point_en,
+        en: transLevel === 'B1' ? adaptSentenceForB1(item.point_en) : item.point_en,
         collocations: pointCols
       });
       // 2. Evidence
@@ -2169,11 +2240,14 @@ function buildTranslationExercises(topic, transLevel, category) {
         let evCols = (Array.isArray(item.evidence_collocations) && Array.isArray(item.evidence_collocations[sIdx]) && item.evidence_collocations[sIdx].length > 0)
           ? item.evidence_collocations[sIdx]
           : getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 3, 6);
+        if (transLevel === 'B1') {
+          evCols = evCols.map(adaptCollocationForB1);
+        }
         exercises.push({
           type: 'drawback_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
-          en: enS,
+          en: transLevel === 'B1' ? adaptSentenceForB1(enS) : enS,
           collocations: evCols
         });
       });
@@ -4242,6 +4316,7 @@ function toggleAccordion(id) {
 
 // Switch outline level (B1 vs B2)
 function switchOutlineLevel(level) {
+  level = 'B2';
   currentOutlineLevel = level;
   currentVocabLevel = level;
   renderOutline();
@@ -4259,7 +4334,7 @@ function renderVietnameseOutline() {
     return;
   }
   
-  const ideasObj = topic.details.ideas_b1 || topic.details.ideas_b2; // Default to B1 ideas
+  const ideasObj = topic.details.ideas_b2 || topic.details.ideas_b1; // Use B2 ideas
   if (!ideasObj) return;
 
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors || [];
@@ -5890,7 +5965,7 @@ function renderStep3VstepEvaluation(data) {
         </svg>Viết lại bài
       </button>
       <button class="btn btn-primary" style="padding: 0.65rem 1.5rem;" onclick="switchStep('model')">
-        Xem bài mẫu B1/B2 →
+        Xem bài mẫu B2 →
       </button>
     </div>
   `;
@@ -6477,6 +6552,7 @@ function renderSampleEssay() {
 }
 
 function switchSampleLevel(level) {
+  level = 'B2';
   currentSampleLevel = level;
   renderSampleEssay();
 }
@@ -6557,9 +6633,9 @@ function reviewSubmission(submissionId) {
   
   currentCategory = category;
   currentTopic = topic;
-  currentOutlineLevel = 'B1';
-  currentSampleLevel = 'B1';
-  currentTransLevel = 'B1';
+  currentOutlineLevel = 'B2';
+  currentSampleLevel = 'B2';
+  currentTransLevel = 'B2';
   
   // Switch to Workspace Screen
   switchScreen('workspace');
@@ -7293,7 +7369,7 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const b2Ideas = topic.details.ideas_b1 || topic.details.ideas_b2;
+    const b2Ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
     let b1BenefitsList = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || b2Ideas.views || b2Ideas.factors || []);
     let b1DrawbacksList = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || b2Ideas.problems || b2Ideas.measures || []);
 
@@ -7375,58 +7451,58 @@ function renderStep1Reading() {
       if (rawTag.includes('causes & effects') || (p.includes('causes') && (p.includes('effects') || p.includes('consequences') || p.includes('impacts')) && !p.includes('solutions'))) {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. This essay will discuss the main causes of this problem and its possible effects.</em></li>
-            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This issue can be caused by several factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
-            <li><strong>Thân bài 2 (Body 2 - Effects):</strong> <em>This issue can lead to several negative effects. One serious impact is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another consequence is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further problem is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several factors and leads to various negative effects. Understanding these causes and consequences is important to deal with the problem in the future. Without proper attention, this issue may continue to affect individuals and society.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. This essay will examine the main causes of this problem and discuss its possible effects.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This issue can be attributed to several key factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Effects):</strong> <em>This problem can lead to several significant consequences. One negative effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another serious impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several factors and leads to various negative effects. Understanding these causes and consequences is essential to address the problem effectively in the future. Without appropriate attention, this issue may continue to affect both individuals and society.</em></li>
           </ul>
         `;
       } else if (rawTag.includes('effects & solutions') || rawTag.includes('impacts & solutions') || rawTag.includes('problems & solutions') || ((p.includes('effects') || p.includes('impacts') || p.includes('problems')) && (p.includes('solutions') || p.includes('measures')) && !p.includes('causes'))) {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. This essay will discuss its main effects and suggest possible solutions.</em></li>
-            <li><strong>Thân bài 1 (Body 1 - Effects):</strong> <em>This issue can lead to several negative effects. One serious impact is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another consequence is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further problem is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
-            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To solve this problem, several measures can be taken. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is important to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] causes several serious effects and requires practical solutions. Taking suitable measures is important to reduce its negative impacts in the future. With proper actions, this problem can be controlled, bringing positive changes to society.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has had a significant impact on both individuals and society. This essay will examine its main effects and suggest possible solutions.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Effects):</strong> <em>This issue can lead to several serious consequences. One major effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ]. Another significant impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ]. A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To address this problem, several practical measures can be implemented. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is necessary to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] causes several serious effects and requires practical solutions. Taking appropriate measures is essential to reduce its negative impacts in the future. With effective action, this problem can be better controlled, leading to positive changes in society.</em></li>
           </ul>
         `;
       } else if ((rawTag.includes('[causes]') || rawTag.includes('[factors]') || rawTag.includes('[causes /')) && !rawTag.includes('solutions') && !rawTag.includes('effects')) {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. This essay will discuss the main causes of this problem.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has attracted increasing attention because of its impact on individuals and society. This essay will examine the main causes of this problem.</em></li>
             <li><strong>Thân bài 1 (Body 1):</strong> <em>One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
             <li><strong>Thân bài 2 (Body 2):</strong> <em>Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
             <li><strong>Thân bài 3 (Body 3):</strong> <em>A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several main factors. Understanding these reasons is important to deal with this issue in the future. Greater awareness of these causes can help individuals and society respond better.</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] can be attributed to several main factors. Understanding these causes is essential to deal with this issue effectively in the future. Greater awareness of these factors can help individuals and society respond more appropriately.</em></li>
           </ul>
         `;
       } else if ((rawTag.includes('[effects]') || rawTag.includes('positive & negative effects')) && !rawTag.includes('solutions') && !rawTag.includes('causes')) {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. This essay will discuss the main effects of this issue.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has had a considerable impact on both individuals and society. This essay will examine the main effects of this problem.</em></li>
             <li><strong>Thân bài 1 (Body 1):</strong> <em>One major effect is that [ảnh hưởng 1 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
-            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another serious impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
+            <li><strong>Thân bài 2 (Body 2):</strong> <em>Another significant impact is that [ảnh hưởng 2 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
             <li><strong>Thân bài 3 (Body 3):</strong> <em>A further consequence is that [ảnh hưởng 3 – mệnh đề]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] leads to several serious effects on individuals and society. Recognizing these impacts is important to deal with the problem in the future. Without proper attention, these consequences may become more serious over time.</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] leads to several serious effects on individuals and society. Recognizing these consequences is essential to address the issue more effectively in the future. Without proper attention, these impacts may become even more serious over time.</em></li>
           </ul>
         `;
       } else if ((rawTag.includes('[measures]') || rawTag.includes('[solutions]') || rawTag.includes('[measures / solutions]')) && !rawTag.includes('causes') && !rawTag.includes('effects')) {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. This essay will suggest several practical solutions to deal with this issue.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. It has had a profound impact on both individuals and society. This essay will suggest several practical solutions to address this issue effectively.</em></li>
             <li><strong>Thân bài 1 (Body 1):</strong> <em>One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
             <li><strong>Thân bài 2 (Body 2):</strong> <em>Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
             <li><strong>Thân bài 3 (Body 3):</strong> <em>A further approach is to [giải pháp 3 – Vo]. &rarr; [luận cứ 1] &rarr; [luận cứ 2] &rarr; [luận cứ 3].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, several practical measures can be taken to solve [chủ đề - danh từ / cụm danh từ]. Applying these solutions is important to improve the situation in the future. With suitable actions from individuals and authorities, this problem can be reduced over time.</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, several practical measures can be taken to address [chủ đề - danh từ / cụm danh từ]. Implementing these solutions is essential to improve the situation in the future. With appropriate action from both individuals and authorities, this problem can be significantly reduced over time.</em></li>
           </ul>
         `;
       } else {
         customOutlineGuide = `
           <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
-            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. This essay will discuss its main causes and suggest possible solutions.</em></li>
-            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This problem can be caused by several factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
-            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To solve this problem, several measures can be taken. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is important to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
-            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] has several causes and requires practical solutions. By addressing these causes and applying suitable measures, this problem can be reduced in the future. These actions can bring positive changes to both individuals and society.</em></li>
+            <li><strong>Mở bài (Introduction):</strong> <em>In recent years, [chủ đề - danh từ / cụm danh từ] has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. This essay will examine the main causes of this problem and suggest possible solutions.</em></li>
+            <li><strong>Thân bài 1 (Body 1 - Causes):</strong> <em>This issue can be attributed to several key factors. One major cause is that [nguyên nhân 1 – mệnh đề]. &rarr; [luận cứ]. Another contributing factor is that [nguyên nhân 2 – mệnh đề]. &rarr; [luận cứ]. A further reason is that [nguyên nhân 3 – mệnh đề]. &rarr; [luận cứ].</em></li>
+            <li><strong>Thân bài 2 (Body 2 - Solutions):</strong> <em>To address this problem, several practical solutions can be implemented. One effective solution is to [giải pháp 1 – Vo]. &rarr; [luận cứ]. Another possible measure is to [giải pháp 2 – Vo]. &rarr; [luận cứ]. Finally, it is necessary to [giải pháp 3 – Vo]. &rarr; [luận cứ].</em></li>
+            <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, [chủ đề - danh từ / cụm danh từ] is caused by several factors and requires practical solutions to address it effectively. Addressing these causes is essential to improve the situation in the future. With appropriate measures, this issue can be reduced, leading to positive changes in society.</em></li>
           </ul>
         `;
       }
@@ -7575,7 +7651,7 @@ function renderStep1Reading() {
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
       <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
-        ${hasVocabStep() ? "TIẾP THEO: BƯỚC 02 - NẠP TỪ VỰNG CHỦ ĐỀ →" : "TIẾP THEO: BƯỚC 02 - TẬP DIỄN ĐẠT QUAN ĐIỂM →"}
+        ${hasVocabStep() ? "TIẾP THEO: BƯỚC 02 - NẠP TỪ VỰNG CHỦ ĐỀ →" : "TIẾP THEO: BƯỚC 02 - TẬP DIỄN ĐẠT Ý TƯỞNG →"}
       </button>
     </div>
   `;
@@ -7647,6 +7723,7 @@ function renderStep4ModelEssay() {
 
 // Function to switch level in Step 4
 function switchModelEssayLevel(level) {
+  level = 'B2';
   currentSampleLevel = level;
   
   const pillB1 = document.getElementById('ws-model-level-b1');
