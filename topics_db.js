@@ -161159,36 +161159,40 @@ const ESSAY_DATA = [
                 "point_en": "Mobile phones can distract young pupils during lessons.",
                 "point_collocations": [
                   {
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
+                  },
+                  {
                     "en": "distract young pupils",
                     "vi": "làm học sinh nhỏ tuổi mất tập trung"
                   },
                   {
                     "en": "during lessons",
                     "vi": "trong giờ học"
-                  },
-                  {
-                    "en": "mobile phones",
-                    "vi": "điện thoại di động"
                   }
                 ],
                 "evidence_vi": "Học sinh có thể lén chơi trò chơi hoặc gửi tin nhắn trong lớp, vì vậy các em dễ bỏ lỡ những lời giảng quan trọng của giáo viên.",
                 "evidence_en": "Pupils may secretly play games or send text messages in class, so they easily miss important explanations from teachers.",
                 "evidence_collocations": [
                   {
-                    "en": "play games",
-                    "vi": "chơi trò chơi"
+                    "en": "secretly play games",
+                    "vi": "lén chơi trò chơi"
                   },
                   {
                     "en": "send text messages",
                     "vi": "gửi tin nhắn"
                   },
                   {
-                    "en": "miss important explanations",
-                    "vi": "bỏ lỡ những lời giảng quan trọng"
+                    "en": "in class",
+                    "vi": "trong lớp"
                   },
                   {
-                    "en": "classroom learning",
-                    "vi": "việc học trên lớp"
+                    "en": "easily miss",
+                    "vi": "dễ bỏ lỡ"
+                  },
+                  {
+                    "en": "important explanations from teachers",
+                    "vi": "những lời giảng quan trọng của giáo viên"
                   }
                 ],
                 "collocations": [
@@ -161201,8 +161205,28 @@ const ESSAY_DATA = [
                     "vi": "làm học sinh nhỏ tuổi mất tập trung"
                   },
                   {
+                    "en": "during lessons",
+                    "vi": "trong giờ học"
+                  },
+                  {
+                    "en": "secretly play games",
+                    "vi": "lén chơi trò chơi"
+                  },
+                  {
                     "en": "send text messages",
                     "vi": "gửi tin nhắn"
+                  },
+                  {
+                    "en": "in class",
+                    "vi": "trong lớp"
+                  },
+                  {
+                    "en": "easily miss",
+                    "vi": "dễ bỏ lỡ"
+                  },
+                  {
+                    "en": "important explanations from teachers",
+                    "vi": "những lời giảng quan trọng của giáo viên"
                   }
                 ]
               },
@@ -161212,16 +161236,16 @@ const ESSAY_DATA = [
                 "point_en": "Using mobile phones at school reduces face-to-face interaction among children.",
                 "point_collocations": [
                   {
+                    "en": "using mobile phones at school",
+                    "vi": "việc sử dụng điện thoại ở trường"
+                  },
+                  {
                     "en": "reduce face-to-face interaction",
                     "vi": "làm giảm sự giao tiếp trực tiếp"
                   },
                   {
-                    "en": "social skills",
-                    "vi": "kỹ năng xã hội"
-                  },
-                  {
-                    "en": "communication habits",
-                    "vi": "thói quen giao tiếp"
+                    "en": "among children",
+                    "vi": "giữa trẻ em với nhau"
                   }
                 ],
                 "evidence_vi": "Nhiều trẻ em dán mắt vào màn hình trong giờ ra chơi thay vì trò chuyện với bạn bè, và điều này làm suy yếu kỹ năng giao tiếp xã hội của các em.",
@@ -161232,30 +161256,46 @@ const ESSAY_DATA = [
                     "vi": "dán mắt vào màn hình điện thoại"
                   },
                   {
-                    "en": "break times",
-                    "vi": "giờ ra chơi"
+                    "en": "during break times",
+                    "vi": "trong giờ ra chơi"
                   },
                   {
                     "en": "talk to classmates",
                     "vi": "trò chuyện với bạn cùng lớp"
                   },
                   {
-                    "en": "weaken communication skills",
-                    "vi": "làm suy yếu kỹ năng giao tiếp"
+                    "en": "weaken social communication skills",
+                    "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "face-to-face interaction",
-                    "vi": "giao tiếp trực tiếp"
+                    "en": "using mobile phones at school",
+                    "vi": "việc sử dụng điện thoại ở trường"
                   },
                   {
-                    "en": "break times",
-                    "vi": "giờ ra chơi"
+                    "en": "reduce face-to-face interaction",
+                    "vi": "làm giảm sự giao tiếp trực tiếp"
                   },
                   {
-                    "en": "communication skills",
-                    "vi": "kỹ năng giao tiếp"
+                    "en": "among children",
+                    "vi": "giữa trẻ em với nhau"
+                  },
+                  {
+                    "en": "stare at phone screens",
+                    "vi": "dán mắt vào màn hình điện thoại"
+                  },
+                  {
+                    "en": "during break times",
+                    "vi": "trong giờ ra chơi"
+                  },
+                  {
+                    "en": "talk to classmates",
+                    "vi": "trò chuyện với bạn cùng lớp"
+                  },
+                  {
+                    "en": "weaken social communication skills",
+                    "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                   }
                 ]
               },
@@ -161265,46 +161305,74 @@ const ESSAY_DATA = [
                 "point_en": "A phone ban protects young children from online dangers.",
                 "point_collocations": [
                   {
+                    "en": "a phone ban",
+                    "vi": "lệnh cấm điện thoại"
+                  },
+                  {
                     "en": "protect young children",
                     "vi": "bảo vệ trẻ nhỏ"
                   },
                   {
                     "en": "online dangers",
-                    "vi": "mối nguy hiểm trên mạng"
-                  },
-                  {
-                    "en": "safety at school",
-                    "vi": "sự an toàn tại trường học"
+                    "vi": "mối nguy hiểm trên mạng internet"
                   }
                 ],
                 "evidence_vi": "Học sinh tiểu học còn quá nhỏ để nhận biết nội dung không lành mạnh hoặc nạn bắt nạt qua mạng, do đó lệnh cấm tạo ra môi trường học tập an toàn.",
                 "evidence_en": "Primary pupils are too young to identify inappropriate content or cyberbullying, so a ban creates a safe learning environment.",
                 "evidence_collocations": [
                   {
-                    "en": "identify inappropriate content",
-                    "vi": "nhận biết nội dung không lành mạnh"
+                    "en": "primary pupils",
+                    "vi": "học sinh tiểu học"
                   },
                   {
-                    "en": "prevent cyberbullying",
-                    "vi": "ngăn chặn bắt nạt qua mạng"
+                    "en": "too young to identify",
+                    "vi": "còn quá nhỏ để nhận biết"
                   },
-                  {
-                    "en": "safe learning environment",
-                    "vi": "môi trường học tập an toàn"
-                  }
-                ],
-                "collocations": [
                   {
                     "en": "inappropriate content",
                     "vi": "nội dung không lành mạnh"
                   },
                   {
                     "en": "cyberbullying",
-                    "vi": "bắt nạt qua mạng"
+                    "vi": "nạn bắt nạt qua mạng"
                   },
                   {
-                    "en": "safe learning environment",
-                    "vi": "môi trường học tập an toàn"
+                    "en": "create a safe learning environment",
+                    "vi": "tạo ra môi trường học tập an toàn"
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "a phone ban",
+                    "vi": "lệnh cấm điện thoại"
+                  },
+                  {
+                    "en": "protect young children",
+                    "vi": "bảo vệ trẻ nhỏ"
+                  },
+                  {
+                    "en": "online dangers",
+                    "vi": "mối nguy hiểm trên mạng internet"
+                  },
+                  {
+                    "en": "primary pupils",
+                    "vi": "học sinh tiểu học"
+                  },
+                  {
+                    "en": "too young to identify",
+                    "vi": "còn quá nhỏ để nhận biết"
+                  },
+                  {
+                    "en": "inappropriate content",
+                    "vi": "nội dung không lành mạnh"
+                  },
+                  {
+                    "en": "cyberbullying",
+                    "vi": "nạn bắt nạt qua mạng"
+                  },
+                  {
+                    "en": "create a safe learning environment",
+                    "vi": "tạo ra môi trường học tập an toàn"
                   }
                 ]
               }
@@ -162637,36 +162705,40 @@ const ESSAY_DATA = [
                     "point_en": "Mobile phones can distract young pupils during lessons.",
                     "point_collocations": [
                       {
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
+                      },
+                      {
                         "en": "distract young pupils",
                         "vi": "làm học sinh nhỏ tuổi mất tập trung"
                       },
                       {
                         "en": "during lessons",
                         "vi": "trong giờ học"
-                      },
-                      {
-                        "en": "mobile phones",
-                        "vi": "điện thoại di động"
                       }
                     ],
                     "evidence_vi": "Học sinh có thể lén chơi trò chơi hoặc gửi tin nhắn trong lớp, vì vậy các em dễ bỏ lỡ những lời giảng quan trọng của giáo viên.",
                     "evidence_en": "Pupils may secretly play games or send text messages in class, so they easily miss important explanations from teachers.",
                     "evidence_collocations": [
                       {
-                        "en": "play games",
-                        "vi": "chơi trò chơi"
+                        "en": "secretly play games",
+                        "vi": "lén chơi trò chơi"
                       },
                       {
                         "en": "send text messages",
                         "vi": "gửi tin nhắn"
                       },
                       {
-                        "en": "miss important explanations",
-                        "vi": "bỏ lỡ những lời giảng quan trọng"
+                        "en": "in class",
+                        "vi": "trong lớp"
                       },
                       {
-                        "en": "classroom learning",
-                        "vi": "việc học trên lớp"
+                        "en": "easily miss",
+                        "vi": "dễ bỏ lỡ"
+                      },
+                      {
+                        "en": "important explanations from teachers",
+                        "vi": "những lời giảng quan trọng của giáo viên"
                       }
                     ],
                     "collocations": [
@@ -162679,8 +162751,28 @@ const ESSAY_DATA = [
                         "vi": "làm học sinh nhỏ tuổi mất tập trung"
                       },
                       {
+                        "en": "during lessons",
+                        "vi": "trong giờ học"
+                      },
+                      {
+                        "en": "secretly play games",
+                        "vi": "lén chơi trò chơi"
+                      },
+                      {
                         "en": "send text messages",
                         "vi": "gửi tin nhắn"
+                      },
+                      {
+                        "en": "in class",
+                        "vi": "trong lớp"
+                      },
+                      {
+                        "en": "easily miss",
+                        "vi": "dễ bỏ lỡ"
+                      },
+                      {
+                        "en": "important explanations from teachers",
+                        "vi": "những lời giảng quan trọng của giáo viên"
                       }
                     ]
                   },
@@ -162690,16 +162782,16 @@ const ESSAY_DATA = [
                     "point_en": "Using mobile phones at school reduces face-to-face interaction among children.",
                     "point_collocations": [
                       {
+                        "en": "using mobile phones at school",
+                        "vi": "việc sử dụng điện thoại ở trường"
+                      },
+                      {
                         "en": "reduce face-to-face interaction",
                         "vi": "làm giảm sự giao tiếp trực tiếp"
                       },
                       {
-                        "en": "social skills",
-                        "vi": "kỹ năng xã hội"
-                      },
-                      {
-                        "en": "communication habits",
-                        "vi": "thói quen giao tiếp"
+                        "en": "among children",
+                        "vi": "giữa trẻ em với nhau"
                       }
                     ],
                     "evidence_vi": "Nhiều trẻ em dán mắt vào màn hình trong giờ ra chơi thay vì trò chuyện với bạn bè, và điều này làm suy yếu kỹ năng giao tiếp xã hội của các em.",
@@ -162710,30 +162802,46 @@ const ESSAY_DATA = [
                         "vi": "dán mắt vào màn hình điện thoại"
                       },
                       {
-                        "en": "break times",
-                        "vi": "giờ ra chơi"
+                        "en": "during break times",
+                        "vi": "trong giờ ra chơi"
                       },
                       {
                         "en": "talk to classmates",
                         "vi": "trò chuyện với bạn cùng lớp"
                       },
                       {
-                        "en": "weaken communication skills",
-                        "vi": "làm suy yếu kỹ năng giao tiếp"
+                        "en": "weaken social communication skills",
+                        "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "face-to-face interaction",
-                        "vi": "giao tiếp trực tiếp"
+                        "en": "using mobile phones at school",
+                        "vi": "việc sử dụng điện thoại ở trường"
                       },
                       {
-                        "en": "break times",
-                        "vi": "giờ ra chơi"
+                        "en": "reduce face-to-face interaction",
+                        "vi": "làm giảm sự giao tiếp trực tiếp"
                       },
                       {
-                        "en": "communication skills",
-                        "vi": "kỹ năng giao tiếp"
+                        "en": "among children",
+                        "vi": "giữa trẻ em với nhau"
+                      },
+                      {
+                        "en": "stare at phone screens",
+                        "vi": "dán mắt vào màn hình điện thoại"
+                      },
+                      {
+                        "en": "during break times",
+                        "vi": "trong giờ ra chơi"
+                      },
+                      {
+                        "en": "talk to classmates",
+                        "vi": "trò chuyện với bạn cùng lớp"
+                      },
+                      {
+                        "en": "weaken social communication skills",
+                        "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                       }
                     ]
                   },
@@ -162743,46 +162851,74 @@ const ESSAY_DATA = [
                     "point_en": "A phone ban protects young children from online dangers.",
                     "point_collocations": [
                       {
+                        "en": "a phone ban",
+                        "vi": "lệnh cấm điện thoại"
+                      },
+                      {
                         "en": "protect young children",
                         "vi": "bảo vệ trẻ nhỏ"
                       },
                       {
                         "en": "online dangers",
-                        "vi": "mối nguy hiểm trên mạng"
-                      },
-                      {
-                        "en": "safety at school",
-                        "vi": "sự an toàn tại trường học"
+                        "vi": "mối nguy hiểm trên mạng internet"
                       }
                     ],
                     "evidence_vi": "Học sinh tiểu học còn quá nhỏ để nhận biết nội dung không lành mạnh hoặc nạn bắt nạt qua mạng, do đó lệnh cấm tạo ra môi trường học tập an toàn.",
                     "evidence_en": "Primary pupils are too young to identify inappropriate content or cyberbullying, so a ban creates a safe learning environment.",
                     "evidence_collocations": [
                       {
-                        "en": "identify inappropriate content",
-                        "vi": "nhận biết nội dung không lành mạnh"
+                        "en": "primary pupils",
+                        "vi": "học sinh tiểu học"
                       },
                       {
-                        "en": "prevent cyberbullying",
-                        "vi": "ngăn chặn bắt nạt qua mạng"
+                        "en": "too young to identify",
+                        "vi": "còn quá nhỏ để nhận biết"
                       },
-                      {
-                        "en": "safe learning environment",
-                        "vi": "môi trường học tập an toàn"
-                      }
-                    ],
-                    "collocations": [
                       {
                         "en": "inappropriate content",
                         "vi": "nội dung không lành mạnh"
                       },
                       {
                         "en": "cyberbullying",
-                        "vi": "bắt nạt qua mạng"
+                        "vi": "nạn bắt nạt qua mạng"
                       },
                       {
-                        "en": "safe learning environment",
-                        "vi": "môi trường học tập an toàn"
+                        "en": "create a safe learning environment",
+                        "vi": "tạo ra môi trường học tập an toàn"
+                      }
+                    ],
+                    "collocations": [
+                      {
+                        "en": "a phone ban",
+                        "vi": "lệnh cấm điện thoại"
+                      },
+                      {
+                        "en": "protect young children",
+                        "vi": "bảo vệ trẻ nhỏ"
+                      },
+                      {
+                        "en": "online dangers",
+                        "vi": "mối nguy hiểm trên mạng internet"
+                      },
+                      {
+                        "en": "primary pupils",
+                        "vi": "học sinh tiểu học"
+                      },
+                      {
+                        "en": "too young to identify",
+                        "vi": "còn quá nhỏ để nhận biết"
+                      },
+                      {
+                        "en": "inappropriate content",
+                        "vi": "nội dung không lành mạnh"
+                      },
+                      {
+                        "en": "cyberbullying",
+                        "vi": "nạn bắt nạt qua mạng"
+                      },
+                      {
+                        "en": "create a safe learning environment",
+                        "vi": "tạo ra môi trường học tập an toàn"
                       }
                     ]
                   }
@@ -164109,21 +164245,25 @@ const ESSAY_DATA = [
                     "point_en": "Mobile phones allow parents to contact their children in emergency situations.",
                     "point_collocations": [
                       {
-                        "en": "contact their children",
-                        "vi": "liên lạc với con cái"
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
                       },
                       {
-                        "en": "emergency situations",
-                        "vi": "các tình huống khẩn cấp"
+                        "en": "allow parents to contact",
+                        "vi": "cho phép cha mẹ liên lạc"
                       },
                       {
-                        "en": "parental communication",
-                        "vi": "sự liên lạc của cha mẹ"
+                        "en": "in emergency situations",
+                        "vi": "trong các tình huống khẩn cấp"
                       }
                     ],
                     "evidence_vi": "Phụ huynh có thể thông báo giờ đón đột xuất hoặc kiểm tra sự an toàn của con sau giờ học, vì vậy chiếc điện thoại mang lại sự yên tâm cho cả gia đình.",
                     "evidence_en": "Parents can inform sudden pickup changes or check child safety after school, so a phone brings peace of mind to families.",
                     "evidence_collocations": [
+                      {
+                        "en": "inform sudden pickup changes",
+                        "vi": "thông báo giờ đón đột xuất"
+                      },
                       {
                         "en": "check child safety",
                         "vi": "kiểm tra sự an toàn của con"
@@ -164133,26 +164273,38 @@ const ESSAY_DATA = [
                         "vi": "sau giờ học"
                       },
                       {
-                        "en": "peace of mind",
-                        "vi": "sự an tâm"
-                      },
-                      {
-                        "en": "family contact",
-                        "vi": "sự liên hệ gia đình"
+                        "en": "bring peace of mind to families",
+                        "vi": "mang lại sự yên tâm cho cả gia đình"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "emergency situations",
-                        "vi": "các tình huống khẩn cấp"
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
                       },
                       {
-                        "en": "peace of mind",
-                        "vi": "sự an tâm"
+                        "en": "allow parents to contact",
+                        "vi": "cho phép cha mẹ liên lạc"
                       },
                       {
-                        "en": "child safety",
-                        "vi": "sự an toàn của trẻ"
+                        "en": "in emergency situations",
+                        "vi": "trong các tình huống khẩn cấp"
+                      },
+                      {
+                        "en": "inform sudden pickup changes",
+                        "vi": "thông báo giờ đón đột xuất"
+                      },
+                      {
+                        "en": "check child safety",
+                        "vi": "kiểm tra sự an toàn của con"
+                      },
+                      {
+                        "en": "after school",
+                        "vi": "sau giờ học"
+                      },
+                      {
+                        "en": "bring peace of mind to families",
+                        "vi": "mang lại sự yên tâm cho cả gia đình"
                       }
                     ]
                   },
@@ -164162,16 +164314,16 @@ const ESSAY_DATA = [
                     "point_en": "Smartphones can serve as useful learning tools under teacher supervision.",
                     "point_collocations": [
                       {
-                        "en": "useful learning tools",
-                        "vi": "công cụ học tập hữu ích"
+                        "en": "smartphones",
+                        "vi": "điện thoại thông minh"
                       },
                       {
-                        "en": "teacher supervision",
-                        "vi": "sự giám sát của giáo viên"
+                        "en": "serve as useful learning tools",
+                        "vi": "đóng vai trò như công cụ học tập hữu ích"
                       },
                       {
-                        "en": "digital educational resources",
-                        "vi": "tài nguyên giáo dục số"
+                        "en": "under teacher supervision",
+                        "vi": "dưới sự giám sát của giáo viên"
                       }
                     ],
                     "evidence_vi": "Học sinh có thể tra cứu từ điển trực tuyến và tham gia các ứng dụng học toán tương tác, và điều này giúp các tiết học trở nên sinh động hơn.",
@@ -164182,26 +164334,38 @@ const ESSAY_DATA = [
                         "vi": "tra cứu từ điển trực tuyến"
                       },
                       {
-                        "en": "interactive learning apps",
-                        "vi": "ứng dụng học tập tương tác"
+                        "en": "participate in interactive math apps",
+                        "vi": "tham gia các ứng dụng học toán tương tác"
                       },
                       {
-                        "en": "more engaging lessons",
-                        "vi": "các bài học sinh động hơn"
+                        "en": "make classroom lessons more engaging",
+                        "vi": "giúp các tiết học trở nên sinh động hơn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "online dictionaries",
-                        "vi": "từ điển trực tuyến"
+                        "en": "smartphones",
+                        "vi": "điện thoại thông minh"
                       },
                       {
-                        "en": "interactive learning",
-                        "vi": "học tập tương tác"
+                        "en": "serve as useful learning tools",
+                        "vi": "đóng vai trò như công cụ học tập hữu ích"
                       },
                       {
-                        "en": "teacher supervision",
-                        "vi": "sự giám sát của giáo viên"
+                        "en": "under teacher supervision",
+                        "vi": "dưới sự giám sát của giáo viên"
+                      },
+                      {
+                        "en": "look up online dictionaries",
+                        "vi": "tra cứu từ điển trực tuyến"
+                      },
+                      {
+                        "en": "participate in interactive math apps",
+                        "vi": "tham gia các ứng dụng học toán tương tác"
+                      },
+                      {
+                        "en": "make classroom lessons more engaging",
+                        "vi": "giúp các tiết học trở nên sinh động hơn"
                       }
                     ]
                   },
@@ -164211,16 +164375,16 @@ const ESSAY_DATA = [
                     "point_en": "Schools should teach pupils responsible technology habits instead of a complete ban.",
                     "point_collocations": [
                       {
+                        "en": "teach pupils",
+                        "vi": "dạy học sinh"
+                      },
+                      {
                         "en": "responsible technology habits",
-                        "vi": "thói quen sử dụng công nghệ có trách nhiệm"
+                        "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
                       },
                       {
-                        "en": "complete ban",
-                        "vi": "lệnh cấm hoàn toàn"
-                      },
-                      {
-                        "en": "digital literacy",
-                        "vi": "năng lực số"
+                        "en": "instead of a complete ban",
+                        "vi": "thay vì cấm đoán hoàn toàn"
                       }
                     ],
                     "evidence_vi": "Giáo viên có thể đặt quy định cất điện thoại vào tủ đồ trong giờ học, nhờ đó trẻ nhỏ học được tính tự kỷ luật và ý thức công nghệ từ sớm.",
@@ -164228,33 +164392,57 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "set clear rules",
-                        "vi": "đưa ra các quy định rõ ràng"
+                        "vi": "đặt quy định rõ ràng"
                       },
                       {
                         "en": "keep phones in lockers",
                         "vi": "cất điện thoại vào tủ đồ"
                       },
                       {
+                        "en": "during class",
+                        "vi": "trong giờ học"
+                      },
+                      {
                         "en": "develop self-discipline",
-                        "vi": "phát triển tính tự kỷ luật"
+                        "vi": "học được tính tự kỷ luật"
                       },
                       {
                         "en": "digital awareness",
-                        "vi": "nhận thức về công nghệ số"
+                        "vi": "ý thức công nghệ từ sớm"
                       }
                     ],
                     "collocations": [
                       {
+                        "en": "teach pupils",
+                        "vi": "dạy học sinh"
+                      },
+                      {
+                        "en": "responsible technology habits",
+                        "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
+                      },
+                      {
+                        "en": "instead of a complete ban",
+                        "vi": "thay vì cấm đoán hoàn toàn"
+                      },
+                      {
                         "en": "set clear rules",
-                        "vi": "đưa ra quy định rõ ràng"
+                        "vi": "đặt quy định rõ ràng"
+                      },
+                      {
+                        "en": "keep phones in lockers",
+                        "vi": "cất điện thoại vào tủ đồ"
+                      },
+                      {
+                        "en": "during class",
+                        "vi": "trong giờ học"
                       },
                       {
                         "en": "develop self-discipline",
-                        "vi": "rèn luyện tính tự kỷ luật"
+                        "vi": "học được tính tự kỷ luật"
                       },
                       {
-                        "en": "responsible habits",
-                        "vi": "thói quen có trách nhiệm"
+                        "en": "digital awareness",
+                        "vi": "ý thức công nghệ từ sớm"
                       }
                     ]
                   }
@@ -165559,50 +165747,74 @@ const ESSAY_DATA = [
                 "point_en": "People can acquire new knowledge and practical skills at any stage of life.",
                 "point_collocations": [
                   {
-                    "en": "acquire new knowledge",
-                    "vi": "tiếp thu kiến thức mới"
+                    "en": "learning at any age",
+                    "vi": "học tập ở mọi lứa tuổi"
                   },
                   {
-                    "en": "practical skills",
-                    "vi": "kỹ năng thực tế"
+                    "en": "keep the human brain active",
+                    "vi": "giúp não bộ con người luôn hoạt động tích cực"
                   },
                   {
-                    "en": "stage of life",
-                    "vi": "giai đoạn của cuộc đời"
+                    "en": "mentally sharp",
+                    "vi": "duy trì sự nhạy bén"
                   }
                 ],
                 "evidence_vi": "Khoa học chứng minh não bộ luôn có khả năng thích nghi và học tập liên tục, vì vậy người lớn tuổi hoàn toàn có thể học thêm ngoại ngữ hoặc sử dụng máy tính thành thạo.",
                 "evidence_en": "Science shows that the human brain can adapt continuously, so older adults can learn foreign languages or master computer skills successfully.",
                 "evidence_collocations": [
                   {
-                    "en": "human brain",
-                    "vi": "não bộ con người"
+                    "en": "senior citizens",
+                    "vi": "người cao tuổi"
                   },
                   {
-                    "en": "adapt continuously",
-                    "vi": "thích nghi liên tục"
+                    "en": "attend painting classes",
+                    "vi": "tham gia các lớp học vẽ"
                   },
                   {
-                    "en": "learn foreign languages",
-                    "vi": "học ngoại ngữ"
+                    "en": "learn new foreign languages",
+                    "vi": "học ngoại ngữ mới"
                   },
                   {
-                    "en": "master computer skills",
-                    "vi": "thành thạo kỹ năng máy tính"
+                    "en": "improve memory",
+                    "vi": "cải thiện trí nhớ"
+                  },
+                  {
+                    "en": "prevent age-related cognitive decline",
+                    "vi": "phòng tránh suy giảm trí nhớ tuổi già"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "acquire new knowledge",
-                    "vi": "tiếp thu kiến thức mới"
+                    "en": "learning at any age",
+                    "vi": "học tập ở mọi lứa tuổi"
                   },
                   {
-                    "en": "master computer skills",
-                    "vi": "thành thạo kỹ năng máy tính"
+                    "en": "keep the human brain active",
+                    "vi": "giúp não bộ con người luôn hoạt động tích cực"
                   },
                   {
-                    "en": "adapt continuously",
-                    "vi": "thích nghi liên tục"
+                    "en": "mentally sharp",
+                    "vi": "duy trì sự nhạy bén"
+                  },
+                  {
+                    "en": "senior citizens",
+                    "vi": "người cao tuổi"
+                  },
+                  {
+                    "en": "attend painting classes",
+                    "vi": "tham gia các lớp học vẽ"
+                  },
+                  {
+                    "en": "learn new foreign languages",
+                    "vi": "học ngoại ngữ mới"
+                  },
+                  {
+                    "en": "improve memory",
+                    "vi": "cải thiện trí nhớ"
+                  },
+                  {
+                    "en": "prevent age-related cognitive decline",
+                    "vi": "phòng tránh suy giảm trí nhớ tuổi già"
                   }
                 ]
               },
@@ -165612,50 +165824,74 @@ const ESSAY_DATA = [
                 "point_en": "Lifelong learning helps maintain mental sharpness and improves brain health.",
                 "point_collocations": [
                   {
-                    "en": "lifelong learning",
-                    "vi": "học tập suốt đời"
+                    "en": "acquiring new skills",
+                    "vi": "học các kỹ năng mới"
                   },
                   {
-                    "en": "maintain mental sharpness",
-                    "vi": "duy trì tinh thần minh mẫn"
+                    "en": "fresh opportunities",
+                    "vi": "cơ hội mới"
                   },
                   {
-                    "en": "brain health",
-                    "vi": "sức khỏe trí não"
+                    "en": "career change",
+                    "vi": "chuyển đổi nghề nghiệp"
+                  },
+                  {
+                    "en": "professional advancement",
+                    "vi": "thăng tiến trong công việc"
                   }
                 ],
                 "evidence_vi": "Đọc sách, tham gia các khóa học và giải các câu đố kích thích tế bào não, do đó hoạt động này ngăn ngừa suy giảm trí nhớ ở người cao tuổi.",
                 "evidence_en": "Reading books, joining courses, and solving puzzles stimulate brain cells, so this prevents memory loss among elderly people.",
                 "evidence_collocations": [
                   {
-                    "en": "stimulate brain cells",
-                    "vi": "kích thích tế bào não"
+                    "en": "middle-aged workers",
+                    "vi": "người lao động ở độ tuổi trung niên"
                   },
                   {
-                    "en": "solve puzzles",
-                    "vi": "giải các câu đố"
+                    "en": "complete online training courses",
+                    "vi": "hoàn thành các khóa đào tạo trực tuyến"
                   },
                   {
-                    "en": "prevent memory loss",
-                    "vi": "ngăn ngừa suy giảm trí nhớ"
+                    "en": "coding or business management",
+                    "vi": "lập trình hoặc quản trị kinh doanh"
                   },
                   {
-                    "en": "elderly people",
-                    "vi": "người cao tuổi"
+                    "en": "secure better job positions",
+                    "vi": "tìm được những công việc tốt hơn"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "lifelong learning",
-                    "vi": "học tập suốt đời"
+                    "en": "acquiring new skills",
+                    "vi": "học các kỹ năng mới"
                   },
                   {
-                    "en": "prevent memory loss",
-                    "vi": "ngăn ngừa suy giảm trí nhớ"
+                    "en": "fresh opportunities",
+                    "vi": "cơ hội mới"
                   },
                   {
-                    "en": "mental sharpness",
-                    "vi": "sự minh mẫn tinh thần"
+                    "en": "career change",
+                    "vi": "chuyển đổi nghề nghiệp"
+                  },
+                  {
+                    "en": "professional advancement",
+                    "vi": "thăng tiến trong công việc"
+                  },
+                  {
+                    "en": "middle-aged workers",
+                    "vi": "người lao động ở độ tuổi trung niên"
+                  },
+                  {
+                    "en": "complete online training courses",
+                    "vi": "hoàn thành các khóa đào tạo trực tuyến"
+                  },
+                  {
+                    "en": "coding or business management",
+                    "vi": "lập trình hoặc quản trị kinh doanh"
+                  },
+                  {
+                    "en": "secure better job positions",
+                    "vi": "tìm được những công việc tốt hơn"
                   }
                 ]
               },
@@ -165665,46 +165901,66 @@ const ESSAY_DATA = [
                 "point_en": "Adult learning opens new career opportunities and enriches personal happiness.",
                 "point_collocations": [
                   {
-                    "en": "adult learning",
-                    "vi": "việc học ở tuổi trưởng thành"
+                    "en": "pursuing knowledge",
+                    "vi": "việc theo đuổi kiến thức"
                   },
                   {
-                    "en": "new career opportunities",
-                    "vi": "cơ hội nghề nghiệp mới"
+                    "en": "bring genuine happiness",
+                    "vi": "mang lại niềm vui sống chân thực"
                   },
                   {
-                    "en": "personal happiness",
-                    "vi": "hạnh phúc cá nhân"
+                    "en": "sense of personal fulfillment",
+                    "vi": "cảm giác trọn vẹn cho bản thân"
                   }
                 ],
                 "evidence_vi": "Nhiều người chuyển đổi nghề nghiệp thành công hoặc tìm thấy niềm đam mê mới sau tuổi trung niên, vì vậy việc học đem lại cảm giác tự tin và ý nghĩa.",
                 "evidence_en": "Many people switch careers successfully or discover new passions after middle age, so learning brings a strong sense of purpose.",
                 "evidence_collocations": [
                   {
-                    "en": "switch careers successfully",
-                    "vi": "chuyển đổi nghề nghiệp thành công"
+                    "en": "retired people",
+                    "vi": "người về hưu"
                   },
                   {
-                    "en": "discover new passions",
-                    "vi": "khám phá niềm đam mê mới"
+                    "en": "study history, music, or cooking",
+                    "vi": "tìm hiểu về lịch sử, âm nhạc hoặc nấu ăn"
                   },
                   {
-                    "en": "sense of purpose",
-                    "vi": "cảm giác sống có mục đích và ý nghĩa"
+                    "en": "spiritual lives",
+                    "vi": "cuộc sống tinh thần"
+                  },
+                  {
+                    "en": "much richer and happier",
+                    "vi": "phong phú và hạnh phúc hơn nhiều"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "switch careers",
-                    "vi": "chuyển nghề"
+                    "en": "pursuing knowledge",
+                    "vi": "việc theo đuổi kiến thức"
                   },
                   {
-                    "en": "discover new passions",
-                    "vi": "khám phá đam mê mới"
+                    "en": "bring genuine happiness",
+                    "vi": "mang lại niềm vui sống chân thực"
                   },
                   {
-                    "en": "sense of purpose",
-                    "vi": "cảm giác ý nghĩa mục đích"
+                    "en": "sense of personal fulfillment",
+                    "vi": "cảm giác trọn vẹn cho bản thân"
+                  },
+                  {
+                    "en": "retired people",
+                    "vi": "người về hưu"
+                  },
+                  {
+                    "en": "study history, music, or cooking",
+                    "vi": "tìm hiểu về lịch sử, âm nhạc hoặc nấu ăn"
+                  },
+                  {
+                    "en": "spiritual lives",
+                    "vi": "cuộc sống tinh thần"
+                  },
+                  {
+                    "en": "much richer and happier",
+                    "vi": "phong phú và hạnh phúc hơn nhiều"
                   }
                 ]
               }
@@ -166918,50 +167174,74 @@ const ESSAY_DATA = [
                     "point_en": "People can acquire new knowledge and practical skills at any stage of life.",
                     "point_collocations": [
                       {
-                        "en": "acquire new knowledge",
-                        "vi": "tiếp thu kiến thức mới"
+                        "en": "learning at any age",
+                        "vi": "học tập ở mọi lứa tuổi"
                       },
                       {
-                        "en": "practical skills",
-                        "vi": "kỹ năng thực tế"
+                        "en": "keep the human brain active",
+                        "vi": "giúp não bộ con người luôn hoạt động tích cực"
                       },
                       {
-                        "en": "stage of life",
-                        "vi": "giai đoạn của cuộc đời"
+                        "en": "mentally sharp",
+                        "vi": "duy trì sự nhạy bén"
                       }
                     ],
                     "evidence_vi": "Khoa học chứng minh não bộ luôn có khả năng thích nghi và học tập liên tục, vì vậy người lớn tuổi hoàn toàn có thể học thêm ngoại ngữ hoặc sử dụng máy tính thành thạo.",
                     "evidence_en": "Science shows that the human brain can adapt continuously, so older adults can learn foreign languages or master computer skills successfully.",
                     "evidence_collocations": [
                       {
-                        "en": "human brain",
-                        "vi": "não bộ con người"
+                        "en": "senior citizens",
+                        "vi": "người cao tuổi"
                       },
                       {
-                        "en": "adapt continuously",
-                        "vi": "thích nghi liên tục"
+                        "en": "attend painting classes",
+                        "vi": "tham gia các lớp học vẽ"
                       },
                       {
-                        "en": "learn foreign languages",
-                        "vi": "học ngoại ngữ"
+                        "en": "learn new foreign languages",
+                        "vi": "học ngoại ngữ mới"
                       },
                       {
-                        "en": "master computer skills",
-                        "vi": "thành thạo kỹ năng máy tính"
+                        "en": "improve memory",
+                        "vi": "cải thiện trí nhớ"
+                      },
+                      {
+                        "en": "prevent age-related cognitive decline",
+                        "vi": "phòng tránh suy giảm trí nhớ tuổi già"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "acquire new knowledge",
-                        "vi": "tiếp thu kiến thức mới"
+                        "en": "learning at any age",
+                        "vi": "học tập ở mọi lứa tuổi"
                       },
                       {
-                        "en": "master computer skills",
-                        "vi": "thành thạo kỹ năng máy tính"
+                        "en": "keep the human brain active",
+                        "vi": "giúp não bộ con người luôn hoạt động tích cực"
                       },
                       {
-                        "en": "adapt continuously",
-                        "vi": "thích nghi liên tục"
+                        "en": "mentally sharp",
+                        "vi": "duy trì sự nhạy bén"
+                      },
+                      {
+                        "en": "senior citizens",
+                        "vi": "người cao tuổi"
+                      },
+                      {
+                        "en": "attend painting classes",
+                        "vi": "tham gia các lớp học vẽ"
+                      },
+                      {
+                        "en": "learn new foreign languages",
+                        "vi": "học ngoại ngữ mới"
+                      },
+                      {
+                        "en": "improve memory",
+                        "vi": "cải thiện trí nhớ"
+                      },
+                      {
+                        "en": "prevent age-related cognitive decline",
+                        "vi": "phòng tránh suy giảm trí nhớ tuổi già"
                       }
                     ]
                   },
@@ -166971,50 +167251,74 @@ const ESSAY_DATA = [
                     "point_en": "Lifelong learning helps maintain mental sharpness and improves brain health.",
                     "point_collocations": [
                       {
-                        "en": "lifelong learning",
-                        "vi": "học tập suốt đời"
+                        "en": "acquiring new skills",
+                        "vi": "học các kỹ năng mới"
                       },
                       {
-                        "en": "maintain mental sharpness",
-                        "vi": "duy trì tinh thần minh mẫn"
+                        "en": "fresh opportunities",
+                        "vi": "cơ hội mới"
                       },
                       {
-                        "en": "brain health",
-                        "vi": "sức khỏe trí não"
+                        "en": "career change",
+                        "vi": "chuyển đổi nghề nghiệp"
+                      },
+                      {
+                        "en": "professional advancement",
+                        "vi": "thăng tiến trong công việc"
                       }
                     ],
                     "evidence_vi": "Đọc sách, tham gia các khóa học và giải các câu đố kích thích tế bào não, do đó hoạt động này ngăn ngừa suy giảm trí nhớ ở người cao tuổi.",
                     "evidence_en": "Reading books, joining courses, and solving puzzles stimulate brain cells, so this prevents memory loss among elderly people.",
                     "evidence_collocations": [
                       {
-                        "en": "stimulate brain cells",
-                        "vi": "kích thích tế bào não"
+                        "en": "middle-aged workers",
+                        "vi": "người lao động ở độ tuổi trung niên"
                       },
                       {
-                        "en": "solve puzzles",
-                        "vi": "giải các câu đố"
+                        "en": "complete online training courses",
+                        "vi": "hoàn thành các khóa đào tạo trực tuyến"
                       },
                       {
-                        "en": "prevent memory loss",
-                        "vi": "ngăn ngừa suy giảm trí nhớ"
+                        "en": "coding or business management",
+                        "vi": "lập trình hoặc quản trị kinh doanh"
                       },
                       {
-                        "en": "elderly people",
-                        "vi": "người cao tuổi"
+                        "en": "secure better job positions",
+                        "vi": "tìm được những công việc tốt hơn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "lifelong learning",
-                        "vi": "học tập suốt đời"
+                        "en": "acquiring new skills",
+                        "vi": "học các kỹ năng mới"
                       },
                       {
-                        "en": "prevent memory loss",
-                        "vi": "ngăn ngừa suy giảm trí nhớ"
+                        "en": "fresh opportunities",
+                        "vi": "cơ hội mới"
                       },
                       {
-                        "en": "mental sharpness",
-                        "vi": "sự minh mẫn tinh thần"
+                        "en": "career change",
+                        "vi": "chuyển đổi nghề nghiệp"
+                      },
+                      {
+                        "en": "professional advancement",
+                        "vi": "thăng tiến trong công việc"
+                      },
+                      {
+                        "en": "middle-aged workers",
+                        "vi": "người lao động ở độ tuổi trung niên"
+                      },
+                      {
+                        "en": "complete online training courses",
+                        "vi": "hoàn thành các khóa đào tạo trực tuyến"
+                      },
+                      {
+                        "en": "coding or business management",
+                        "vi": "lập trình hoặc quản trị kinh doanh"
+                      },
+                      {
+                        "en": "secure better job positions",
+                        "vi": "tìm được những công việc tốt hơn"
                       }
                     ]
                   },
@@ -167024,46 +167328,66 @@ const ESSAY_DATA = [
                     "point_en": "Adult learning opens new career opportunities and enriches personal happiness.",
                     "point_collocations": [
                       {
-                        "en": "adult learning",
-                        "vi": "việc học ở tuổi trưởng thành"
+                        "en": "pursuing knowledge",
+                        "vi": "việc theo đuổi kiến thức"
                       },
                       {
-                        "en": "new career opportunities",
-                        "vi": "cơ hội nghề nghiệp mới"
+                        "en": "bring genuine happiness",
+                        "vi": "mang lại niềm vui sống chân thực"
                       },
                       {
-                        "en": "personal happiness",
-                        "vi": "hạnh phúc cá nhân"
+                        "en": "sense of personal fulfillment",
+                        "vi": "cảm giác trọn vẹn cho bản thân"
                       }
                     ],
                     "evidence_vi": "Nhiều người chuyển đổi nghề nghiệp thành công hoặc tìm thấy niềm đam mê mới sau tuổi trung niên, vì vậy việc học đem lại cảm giác tự tin và ý nghĩa.",
                     "evidence_en": "Many people switch careers successfully or discover new passions after middle age, so learning brings a strong sense of purpose.",
                     "evidence_collocations": [
                       {
-                        "en": "switch careers successfully",
-                        "vi": "chuyển đổi nghề nghiệp thành công"
+                        "en": "retired people",
+                        "vi": "người về hưu"
                       },
                       {
-                        "en": "discover new passions",
-                        "vi": "khám phá niềm đam mê mới"
+                        "en": "study history, music, or cooking",
+                        "vi": "tìm hiểu về lịch sử, âm nhạc hoặc nấu ăn"
                       },
                       {
-                        "en": "sense of purpose",
-                        "vi": "cảm giác sống có mục đích và ý nghĩa"
+                        "en": "spiritual lives",
+                        "vi": "cuộc sống tinh thần"
+                      },
+                      {
+                        "en": "much richer and happier",
+                        "vi": "phong phú và hạnh phúc hơn nhiều"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "switch careers",
-                        "vi": "chuyển nghề"
+                        "en": "pursuing knowledge",
+                        "vi": "việc theo đuổi kiến thức"
                       },
                       {
-                        "en": "discover new passions",
-                        "vi": "khám phá đam mê mới"
+                        "en": "bring genuine happiness",
+                        "vi": "mang lại niềm vui sống chân thực"
                       },
                       {
-                        "en": "sense of purpose",
-                        "vi": "cảm giác ý nghĩa mục đích"
+                        "en": "sense of personal fulfillment",
+                        "vi": "cảm giác trọn vẹn cho bản thân"
+                      },
+                      {
+                        "en": "retired people",
+                        "vi": "người về hưu"
+                      },
+                      {
+                        "en": "study history, music, or cooking",
+                        "vi": "tìm hiểu về lịch sử, âm nhạc hoặc nấu ăn"
+                      },
+                      {
+                        "en": "spiritual lives",
+                        "vi": "cuộc sống tinh thần"
+                      },
+                      {
+                        "en": "much richer and happier",
+                        "vi": "phong phú và hạnh phúc hơn nhiều"
                       }
                     ]
                   }
@@ -168272,32 +168596,36 @@ const ESSAY_DATA = [
                     "point_en": "Older individuals face natural declines in memory retention and learning speed.",
                     "point_collocations": [
                       {
-                        "en": "natural declines",
-                        "vi": "sự suy giảm tự nhiên"
-                      },
-                      {
                         "en": "memory retention",
                         "vi": "khả năng ghi nhớ"
                       },
                       {
-                        "en": "learning speed",
-                        "vi": "tốc độ học tập"
+                        "en": "absorb new information",
+                        "vi": "tiếp thu kiến thức mới"
+                      },
+                      {
+                        "en": "decline significantly with age",
+                        "vi": "suy giảm đáng kể theo tuổi tác"
                       }
                     ],
                     "evidence_vi": "Việc tiếp thu các môn học phức tạp như toán cao cấp hay lập trình trở nên rất khó khăn khi con người già đi, do đó kết quả học tập thường hạn chế.",
                     "evidence_en": "Absorbing complex subjects like advanced mathematics or programming becomes very challenging with age, so learning outcomes are often limited.",
                     "evidence_collocations": [
                       {
-                        "en": "absorbing complex subjects",
-                        "vi": "tiếp thu các môn học phức tạp"
+                        "en": "older people",
+                        "vi": "người lớn tuổi"
                       },
                       {
-                        "en": "learning outcomes",
-                        "vi": "kết quả học tập"
+                        "en": "spend much more time",
+                        "vi": "mất nhiều thời gian hơn"
                       },
                       {
-                        "en": "with age",
-                        "vi": "theo độ tuổi tăng dần"
+                        "en": "understand complex subjects",
+                        "vi": "hiểu các môn học phức tạp"
+                      },
+                      {
+                        "en": "easily feel discouraged",
+                        "vi": "dễ cảm thấy nản lòng"
                       }
                     ],
                     "collocations": [
@@ -168306,12 +168634,28 @@ const ESSAY_DATA = [
                         "vi": "khả năng ghi nhớ"
                       },
                       {
-                        "en": "learning speed",
-                        "vi": "tốc độ học tập"
+                        "en": "absorb new information",
+                        "vi": "tiếp thu kiến thức mới"
                       },
                       {
-                        "en": "complex subjects",
-                        "vi": "các môn học phức tạp"
+                        "en": "decline significantly with age",
+                        "vi": "suy giảm đáng kể theo tuổi tác"
+                      },
+                      {
+                        "en": "older people",
+                        "vi": "người lớn tuổi"
+                      },
+                      {
+                        "en": "spend much more time",
+                        "vi": "mất nhiều thời gian hơn"
+                      },
+                      {
+                        "en": "understand complex subjects",
+                        "vi": "hiểu các môn học phức tạp"
+                      },
+                      {
+                        "en": "easily feel discouraged",
+                        "vi": "dễ cảm thấy nản lòng"
                       }
                     ]
                   },
@@ -168325,28 +168669,36 @@ const ESSAY_DATA = [
                         "vi": "trách nhiệm gia đình"
                       },
                       {
-                        "en": "work duties",
-                        "vi": "nhiệm vụ công việc"
+                        "en": "financial burdens",
+                        "vi": "gánh nặng tài chính"
                       },
                       {
-                        "en": "adequate study time",
-                        "vi": "thời gian học tập thỏa đáng"
+                        "en": "mature adults",
+                        "vi": "người trưởng thành"
+                      },
+                      {
+                        "en": "little time for education",
+                        "vi": "thiếu thời gian cho việc học"
                       }
                     ],
                     "evidence_vi": "Việc cân bằng giữa kiếm sống, chăm sóc con cái và đi học vào buổi tối gây ra tình trạng kiệt sức, vì vậy nhiều người buộc phải bỏ dở giữa chừng.",
                     "evidence_en": "Balancing breadwinning, childcare, and evening classes leads to extreme exhaustion, so many mature students drop out prematurely.",
                     "evidence_collocations": [
                       {
-                        "en": "evening classes",
-                        "vi": "các lớp học buổi tối"
+                        "en": "stressful working hours",
+                        "vi": "giờ làm việc căng thẳng"
                       },
                       {
-                        "en": "extreme exhaustion",
-                        "vi": "sự kiệt sức cùng cực"
+                        "en": "taking care of children",
+                        "vi": "chăm sóc con cái"
                       },
                       {
-                        "en": "drop out prematurely",
-                        "vi": "bỏ học giữa chừng"
+                        "en": "often exhausted",
+                        "vi": "thường kiệt sức"
+                      },
+                      {
+                        "en": "maintain regular study habits",
+                        "vi": "duy trì việc học tập đều đặn"
                       }
                     ],
                     "collocations": [
@@ -168355,12 +168707,32 @@ const ESSAY_DATA = [
                         "vi": "trách nhiệm gia đình"
                       },
                       {
-                        "en": "evening classes",
-                        "vi": "lớp học buổi tối"
+                        "en": "financial burdens",
+                        "vi": "gánh nặng tài chính"
                       },
                       {
-                        "en": "drop out",
-                        "vi": "bỏ học"
+                        "en": "mature adults",
+                        "vi": "người trưởng thành"
+                      },
+                      {
+                        "en": "little time for education",
+                        "vi": "thiếu thời gian cho việc học"
+                      },
+                      {
+                        "en": "stressful working hours",
+                        "vi": "giờ làm việc căng thẳng"
+                      },
+                      {
+                        "en": "taking care of children",
+                        "vi": "chăm sóc con cái"
+                      },
+                      {
+                        "en": "often exhausted",
+                        "vi": "thường kiệt sức"
+                      },
+                      {
+                        "en": "maintain regular study habits",
+                        "vi": "duy trì việc học tập đều đặn"
                       }
                     ]
                   },
@@ -168370,46 +168742,74 @@ const ESSAY_DATA = [
                     "point_en": "The job market tends to favor younger applicants over late-degree holders.",
                     "point_collocations": [
                       {
-                        "en": "job market",
-                        "vi": "thị trường việc làm"
+                        "en": "the job market",
+                        "vi": "thị trường lao động"
                       },
                       {
-                        "en": "younger applicants",
-                        "vi": "ứng viên trẻ tuổi hơn"
+                        "en": "prefer younger candidates",
+                        "vi": "ưu ái người trẻ tuổi hơn"
                       },
                       {
-                        "en": "late-degree holders",
-                        "vi": "người nhận bằng cấp muộn"
+                        "en": "older individuals",
+                        "vi": "những ứng viên lớn tuổi"
+                      },
+                      {
+                        "en": "switching career paths",
+                        "vi": "mới đổi ngành"
                       }
                     ],
                     "evidence_vi": "Các doanh nghiệp thường ngần ngại thuê nhân viên lớn tuổi mới tốt nghiệp, vì thế thời gian và tiền bạc đầu tư vào việc học muộn khó thu lại hiệu quả.",
                     "evidence_en": "Companies often hesitate to hire older entry-level graduates, so financial investments in late education rarely yield career benefits.",
                     "evidence_collocations": [
                       {
-                        "en": "older entry-level graduates",
-                        "vi": "sinh viên tốt nghiệp lớn tuổi mới vào nghề"
+                        "en": "hesitate to hire mature workers",
+                        "vi": "ngần ngại tuyển dụng nhân viên lớn tuổi"
                       },
                       {
-                        "en": "financial investments",
-                        "vi": "các khoản đầu tư tài chính"
+                        "en": "entry-level positions",
+                        "vi": "các vị trí khởi đầu mới"
                       },
                       {
-                        "en": "career benefits",
-                        "vi": "lợi ích nghề nghiệp"
+                        "en": "learning late",
+                        "vi": "việc học nghề muộn"
+                      },
+                      {
+                        "en": "practical economic returns",
+                        "vi": "lợi ích kinh tế thiết thực"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "job market",
-                        "vi": "thị trường việc làm"
+                        "en": "the job market",
+                        "vi": "thị trường lao động"
                       },
                       {
-                        "en": "entry-level graduates",
-                        "vi": "người mới tốt nghiệp vào nghề"
+                        "en": "prefer younger candidates",
+                        "vi": "ưu ái người trẻ tuổi hơn"
                       },
                       {
-                        "en": "career benefits",
-                        "vi": "lợi ích nghề nghiệp"
+                        "en": "older individuals",
+                        "vi": "những ứng viên lớn tuổi"
+                      },
+                      {
+                        "en": "switching career paths",
+                        "vi": "mới đổi ngành"
+                      },
+                      {
+                        "en": "hesitate to hire mature workers",
+                        "vi": "ngần ngại tuyển dụng nhân viên lớn tuổi"
+                      },
+                      {
+                        "en": "entry-level positions",
+                        "vi": "các vị trí khởi đầu mới"
+                      },
+                      {
+                        "en": "learning late",
+                        "vi": "việc học nghề muộn"
+                      },
+                      {
+                        "en": "practical economic returns",
+                        "vi": "lợi ích kinh tế thiết thực"
                       }
                     ]
                   }
@@ -169442,16 +169842,16 @@ const ESSAY_DATA = [
                 "point_en": "Using buses as the primary mode of transport reduces urban traffic congestion significantly.",
                 "point_collocations": [
                   {
-                    "en": "primary mode of transport",
-                    "vi": "phương tiện giao thông chính"
+                    "en": "buses",
+                    "vi": "xe buýt"
                   },
                   {
-                    "en": "urban traffic congestion",
-                    "vi": "ùn tắc giao thông đô thị"
+                    "en": "reduce severe traffic congestion",
+                    "vi": "giảm thiểu ùn tắc giao thông nghiêm trọng"
                   },
                   {
-                    "en": "traffic flow",
-                    "vi": "luồng lưu thông giao thông"
+                    "en": "in large cities",
+                    "vi": "tại các thành phố lớn"
                   }
                 ],
                 "evidence_vi": "Một chiếc xe buýt có thể chở hàng chục hành khách cùng lúc, vì vậy nó thay thế một lượng lớn xe máy và ô tô cá nhân trên đường.",
@@ -169462,26 +169862,38 @@ const ESSAY_DATA = [
                     "vi": "chở hàng chục hành khách"
                   },
                   {
-                    "en": "replace private vehicles",
-                    "vi": "thay thế phương tiện cá nhân"
+                    "en": "replace dozens of individual motorbikes",
+                    "vi": "thay thế hàng chục chiếc xe máy cá nhân"
                   },
                   {
-                    "en": "clear crowded streets",
-                    "vi": "giải tỏa đường phố đông đúc"
+                    "en": "private cars on roads",
+                    "vi": "ô tô cá nhân trên đường phố"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "traffic congestion",
-                    "vi": "ùn tắc giao thông"
+                    "en": "buses",
+                    "vi": "xe buýt"
                   },
                   {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
+                    "en": "reduce severe traffic congestion",
+                    "vi": "giảm thiểu ùn tắc giao thông nghiêm trọng"
                   },
                   {
-                    "en": "carry passengers",
-                    "vi": "chở hành khách"
+                    "en": "in large cities",
+                    "vi": "tại các thành phố lớn"
+                  },
+                  {
+                    "en": "carry dozens of passengers",
+                    "vi": "chở hàng chục hành khách"
+                  },
+                  {
+                    "en": "replace dozens of individual motorbikes",
+                    "vi": "thay thế hàng chục chiếc xe máy cá nhân"
+                  },
+                  {
+                    "en": "private cars on roads",
+                    "vi": "ô tô cá nhân trên đường phố"
                   }
                 ]
               },
@@ -169499,38 +169911,58 @@ const ESSAY_DATA = [
                     "vi": "thải ít khí thải hơn"
                   },
                   {
-                    "en": "improve air quality",
-                    "vi": "cải thiện chất lượng không khí"
+                    "en": "per passenger",
+                    "vi": "tính trên mỗi đầu người"
                   }
                 ],
                 "evidence_vi": "Nhiều thành phố hiện nay đang đưa vào hoạt động các dòng xe buýt điện sạch, do đó bầu không khí đô thị trở nên trong lành hơn.",
                 "evidence_en": "Many modern cities now operate clean electric buses, so urban air becomes much cleaner and healthier.",
                 "evidence_collocations": [
                   {
-                    "en": "clean electric buses",
-                    "vi": "xe buýt điện sạch"
+                    "en": "modern cities",
+                    "vi": "thành phố hiện đại"
+                  },
+                  {
+                    "en": "operate clean electric buses",
+                    "vi": "đưa vào hoạt động các dòng xe buýt điện sạch"
                   },
                   {
                     "en": "urban air",
                     "vi": "không khí đô thị"
                   },
                   {
-                    "en": "healthier living conditions",
-                    "vi": "điều kiện sống lành mạnh hơn"
+                    "en": "much cleaner and healthier",
+                    "vi": "trong lành và tốt cho sức khỏe hơn nhiều"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "electric buses",
-                    "vi": "xe buýt điện"
+                    "en": "environmentally friendly",
+                    "vi": "thân thiện với môi trường"
                   },
                   {
                     "en": "produce fewer emissions",
-                    "vi": "thải ít khí độc"
+                    "vi": "thải ít khí thải hơn"
+                  },
+                  {
+                    "en": "per passenger",
+                    "vi": "tính trên mỗi đầu người"
+                  },
+                  {
+                    "en": "modern cities",
+                    "vi": "thành phố hiện đại"
+                  },
+                  {
+                    "en": "operate clean electric buses",
+                    "vi": "đưa vào hoạt động các dòng xe buýt điện sạch"
                   },
                   {
                     "en": "urban air",
                     "vi": "không khí đô thị"
+                  },
+                  {
+                    "en": "much cleaner and healthier",
+                    "vi": "trong lành và tốt cho sức khỏe hơn nhiều"
                   }
                 ]
               },
@@ -169540,46 +169972,82 @@ const ESSAY_DATA = [
                 "point_en": "Travelling by bus saves citizens a significant amount of money each month.",
                 "point_collocations": [
                   {
-                    "en": "travel by bus",
+                    "en": "travelling by bus",
                     "vi": "đi lại bằng xe buýt"
                   },
                   {
-                    "en": "save a significant amount of money",
-                    "vi": "tiết kiệm khoản tiền đáng kể"
+                    "en": "save citizens",
+                    "vi": "giúp người dân tiết kiệm"
                   },
                   {
-                    "en": "affordable fares",
-                    "vi": "giá vé hợp túi tiền"
+                    "en": "a significant amount of money",
+                    "vi": "một khoản tiền đáng kể"
+                  },
+                  {
+                    "en": "each month",
+                    "vi": "mỗi tháng"
                   }
                 ],
                 "evidence_vi": "Giá vé xe buýt thường rất rẻ và được nhà nước trợ giá, vì vậy sinh viên và người có thu nhập thấp giảm được gánh nặng tiền xăng và phí gửi xe.",
                 "evidence_en": "Bus fares are cheap and subsidized by governments, so students and low-income commuters avoid high fuel costs and parking fees.",
                 "evidence_collocations": [
                   {
-                    "en": "subsidized fares",
-                    "vi": "giá vé được trợ giá"
+                    "en": "bus fares",
+                    "vi": "giá vé xe buýt"
                   },
                   {
-                    "en": "low-income commuters",
-                    "vi": "người đi làm có thu nhập thấp"
+                    "en": "subsidized by governments",
+                    "vi": "được nhà nước trợ giá"
                   },
                   {
-                    "en": "fuel costs and parking fees",
-                    "vi": "tiền xăng và phí đỗ xe"
+                    "en": "students and low-income commuters",
+                    "vi": "sinh viên và người có thu nhập thấp"
+                  },
+                  {
+                    "en": "avoid high fuel costs",
+                    "vi": "giảm gánh nặng tiền xăng"
+                  },
+                  {
+                    "en": "parking fees",
+                    "vi": "phí gửi xe"
                   }
                 ],
                 "collocations": [
+                  {
+                    "en": "travelling by bus",
+                    "vi": "đi lại bằng xe buýt"
+                  },
+                  {
+                    "en": "save citizens",
+                    "vi": "giúp người dân tiết kiệm"
+                  },
+                  {
+                    "en": "a significant amount of money",
+                    "vi": "một khoản tiền đáng kể"
+                  },
+                  {
+                    "en": "each month",
+                    "vi": "mỗi tháng"
+                  },
                   {
                     "en": "bus fares",
                     "vi": "giá vé xe buýt"
                   },
                   {
-                    "en": "parking fees",
-                    "vi": "phí gửi xe"
+                    "en": "subsidized by governments",
+                    "vi": "được nhà nước trợ giá"
                   },
                   {
-                    "en": "fuel costs",
-                    "vi": "chi phí xăng xe"
+                    "en": "students and low-income commuters",
+                    "vi": "sinh viên và người có thu nhập thấp"
+                  },
+                  {
+                    "en": "avoid high fuel costs",
+                    "vi": "giảm gánh nặng tiền xăng"
+                  },
+                  {
+                    "en": "parking fees",
+                    "vi": "phí gửi xe"
                   }
                 ]
               }
@@ -170147,16 +170615,16 @@ const ESSAY_DATA = [
                     "point_en": "Using buses as the primary mode of transport reduces urban traffic congestion significantly.",
                     "point_collocations": [
                       {
-                        "en": "primary mode of transport",
-                        "vi": "phương tiện giao thông chính"
+                        "en": "buses",
+                        "vi": "xe buýt"
                       },
                       {
-                        "en": "urban traffic congestion",
-                        "vi": "ùn tắc giao thông đô thị"
+                        "en": "reduce severe traffic congestion",
+                        "vi": "giảm thiểu ùn tắc giao thông nghiêm trọng"
                       },
                       {
-                        "en": "traffic flow",
-                        "vi": "luồng lưu thông giao thông"
+                        "en": "in large cities",
+                        "vi": "tại các thành phố lớn"
                       }
                     ],
                     "evidence_vi": "Một chiếc xe buýt có thể chở hàng chục hành khách cùng lúc, vì vậy nó thay thế một lượng lớn xe máy và ô tô cá nhân trên đường.",
@@ -170167,26 +170635,38 @@ const ESSAY_DATA = [
                         "vi": "chở hàng chục hành khách"
                       },
                       {
-                        "en": "replace private vehicles",
-                        "vi": "thay thế phương tiện cá nhân"
+                        "en": "replace dozens of individual motorbikes",
+                        "vi": "thay thế hàng chục chiếc xe máy cá nhân"
                       },
                       {
-                        "en": "clear crowded streets",
-                        "vi": "giải tỏa đường phố đông đúc"
+                        "en": "private cars on roads",
+                        "vi": "ô tô cá nhân trên đường phố"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "traffic congestion",
-                        "vi": "ùn tắc giao thông"
+                        "en": "buses",
+                        "vi": "xe buýt"
                       },
                       {
-                        "en": "private vehicles",
-                        "vi": "phương tiện cá nhân"
+                        "en": "reduce severe traffic congestion",
+                        "vi": "giảm thiểu ùn tắc giao thông nghiêm trọng"
                       },
                       {
-                        "en": "carry passengers",
-                        "vi": "chở hành khách"
+                        "en": "in large cities",
+                        "vi": "tại các thành phố lớn"
+                      },
+                      {
+                        "en": "carry dozens of passengers",
+                        "vi": "chở hàng chục hành khách"
+                      },
+                      {
+                        "en": "replace dozens of individual motorbikes",
+                        "vi": "thay thế hàng chục chiếc xe máy cá nhân"
+                      },
+                      {
+                        "en": "private cars on roads",
+                        "vi": "ô tô cá nhân trên đường phố"
                       }
                     ]
                   },
@@ -170204,38 +170684,58 @@ const ESSAY_DATA = [
                         "vi": "thải ít khí thải hơn"
                       },
                       {
-                        "en": "improve air quality",
-                        "vi": "cải thiện chất lượng không khí"
+                        "en": "per passenger",
+                        "vi": "tính trên mỗi đầu người"
                       }
                     ],
                     "evidence_vi": "Nhiều thành phố hiện nay đang đưa vào hoạt động các dòng xe buýt điện sạch, do đó bầu không khí đô thị trở nên trong lành hơn.",
                     "evidence_en": "Many modern cities now operate clean electric buses, so urban air becomes much cleaner and healthier.",
                     "evidence_collocations": [
                       {
-                        "en": "clean electric buses",
-                        "vi": "xe buýt điện sạch"
+                        "en": "modern cities",
+                        "vi": "thành phố hiện đại"
+                      },
+                      {
+                        "en": "operate clean electric buses",
+                        "vi": "đưa vào hoạt động các dòng xe buýt điện sạch"
                       },
                       {
                         "en": "urban air",
                         "vi": "không khí đô thị"
                       },
                       {
-                        "en": "healthier living conditions",
-                        "vi": "điều kiện sống lành mạnh hơn"
+                        "en": "much cleaner and healthier",
+                        "vi": "trong lành và tốt cho sức khỏe hơn nhiều"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "electric buses",
-                        "vi": "xe buýt điện"
+                        "en": "environmentally friendly",
+                        "vi": "thân thiện với môi trường"
                       },
                       {
                         "en": "produce fewer emissions",
-                        "vi": "thải ít khí độc"
+                        "vi": "thải ít khí thải hơn"
+                      },
+                      {
+                        "en": "per passenger",
+                        "vi": "tính trên mỗi đầu người"
+                      },
+                      {
+                        "en": "modern cities",
+                        "vi": "thành phố hiện đại"
+                      },
+                      {
+                        "en": "operate clean electric buses",
+                        "vi": "đưa vào hoạt động các dòng xe buýt điện sạch"
                       },
                       {
                         "en": "urban air",
                         "vi": "không khí đô thị"
+                      },
+                      {
+                        "en": "much cleaner and healthier",
+                        "vi": "trong lành và tốt cho sức khỏe hơn nhiều"
                       }
                     ]
                   },
@@ -170245,46 +170745,82 @@ const ESSAY_DATA = [
                     "point_en": "Travelling by bus saves citizens a significant amount of money each month.",
                     "point_collocations": [
                       {
-                        "en": "travel by bus",
+                        "en": "travelling by bus",
                         "vi": "đi lại bằng xe buýt"
                       },
                       {
-                        "en": "save a significant amount of money",
-                        "vi": "tiết kiệm khoản tiền đáng kể"
+                        "en": "save citizens",
+                        "vi": "giúp người dân tiết kiệm"
                       },
                       {
-                        "en": "affordable fares",
-                        "vi": "giá vé hợp túi tiền"
+                        "en": "a significant amount of money",
+                        "vi": "một khoản tiền đáng kể"
+                      },
+                      {
+                        "en": "each month",
+                        "vi": "mỗi tháng"
                       }
                     ],
                     "evidence_vi": "Giá vé xe buýt thường rất rẻ và được nhà nước trợ giá, vì vậy sinh viên và người có thu nhập thấp giảm được gánh nặng tiền xăng và phí gửi xe.",
                     "evidence_en": "Bus fares are cheap and subsidized by governments, so students and low-income commuters avoid high fuel costs and parking fees.",
                     "evidence_collocations": [
                       {
-                        "en": "subsidized fares",
-                        "vi": "giá vé được trợ giá"
+                        "en": "bus fares",
+                        "vi": "giá vé xe buýt"
                       },
                       {
-                        "en": "low-income commuters",
-                        "vi": "người đi làm có thu nhập thấp"
+                        "en": "subsidized by governments",
+                        "vi": "được nhà nước trợ giá"
                       },
                       {
-                        "en": "fuel costs and parking fees",
-                        "vi": "tiền xăng và phí đỗ xe"
+                        "en": "students and low-income commuters",
+                        "vi": "sinh viên và người có thu nhập thấp"
+                      },
+                      {
+                        "en": "avoid high fuel costs",
+                        "vi": "giảm gánh nặng tiền xăng"
+                      },
+                      {
+                        "en": "parking fees",
+                        "vi": "phí gửi xe"
                       }
                     ],
                     "collocations": [
+                      {
+                        "en": "travelling by bus",
+                        "vi": "đi lại bằng xe buýt"
+                      },
+                      {
+                        "en": "save citizens",
+                        "vi": "giúp người dân tiết kiệm"
+                      },
+                      {
+                        "en": "a significant amount of money",
+                        "vi": "một khoản tiền đáng kể"
+                      },
+                      {
+                        "en": "each month",
+                        "vi": "mỗi tháng"
+                      },
                       {
                         "en": "bus fares",
                         "vi": "giá vé xe buýt"
                       },
                       {
-                        "en": "parking fees",
-                        "vi": "phí gửi xe"
+                        "en": "subsidized by governments",
+                        "vi": "được nhà nước trợ giá"
                       },
                       {
-                        "en": "fuel costs",
-                        "vi": "chi phí xăng xe"
+                        "en": "students and low-income commuters",
+                        "vi": "sinh viên và người có thu nhập thấp"
+                      },
+                      {
+                        "en": "avoid high fuel costs",
+                        "vi": "giảm gánh nặng tiền xăng"
+                      },
+                      {
+                        "en": "parking fees",
+                        "vi": "phí gửi xe"
                       }
                     ]
                   }
@@ -170852,16 +171388,16 @@ const ESSAY_DATA = [
                     "point_en": "Buses lack route flexibility and scheduling freedom compared to private transport.",
                     "point_collocations": [
                       {
-                        "en": "route flexibility",
-                        "vi": "sự linh hoạt về lộ trình"
+                        "en": "lack route flexibility",
+                        "vi": "thiếu tính linh hoạt về lộ trình"
                       },
                       {
                         "en": "scheduling freedom",
-                        "vi": "sự tự do về lịch trình"
+                        "vi": "lịch trình tự do"
                       },
                       {
-                        "en": "private transport",
-                        "vi": "phương tiện cá nhân"
+                        "en": "compared to private transport",
+                        "vi": "so với xe cá nhân"
                       }
                     ],
                     "evidence_vi": "Hành khách phải tuân thủ các tuyến đường cố định và chờ đợi ở các trạm dừng, vì vậy họ khó có thể xử lý các công việc gấp gáp.",
@@ -170869,29 +171405,41 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "follow fixed routes",
-                        "vi": "đi theo lộ trình cố định"
+                        "vi": "tuân thủ các tuyến đường cố định"
                       },
                       {
                         "en": "wait at designated stops",
-                        "vi": "chờ ở các trạm quy định"
+                        "vi": "chờ đợi ở các trạm dừng"
                       },
                       {
-                        "en": "handle urgent schedules",
-                        "vi": "xử lý lịch trình gấp gáp"
+                        "en": "handle urgent schedules easily",
+                        "vi": "xử lý các công việc gấp gáp dễ dàng"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "fixed routes",
-                        "vi": "tuyến đường cố định"
+                        "en": "lack route flexibility",
+                        "vi": "thiếu tính linh hoạt về lộ trình"
                       },
                       {
-                        "en": "designated stops",
-                        "vi": "trạm dừng được chỉ định"
+                        "en": "scheduling freedom",
+                        "vi": "lịch trình tự do"
                       },
                       {
-                        "en": "route flexibility",
-                        "vi": "sự linh hoạt lộ trình"
+                        "en": "compared to private transport",
+                        "vi": "so với xe cá nhân"
+                      },
+                      {
+                        "en": "follow fixed routes",
+                        "vi": "tuân thủ các tuyến đường cố định"
+                      },
+                      {
+                        "en": "wait at designated stops",
+                        "vi": "chờ đợi ở các trạm dừng"
+                      },
+                      {
+                        "en": "handle urgent schedules easily",
+                        "vi": "xử lý các công việc gấp gáp dễ dàng"
                       }
                     ]
                   },
@@ -170902,45 +171450,65 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "frequently overcrowded",
-                        "vi": "thường xuyên quá tải"
+                        "vi": "thường xuyên bị quá tải"
                       },
                       {
                         "en": "uncomfortable",
-                        "vi": "không thoải mái"
+                        "vi": "gây cảm giác khó chịu"
                       },
                       {
-                        "en": "peak hours",
-                        "vi": "giờ cao điểm"
+                        "en": "during peak hours",
+                        "vi": "vào giờ cao điểm"
                       }
                     ],
                     "evidence_vi": "Hành khách phải đứng chen chúc trong không gian chật chội và nóng nực, vì thế người lớn tuổi và trẻ nhỏ cảm thấy rất mệt mỏi.",
                     "evidence_en": "Commuters must stand packed in cramped spaces, so elderly people and small children feel exhausted.",
                     "evidence_collocations": [
                       {
-                        "en": "cramped spaces",
-                        "vi": "không gian chật chội"
+                        "en": "stand packed",
+                        "vi": "đứng chen chúc"
                       },
                       {
-                        "en": "elderly people",
-                        "vi": "người cao tuổi"
+                        "en": "in cramped spaces",
+                        "vi": "trong không gian chật chội"
+                      },
+                      {
+                        "en": "elderly people and small children",
+                        "vi": "người lớn tuổi và trẻ nhỏ"
                       },
                       {
                         "en": "feel exhausted",
-                        "vi": "cảm thấy kiệt sức mệt mỏi"
+                        "vi": "cảm thấy rất mệt mỏi"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "peak hours",
-                        "vi": "giờ cao điểm"
+                        "en": "frequently overcrowded",
+                        "vi": "thường xuyên bị quá tải"
                       },
                       {
-                        "en": "cramped spaces",
-                        "vi": "không gian chật chội"
+                        "en": "uncomfortable",
+                        "vi": "gây cảm giác khó chịu"
                       },
                       {
-                        "en": "overcrowded",
-                        "vi": "quá tải đông đúc"
+                        "en": "during peak hours",
+                        "vi": "vào giờ cao điểm"
+                      },
+                      {
+                        "en": "stand packed",
+                        "vi": "đứng chen chúc"
+                      },
+                      {
+                        "en": "in cramped spaces",
+                        "vi": "trong không gian chật chội"
+                      },
+                      {
+                        "en": "elderly people and small children",
+                        "vi": "người lớn tuổi và trẻ nhỏ"
+                      },
+                      {
+                        "en": "feel exhausted",
+                        "vi": "cảm thấy rất mệt mỏi"
                       }
                     ]
                   },
@@ -170951,45 +171519,57 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "bus travel time",
-                        "vi": "thời gian đi xe buýt"
+                        "vi": "thời gian di chuyển bằng xe buýt"
                       },
                       {
-                        "en": "frequent passenger stops",
-                        "vi": "các điểm dừng đón trả khách thường xuyên"
+                        "en": "often much longer",
+                        "vi": "thường lâu hơn nhiều"
                       },
                       {
-                        "en": "daily commute",
-                        "vi": "quãng đường đi làm hằng ngày"
+                        "en": "due to frequent passenger stops",
+                        "vi": "do phải dừng đỗ liên tục"
                       }
                     ],
                     "evidence_vi": "Xe buýt vẫn bị kẹt trên cùng làn đường với các phương tiện khác, vì vậy hành khách dễ bị trễ giờ làm hoặc giờ học.",
                     "evidence_en": "Buses still get trapped in mixed traffic lanes, so commuters often arrive late for work or school.",
                     "evidence_collocations": [
                       {
-                        "en": "mixed traffic lanes",
-                        "vi": "các làn đường hỗn hợp"
+                        "en": "trapped in mixed traffic lanes",
+                        "vi": "kẹt trên cùng làn đường với các phương tiện khác"
                       },
                       {
-                        "en": "arrive late for work",
-                        "vi": "đến chỗ làm muộn"
+                        "en": "commuters",
+                        "vi": "hành khách"
                       },
                       {
-                        "en": "traffic delay",
-                        "vi": "sự chậm trễ giao thông"
+                        "en": "arrive late for work or school",
+                        "vi": "bị trễ giờ làm hoặc giờ học"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "travel time",
-                        "vi": "thời gian di chuyển"
+                        "en": "bus travel time",
+                        "vi": "thời gian di chuyển bằng xe buýt"
                       },
                       {
-                        "en": "traffic lanes",
-                        "vi": "làn đường giao thông"
+                        "en": "often much longer",
+                        "vi": "thường lâu hơn nhiều"
                       },
                       {
-                        "en": "arrive late",
-                        "vi": "đến muộn"
+                        "en": "due to frequent passenger stops",
+                        "vi": "do phải dừng đỗ liên tục"
+                      },
+                      {
+                        "en": "trapped in mixed traffic lanes",
+                        "vi": "kẹt trên cùng làn đường với các phương tiện khác"
+                      },
+                      {
+                        "en": "commuters",
+                        "vi": "hành khách"
+                      },
+                      {
+                        "en": "arrive late for work or school",
+                        "vi": "bị trễ giờ làm hoặc giờ học"
                       }
                     ]
                   }
@@ -171578,16 +172158,20 @@ const ESSAY_DATA = [
                 "point_en": "Cooking and domestic chores are basic survival skills for every child to live independently.",
                 "point_collocations": [
                   {
+                    "en": "cooking and domestic chores",
+                    "vi": "nấu ăn và làm việc nhà"
+                  },
+                  {
                     "en": "basic survival skills",
-                    "vi": "kỹ năng sinh tồn cơ bản"
+                    "vi": "các kỹ năng sinh tồn cơ bản"
+                  },
+                  {
+                    "en": "for every child",
+                    "vi": "cho mọi đứa trẻ"
                   },
                   {
                     "en": "live independently",
                     "vi": "sống tự lập"
-                  },
-                  {
-                    "en": "domestic chores",
-                    "vi": "việc nhà"
                   }
                 ],
                 "evidence_vi": "Khi lớn lên và đi học xa nhà, những đứa trẻ biết tự chuẩn bị bữa ăn và giặt giũ quần áo sẽ chăm sóc bản thân tốt hơn và tiết kiệm nhiều tiền bạc.",
@@ -171599,7 +172183,7 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "prepare meals",
-                    "vi": "chuẩn bị bữa ăn"
+                    "vi": "tự chuẩn bị bữa ăn"
                   },
                   {
                     "en": "wash clothes",
@@ -171608,20 +172192,48 @@ const ESSAY_DATA = [
                   {
                     "en": "take better care of themselves",
                     "vi": "chăm sóc bản thân tốt hơn"
+                  },
+                  {
+                    "en": "save money",
+                    "vi": "tiết kiệm nhiều tiền bạc"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "survival skills",
-                    "vi": "kỹ năng sinh tồn"
+                    "en": "cooking and domestic chores",
+                    "vi": "nấu ăn và làm việc nhà"
                   },
                   {
-                    "en": "domestic chores",
-                    "vi": "việc nhà"
+                    "en": "basic survival skills",
+                    "vi": "các kỹ năng sinh tồn cơ bản"
+                  },
+                  {
+                    "en": "for every child",
+                    "vi": "cho mọi đứa trẻ"
                   },
                   {
                     "en": "live independently",
                     "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "living away from home",
+                    "vi": "sống xa nhà"
+                  },
+                  {
+                    "en": "prepare meals",
+                    "vi": "tự chuẩn bị bữa ăn"
+                  },
+                  {
+                    "en": "wash clothes",
+                    "vi": "giặt giũ quần áo"
+                  },
+                  {
+                    "en": "take better care of themselves",
+                    "vi": "chăm sóc bản thân tốt hơn"
+                  },
+                  {
+                    "en": "save money",
+                    "vi": "tiết kiệm nhiều tiền bạc"
                   }
                 ]
               },
@@ -171631,46 +172243,74 @@ const ESSAY_DATA = [
                 "point_en": "Doing household chores helps children build self-discipline and share responsibilities with family members.",
                 "point_collocations": [
                   {
+                    "en": "doing household chores",
+                    "vi": "làm việc nhà"
+                  },
+                  {
                     "en": "build self-discipline",
                     "vi": "hình thành tính kỷ luật"
                   },
                   {
                     "en": "share responsibilities",
-                    "vi": "chia sẻ trách nhiệm"
+                    "vi": "biết chia sẻ công việc"
                   },
                   {
-                    "en": "family members",
-                    "vi": "thành viên gia đình"
+                    "en": "with family members",
+                    "vi": "với gia đình"
                   }
                 ],
                 "evidence_vi": "Dọn dẹp phòng ngủ hay rửa bát đĩa dạy cho trẻ bài học về sự ngăn nắp, vì vậy các em trở thành những người có trách nhiệm hơn trong cuộc sống.",
                 "evidence_en": "Cleaning bedrooms or washing dishes teaches children valuable lessons about tidiness, so they become more responsible individuals in society.",
                 "evidence_collocations": [
                   {
-                    "en": "valuable lessons about tidiness",
-                    "vi": "bài học quý về sự ngăn nắp"
-                  },
-                  {
-                    "en": "responsible individuals",
-                    "vi": "những cá nhân có trách nhiệm"
+                    "en": "cleaning bedrooms",
+                    "vi": "dọn dẹp phòng ngủ"
                   },
                   {
                     "en": "washing dishes",
                     "vi": "rửa bát đĩa"
+                  },
+                  {
+                    "en": "valuable lessons about tidiness",
+                    "vi": "bài học về sự ngăn nắp"
+                  },
+                  {
+                    "en": "more responsible individuals",
+                    "vi": "những người có trách nhiệm hơn"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "build self-discipline",
-                    "vi": "rèn tính kỷ luật"
+                    "en": "doing household chores",
+                    "vi": "làm việc nhà"
                   },
                   {
-                    "en": "responsible individuals",
-                    "vi": "người có trách nhiệm"
+                    "en": "build self-discipline",
+                    "vi": "hình thành tính kỷ luật"
                   },
                   {
                     "en": "share responsibilities",
-                    "vi": "chia sẻ trách nhiệm"
+                    "vi": "biết chia sẻ công việc"
+                  },
+                  {
+                    "en": "with family members",
+                    "vi": "với gia đình"
+                  },
+                  {
+                    "en": "cleaning bedrooms",
+                    "vi": "dọn dẹp phòng ngủ"
+                  },
+                  {
+                    "en": "washing dishes",
+                    "vi": "rửa bát đĩa"
+                  },
+                  {
+                    "en": "valuable lessons about tidiness",
+                    "vi": "bài học về sự ngăn nắp"
+                  },
+                  {
+                    "en": "more responsible individuals",
+                    "vi": "những người có trách nhiệm hơn"
                   }
                 ]
               },
@@ -171680,16 +172320,16 @@ const ESSAY_DATA = [
                 "point_en": "Both boys and girls need to learn domestic skills to eliminate outdated gender stereotypes.",
                 "point_collocations": [
                   {
-                    "en": "domestic skills",
-                    "vi": "kỹ năng việc nhà"
+                    "en": "both boys and girls",
+                    "vi": "cả bé trai và bé gái"
+                  },
+                  {
+                    "en": "learn domestic skills",
+                    "vi": "học việc nhà"
                   },
                   {
                     "en": "eliminate outdated gender stereotypes",
-                    "vi": "xóa bỏ định kiến giới lỗi thời"
-                  },
-                  {
-                    "en": "gender equality",
-                    "vi": "bình đẳng giới"
+                    "vi": "xóa bỏ các định kiến giới lỗi thời"
                   }
                 ],
                 "evidence_vi": "Phân chia công việc công bằng tạo ra một môi trường tôn trọng lẫn nhau, nhờ đó các em xây dựng được gia đình hạnh phúc và bình đẳng trong tương lai.",
@@ -171697,29 +172337,49 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   {
                     "en": "sharing household tasks fairly",
-                    "vi": "chia sẻ việc nhà công bằng"
+                    "vi": "phân chia công việc công bằng"
                   },
                   {
-                    "en": "mutual respect",
-                    "vi": "sự tôn trọng lẫn nhau"
+                    "en": "creates mutual respect",
+                    "vi": "tạo ra một môi trường tôn trọng lẫn nhau"
                   },
                   {
-                    "en": "equal families",
-                    "vi": "gia đình bình đẳng"
+                    "en": "build happier and more equal families",
+                    "vi": "xây dựng gia đình hạnh phúc và bình đẳng"
+                  },
+                  {
+                    "en": "in the future",
+                    "vi": "trong tương lai"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "gender stereotypes",
-                    "vi": "định kiến giới"
+                    "en": "both boys and girls",
+                    "vi": "cả bé trai và bé gái"
                   },
                   {
-                    "en": "mutual respect",
-                    "vi": "tôn trọng lẫn nhau"
+                    "en": "learn domestic skills",
+                    "vi": "học việc nhà"
                   },
                   {
-                    "en": "domestic skills",
-                    "vi": "kỹ năng việc nhà"
+                    "en": "eliminate outdated gender stereotypes",
+                    "vi": "xóa bỏ các định kiến giới lỗi thời"
+                  },
+                  {
+                    "en": "sharing household tasks fairly",
+                    "vi": "phân chia công việc công bằng"
+                  },
+                  {
+                    "en": "creates mutual respect",
+                    "vi": "tạo ra một môi trường tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "build happier and more equal families",
+                    "vi": "xây dựng gia đình hạnh phúc và bình đẳng"
+                  },
+                  {
+                    "en": "in the future",
+                    "vi": "trong tương lai"
                   }
                 ]
               }
@@ -172692,16 +173352,20 @@ const ESSAY_DATA = [
                     "point_en": "Cooking and domestic chores are basic survival skills for every child to live independently.",
                     "point_collocations": [
                       {
+                        "en": "cooking and domestic chores",
+                        "vi": "nấu ăn và làm việc nhà"
+                      },
+                      {
                         "en": "basic survival skills",
-                        "vi": "kỹ năng sinh tồn cơ bản"
+                        "vi": "các kỹ năng sinh tồn cơ bản"
+                      },
+                      {
+                        "en": "for every child",
+                        "vi": "cho mọi đứa trẻ"
                       },
                       {
                         "en": "live independently",
                         "vi": "sống tự lập"
-                      },
-                      {
-                        "en": "domestic chores",
-                        "vi": "việc nhà"
                       }
                     ],
                     "evidence_vi": "Khi lớn lên và đi học xa nhà, những đứa trẻ biết tự chuẩn bị bữa ăn và giặt giũ quần áo sẽ chăm sóc bản thân tốt hơn và tiết kiệm nhiều tiền bạc.",
@@ -172713,7 +173377,7 @@ const ESSAY_DATA = [
                       },
                       {
                         "en": "prepare meals",
-                        "vi": "chuẩn bị bữa ăn"
+                        "vi": "tự chuẩn bị bữa ăn"
                       },
                       {
                         "en": "wash clothes",
@@ -172722,20 +173386,48 @@ const ESSAY_DATA = [
                       {
                         "en": "take better care of themselves",
                         "vi": "chăm sóc bản thân tốt hơn"
+                      },
+                      {
+                        "en": "save money",
+                        "vi": "tiết kiệm nhiều tiền bạc"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "survival skills",
-                        "vi": "kỹ năng sinh tồn"
+                        "en": "cooking and domestic chores",
+                        "vi": "nấu ăn và làm việc nhà"
                       },
                       {
-                        "en": "domestic chores",
-                        "vi": "việc nhà"
+                        "en": "basic survival skills",
+                        "vi": "các kỹ năng sinh tồn cơ bản"
+                      },
+                      {
+                        "en": "for every child",
+                        "vi": "cho mọi đứa trẻ"
                       },
                       {
                         "en": "live independently",
                         "vi": "sống tự lập"
+                      },
+                      {
+                        "en": "living away from home",
+                        "vi": "sống xa nhà"
+                      },
+                      {
+                        "en": "prepare meals",
+                        "vi": "tự chuẩn bị bữa ăn"
+                      },
+                      {
+                        "en": "wash clothes",
+                        "vi": "giặt giũ quần áo"
+                      },
+                      {
+                        "en": "take better care of themselves",
+                        "vi": "chăm sóc bản thân tốt hơn"
+                      },
+                      {
+                        "en": "save money",
+                        "vi": "tiết kiệm nhiều tiền bạc"
                       }
                     ]
                   },
@@ -172745,46 +173437,74 @@ const ESSAY_DATA = [
                     "point_en": "Doing household chores helps children build self-discipline and share responsibilities with family members.",
                     "point_collocations": [
                       {
+                        "en": "doing household chores",
+                        "vi": "làm việc nhà"
+                      },
+                      {
                         "en": "build self-discipline",
                         "vi": "hình thành tính kỷ luật"
                       },
                       {
                         "en": "share responsibilities",
-                        "vi": "chia sẻ trách nhiệm"
+                        "vi": "biết chia sẻ công việc"
                       },
                       {
-                        "en": "family members",
-                        "vi": "thành viên gia đình"
+                        "en": "with family members",
+                        "vi": "với gia đình"
                       }
                     ],
                     "evidence_vi": "Dọn dẹp phòng ngủ hay rửa bát đĩa dạy cho trẻ bài học về sự ngăn nắp, vì vậy các em trở thành những người có trách nhiệm hơn trong cuộc sống.",
                     "evidence_en": "Cleaning bedrooms or washing dishes teaches children valuable lessons about tidiness, so they become more responsible individuals in society.",
                     "evidence_collocations": [
                       {
-                        "en": "valuable lessons about tidiness",
-                        "vi": "bài học quý về sự ngăn nắp"
-                      },
-                      {
-                        "en": "responsible individuals",
-                        "vi": "những cá nhân có trách nhiệm"
+                        "en": "cleaning bedrooms",
+                        "vi": "dọn dẹp phòng ngủ"
                       },
                       {
                         "en": "washing dishes",
                         "vi": "rửa bát đĩa"
+                      },
+                      {
+                        "en": "valuable lessons about tidiness",
+                        "vi": "bài học về sự ngăn nắp"
+                      },
+                      {
+                        "en": "more responsible individuals",
+                        "vi": "những người có trách nhiệm hơn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "build self-discipline",
-                        "vi": "rèn tính kỷ luật"
+                        "en": "doing household chores",
+                        "vi": "làm việc nhà"
                       },
                       {
-                        "en": "responsible individuals",
-                        "vi": "người có trách nhiệm"
+                        "en": "build self-discipline",
+                        "vi": "hình thành tính kỷ luật"
                       },
                       {
                         "en": "share responsibilities",
-                        "vi": "chia sẻ trách nhiệm"
+                        "vi": "biết chia sẻ công việc"
+                      },
+                      {
+                        "en": "with family members",
+                        "vi": "với gia đình"
+                      },
+                      {
+                        "en": "cleaning bedrooms",
+                        "vi": "dọn dẹp phòng ngủ"
+                      },
+                      {
+                        "en": "washing dishes",
+                        "vi": "rửa bát đĩa"
+                      },
+                      {
+                        "en": "valuable lessons about tidiness",
+                        "vi": "bài học về sự ngăn nắp"
+                      },
+                      {
+                        "en": "more responsible individuals",
+                        "vi": "những người có trách nhiệm hơn"
                       }
                     ]
                   },
@@ -172794,16 +173514,16 @@ const ESSAY_DATA = [
                     "point_en": "Both boys and girls need to learn domestic skills to eliminate outdated gender stereotypes.",
                     "point_collocations": [
                       {
-                        "en": "domestic skills",
-                        "vi": "kỹ năng việc nhà"
+                        "en": "both boys and girls",
+                        "vi": "cả bé trai và bé gái"
+                      },
+                      {
+                        "en": "learn domestic skills",
+                        "vi": "học việc nhà"
                       },
                       {
                         "en": "eliminate outdated gender stereotypes",
-                        "vi": "xóa bỏ định kiến giới lỗi thời"
-                      },
-                      {
-                        "en": "gender equality",
-                        "vi": "bình đẳng giới"
+                        "vi": "xóa bỏ các định kiến giới lỗi thời"
                       }
                     ],
                     "evidence_vi": "Phân chia công việc công bằng tạo ra một môi trường tôn trọng lẫn nhau, nhờ đó các em xây dựng được gia đình hạnh phúc và bình đẳng trong tương lai.",
@@ -172811,29 +173531,49 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "sharing household tasks fairly",
-                        "vi": "chia sẻ việc nhà công bằng"
+                        "vi": "phân chia công việc công bằng"
                       },
                       {
-                        "en": "mutual respect",
-                        "vi": "sự tôn trọng lẫn nhau"
+                        "en": "creates mutual respect",
+                        "vi": "tạo ra một môi trường tôn trọng lẫn nhau"
                       },
                       {
-                        "en": "equal families",
-                        "vi": "gia đình bình đẳng"
+                        "en": "build happier and more equal families",
+                        "vi": "xây dựng gia đình hạnh phúc và bình đẳng"
+                      },
+                      {
+                        "en": "in the future",
+                        "vi": "trong tương lai"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "gender stereotypes",
-                        "vi": "định kiến giới"
+                        "en": "both boys and girls",
+                        "vi": "cả bé trai và bé gái"
                       },
                       {
-                        "en": "mutual respect",
-                        "vi": "tôn trọng lẫn nhau"
+                        "en": "learn domestic skills",
+                        "vi": "học việc nhà"
                       },
                       {
-                        "en": "domestic skills",
-                        "vi": "kỹ năng việc nhà"
+                        "en": "eliminate outdated gender stereotypes",
+                        "vi": "xóa bỏ các định kiến giới lỗi thời"
+                      },
+                      {
+                        "en": "sharing household tasks fairly",
+                        "vi": "phân chia công việc công bằng"
+                      },
+                      {
+                        "en": "creates mutual respect",
+                        "vi": "tạo ra một môi trường tôn trọng lẫn nhau"
+                      },
+                      {
+                        "en": "build happier and more equal families",
+                        "vi": "xây dựng gia đình hạnh phúc và bình đẳng"
+                      },
+                      {
+                        "en": "in the future",
+                        "vi": "trong tương lai"
                       }
                     ]
                   }
@@ -173807,7 +174547,7 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "prioritize their time",
-                        "vi": "ưu tiên thời gian"
+                        "vi": "ưu tiên tối đa thời gian"
                       },
                       {
                         "en": "academic learning",
@@ -173815,37 +174555,65 @@ const ESSAY_DATA = [
                       },
                       {
                         "en": "modern digital skills",
-                        "vi": "kỹ năng số hiện đại"
+                        "vi": "trau dồi các kỹ năng số hiện đại"
                       }
                     ],
                     "evidence_vi": "Chương trình học tập ngày nay rất cạnh tranh và đòi hỏi nhiều nỗ lực, vì thế dành nhiều giờ làm việc nhà có thể làm các em kiệt sức và giảm điểm số.",
                     "evidence_en": "School curriculums today are highly competitive and demanding, so spending hours on housework causes fatigue and lowers academic performance.",
                     "evidence_collocations": [
                       {
-                        "en": "highly competitive school curriculums",
-                        "vi": "chương trình học cạnh tranh cao"
+                        "en": "school curriculums today",
+                        "vi": "chương trình học tập ngày nay"
+                      },
+                      {
+                        "en": "highly competitive and demanding",
+                        "vi": "rất cạnh tranh và đòi hỏi nhiều nỗ lực"
+                      },
+                      {
+                        "en": "spending hours on housework",
+                        "vi": "dành nhiều giờ làm việc nhà"
                       },
                       {
                         "en": "causes fatigue",
-                        "vi": "gây mệt mỏi"
+                        "vi": "làm các em kiệt sức"
                       },
                       {
                         "en": "lowers academic performance",
-                        "vi": "làm giảm kết quả học tập"
+                        "vi": "giảm điểm số"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "academic performance",
-                        "vi": "thành tích học tập"
+                        "en": "prioritize their time",
+                        "vi": "ưu tiên tối đa thời gian"
                       },
                       {
-                        "en": "digital skills",
-                        "vi": "kỹ năng số"
+                        "en": "academic learning",
+                        "vi": "việc học văn hóa"
                       },
                       {
-                        "en": "prioritize time",
-                        "vi": "ưu tiên thời gian"
+                        "en": "modern digital skills",
+                        "vi": "trau dồi các kỹ năng số hiện đại"
+                      },
+                      {
+                        "en": "school curriculums today",
+                        "vi": "chương trình học tập ngày nay"
+                      },
+                      {
+                        "en": "highly competitive and demanding",
+                        "vi": "rất cạnh tranh và đòi hỏi nhiều nỗ lực"
+                      },
+                      {
+                        "en": "spending hours on housework",
+                        "vi": "dành nhiều giờ làm việc nhà"
+                      },
+                      {
+                        "en": "causes fatigue",
+                        "vi": "làm các em kiệt sức"
+                      },
+                      {
+                        "en": "lowers academic performance",
+                        "vi": "giảm điểm số"
                       }
                     ]
                   },
@@ -173855,46 +174623,66 @@ const ESSAY_DATA = [
                     "point_en": "The rise of smart appliances and household services makes traditional chores less necessary.",
                     "point_collocations": [
                       {
-                        "en": "smart appliances",
-                        "vi": "thiết bị gia dụng thông minh"
+                        "en": "modern home appliances",
+                        "vi": "thiết bị thông minh"
                       },
                       {
-                        "en": "household services",
+                        "en": "affordable cleaning services",
                         "vi": "dịch vụ gia đình"
                       },
                       {
-                        "en": "traditional chores",
-                        "vi": "việc nhà truyền thống"
+                        "en": "reduce the necessity of manual chores",
+                        "vi": "giúp việc nhà không còn là rào cản lớn"
                       }
                     ],
                     "evidence_vi": "Máy rửa bát, robot hút bụi và các ứng dụng giao thức ăn sẵn có ở khắp mọi nơi, vì vậy con người có thể giải quyết việc nhà dễ dàng bằng công nghệ.",
                     "evidence_en": "Dishwashers, robotic vacuums, and meal delivery apps are readily available, so people can solve domestic tasks easily through technology.",
                     "evidence_collocations": [
                       {
-                        "en": "robotic vacuums",
-                        "vi": "robot hút bụi"
+                        "en": "dishwashers, washing machines, and robotic vacuums",
+                        "vi": "máy rửa bát, máy giặt tự động và robot hút bụi"
                       },
                       {
-                        "en": "meal delivery apps",
-                        "vi": "ứng dụng giao bữa ăn"
+                        "en": "automate daily housework",
+                        "vi": "tự động hóa hầu hết công việc dọn dẹp"
                       },
                       {
-                        "en": "solve domestic tasks",
-                        "vi": "giải quyết việc nhà"
+                        "en": "modern households",
+                        "vi": "các gia đình hiện đại"
+                      },
+                      {
+                        "en": "saving considerable physical effort",
+                        "vi": "tiết kiệm rất nhiều sức lao động"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "smart appliances",
+                        "en": "modern home appliances",
                         "vi": "thiết bị thông minh"
                       },
                       {
-                        "en": "meal delivery apps",
-                        "vi": "ứng dụng giao đồ ăn"
+                        "en": "affordable cleaning services",
+                        "vi": "dịch vụ gia đình"
                       },
                       {
-                        "en": "domestic tasks",
-                        "vi": "công việc nhà"
+                        "en": "reduce the necessity of manual chores",
+                        "vi": "giúp việc nhà không còn là rào cản lớn"
+                      },
+                      {
+                        "en": "dishwashers, washing machines, and robotic vacuums",
+                        "vi": "máy rửa bát, máy giặt tự động và robot hút bụi"
+                      },
+                      {
+                        "en": "automate daily housework",
+                        "vi": "tự động hóa hầu hết công việc dọn dẹp"
+                      },
+                      {
+                        "en": "modern households",
+                        "vi": "các gia đình hiện đại"
+                      },
+                      {
+                        "en": "saving considerable physical effort",
+                        "vi": "tiết kiệm rất nhiều sức lao động"
                       }
                     ]
                   },
@@ -173904,46 +174692,74 @@ const ESSAY_DATA = [
                     "point_en": "Freeing young girls from domestic duties allows them to pursue ambitious career goals confidently.",
                     "point_collocations": [
                       {
-                        "en": "domestic duties",
-                        "vi": "nhiệm vụ việc nhà"
+                        "en": "demanding heavy housework",
+                        "vi": "buộc làm việc nhà sớm"
                       },
                       {
-                        "en": "ambitious career goals",
-                        "vi": "mục tiêu sự nghiệp lớn"
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
                       },
                       {
-                        "en": "female empowerment",
-                        "vi": "sự nâng cao quyền năng cho phụ nữ"
+                        "en": "deprives them of",
+                        "vi": "tước đi của các em"
+                      },
+                      {
+                        "en": "valuable childhood recreation",
+                        "vi": "tuổi thơ vui chơi quý giá"
                       }
                     ],
                     "evidence_vi": "Xã hội hiện đại cần nhiều nữ lãnh đạo, nhà khoa học và doanh nhân, vì thế việc khuyến khích các em tập trung vào ước mơ lớn là quan trọng nhất.",
                     "evidence_en": "Modern society needs more female leaders, scientists, and entrepreneurs, so encouraging them to focus on big aspirations is essential.",
                     "evidence_collocations": [
                       {
-                        "en": "female leaders and scientists",
-                        "vi": "nữ lãnh đạo và nhà khoa học"
+                        "en": "enjoy outdoor sports",
+                        "vi": "tham gia các môn thể thao ngoài trời"
                       },
                       {
-                        "en": "big aspirations",
-                        "vi": "khát vọng lớn"
+                        "en": "creative reading",
+                        "vi": "đọc sách nghệ thuật"
                       },
                       {
-                        "en": "career growth",
-                        "vi": "sự phát triển nghề nghiệp"
+                        "en": "social bonding",
+                        "vi": "kết nối bạn bè"
+                      },
+                      {
+                        "en": "adult responsibilities",
+                        "vi": "bổn phận của người lớn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "career goals",
-                        "vi": "mục tiêu sự nghiệp"
+                        "en": "demanding heavy housework",
+                        "vi": "buộc làm việc nhà sớm"
                       },
                       {
-                        "en": "domestic duties",
-                        "vi": "việc nhà"
+                        "en": "young children",
+                        "vi": "trẻ nhỏ"
                       },
                       {
-                        "en": "female leaders",
-                        "vi": "nữ lãnh đạo"
+                        "en": "deprives them of",
+                        "vi": "tước đi của các em"
+                      },
+                      {
+                        "en": "valuable childhood recreation",
+                        "vi": "tuổi thơ vui chơi quý giá"
+                      },
+                      {
+                        "en": "enjoy outdoor sports",
+                        "vi": "tham gia các môn thể thao ngoài trời"
+                      },
+                      {
+                        "en": "creative reading",
+                        "vi": "đọc sách nghệ thuật"
+                      },
+                      {
+                        "en": "social bonding",
+                        "vi": "kết nối bạn bè"
+                      },
+                      {
+                        "en": "adult responsibilities",
+                        "vi": "bổn phận của người lớn"
                       }
                     ]
                   }
@@ -174944,46 +175760,66 @@ const ESSAY_DATA = [
                 "point_en": "Parents are the earliest teachers instilling fundamental moral values and personality in children.",
                 "point_collocations": [
                   {
-                    "en": "earliest teachers",
-                    "vi": "những người thầy sớm nhất"
+                    "en": "instill core moral values",
+                    "vi": "dạy những bài học đạo đức nền tảng"
                   },
                   {
-                    "en": "fundamental moral values",
-                    "vi": "giá trị đạo đức nền tảng"
+                    "en": "essential life lessons",
+                    "vi": "cách đối nhân xử thế thiết yếu"
                   },
                   {
-                    "en": "instill personality",
-                    "vi": "định hình nhân cách"
+                    "en": "from early childhood",
+                    "vi": "từ khi còn nhỏ"
                   }
                 ],
                 "evidence_vi": "Gia đình dạy trẻ bài học về lòng trung thực, sự tôn trọng và lòng tốt, vì vậy những bài học này trở thành nền tảng hướng dẫn con suốt cuộc đời.",
                 "evidence_en": "Families teach children about honesty, respect, and kindness, so these lessons guide them throughout their entire lives.",
                 "evidence_collocations": [
                   {
-                    "en": "honesty, respect, and kindness",
-                    "vi": "lòng trung thực, sự tôn trọng và lòng tốt"
+                    "en": "everyday behaviors",
+                    "vi": "hành động hằng ngày"
                   },
                   {
-                    "en": "guide throughout lives",
-                    "vi": "hướng dẫn suốt cuộc đời"
+                    "en": "say thank you",
+                    "vi": "nói lời cảm ơn"
                   },
                   {
-                    "en": "family lessons",
-                    "vi": "bài học gia đình"
+                    "en": "apologize sincerely",
+                    "vi": "xin lỗi"
+                  },
+                  {
+                    "en": "treat others with honesty",
+                    "vi": "cư xử trung thực với mọi người xung quanh"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "moral values",
-                    "vi": "giá trị đạo đức"
+                    "en": "instill core moral values",
+                    "vi": "dạy những bài học đạo đức nền tảng"
                   },
                   {
-                    "en": "earliest teachers",
-                    "vi": "người thầy sớm nhất"
+                    "en": "essential life lessons",
+                    "vi": "cách đối nhân xử thế thiết yếu"
                   },
                   {
-                    "en": "honesty and kindness",
-                    "vi": "lòng trung thực và lòng tốt"
+                    "en": "from early childhood",
+                    "vi": "từ khi còn nhỏ"
+                  },
+                  {
+                    "en": "everyday behaviors",
+                    "vi": "hành động hằng ngày"
+                  },
+                  {
+                    "en": "say thank you",
+                    "vi": "nói lời cảm ơn"
+                  },
+                  {
+                    "en": "apologize sincerely",
+                    "vi": "xin lỗi"
+                  },
+                  {
+                    "en": "treat others with honesty",
+                    "vi": "cư xử trung thực với mọi người xung quanh"
                   }
                 ]
               },
@@ -174993,46 +175829,66 @@ const ESSAY_DATA = [
                 "point_en": "Parents understand their children's personality, strengths, and weaknesses better than anyone else.",
                 "point_collocations": [
                   {
-                    "en": "understand personality",
-                    "vi": "hiểu tính cách"
+                    "en": "unconditional parental love",
+                    "vi": "tình yêu thương vô điều kiện của cha mẹ"
                   },
                   {
-                    "en": "strengths and weaknesses",
-                    "vi": "điểm mạnh và điểm yếu"
+                    "en": "safest and most supportive environment",
+                    "vi": "môi trường học hỏi an toàn và đáng tin cậy nhất"
                   },
                   {
-                    "en": "personal attention",
-                    "vi": "sự quan tâm mang tính cá nhân"
+                    "en": "emotional growth",
+                    "vi": "sự phát triển cảm xúc"
                   }
                 ],
                 "evidence_vi": "Cha mẹ ở bên con mỗi ngày từ khi mới sinh, vì thế họ có thể kiên nhẫn đưa ra lời khuyên phù hợp nhất cho từng giai đoạn phát triển.",
                 "evidence_en": "Parents spend time with children daily from infancy, so they can offer tailored guidance patiently at every stage of growth.",
                 "evidence_collocations": [
                   {
-                    "en": "from infancy",
-                    "vi": "từ thuở lọt lòng"
+                    "en": "make mistakes or experience setbacks",
+                    "vi": "mắc sai lầm hoặc gặp thất bại"
                   },
                   {
-                    "en": "tailored guidance",
-                    "vi": "sự chỉ dẫn phù hợp riêng biệt"
+                    "en": "patiently listen",
+                    "vi": "kiên nhẫn lắng nghe"
                   },
                   {
-                    "en": "stage of growth",
-                    "vi": "giai đoạn phát triển"
+                    "en": "offer comfort",
+                    "vi": "an ủi"
+                  },
+                  {
+                    "en": "encourage them to persevere",
+                    "vi": "động viên con cố gắng vượt qua"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "strengths and weaknesses",
-                    "vi": "điểm mạnh và điểm yếu"
+                    "en": "unconditional parental love",
+                    "vi": "tình yêu thương vô điều kiện của cha mẹ"
                   },
                   {
-                    "en": "tailored guidance",
-                    "vi": "sự chỉ dẫn riêng biệt"
+                    "en": "safest and most supportive environment",
+                    "vi": "môi trường học hỏi an toàn và đáng tin cậy nhất"
                   },
                   {
-                    "en": "stages of growth",
-                    "vi": "các giai đoạn trưởng thành"
+                    "en": "emotional growth",
+                    "vi": "sự phát triển cảm xúc"
+                  },
+                  {
+                    "en": "make mistakes or experience setbacks",
+                    "vi": "mắc sai lầm hoặc gặp thất bại"
+                  },
+                  {
+                    "en": "patiently listen",
+                    "vi": "kiên nhẫn lắng nghe"
+                  },
+                  {
+                    "en": "offer comfort",
+                    "vi": "an ủi"
+                  },
+                  {
+                    "en": "encourage them to persevere",
+                    "vi": "động viên con cố gắng vượt qua"
                   }
                 ]
               },
@@ -175042,46 +175898,66 @@ const ESSAY_DATA = [
                 "point_en": "Parents educate children through their daily behaviors and practical actions.",
                 "point_collocations": [
                   {
-                    "en": "educate children",
-                    "vi": "giáo dục con cái"
+                    "en": "serve as direct role models",
+                    "vi": "là những hình mẫu hành vi thực tế"
                   },
                   {
-                    "en": "daily behaviors",
-                    "vi": "hành vi hằng ngày"
+                    "en": "shaping a child's lifelong habits",
+                    "vi": "định hình thói quen suốt đời của trẻ"
                   },
                   {
-                    "en": "practical actions",
-                    "vi": "hành động thực tế"
+                    "en": "personality",
+                    "vi": "tính cách"
                   }
                 ],
                 "evidence_vi": "Trẻ nhỏ luôn quan sát và bắt chước cách cha mẹ đối xử với mọi người xung quanh, do đó tấm gương của cha mẹ có tác động mạnh mẽ nhất.",
                 "evidence_en": "Young children observe and imitate how their parents treat others, so parental example has the most profound impact.",
                 "evidence_collocations": [
                   {
-                    "en": "observe and imitate",
-                    "vi": "quan sát và bắt chước"
+                    "en": "work diligently",
+                    "vi": "chăm chỉ làm việc"
                   },
                   {
-                    "en": "parental example",
-                    "vi": "tấm gương của cha mẹ"
+                    "en": "overcome hardships",
+                    "vi": "vượt qua khó khăn"
                   },
                   {
-                    "en": "profound impact",
-                    "vi": "tác động sâu sắc"
+                    "en": "inspires children",
+                    "vi": "truyền cảm hứng cho con cái"
+                  },
+                  {
+                    "en": "build resilience and personal determination",
+                    "vi": "phát triển tính tự lập và kiên trì"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "parental example",
-                    "vi": "tấm gương của cha mẹ"
+                    "en": "serve as direct role models",
+                    "vi": "là những hình mẫu hành vi thực tế"
                   },
                   {
-                    "en": "daily behaviors",
-                    "vi": "hành vi hằng ngày"
+                    "en": "shaping a child's lifelong habits",
+                    "vi": "định hình thói quen suốt đời của trẻ"
                   },
                   {
-                    "en": "profound impact",
-                    "vi": "tác động sâu sắc"
+                    "en": "personality",
+                    "vi": "tính cách"
+                  },
+                  {
+                    "en": "work diligently",
+                    "vi": "chăm chỉ làm việc"
+                  },
+                  {
+                    "en": "overcome hardships",
+                    "vi": "vượt qua khó khăn"
+                  },
+                  {
+                    "en": "inspires children",
+                    "vi": "truyền cảm hứng cho con cái"
+                  },
+                  {
+                    "en": "build resilience and personal determination",
+                    "vi": "phát triển tính tự lập và kiên trì"
                   }
                 ]
               }
@@ -175703,46 +176579,66 @@ const ESSAY_DATA = [
                     "point_en": "Parents are the earliest teachers instilling fundamental moral values and personality in children.",
                     "point_collocations": [
                       {
-                        "en": "earliest teachers",
-                        "vi": "những người thầy sớm nhất"
+                        "en": "instill core moral values",
+                        "vi": "dạy những bài học đạo đức nền tảng"
                       },
                       {
-                        "en": "fundamental moral values",
-                        "vi": "giá trị đạo đức nền tảng"
+                        "en": "essential life lessons",
+                        "vi": "cách đối nhân xử thế thiết yếu"
                       },
                       {
-                        "en": "instill personality",
-                        "vi": "định hình nhân cách"
+                        "en": "from early childhood",
+                        "vi": "từ khi còn nhỏ"
                       }
                     ],
                     "evidence_vi": "Gia đình dạy trẻ bài học về lòng trung thực, sự tôn trọng và lòng tốt, vì vậy những bài học này trở thành nền tảng hướng dẫn con suốt cuộc đời.",
                     "evidence_en": "Families teach children about honesty, respect, and kindness, so these lessons guide them throughout their entire lives.",
                     "evidence_collocations": [
                       {
-                        "en": "honesty, respect, and kindness",
-                        "vi": "lòng trung thực, sự tôn trọng và lòng tốt"
+                        "en": "everyday behaviors",
+                        "vi": "hành động hằng ngày"
                       },
                       {
-                        "en": "guide throughout lives",
-                        "vi": "hướng dẫn suốt cuộc đời"
+                        "en": "say thank you",
+                        "vi": "nói lời cảm ơn"
                       },
                       {
-                        "en": "family lessons",
-                        "vi": "bài học gia đình"
+                        "en": "apologize sincerely",
+                        "vi": "xin lỗi"
+                      },
+                      {
+                        "en": "treat others with honesty",
+                        "vi": "cư xử trung thực với mọi người xung quanh"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "moral values",
-                        "vi": "giá trị đạo đức"
+                        "en": "instill core moral values",
+                        "vi": "dạy những bài học đạo đức nền tảng"
                       },
                       {
-                        "en": "earliest teachers",
-                        "vi": "người thầy sớm nhất"
+                        "en": "essential life lessons",
+                        "vi": "cách đối nhân xử thế thiết yếu"
                       },
                       {
-                        "en": "honesty and kindness",
-                        "vi": "lòng trung thực và lòng tốt"
+                        "en": "from early childhood",
+                        "vi": "từ khi còn nhỏ"
+                      },
+                      {
+                        "en": "everyday behaviors",
+                        "vi": "hành động hằng ngày"
+                      },
+                      {
+                        "en": "say thank you",
+                        "vi": "nói lời cảm ơn"
+                      },
+                      {
+                        "en": "apologize sincerely",
+                        "vi": "xin lỗi"
+                      },
+                      {
+                        "en": "treat others with honesty",
+                        "vi": "cư xử trung thực với mọi người xung quanh"
                       }
                     ]
                   },
@@ -175752,46 +176648,66 @@ const ESSAY_DATA = [
                     "point_en": "Parents understand their children's personality, strengths, and weaknesses better than anyone else.",
                     "point_collocations": [
                       {
-                        "en": "understand personality",
-                        "vi": "hiểu tính cách"
+                        "en": "unconditional parental love",
+                        "vi": "tình yêu thương vô điều kiện của cha mẹ"
                       },
                       {
-                        "en": "strengths and weaknesses",
-                        "vi": "điểm mạnh và điểm yếu"
+                        "en": "safest and most supportive environment",
+                        "vi": "môi trường học hỏi an toàn và đáng tin cậy nhất"
                       },
                       {
-                        "en": "personal attention",
-                        "vi": "sự quan tâm mang tính cá nhân"
+                        "en": "emotional growth",
+                        "vi": "sự phát triển cảm xúc"
                       }
                     ],
                     "evidence_vi": "Cha mẹ ở bên con mỗi ngày từ khi mới sinh, vì thế họ có thể kiên nhẫn đưa ra lời khuyên phù hợp nhất cho từng giai đoạn phát triển.",
                     "evidence_en": "Parents spend time with children daily from infancy, so they can offer tailored guidance patiently at every stage of growth.",
                     "evidence_collocations": [
                       {
-                        "en": "from infancy",
-                        "vi": "từ thuở lọt lòng"
+                        "en": "make mistakes or experience setbacks",
+                        "vi": "mắc sai lầm hoặc gặp thất bại"
                       },
                       {
-                        "en": "tailored guidance",
-                        "vi": "sự chỉ dẫn phù hợp riêng biệt"
+                        "en": "patiently listen",
+                        "vi": "kiên nhẫn lắng nghe"
                       },
                       {
-                        "en": "stage of growth",
-                        "vi": "giai đoạn phát triển"
+                        "en": "offer comfort",
+                        "vi": "an ủi"
+                      },
+                      {
+                        "en": "encourage them to persevere",
+                        "vi": "động viên con cố gắng vượt qua"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "strengths and weaknesses",
-                        "vi": "điểm mạnh và điểm yếu"
+                        "en": "unconditional parental love",
+                        "vi": "tình yêu thương vô điều kiện của cha mẹ"
                       },
                       {
-                        "en": "tailored guidance",
-                        "vi": "sự chỉ dẫn riêng biệt"
+                        "en": "safest and most supportive environment",
+                        "vi": "môi trường học hỏi an toàn và đáng tin cậy nhất"
                       },
                       {
-                        "en": "stages of growth",
-                        "vi": "các giai đoạn trưởng thành"
+                        "en": "emotional growth",
+                        "vi": "sự phát triển cảm xúc"
+                      },
+                      {
+                        "en": "make mistakes or experience setbacks",
+                        "vi": "mắc sai lầm hoặc gặp thất bại"
+                      },
+                      {
+                        "en": "patiently listen",
+                        "vi": "kiên nhẫn lắng nghe"
+                      },
+                      {
+                        "en": "offer comfort",
+                        "vi": "an ủi"
+                      },
+                      {
+                        "en": "encourage them to persevere",
+                        "vi": "động viên con cố gắng vượt qua"
                       }
                     ]
                   },
@@ -175801,46 +176717,66 @@ const ESSAY_DATA = [
                     "point_en": "Parents educate children through their daily behaviors and practical actions.",
                     "point_collocations": [
                       {
-                        "en": "educate children",
-                        "vi": "giáo dục con cái"
+                        "en": "serve as direct role models",
+                        "vi": "là những hình mẫu hành vi thực tế"
                       },
                       {
-                        "en": "daily behaviors",
-                        "vi": "hành vi hằng ngày"
+                        "en": "shaping a child's lifelong habits",
+                        "vi": "định hình thói quen suốt đời của trẻ"
                       },
                       {
-                        "en": "practical actions",
-                        "vi": "hành động thực tế"
+                        "en": "personality",
+                        "vi": "tính cách"
                       }
                     ],
                     "evidence_vi": "Trẻ nhỏ luôn quan sát và bắt chước cách cha mẹ đối xử với mọi người xung quanh, do đó tấm gương của cha mẹ có tác động mạnh mẽ nhất.",
                     "evidence_en": "Young children observe and imitate how their parents treat others, so parental example has the most profound impact.",
                     "evidence_collocations": [
                       {
-                        "en": "observe and imitate",
-                        "vi": "quan sát và bắt chước"
+                        "en": "work diligently",
+                        "vi": "chăm chỉ làm việc"
                       },
                       {
-                        "en": "parental example",
-                        "vi": "tấm gương của cha mẹ"
+                        "en": "overcome hardships",
+                        "vi": "vượt qua khó khăn"
                       },
                       {
-                        "en": "profound impact",
-                        "vi": "tác động sâu sắc"
+                        "en": "inspires children",
+                        "vi": "truyền cảm hứng cho con cái"
+                      },
+                      {
+                        "en": "build resilience and personal determination",
+                        "vi": "phát triển tính tự lập và kiên trì"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "parental example",
-                        "vi": "tấm gương của cha mẹ"
+                        "en": "serve as direct role models",
+                        "vi": "là những hình mẫu hành vi thực tế"
                       },
                       {
-                        "en": "daily behaviors",
-                        "vi": "hành vi hằng ngày"
+                        "en": "shaping a child's lifelong habits",
+                        "vi": "định hình thói quen suốt đời của trẻ"
                       },
                       {
-                        "en": "profound impact",
-                        "vi": "tác động sâu sắc"
+                        "en": "personality",
+                        "vi": "tính cách"
+                      },
+                      {
+                        "en": "work diligently",
+                        "vi": "chăm chỉ làm việc"
+                      },
+                      {
+                        "en": "overcome hardships",
+                        "vi": "vượt qua khó khăn"
+                      },
+                      {
+                        "en": "inspires children",
+                        "vi": "truyền cảm hứng cho con cái"
+                      },
+                      {
+                        "en": "build resilience and personal determination",
+                        "vi": "phát triển tính tự lập và kiên trì"
                       }
                     ]
                   }
@@ -176462,46 +177398,66 @@ const ESSAY_DATA = [
                     "point_en": "Most parents lack professional pedagogy and advanced academic knowledge.",
                     "point_collocations": [
                       {
-                        "en": "professional pedagogy",
-                        "vi": "phương pháp sư phạm chuyên nghiệp"
+                        "en": "professional schoolteachers",
+                        "vi": "giáo viên tại trường học"
                       },
                       {
-                        "en": "academic knowledge",
-                        "vi": "kiến thức học thuật"
+                        "en": "specialized academic expertise",
+                        "vi": "chuyên môn sư phạm"
                       },
                       {
-                        "en": "teaching techniques",
-                        "vi": "kỹ thuật giảng dạy"
+                        "en": "systematic pedagogical training",
+                        "vi": "phương pháp giảng dạy khoa học bài bản"
                       }
                     ],
                     "evidence_vi": "Giáo viên trường học được đào tạo bài bản để giảng dạy các môn khoa học phức tạp, trong khi cha mẹ thường gặp khó khăn khi giải thích bài vở cho con.",
                     "evidence_en": "School teachers receive formal training to teach complex sciences, whereas parents struggle to explain difficult academic subjects.",
                     "evidence_collocations": [
                       {
-                        "en": "receive formal training",
-                        "vi": "nhận đào tạo bài bản"
+                        "en": "trained educators",
+                        "vi": "thầy cô được đào tạo bài bản"
                       },
                       {
-                        "en": "complex sciences",
-                        "vi": "các môn khoa học phức tạp"
+                        "en": "break down complex concepts",
+                        "vi": "giải thích các kiến thức phức tạp theo cách dễ hiểu"
                       },
                       {
-                        "en": "explain difficult subjects",
-                        "vi": "giải thích các môn học khó"
+                        "en": "scientific and mathematical concepts",
+                        "vi": "kiến thức về toán học hay khoa học"
+                      },
+                      {
+                        "en": "for learners",
+                        "vi": "cho học sinh"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "formal training",
-                        "vi": "đào tạo bài bản"
+                        "en": "professional schoolteachers",
+                        "vi": "giáo viên tại trường học"
                       },
                       {
-                        "en": "professional pedagogy",
-                        "vi": "phương pháp sư phạm"
+                        "en": "specialized academic expertise",
+                        "vi": "chuyên môn sư phạm"
                       },
                       {
-                        "en": "academic subjects",
-                        "vi": "các môn học văn hóa"
+                        "en": "systematic pedagogical training",
+                        "vi": "phương pháp giảng dạy khoa học bài bản"
+                      },
+                      {
+                        "en": "trained educators",
+                        "vi": "thầy cô được đào tạo bài bản"
+                      },
+                      {
+                        "en": "break down complex concepts",
+                        "vi": "giải thích các kiến thức phức tạp theo cách dễ hiểu"
+                      },
+                      {
+                        "en": "scientific and mathematical concepts",
+                        "vi": "kiến thức về toán học hay khoa học"
+                      },
+                      {
+                        "en": "for learners",
+                        "vi": "cho học sinh"
                       }
                     ]
                   },
@@ -176512,45 +177468,57 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "emotional attachments",
-                        "vi": "sự gắn kết cảm xúc"
+                        "vi": "tình cảm gia đình"
                       },
                       {
-                        "en": "objective assessment",
-                        "vi": "sự đánh giá khách quan"
+                        "en": "bias parental judgment",
+                        "vi": "khiến cha mẹ thiếu sự khách quan"
                       },
                       {
-                        "en": "parental bias",
-                        "vi": "sự thiên vị của cha mẹ"
+                        "en": "hinder objective assessment",
+                        "vi": "đánh giá sai năng lực của con"
                       }
                     ],
                     "evidence_vi": "Nhiều bậc cha mẹ nuông chiều con quá mức hoặc đặt kỳ vọng phi thực tế, vì vậy điều này cản trở sự phát triển tự nhiên của trẻ.",
                     "evidence_en": "Many parents spoil their children or impose unrealistic expectations, so this harms healthy emotional growth.",
                     "evidence_collocations": [
                       {
-                        "en": "spoil their children",
+                        "en": "overindulge their children",
                         "vi": "nuông chiều con quá mức"
                       },
                       {
-                        "en": "unrealistic expectations",
-                        "vi": "kỳ vọng phi thực tế"
+                        "en": "impose unrealistic expectations",
+                        "vi": "đặt kỳ vọng phi thực tế"
                       },
                       {
-                        "en": "emotional growth",
-                        "vi": "sự phát triển cảm xúc"
+                        "en": "creating immense psychological stress",
+                        "vi": "gây ra áp lực tinh thần nặng nề"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "unrealistic expectations",
-                        "vi": "kỳ vọng phi thực tế"
+                        "en": "emotional attachments",
+                        "vi": "tình cảm gia đình"
                       },
                       {
-                        "en": "emotional growth",
-                        "vi": "phát triển cảm xúc"
+                        "en": "bias parental judgment",
+                        "vi": "khiến cha mẹ thiếu sự khách quan"
                       },
                       {
-                        "en": "objective assessment",
-                        "vi": "đánh giá khách quan"
+                        "en": "hinder objective assessment",
+                        "vi": "đánh giá sai năng lực của con"
+                      },
+                      {
+                        "en": "overindulge their children",
+                        "vi": "nuông chiều con quá mức"
+                      },
+                      {
+                        "en": "impose unrealistic expectations",
+                        "vi": "đặt kỳ vọng phi thực tế"
+                      },
+                      {
+                        "en": "creating immense psychological stress",
+                        "vi": "gây ra áp lực tinh thần nặng nề"
                       }
                     ]
                   },
@@ -176560,46 +177528,58 @@ const ESSAY_DATA = [
                     "point_en": "School environments provide comprehensive collaboration skills and social integration.",
                     "point_collocations": [
                       {
-                        "en": "comprehensive collaboration skills",
-                        "vi": "kỹ năng hợp tác toàn diện"
+                        "en": "schools offer rich social environments",
+                        "vi": "trường học cung cấp môi trường xã hội đa dạng"
                       },
                       {
-                        "en": "social integration",
-                        "vi": "sự hòa nhập xã hội"
-                      },
-                      {
-                        "en": "classroom environment",
-                        "vi": "môi trường lớp học"
+                        "en": "no single family can replicate alone",
+                        "vi": "không một gia đình đơn lẻ nào có thể tái tạo"
                       }
                     ],
                     "evidence_vi": "Học sinh được rèn luyện làm việc nhóm và tuân thủ kỷ luật tập thể cùng bạn bè đồng trang lứa, nhờ đó các em chuẩn bị tốt hơn cho cuộc sống tương lai.",
                     "evidence_en": "Pupils practice teamwork and collective discipline with diverse peers, so they prepare better for future societal challenges.",
                     "evidence_collocations": [
                       {
-                        "en": "collective discipline",
-                        "vi": "kỷ luật tập thể"
+                        "en": "in classrooms",
+                        "vi": "ở trường"
                       },
                       {
-                        "en": "diverse peers",
-                        "vi": "bạn bè đồng trang lứa đa dạng"
+                        "en": "team collaboration",
+                        "vi": "làm việc nhóm"
                       },
                       {
-                        "en": "societal challenges",
-                        "vi": "thách thức xã hội"
+                        "en": "with diverse peers",
+                        "vi": "với bạn bè từ nhiều hoàn cảnh khác nhau"
+                      },
+                      {
+                        "en": "obey formal community regulations",
+                        "vi": "tuân thủ các nội quy tập thể nghiêm túc"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "teamwork",
+                        "en": "schools offer rich social environments",
+                        "vi": "trường học cung cấp môi trường xã hội đa dạng"
+                      },
+                      {
+                        "en": "no single family can replicate alone",
+                        "vi": "không một gia đình đơn lẻ nào có thể tái tạo"
+                      },
+                      {
+                        "en": "in classrooms",
+                        "vi": "ở trường"
+                      },
+                      {
+                        "en": "team collaboration",
                         "vi": "làm việc nhóm"
                       },
                       {
-                        "en": "collective discipline",
-                        "vi": "kỷ luật tập thể"
+                        "en": "with diverse peers",
+                        "vi": "với bạn bè từ nhiều hoàn cảnh khác nhau"
                       },
                       {
-                        "en": "social integration",
-                        "vi": "hòa nhập xã hội"
+                        "en": "obey formal community regulations",
+                        "vi": "tuân thủ các nội quy tập thể nghiêm túc"
                       }
                     ]
                   }
@@ -177306,50 +178286,74 @@ const ESSAY_DATA = [
                 "point_en": "Banning public smoking protects innocent people from dangerous second-hand smoke.",
                 "point_collocations": [
                   {
-                    "en": "ban public smoking",
-                    "vi": "cấm hút thuốc nơi công cộng"
+                    "en": "secondhand smoking",
+                    "vi": "hút thuốc thụ động"
                   },
                   {
-                    "en": "protect innocent people",
-                    "vi": "bảo vệ người vô tội"
+                    "en": "severe health hazards",
+                    "vi": "nhiều vấn đề sức khỏe nghiêm trọng"
                   },
                   {
-                    "en": "dangerous second-hand smoke",
-                    "vi": "khói thuốc thụ động nguy hiểm"
+                    "en": "nonsmokers nearby",
+                    "vi": "những người xung quanh"
                   }
                 ],
                 "evidence_vi": "Hít phải khói thuốc gây ra các bệnh hô hấp nghiêm trọng và ung thư phổi, đặc biệt đối với trẻ em và phụ nữ mang thai.",
                 "evidence_en": "Inhaling smoke leads to severe respiratory illnesses and lung cancer, especially for small children and pregnant women.",
                 "evidence_collocations": [
                   {
-                    "en": "inhale smoke",
-                    "vi": "hít phải khói thuốc"
+                    "en": "inhaling cigarette smoke",
+                    "vi": "hít phải khói thuốc lá"
                   },
                   {
-                    "en": "severe respiratory illnesses",
-                    "vi": "bệnh hô hấp nghiêm trọng"
+                    "en": "elevates the risks of",
+                    "vi": "làm tăng nguy cơ mắc"
+                  },
+                  {
+                    "en": "respiratory illnesses",
+                    "vi": "các bệnh về đường hô hấp"
                   },
                   {
                     "en": "lung cancer",
                     "vi": "ung thư phổi"
                   },
                   {
-                    "en": "pregnant women",
-                    "vi": "phụ nữ mang thai"
+                    "en": "children and pregnant women",
+                    "vi": "trẻ nhỏ và phụ nữ mang thai"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "second-hand smoke",
-                    "vi": "khói thuốc thụ động"
+                    "en": "secondhand smoking",
+                    "vi": "hút thuốc thụ động"
+                  },
+                  {
+                    "en": "severe health hazards",
+                    "vi": "nhiều vấn đề sức khỏe nghiêm trọng"
+                  },
+                  {
+                    "en": "nonsmokers nearby",
+                    "vi": "những người xung quanh"
+                  },
+                  {
+                    "en": "inhaling cigarette smoke",
+                    "vi": "hít phải khói thuốc lá"
+                  },
+                  {
+                    "en": "elevates the risks of",
+                    "vi": "làm tăng nguy cơ mắc"
                   },
                   {
                     "en": "respiratory illnesses",
-                    "vi": "bệnh hô hấp"
+                    "vi": "các bệnh về đường hô hấp"
                   },
                   {
-                    "en": "public smoking",
-                    "vi": "hút thuốc nơi công cộng"
+                    "en": "lung cancer",
+                    "vi": "ung thư phổi"
+                  },
+                  {
+                    "en": "children and pregnant women",
+                    "vi": "trẻ nhỏ và phụ nữ mang thai"
                   }
                 ]
               },
@@ -177359,46 +178363,82 @@ const ESSAY_DATA = [
                 "point_en": "A smoking ban keeps public environments clean and minimizes fire hazards.",
                 "point_collocations": [
                   {
-                    "en": "smoking ban",
+                    "en": "a smoking ban",
                     "vi": "lệnh cấm hút thuốc"
                   },
                   {
-                    "en": "clean public environments",
-                    "vi": "môi trường công cộng sạch sẽ"
+                    "en": "maintains cleanliness",
+                    "vi": "giúp giữ gìn vệ sinh"
                   },
                   {
-                    "en": "minimize fire hazards",
-                    "vi": "giảm thiểu nguy cơ hỏa hoạn"
+                    "en": "promotes fresh air",
+                    "vi": "cải thiện bầu không khí trong lành"
+                  },
+                  {
+                    "en": "in public places",
+                    "vi": "tại các khu vực công cộng"
                   }
                 ],
                 "evidence_vi": "Tàn thuốc lá vứt bừa bãi làm mất mỹ quan đường phố và có thể gây cháy tại các công viên hoặc bến xe buýt.",
                 "evidence_en": "Carelessly discarded cigarette butts dirty streets and can trigger fires in public parks or bus stations.",
                 "evidence_collocations": [
                   {
-                    "en": "discarded cigarette butts",
-                    "vi": "tàn thuốc lá bị vứt bỏ"
+                    "en": "littered cigarette butts",
+                    "vi": "tàn thuốc và mẩu thuốc lá vứt bừa bãi"
                   },
                   {
-                    "en": "dirty streets",
-                    "vi": "làm bẩn đường phố"
+                    "en": "ruin the neatness",
+                    "vi": "làm mất mỹ quan"
                   },
                   {
-                    "en": "trigger fires",
-                    "vi": "châm ngòi hỏa hoạn"
+                    "en": "parks and stations",
+                    "vi": "công viên và bến xe"
+                  },
+                  {
+                    "en": "polluting surroundings",
+                    "vi": "gây ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "increasing cleaning expenses",
+                    "vi": "tốn kém chi phí dọn dẹp"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "cigarette butts",
-                    "vi": "tàn thuốc lá"
-                  },
-                  {
-                    "en": "fire hazards",
-                    "vi": "nguy cơ hỏa hoạn"
-                  },
-                  {
-                    "en": "smoking ban",
+                    "en": "a smoking ban",
                     "vi": "lệnh cấm hút thuốc"
+                  },
+                  {
+                    "en": "maintains cleanliness",
+                    "vi": "giúp giữ gìn vệ sinh"
+                  },
+                  {
+                    "en": "promotes fresh air",
+                    "vi": "cải thiện bầu không khí trong lành"
+                  },
+                  {
+                    "en": "in public places",
+                    "vi": "tại các khu vực công cộng"
+                  },
+                  {
+                    "en": "littered cigarette butts",
+                    "vi": "tàn thuốc và mẩu thuốc lá vứt bừa bãi"
+                  },
+                  {
+                    "en": "ruin the neatness",
+                    "vi": "làm mất mỹ quan"
+                  },
+                  {
+                    "en": "parks and stations",
+                    "vi": "công viên và bến xe"
+                  },
+                  {
+                    "en": "polluting surroundings",
+                    "vi": "gây ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "increasing cleaning expenses",
+                    "vi": "tốn kém chi phí dọn dẹp"
                   }
                 ]
               },
@@ -177408,46 +178448,66 @@ const ESSAY_DATA = [
                 "point_en": "Strict regulations motivate smokers to cut down and quit harmful habits.",
                 "point_collocations": [
                   {
-                    "en": "strict regulations",
-                    "vi": "quy định nghiêm ngặt"
+                    "en": "prohibiting smoking in public spaces",
+                    "vi": "cấm hút thuốc nơi công cộng"
                   },
                   {
-                    "en": "motivate smokers",
-                    "vi": "tạo động lực cho người hút thuốc"
+                    "en": "motivates smokers",
+                    "vi": "tạo động lực tích cực cho người nghiện thuốc"
                   },
                   {
-                    "en": "quit harmful habits",
-                    "vi": "từ bỏ thói quen có hại"
+                    "en": "reduce consumption or quit permanently",
+                    "vi": "giảm bớt hoặc từ bỏ thuốc lá"
                   }
                 ],
                 "evidence_vi": "Khi không thể hút thuốc thoải mái tại nhà hàng hay văn phòng, nhiều người nhận ra sự bất tiện và quyết tâm cai thuốc.",
                 "evidence_en": "When unable to smoke freely in restaurants or offices, many people recognize the inconvenience and decide to quit.",
                 "evidence_collocations": [
                   {
-                    "en": "smoke freely",
-                    "vi": "hút thuốc thoải mái"
+                    "en": "light cigarettes freely",
+                    "vi": "hút thuốc tùy tiện"
                   },
                   {
-                    "en": "restaurants or offices",
-                    "vi": "nhà hàng hoặc văn phòng"
+                    "en": "in restaurants or offices",
+                    "vi": "ở nhà hàng hay văn phòng"
                   },
                   {
-                    "en": "decide to quit",
-                    "vi": "quyết định bỏ thuốc"
+                    "en": "feel motivated",
+                    "vi": "cảm thấy bất tiện và có động lực"
+                  },
+                  {
+                    "en": "plan smoking cessation",
+                    "vi": "lên kế hoạch cai thuốc lá"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "strict regulations",
-                    "vi": "quy định nghiêm ngặt"
+                    "en": "prohibiting smoking in public spaces",
+                    "vi": "cấm hút thuốc nơi công cộng"
                   },
                   {
-                    "en": "quit smoking",
-                    "vi": "bỏ thuốc lá"
+                    "en": "motivates smokers",
+                    "vi": "tạo động lực tích cực cho người nghiện thuốc"
                   },
                   {
-                    "en": "harmful habits",
-                    "vi": "thói quen có hại"
+                    "en": "reduce consumption or quit permanently",
+                    "vi": "giảm bớt hoặc từ bỏ thuốc lá"
+                  },
+                  {
+                    "en": "light cigarettes freely",
+                    "vi": "hút thuốc tùy tiện"
+                  },
+                  {
+                    "en": "in restaurants or offices",
+                    "vi": "ở nhà hàng hay văn phòng"
+                  },
+                  {
+                    "en": "feel motivated",
+                    "vi": "cảm thấy bất tiện và có động lực"
+                  },
+                  {
+                    "en": "plan smoking cessation",
+                    "vi": "lên kế hoạch cai thuốc lá"
                   }
                 ]
               }
@@ -177876,50 +178936,74 @@ const ESSAY_DATA = [
                     "point_en": "Banning public smoking protects innocent people from dangerous second-hand smoke.",
                     "point_collocations": [
                       {
-                        "en": "ban public smoking",
-                        "vi": "cấm hút thuốc nơi công cộng"
+                        "en": "secondhand smoking",
+                        "vi": "hút thuốc thụ động"
                       },
                       {
-                        "en": "protect innocent people",
-                        "vi": "bảo vệ người vô tội"
+                        "en": "severe health hazards",
+                        "vi": "nhiều vấn đề sức khỏe nghiêm trọng"
                       },
                       {
-                        "en": "dangerous second-hand smoke",
-                        "vi": "khói thuốc thụ động nguy hiểm"
+                        "en": "nonsmokers nearby",
+                        "vi": "những người xung quanh"
                       }
                     ],
                     "evidence_vi": "Hít phải khói thuốc gây ra các bệnh hô hấp nghiêm trọng và ung thư phổi, đặc biệt đối với trẻ em và phụ nữ mang thai.",
                     "evidence_en": "Inhaling smoke leads to severe respiratory illnesses and lung cancer, especially for small children and pregnant women.",
                     "evidence_collocations": [
                       {
-                        "en": "inhale smoke",
-                        "vi": "hít phải khói thuốc"
+                        "en": "inhaling cigarette smoke",
+                        "vi": "hít phải khói thuốc lá"
                       },
                       {
-                        "en": "severe respiratory illnesses",
-                        "vi": "bệnh hô hấp nghiêm trọng"
+                        "en": "elevates the risks of",
+                        "vi": "làm tăng nguy cơ mắc"
+                      },
+                      {
+                        "en": "respiratory illnesses",
+                        "vi": "các bệnh về đường hô hấp"
                       },
                       {
                         "en": "lung cancer",
                         "vi": "ung thư phổi"
                       },
                       {
-                        "en": "pregnant women",
-                        "vi": "phụ nữ mang thai"
+                        "en": "children and pregnant women",
+                        "vi": "trẻ nhỏ và phụ nữ mang thai"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "second-hand smoke",
-                        "vi": "khói thuốc thụ động"
+                        "en": "secondhand smoking",
+                        "vi": "hút thuốc thụ động"
+                      },
+                      {
+                        "en": "severe health hazards",
+                        "vi": "nhiều vấn đề sức khỏe nghiêm trọng"
+                      },
+                      {
+                        "en": "nonsmokers nearby",
+                        "vi": "những người xung quanh"
+                      },
+                      {
+                        "en": "inhaling cigarette smoke",
+                        "vi": "hít phải khói thuốc lá"
+                      },
+                      {
+                        "en": "elevates the risks of",
+                        "vi": "làm tăng nguy cơ mắc"
                       },
                       {
                         "en": "respiratory illnesses",
-                        "vi": "bệnh hô hấp"
+                        "vi": "các bệnh về đường hô hấp"
                       },
                       {
-                        "en": "public smoking",
-                        "vi": "hút thuốc nơi công cộng"
+                        "en": "lung cancer",
+                        "vi": "ung thư phổi"
+                      },
+                      {
+                        "en": "children and pregnant women",
+                        "vi": "trẻ nhỏ và phụ nữ mang thai"
                       }
                     ]
                   },
@@ -177929,46 +179013,82 @@ const ESSAY_DATA = [
                     "point_en": "A smoking ban keeps public environments clean and minimizes fire hazards.",
                     "point_collocations": [
                       {
-                        "en": "smoking ban",
+                        "en": "a smoking ban",
                         "vi": "lệnh cấm hút thuốc"
                       },
                       {
-                        "en": "clean public environments",
-                        "vi": "môi trường công cộng sạch sẽ"
+                        "en": "maintains cleanliness",
+                        "vi": "giúp giữ gìn vệ sinh"
                       },
                       {
-                        "en": "minimize fire hazards",
-                        "vi": "giảm thiểu nguy cơ hỏa hoạn"
+                        "en": "promotes fresh air",
+                        "vi": "cải thiện bầu không khí trong lành"
+                      },
+                      {
+                        "en": "in public places",
+                        "vi": "tại các khu vực công cộng"
                       }
                     ],
                     "evidence_vi": "Tàn thuốc lá vứt bừa bãi làm mất mỹ quan đường phố và có thể gây cháy tại các công viên hoặc bến xe buýt.",
                     "evidence_en": "Carelessly discarded cigarette butts dirty streets and can trigger fires in public parks or bus stations.",
                     "evidence_collocations": [
                       {
-                        "en": "discarded cigarette butts",
-                        "vi": "tàn thuốc lá bị vứt bỏ"
+                        "en": "littered cigarette butts",
+                        "vi": "tàn thuốc và mẩu thuốc lá vứt bừa bãi"
                       },
                       {
-                        "en": "dirty streets",
-                        "vi": "làm bẩn đường phố"
+                        "en": "ruin the neatness",
+                        "vi": "làm mất mỹ quan"
                       },
                       {
-                        "en": "trigger fires",
-                        "vi": "châm ngòi hỏa hoạn"
+                        "en": "parks and stations",
+                        "vi": "công viên và bến xe"
+                      },
+                      {
+                        "en": "polluting surroundings",
+                        "vi": "gây ô nhiễm môi trường"
+                      },
+                      {
+                        "en": "increasing cleaning expenses",
+                        "vi": "tốn kém chi phí dọn dẹp"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "cigarette butts",
-                        "vi": "tàn thuốc lá"
-                      },
-                      {
-                        "en": "fire hazards",
-                        "vi": "nguy cơ hỏa hoạn"
-                      },
-                      {
-                        "en": "smoking ban",
+                        "en": "a smoking ban",
                         "vi": "lệnh cấm hút thuốc"
+                      },
+                      {
+                        "en": "maintains cleanliness",
+                        "vi": "giúp giữ gìn vệ sinh"
+                      },
+                      {
+                        "en": "promotes fresh air",
+                        "vi": "cải thiện bầu không khí trong lành"
+                      },
+                      {
+                        "en": "in public places",
+                        "vi": "tại các khu vực công cộng"
+                      },
+                      {
+                        "en": "littered cigarette butts",
+                        "vi": "tàn thuốc và mẩu thuốc lá vứt bừa bãi"
+                      },
+                      {
+                        "en": "ruin the neatness",
+                        "vi": "làm mất mỹ quan"
+                      },
+                      {
+                        "en": "parks and stations",
+                        "vi": "công viên và bến xe"
+                      },
+                      {
+                        "en": "polluting surroundings",
+                        "vi": "gây ô nhiễm môi trường"
+                      },
+                      {
+                        "en": "increasing cleaning expenses",
+                        "vi": "tốn kém chi phí dọn dẹp"
                       }
                     ]
                   },
@@ -177978,46 +179098,66 @@ const ESSAY_DATA = [
                     "point_en": "Strict regulations motivate smokers to cut down and quit harmful habits.",
                     "point_collocations": [
                       {
-                        "en": "strict regulations",
-                        "vi": "quy định nghiêm ngặt"
+                        "en": "prohibiting smoking in public spaces",
+                        "vi": "cấm hút thuốc nơi công cộng"
                       },
                       {
-                        "en": "motivate smokers",
-                        "vi": "tạo động lực cho người hút thuốc"
+                        "en": "motivates smokers",
+                        "vi": "tạo động lực tích cực cho người nghiện thuốc"
                       },
                       {
-                        "en": "quit harmful habits",
-                        "vi": "từ bỏ thói quen có hại"
+                        "en": "reduce consumption or quit permanently",
+                        "vi": "giảm bớt hoặc từ bỏ thuốc lá"
                       }
                     ],
                     "evidence_vi": "Khi không thể hút thuốc thoải mái tại nhà hàng hay văn phòng, nhiều người nhận ra sự bất tiện và quyết tâm cai thuốc.",
                     "evidence_en": "When unable to smoke freely in restaurants or offices, many people recognize the inconvenience and decide to quit.",
                     "evidence_collocations": [
                       {
-                        "en": "smoke freely",
-                        "vi": "hút thuốc thoải mái"
+                        "en": "light cigarettes freely",
+                        "vi": "hút thuốc tùy tiện"
                       },
                       {
-                        "en": "restaurants or offices",
-                        "vi": "nhà hàng hoặc văn phòng"
+                        "en": "in restaurants or offices",
+                        "vi": "ở nhà hàng hay văn phòng"
                       },
                       {
-                        "en": "decide to quit",
-                        "vi": "quyết định bỏ thuốc"
+                        "en": "feel motivated",
+                        "vi": "cảm thấy bất tiện và có động lực"
+                      },
+                      {
+                        "en": "plan smoking cessation",
+                        "vi": "lên kế hoạch cai thuốc lá"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "strict regulations",
-                        "vi": "quy định nghiêm ngặt"
+                        "en": "prohibiting smoking in public spaces",
+                        "vi": "cấm hút thuốc nơi công cộng"
                       },
                       {
-                        "en": "quit smoking",
-                        "vi": "bỏ thuốc lá"
+                        "en": "motivates smokers",
+                        "vi": "tạo động lực tích cực cho người nghiện thuốc"
                       },
                       {
-                        "en": "harmful habits",
-                        "vi": "thói quen có hại"
+                        "en": "reduce consumption or quit permanently",
+                        "vi": "giảm bớt hoặc từ bỏ thuốc lá"
+                      },
+                      {
+                        "en": "light cigarettes freely",
+                        "vi": "hút thuốc tùy tiện"
+                      },
+                      {
+                        "en": "in restaurants or offices",
+                        "vi": "ở nhà hàng hay văn phòng"
+                      },
+                      {
+                        "en": "feel motivated",
+                        "vi": "cảm thấy bất tiện và có động lực"
+                      },
+                      {
+                        "en": "plan smoking cessation",
+                        "vi": "lên kế hoạch cai thuốc lá"
                       }
                     ]
                   }
@@ -178446,46 +179586,58 @@ const ESSAY_DATA = [
                     "point_en": "A total ban infringes on the personal freedom and rights of adult citizens.",
                     "point_collocations": [
                       {
-                        "en": "total ban",
+                        "en": "a complete ban",
                         "vi": "lệnh cấm hoàn toàn"
                       },
                       {
-                        "en": "infringe on personal freedom",
+                        "en": "infringe upon personal freedom",
                         "vi": "vi phạm quyền tự do cá nhân"
                       },
                       {
-                        "en": "adult citizens",
-                        "vi": "công dân trưởng thành"
+                        "en": "adult smokers",
+                        "vi": "những người hút thuốc trưởng thành"
                       }
                     ],
                     "evidence_vi": "Thuốc lá là sản phẩm hợp pháp được chính phủ đánh thuế, vì vậy người tiêu dùng có quyền sử dụng trong chừng mực nhất định.",
                     "evidence_en": "Tobacco is a legal product taxed by governments, so adult consumers possess a right to smoke within reasonable boundaries.",
                     "evidence_collocations": [
                       {
-                        "en": "legal product",
-                        "vi": "sản phẩm hợp pháp"
+                        "en": "legal behavior",
+                        "vi": "hành vi hợp pháp"
                       },
                       {
-                        "en": "taxed by governments",
-                        "vi": "được chính phủ đánh thuế"
+                        "en": "respect citizens' lifestyle choices",
+                        "vi": "tôn trọng sự lựa chọn của người dân"
                       },
                       {
-                        "en": "reasonable boundaries",
-                        "vi": "giới hạn hợp lý"
+                        "en": "enforcing harsh penalties",
+                        "vi": "áp đặt các hình phạt quá khắt khe"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "personal freedom",
-                        "vi": "tự do cá nhân"
+                        "en": "a complete ban",
+                        "vi": "lệnh cấm hoàn toàn"
                       },
                       {
-                        "en": "legal product",
-                        "vi": "sản phẩm hợp pháp"
+                        "en": "infringe upon personal freedom",
+                        "vi": "vi phạm quyền tự do cá nhân"
                       },
                       {
-                        "en": "adult consumers",
-                        "vi": "người tiêu dùng trưởng thành"
+                        "en": "adult smokers",
+                        "vi": "những người hút thuốc trưởng thành"
+                      },
+                      {
+                        "en": "legal behavior",
+                        "vi": "hành vi hợp pháp"
+                      },
+                      {
+                        "en": "respect citizens' lifestyle choices",
+                        "vi": "tôn trọng sự lựa chọn của người dân"
+                      },
+                      {
+                        "en": "enforcing harsh penalties",
+                        "vi": "áp đặt các hình phạt quá khắt khe"
                       }
                     ]
                   },
@@ -178495,46 +179647,58 @@ const ESSAY_DATA = [
                     "point_en": "A strict ban can damage revenues for bars, cafes, and hospitality businesses.",
                     "point_collocations": [
                       {
-                        "en": "damage revenues",
-                        "vi": "làm tổn hại doanh thu"
+                        "en": "strict smoking prohibitions",
+                        "vi": "lệnh cấm hút thuốc nghiêm ngặt"
                       },
                       {
-                        "en": "hospitality businesses",
-                        "vi": "các cơ sở kinh doanh dịch vụ hiếu khách"
+                        "en": "cause revenue losses",
+                        "vi": "gây tổn thất doanh thu"
                       },
                       {
-                        "en": "commercial impact",
-                        "vi": "tác động thương mại"
+                        "en": "hospitality and entertainment businesses",
+                        "vi": "các ngành dịch vụ giải trí"
                       }
                     ],
                     "evidence_vi": "Nhiều khách hàng thích vừa uống cà phê vừa hút thuốc ngoài trời, do đó việc cấm hoàn toàn khiến họ ít lui tới các tụ điểm giải trí.",
                     "evidence_en": "Many customers enjoy smoking while drinking coffee outdoors, so total bans discourage them from visiting recreational spots.",
                     "evidence_collocations": [
                       {
-                        "en": "drinking coffee outdoors",
-                        "vi": "uống cà phê ngoài trời"
+                        "en": "coffee shops, bars, and nightclubs",
+                        "vi": "quán cà phê, quán bar và hộp đêm"
                       },
                       {
-                        "en": "total bans",
-                        "vi": "lệnh cấm toàn diện"
+                        "en": "lose regular patrons",
+                        "vi": "mất đi lượng lớn khách hàng quen thuộc"
                       },
                       {
-                        "en": "recreational spots",
-                        "vi": "các địa điểm giải trí"
+                        "en": "drops in business earnings",
+                        "vi": "giảm lợi nhuận kinh doanh"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "hospitality businesses",
-                        "vi": "doanh nghiệp dịch vụ"
+                        "en": "strict smoking prohibitions",
+                        "vi": "lệnh cấm hút thuốc nghiêm ngặt"
                       },
                       {
-                        "en": "damage revenues",
-                        "vi": "làm giảm doanh thu"
+                        "en": "cause revenue losses",
+                        "vi": "gây tổn thất doanh thu"
                       },
                       {
-                        "en": "recreational spots",
-                        "vi": "điểm giải trí"
+                        "en": "hospitality and entertainment businesses",
+                        "vi": "các ngành dịch vụ giải trí"
+                      },
+                      {
+                        "en": "coffee shops, bars, and nightclubs",
+                        "vi": "quán cà phê, quán bar và hộp đêm"
+                      },
+                      {
+                        "en": "lose regular patrons",
+                        "vi": "mất đi lượng lớn khách hàng quen thuộc"
+                      },
+                      {
+                        "en": "drops in business earnings",
+                        "vi": "giảm lợi nhuận kinh doanh"
                       }
                     ]
                   },
@@ -178544,46 +179708,58 @@ const ESSAY_DATA = [
                     "point_en": "Enforcing public smoking penalties is costly and extremely difficult to achieve.",
                     "point_collocations": [
                       {
-                        "en": "enforcing public smoking penalties",
-                        "vi": "thực thi xử phạt hút thuốc nơi công cộng"
+                        "en": "designating separate smoking zones",
+                        "vi": "xây dựng các khu vực hút thuốc riêng biệt"
                       },
                       {
-                        "en": "costly",
-                        "vi": "tốn kém chi phí"
+                        "en": "fairer and more balanced approach",
+                        "vi": "giải pháp hợp lý và công bằng hơn"
                       },
                       {
-                        "en": "difficult to achieve",
-                        "vi": "khó thực hiện được"
+                        "en": "blanket ban",
+                        "vi": "lệnh cấm toàn diện"
                       }
                     ],
                     "evidence_vi": "Cảnh sát và nhân viên quản lý không thể túc trực ở mọi góc phố để bắt phạt, vì vậy quy định dễ bị phớt lờ.",
                     "evidence_en": "Authorities cannot monitor every street corner constantly, so regulations are frequently ignored.",
                     "evidence_collocations": [
                       {
-                        "en": "monitor every street corner",
-                        "vi": "giám sát mọi góc phố"
+                        "en": "installing ventilated smoking rooms",
+                        "vi": "lắp đặt các phòng hút thuốc có hệ thống thông gió tốt"
                       },
                       {
-                        "en": "frequently ignored",
-                        "vi": "thường xuyên bị phớt lờ"
+                        "en": "protects bystanders",
+                        "vi": "bảo vệ người xung quanh"
                       },
                       {
-                        "en": "law enforcement",
-                        "vi": "sự thực thi pháp luật"
+                        "en": "respects smokers' personal needs",
+                        "vi": "đáp ứng nhu cầu của người hút thuốc"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "law enforcement",
-                        "vi": "thực thi luật"
+                        "en": "designating separate smoking zones",
+                        "vi": "xây dựng các khu vực hút thuốc riêng biệt"
                       },
                       {
-                        "en": "frequently ignored",
-                        "vi": "bị phớt lờ thường xuyên"
+                        "en": "fairer and more balanced approach",
+                        "vi": "giải pháp hợp lý và công bằng hơn"
                       },
                       {
-                        "en": "street corner",
-                        "vi": "góc phố"
+                        "en": "blanket ban",
+                        "vi": "lệnh cấm toàn diện"
+                      },
+                      {
+                        "en": "installing ventilated smoking rooms",
+                        "vi": "lắp đặt các phòng hút thuốc có hệ thống thông gió tốt"
+                      },
+                      {
+                        "en": "protects bystanders",
+                        "vi": "bảo vệ người xung quanh"
+                      },
+                      {
+                        "en": "respects smokers' personal needs",
+                        "vi": "đáp ứng nhu cầu của người hút thuốc"
                       }
                     ]
                   }
@@ -179265,32 +180441,36 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 01",
                 "collocations": [
                   {
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
+                  },
+                  {
                     "en": "provide a clear structure",
-                    "vi": "cung cấp một cấu trúc rõ ràng"
+                    "vi": "giúp có cấu trúc rõ ràng"
                   },
                   {
                     "en": "language learning",
                     "vi": "việc học ngôn ngữ"
                   },
                   {
-                    "en": "organize lessons",
-                    "vi": "sắp xếp bài học"
+                    "en": "organized from easy to difficult",
+                    "vi": "sắp xếp theo trình tự từ dễ đến khó"
                   },
                   {
-                    "en": "from easy to difficult",
-                    "vi": "từ dễ đến khó"
+                    "en": "learn step by step",
+                    "vi": "học từng bước"
                   },
                   {
-                    "en": "learning progress",
-                    "vi": "tiến độ học tập"
+                    "en": "more effectively",
+                    "vi": "hiệu quả hơn"
                   },
                   {
-                    "en": "systematic",
-                    "vi": "có hệ thống"
+                    "en": "follow learning progress",
+                    "vi": "theo dõi tiến độ học tập"
                   },
                   {
-                    "en": "organize + N",
-                    "vi": "sắp xếp"
+                    "en": "more systematic",
+                    "vi": "có hệ thống hơn"
                   }
                 ],
                 "point_vi": "Sách giáo khoa giúp việc học ngôn ngữ có cấu trúc rõ ràng.",
@@ -179299,30 +180479,38 @@ const ESSAY_DATA = [
                 "evidence_en": "Lessons are organized from easy to difficult. This helps students learn step by step more effectively. Students can also follow their learning progress more easily. Therefore, textbooks make the learning process more systematic.",
                 "point_collocations": [
                   {
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
+                  },
+                  {
                     "en": "provide a clear structure",
-                    "vi": "cung cấp một cấu trúc rõ ràng"
+                    "vi": "giúp có cấu trúc rõ ràng"
                   },
                   {
                     "en": "language learning",
                     "vi": "việc học ngôn ngữ"
-                  },
-                  {
-                    "en": "organize lessons",
-                    "vi": "sắp xếp bài học"
                   }
                 ],
                 "evidence_collocations": [
                   {
-                    "en": "language learning",
-                    "vi": "việc học ngôn ngữ"
+                    "en": "organized from easy to difficult",
+                    "vi": "sắp xếp theo trình tự từ dễ đến khó"
                   },
                   {
-                    "en": "organize lessons",
-                    "vi": "sắp xếp bài học"
+                    "en": "learn step by step",
+                    "vi": "học từng bước"
                   },
                   {
-                    "en": "from easy to difficult",
-                    "vi": "từ dễ đến khó"
+                    "en": "more effectively",
+                    "vi": "hiệu quả hơn"
+                  },
+                  {
+                    "en": "follow learning progress",
+                    "vi": "theo dõi tiến độ học tập"
+                  },
+                  {
+                    "en": "more systematic",
+                    "vi": "có hệ thống hơn"
                   }
                 ]
               },
@@ -179330,36 +180518,32 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 02",
                 "collocations": [
                   {
-                    "en": "essential language knowledge",
-                    "vi": "kiến thức ngôn ngữ thiết yếu"
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
                   },
                   {
-                    "en": "vocabulary",
-                    "vi": "từ vựng"
+                    "en": "provide essential language knowledge",
+                    "vi": "cung cấp những kiến thức ngôn ngữ cần thiết"
                   },
                   {
-                    "en": "grammar",
-                    "vi": "ngữ pháp"
+                    "en": "vocabulary and grammar",
+                    "vi": "từ vựng và ngữ pháp"
                   },
                   {
                     "en": "practice exercises",
-                    "vi": "bài luyện tập"
+                    "vi": "các bài luyện tập"
                   },
                   {
-                    "en": "language skills",
-                    "vi": "các kỹ năng ngôn ngữ"
+                    "en": "practise all language skills",
+                    "vi": "luyện tập tất cả các kỹ năng ngôn ngữ"
                   },
                   {
-                    "en": "a strong foundation",
-                    "vi": "nền tảng vững chắc"
+                    "en": "build a strong foundation",
+                    "vi": "xây dựng nền tảng vững chắc"
                   },
                   {
-                    "en": "include + N",
-                    "vi": "bao gồm"
-                  },
-                  {
-                    "en": "build + N",
-                    "vi": "xây dựng"
+                    "en": "play an important role",
+                    "vi": "đóng vai trò quan trọng"
                   }
                 ],
                 "point_vi": "Sách giáo khoa cung cấp những kiến thức ngôn ngữ cần thiết.",
@@ -179368,30 +180552,34 @@ const ESSAY_DATA = [
                 "evidence_en": "They include vocabulary, grammar, and practice exercises. Students can practise all language skills. This helps them build a strong foundation in English. Therefore, textbooks play an important role in language learning.",
                 "point_collocations": [
                   {
-                    "en": "essential language knowledge",
-                    "vi": "kiến thức ngôn ngữ thiết yếu"
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
                   },
                   {
-                    "en": "vocabulary",
-                    "vi": "từ vựng"
-                  },
-                  {
-                    "en": "grammar",
-                    "vi": "ngữ pháp"
+                    "en": "provide essential language knowledge",
+                    "vi": "cung cấp những kiến thức ngôn ngữ cần thiết"
                   }
                 ],
                 "evidence_collocations": [
                   {
-                    "en": "vocabulary",
-                    "vi": "từ vựng"
-                  },
-                  {
-                    "en": "grammar",
-                    "vi": "ngữ pháp"
+                    "en": "vocabulary and grammar",
+                    "vi": "từ vựng và ngữ pháp"
                   },
                   {
                     "en": "practice exercises",
-                    "vi": "bài luyện tập"
+                    "vi": "các bài luyện tập"
+                  },
+                  {
+                    "en": "practise all language skills",
+                    "vi": "luyện tập tất cả các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "build a strong foundation",
+                    "vi": "xây dựng nền tảng vững chắc"
+                  },
+                  {
+                    "en": "play an important role",
+                    "vi": "đóng vai trò quan trọng"
                   }
                 ]
               },
@@ -179399,28 +180587,32 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 03",
                 "collocations": [
                   {
-                    "en": "prepare lessons",
-                    "vi": "chuẩn bị bài giảng"
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
+                  },
+                  {
+                    "en": "support both teachers and students",
+                    "vi": "hỗ trợ cả giáo viên và học sinh"
+                  },
+                  {
+                    "en": "prepare lessons more easily",
+                    "vi": "chuẩn bị bài giảng dễ dàng hơn"
+                  },
+                  {
+                    "en": "before and after each lesson",
+                    "vi": "trước và sau mỗi bài học"
                   },
                   {
                     "en": "teaching and learning",
                     "vi": "việc dạy và học"
                   },
                   {
-                    "en": "effective",
-                    "vi": "hiệu quả"
+                    "en": "more effective",
+                    "vi": "hiệu quả hơn"
                   },
                   {
-                    "en": "remain",
-                    "vi": "vẫn là (duy trì trạng thái nào đó)"
-                  },
-                  {
-                    "en": "an important part",
-                    "vi": "một phần quan trọng"
-                  },
-                  {
-                    "en": "prepare + N",
-                    "vi": "chuẩn bị"
+                    "en": "remain an important part",
+                    "vi": "vẫn là một phần quan trọng"
                   }
                 ],
                 "point_vi": "Sách giáo khoa hỗ trợ cả giáo viên và học sinh.",
@@ -179429,30 +180621,34 @@ const ESSAY_DATA = [
                 "evidence_en": "Teachers can prepare lessons more easily. Students know what they need to learn before and after each lesson. This makes teaching and learning more effective. For this reason, textbooks remain an important part of the classroom.",
                 "point_collocations": [
                   {
-                    "en": "prepare lessons",
-                    "vi": "chuẩn bị bài giảng"
+                    "en": "textbooks",
+                    "vi": "sách giáo khoa"
                   },
                   {
-                    "en": "teaching and learning",
-                    "vi": "việc dạy và học"
-                  },
-                  {
-                    "en": "effective",
-                    "vi": "hiệu quả"
+                    "en": "support both teachers and students",
+                    "vi": "hỗ trợ cả giáo viên và học sinh"
                   }
                 ],
                 "evidence_collocations": [
                   {
+                    "en": "prepare lessons more easily",
+                    "vi": "chuẩn bị bài giảng dễ dàng hơn"
+                  },
+                  {
+                    "en": "before and after each lesson",
+                    "vi": "trước và sau mỗi bài học"
+                  },
+                  {
                     "en": "teaching and learning",
                     "vi": "việc dạy và học"
                   },
                   {
-                    "en": "effective",
-                    "vi": "hiệu quả"
+                    "en": "more effective",
+                    "vi": "hiệu quả hơn"
                   },
                   {
-                    "en": "remain",
-                    "vi": "vẫn là (duy trì trạng thái nào đó)"
+                    "en": "remain an important part",
+                    "vi": "vẫn là một phần quan trọng"
                   }
                 ]
               }
@@ -180297,24 +181493,36 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 01",
                 "collocations": [
                   {
-                    "en": "affect feelings",
-                    "vi": "ảnh hưởng đến cảm xúc"
+                    "en": "share on social media",
+                    "vi": "chia sẻ trên mạng xã hội"
                   },
                   {
-                    "en": "share photos and moments",
-                    "vi": "chia sẻ ảnh và khoảnh khắc"
+                    "en": "affect other people's feelings",
+                    "vi": "ảnh hưởng đến cảm xúc của người khác"
                   },
                   {
-                    "en": "feel happy or inspired",
-                    "vi": "cảm thấy vui hoặc được truyền cảm hứng"
+                    "en": "photos and moments",
+                    "vi": "hình ảnh và những khoảnh khắc"
                   },
                   {
-                    "en": "compare with others",
-                    "vi": "so sánh với người khác"
+                    "en": "posts about success, travel, or happy moments",
+                    "vi": "bài đăng về thành công, du lịch hoặc cuộc sống vui vẻ"
                   },
                   {
-                    "en": "feel less confident",
-                    "vi": "cảm thấy kém tự tin"
+                    "en": "feel happy",
+                    "vi": "cảm thấy vui"
+                  },
+                  {
+                    "en": "feel sad or less confident",
+                    "vi": "cảm thấy buồn hoặc tự ti"
+                  },
+                  {
+                    "en": "comparing themselves with others",
+                    "vi": "so sánh bản thân với người khác"
+                  },
+                  {
+                    "en": "create different feelings",
+                    "vi": "tạo ra những cảm xúc khác nhau"
                   }
                 ],
                 "point_vi": "Những gì mọi người chia sẻ trên mạng xã hội có thể ảnh hưởng đến cảm xúc của người khác.",
@@ -180323,30 +181531,38 @@ const ESSAY_DATA = [
                 "evidence_en": "People often see photos and moments from other people's lives. Posts about success, travel, or happy moments can make viewers feel happy. However, some people may feel sad or less confident when comparing themselves with others. Therefore, personal content can create different feelings in viewers.",
                 "point_collocations": [
                   {
-                    "en": "affect feelings",
-                    "vi": "ảnh hưởng đến cảm xúc"
+                    "en": "share on social media",
+                    "vi": "chia sẻ trên mạng xã hội"
                   },
                   {
-                    "en": "share photos and moments",
-                    "vi": "chia sẻ ảnh và khoảnh khắc"
-                  },
-                  {
-                    "en": "feel happy or inspired",
-                    "vi": "cảm thấy vui hoặc được truyền cảm hứng"
+                    "en": "affect other people's feelings",
+                    "vi": "ảnh hưởng đến cảm xúc của người khác"
                   }
                 ],
                 "evidence_collocations": [
                   {
-                    "en": "share photos and moments",
-                    "vi": "chia sẻ ảnh và khoảnh khắc"
+                    "en": "photos and moments",
+                    "vi": "hình ảnh và những khoảnh khắc"
                   },
                   {
-                    "en": "feel happy or inspired",
-                    "vi": "cảm thấy vui hoặc được truyền cảm hứng"
+                    "en": "posts about success, travel, or happy moments",
+                    "vi": "bài đăng về thành công, du lịch hoặc cuộc sống vui vẻ"
                   },
                   {
-                    "en": "compare with others",
-                    "vi": "so sánh với người khác"
+                    "en": "feel happy",
+                    "vi": "cảm thấy vui"
+                  },
+                  {
+                    "en": "feel sad or less confident",
+                    "vi": "cảm thấy buồn hoặc tự ti"
+                  },
+                  {
+                    "en": "comparing themselves with others",
+                    "vi": "so sánh bản thân với người khác"
+                  },
+                  {
+                    "en": "create different feelings",
+                    "vi": "tạo ra những cảm xúc khác nhau"
                   }
                 ]
               },
@@ -180354,24 +181570,32 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 02",
                 "collocations": [
                   {
-                    "en": "influence behaviour",
-                    "vi": "ảnh hưởng đến hành vi"
+                    "en": "personal content on social media",
+                    "vi": "nội dung cá nhân trên mạng xã hội"
                   },
                   {
-                    "en": "copy habits",
-                    "vi": "bắt chước các thói quen"
+                    "en": "influence how other people behave",
+                    "vi": "ảnh hưởng đến cách người khác hành động"
+                  },
+                  {
+                    "en": "copy habits or activities",
+                    "vi": "bắt chước những thói quen hoặc hoạt động"
+                  },
+                  {
+                    "en": "posting about exercise",
+                    "vi": "đăng bài về tập thể dục"
+                  },
+                  {
+                    "en": "encourage friends",
+                    "vi": "khiến bạn bè muốn"
                   },
                   {
                     "en": "start working out",
-                    "vi": "bắt đầu tập luyện thể thao"
+                    "vi": "bắt đầu tập luyện"
                   },
                   {
-                    "en": "affect choices",
-                    "vi": "ảnh hưởng đến các lựa chọn"
-                  },
-                  {
-                    "en": "social media activities",
-                    "vi": "các hoạt động trên mạng xã hội"
+                    "en": "affect other people's choices",
+                    "vi": "tác động đến lựa chọn của người khác"
                   }
                 ],
                 "point_vi": "Nội dung cá nhân trên mạng xã hội cũng có thể ảnh hưởng đến cách người khác hành động.",
@@ -180380,30 +181604,34 @@ const ESSAY_DATA = [
                 "evidence_en": "Users often watch what other people do and share. They may copy habits or activities that they see. For example, a person posting about exercise can encourage friends to start working out. Therefore, sharing personal life can affect other people's choices.",
                 "point_collocations": [
                   {
-                    "en": "influence behaviour",
-                    "vi": "ảnh hưởng đến hành vi"
+                    "en": "personal content on social media",
+                    "vi": "nội dung cá nhân trên mạng xã hội"
                   },
                   {
-                    "en": "copy habits",
-                    "vi": "bắt chước các thói quen"
-                  },
-                  {
-                    "en": "start working out",
-                    "vi": "bắt đầu tập luyện thể thao"
+                    "en": "influence how other people behave",
+                    "vi": "ảnh hưởng đến cách người khác hành động"
                   }
                 ],
                 "evidence_collocations": [
                   {
-                    "en": "copy habits",
-                    "vi": "bắt chước các thói quen"
+                    "en": "copy habits or activities",
+                    "vi": "bắt chước những thói quen hoặc hoạt động"
+                  },
+                  {
+                    "en": "posting about exercise",
+                    "vi": "đăng bài về tập thể dục"
+                  },
+                  {
+                    "en": "encourage friends",
+                    "vi": "khiến bạn bè muốn"
                   },
                   {
                     "en": "start working out",
-                    "vi": "bắt đầu tập luyện thể thao"
+                    "vi": "bắt đầu tập luyện"
                   },
                   {
-                    "en": "affect choices",
-                    "vi": "ảnh hưởng đến các lựa chọn"
+                    "en": "affect other people's choices",
+                    "vi": "tác động đến lựa chọn của người khác"
                   }
                 ]
               },
@@ -180411,24 +181639,32 @@ const ESSAY_DATA = [
                 "title": "LÝ DO 03",
                 "collocations": [
                   {
-                    "en": "affect privacy",
-                    "vi": "ảnh hưởng đến quyền riêng tư"
+                    "en": "sharing too much personal information",
+                    "vi": "chia sẻ quá nhiều thông tin cá nhân"
                   },
                   {
-                    "en": "share personal information",
-                    "vi": "chia sẻ thông tin cá nhân"
+                    "en": "affect other people's privacy",
+                    "vi": "ảnh hưởng đến quyền riêng tư của những người khác"
+                  },
+                  {
+                    "en": "photos or information",
+                    "vi": "hình ảnh hoặc thông tin"
                   },
                   {
                     "en": "friends and family members",
-                    "vi": "bạn bè và người thân"
+                    "vi": "bạn bè và thành viên gia đình"
                   },
                   {
-                    "en": "share publicly",
-                    "vi": "chia sẻ công khai"
+                    "en": "shared publicly",
+                    "vi": "được chia sẻ công khai"
                   },
                   {
                     "en": "feel uncomfortable",
                     "vi": "cảm thấy không thoải mái"
+                  },
+                  {
+                    "en": "careful when posting content",
+                    "vi": "cẩn thận khi đăng nội dung"
                   }
                 ],
                 "point_vi": "Việc chia sẻ quá nhiều thông tin cá nhân có thể ảnh hưởng đến quyền riêng tư của những người khác.",
@@ -180437,30 +181673,34 @@ const ESSAY_DATA = [
                 "evidence_en": "A post may contain photos or information about friends and family members. These people may not want their information to be shared publicly. This can make them feel uncomfortable. Therefore, people should be careful when posting content related to others.",
                 "point_collocations": [
                   {
-                    "en": "affect privacy",
-                    "vi": "ảnh hưởng đến quyền riêng tư"
+                    "en": "sharing too much personal information",
+                    "vi": "chia sẻ quá nhiều thông tin cá nhân"
                   },
                   {
-                    "en": "share personal information",
-                    "vi": "chia sẻ thông tin cá nhân"
-                  },
-                  {
-                    "en": "friends and family members",
-                    "vi": "bạn bè và người thân"
+                    "en": "affect other people's privacy",
+                    "vi": "ảnh hưởng đến quyền riêng tư của những người khác"
                   }
                 ],
                 "evidence_collocations": [
                   {
-                    "en": "share personal information",
-                    "vi": "chia sẻ thông tin cá nhân"
+                    "en": "photos or information",
+                    "vi": "hình ảnh hoặc thông tin"
                   },
                   {
                     "en": "friends and family members",
-                    "vi": "bạn bè và người thân"
+                    "vi": "bạn bè và thành viên gia đình"
                   },
                   {
-                    "en": "share publicly",
-                    "vi": "chia sẻ công khai"
+                    "en": "shared publicly",
+                    "vi": "được chia sẻ công khai"
+                  },
+                  {
+                    "en": "feel uncomfortable",
+                    "vi": "cảm thấy không thoải mái"
+                  },
+                  {
+                    "en": "careful when posting content",
+                    "vi": "cẩn thận khi đăng nội dung"
                   }
                 ]
               }
@@ -181130,21 +182370,25 @@ const ESSAY_DATA = [
                 "point_en": "Mobile phones allow parents to contact their children in emergency situations.",
                 "point_collocations": [
                   {
-                    "en": "contact their children",
-                    "vi": "liên lạc với con cái"
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
                   },
                   {
-                    "en": "emergency situations",
-                    "vi": "các tình huống khẩn cấp"
+                    "en": "allow parents to contact",
+                    "vi": "cho phép cha mẹ liên lạc"
                   },
                   {
-                    "en": "parental communication",
-                    "vi": "sự liên lạc của cha mẹ"
+                    "en": "in emergency situations",
+                    "vi": "trong các tình huống khẩn cấp"
                   }
                 ],
                 "evidence_vi": "Phụ huynh có thể thông báo giờ đón đột xuất hoặc kiểm tra sự an toàn của con sau giờ học, vì vậy chiếc điện thoại mang lại sự yên tâm cho cả gia đình.",
                 "evidence_en": "Parents can inform sudden pickup changes or check child safety after school, so a phone brings peace of mind to families.",
                 "evidence_collocations": [
+                  {
+                    "en": "inform sudden pickup changes",
+                    "vi": "thông báo giờ đón đột xuất"
+                  },
                   {
                     "en": "check child safety",
                     "vi": "kiểm tra sự an toàn của con"
@@ -181154,26 +182398,38 @@ const ESSAY_DATA = [
                     "vi": "sau giờ học"
                   },
                   {
-                    "en": "peace of mind",
-                    "vi": "sự an tâm"
-                  },
-                  {
-                    "en": "family contact",
-                    "vi": "sự liên hệ gia đình"
+                    "en": "bring peace of mind to families",
+                    "vi": "mang lại sự yên tâm cho cả gia đình"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "emergency situations",
-                    "vi": "các tình huống khẩn cấp"
+                    "en": "mobile phones",
+                    "vi": "điện thoại di động"
                   },
                   {
-                    "en": "peace of mind",
-                    "vi": "sự an tâm"
+                    "en": "allow parents to contact",
+                    "vi": "cho phép cha mẹ liên lạc"
                   },
                   {
-                    "en": "child safety",
-                    "vi": "sự an toàn của trẻ"
+                    "en": "in emergency situations",
+                    "vi": "trong các tình huống khẩn cấp"
+                  },
+                  {
+                    "en": "inform sudden pickup changes",
+                    "vi": "thông báo giờ đón đột xuất"
+                  },
+                  {
+                    "en": "check child safety",
+                    "vi": "kiểm tra sự an toàn của con"
+                  },
+                  {
+                    "en": "after school",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "bring peace of mind to families",
+                    "vi": "mang lại sự yên tâm cho cả gia đình"
                   }
                 ]
               },
@@ -181183,16 +182439,16 @@ const ESSAY_DATA = [
                 "point_en": "Smartphones can serve as useful learning tools under teacher supervision.",
                 "point_collocations": [
                   {
-                    "en": "useful learning tools",
-                    "vi": "công cụ học tập hữu ích"
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
                   },
                   {
-                    "en": "teacher supervision",
-                    "vi": "sự giám sát của giáo viên"
+                    "en": "serve as useful learning tools",
+                    "vi": "đóng vai trò như công cụ học tập hữu ích"
                   },
                   {
-                    "en": "digital educational resources",
-                    "vi": "tài nguyên giáo dục số"
+                    "en": "under teacher supervision",
+                    "vi": "dưới sự giám sát của giáo viên"
                   }
                 ],
                 "evidence_vi": "Học sinh có thể tra cứu từ điển trực tuyến và tham gia các ứng dụng học toán tương tác, và điều này giúp các tiết học trở nên sinh động hơn.",
@@ -181203,26 +182459,38 @@ const ESSAY_DATA = [
                     "vi": "tra cứu từ điển trực tuyến"
                   },
                   {
-                    "en": "interactive learning apps",
-                    "vi": "ứng dụng học tập tương tác"
+                    "en": "participate in interactive math apps",
+                    "vi": "tham gia các ứng dụng học toán tương tác"
                   },
                   {
-                    "en": "more engaging lessons",
-                    "vi": "các bài học sinh động hơn"
+                    "en": "make classroom lessons more engaging",
+                    "vi": "giúp các tiết học trở nên sinh động hơn"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "online dictionaries",
-                    "vi": "từ điển trực tuyến"
+                    "en": "smartphones",
+                    "vi": "điện thoại thông minh"
                   },
                   {
-                    "en": "interactive learning",
-                    "vi": "học tập tương tác"
+                    "en": "serve as useful learning tools",
+                    "vi": "đóng vai trò như công cụ học tập hữu ích"
                   },
                   {
-                    "en": "teacher supervision",
-                    "vi": "sự giám sát của giáo viên"
+                    "en": "under teacher supervision",
+                    "vi": "dưới sự giám sát của giáo viên"
+                  },
+                  {
+                    "en": "look up online dictionaries",
+                    "vi": "tra cứu từ điển trực tuyến"
+                  },
+                  {
+                    "en": "participate in interactive math apps",
+                    "vi": "tham gia các ứng dụng học toán tương tác"
+                  },
+                  {
+                    "en": "make classroom lessons more engaging",
+                    "vi": "giúp các tiết học trở nên sinh động hơn"
                   }
                 ]
               },
@@ -181232,16 +182500,16 @@ const ESSAY_DATA = [
                 "point_en": "Schools should teach pupils responsible technology habits instead of a complete ban.",
                 "point_collocations": [
                   {
+                    "en": "teach pupils",
+                    "vi": "dạy học sinh"
+                  },
+                  {
                     "en": "responsible technology habits",
-                    "vi": "thói quen sử dụng công nghệ có trách nhiệm"
+                    "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
                   },
                   {
-                    "en": "complete ban",
-                    "vi": "lệnh cấm hoàn toàn"
-                  },
-                  {
-                    "en": "digital literacy",
-                    "vi": "năng lực số"
+                    "en": "instead of a complete ban",
+                    "vi": "thay vì cấm đoán hoàn toàn"
                   }
                 ],
                 "evidence_vi": "Giáo viên có thể đặt quy định cất điện thoại vào tủ đồ trong giờ học, nhờ đó trẻ nhỏ học được tính tự kỷ luật và ý thức công nghệ từ sớm.",
@@ -181249,33 +182517,57 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   {
                     "en": "set clear rules",
-                    "vi": "đưa ra các quy định rõ ràng"
+                    "vi": "đặt quy định rõ ràng"
                   },
                   {
                     "en": "keep phones in lockers",
                     "vi": "cất điện thoại vào tủ đồ"
                   },
                   {
+                    "en": "during class",
+                    "vi": "trong giờ học"
+                  },
+                  {
                     "en": "develop self-discipline",
-                    "vi": "phát triển tính tự kỷ luật"
+                    "vi": "học được tính tự kỷ luật"
                   },
                   {
                     "en": "digital awareness",
-                    "vi": "nhận thức về công nghệ số"
+                    "vi": "ý thức công nghệ từ sớm"
                   }
                 ],
                 "collocations": [
                   {
+                    "en": "teach pupils",
+                    "vi": "dạy học sinh"
+                  },
+                  {
+                    "en": "responsible technology habits",
+                    "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
+                  },
+                  {
+                    "en": "instead of a complete ban",
+                    "vi": "thay vì cấm đoán hoàn toàn"
+                  },
+                  {
                     "en": "set clear rules",
-                    "vi": "đưa ra quy định rõ ràng"
+                    "vi": "đặt quy định rõ ràng"
+                  },
+                  {
+                    "en": "keep phones in lockers",
+                    "vi": "cất điện thoại vào tủ đồ"
+                  },
+                  {
+                    "en": "during class",
+                    "vi": "trong giờ học"
                   },
                   {
                     "en": "develop self-discipline",
-                    "vi": "rèn luyện tính tự kỷ luật"
+                    "vi": "học được tính tự kỷ luật"
                   },
                   {
-                    "en": "responsible habits",
-                    "vi": "thói quen có trách nhiệm"
+                    "en": "digital awareness",
+                    "vi": "ý thức công nghệ từ sớm"
                   }
                 ]
               }
@@ -181897,21 +183189,25 @@ const ESSAY_DATA = [
                     "point_en": "Mobile phones allow parents to contact their children in emergency situations.",
                     "point_collocations": [
                       {
-                        "en": "contact their children",
-                        "vi": "liên lạc với con cái"
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
                       },
                       {
-                        "en": "emergency situations",
-                        "vi": "các tình huống khẩn cấp"
+                        "en": "allow parents to contact",
+                        "vi": "cho phép cha mẹ liên lạc"
                       },
                       {
-                        "en": "parental communication",
-                        "vi": "sự liên lạc của cha mẹ"
+                        "en": "in emergency situations",
+                        "vi": "trong các tình huống khẩn cấp"
                       }
                     ],
                     "evidence_vi": "Phụ huynh có thể thông báo giờ đón đột xuất hoặc kiểm tra sự an toàn của con sau giờ học, vì vậy chiếc điện thoại mang lại sự yên tâm cho cả gia đình.",
                     "evidence_en": "Parents can inform sudden pickup changes or check child safety after school, so a phone brings peace of mind to families.",
                     "evidence_collocations": [
+                      {
+                        "en": "inform sudden pickup changes",
+                        "vi": "thông báo giờ đón đột xuất"
+                      },
                       {
                         "en": "check child safety",
                         "vi": "kiểm tra sự an toàn của con"
@@ -181921,26 +183217,38 @@ const ESSAY_DATA = [
                         "vi": "sau giờ học"
                       },
                       {
-                        "en": "peace of mind",
-                        "vi": "sự an tâm"
-                      },
-                      {
-                        "en": "family contact",
-                        "vi": "sự liên hệ gia đình"
+                        "en": "bring peace of mind to families",
+                        "vi": "mang lại sự yên tâm cho cả gia đình"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "emergency situations",
-                        "vi": "các tình huống khẩn cấp"
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
                       },
                       {
-                        "en": "peace of mind",
-                        "vi": "sự an tâm"
+                        "en": "allow parents to contact",
+                        "vi": "cho phép cha mẹ liên lạc"
                       },
                       {
-                        "en": "child safety",
-                        "vi": "sự an toàn của trẻ"
+                        "en": "in emergency situations",
+                        "vi": "trong các tình huống khẩn cấp"
+                      },
+                      {
+                        "en": "inform sudden pickup changes",
+                        "vi": "thông báo giờ đón đột xuất"
+                      },
+                      {
+                        "en": "check child safety",
+                        "vi": "kiểm tra sự an toàn của con"
+                      },
+                      {
+                        "en": "after school",
+                        "vi": "sau giờ học"
+                      },
+                      {
+                        "en": "bring peace of mind to families",
+                        "vi": "mang lại sự yên tâm cho cả gia đình"
                       }
                     ]
                   },
@@ -181950,16 +183258,16 @@ const ESSAY_DATA = [
                     "point_en": "Smartphones can serve as useful learning tools under teacher supervision.",
                     "point_collocations": [
                       {
-                        "en": "useful learning tools",
-                        "vi": "công cụ học tập hữu ích"
+                        "en": "smartphones",
+                        "vi": "điện thoại thông minh"
                       },
                       {
-                        "en": "teacher supervision",
-                        "vi": "sự giám sát của giáo viên"
+                        "en": "serve as useful learning tools",
+                        "vi": "đóng vai trò như công cụ học tập hữu ích"
                       },
                       {
-                        "en": "digital educational resources",
-                        "vi": "tài nguyên giáo dục số"
+                        "en": "under teacher supervision",
+                        "vi": "dưới sự giám sát của giáo viên"
                       }
                     ],
                     "evidence_vi": "Học sinh có thể tra cứu từ điển trực tuyến và tham gia các ứng dụng học toán tương tác, và điều này giúp các tiết học trở nên sinh động hơn.",
@@ -181970,26 +183278,38 @@ const ESSAY_DATA = [
                         "vi": "tra cứu từ điển trực tuyến"
                       },
                       {
-                        "en": "interactive learning apps",
-                        "vi": "ứng dụng học tập tương tác"
+                        "en": "participate in interactive math apps",
+                        "vi": "tham gia các ứng dụng học toán tương tác"
                       },
                       {
-                        "en": "more engaging lessons",
-                        "vi": "các bài học sinh động hơn"
+                        "en": "make classroom lessons more engaging",
+                        "vi": "giúp các tiết học trở nên sinh động hơn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "online dictionaries",
-                        "vi": "từ điển trực tuyến"
+                        "en": "smartphones",
+                        "vi": "điện thoại thông minh"
                       },
                       {
-                        "en": "interactive learning",
-                        "vi": "học tập tương tác"
+                        "en": "serve as useful learning tools",
+                        "vi": "đóng vai trò như công cụ học tập hữu ích"
                       },
                       {
-                        "en": "teacher supervision",
-                        "vi": "sự giám sát của giáo viên"
+                        "en": "under teacher supervision",
+                        "vi": "dưới sự giám sát của giáo viên"
+                      },
+                      {
+                        "en": "look up online dictionaries",
+                        "vi": "tra cứu từ điển trực tuyến"
+                      },
+                      {
+                        "en": "participate in interactive math apps",
+                        "vi": "tham gia các ứng dụng học toán tương tác"
+                      },
+                      {
+                        "en": "make classroom lessons more engaging",
+                        "vi": "giúp các tiết học trở nên sinh động hơn"
                       }
                     ]
                   },
@@ -181999,16 +183319,16 @@ const ESSAY_DATA = [
                     "point_en": "Schools should teach pupils responsible technology habits instead of a complete ban.",
                     "point_collocations": [
                       {
+                        "en": "teach pupils",
+                        "vi": "dạy học sinh"
+                      },
+                      {
                         "en": "responsible technology habits",
-                        "vi": "thói quen sử dụng công nghệ có trách nhiệm"
+                        "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
                       },
                       {
-                        "en": "complete ban",
-                        "vi": "lệnh cấm hoàn toàn"
-                      },
-                      {
-                        "en": "digital literacy",
-                        "vi": "năng lực số"
+                        "en": "instead of a complete ban",
+                        "vi": "thay vì cấm đoán hoàn toàn"
                       }
                     ],
                     "evidence_vi": "Giáo viên có thể đặt quy định cất điện thoại vào tủ đồ trong giờ học, nhờ đó trẻ nhỏ học được tính tự kỷ luật và ý thức công nghệ từ sớm.",
@@ -182016,33 +183336,57 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "set clear rules",
-                        "vi": "đưa ra các quy định rõ ràng"
+                        "vi": "đặt quy định rõ ràng"
                       },
                       {
                         "en": "keep phones in lockers",
                         "vi": "cất điện thoại vào tủ đồ"
                       },
                       {
+                        "en": "during class",
+                        "vi": "trong giờ học"
+                      },
+                      {
                         "en": "develop self-discipline",
-                        "vi": "phát triển tính tự kỷ luật"
+                        "vi": "học được tính tự kỷ luật"
                       },
                       {
                         "en": "digital awareness",
-                        "vi": "nhận thức về công nghệ số"
+                        "vi": "ý thức công nghệ từ sớm"
                       }
                     ],
                     "collocations": [
                       {
+                        "en": "teach pupils",
+                        "vi": "dạy học sinh"
+                      },
+                      {
+                        "en": "responsible technology habits",
+                        "vi": "kỹ năng sử dụng công nghệ có trách nhiệm"
+                      },
+                      {
+                        "en": "instead of a complete ban",
+                        "vi": "thay vì cấm đoán hoàn toàn"
+                      },
+                      {
                         "en": "set clear rules",
-                        "vi": "đưa ra quy định rõ ràng"
+                        "vi": "đặt quy định rõ ràng"
+                      },
+                      {
+                        "en": "keep phones in lockers",
+                        "vi": "cất điện thoại vào tủ đồ"
+                      },
+                      {
+                        "en": "during class",
+                        "vi": "trong giờ học"
                       },
                       {
                         "en": "develop self-discipline",
-                        "vi": "rèn luyện tính tự kỷ luật"
+                        "vi": "học được tính tự kỷ luật"
                       },
                       {
-                        "en": "responsible habits",
-                        "vi": "thói quen có trách nhiệm"
+                        "en": "digital awareness",
+                        "vi": "ý thức công nghệ từ sớm"
                       }
                     ]
                   }
@@ -182664,36 +184008,40 @@ const ESSAY_DATA = [
                     "point_en": "Mobile phones can distract young pupils during lessons.",
                     "point_collocations": [
                       {
+                        "en": "mobile phones",
+                        "vi": "điện thoại di động"
+                      },
+                      {
                         "en": "distract young pupils",
                         "vi": "làm học sinh nhỏ tuổi mất tập trung"
                       },
                       {
                         "en": "during lessons",
                         "vi": "trong giờ học"
-                      },
-                      {
-                        "en": "mobile phones",
-                        "vi": "điện thoại di động"
                       }
                     ],
                     "evidence_vi": "Học sinh có thể lén chơi trò chơi hoặc gửi tin nhắn trong lớp, vì vậy các em dễ bỏ lỡ những lời giảng quan trọng của giáo viên.",
                     "evidence_en": "Pupils may secretly play games or send text messages in class, so they easily miss important explanations from teachers.",
                     "evidence_collocations": [
                       {
-                        "en": "play games",
-                        "vi": "chơi trò chơi"
+                        "en": "secretly play games",
+                        "vi": "lén chơi trò chơi"
                       },
                       {
                         "en": "send text messages",
                         "vi": "gửi tin nhắn"
                       },
                       {
-                        "en": "miss important explanations",
-                        "vi": "bỏ lỡ những lời giảng quan trọng"
+                        "en": "in class",
+                        "vi": "trong lớp"
                       },
                       {
-                        "en": "classroom learning",
-                        "vi": "việc học trên lớp"
+                        "en": "easily miss",
+                        "vi": "dễ bỏ lỡ"
+                      },
+                      {
+                        "en": "important explanations from teachers",
+                        "vi": "những lời giảng quan trọng của giáo viên"
                       }
                     ],
                     "collocations": [
@@ -182706,8 +184054,28 @@ const ESSAY_DATA = [
                         "vi": "làm học sinh nhỏ tuổi mất tập trung"
                       },
                       {
+                        "en": "during lessons",
+                        "vi": "trong giờ học"
+                      },
+                      {
+                        "en": "secretly play games",
+                        "vi": "lén chơi trò chơi"
+                      },
+                      {
                         "en": "send text messages",
                         "vi": "gửi tin nhắn"
+                      },
+                      {
+                        "en": "in class",
+                        "vi": "trong lớp"
+                      },
+                      {
+                        "en": "easily miss",
+                        "vi": "dễ bỏ lỡ"
+                      },
+                      {
+                        "en": "important explanations from teachers",
+                        "vi": "những lời giảng quan trọng của giáo viên"
                       }
                     ]
                   },
@@ -182717,16 +184085,16 @@ const ESSAY_DATA = [
                     "point_en": "Using mobile phones at school reduces face-to-face interaction among children.",
                     "point_collocations": [
                       {
+                        "en": "using mobile phones at school",
+                        "vi": "việc sử dụng điện thoại ở trường"
+                      },
+                      {
                         "en": "reduce face-to-face interaction",
                         "vi": "làm giảm sự giao tiếp trực tiếp"
                       },
                       {
-                        "en": "social skills",
-                        "vi": "kỹ năng xã hội"
-                      },
-                      {
-                        "en": "communication habits",
-                        "vi": "thói quen giao tiếp"
+                        "en": "among children",
+                        "vi": "giữa trẻ em với nhau"
                       }
                     ],
                     "evidence_vi": "Nhiều trẻ em dán mắt vào màn hình trong giờ ra chơi thay vì trò chuyện với bạn bè, và điều này làm suy yếu kỹ năng giao tiếp xã hội của các em.",
@@ -182737,30 +184105,46 @@ const ESSAY_DATA = [
                         "vi": "dán mắt vào màn hình điện thoại"
                       },
                       {
-                        "en": "break times",
-                        "vi": "giờ ra chơi"
+                        "en": "during break times",
+                        "vi": "trong giờ ra chơi"
                       },
                       {
                         "en": "talk to classmates",
                         "vi": "trò chuyện với bạn cùng lớp"
                       },
                       {
-                        "en": "weaken communication skills",
-                        "vi": "làm suy yếu kỹ năng giao tiếp"
+                        "en": "weaken social communication skills",
+                        "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "face-to-face interaction",
-                        "vi": "giao tiếp trực tiếp"
+                        "en": "using mobile phones at school",
+                        "vi": "việc sử dụng điện thoại ở trường"
                       },
                       {
-                        "en": "break times",
-                        "vi": "giờ ra chơi"
+                        "en": "reduce face-to-face interaction",
+                        "vi": "làm giảm sự giao tiếp trực tiếp"
                       },
                       {
-                        "en": "communication skills",
-                        "vi": "kỹ năng giao tiếp"
+                        "en": "among children",
+                        "vi": "giữa trẻ em với nhau"
+                      },
+                      {
+                        "en": "stare at phone screens",
+                        "vi": "dán mắt vào màn hình điện thoại"
+                      },
+                      {
+                        "en": "during break times",
+                        "vi": "trong giờ ra chơi"
+                      },
+                      {
+                        "en": "talk to classmates",
+                        "vi": "trò chuyện với bạn cùng lớp"
+                      },
+                      {
+                        "en": "weaken social communication skills",
+                        "vi": "làm suy yếu kỹ năng giao tiếp xã hội"
                       }
                     ]
                   },
@@ -182770,46 +184154,74 @@ const ESSAY_DATA = [
                     "point_en": "A phone ban protects young children from online dangers.",
                     "point_collocations": [
                       {
+                        "en": "a phone ban",
+                        "vi": "lệnh cấm điện thoại"
+                      },
+                      {
                         "en": "protect young children",
                         "vi": "bảo vệ trẻ nhỏ"
                       },
                       {
                         "en": "online dangers",
-                        "vi": "mối nguy hiểm trên mạng"
-                      },
-                      {
-                        "en": "safety at school",
-                        "vi": "sự an toàn tại trường học"
+                        "vi": "mối nguy hiểm trên mạng internet"
                       }
                     ],
                     "evidence_vi": "Học sinh tiểu học còn quá nhỏ để nhận biết nội dung không lành mạnh hoặc nạn bắt nạt qua mạng, do đó lệnh cấm tạo ra môi trường học tập an toàn.",
                     "evidence_en": "Primary pupils are too young to identify inappropriate content or cyberbullying, so a ban creates a safe learning environment.",
                     "evidence_collocations": [
                       {
-                        "en": "identify inappropriate content",
-                        "vi": "nhận biết nội dung không lành mạnh"
+                        "en": "primary pupils",
+                        "vi": "học sinh tiểu học"
                       },
                       {
-                        "en": "prevent cyberbullying",
-                        "vi": "ngăn chặn bắt nạt qua mạng"
+                        "en": "too young to identify",
+                        "vi": "còn quá nhỏ để nhận biết"
                       },
-                      {
-                        "en": "safe learning environment",
-                        "vi": "môi trường học tập an toàn"
-                      }
-                    ],
-                    "collocations": [
                       {
                         "en": "inappropriate content",
                         "vi": "nội dung không lành mạnh"
                       },
                       {
                         "en": "cyberbullying",
-                        "vi": "bắt nạt qua mạng"
+                        "vi": "nạn bắt nạt qua mạng"
                       },
                       {
-                        "en": "safe learning environment",
-                        "vi": "môi trường học tập an toàn"
+                        "en": "create a safe learning environment",
+                        "vi": "tạo ra môi trường học tập an toàn"
+                      }
+                    ],
+                    "collocations": [
+                      {
+                        "en": "a phone ban",
+                        "vi": "lệnh cấm điện thoại"
+                      },
+                      {
+                        "en": "protect young children",
+                        "vi": "bảo vệ trẻ nhỏ"
+                      },
+                      {
+                        "en": "online dangers",
+                        "vi": "mối nguy hiểm trên mạng internet"
+                      },
+                      {
+                        "en": "primary pupils",
+                        "vi": "học sinh tiểu học"
+                      },
+                      {
+                        "en": "too young to identify",
+                        "vi": "còn quá nhỏ để nhận biết"
+                      },
+                      {
+                        "en": "inappropriate content",
+                        "vi": "nội dung không lành mạnh"
+                      },
+                      {
+                        "en": "cyberbullying",
+                        "vi": "nạn bắt nạt qua mạng"
+                      },
+                      {
+                        "en": "create a safe learning environment",
+                        "vi": "tạo ra môi trường học tập an toàn"
                       }
                     ]
                   }
@@ -183505,46 +184917,66 @@ const ESSAY_DATA = [
                 "point_en": "Keeping pets teaches children practical responsibility and empathy.",
                 "point_collocations": [
                   {
-                    "en": "keeping pets",
-                    "vi": "nuôi thú cưng"
+                    "en": "caring for pets",
+                    "vi": "chăm sóc thú cưng"
                   },
                   {
-                    "en": "practical responsibility",
-                    "vi": "tinh thần trách nhiệm thực tế"
+                    "en": "teach children responsibility",
+                    "vi": "dạy trẻ tinh thần trách nhiệm"
                   },
                   {
-                    "en": "develop empathy",
-                    "vi": "phát triển lòng nhân ái"
+                    "en": "genuine empathy for animals",
+                    "vi": "lòng yêu thương động vật chân thành"
                   }
                 ],
                 "evidence_vi": "Cho thú cưng ăn đúng giờ và chải lông giúp trẻ học cách chăm sóc người khác, vì vậy các em trở nên trưởng thành và chu đáo hơn.",
                 "evidence_en": "Feeding animals on schedule and grooming them teaches kids to care for others, so they mature into considerate individuals.",
                 "evidence_collocations": [
                   {
-                    "en": "feeding animals on schedule",
+                    "en": "feeding pets on time",
                     "vi": "cho thú cưng ăn đúng giờ"
                   },
                   {
-                    "en": "care for others",
-                    "vi": "chăm sóc người khác"
+                    "en": "taking them for daily walks",
+                    "vi": "dắt chúng đi dạo hằng ngày"
                   },
                   {
-                    "en": "considerate individuals",
-                    "vi": "những cá nhân chu đáo"
+                    "en": "build disciplined habits",
+                    "vi": "hình thành thói quen kỷ luật"
+                  },
+                  {
+                    "en": "care for others",
+                    "vi": "biết quan tâm đến người khác"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "practical responsibility",
-                    "vi": "trách nhiệm thực tế"
+                    "en": "caring for pets",
+                    "vi": "chăm sóc thú cưng"
                   },
                   {
-                    "en": "keeping pets",
-                    "vi": "nuôi thú cưng"
+                    "en": "teach children responsibility",
+                    "vi": "dạy trẻ tinh thần trách nhiệm"
                   },
                   {
-                    "en": "considerate individuals",
-                    "vi": "người chu đáo"
+                    "en": "genuine empathy for animals",
+                    "vi": "lòng yêu thương động vật chân thành"
+                  },
+                  {
+                    "en": "feeding pets on time",
+                    "vi": "cho thú cưng ăn đúng giờ"
+                  },
+                  {
+                    "en": "taking them for daily walks",
+                    "vi": "dắt chúng đi dạo hằng ngày"
+                  },
+                  {
+                    "en": "build disciplined habits",
+                    "vi": "hình thành thói quen kỷ luật"
+                  },
+                  {
+                    "en": "care for others",
+                    "vi": "biết quan tâm đến người khác"
                   }
                 ]
               },
@@ -183554,46 +184986,66 @@ const ESSAY_DATA = [
                 "point_en": "Pets provide warm companionship and relieve academic stress for children.",
                 "point_collocations": [
                   {
-                    "en": "warm companionship",
-                    "vi": "sự đồng hành ấm áp"
+                    "en": "provide emotional comfort",
+                    "vi": "mang lại niềm vui tinh thần"
                   },
                   {
-                    "en": "relieve academic stress",
-                    "vi": "giải tỏa căng thẳng học tập"
+                    "en": "relieve stress",
+                    "vi": "giúp trẻ giảm bớt căng thẳng"
                   },
                   {
-                    "en": "emotional well-being",
-                    "vi": "sức khỏe cảm xúc"
+                    "en": "after intensive classes",
+                    "vi": "sau giờ học"
                   }
                 ],
                 "evidence_vi": "Chơi đùa cùng chó hoặc mèo sau giờ học giúp các em cảm thấy thư giãn và bớt cảm giác cô đơn khi cha mẹ bận rộn.",
                 "evidence_en": "Playing with a dog or cat after school helps kids relax and eliminates loneliness when parents are busy.",
                 "evidence_collocations": [
                   {
-                    "en": "relax after school",
-                    "vi": "thư giãn sau giờ học"
+                    "en": "playing with pets",
+                    "vi": "chơi đùa cùng thú cưng"
                   },
                   {
-                    "en": "eliminates loneliness",
-                    "vi": "xóa tan sự cô đơn"
+                    "en": "feel cheerful",
+                    "vi": "cảm thấy vui vẻ"
                   },
                   {
-                    "en": "busy parents",
-                    "vi": "cha mẹ bận rộn"
+                    "en": "reduces loneliness",
+                    "vi": "giảm cảm giác cô đơn"
+                  },
+                  {
+                    "en": "cuts down excessive screen time",
+                    "vi": "hạn chế thời gian dán mắt vào màn hình"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "warm companionship",
-                    "vi": "sự đồng hành ấm áp"
+                    "en": "provide emotional comfort",
+                    "vi": "mang lại niềm vui tinh thần"
                   },
                   {
-                    "en": "academic stress",
-                    "vi": "căng thẳng học tập"
+                    "en": "relieve stress",
+                    "vi": "giúp trẻ giảm bớt căng thẳng"
                   },
                   {
-                    "en": "after school",
+                    "en": "after intensive classes",
                     "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "playing with pets",
+                    "vi": "chơi đùa cùng thú cưng"
+                  },
+                  {
+                    "en": "feel cheerful",
+                    "vi": "cảm thấy vui vẻ"
+                  },
+                  {
+                    "en": "reduces loneliness",
+                    "vi": "giảm cảm giác cô đơn"
+                  },
+                  {
+                    "en": "cuts down excessive screen time",
+                    "vi": "hạn chế thời gian dán mắt vào màn hình"
                   }
                 ]
               },
@@ -183603,46 +185055,66 @@ const ESSAY_DATA = [
                 "point_en": "Walking pets encourages children to engage in more outdoor physical activity.",
                 "point_collocations": [
                   {
-                    "en": "walking pets",
-                    "vi": "dắt thú cưng đi dạo"
+                    "en": "having pets",
+                    "vi": "việc nuôi thú cưng"
                   },
                   {
-                    "en": "outdoor physical activity",
-                    "vi": "hoạt động thể chất ngoài trời"
+                    "en": "encourage children",
+                    "vi": "khuyến khích trẻ em"
                   },
                   {
-                    "en": "healthy habits",
-                    "vi": "thói quen lành mạnh"
+                    "en": "outdoor physical activities",
+                    "vi": "vận động thể chất ngoài trời"
                   }
                 ],
                 "evidence_vi": "Thay vì ngồi hàng giờ trước tivi hoặc điện thoại, trẻ em có cơ hội chạy nhảy cùng thú cưng tại công viên.",
                 "evidence_en": "Instead of sitting for hours in front of screens, children run and exercise with pets in local parks.",
                 "evidence_collocations": [
                   {
-                    "en": "sitting in front of screens",
-                    "vi": "ngồi trước màn hình"
+                    "en": "running with dogs",
+                    "vi": "chạy nhảy cùng chó"
                   },
                   {
-                    "en": "run and exercise",
-                    "vi": "chạy nhảy và tập thể dục"
+                    "en": "in parks or gardens",
+                    "vi": "ở công viên hoặc trong sân vườn"
                   },
                   {
-                    "en": "local parks",
-                    "vi": "công viên địa phương"
+                    "en": "keeps children active",
+                    "vi": "giúp trẻ em trở nên hoạt bát"
+                  },
+                  {
+                    "en": "improves their physical fitness",
+                    "vi": "có thể lực khỏe mạnh hơn"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "physical activity",
-                    "vi": "hoạt động thể chất"
+                    "en": "having pets",
+                    "vi": "việc nuôi thú cưng"
                   },
                   {
-                    "en": "walking pets",
-                    "vi": "dắt thú cưng đi dạo"
+                    "en": "encourage children",
+                    "vi": "khuyến khích trẻ em"
                   },
                   {
-                    "en": "local parks",
-                    "vi": "công viên địa phương"
+                    "en": "outdoor physical activities",
+                    "vi": "vận động thể chất ngoài trời"
+                  },
+                  {
+                    "en": "running with dogs",
+                    "vi": "chạy nhảy cùng chó"
+                  },
+                  {
+                    "en": "in parks or gardens",
+                    "vi": "ở công viên hoặc trong sân vườn"
+                  },
+                  {
+                    "en": "keeps children active",
+                    "vi": "giúp trẻ em trở nên hoạt bát"
+                  },
+                  {
+                    "en": "improves their physical fitness",
+                    "vi": "có thể lực khỏe mạnh hơn"
                   }
                 ]
               }
@@ -184264,46 +185736,66 @@ const ESSAY_DATA = [
                     "point_en": "Keeping pets teaches children practical responsibility and empathy.",
                     "point_collocations": [
                       {
-                        "en": "keeping pets",
-                        "vi": "nuôi thú cưng"
+                        "en": "caring for pets",
+                        "vi": "chăm sóc thú cưng"
                       },
                       {
-                        "en": "practical responsibility",
-                        "vi": "tinh thần trách nhiệm thực tế"
+                        "en": "teach children responsibility",
+                        "vi": "dạy trẻ tinh thần trách nhiệm"
                       },
                       {
-                        "en": "develop empathy",
-                        "vi": "phát triển lòng nhân ái"
+                        "en": "genuine empathy for animals",
+                        "vi": "lòng yêu thương động vật chân thành"
                       }
                     ],
                     "evidence_vi": "Cho thú cưng ăn đúng giờ và chải lông giúp trẻ học cách chăm sóc người khác, vì vậy các em trở nên trưởng thành và chu đáo hơn.",
                     "evidence_en": "Feeding animals on schedule and grooming them teaches kids to care for others, so they mature into considerate individuals.",
                     "evidence_collocations": [
                       {
-                        "en": "feeding animals on schedule",
+                        "en": "feeding pets on time",
                         "vi": "cho thú cưng ăn đúng giờ"
                       },
                       {
-                        "en": "care for others",
-                        "vi": "chăm sóc người khác"
+                        "en": "taking them for daily walks",
+                        "vi": "dắt chúng đi dạo hằng ngày"
                       },
                       {
-                        "en": "considerate individuals",
-                        "vi": "những cá nhân chu đáo"
+                        "en": "build disciplined habits",
+                        "vi": "hình thành thói quen kỷ luật"
+                      },
+                      {
+                        "en": "care for others",
+                        "vi": "biết quan tâm đến người khác"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "practical responsibility",
-                        "vi": "trách nhiệm thực tế"
+                        "en": "caring for pets",
+                        "vi": "chăm sóc thú cưng"
                       },
                       {
-                        "en": "keeping pets",
-                        "vi": "nuôi thú cưng"
+                        "en": "teach children responsibility",
+                        "vi": "dạy trẻ tinh thần trách nhiệm"
                       },
                       {
-                        "en": "considerate individuals",
-                        "vi": "người chu đáo"
+                        "en": "genuine empathy for animals",
+                        "vi": "lòng yêu thương động vật chân thành"
+                      },
+                      {
+                        "en": "feeding pets on time",
+                        "vi": "cho thú cưng ăn đúng giờ"
+                      },
+                      {
+                        "en": "taking them for daily walks",
+                        "vi": "dắt chúng đi dạo hằng ngày"
+                      },
+                      {
+                        "en": "build disciplined habits",
+                        "vi": "hình thành thói quen kỷ luật"
+                      },
+                      {
+                        "en": "care for others",
+                        "vi": "biết quan tâm đến người khác"
                       }
                     ]
                   },
@@ -184313,46 +185805,66 @@ const ESSAY_DATA = [
                     "point_en": "Pets provide warm companionship and relieve academic stress for children.",
                     "point_collocations": [
                       {
-                        "en": "warm companionship",
-                        "vi": "sự đồng hành ấm áp"
+                        "en": "provide emotional comfort",
+                        "vi": "mang lại niềm vui tinh thần"
                       },
                       {
-                        "en": "relieve academic stress",
-                        "vi": "giải tỏa căng thẳng học tập"
+                        "en": "relieve stress",
+                        "vi": "giúp trẻ giảm bớt căng thẳng"
                       },
                       {
-                        "en": "emotional well-being",
-                        "vi": "sức khỏe cảm xúc"
+                        "en": "after intensive classes",
+                        "vi": "sau giờ học"
                       }
                     ],
                     "evidence_vi": "Chơi đùa cùng chó hoặc mèo sau giờ học giúp các em cảm thấy thư giãn và bớt cảm giác cô đơn khi cha mẹ bận rộn.",
                     "evidence_en": "Playing with a dog or cat after school helps kids relax and eliminates loneliness when parents are busy.",
                     "evidence_collocations": [
                       {
-                        "en": "relax after school",
-                        "vi": "thư giãn sau giờ học"
+                        "en": "playing with pets",
+                        "vi": "chơi đùa cùng thú cưng"
                       },
                       {
-                        "en": "eliminates loneliness",
-                        "vi": "xóa tan sự cô đơn"
+                        "en": "feel cheerful",
+                        "vi": "cảm thấy vui vẻ"
                       },
                       {
-                        "en": "busy parents",
-                        "vi": "cha mẹ bận rộn"
+                        "en": "reduces loneliness",
+                        "vi": "giảm cảm giác cô đơn"
+                      },
+                      {
+                        "en": "cuts down excessive screen time",
+                        "vi": "hạn chế thời gian dán mắt vào màn hình"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "warm companionship",
-                        "vi": "sự đồng hành ấm áp"
+                        "en": "provide emotional comfort",
+                        "vi": "mang lại niềm vui tinh thần"
                       },
                       {
-                        "en": "academic stress",
-                        "vi": "căng thẳng học tập"
+                        "en": "relieve stress",
+                        "vi": "giúp trẻ giảm bớt căng thẳng"
                       },
                       {
-                        "en": "after school",
+                        "en": "after intensive classes",
                         "vi": "sau giờ học"
+                      },
+                      {
+                        "en": "playing with pets",
+                        "vi": "chơi đùa cùng thú cưng"
+                      },
+                      {
+                        "en": "feel cheerful",
+                        "vi": "cảm thấy vui vẻ"
+                      },
+                      {
+                        "en": "reduces loneliness",
+                        "vi": "giảm cảm giác cô đơn"
+                      },
+                      {
+                        "en": "cuts down excessive screen time",
+                        "vi": "hạn chế thời gian dán mắt vào màn hình"
                       }
                     ]
                   },
@@ -184362,46 +185874,66 @@ const ESSAY_DATA = [
                     "point_en": "Walking pets encourages children to engage in more outdoor physical activity.",
                     "point_collocations": [
                       {
-                        "en": "walking pets",
-                        "vi": "dắt thú cưng đi dạo"
+                        "en": "having pets",
+                        "vi": "việc nuôi thú cưng"
                       },
                       {
-                        "en": "outdoor physical activity",
-                        "vi": "hoạt động thể chất ngoài trời"
+                        "en": "encourage children",
+                        "vi": "khuyến khích trẻ em"
                       },
                       {
-                        "en": "healthy habits",
-                        "vi": "thói quen lành mạnh"
+                        "en": "outdoor physical activities",
+                        "vi": "vận động thể chất ngoài trời"
                       }
                     ],
                     "evidence_vi": "Thay vì ngồi hàng giờ trước tivi hoặc điện thoại, trẻ em có cơ hội chạy nhảy cùng thú cưng tại công viên.",
                     "evidence_en": "Instead of sitting for hours in front of screens, children run and exercise with pets in local parks.",
                     "evidence_collocations": [
                       {
-                        "en": "sitting in front of screens",
-                        "vi": "ngồi trước màn hình"
+                        "en": "running with dogs",
+                        "vi": "chạy nhảy cùng chó"
                       },
                       {
-                        "en": "run and exercise",
-                        "vi": "chạy nhảy và tập thể dục"
+                        "en": "in parks or gardens",
+                        "vi": "ở công viên hoặc trong sân vườn"
                       },
                       {
-                        "en": "local parks",
-                        "vi": "công viên địa phương"
+                        "en": "keeps children active",
+                        "vi": "giúp trẻ em trở nên hoạt bát"
+                      },
+                      {
+                        "en": "improves their physical fitness",
+                        "vi": "có thể lực khỏe mạnh hơn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "physical activity",
-                        "vi": "hoạt động thể chất"
+                        "en": "having pets",
+                        "vi": "việc nuôi thú cưng"
                       },
                       {
-                        "en": "walking pets",
-                        "vi": "dắt thú cưng đi dạo"
+                        "en": "encourage children",
+                        "vi": "khuyến khích trẻ em"
                       },
                       {
-                        "en": "local parks",
-                        "vi": "công viên địa phương"
+                        "en": "outdoor physical activities",
+                        "vi": "vận động thể chất ngoài trời"
+                      },
+                      {
+                        "en": "running with dogs",
+                        "vi": "chạy nhảy cùng chó"
+                      },
+                      {
+                        "en": "in parks or gardens",
+                        "vi": "ở công viên hoặc trong sân vườn"
+                      },
+                      {
+                        "en": "keeps children active",
+                        "vi": "giúp trẻ em trở nên hoạt bát"
+                      },
+                      {
+                        "en": "improves their physical fitness",
+                        "vi": "có thể lực khỏe mạnh hơn"
                       }
                     ]
                   }
@@ -185023,16 +186555,12 @@ const ESSAY_DATA = [
                     "point_en": "Pets can carry dangerous allergens and create health risks for young children.",
                     "point_collocations": [
                       {
-                        "en": "dangerous allergens",
-                        "vi": "các chất gây dị ứng nguy hiểm"
+                        "en": "pets pose significant health and allergy risks",
+                        "vi": "thú cưng tiềm ẩn nhiều nguy cơ sức khỏe và dị ứng"
                       },
                       {
-                        "en": "health risks",
-                        "vi": "các nguy cơ sức khỏe"
-                      },
-                      {
-                        "en": "animal hygiene",
-                        "vi": "vệ sinh động vật"
+                        "en": "small children",
+                        "vi": "trẻ nhỏ"
                       }
                     ],
                     "evidence_vi": "Lông thú và ký sinh trùng dễ gây hen suyễn hoặc các vết cào cắn bất ngờ, vì vậy môi trường gia đình có thể trở nên mất an toàn.",
@@ -185040,29 +186568,45 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "animal fur and parasites",
-                        "vi": "lông động vật và ký sinh trùng"
+                        "vi": "lông chó mèo và vi khuẩn"
                       },
                       {
-                        "en": "severe asthma",
-                        "vi": "bệnh hen suyễn nghiêm trọng"
+                        "en": "trigger asthma",
+                        "vi": "gây ra bệnh hen suyễn"
                       },
                       {
-                        "en": "unexpected scratches",
-                        "vi": "vết cào cắn bất ngờ"
+                        "en": "allergic reactions",
+                        "vi": "viêm mũi dị ứng"
+                      },
+                      {
+                        "en": "dangerous bites",
+                        "vi": "các vết cắn nguy hiểm"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "health risks",
-                        "vi": "nguy cơ sức khỏe"
+                        "en": "pets pose significant health and allergy risks",
+                        "vi": "thú cưng tiềm ẩn nhiều nguy cơ sức khỏe và dị ứng"
                       },
                       {
-                        "en": "severe asthma",
-                        "vi": "hen suyễn nặng"
+                        "en": "small children",
+                        "vi": "trẻ nhỏ"
                       },
                       {
-                        "en": "animal fur",
-                        "vi": "lông động vật"
+                        "en": "animal fur and parasites",
+                        "vi": "lông chó mèo và vi khuẩn"
+                      },
+                      {
+                        "en": "trigger asthma",
+                        "vi": "gây ra bệnh hen suyễn"
+                      },
+                      {
+                        "en": "allergic reactions",
+                        "vi": "viêm mũi dị ứng"
+                      },
+                      {
+                        "en": "dangerous bites",
+                        "vi": "các vết cắn nguy hiểm"
                       }
                     ]
                   },
@@ -185072,46 +186616,66 @@ const ESSAY_DATA = [
                     "point_en": "Pet maintenance costs and heavy cleaning duties usually burden busy parents.",
                     "point_collocations": [
                       {
-                        "en": "pet maintenance costs",
-                        "vi": "chi phí nuôi dưỡng thú cưng"
+                        "en": "pet care",
+                        "vi": "việc chăm sóc thú cưng"
                       },
                       {
-                        "en": "heavy cleaning duties",
-                        "vi": "công việc dọn dẹp nặng nhọc"
+                        "en": "substantial financial expenses",
+                        "vi": "tốn kém nhiều chi phí tài chính"
                       },
                       {
-                        "en": "burden busy parents",
-                        "vi": "tạo gánh nặng cho cha mẹ bận rộn"
+                        "en": "immense family time",
+                        "vi": "nhiều thời gian của gia đình"
                       }
                     ],
                     "evidence_vi": "Trẻ nhỏ nhanh chán việc chăm sóc, vì thế tiền thuốc thú y và việc dọn dẹp chất thải trở thành gánh nặng của người lớn.",
                     "evidence_en": "Children often lose interest quickly, so veterinary bills and waste cleanup fall entirely on adult shoulders.",
                     "evidence_collocations": [
                       {
-                        "en": "veterinary bills",
-                        "vi": "hóa đơn thú y"
+                        "en": "pet food, vaccinations, and veterinary care",
+                        "vi": "thức ăn, tiêm phòng và khám thú y"
                       },
                       {
-                        "en": "waste cleanup",
-                        "vi": "dọn dẹp chất thải"
+                        "en": "costly",
+                        "vi": "rất đắt đỏ"
                       },
                       {
-                        "en": "adult shoulders",
-                        "vi": "đôi vai người lớn"
+                        "en": "busy parents",
+                        "vi": "cha mẹ bận rộn"
+                      },
+                      {
+                        "en": "handling daily cleaning chores",
+                        "vi": "gánh vác việc dọn dẹp hàng ngày"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "maintenance costs",
-                        "vi": "chi phí nuôi dưỡng"
+                        "en": "pet care",
+                        "vi": "việc chăm sóc thú cưng"
                       },
                       {
-                        "en": "veterinary bills",
-                        "vi": "tiền bác sĩ thú y"
+                        "en": "substantial financial expenses",
+                        "vi": "tốn kém nhiều chi phí tài chính"
                       },
                       {
-                        "en": "cleaning duties",
-                        "vi": "công việc dọn dẹp"
+                        "en": "immense family time",
+                        "vi": "nhiều thời gian của gia đình"
+                      },
+                      {
+                        "en": "pet food, vaccinations, and veterinary care",
+                        "vi": "thức ăn, tiêm phòng và khám thú y"
+                      },
+                      {
+                        "en": "costly",
+                        "vi": "rất đắt đỏ"
+                      },
+                      {
+                        "en": "busy parents",
+                        "vi": "cha mẹ bận rộn"
+                      },
+                      {
+                        "en": "handling daily cleaning chores",
+                        "vi": "gánh vác việc dọn dẹp hàng ngày"
                       }
                     ]
                   },
@@ -185121,46 +186685,58 @@ const ESSAY_DATA = [
                     "point_en": "Excessive time with pets can distract children from daily homework and studies.",
                     "point_collocations": [
                       {
-                        "en": "excessive time",
-                        "vi": "thời gian quá mức"
+                        "en": "distract students",
+                        "vi": "làm trẻ phân tâm"
                       },
                       {
-                        "en": "distract from daily homework",
-                        "vi": "làm xao nhãng bài tập về nhà"
+                        "en": "essential academic study",
+                        "vi": "việc học tập"
                       },
                       {
-                        "en": "academic concentration",
-                        "vi": "sự tập trung học tập"
+                        "en": "school responsibilities",
+                        "vi": "các bổn phận ở trường"
                       }
                     ],
                     "evidence_vi": "Nhiều học sinh bỏ bê việc ôn bài vào buổi tối để chơi với thú nuôi, dẫn đến kết quả học tập ở trường bị giảm sút.",
                     "evidence_en": "Pupils sometimes neglect evening revision to play with pets, and this leads to declining school grades.",
                     "evidence_collocations": [
                       {
-                        "en": "neglect evening revision",
-                        "vi": "bỏ bê việc ôn bài buổi tối"
+                        "en": "cuddling pets",
+                        "vi": "mải chơi với thú cưng"
                       },
                       {
-                        "en": "declining school grades",
-                        "vi": "điểm số ở trường giảm sút"
+                        "en": "delay doing homework",
+                        "vi": "quên làm bài tập về nhà"
                       },
                       {
-                        "en": "academic focus",
-                        "vi": "sự tập trung học tập"
+                        "en": "lower school grades",
+                        "vi": "ảnh hưởng đến kết quả học tập"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "declining grades",
-                        "vi": "điểm số giảm sút"
+                        "en": "distract students",
+                        "vi": "làm trẻ phân tâm"
                       },
                       {
-                        "en": "evening revision",
-                        "vi": "ôn bài buổi tối"
+                        "en": "essential academic study",
+                        "vi": "việc học tập"
                       },
                       {
-                        "en": "distract from studies",
-                        "vi": "làm xao nhãng học tập"
+                        "en": "school responsibilities",
+                        "vi": "các bổn phận ở trường"
+                      },
+                      {
+                        "en": "cuddling pets",
+                        "vi": "mải chơi với thú cưng"
+                      },
+                      {
+                        "en": "delay doing homework",
+                        "vi": "quên làm bài tập về nhà"
+                      },
+                      {
+                        "en": "lower school grades",
+                        "vi": "ảnh hưởng đến kết quả học tập"
                       }
                     ]
                   }
@@ -185832,49 +187408,81 @@ const ESSAY_DATA = [
                 "point_collocations": [
                   {
                     "en": "part-time jobs",
-                    "vi": "việc làm bán thời gian"
+                    "vi": "làm việc bán thời gian"
                   },
                   {
-                    "en": "real-world experience",
-                    "vi": "kinh nghiệm thực tế"
+                    "en": "undergraduates",
+                    "vi": "sinh viên đại học"
                   },
                   {
-                    "en": "valuable soft skills",
-                    "vi": "kỹ năng mềm quý giá"
+                    "en": "gain valuable practical work experience",
+                    "vi": "tích lũy kinh nghiệm làm việc thực tế"
+                  },
+                  {
+                    "en": "before graduation",
+                    "vi": "trước khi tốt nghiệp"
                   }
                 ],
                 "evidence_vi": "Sinh viên học được cách giao tiếp với khách hàng, quản lý thời gian và giải quyết vấn đề, vì vậy họ tự tin hơn khi phỏng vấn xin việc.",
                 "evidence_en": "Students learn customer communication, time management, and problem solving, so they feel more confident during job interviews.",
                 "evidence_collocations": [
                   {
-                    "en": "customer communication",
-                    "vi": "giao tiếp với khách hàng"
+                    "en": "student employees",
+                    "vi": "sinh viên làm thêm"
+                  },
+                  {
+                    "en": "sharpen communication",
+                    "vi": "rèn luyện kỹ năng giao tiếp"
                   },
                   {
                     "en": "time management",
                     "vi": "quản lý thời gian"
                   },
                   {
-                    "en": "problem solving",
+                    "en": "problem-solving skills",
                     "vi": "giải quyết vấn đề"
                   },
                   {
-                    "en": "job interviews",
-                    "vi": "phỏng vấn xin việc"
+                    "en": "actual workplaces",
+                    "vi": "môi trường công sở thực tế"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "real-world experience",
-                    "vi": "kinh nghiệm thực tế"
+                    "en": "part-time jobs",
+                    "vi": "làm việc bán thời gian"
+                  },
+                  {
+                    "en": "undergraduates",
+                    "vi": "sinh viên đại học"
+                  },
+                  {
+                    "en": "gain valuable practical work experience",
+                    "vi": "tích lũy kinh nghiệm làm việc thực tế"
+                  },
+                  {
+                    "en": "before graduation",
+                    "vi": "trước khi tốt nghiệp"
+                  },
+                  {
+                    "en": "student employees",
+                    "vi": "sinh viên làm thêm"
+                  },
+                  {
+                    "en": "sharpen communication",
+                    "vi": "rèn luyện kỹ năng giao tiếp"
                   },
                   {
                     "en": "time management",
                     "vi": "quản lý thời gian"
                   },
                   {
-                    "en": "soft skills",
-                    "vi": "kỹ năng mềm"
+                    "en": "problem-solving skills",
+                    "vi": "giải quyết vấn đề"
+                  },
+                  {
+                    "en": "actual workplaces",
+                    "vi": "môi trường công sở thực tế"
                   }
                 ]
               },
@@ -185884,46 +187492,58 @@ const ESSAY_DATA = [
                 "point_en": "Working part-time provides income to cover living expenses and ease financial burdens on families.",
                 "point_collocations": [
                   {
-                    "en": "cover living expenses",
-                    "vi": "trang trải sinh hoạt phí"
+                    "en": "earnings from part-time work",
+                    "vi": "thu nhập từ công việc làm thêm"
                   },
                   {
-                    "en": "ease financial burdens",
-                    "vi": "giảm bớt gánh nặng tài chính"
+                    "en": "cover their living expenses",
+                    "vi": "tự trang trải chi phí sinh hoạt cá nhân"
                   },
                   {
-                    "en": "financial independence",
-                    "vi": "sự tự lập tài chính"
+                    "en": "independently",
+                    "vi": "một cách tự lập"
                   }
                 ],
                 "evidence_vi": "Tiền lương kiếm được giúp sinh viên trả tiền thuê nhà và mua tài liệu học tập, nhờ đó các em hiểu được giá trị của đồng tiền.",
                 "evidence_en": "Earned wages help students pay room rent and buy study materials, so they appreciate the true value of money.",
                 "evidence_collocations": [
                   {
-                    "en": "earned wages",
-                    "vi": "tiền lương kiếm được"
+                    "en": "alleviate the financial burden on parents",
+                    "vi": "giảm bớt gánh nặng tài chính cho cha mẹ"
                   },
                   {
-                    "en": "pay room rent",
-                    "vi": "trả tiền thuê nhà"
+                    "en": "teach students",
+                    "vi": "dạy cho sinh viên"
                   },
                   {
-                    "en": "true value of money",
-                    "vi": "giá trị thực của đồng tiền"
+                    "en": "prudent money management",
+                    "vi": "cách chi tiêu tiết kiệm"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "living expenses",
-                    "vi": "chi phí sinh hoạt"
+                    "en": "earnings from part-time work",
+                    "vi": "thu nhập từ công việc làm thêm"
                   },
                   {
-                    "en": "financial burdens",
-                    "vi": "gánh nặng tài chính"
+                    "en": "cover their living expenses",
+                    "vi": "tự trang trải chi phí sinh hoạt cá nhân"
                   },
                   {
-                    "en": "earned wages",
-                    "vi": "tiền lương kiếm được"
+                    "en": "independently",
+                    "vi": "một cách tự lập"
+                  },
+                  {
+                    "en": "alleviate the financial burden on parents",
+                    "vi": "giảm bớt gánh nặng tài chính cho cha mẹ"
+                  },
+                  {
+                    "en": "teach students",
+                    "vi": "dạy cho sinh viên"
+                  },
+                  {
+                    "en": "prudent money management",
+                    "vi": "cách chi tiêu tiết kiệm"
                   }
                 ]
               },
@@ -185933,46 +187553,58 @@ const ESSAY_DATA = [
                 "point_en": "Part-time work environments allow students to expand professional social networks for the future.",
                 "point_collocations": [
                   {
-                    "en": "expand professional social networks",
-                    "vi": "mở rộng mạng lưới quan hệ nghề nghiệp"
+                    "en": "working early",
+                    "vi": "đi làm sớm"
                   },
                   {
-                    "en": "work environments",
-                    "vi": "môi trường làm việc"
+                    "en": "build valuable social networks",
+                    "vi": "xây dựng mạng lưới quan hệ xã hội hữu ích"
                   },
                   {
-                    "en": "career prospects",
-                    "vi": "triển vọng nghề nghiệp"
+                    "en": "future careers",
+                    "vi": "nghề nghiệp tương lai"
                   }
                 ],
                 "evidence_vi": "Gặp gỡ đồng nghiệp và người quản lý mở ra nhiều cơ hội giới thiệu việc làm sau khi tốt nghiệp, do đó sinh viên có lợi thế lớn.",
                 "evidence_en": "Meeting coworkers and supervisors opens up job recommendations after graduation, so graduates gain a distinct competitive edge.",
                 "evidence_collocations": [
                   {
-                    "en": "job recommendations",
-                    "vi": "sự giới thiệu việc làm"
+                    "en": "connect with coworkers",
+                    "vi": "gặp gỡ đồng nghiệp"
                   },
                   {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "en": "managers and clients",
+                    "vi": "quản lý và khách hàng"
                   },
                   {
-                    "en": "competitive edge",
-                    "vi": "lợi thế cạnh tranh"
+                    "en": "provide useful job recommendations",
+                    "vi": "giới thiệu các cơ hội việc làm tốt"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "social networks",
-                    "vi": "mạng lưới quan hệ"
+                    "en": "working early",
+                    "vi": "đi làm sớm"
                   },
                   {
-                    "en": "after graduation",
-                    "vi": "sau khi tốt nghiệp"
+                    "en": "build valuable social networks",
+                    "vi": "xây dựng mạng lưới quan hệ xã hội hữu ích"
                   },
                   {
-                    "en": "competitive edge",
-                    "vi": "lợi thế cạnh tranh"
+                    "en": "future careers",
+                    "vi": "nghề nghiệp tương lai"
+                  },
+                  {
+                    "en": "connect with coworkers",
+                    "vi": "gặp gỡ đồng nghiệp"
+                  },
+                  {
+                    "en": "managers and clients",
+                    "vi": "quản lý và khách hàng"
+                  },
+                  {
+                    "en": "provide useful job recommendations",
+                    "vi": "giới thiệu các cơ hội việc làm tốt"
                   }
                 ]
               }
@@ -186595,49 +188227,81 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "part-time jobs",
-                        "vi": "việc làm bán thời gian"
+                        "vi": "làm việc bán thời gian"
                       },
                       {
-                        "en": "real-world experience",
-                        "vi": "kinh nghiệm thực tế"
+                        "en": "undergraduates",
+                        "vi": "sinh viên đại học"
                       },
                       {
-                        "en": "valuable soft skills",
-                        "vi": "kỹ năng mềm quý giá"
+                        "en": "gain valuable practical work experience",
+                        "vi": "tích lũy kinh nghiệm làm việc thực tế"
+                      },
+                      {
+                        "en": "before graduation",
+                        "vi": "trước khi tốt nghiệp"
                       }
                     ],
                     "evidence_vi": "Sinh viên học được cách giao tiếp với khách hàng, quản lý thời gian và giải quyết vấn đề, vì vậy họ tự tin hơn khi phỏng vấn xin việc.",
                     "evidence_en": "Students learn customer communication, time management, and problem solving, so they feel more confident during job interviews.",
                     "evidence_collocations": [
                       {
-                        "en": "customer communication",
-                        "vi": "giao tiếp với khách hàng"
+                        "en": "student employees",
+                        "vi": "sinh viên làm thêm"
+                      },
+                      {
+                        "en": "sharpen communication",
+                        "vi": "rèn luyện kỹ năng giao tiếp"
                       },
                       {
                         "en": "time management",
                         "vi": "quản lý thời gian"
                       },
                       {
-                        "en": "problem solving",
+                        "en": "problem-solving skills",
                         "vi": "giải quyết vấn đề"
                       },
                       {
-                        "en": "job interviews",
-                        "vi": "phỏng vấn xin việc"
+                        "en": "actual workplaces",
+                        "vi": "môi trường công sở thực tế"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "real-world experience",
-                        "vi": "kinh nghiệm thực tế"
+                        "en": "part-time jobs",
+                        "vi": "làm việc bán thời gian"
+                      },
+                      {
+                        "en": "undergraduates",
+                        "vi": "sinh viên đại học"
+                      },
+                      {
+                        "en": "gain valuable practical work experience",
+                        "vi": "tích lũy kinh nghiệm làm việc thực tế"
+                      },
+                      {
+                        "en": "before graduation",
+                        "vi": "trước khi tốt nghiệp"
+                      },
+                      {
+                        "en": "student employees",
+                        "vi": "sinh viên làm thêm"
+                      },
+                      {
+                        "en": "sharpen communication",
+                        "vi": "rèn luyện kỹ năng giao tiếp"
                       },
                       {
                         "en": "time management",
                         "vi": "quản lý thời gian"
                       },
                       {
-                        "en": "soft skills",
-                        "vi": "kỹ năng mềm"
+                        "en": "problem-solving skills",
+                        "vi": "giải quyết vấn đề"
+                      },
+                      {
+                        "en": "actual workplaces",
+                        "vi": "môi trường công sở thực tế"
                       }
                     ]
                   },
@@ -186647,46 +188311,58 @@ const ESSAY_DATA = [
                     "point_en": "Working part-time provides income to cover living expenses and ease financial burdens on families.",
                     "point_collocations": [
                       {
-                        "en": "cover living expenses",
-                        "vi": "trang trải sinh hoạt phí"
+                        "en": "earnings from part-time work",
+                        "vi": "thu nhập từ công việc làm thêm"
                       },
                       {
-                        "en": "ease financial burdens",
-                        "vi": "giảm bớt gánh nặng tài chính"
+                        "en": "cover their living expenses",
+                        "vi": "tự trang trải chi phí sinh hoạt cá nhân"
                       },
                       {
-                        "en": "financial independence",
-                        "vi": "sự tự lập tài chính"
+                        "en": "independently",
+                        "vi": "một cách tự lập"
                       }
                     ],
                     "evidence_vi": "Tiền lương kiếm được giúp sinh viên trả tiền thuê nhà và mua tài liệu học tập, nhờ đó các em hiểu được giá trị của đồng tiền.",
                     "evidence_en": "Earned wages help students pay room rent and buy study materials, so they appreciate the true value of money.",
                     "evidence_collocations": [
                       {
-                        "en": "earned wages",
-                        "vi": "tiền lương kiếm được"
+                        "en": "alleviate the financial burden on parents",
+                        "vi": "giảm bớt gánh nặng tài chính cho cha mẹ"
                       },
                       {
-                        "en": "pay room rent",
-                        "vi": "trả tiền thuê nhà"
+                        "en": "teach students",
+                        "vi": "dạy cho sinh viên"
                       },
                       {
-                        "en": "true value of money",
-                        "vi": "giá trị thực của đồng tiền"
+                        "en": "prudent money management",
+                        "vi": "cách chi tiêu tiết kiệm"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "living expenses",
-                        "vi": "chi phí sinh hoạt"
+                        "en": "earnings from part-time work",
+                        "vi": "thu nhập từ công việc làm thêm"
                       },
                       {
-                        "en": "financial burdens",
-                        "vi": "gánh nặng tài chính"
+                        "en": "cover their living expenses",
+                        "vi": "tự trang trải chi phí sinh hoạt cá nhân"
                       },
                       {
-                        "en": "earned wages",
-                        "vi": "tiền lương kiếm được"
+                        "en": "independently",
+                        "vi": "một cách tự lập"
+                      },
+                      {
+                        "en": "alleviate the financial burden on parents",
+                        "vi": "giảm bớt gánh nặng tài chính cho cha mẹ"
+                      },
+                      {
+                        "en": "teach students",
+                        "vi": "dạy cho sinh viên"
+                      },
+                      {
+                        "en": "prudent money management",
+                        "vi": "cách chi tiêu tiết kiệm"
                       }
                     ]
                   },
@@ -186696,46 +188372,58 @@ const ESSAY_DATA = [
                     "point_en": "Part-time work environments allow students to expand professional social networks for the future.",
                     "point_collocations": [
                       {
-                        "en": "expand professional social networks",
-                        "vi": "mở rộng mạng lưới quan hệ nghề nghiệp"
+                        "en": "working early",
+                        "vi": "đi làm sớm"
                       },
                       {
-                        "en": "work environments",
-                        "vi": "môi trường làm việc"
+                        "en": "build valuable social networks",
+                        "vi": "xây dựng mạng lưới quan hệ xã hội hữu ích"
                       },
                       {
-                        "en": "career prospects",
-                        "vi": "triển vọng nghề nghiệp"
+                        "en": "future careers",
+                        "vi": "nghề nghiệp tương lai"
                       }
                     ],
                     "evidence_vi": "Gặp gỡ đồng nghiệp và người quản lý mở ra nhiều cơ hội giới thiệu việc làm sau khi tốt nghiệp, do đó sinh viên có lợi thế lớn.",
                     "evidence_en": "Meeting coworkers and supervisors opens up job recommendations after graduation, so graduates gain a distinct competitive edge.",
                     "evidence_collocations": [
                       {
-                        "en": "job recommendations",
-                        "vi": "sự giới thiệu việc làm"
+                        "en": "connect with coworkers",
+                        "vi": "gặp gỡ đồng nghiệp"
                       },
                       {
-                        "en": "after graduation",
-                        "vi": "sau khi tốt nghiệp"
+                        "en": "managers and clients",
+                        "vi": "quản lý và khách hàng"
                       },
                       {
-                        "en": "competitive edge",
-                        "vi": "lợi thế cạnh tranh"
+                        "en": "provide useful job recommendations",
+                        "vi": "giới thiệu các cơ hội việc làm tốt"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "social networks",
-                        "vi": "mạng lưới quan hệ"
+                        "en": "working early",
+                        "vi": "đi làm sớm"
                       },
                       {
-                        "en": "after graduation",
-                        "vi": "sau khi tốt nghiệp"
+                        "en": "build valuable social networks",
+                        "vi": "xây dựng mạng lưới quan hệ xã hội hữu ích"
                       },
                       {
-                        "en": "competitive edge",
-                        "vi": "lợi thế cạnh tranh"
+                        "en": "future careers",
+                        "vi": "nghề nghiệp tương lai"
+                      },
+                      {
+                        "en": "connect with coworkers",
+                        "vi": "gặp gỡ đồng nghiệp"
+                      },
+                      {
+                        "en": "managers and clients",
+                        "vi": "quản lý và khách hàng"
+                      },
+                      {
+                        "en": "provide useful job recommendations",
+                        "vi": "giới thiệu các cơ hội việc làm tốt"
                       }
                     ]
                   }
@@ -187357,46 +189045,66 @@ const ESSAY_DATA = [
                     "point_en": "Part-time jobs can cause distractions and lower academic grades at university.",
                     "point_collocations": [
                       {
-                        "en": "cause distractions",
-                        "vi": "gây mất tập trung"
+                        "en": "part-time employment",
+                        "vi": "công việc bán thời gian"
                       },
                       {
-                        "en": "lower academic grades",
-                        "vi": "làm giảm điểm số học tập"
+                        "en": "distract students",
+                        "vi": "làm sinh viên phân tâm"
                       },
                       {
-                        "en": "university coursework",
-                        "vi": "khóa học đại học"
+                        "en": "harm their academic performance",
+                        "vi": "ảnh hưởng xấu đến kết quả học tập"
                       }
                     ],
                     "evidence_vi": "Khối lượng bài giảng và nghiên cứu ở đại học rất nặng nề, vì vậy sinh viên đi làm thêm thường thiếu thời gian chuẩn bị cho các kỳ thi.",
                     "evidence_en": "University lectures and research assignments are demanding, so working students lack time to prepare for examinations.",
                     "evidence_collocations": [
                       {
-                        "en": "research assignments",
-                        "vi": "bài tập nghiên cứu"
+                        "en": "working night shifts",
+                        "vi": "đi làm ca đêm"
                       },
                       {
-                        "en": "prepare for examinations",
-                        "vi": "chuẩn bị cho các kỳ thi"
+                        "en": "feel exhausted",
+                        "vi": "cảm thấy mệt mỏi"
                       },
                       {
-                        "en": "academic workload",
-                        "vi": "khối lượng học tập"
+                        "en": "fall asleep during lectures",
+                        "vi": "ngủ gật trong giảng đường"
+                      },
+                      {
+                        "en": "failed exams or course retakes",
+                        "vi": "thi trượt hoặc phải học lại môn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "lower academic grades",
-                        "vi": "làm giảm điểm số"
+                        "en": "part-time employment",
+                        "vi": "công việc bán thời gian"
                       },
                       {
-                        "en": "prepare for examinations",
-                        "vi": "chuẩn bị cho kỳ thi"
+                        "en": "distract students",
+                        "vi": "làm sinh viên phân tâm"
                       },
                       {
-                        "en": "academic workload",
-                        "vi": "khối lượng học tập"
+                        "en": "harm their academic performance",
+                        "vi": "ảnh hưởng xấu đến kết quả học tập"
+                      },
+                      {
+                        "en": "working night shifts",
+                        "vi": "đi làm ca đêm"
+                      },
+                      {
+                        "en": "feel exhausted",
+                        "vi": "cảm thấy mệt mỏi"
+                      },
+                      {
+                        "en": "fall asleep during lectures",
+                        "vi": "ngủ gật trong giảng đường"
+                      },
+                      {
+                        "en": "failed exams or course retakes",
+                        "vi": "thi trượt hoặc phải học lại môn"
                       }
                     ]
                   },
@@ -187406,46 +189114,58 @@ const ESSAY_DATA = [
                     "point_en": "Balancing work and study easily leads to physical exhaustion and prolonged mental stress.",
                     "point_collocations": [
                       {
-                        "en": "physical exhaustion",
-                        "vi": "sự kiệt sức thể chất"
+                        "en": "balancing work and study",
+                        "vi": "vừa đi học vừa đi làm"
                       },
                       {
-                        "en": "prolonged mental stress",
-                        "vi": "căng thẳng tinh thần kéo dài"
+                        "en": "creates severe mental stress",
+                        "vi": "gây ra áp lực tinh thần lớn"
                       },
                       {
-                        "en": "balance work and study",
-                        "vi": "cân bằng học và làm"
+                        "en": "damages physical health",
+                        "vi": "ảnh hưởng tiêu cực đến sức khỏe"
                       }
                     ],
                     "evidence_vi": "Làm việc ca đêm hoặc tăng ca khiến sinh viên thiếu ngủ trầm trọng, do đó các em dễ mắc bệnh và suy sụp tinh thần.",
                     "evidence_en": "Working night shifts causes severe sleep deprivation, so undergraduates suffer from illness and burnout.",
                     "evidence_collocations": [
                       {
-                        "en": "night shifts",
-                        "vi": "ca làm việc ban đêm"
+                        "en": "chronic sleep deprivation",
+                        "vi": "thiếu ngủ triền miên"
                       },
                       {
-                        "en": "sleep deprivation",
-                        "vi": "sự thiếu ngủ"
+                        "en": "lack proper relaxation",
+                        "vi": "không có thời gian nghỉ ngơi hợp lý"
                       },
                       {
-                        "en": "burnout",
-                        "vi": "sự kiệt quệ / kiệt sức"
+                        "en": "causing severe burnout",
+                        "vi": "dễ dẫn đến kiệt sức và bệnh lý thể chất"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "physical exhaustion",
-                        "vi": "kiệt sức thể chất"
+                        "en": "balancing work and study",
+                        "vi": "vừa đi học vừa đi làm"
                       },
                       {
-                        "en": "sleep deprivation",
-                        "vi": "thiếu ngủ"
+                        "en": "creates severe mental stress",
+                        "vi": "gây ra áp lực tinh thần lớn"
                       },
                       {
-                        "en": "mental stress",
-                        "vi": "căng thẳng tinh thần"
+                        "en": "damages physical health",
+                        "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+                      },
+                      {
+                        "en": "chronic sleep deprivation",
+                        "vi": "thiếu ngủ triền miên"
+                      },
+                      {
+                        "en": "lack proper relaxation",
+                        "vi": "không có thời gian nghỉ ngơi hợp lý"
+                      },
+                      {
+                        "en": "causing severe burnout",
+                        "vi": "dễ dẫn đến kiệt sức và bệnh lý thể chất"
                       }
                     ]
                   },
@@ -187455,46 +189175,58 @@ const ESSAY_DATA = [
                     "point_en": "Most part-time jobs are low-skilled manual tasks with little relevance to future careers.",
                     "point_collocations": [
                       {
-                        "en": "low-skilled manual tasks",
-                        "vi": "công việc chân tay kỹ năng thấp"
+                        "en": "many student jobs",
+                        "vi": "nhiều công việc sinh viên"
                       },
                       {
-                        "en": "future careers",
-                        "vi": "sự nghiệp tương lai"
+                        "en": "repetitive manual labor",
+                        "vi": "lao động chân tay giản đơn lặp đi lặp lại"
                       },
                       {
-                        "en": "professional relevance",
-                        "vi": "sự liên quan nghề nghiệp"
+                        "en": "little long-term career value",
+                        "vi": "không mang lại giá trị nghề nghiệp lâu dài"
                       }
                     ],
                     "evidence_vi": "Phục vụ bàn hoặc giao hàng tốn nhiều thời gian nhưng không giúp rèn luyện kiến thức chuyên môn, vì vậy thời gian đó nên dành cho việc học tập sâu.",
                     "evidence_en": "Waiting tables or delivering food wastes precious time without teaching technical expertise, so that time is better spent in academic libraries.",
                     "evidence_collocations": [
                       {
-                        "en": "waiting tables",
-                        "vi": "phục vụ bàn"
+                        "en": "working as waiters or delivery drivers",
+                        "vi": "làm bồi bàn hay nhân viên giao hàng"
                       },
                       {
-                        "en": "technical expertise",
-                        "vi": "chuyên môn kỹ thuật"
+                        "en": "support their major",
+                        "vi": "giúp ích cho chuyên ngành học tập"
                       },
                       {
-                        "en": "academic libraries",
-                        "vi": "thư viện học thuật"
+                        "en": "learning languages or advanced skills",
+                        "vi": "học thêm ngoại ngữ hay kỹ năng chuyên môn"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "future careers",
-                        "vi": "sự nghiệp tương lai"
+                        "en": "many student jobs",
+                        "vi": "nhiều công việc sinh viên"
                       },
                       {
-                        "en": "technical expertise",
-                        "vi": "chuyên môn kỹ thuật"
+                        "en": "repetitive manual labor",
+                        "vi": "lao động chân tay giản đơn lặp đi lặp lại"
                       },
                       {
-                        "en": "manual tasks",
-                        "vi": "công việc chân tay"
+                        "en": "little long-term career value",
+                        "vi": "không mang lại giá trị nghề nghiệp lâu dài"
+                      },
+                      {
+                        "en": "working as waiters or delivery drivers",
+                        "vi": "làm bồi bàn hay nhân viên giao hàng"
+                      },
+                      {
+                        "en": "support their major",
+                        "vi": "giúp ích cho chuyên ngành học tập"
+                      },
+                      {
+                        "en": "learning languages or advanced skills",
+                        "vi": "học thêm ngoại ngữ hay kỹ năng chuyên môn"
                       }
                     ]
                   }
@@ -188124,46 +189856,58 @@ const ESSAY_DATA = [
                 "point_en": "Artificial intelligence automates repetitive tasks and boosts workplace productivity dramatically.",
                 "point_collocations": [
                   {
-                    "en": "artificial intelligence",
-                    "vi": "trí tuệ nhân tạo"
+                    "en": "AI enhances productivity and accuracy",
+                    "vi": "AI nâng cao năng suất và độ chính xác"
                   },
                   {
-                    "en": "automate repetitive tasks",
-                    "vi": "tự động hóa công việc lặp lại"
-                  },
-                  {
-                    "en": "boost workplace productivity",
-                    "vi": "tăng năng suất nơi làm việc"
+                    "en": "across numerous industries",
+                    "vi": "trong nhiều ngành nghề khác nhau"
                   }
                 ],
                 "evidence_vi": "Hệ thống AI xử lý dữ liệu khổng lồ trong vài giây, vì vậy con người có thể tập trung vào những công việc đòi hỏi tư duy sáng tạo.",
                 "evidence_en": "AI systems process massive data in seconds, so humans can focus on creative and strategic decisions.",
                 "evidence_collocations": [
                   {
-                    "en": "process massive data",
-                    "vi": "xử lý dữ liệu khổng lồ"
+                    "en": "automated systems",
+                    "vi": "hệ thống tự động hóa"
                   },
                   {
-                    "en": "creative and strategic decisions",
-                    "vi": "các quyết định sáng tạo và chiến lược"
+                    "en": "process massive datasets",
+                    "vi": "xử lý lượng dữ liệu khổng lồ"
                   },
                   {
-                    "en": "workplace efficiency",
-                    "vi": "hiệu quả nơi làm việc"
+                    "en": "optimize operations",
+                    "vi": "tối ưu hóa hoạt động"
+                  },
+                  {
+                    "en": "minimize human errors",
+                    "vi": "giảm thiểu lỗi sai của con người"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "artificial intelligence",
-                    "vi": "trí tuệ nhân tạo"
+                    "en": "AI enhances productivity and accuracy",
+                    "vi": "AI nâng cao năng suất và độ chính xác"
                   },
                   {
-                    "en": "repetitive tasks",
-                    "vi": "công việc lặp lại"
+                    "en": "across numerous industries",
+                    "vi": "trong nhiều ngành nghề khác nhau"
                   },
                   {
-                    "en": "workplace productivity",
-                    "vi": "năng suất làm việc"
+                    "en": "automated systems",
+                    "vi": "hệ thống tự động hóa"
+                  },
+                  {
+                    "en": "process massive datasets",
+                    "vi": "xử lý lượng dữ liệu khổng lồ"
+                  },
+                  {
+                    "en": "optimize operations",
+                    "vi": "tối ưu hóa hoạt động"
+                  },
+                  {
+                    "en": "minimize human errors",
+                    "vi": "giảm thiểu lỗi sai của con người"
                   }
                 ]
               },
@@ -188173,16 +189917,16 @@ const ESSAY_DATA = [
                 "point_en": "AI brings groundbreaking progress to healthcare diagnostics and personalized education.",
                 "point_collocations": [
                   {
-                    "en": "groundbreaking progress",
-                    "vi": "tiến bộ mang tính đột phá"
+                    "en": "artificial intelligence",
+                    "vi": "trí tuệ nhân tạo"
                   },
                   {
-                    "en": "healthcare diagnostics",
-                    "vi": "chẩn đoán y tế"
+                    "en": "breakthrough improvements",
+                    "vi": "những tiến bộ vượt bậc"
                   },
                   {
-                    "en": "personalized education",
-                    "vi": "giáo dục cá nhân hóa"
+                    "en": "in medical healthcare and education",
+                    "vi": "trong y tế và giáo dục"
                   }
                 ],
                 "evidence_vi": "Các thuật toán thông minh phát hiện bệnh sớm và phần mềm học tập điều chỉnh bài giảng theo tốc độ của từng học viên, giúp cải thiện chất lượng sống.",
@@ -188190,29 +189934,57 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   {
                     "en": "smart algorithms",
-                    "vi": "thuật toán thông minh"
+                    "vi": "các thuật toán thông minh"
                   },
                   {
                     "en": "detect illnesses early",
                     "vi": "phát hiện bệnh sớm"
                   },
                   {
-                    "en": "human living standards",
-                    "vi": "mức sống con người"
+                    "en": "educational software",
+                    "vi": "phần mềm học tập"
+                  },
+                  {
+                    "en": "adapts to each student's speed",
+                    "vi": "điều chỉnh bài giảng theo tốc độ từng học viên"
+                  },
+                  {
+                    "en": "improving human living standards",
+                    "vi": "cải thiện chất lượng sống"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "healthcare diagnostics",
-                    "vi": "chẩn đoán y tế"
+                    "en": "artificial intelligence",
+                    "vi": "trí tuệ nhân tạo"
+                  },
+                  {
+                    "en": "breakthrough improvements",
+                    "vi": "những tiến bộ vượt bậc"
+                  },
+                  {
+                    "en": "in medical healthcare and education",
+                    "vi": "trong y tế và giáo dục"
                   },
                   {
                     "en": "smart algorithms",
-                    "vi": "thuật toán thông minh"
+                    "vi": "các thuật toán thông minh"
                   },
                   {
-                    "en": "personalized education",
-                    "vi": "giáo dục cá nhân hóa"
+                    "en": "detect illnesses early",
+                    "vi": "phát hiện bệnh sớm"
+                  },
+                  {
+                    "en": "educational software",
+                    "vi": "phần mềm học tập"
+                  },
+                  {
+                    "en": "adapts to each student's speed",
+                    "vi": "điều chỉnh bài giảng theo tốc độ từng học viên"
+                  },
+                  {
+                    "en": "improving human living standards",
+                    "vi": "cải thiện chất lượng sống"
                   }
                 ]
               },
@@ -188223,15 +189995,15 @@ const ESSAY_DATA = [
                 "point_collocations": [
                   {
                     "en": "AI technologies",
-                    "vi": "công nghệ trí tuệ nhân tạo"
+                    "vi": "công nghệ AI"
                   },
                   {
-                    "en": "daily services",
-                    "vi": "dịch vụ hằng ngày"
+                    "en": "make daily services smarter",
+                    "vi": "giúp các dịch vụ hàng ngày trở nên thông minh hơn"
                   },
                   {
-                    "en": "convenient lifestyle",
-                    "vi": "lối sống thuận tiện"
+                    "en": "much more convenient",
+                    "vi": "thuận tiện hơn nhiều"
                   }
                 ],
                 "evidence_vi": "Từ bản đồ chỉ đường thông minh đến các ứng dụng dịch thuật thời gian thực, AI giúp con người tiết kiệm thời gian và kết nối toàn cầu dễ dàng.",
@@ -188243,25 +190015,45 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "real-time translation tools",
-                    "vi": "công cụ dịch thuật thời gian thực"
+                    "vi": "các ứng dụng dịch thuật thời gian thực"
                   },
                   {
-                    "en": "global citizens",
-                    "vi": "công dân toàn cầu"
+                    "en": "saves time",
+                    "vi": "tiết kiệm thời gian"
+                  },
+                  {
+                    "en": "connects global citizens effortlessly",
+                    "vi": "kết nối toàn cầu dễ dàng"
                   }
                 ],
                 "collocations": [
                   {
-                    "en": "translation tools",
-                    "vi": "công cụ dịch thuật"
+                    "en": "AI technologies",
+                    "vi": "công nghệ AI"
                   },
                   {
-                    "en": "daily services",
-                    "vi": "dịch vụ hằng ngày"
+                    "en": "make daily services smarter",
+                    "vi": "giúp các dịch vụ hàng ngày trở nên thông minh hơn"
                   },
                   {
-                    "en": "smart navigation",
-                    "vi": "dẫn đường thông minh"
+                    "en": "much more convenient",
+                    "vi": "thuận tiện hơn nhiều"
+                  },
+                  {
+                    "en": "smart navigation maps",
+                    "vi": "bản đồ chỉ đường thông minh"
+                  },
+                  {
+                    "en": "real-time translation tools",
+                    "vi": "các ứng dụng dịch thuật thời gian thực"
+                  },
+                  {
+                    "en": "saves time",
+                    "vi": "tiết kiệm thời gian"
+                  },
+                  {
+                    "en": "connects global citizens effortlessly",
+                    "vi": "kết nối toàn cầu dễ dàng"
                   }
                 ]
               }
@@ -188643,46 +190435,58 @@ const ESSAY_DATA = [
                     "point_en": "Artificial intelligence automates repetitive tasks and boosts workplace productivity dramatically.",
                     "point_collocations": [
                       {
-                        "en": "artificial intelligence",
-                        "vi": "trí tuệ nhân tạo"
+                        "en": "AI enhances productivity and accuracy",
+                        "vi": "AI nâng cao năng suất và độ chính xác"
                       },
                       {
-                        "en": "automate repetitive tasks",
-                        "vi": "tự động hóa công việc lặp lại"
-                      },
-                      {
-                        "en": "boost workplace productivity",
-                        "vi": "tăng năng suất nơi làm việc"
+                        "en": "across numerous industries",
+                        "vi": "trong nhiều ngành nghề khác nhau"
                       }
                     ],
                     "evidence_vi": "Hệ thống AI xử lý dữ liệu khổng lồ trong vài giây, vì vậy con người có thể tập trung vào những công việc đòi hỏi tư duy sáng tạo.",
                     "evidence_en": "AI systems process massive data in seconds, so humans can focus on creative and strategic decisions.",
                     "evidence_collocations": [
                       {
-                        "en": "process massive data",
-                        "vi": "xử lý dữ liệu khổng lồ"
+                        "en": "automated systems",
+                        "vi": "hệ thống tự động hóa"
                       },
                       {
-                        "en": "creative and strategic decisions",
-                        "vi": "các quyết định sáng tạo và chiến lược"
+                        "en": "process massive datasets",
+                        "vi": "xử lý lượng dữ liệu khổng lồ"
                       },
                       {
-                        "en": "workplace efficiency",
-                        "vi": "hiệu quả nơi làm việc"
+                        "en": "optimize operations",
+                        "vi": "tối ưu hóa hoạt động"
+                      },
+                      {
+                        "en": "minimize human errors",
+                        "vi": "giảm thiểu lỗi sai của con người"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "artificial intelligence",
-                        "vi": "trí tuệ nhân tạo"
+                        "en": "AI enhances productivity and accuracy",
+                        "vi": "AI nâng cao năng suất và độ chính xác"
                       },
                       {
-                        "en": "repetitive tasks",
-                        "vi": "công việc lặp lại"
+                        "en": "across numerous industries",
+                        "vi": "trong nhiều ngành nghề khác nhau"
                       },
                       {
-                        "en": "workplace productivity",
-                        "vi": "năng suất làm việc"
+                        "en": "automated systems",
+                        "vi": "hệ thống tự động hóa"
+                      },
+                      {
+                        "en": "process massive datasets",
+                        "vi": "xử lý lượng dữ liệu khổng lồ"
+                      },
+                      {
+                        "en": "optimize operations",
+                        "vi": "tối ưu hóa hoạt động"
+                      },
+                      {
+                        "en": "minimize human errors",
+                        "vi": "giảm thiểu lỗi sai của con người"
                       }
                     ]
                   },
@@ -188692,16 +190496,16 @@ const ESSAY_DATA = [
                     "point_en": "AI brings groundbreaking progress to healthcare diagnostics and personalized education.",
                     "point_collocations": [
                       {
-                        "en": "groundbreaking progress",
-                        "vi": "tiến bộ mang tính đột phá"
+                        "en": "artificial intelligence",
+                        "vi": "trí tuệ nhân tạo"
                       },
                       {
-                        "en": "healthcare diagnostics",
-                        "vi": "chẩn đoán y tế"
+                        "en": "breakthrough improvements",
+                        "vi": "những tiến bộ vượt bậc"
                       },
                       {
-                        "en": "personalized education",
-                        "vi": "giáo dục cá nhân hóa"
+                        "en": "in medical healthcare and education",
+                        "vi": "trong y tế và giáo dục"
                       }
                     ],
                     "evidence_vi": "Các thuật toán thông minh phát hiện bệnh sớm và phần mềm học tập điều chỉnh bài giảng theo tốc độ của từng học viên, giúp cải thiện chất lượng sống.",
@@ -188709,29 +190513,57 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "smart algorithms",
-                        "vi": "thuật toán thông minh"
+                        "vi": "các thuật toán thông minh"
                       },
                       {
                         "en": "detect illnesses early",
                         "vi": "phát hiện bệnh sớm"
                       },
                       {
-                        "en": "human living standards",
-                        "vi": "mức sống con người"
+                        "en": "educational software",
+                        "vi": "phần mềm học tập"
+                      },
+                      {
+                        "en": "adapts to each student's speed",
+                        "vi": "điều chỉnh bài giảng theo tốc độ từng học viên"
+                      },
+                      {
+                        "en": "improving human living standards",
+                        "vi": "cải thiện chất lượng sống"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "healthcare diagnostics",
-                        "vi": "chẩn đoán y tế"
+                        "en": "artificial intelligence",
+                        "vi": "trí tuệ nhân tạo"
+                      },
+                      {
+                        "en": "breakthrough improvements",
+                        "vi": "những tiến bộ vượt bậc"
+                      },
+                      {
+                        "en": "in medical healthcare and education",
+                        "vi": "trong y tế và giáo dục"
                       },
                       {
                         "en": "smart algorithms",
-                        "vi": "thuật toán thông minh"
+                        "vi": "các thuật toán thông minh"
                       },
                       {
-                        "en": "personalized education",
-                        "vi": "giáo dục cá nhân hóa"
+                        "en": "detect illnesses early",
+                        "vi": "phát hiện bệnh sớm"
+                      },
+                      {
+                        "en": "educational software",
+                        "vi": "phần mềm học tập"
+                      },
+                      {
+                        "en": "adapts to each student's speed",
+                        "vi": "điều chỉnh bài giảng theo tốc độ từng học viên"
+                      },
+                      {
+                        "en": "improving human living standards",
+                        "vi": "cải thiện chất lượng sống"
                       }
                     ]
                   },
@@ -188742,15 +190574,15 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "AI technologies",
-                        "vi": "công nghệ trí tuệ nhân tạo"
+                        "vi": "công nghệ AI"
                       },
                       {
-                        "en": "daily services",
-                        "vi": "dịch vụ hằng ngày"
+                        "en": "make daily services smarter",
+                        "vi": "giúp các dịch vụ hàng ngày trở nên thông minh hơn"
                       },
                       {
-                        "en": "convenient lifestyle",
-                        "vi": "lối sống thuận tiện"
+                        "en": "much more convenient",
+                        "vi": "thuận tiện hơn nhiều"
                       }
                     ],
                     "evidence_vi": "Từ bản đồ chỉ đường thông minh đến các ứng dụng dịch thuật thời gian thực, AI giúp con người tiết kiệm thời gian và kết nối toàn cầu dễ dàng.",
@@ -188762,25 +190594,45 @@ const ESSAY_DATA = [
                       },
                       {
                         "en": "real-time translation tools",
-                        "vi": "công cụ dịch thuật thời gian thực"
+                        "vi": "các ứng dụng dịch thuật thời gian thực"
                       },
                       {
-                        "en": "global citizens",
-                        "vi": "công dân toàn cầu"
+                        "en": "saves time",
+                        "vi": "tiết kiệm thời gian"
+                      },
+                      {
+                        "en": "connects global citizens effortlessly",
+                        "vi": "kết nối toàn cầu dễ dàng"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "translation tools",
-                        "vi": "công cụ dịch thuật"
+                        "en": "AI technologies",
+                        "vi": "công nghệ AI"
                       },
                       {
-                        "en": "daily services",
-                        "vi": "dịch vụ hằng ngày"
+                        "en": "make daily services smarter",
+                        "vi": "giúp các dịch vụ hàng ngày trở nên thông minh hơn"
                       },
                       {
-                        "en": "smart navigation",
-                        "vi": "dẫn đường thông minh"
+                        "en": "much more convenient",
+                        "vi": "thuận tiện hơn nhiều"
+                      },
+                      {
+                        "en": "smart navigation maps",
+                        "vi": "bản đồ chỉ đường thông minh"
+                      },
+                      {
+                        "en": "real-time translation tools",
+                        "vi": "các ứng dụng dịch thuật thời gian thực"
+                      },
+                      {
+                        "en": "saves time",
+                        "vi": "tiết kiệm thời gian"
+                      },
+                      {
+                        "en": "connects global citizens effortlessly",
+                        "vi": "kết nối toàn cầu dễ dàng"
                       }
                     ]
                   }
@@ -189162,16 +191014,16 @@ const ESSAY_DATA = [
                     "point_en": "The rapid expansion of artificial intelligence causes widespread job losses for workers.",
                     "point_collocations": [
                       {
-                        "en": "rapid expansion",
-                        "vi": "sự mở rộng nhanh chóng"
+                        "en": "rapid expansion of artificial intelligence",
+                        "vi": "sự bùng nổ của trí tuệ nhân tạo"
                       },
                       {
                         "en": "widespread job losses",
-                        "vi": "mất việc làm trên diện rộng"
+                        "vi": "mất việc làm hàng loạt"
                       },
                       {
-                        "en": "unemployment crisis",
-                        "vi": "khủng hoảng thất nghiệp"
+                        "en": "for workers",
+                        "vi": "cho người lao động"
                       }
                     ],
                     "evidence_vi": "Máy móc và các ứng dụng thông minh đang thay thế nhiều công việc từ sản xuất đến viết nội dung, khiến hàng triệu người đối mặt với cảnh thất nghiệp.",
@@ -189179,29 +191031,57 @@ const ESSAY_DATA = [
                     "evidence_collocations": [
                       {
                         "en": "automated algorithms",
-                        "vi": "thuật toán tự động"
+                        "vi": "máy móc và các thuật toán tự động"
                       },
                       {
                         "en": "replace human jobs",
                         "vi": "thay thế công việc của con người"
                       },
                       {
+                        "en": "in manufacturing and writing",
+                        "vi": "từ sản xuất đến viết nội dung"
+                      },
+                      {
+                        "en": "millions of workers",
+                        "vi": "hàng triệu người"
+                      },
+                      {
                         "en": "face unemployment",
-                        "vi": "đối mặt với thất nghiệp"
+                        "vi": "đối mặt với cảnh thất nghiệp"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "job losses",
-                        "vi": "mất việc làm"
+                        "en": "rapid expansion of artificial intelligence",
+                        "vi": "sự bùng nổ của trí tuệ nhân tạo"
+                      },
+                      {
+                        "en": "widespread job losses",
+                        "vi": "mất việc làm hàng loạt"
+                      },
+                      {
+                        "en": "for workers",
+                        "vi": "cho người lao động"
                       },
                       {
                         "en": "automated algorithms",
-                        "vi": "thuật toán tự động"
+                        "vi": "máy móc và các thuật toán tự động"
+                      },
+                      {
+                        "en": "replace human jobs",
+                        "vi": "thay thế công việc của con người"
+                      },
+                      {
+                        "en": "in manufacturing and writing",
+                        "vi": "từ sản xuất đến viết nội dung"
+                      },
+                      {
+                        "en": "millions of workers",
+                        "vi": "hàng triệu người"
                       },
                       {
                         "en": "face unemployment",
-                        "vi": "đối mặt thất nghiệp"
+                        "vi": "đối mặt với cảnh thất nghiệp"
                       }
                     ]
                   },
@@ -189212,45 +191092,65 @@ const ESSAY_DATA = [
                     "point_collocations": [
                       {
                         "en": "overdependence on AI",
-                        "vi": "sự lệ thuộc quá mức vào AI"
+                        "vi": "lệ thuộc quá mức vào AI"
                       },
                       {
-                        "en": "critical thinking",
-                        "vi": "tư duy phản biện"
+                        "en": "weakens human critical thinking",
+                        "vi": "làm suy yếu khả năng tư duy phản biện"
                       },
                       {
                         "en": "genuine creativity",
-                        "vi": "sự sáng tạo chân thực"
+                        "vi": "sự sáng tạo chân thực tự nhiên"
                       }
                     ],
                     "evidence_vi": "Học sinh và nhân viên có thói quen nhờ máy tính viết hộ bài luận và giải quyết vấn đề, vì vậy não bộ dần lười suy nghĩ độc lập.",
                     "evidence_en": "Students and office workers rely on chatbots to draft essays and solve problems, so their brains become mentally passive.",
                     "evidence_collocations": [
                       {
-                        "en": "rely on chatbots",
-                        "vi": "dựa dẫm vào chatbot"
+                        "en": "students and office workers",
+                        "vi": "học sinh và nhân viên"
                       },
                       {
-                        "en": "draft essays",
-                        "vi": "viết nháp bài luận"
+                        "en": "rely on chatbots",
+                        "vi": "có thói quen dựa vào chatbot"
+                      },
+                      {
+                        "en": "draft essays and solve problems",
+                        "vi": "viết hộ bài luận và giải quyết vấn đề"
                       },
                       {
                         "en": "mentally passive",
-                        "vi": "thụ động về mặt tinh thần"
+                        "vi": "dần lười suy nghĩ độc lập"
                       }
                     ],
                     "collocations": [
                       {
-                        "en": "critical thinking",
-                        "vi": "tư duy phản biện"
+                        "en": "overdependence on AI",
+                        "vi": "lệ thuộc quá mức vào AI"
                       },
                       {
-                        "en": "mentally passive",
-                        "vi": "thụ động tinh thần"
+                        "en": "weakens human critical thinking",
+                        "vi": "làm suy yếu khả năng tư duy phản biện"
                       },
                       {
                         "en": "genuine creativity",
-                        "vi": "sáng tạo chân thực"
+                        "vi": "sự sáng tạo chân thực tự nhiên"
+                      },
+                      {
+                        "en": "students and office workers",
+                        "vi": "học sinh và nhân viên"
+                      },
+                      {
+                        "en": "rely on chatbots",
+                        "vi": "có thói quen dựa vào chatbot"
+                      },
+                      {
+                        "en": "draft essays and solve problems",
+                        "vi": "viết hộ bài luận và giải quyết vấn đề"
+                      },
+                      {
+                        "en": "mentally passive",
+                        "vi": "dần lười suy nghĩ độc lập"
                       }
                     ]
                   },
@@ -189260,12 +191160,12 @@ const ESSAY_DATA = [
                     "point_en": "AI systems harvesting huge personal datasets pose grave threats to user privacy.",
                     "point_collocations": [
                       {
-                        "en": "harvest personal datasets",
-                        "vi": "thu thập các tập dữ liệu cá nhân"
+                        "en": "harvesting huge personal datasets",
+                        "vi": "thu thập dữ liệu cá nhân khổng lồ"
                       },
                       {
-                        "en": "grave threats",
-                        "vi": "mối đe dọa nghiêm trọng"
+                        "en": "pose grave threats",
+                        "vi": "gây ra hiểm họa nghiêm trọng"
                       },
                       {
                         "en": "user privacy",
@@ -189276,30 +191176,50 @@ const ESSAY_DATA = [
                     "evidence_en": "Personal information and facial images are misused to generate fake videos and online scams, disrupting social security.",
                     "evidence_collocations": [
                       {
-                        "en": "facial images",
-                        "vi": "hình ảnh khuôn mặt"
+                        "en": "personal information and facial images",
+                        "vi": "thông tin cá nhân và hình ảnh khuôn mặt"
                       },
                       {
-                        "en": "fake videos and scams",
-                        "vi": "video giả mạo và các vụ lừa đảo"
+                        "en": "misused to generate fake videos",
+                        "vi": "dễ bị lợi dụng để tạo ra các video giả mạo"
                       },
                       {
-                        "en": "social security",
-                        "vi": "an ninh xã hội"
+                        "en": "online scams",
+                        "vi": "các vụ lừa đảo trên mạng"
+                      },
+                      {
+                        "en": "disrupting social security",
+                        "vi": "làm mất an ninh xã hội"
                       }
                     ],
                     "collocations": [
                       {
+                        "en": "harvesting huge personal datasets",
+                        "vi": "thu thập dữ liệu cá nhân khổng lồ"
+                      },
+                      {
+                        "en": "pose grave threats",
+                        "vi": "gây ra hiểm họa nghiêm trọng"
+                      },
+                      {
                         "en": "user privacy",
-                        "vi": "quyền riêng tư"
+                        "vi": "quyền riêng tư người dùng"
                       },
                       {
-                        "en": "fake videos",
-                        "vi": "video giả mạo"
+                        "en": "personal information and facial images",
+                        "vi": "thông tin cá nhân và hình ảnh khuôn mặt"
                       },
                       {
-                        "en": "social security",
-                        "vi": "an ninh xã hội"
+                        "en": "misused to generate fake videos",
+                        "vi": "dễ bị lợi dụng để tạo ra các video giả mạo"
+                      },
+                      {
+                        "en": "online scams",
+                        "vi": "các vụ lừa đảo trên mạng"
+                      },
+                      {
+                        "en": "disrupting social security",
+                        "vi": "làm mất an ninh xã hội"
                       }
                     ]
                   }
