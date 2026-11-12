@@ -209,10 +209,6 @@ function switchCategory(catId) {
     showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
     return;
   }
-  if (userClass === 'CB210' && catId === 4) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, Dạng 2 và Dạng 3!', 'warning');
-    return;
-  }
 
   if (isExamModeActive()) {
     isPromptingUser = true;
@@ -763,10 +759,6 @@ function startPractice(catId, topicId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
     showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
-    return;
-  }
-  if (userClass === 'CB210' && catId === 4) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1, Dạng 2 và Dạng 3!', 'warning');
     return;
   }
 
@@ -8345,10 +8337,9 @@ function closeMobileSidebar() {
 function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  const isCB210 = (userClass === 'CB210');
   const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
   
-  // Category 2 & 3 lock/unlock (Unlocked for Gia Tuệ and CB210)
+  // Category 2 & 3 lock/unlock (Unlocked for all allowed classes; Category 4 unlocked for CB210 too)
   [2, 3].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
     if (link) {
@@ -8359,14 +8350,14 @@ function updateClassAccessUI() {
     }
   });
 
-  // Category 4 lock (Only Category 4 remains locked for now)
+  // Category 4 lock (Only locked for Gia Tuệ; unlocked for CB210 and all other classes)
   const cat4Link = document.getElementById('nav-link-cat-4');
   if (cat4Link) {
     const existingBadge4 = cat4Link.querySelector('.cat-lock-badge');
     if (existingBadge4) existingBadge4.remove();
-    if (isGiaTue || isCB210) {
+    if (isGiaTue) {
       cat4Link.classList.add('is-locked');
-      cat4Link.setAttribute('title', isGiaTue ? 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)' : 'Dạng luận này chưa mở cho lớp CB210');
+      cat4Link.setAttribute('title', 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)');
       const badge = document.createElement('span');
       badge.className = 'cat-lock-badge';
       badge.innerHTML = '🔒 Khoá';
@@ -8378,8 +8369,6 @@ function updateClassAccessUI() {
   }
 
   if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2 && currentCategory.id !== 3) {
-    switchCategory(1);
-  } else if (isCB210 && currentCategory && currentCategory.id === 4) {
     switchCategory(1);
   }
 }
