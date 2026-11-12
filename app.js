@@ -6093,6 +6093,31 @@ function exitExamMode() {
 
 // --- Anti-Cheat & Teacher Account Lock System ---
 
+const TRACKING_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+const TRACKING_FORM_ENTRY = 'entry.1205151935';
+
+/**
+ * Send attendance, login, anti-cheat, or lock/unlock event to Google Forms.
+ * Uses no-cors POST so tracking fails silently without blocking the UI.
+ */
+function sendTrackingReport(message) {
+  try {
+    if (!message) return;
+    const formData = new FormData();
+    formData.append(TRACKING_FORM_ENTRY, message);
+    fetch(TRACKING_FORM_URL, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+  } catch (err) {}
+}
+
+/**
+ * Convert an internal anti-cheat reason code into a readable Vietnamese label.
+ */
+function formatCheatReasonText(reason) {
+  if (reason === 'paste') return 'Dán (Paste) nội dung ngoài';
+  if (reason === 'window_blur') return 'Rời cửa sổ / chuyển ứng dụng khác';
+  return 'Chuyển tab/rời phòng thi';
+}
+
 function getStudentLockKey(studentName) {
   const norm = normalizeVietnameseName(studentName || sessionStorage.getItem('current_user_name') || 'unknown');
   return `vstep_lock_${norm}`;
@@ -6145,15 +6170,9 @@ function lockCurrentAccount(reason) {
   saveProgressAction(true);
 
   // Send lock event to Google Forms
-  try {
-    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
-    const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
-    const reasonText = (reason === 'paste') ? 'Dán (Paste) nội dung ngoài' : 'Chuyển tab/rời phòng thi';
-    const finalData = `[TẠM KHÓA TÀI KHOẢN DO VI PHẠM 3 LẦN] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Lý do: ${reasonText} lúc ${lockInfo.timeVi}`;
-    const formData = new FormData();
-    formData.append('entry.1205151935', finalData);
-    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
-  } catch (err) {}
+  const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
+  const reasonText = formatCheatReasonText(reason);
+  sendTrackingReport(`[TẠM KHÓA TÀI KHOẢN DO VI PHẠM 3 LẦN] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Lý do: ${reasonText} lúc ${lockInfo.timeVi}`);
 
   showAccountLockedModal(reason);
 }
@@ -6251,14 +6270,8 @@ function teacherUnlockAccount() {
   }
 
   // Send unlock event to Google Forms
-  try {
-    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
-    const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
-    const finalData = `[MỞ KHÓA BỞI GIÁO VIÊN] ${studentName} - Lớp ${studentClass} - Giáo viên đã mở khóa tài khoản lúc ${nowVi}`;
-    const formData = new FormData();
-    formData.append('entry.1205151935', finalData);
-    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
-  } catch (err) {}
+  const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
+  sendTrackingReport(`[MỞ KHÓA BỞI GIÁO VIÊN] ${studentName} - Lớp ${studentClass} - Giáo viên đã mở khóa tài khoản lúc ${nowVi}`);
 
   setTimeout(() => {
     const modal = document.getElementById('cheat-warning-modal');
@@ -6297,6 +6310,16 @@ function handleCheatViolation(reason) {
     lockCurrentAccount(reason);
     return;
   }
+
+  // Report violation 1 & 2 immediately to Google Forms (violation 3 is reported by lockCurrentAccount)
+  const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
+  const studentClass = sessionStorage.getItem('current_user_class') || '';
+  const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
+  const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
+  const reasonText = formatCheatReasonText(reason);
+  const isTeacher = typeof checkIsTeacher === 'function' && checkIsTeacher(studentName, studentClass, '');
+  const prefix = isTeacher ? '[GIÁO VIÊN TEST] ' : '';
+  sendTrackingReport(`${prefix}[VI PHẠM GIAN LẬN LẦN 0${cheatViolationCount}/3] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Hành vi: ${reasonText} lúc ${nowVi}`);
 
   const modal = document.getElementById('cheat-warning-modal');
   const countBadge = document.getElementById('cheat-warning-count');
@@ -8143,15 +8166,9 @@ function submitGatewayAccess() {
     showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
 
     // Post teacher entry in background
-    try {
-      const now = new Date();
-      const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
-      const finalData = `[GIÁO VIÊN] ${teacherName} - Lớp ${classInput} - Đăng nhập lúc ${timeString}`;
-      const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
-      const formData = new FormData();
-      formData.append('entry.1205151935', finalData);
-      fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
-    } catch(e) {}
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
+    sendTrackingReport(`[GIÁO VIÊN] ${teacherName} - Lớp ${classInput} - Đăng nhập lúc ${timeString}`);
     return;
   }
 
@@ -8266,15 +8283,9 @@ function submitGatewayAccess() {
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
   // Attendance log in background
-  try {
-    const now = new Date();
-    const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
-    const finalData = `${matchedName} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`;
-    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
-    const formData = new FormData();
-    formData.append('entry.1205151935', finalData);
-    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
-  } catch(e) {}
+  const now = new Date();
+  const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
+  sendTrackingReport(`${matchedName} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`);
 }
 
 function updateStudentProfileDisplay() {
