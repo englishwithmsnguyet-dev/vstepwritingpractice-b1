@@ -205,8 +205,14 @@ function switchScreen(screenName) {
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
+  if (!isCategoryAllowedForUser(catId)) {
+    if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Hiện tại lớp chỉ mở DẠNG LUẬN 01!`, 'warning');
+    } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)!', 'warning');
+    } else {
+      showToast('🔒 Dạng luận này tạm thời chưa mở cho tài khoản của bạn.', 'warning');
+    }
     return;
   }
 
@@ -757,8 +763,14 @@ function startPractice(catId, topicId) {
   }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  if ((userClass === 'B2' || checkIsGiaTue(userName)) && catId !== 1 && catId !== 2 && catId !== 3) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở. Hiện tại tài khoản Gia Tuệ đã mở TYPE 01, TYPE 02 và TYPE 03!', 'warning');
+  if (!isCategoryAllowedForUser(catId)) {
+    if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+      showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp chỉ mở DẠNG LUẬN 01!`, 'warning');
+    } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
+      showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)!', 'warning');
+    } else {
+      showToast('🔒 Đề bài thuộc Dạng luận tạm thời chưa mở cho tài khoản của bạn.', 'warning');
+    }
     return;
   }
 
@@ -8387,42 +8399,62 @@ function closeMobileSidebar() {
   if (overlay) overlay.classList.remove('active');
 }
 
+// Check if a category (1..4) is allowed for current student/class
+function isCategoryAllowedForUser(catId) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const userName = sessionStorage.getItem('current_user_name') || '';
+
+  // Teachers always have access to all categories
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+    return true;
+  }
+
+  // Classes ONB103, CB211, CB213: only Category 1 (Advantages & Disadvantages) is opened
+  if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+    return catId === 1;
+  }
+
+  // Gia Tuệ / B2: Categories 1, 2, 3 are opened; Category 4 is locked
+  if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
+    return catId === 1 || catId === 2 || catId === 3;
+  }
+
+  // Other classes (CB210, B212, etc.): all categories 1, 2, 3, 4 are opened
+  return true;
+}
+
 // Class-based Feature Restriction Handler
 function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const userName = sessionStorage.getItem('current_user_name') || '';
-  const isGiaTue = (userClass === 'B2' || checkIsGiaTue(userName));
-  
-  // Category 2 & 3 lock/unlock (Unlocked for all allowed classes; Category 4 unlocked for CB210 too)
-  [2, 3].forEach(catId => {
+
+  [1, 2, 3, 4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
-    if (link) {
-      const existingBadge = link.querySelector('.cat-lock-badge');
-      if (existingBadge) existingBadge.remove();
+    if (!link) return;
+
+    const existingBadge = link.querySelector('.cat-lock-badge');
+    if (existingBadge) existingBadge.remove();
+
+    if (!isCategoryAllowedForUser(catId)) {
+      link.classList.add('is-locked');
+      let lockMsg = 'Dạng luận này tạm thời chưa mở';
+      if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
+        lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp chỉ mở DẠNG LUẬN 01)`;
+      } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
+        lockMsg = 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)';
+      }
+      link.setAttribute('title', lockMsg);
+      const badge = document.createElement('span');
+      badge.className = 'cat-lock-badge';
+      badge.innerHTML = '🔒 Khoá';
+      link.appendChild(badge);
+    } else {
       link.classList.remove('is-locked');
       link.removeAttribute('title');
     }
   });
 
-  // Category 4 lock (Only locked for Gia Tuệ; unlocked for CB210 and all other classes)
-  const cat4Link = document.getElementById('nav-link-cat-4');
-  if (cat4Link) {
-    const existingBadge4 = cat4Link.querySelector('.cat-lock-badge');
-    if (existingBadge4) existingBadge4.remove();
-    if (isGiaTue) {
-      cat4Link.classList.add('is-locked');
-      cat4Link.setAttribute('title', 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)');
-      const badge = document.createElement('span');
-      badge.className = 'cat-lock-badge';
-      badge.innerHTML = '🔒 Khoá';
-      cat4Link.appendChild(badge);
-    } else {
-      cat4Link.classList.remove('is-locked');
-      cat4Link.removeAttribute('title');
-    }
-  }
-
-  if (isGiaTue && currentCategory && currentCategory.id !== 1 && currentCategory.id !== 2 && currentCategory.id !== 3) {
+  if (currentCategory && !isCategoryAllowedForUser(currentCategory.id)) {
     switchCategory(1);
   }
 }
