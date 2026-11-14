@@ -264,7 +264,7 @@ function switchCategory(catId) {
     const total = currentCategory.topics.length;
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      const ideas = t.details && (t.details.ideas_b1 || t.details.ideas_b2);
       if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
       if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
@@ -424,7 +424,7 @@ function renderCategoryTopics(searchQuery = '') {
     if (currentCategory.id === 1) {
       const isBenefitsOnly = (t) => {
         if (t.type === 'benefits_only') return true;
-        const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        const ideas = t.details && (t.details.ideas_b1 || t.details.ideas_b2);
         if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
         const p = (t.prompt || '').toLowerCase();
         if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
@@ -486,7 +486,7 @@ function renderCategoryTopics(searchQuery = '') {
         if (firstTag === '[measures]' || firstTag === '[solutions]' || firstTag === '[measures / solutions]') return 'PHÂN TÍCH GIẢI PHÁP';
 
         // 2. Check details.ideas_b2 / ideas_b1 keys if present
-        const ideasObj = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+        const ideasObj = t.details && (t.details.ideas_b1 || t.details.ideas_b2);
         if (ideasObj) {
           const keys = Object.keys(ideasObj);
           if (keys.includes('causes') && keys.includes('solutions')) return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
@@ -1902,7 +1902,7 @@ function hasSelectableIdeas(topic) {
     details = topic.approaches[0].details;
   }
   if (!details) return false;
-  const ideas = details.ideas_b2 || details.ideas_b1;
+  const ideas = details.ideas_b1 || details.ideas_b2;
   if (!ideas) return false;
   const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
   const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
@@ -1916,7 +1916,7 @@ function getSelectedIdeaIndices(topic, groupType) {
     details = topic.approaches[0].details;
   }
   if (!details) return [];
-  const ideas = details.ideas_b2 || details.ideas_b1;
+  const ideas = details.ideas_b1 || details.ideas_b2;
   if (!ideas) return [];
   
   let items = [];
@@ -1992,7 +1992,7 @@ function renderIdeaSelectionComponent(topic) {
     details = topic.approaches[0].details;
   }
   if (!details) return '';
-  const b2IdeasObj = details.ideas_b2 || details.ideas_b1;
+  const b2IdeasObj = details.ideas_b1 || details.ideas_b2;
   if (!b2IdeasObj) return '';
 
   const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || b2IdeasObj.factors || [];
@@ -4515,7 +4515,7 @@ function renderVietnameseOutline() {
     return;
   }
   
-  const ideasObj = topic.details.ideas_b2 || topic.details.ideas_b1; // Use B2 ideas
+  const ideasObj = topic.details.ideas_b1 || topic.details.ideas_b2; // Prefer B1 ideas on B1 site
   if (!ideasObj) return;
 
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors || [];
@@ -7417,7 +7417,7 @@ function getTopicSubtypeLabel(topic, catId) {
   if (catId === 1) {
     const isBenefitsOnly = (t) => {
       if (t.type === 'benefits_only') return true;
-      const ideas = t.details && (t.details.ideas_b2 || t.details.ideas_b1);
+      const ideas = t.details && (t.details.ideas_b1 || t.details.ideas_b2);
       if (ideas && ideas.benefits && (!ideas.drawbacks || ideas.drawbacks.length === 0)) return true;
       const p = (t.prompt || '').toLowerCase();
       if ((p.includes('advantages of') || p.includes('benefits of') || p.includes('importance of')) && !p.includes('and disadvantages') && !p.includes('and drawbacks')) return true;
@@ -7804,7 +7804,7 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const b2Ideas = topic.details.ideas_b2 || topic.details.ideas_b1;
+    const b2Ideas = topic.details.ideas_b1 || topic.details.ideas_b2;
     let b1BenefitsList = (b2Ideas.benefits || b2Ideas.causes || b2Ideas.reasons || b2Ideas.views || b2Ideas.factors || []);
     let b1DrawbacksList = (b2Ideas.drawbacks || b2Ideas.solutions || b2Ideas.effects || b2Ideas.problems || b2Ideas.measures || []);
 
