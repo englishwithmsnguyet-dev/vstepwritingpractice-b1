@@ -48544,448 +48544,442 @@ const ESSAY_DATA = [
           },
           "ideas_b2": {
             "benefits": [
-              {
-                "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
-                "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.",
-                "point_en": "Community service enables participants to develop essential practical skills.",
-                "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả và nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ.",
-                "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation while strengthening problem-solving skills when facing unexpected situations.",
-                "collocations": [
-                  {
-                    "en": "community service",
-                    "vi": "làm công tác cộng đồng"
-                  },
-                  {
-                    "en": "enable participants",
-                    "vi": "giúp người tham gia"
-                  },
-                  {
-                    "en": "develop essential practical skills",
-                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
-                  },
-                  {
-                    "en": "have opportunities",
-                    "vi": "có cơ hội"
-                  },
-                  {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
-                  },
-                  {
-                    "en": "people from different backgrounds",
-                    "vi": "nhiều đối tượng khác nhau"
-                  },
-                  {
-                    "en": "develop teamwork and effective cooperation",
-                    "vi": "rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả"
-                  },
-                  {
-                    "en": "strengthen problem-solving skills",
-                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
-                  },
-                  {
-                    "en": "face unexpected situations",
-                    "vi": "khi gặp tình huống bất ngờ"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "community service",
-                    "vi": "làm công tác cộng đồng"
-                  },
-                  {
-                    "en": "enable participants",
-                    "vi": "giúp người tham gia"
-                  },
-                  {
-                    "en": "develop essential practical skills",
-                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "have opportunities",
-                      "vi": "có cơ hội"
-                    },
-                    {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "people from different backgrounds",
-                      "vi": "nhiều đối tượng khác nhau"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop teamwork and effective cooperation",
-                      "vi": "rèn luyện khả năng làm việc nhóm, phối hợp hiệu quả"
-                    },
-                    {
-                      "en": "strengthen problem-solving skills",
-                      "vi": "nâng cao kỹ năng giải quyết vấn đề"
-                    },
-                    {
-                      "en": "face unexpected situations",
-                      "vi": "khi gặp tình huống bất ngờ"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
-                "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực.",
-                "point_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
-                "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau, từ đó xây dựng tình bạn và sự gắn kết lâu dài. Ngoài ra, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và công việc sau này.",
-                "evidence_en": "Participants meet people from different backgrounds, age groups, and professions, thereby building friendships and lasting connections. In addition, establishing these useful relationships can greatly benefit their future study and work.",
-                "collocations": [
-                  {
-                    "en": "engage in volunteer work",
-                    "vi": "tham gia hoạt động tình nguyện"
-                  },
-                  {
-                    "en": "significantly expand",
-                    "vi": "mở rộng"
-                  },
-                  {
-                    "en": "social networks",
-                    "vi": "mạng lưới quan hệ xã hội"
-                  },
-                  {
-                    "en": "people from different backgrounds",
-                    "vi": "người từ nhiều hoàn cảnh ... khác nhau"
-                  },
-                  {
-                    "en": "different backgrounds, age groups, and professions",
-                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
-                  },
-                  {
-                    "en": "build friendships and lasting connections",
-                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
-                  },
-                  {
-                    "en": "establish these useful relationships",
-                    "vi": "mối quan hệ hữu ích này"
-                  },
-                  {
-                    "en": "greatly benefit their future study and work",
-                    "vi": "hỗ trợ đắc lực cho học tập và công việc sau này"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "engage in volunteer work",
-                    "vi": "tham gia hoạt động tình nguyện"
-                  },
-                  {
-                    "en": "significantly expand",
-                    "vi": "mở rộng"
-                  },
-                  {
-                    "en": "social networks",
-                    "vi": "mạng lưới quan hệ xã hội"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "people from different backgrounds",
-                      "vi": "người từ nhiều hoàn cảnh ... khác nhau"
-                    },
-                    {
-                      "en": "different backgrounds, age groups, and professions",
-                      "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
-                    },
-                    {
-                      "en": "build friendships and lasting connections",
-                      "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "establish these useful relationships",
-                      "vi": "mối quan hệ hữu ích này"
-                    },
-                    {
-                      "en": "greatly benefit their future study and work",
-                      "vi": "hỗ trợ đắc lực cho học tập và công việc sau này"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
-                "point_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia.",
-                "point_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
-                "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, tham gia các hoạt động ý nghĩa còn giúp giải tỏa căng thẳng và giảm bớt cảm giác cô đơn.",
-                "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful activities reduces stress and alleviates feelings of loneliness.",
-                "collocations": [
-                  {
-                    "en": "voluntary activities",
-                    "vi": "các hoạt động công ích"
-                  },
-                  {
-                    "en": "contribute substantially to",
-                    "vi": "to lớn"
-                  },
-                  {
-                    "en": "improve participants' mental well-being",
-                    "vi": "sức khỏe tinh thần của người tham gia"
-                  },
-                  {
-                    "en": "help others",
-                    "vi": "việc giúp đỡ người khác"
-                  },
-                  {
-                    "en": "bring a profound sense of happiness and satisfaction",
-                    "vi": "mang lại cảm giác hạnh phúc và thỏa nguyện"
-                  },
-                  {
-                    "en": "find greater meaning and purpose in life",
-                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
-                  },
-                  {
-                    "en": "take part in meaningful activities",
-                    "vi": "tham gia các hoạt động ý nghĩa"
-                  },
-                  {
-                    "en": "reduce stress",
-                    "vi": "giải tỏa căng thẳng"
-                  },
-                  {
-                    "en": "alleviate feelings of loneliness",
-                    "vi": "giảm bớt cảm giác cô đơn"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "voluntary activities",
-                    "vi": "các hoạt động công ích"
-                  },
-                  {
-                    "en": "contribute substantially to",
-                    "vi": "to lớn"
-                  },
-                  {
-                    "en": "improve participants' mental well-being",
-                    "vi": "sức khỏe tinh thần của người tham gia"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "help others",
-                      "vi": "việc giúp đỡ người khác"
-                    },
-                    {
-                      "en": "bring a profound sense of happiness and satisfaction",
-                      "vi": "mang lại cảm giác hạnh phúc và thỏa nguyện"
-                    },
-                    {
-                      "en": "find greater meaning and purpose in life",
-                      "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "take part in meaningful activities",
-                      "vi": "tham gia các hoạt động ý nghĩa"
-                    },
-                    {
-                      "en": "reduce stress",
-                      "vi": "giải tỏa căng thẳng"
-                    },
-                    {
-                      "en": "alleviate feelings of loneliness",
-                      "vi": "giảm bớt cảm giác cô đơn"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
-                "point_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng.",
-                "point_en": "Participating in community service fosters a strong sense of civic responsibility.",
-                "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao và thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
-                "evidence_en": "Participants learn to take responsibility for assigned tasks and understand the challenges faced by disadvantaged groups. As a result, they become willing to contribute proactively and support the community whenever needed.",
-                "collocations": [
-                  {
-                    "en": "participate in community service",
-                    "vi": "tham gia tình nguyện"
-                  },
-                  {
-                    "en": "foster a strong sense of",
-                    "vi": "hình thành tinh thần trách nhiệm sâu sắc"
-                  },
-                  {
-                    "en": "civic responsibility",
-                    "vi": "trách nhiệm ... đối với cộng đồng"
-                  },
-                  {
-                    "en": "take responsibility for assigned tasks",
-                    "vi": "chịu trách nhiệm với công việc được giao"
-                  },
-                  {
-                    "en": "understand the challenges",
-                    "vi": "thấu hiểu rõ hơn những khó khăn"
-                  },
-                  {
-                    "en": "disadvantaged groups",
-                    "vi": "các nhóm yếu thế trong xã hội"
-                  },
-                  {
-                    "en": "willing to contribute proactively",
-                    "vi": "chủ động đóng góp"
-                  },
-                  {
-                    "en": "support the community whenever needed",
-                    "vi": "hỗ trợ cộng đồng khi cần thiết"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "participate in community service",
-                    "vi": "tham gia tình nguyện"
-                  },
-                  {
-                    "en": "foster a strong sense of",
-                    "vi": "hình thành tinh thần trách nhiệm sâu sắc"
-                  },
-                  {
-                    "en": "civic responsibility",
-                    "vi": "trách nhiệm ... đối với cộng đồng"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "take responsibility for assigned tasks",
-                      "vi": "chịu trách nhiệm với công việc được giao"
-                    },
-                    {
-                      "en": "understand the challenges",
-                      "vi": "thấu hiểu rõ hơn những khó khăn"
-                    },
-                    {
-                      "en": "disadvantaged groups",
-                      "vi": "các nhóm yếu thế trong xã hội"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "willing to contribute proactively",
-                      "vi": "chủ động đóng góp"
-                    },
-                    {
-                      "en": "support the community whenever needed",
-                      "vi": "hỗ trợ cộng đồng khi cần thiết"
-                    }
-                  ]
-                ]
-              },
-              {
-                "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
-                "point_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng.",
-                "point_en": "Volunteer initiatives generate profound and lasting positive impacts on community life.",
-                "evidence_vi": "Các hoạt động này hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
-                "evidence_en": "These initiatives provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns directly improves living conditions and builds a better community.",
-                "collocations": [
-                  {
-                    "en": "volunteer initiatives",
-                    "vi": "các chương trình tình nguyện"
-                  },
-                  {
-                    "en": "generate profound and lasting positive impacts",
-                    "vi": "tạo ra những tác động tích cực và lâu dài"
-                  },
-                  {
-                    "en": "on community life",
-                    "vi": "đối với đời sống cộng đồng"
-                  },
-                  {
-                    "en": "initiative",
-                    "vi": "các hoạt động này"
-                  },
-                  {
-                    "en": "provide essential supplies",
-                    "vi": "hỗ trợ nhu yếu phẩm"
-                  },
-                  {
-                    "en": "educational support",
-                    "vi": "giáo dục"
-                  },
-                  {
-                    "en": "disadvantaged people",
-                    "vi": "những người có hoàn cảnh khó khăn"
-                  },
-                  {
-                    "en": "tree planting and clean-up campaigns",
-                    "vi": "trồng cây hay dọn rác"
-                  },
-                  {
-                    "en": "directly improve living conditions",
-                    "vi": "trực tiếp cải thiện điều kiện sống"
-                  },
-                  {
-                    "en": "build a better community",
-                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
-                  }
-                ],
-                "point_collocations": [
-                  {
-                    "en": "volunteer initiatives",
-                    "vi": "các chương trình tình nguyện"
-                  },
-                  {
-                    "en": "generate profound and lasting positive impacts",
-                    "vi": "tạo ra những tác động tích cực và lâu dài"
-                  },
-                  {
-                    "en": "on community life",
-                    "vi": "đối với đời sống cộng đồng"
-                  }
-                ],
-                "evidence_collocations": [
-                  [
-                    {
-                      "en": "initiative",
-                      "vi": "các hoạt động này"
-                    },
-                    {
-                      "en": "provide essential supplies",
-                      "vi": "hỗ trợ nhu yếu phẩm"
-                    },
-                    {
-                      "en": "educational support",
-                      "vi": "giáo dục"
-                    },
-                    {
-                      "en": "disadvantaged people",
-                      "vi": "những người có hoàn cảnh khó khăn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "tree planting and clean-up campaigns",
-                      "vi": "trồng cây hay dọn rác"
-                    },
-                    {
-                      "en": "directly improve living conditions",
-                      "vi": "trực tiếp cải thiện điều kiện sống"
-                    },
-                    {
-                      "en": "build a better community",
-                      "vi": "xây dựng cộng đồng tốt đẹp hơn"
-                    }
-                  ]
-                ]
-              }
+                          {
+                                        "title": "LỢI ÍCH 01: Phát triển kỹ năng thực tế (Developing Practical Skills)",
+                                        "point_vi": "Làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.",
+                                        "point_en": "Community service enables participants to develop essential practical skills.",
+                                        "point_collocations": [
+                                                      {
+                                                                    "en": "community service",
+                                                                    "vi": "làm công tác cộng đồng"
+                                                      },
+                                                      {
+                                                                    "en": "enable participants",
+                                                                    "vi": "giúp người tham gia"
+                                                      },
+                                                      {
+                                                                    "en": "develop essential practical skills",
+                                                                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                                                      }
+                                        ],
+                                        "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả trong các tình huống thực tế. Kết quả là, họ có thể nâng cao kỹ năng giải quyết vấn đề và tự tin ứng phó với các tình huống bất ngờ trong công việc tương lai.",
+                                        "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation in real-life situations. As a result, they can strengthen problem-solving skills and handle unexpected situations with confidence in their future careers.",
+                                        "collocations": [
+                                                      {
+                                                                    "en": "community service",
+                                                                    "vi": "làm công tác cộng đồng"
+                                                      },
+                                                      {
+                                                                    "en": "enable participants",
+                                                                    "vi": "giúp người tham gia"
+                                                      },
+                                                      {
+                                                                    "en": "develop essential practical skills",
+                                                                    "vi": "phát triển các kỹ năng thực tế thiết yếu"
+                                                      },
+                                                      {
+                                                                    "en": "have opportunities",
+                                                                    "vi": "có cơ hội"
+                                                      },
+                                                      {
+                                                                    "en": "improve communication skills",
+                                                                    "vi": "cải thiện kỹ năng giao tiếp"
+                                                      },
+                                                      {
+                                                                    "en": "people from different backgrounds",
+                                                                    "vi": "nhiều đối tượng khác nhau"
+                                                      },
+                                                      {
+                                                                    "en": "develop teamwork and effective cooperation",
+                                                                    "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                                                      },
+                                                      {
+                                                                    "en": "strengthen problem-solving skills",
+                                                                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                                                      },
+                                                      {
+                                                                    "en": "unexpected situations",
+                                                                    "vi": "tình huống bất ngờ"
+                                                      }
+                                        ],
+                                        "evidence_collocations": [
+                                                      [
+                                                                    {
+                                                                                  "en": "have opportunities",
+                                                                                  "vi": "có cơ hội"
+                                                                    },
+                                                                    {
+                                                                                  "en": "improve communication skills",
+                                                                                  "vi": "cải thiện kỹ năng giao tiếp"
+                                                                    },
+                                                                    {
+                                                                                  "en": "people from different backgrounds",
+                                                                                  "vi": "nhiều đối tượng khác nhau"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "develop teamwork and effective cooperation",
+                                                                                  "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                                                                    },
+                                                                    {
+                                                                                  "en": "develop teamwork",
+                                                                                  "vi": "rèn luyện làm việc nhóm"
+                                                                    },
+                                                                    {
+                                                                                  "en": "effective cooperation",
+                                                                                  "vi": "phối hợp hiệu quả"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "strengthen problem-solving skills",
+                                                                                  "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                                                                    },
+                                                                    {
+                                                                                  "en": "handle unexpected situations",
+                                                                                  "vi": "xử lý các tình huống bất ngờ"
+                                                                    },
+                                                                    {
+                                                                                  "en": "unexpected situations",
+                                                                                  "vi": "tình huống bất ngờ"
+                                                                    }
+                                                      ]
+                                        ]
+                          },
+                          {
+                                        "title": "LỢI ÍCH 02: Mở rộng mạng lưới quan hệ (Expanding Social Networks)",
+                                        "point_vi": "Tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách tích cực.",
+                                        "point_en": "Engaging in volunteer work allows individuals to significantly expand their social networks.",
+                                        "point_collocations": [
+                                                      {
+                                                                    "en": "engaging in volunteer work",
+                                                                    "vi": "tham gia hoạt động tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "allow individuals",
+                                                                    "vi": "giúp mỗi cá nhân"
+                                                      },
+                                                      {
+                                                                    "en": "significantly expand social networks",
+                                                                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
+                                                      }
+                                        ],
+                                        "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau. Thêm vào đó, việc cùng nhau thực hiện các dự án từ thiện giúp họ xây dựng tình bạn và sự gắn kết lâu dài. Vì vậy, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và sự nghiệp sau này.",
+                                        "evidence_en": "Participants meet people from different backgrounds, age groups, and professions. In addition, collaborating on charity projects helps them build friendships and lasting connections. Therefore, establishing these useful relationships can greatly benefit their future study and work.",
+                                        "collocations": [
+                                                      {
+                                                                    "en": "engaging in volunteer work",
+                                                                    "vi": "tham gia hoạt động tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "significantly expand social networks",
+                                                                    "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
+                                                      },
+                                                      {
+                                                                    "en": "meet people from different backgrounds",
+                                                                    "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
+                                                      },
+                                                      {
+                                                                    "en": "different backgrounds, age groups, and professions",
+                                                                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                                                      },
+                                                      {
+                                                                    "en": "build friendships and lasting connections",
+                                                                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                                                      },
+                                                      {
+                                                                    "en": "establishing useful relationships",
+                                                                    "vi": "tạo thêm các mối quan hệ hữu ích"
+                                                      },
+                                                      {
+                                                                    "en": "benefit future study and work",
+                                                                    "vi": "hỗ trợ cho học tập và công việc sau này"
+                                                      }
+                                        ],
+                                        "evidence_collocations": [
+                                                      [
+                                                                    {
+                                                                                  "en": "meet people from different backgrounds",
+                                                                                  "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
+                                                                    },
+                                                                    {
+                                                                                  "en": "different backgrounds, age groups, and professions",
+                                                                                  "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "build friendships and lasting connections",
+                                                                                  "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                                                                    },
+                                                                    {
+                                                                                  "en": "collaborating on charity projects",
+                                                                                  "vi": "cùng nhau thực hiện các dự án từ thiện"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "establishing useful relationships",
+                                                                                  "vi": "tạo thêm các mối quan hệ hữu ích"
+                                                                    },
+                                                                    {
+                                                                                  "en": "benefit future study and work",
+                                                                                  "vi": "hỗ trợ cho học tập và công việc sau này"
+                                                                    }
+                                                      ]
+                                        ]
+                          },
+                          {
+                                        "title": "LỢI ÍCH 03: Cải thiện sức khỏe tinh thần (Improving Mental Well-being)",
+                                        "point_vi": "Các hoạt động công ích mang lại những lợi ích to lớn cho sức khỏe tinh thần của người tham gia.",
+                                        "point_en": "Voluntary activities contribute substantially to improving participants' mental well-being.",
+                                        "point_collocations": [
+                                                      {
+                                                                    "en": "voluntary activities",
+                                                                    "vi": "các hoạt động công ích, tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "contribute substantially to",
+                                                                    "vi": "mang lại những lợi ích to lớn cho"
+                                                      },
+                                                      {
+                                                                    "en": "improving participants' mental well-being",
+                                                                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
+                                                      }
+                                        ],
+                                        "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, việc tham gia vào các hoạt động tập thể ý nghĩa cho phép họ tạm gác lại những căng thẳng thường nhật. Do đó, những trải nghiệm này giúp giải tỏa áp lực hiệu quả và giảm bớt cảm giác cô đơn.",
+                                        "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful collective activities allows them to set aside daily pressures. Consequently, these experiences help relieve stress effectively and alleviate feelings of loneliness.",
+                                        "collocations": [
+                                                      {
+                                                                    "en": "voluntary activities",
+                                                                    "vi": "các hoạt động công ích, tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "improving participants' mental well-being",
+                                                                    "vi": "cải thiện sức khỏe tinh thần của người tham gia"
+                                                      },
+                                                      {
+                                                                    "en": "profound sense of happiness and satisfaction",
+                                                                    "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
+                                                      },
+                                                      {
+                                                                    "en": "find greater meaning and purpose in life",
+                                                                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                                                      },
+                                                      {
+                                                                    "en": "meaningful activities",
+                                                                    "vi": "các hoạt động ý nghĩa"
+                                                      },
+                                                      {
+                                                                    "en": "relieve stress effectively",
+                                                                    "vi": "giải tỏa căng thẳng hiệu quả"
+                                                      },
+                                                      {
+                                                                    "en": "alleviate feelings of loneliness",
+                                                                    "vi": "giảm bớt cảm giác cô đơn"
+                                                      }
+                                        ],
+                                        "evidence_collocations": [
+                                                      [
+                                                                    {
+                                                                                  "en": "profound sense of happiness and satisfaction",
+                                                                                  "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
+                                                                    },
+                                                                    {
+                                                                                  "en": "find greater meaning and purpose in life",
+                                                                                  "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "taking part in meaningful activities",
+                                                                                  "vi": "tham gia các hoạt động ý nghĩa"
+                                                                    },
+                                                                    {
+                                                                                  "en": "set aside daily pressures",
+                                                                                  "vi": "tạm gác lại áp lực thường nhật"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "relieve stress effectively",
+                                                                                  "vi": "giải tỏa căng thẳng hiệu quả"
+                                                                    },
+                                                                    {
+                                                                                  "en": "alleviate feelings of loneliness",
+                                                                                  "vi": "giảm bớt cảm giác cô đơn"
+                                                                    }
+                                                      ]
+                                        ]
+                          },
+                          {
+                                        "title": "LỢI ÍCH 04: Hình thành tinh thần trách nhiệm (Developing a Sense of Responsibility)",
+                                        "point_vi": "Tham gia tình nguyện giúp tôi luyện và hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng.",
+                                        "point_en": "Participating in community service fosters a strong sense of civic responsibility.",
+                                        "point_collocations": [
+                                                      {
+                                                                    "en": "participating in community service",
+                                                                    "vi": "tham gia tình nguyện công tác cộng đồng"
+                                                      },
+                                                      {
+                                                                    "en": "fosters a strong sense of civic responsibility",
+                                                                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
+                                                      }
+                                        ],
+                                        "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao khi hoạt động trong môi trường tập thể. Bên cạnh đó, việc tiếp xúc thực tế giúp họ thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
+                                        "evidence_en": "Participants learn to take responsibility for assigned tasks when working in a team environment. In addition, firsthand exposure helps them understand the challenges faced by disadvantaged groups more deeply. As a result, they become willing to contribute proactively and support the community whenever needed.",
+                                        "collocations": [
+                                                      {
+                                                                    "en": "participating in community service",
+                                                                    "vi": "tham gia công tác cộng đồng"
+                                                      },
+                                                      {
+                                                                    "en": "fosters a strong sense of civic responsibility",
+                                                                    "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
+                                                      },
+                                                      {
+                                                                    "en": "take responsibility for assigned tasks",
+                                                                    "vi": "chịu trách nhiệm với công việc được giao"
+                                                      },
+                                                      {
+                                                                    "en": "understand challenges faced by disadvantaged groups",
+                                                                    "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
+                                                      },
+                                                      {
+                                                                    "en": "contribute proactively",
+                                                                    "vi": "chủ động đóng góp"
+                                                      },
+                                                      {
+                                                                    "en": "support the community whenever needed",
+                                                                    "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                                                      }
+                                        ],
+                                        "evidence_collocations": [
+                                                      [
+                                                                    {
+                                                                                  "en": "take responsibility for assigned tasks",
+                                                                                  "vi": "chịu trách nhiệm với công việc được giao"
+                                                                    },
+                                                                    {
+                                                                                  "en": "take responsibility",
+                                                                                  "vi": "chịu trách nhiệm"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "understand challenges faced by disadvantaged groups",
+                                                                                  "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
+                                                                    },
+                                                                    {
+                                                                                  "en": "disadvantaged groups",
+                                                                                  "vi": "các nhóm yếu thế"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "contribute proactively",
+                                                                                  "vi": "chủ động đóng góp"
+                                                                    },
+                                                                    {
+                                                                                  "en": "support the community whenever needed",
+                                                                                  "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                                                                    }
+                                                      ]
+                                        ]
+                          },
+                          {
+                                        "title": "LỢI ÍCH 05: Tạo tác động tích cực đến cộng đồng (Making a Positive Impact on the Community)",
+                                        "point_vi": "Các chương trình tình nguyện tạo ra những tác động tích cực và lâu dài đối với đời sống cộng đồng.",
+                                        "point_en": "Volunteer initiatives generate profound and lasting positive impacts on community life.",
+                                        "point_collocations": [
+                                                      {
+                                                                    "en": "volunteer initiatives",
+                                                                    "vi": "các chương trình, sáng kiến tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "generate profound and lasting positive impacts",
+                                                                    "vi": "tạo ra những tác động tích cực sâu sắc và lâu dài"
+                                                      },
+                                                      {
+                                                                    "en": "community life",
+                                                                    "vi": "đời sống cộng đồng"
+                                                      }
+                                        ],
+                                        "evidence_vi": "Các hoạt động này trực tiếp hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần khôi phục cảnh quan công cộng. Kết quả là, những nỗ lực chung này trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
+                                        "evidence_en": "These initiatives directly provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns helps restore public spaces. Consequently, these collective efforts directly improve living conditions and build a better community.",
+                                        "collocations": [
+                                                      {
+                                                                    "en": "volunteer initiatives",
+                                                                    "vi": "các chương trình tình nguyện"
+                                                      },
+                                                      {
+                                                                    "en": "generate lasting positive impacts",
+                                                                    "vi": "tạo ra những tác động tích cực lâu dài"
+                                                      },
+                                                      {
+                                                                    "en": "provide essential supplies and educational support",
+                                                                    "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                                                      },
+                                                      {
+                                                                    "en": "disadvantaged people",
+                                                                    "vi": "người có hoàn cảnh khó khăn"
+                                                      },
+                                                      {
+                                                                    "en": "environmental activities",
+                                                                    "vi": "các hoạt động môi trường"
+                                                      },
+                                                      {
+                                                                    "en": "tree planting and clean-up campaigns",
+                                                                    "vi": "chiến dịch trồng cây và dọn rác"
+                                                      },
+                                                      {
+                                                                    "en": "improve living conditions",
+                                                                    "vi": "cải thiện điều kiện sống"
+                                                      },
+                                                      {
+                                                                    "en": "build a better community",
+                                                                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                                                      }
+                                        ],
+                                        "evidence_collocations": [
+                                                      [
+                                                                    {
+                                                                                  "en": "provide essential supplies and educational support",
+                                                                                  "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                                                                    },
+                                                                    {
+                                                                                  "en": "disadvantaged people",
+                                                                                  "vi": "người có hoàn cảnh khó khăn"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "participating in environmental activities",
+                                                                                  "vi": "tham gia các hoạt động môi trường"
+                                                                    },
+                                                                    {
+                                                                                  "en": "tree planting and clean-up campaigns",
+                                                                                  "vi": "chiến dịch trồng cây và dọn rác"
+                                                                    }
+                                                      ],
+                                                      [
+                                                                    {
+                                                                                  "en": "directly improve living conditions",
+                                                                                  "vi": "trực tiếp cải thiện điều kiện sống"
+                                                                    },
+                                                                    {
+                                                                                  "en": "build a better community",
+                                                                                  "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                                                                    }
+                                                      ]
+                                        ]
+                          }
             ],
             "drawbacks": []
           },
-          "sample_b2": "In recent years, <strong>doing unpaid community service</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>community service enables participants to develop essential practical skills.</em></strong> They have valuable opportunities to improve communication skills when interacting with people from different backgrounds. Furthermore, participants cultivate teamwork and effective cooperation while strengthening problem-solving skills in unexpected situations. These capabilities prepare individuals thoroughly for future academic and professional endeavors.\n\nAnother positive aspect is that <strong><em>engaging in volunteer work allows individuals to significantly expand their social networks.</em></strong> Participants meet people from diverse age groups, professions, and walks of life, thereby building meaningful friendships and lasting connections. In addition, establishing these supportive relationships creates a reliable network that can assist them throughout their studies and future careers.\n\nA further advantage to consider is that <strong><em>participating in community service fosters a strong sense of civic responsibility.</em></strong> Volunteers learn to take ownership of assigned tasks and gain deeper insight into the challenges confronted by disadvantaged groups. As a result, they develop profound empathy and become proactive citizens who consistently support their communities whenever needed.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several notable advantages. These benefits can have a positive influence on individuals and society in various ways. Overall, its positive contributions highlight the importance of <strong>doing unpaid community service</strong> in modern life.",
-          "translation_b2": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.</em></strong> Họ có cơ hội quý giá để cải thiện kỹ năng giao tiếp khi tương tác với những người có hoàn cảnh khác nhau. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả, đồng thời nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ. Những năng lực này chuẩn bị kỹ lưỡng cho các nỗ lực học tập và nghề nghiệp tương lai.\n\nMột khía cạnh tích cực khác là <strong><em>tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách đáng kể.</em></strong> Người tham gia được gặp gỡ những người từ nhiều lứa tuổi, nghề nghiệp và tầng lớp khác nhau, từ đó xây dựng tình bạn ý nghĩa và sự gắn kết lâu dài. Ngoài ra, việc thiết lập các mối quan hệ hỗ trợ này tạo nên một mạng lưới đáng tin cậy giúp ích cho học tập và sự nghiệp sau này.\n\nMột lợi thế nữa cần xem xét là <strong><em>tham gia hoạt động cộng đồng giúp nuôi dưỡng ý thức trách nhiệm công dân mạnh mẽ.</em></strong> Tình nguyện viên học cách chịu trách nhiệm với công việc được giao và hiểu sâu sắc hơn về những khó khăn mà các nhóm yếu thế phải đối mặt. Nhờ đó, họ phát triển lòng thấu cảm sâu sắc và trở thành những công dân chủ động, luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi thế đáng chú ý. Những lợi ích này có thể tạo ra ảnh hưởng tích cực đến cá nhân và xã hội theo nhiều cách khác nhau. Nhìn chung, những đóng góp tích cực của nó nêu bật tầm quan trọng của <strong>việc tham gia hoạt động cộng đồng không lương</strong> trong cuộc sống hiện đại.",
+          "sample_b2": "In recent years, <strong>doing unpaid community service</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>community service enables participants to develop essential practical skills.</em></strong> They have valuable opportunities to improve communication skills when interacting with people from different backgrounds. Furthermore, participants cultivate teamwork and effective cooperation while strengthening problem-solving skills in unexpected situations. These capabilities prepare individuals thoroughly for future academic and professional endeavors.\n\nAnother positive aspect is that <strong><em>engaging in volunteer work allows individuals to significantly expand their social networks.</em></strong> Participants meet people from diverse age groups, professions, and walks of life, thereby building meaningful friendships and lasting connections. In addition, establishing these supportive relationships creates a reliable network that can assist them throughout their studies and future careers. Therefore, maintaining these valuable ties provides long-term personal support and opens up broader opportunities in their adult lives.\n\nA further advantage to consider is that <strong><em>participating in community service fosters a strong sense of civic responsibility.</em></strong> Volunteers learn to take ownership of assigned tasks and gain deeper insight into the challenges confronted by disadvantaged groups. As a result, they develop profound empathy and become proactive citizens who consistently support their communities whenever needed. Consequently, their continued dedication helps nurture a more compassionate, united, and resilient society for future generations.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several notable advantages. These benefits can have a positive influence on individuals and society in various ways. Overall, its positive contributions highlight the importance of <strong>doing unpaid community service</strong> in modern life.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>làm công tác cộng đồng giúp người tham gia phát triển các kỹ năng thực tế thiết yếu.</em></strong> Họ có cơ hội quý giá để cải thiện kỹ năng giao tiếp khi tương tác với những người có hoàn cảnh khác nhau. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả, đồng thời nâng cao kỹ năng giải quyết vấn đề khi gặp tình huống bất ngờ. Những năng lực này chuẩn bị kỹ lưỡng cho các nỗ lực học tập và nghề nghiệp tương lai.\n\nMột khía cạnh tích cực khác là <strong><em>tham gia hoạt động tình nguyện giúp mỗi cá nhân mở rộng mạng lưới quan hệ xã hội một cách đáng kể.</em></strong> Người tham gia được gặp gỡ những người từ nhiều lứa tuổi, nghề nghiệp và tầng lớp khác nhau, từ đó xây dựng tình bạn ý nghĩa và sự gắn kết lâu dài. Ngoài ra, việc thiết lập các mối quan hệ hỗ trợ này tạo nên một mạng lưới đáng tin cậy giúp ích cho học tập và sự nghiệp sau này. Vì vậy, việc duy trì các mối liên kết quý giá này mang lại sự hỗ trợ cá nhân lâu dài và mở ra những cơ hội rộng mở hơn trong cuộc sống trưởng thành.\n\nMột lợi thế nữa cần xem xét là <strong><em>tham gia hoạt động cộng đồng giúp nuôi dưỡng ý thức trách nhiệm công dân mạnh mẽ.</em></strong> Tình nguyện viên học cách chịu trách nhiệm với công việc được giao và hiểu sâu sắc hơn về những khó khăn mà các nhóm yếu thế phải đối mặt. Nhờ đó, họ phát triển lòng thấu cảm sâu sắc và trở thành những công dân chủ động, luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết. Do đó, sự cống hiến bền bỉ của họ góp phần nuôi dưỡng một xã hội giàu lòng nhân ái, đoàn kết và kiên cường hơn cho các thế hệ tương lai.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi thế đáng chú ý. Những lợi ích này có thể tạo ra ảnh hưởng tích cực đến cá nhân và xã hội theo nhiều cách khác nhau. Nhìn chung, những đóng góp tích cực của nó nêu bật tầm quan trọng của <strong>việc tham gia hoạt động cộng đồng không lương</strong> trong cuộc sống hiện đại.",
           "sample_b1": "In recent years, <strong>doing unpaid community service</strong> has become more common in modern society. Many people see this as a positive development for both individuals and local neighborhoods. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>community service helps people develop important practical skills.</em></strong> This is because volunteers have frequent opportunities to interact with people from diverse backgrounds. In addition, participants practice teamwork, active communication, and problem-solving in real-life situations. As a result, they become more confident and can apply these useful skills directly in their future careers.\n\nAnother positive aspect is that <strong><em>community service teaches individuals a strong sense of social responsibility.</em></strong> The main reason is that volunteers must arrive on time and complete their assigned tasks with care. Moreover, assisting disadvantaged families in the neighborhood teaches young people empathy and compassion. Consequently, they understand the value of civic duty and grow into responsible and thoughtful citizens in daily life.\n\nA further benefit is that <strong><em>community service helps participants build meaningful social connections.</em></strong> This means that volunteers can easily meet and form genuine friendships with peers sharing similar values. Furthermore, working together on local charity projects creates strong trust and mutual support among community members. Therefore, this voluntary work helps build a warmer, safer, and more united society for everyone.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several valuable benefits for both volunteers and society. These advantages enhance practical abilities, foster social responsibility, and strengthen community unity. Overall, it is a very positive development in modern life.",
           "translation_b1": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực cho cả cá nhân và các khu dân cư địa phương. <strong>Bài luận này sẽ thảo luận về những ưu điểm chính của chủ đề này.</strong>\n\nMột ưu điểm chính là <strong><em>làm công tác cộng đồng giúp mọi người phát triển những kỹ năng thực tế quan trọng.</em></strong> Điều này là vì các tình nguyện viên có nhiều cơ hội giao lưu với những người thuộc nhiều thành phần xã hội khác nhau. Ngoài ra, người tham gia rèn luyện kỹ năng làm việc nhóm, giao tiếp chủ động và giải quyết vấn đề trong các tình huống thực tế. Nhờ đó, họ trở nên tự tin hơn và có thể áp dụng trực tiếp những kỹ năng hữu ích này vào sự nghiệp tương lai.\n\nMột khía cạnh tích cực khác là <strong><em>làm công tác cộng đồng dạy mỗi cá nhân ý thức trách nhiệm xã hội cao.</em></strong> Lý do chính là tình nguyện viên phải có mặt đúng giờ và hoàn thành chu đáo những nhiệm vụ được giao. Hơn nữa, việc giúp đỡ các gia đình khó khăn trong khu phố dạy cho người trẻ lòng nhân ái và sự đồng cảm. Do đó, họ thấu hiểu giá trị của nghĩa vụ công dân và trở thành những công dân có trách nhiệm, sống chu đáo trong đời thường.\n\nMột lợi ích nữa là <strong><em>làm công tác cộng đồng giúp người tham gia xây dựng các mối quan hệ xã hội ý nghĩa.</em></strong> Điều này có nghĩa là tình nguyện viên có thể dễ dàng gặp gỡ và kết bạn chân thành với những người có cùng giá trị sống. Hơn nữa, việc cùng nhau thực hiện các dự án từ thiện tại địa phương tạo nên sự tin tưởng và hỗ trợ lẫn nhau giữa các thành viên trong khu dân cư. Vì vậy, công việc tình nguyện này giúp xây dựng một xã hội ấm áp hơn, an toàn hơn và gắn kết hơn cho tất cả mọi người.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại nhiều lợi ích quý giá cho cả tình nguyện viên và xã hội. Những ưu thế này nâng cao năng lực thực tế, bồi dưỡng trách nhiệm xã hội và thắt chặt tình đoàn kết cộng đồng. Nhìn chung, đây là một sự phát triển rất tích cực trong cuộc sống hiện đại.",
           "ideas_b1": {
