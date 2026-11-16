@@ -788,11 +788,10 @@ function startPractice(catId, topicId) {
     if (topic.approaches[0].tags) topic.tags = topic.approaches[0].tags;
     if (topic.approaches[0].paraphrases) topic.paraphrases = topic.approaches[0].paraphrases;
   }
-  const siteLevel = (typeof currentVocabLevel !== 'undefined' && currentVocabLevel === 'B1') ? 'B1' : 'B2';
-  currentOutlineLevel = siteLevel;
-  currentTransLevel = siteLevel;
-  currentVocabLevel = siteLevel;
-  currentSampleLevel = siteLevel;
+  currentOutlineLevel = 'B1';
+  currentTransLevel = 'B1';
+  currentVocabLevel = 'B1';
+  currentSampleLevel = 'B1';
   
   // Switch to Workspace view state
   switchScreen('workspace');
@@ -1319,9 +1318,9 @@ function renderStepVocab() {
     ];
   }
 
-  // Detect current site level (B1 vs B2)
-  const siteLevel = (typeof currentVocabLevel !== 'undefined' && currentVocabLevel === 'B1') ? 'B1' : 'B2';
-  currentVocabLevel = siteLevel;
+  // Site level strictly locked to B1
+  const siteLevel = 'B1';
+  currentVocabLevel = 'B1';
 
   // Level filter strictly for current site level
   const filterByLevel = (item) => {
@@ -1712,20 +1711,16 @@ function renderStepVocab() {
   `;
 }
 
-// Switch between B1 and B2 level outlines for Step 1 Translation Exercises
+// Switch outline/trans level for Step 1 & Step 2 (strictly locked to B1)
 function switchTransLevel(level) {
-  if (level !== 'B1' && level !== 'B2') {
-    level = (typeof currentTransLevel !== 'undefined' && currentTransLevel === 'B1') ? 'B1' : 'B2';
-  }
-  currentTransLevel = level;
-  currentVocabLevel = level;
+  level = 'B1';
+  currentTransLevel = 'B1';
+  currentVocabLevel = 'B1';
   
   const b1El = document.getElementById('ws-trans-level-b1');
   const b2El = document.getElementById('ws-trans-level-b2');
-  const targetEl = document.getElementById(`ws-trans-level-${level.toLowerCase()}`);
-  if (b1El) b1El.classList.remove('active');
+  if (b1El) b1El.classList.add('active');
   if (b2El) b2El.classList.remove('active');
-  if (targetEl) targetEl.classList.add('active');
   
   renderTranslationExercises();
 }
@@ -1902,11 +1897,16 @@ function hasSelectableIdeas(topic) {
     details = topic.approaches[0].details;
   }
   if (!details) return false;
-  const ideas = details.ideas_b1 || details.ideas_b2;
-  if (!ideas) return false;
-  const bCount = (ideas.benefits || ideas.causes || ideas.reasons || ideas.views || ideas.factors || []).length;
-  const dCount = (ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || []).length;
-  return bCount > 3 || dCount > 3;
+  const getCounts = (obj) => {
+    if (!obj) return { b: 0, d: 0 };
+    return {
+      b: (obj.benefits || obj.causes || obj.reasons || obj.views || obj.factors || []).length,
+      d: (obj.drawbacks || obj.effects || obj.solutions || obj.problems || obj.measures || []).length
+    };
+  };
+  const c1 = getCounts(details.ideas_b1);
+  const c2 = getCounts(details.ideas_b2);
+  return (c1.b > 3 || c1.d > 3 || c2.b > 3 || c2.d > 3);
 }
 
 function getSelectedIdeaIndices(topic, groupType) {
@@ -1916,7 +1916,18 @@ function getSelectedIdeaIndices(topic, groupType) {
     details = topic.approaches[0].details;
   }
   if (!details) return [];
-  const ideas = details.ideas_b1 || details.ideas_b2;
+  const getLen = (obj) => {
+    if (!obj) return 0;
+    const arr = groupType === 'benefits'
+      ? (obj.benefits || obj.causes || obj.reasons || obj.views || obj.factors || [])
+      : (obj.drawbacks || obj.effects || obj.solutions || obj.problems || obj.measures || obj[groupType] || []);
+    return arr.length;
+  };
+  let ideas = details.ideas_b1;
+  if (!ideas || (getLen(ideas) <= 3 && details.ideas_b2 && getLen(details.ideas_b2) > 3)) {
+    ideas = details.ideas_b2;
+  }
+  if (!ideas) ideas = details.ideas_b1 || details.ideas_b2;
   if (!ideas) return [];
   
   let items = [];
@@ -1992,7 +2003,16 @@ function renderIdeaSelectionComponent(topic) {
     details = topic.approaches[0].details;
   }
   if (!details) return '';
-  const b2IdeasObj = details.ideas_b1 || details.ideas_b2;
+  const getLen = (obj) => {
+    if (!obj) return 0;
+    return (obj.benefits || obj.causes || obj.reasons || obj.views || obj.factors || []).length +
+           (obj.drawbacks || obj.effects || obj.solutions || obj.problems || obj.measures || []).length;
+  };
+  let b2IdeasObj = details.ideas_b1;
+  if (!b2IdeasObj || (getLen(b2IdeasObj) <= 3 && details.ideas_b2 && getLen(details.ideas_b2) > 3)) {
+    b2IdeasObj = details.ideas_b2;
+  }
+  if (!b2IdeasObj) b2IdeasObj = details.ideas_b1 || details.ideas_b2;
   if (!b2IdeasObj) return '';
 
   const bItems = b2IdeasObj.benefits || b2IdeasObj.causes || b2IdeasObj.reasons || b2IdeasObj.views || b2IdeasObj.factors || [];
@@ -2041,7 +2061,7 @@ function renderIdeaSelectionComponent(topic) {
                     </svg>
                   </div>
                   <div class="idea-card-content">
-                    <div class="idea-card-title">${b.title || `${bLabel} 0${idx+1}`}</div>
+                    <div class="idea-card-title">${(b.title || `${bLabel} 0${idx+1}`).replace(/\s*\([A-Z\s,/-]+\)$/i, '').trim()}</div>
                     <div class="idea-card-point">${b.point_vi}</div>
                     ${b.point_en ? `<div style="font-size: 0.8rem; color: var(--accent-primary); margin-top: 0.2rem; font-style: italic;">↳ ${b.point_en}</div>` : ''}
                   </div>
@@ -2069,7 +2089,7 @@ function renderIdeaSelectionComponent(topic) {
                     </svg>
                   </div>
                   <div class="idea-card-content">
-                    <div class="idea-card-title">${d.title || `${dLabel} 0${idx+1}`}</div>
+                    <div class="idea-card-title">${(d.title || `${dLabel} 0${idx+1}`).replace(/\s*\([A-Z\s,/-]+\)$/i, '').trim()}</div>
                     <div class="idea-card-point">${d.point_vi}</div>
                     ${d.point_en ? `<div style="font-size: 0.8rem; color: var(--danger-color, #f43f5e); margin-top: 0.2rem; font-style: italic;">↳ ${d.point_en}</div>` : ''}
                   </div>
@@ -2140,7 +2160,7 @@ function adaptSentenceForB1(enStr) {
 }
 
 function buildTranslationExercises(topic, transLevel, category) {
-  const ideasObj = transLevel === 'B1' ? topic.details.ideas_b1 : topic.details.ideas_b2;
+  const ideasObj = topic.details.ideas_b1 || topic.details.ideas_b2;
   if (!ideasObj) return [];
   
   const exercises = [];
@@ -4335,8 +4355,8 @@ function renderOutline() {
     return;
   }
   
-  // Get ideas based on B1 or B2 level selection
-  const ideasObj = currentOutlineLevel === 'B1' ? topic.details.ideas_b1 : topic.details.ideas_b2;
+  // Get ideas (prefer B1 on B1 site)
+  const ideasObj = topic.details.ideas_b1 || topic.details.ideas_b2;
   if (!ideasObj) return;
   
   // Set pills active states
@@ -4495,11 +4515,11 @@ function toggleAccordion(id) {
   }
 }
 
-// Switch outline level (B1 vs B2)
+// Switch outline level (locked to B1)
 function switchOutlineLevel(level) {
-  level = 'B2';
-  currentOutlineLevel = level;
-  currentVocabLevel = level;
+  level = 'B1';
+  currentOutlineLevel = 'B1';
+  currentVocabLevel = 'B1';
   renderOutline();
 }
 
@@ -5629,7 +5649,7 @@ function submitEssay() {
   } else if (words < 230) {
     wordCountCapTriggered = true;
     wordCountCapLimit = 5.0;
-    wordCountCapReason = `Bài viết có ${words} từ (chưa đạt chuẩn tối thiểu 250 từ của VSTEP Task 2). Mặc dù các đoạn văn có thể được tổ chức tốt, dung lượng 200-229 từ chưa đủ sâu để đạt trình độ B2. Do đó, điểm số tổng thể được giới hạn tối đa ở trình độ B1 (tối đa 5.0).`;
+    wordCountCapReason = `Bài viết có ${words} từ (chưa đạt chuẩn tối thiểu 250 từ của VSTEP Task 2). Mặc dù các đoạn văn có thể được tổ chức tốt, dung lượng 200-229 từ chưa đủ sâu để phát triển trọn vẹn luận điểm. Do đó, điểm số tổng thể được giới hạn tối đa ở trình độ B1 (tối đa 5.0).`;
   } else if (words < 250) {
     wordCountCapTriggered = true;
     wordCountCapLimit = 5.5;
@@ -5709,10 +5729,9 @@ function submitEssay() {
     const wordStatusNote = words >= 250 
       ? "đạt chuẩn dung lượng tối thiểu (≥ 250 từ)" 
       : `chưa đủ dung lượng chuẩn VSTEP (có ${words}/250 từ)`;
-    if (finalScore >= 8.5) feedbackText = `Xuất sắc! Đạt trình độ C1. Sử dụng từ vựng phong phú, bố cục chặt chẽ và ${wordStatusNote}.`;
-    else if (finalScore >= 6.0) feedbackText = `Khá tốt! Đạt trình độ B2. Bài viết mạch lạc, bố cục rõ ràng và ${wordStatusNote}.`;
-    else if (finalScore >= 4.0) feedbackText = `Đạt trình độ B1. Bài viết ${wordStatusNote}. Hãy mở rộng thêm luận cứ, ví dụ minh họa và từ nối chuyển ý.`;
-    else feedbackText = `Dưới chuẩn B1 (${words} từ). Cần viết dài hơn (tối thiểu 250 từ) và bổ sung cấu trúc, từ vựng nền tảng.`;
+    if (finalScore >= 6.0) feedbackText = `Xuất sắc! Đạt chuẩn B1 (Vượt chuẩn kỳ thi). Bài viết mạch lạc, bố cục rõ ràng và ${wordStatusNote}.`;
+    else if (finalScore >= 4.0) feedbackText = `Đạt chuẩn B1. Bài viết ${wordStatusNote}. Hãy mở rộng thêm luận cứ, ví dụ minh họa và từ nối chuyển ý.`;
+    else feedbackText = `Chưa đạt chuẩn B1 (${words} từ). Cần viết dài hơn (tối thiểu 250 từ) và bổ sung cấu trúc, từ vựng nền tảng.`;
   }
   
   document.getElementById('estimated-score').innerText = finalScore.toFixed(1);
@@ -6061,7 +6080,7 @@ function renderStep3VstepEvaluation(data) {
   rawReportText += `Vocabulary Error Summary:\nFrequency: ${totalVocabErrors}\nSeverity: ${vSum.severity}\nEffect on B1/B2 score: ${vSum.effect}\n\n`;
   rawReportText += `Collocation Error Summary:\nFrequency: ${totalCollocErrors}\nSeverity: ${cSum.severity}\nEffect on B1/B2 score: ${cSum.effect}\n\n`;
   rawReportText += `Sentence Structure Error Summary:\nFrequency: ${totalStructureErrors}\nSeverity: ${sSum.severity}\nEffect on B1/B2 score: ${sSum.effect}\n\n`;
-  rawReportText += `FINAL SCORING\n\nEvaluate using VSTEP criteria:\nTask Fulfillment: ${tfScore.toFixed(1)}/10\nOrganization: ${orgScore.toFixed(1)}/10\nVocabulary: ${vocabScore.toFixed(1)}/10\nGrammar: ${grammarScore.toFixed(1)}/10\n\nEstimated Overall Band: ${score.toFixed(1)} (${score >= 8.5 ? 'C1' : score >= 6.0 ? 'B2' : score >= 4.0 ? 'B1' : 'Dưới B1'})\n`;
+  rawReportText += `FINAL SCORING\n\nEvaluate using VSTEP criteria:\nTask Fulfillment: ${tfScore.toFixed(1)}/10\nOrganization: ${orgScore.toFixed(1)}/10\nVocabulary: ${vocabScore.toFixed(1)}/10\nGrammar: ${grammarScore.toFixed(1)}/10\n\nEstimated Overall Band: ${score.toFixed(1)} (${score >= 6.0 ? 'B1 (Vượt chuẩn)' : score >= 4.0 ? 'B1 (Đạt chuẩn)' : 'Chưa đạt B1'})\n`;
 
   let sentencesHtml = "";
   sentenceAnalysisList.forEach(item => {
@@ -6179,7 +6198,7 @@ function renderStep3VstepEvaluation(data) {
       
       <div class="score-text-summary" style="flex-grow: 1;">
         <div class="score-badge-level" style="display: inline-block; background: var(--accent-gradient); color: #fff; padding: 0.35rem 0.85rem; border-radius: 50px; font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; box-shadow: 0 4px 10px rgba(59, 130, 246, 0.25);">
-          Kết quả ước lượng: Trình độ ${score >= 8.5 ? 'C1' : score >= 6.0 ? 'B2' : score >= 4.0 ? 'B1' : 'Dưới B1'}
+          Kết quả ước lượng: Trình độ ${score >= 6.0 ? 'B1 (Vượt chuẩn)' : score >= 4.0 ? 'B1 (Đạt chuẩn)' : 'Chưa đạt B1'}
         </div>
         <p style="font-size: 1.05rem; font-weight: 600; line-height: 1.5; color: var(--text-primary); margin: 0;">${feedback}</p>
         <div style="display: flex; gap: 1rem; margin-top: 0.5rem; font-size: 0.85rem; color: var(--text-secondary);">
@@ -6971,8 +6990,8 @@ function renderSampleEssay() {
 }
 
 function switchSampleLevel(level) {
-  level = 'B2';
-  currentSampleLevel = level;
+  level = 'B1';
+  currentSampleLevel = 'B1';
   renderSampleEssay();
 }
 
@@ -7052,9 +7071,9 @@ function reviewSubmission(submissionId) {
   
   currentCategory = category;
   currentTopic = topic;
-  currentOutlineLevel = 'B2';
-  currentSampleLevel = 'B2';
-  currentTransLevel = 'B2';
+  currentOutlineLevel = 'B1';
+  currentSampleLevel = 'B1';
+  currentTransLevel = 'B1';
   
   // Switch to Workspace Screen
   switchScreen('workspace');
@@ -8115,8 +8134,8 @@ function renderStep4ModelEssay() {
     return;
   }
   
-  const essayText = currentSampleLevel === 'B1' ? topic.details.sample_b1 : topic.details.sample_b2;
-  const translationText = currentSampleLevel === 'B1' ? topic.details.translation_b1 : topic.details.translation_b2;
+  const essayText = topic.details.sample_b1 || topic.details.sample_b2;
+  const translationText = topic.details.translation_b1 || topic.details.translation_b2;
   
   const parseMarkdown = (txt) => {
     if (!txt) return '';
@@ -8147,7 +8166,7 @@ function renderStep4ModelEssay() {
   container.innerHTML = `
     <div class="essay-comparison-grid">
       <div class="essay-col">
-        <h4>BÀI LUẬN TIẾNG ANH (${currentSampleLevel})</h4>
+        <h4>BÀI LUẬN TIẾNG ANH (B1)</h4>
         <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${formattedEssay}</div>
       </div>
       <div class="essay-col">
@@ -8158,17 +8177,13 @@ function renderStep4ModelEssay() {
   `;
 }
 
-// Function to switch level in Step 4
+// Function to switch level in Step 4 (locked to B1)
 function switchModelEssayLevel(level) {
-  level = 'B2';
-  currentSampleLevel = level;
+  level = 'B1';
+  currentSampleLevel = 'B1';
   
   const pillB1 = document.getElementById('ws-model-level-b1');
-  const pillB2 = document.getElementById('ws-model-level-b2');
-  const targetPill = document.getElementById(`ws-model-level-${level.toLowerCase()}`);
-  if (pillB1) pillB1.classList.remove('active');
-  if (pillB2) pillB2.classList.remove('active');
-  if (targetPill) targetPill.classList.add('active');
+  if (pillB1) pillB1.classList.add('active');
   
   renderStep4ModelEssay();
 }
