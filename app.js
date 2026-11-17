@@ -8681,9 +8681,9 @@ function isCategoryAllowedForUser(catId) {
     return catId === 1;
   }
 
-  // Gia Tuệ / B2: Categories 1, 2, 3 are opened; Category 4 is locked
+  // Gia Tuệ / B2: all categories 1, 2, 3, 4 are opened
   if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
-    return catId === 1 || catId === 2 || catId === 3;
+    return true;
   }
 
   // Other classes (CB210, B212, etc.): all categories 1, 2, 3, 4 are opened
