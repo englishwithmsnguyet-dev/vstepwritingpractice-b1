@@ -207,7 +207,7 @@ function switchCategory(catId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (!isCategoryAllowedForUser(catId)) {
     if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
-      showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Hiện tại lớp chỉ mở DẠNG LUẬN 01!`, 'warning');
+      showToast(`🔒 Dạng luận này tạm thời chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
     } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
       showToast('🔒 Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)!', 'warning');
     } else {
@@ -765,7 +765,7 @@ function startPractice(catId, topicId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
   if (!isCategoryAllowedForUser(catId)) {
     if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
-      showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp chỉ mở DẠNG LUẬN 01!`, 'warning');
+      showToast(`🔒 Đề bài thuộc Dạng luận chưa mở cho lớp ${userClass}. Hiện tại lớp đã mở DẠNG LUẬN 01 & DẠNG LUẬN 02!`, 'warning');
     } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
       showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)!', 'warning');
     } else {
@@ -8676,9 +8676,9 @@ function isCategoryAllowedForUser(catId) {
     return true;
   }
 
-  // Classes ONB103, CB211, CB213: only Category 1 (Advantages & Disadvantages) is opened
+  // Classes ONB103, CB211, CB213: Categories 1 & 2 (Advantages & Disadvantages, Problems & Solutions) are opened
   if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
-    return catId === 1;
+    return catId === 1 || catId === 2;
   }
 
   // Gia Tuệ / B2: all categories 1, 2, 3, 4 are opened
@@ -8706,7 +8706,7 @@ function updateClassAccessUI() {
       link.classList.add('is-locked');
       let lockMsg = 'Dạng luận này tạm thời chưa mở';
       if (['ONB103', 'CB211', 'CB213'].includes(userClass)) {
-        lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp chỉ mở DẠNG LUẬN 01)`;
+        lockMsg = `Dạng luận này tạm thời chưa mở cho lớp ${userClass} (Hiện tại lớp đã mở DẠNG LUẬN 01 & 02)`;
       } else if (userClass === 'B2' || (typeof checkIsGiaTue === 'function' && checkIsGiaTue(userName))) {
         lockMsg = 'Dạng luận này tạm thời chưa mở cho Gia Tuệ (Hiện đã mở TYPE 01, TYPE 02 & TYPE 03)';
       }
