@@ -8798,9 +8798,9 @@ function isCategoryAllowedForUser(catId) {
     return true;
   }
 
-  // CB210: Categories 1, 2, 3 are opened; 4 is locked
+  // CB210: all categories 1, 2, 3, 4 are opened
   if (userClass === 'CB210') {
-    return catId === 1 || catId === 2 || catId === 3;
+    return true;
   }
 
   return true;
