@@ -60,6 +60,11 @@ let isPromptingUser = false;
 let currentEvaluationData = null;
 
 function isExamModeActive() {
+  const userName = sessionStorage.getItem('current_user_name') || '';
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
+    return false; // Teachers have zero restrictions
+  }
   return currentScreen === 'workspace' && currentStepKey === 'write' && !hasSubmitted;
 }
 
@@ -1240,7 +1245,10 @@ function switchStep(stepTarget) {
       document.getElementById('step3-evaluation-view').style.display = 'none';
       startTimer();
       document.getElementById('essay-textarea').focus();
-      showToast("🔒 PHÒNG THI ĐÃ KHÓA: Chế độ tập trung cao độ, không chuyển tab hoặc thoát cửa sổ!", "warning");
+      const isTeacher = (typeof checkIsTeacher === 'function' && checkIsTeacher(sessionStorage.getItem('current_user_name') || '', sessionStorage.getItem('current_user_class') || '', ''));
+      if (!isTeacher) {
+        showToast("🔒 PHÒNG THI ĐÃ KHÓA: Chế độ tập trung cao độ, không chuyển tab hoặc thoát cửa sổ!", "warning");
+      }
     }
   } else if (targetKey === 'model') {
     if (cModel) { cModel.classList.add('active'); cModel.style.display = 'block'; }
@@ -6734,6 +6742,11 @@ function teacherUnlockAccount() {
 }
 
 function handleCheatViolation(reason) {
+  const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
+  const studentClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  if (studentClass === 'GV' || studentClass === 'TEACHER' || studentClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(studentName, studentClass, ''))) {
+    return; // Teachers have zero restrictions
+  }
   if (!isExamModeActive() || isPromptingUser) return;
   const now = Date.now();
   if (now - lastCheatAlertTime < 2500) return; // Debounce alerts
@@ -6746,8 +6759,6 @@ function handleCheatViolation(reason) {
   }
 
   // Report violation 1 & 2 immediately to Google Forms (violation 3 is reported by lockCurrentAccount)
-  const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
-  const studentClass = sessionStorage.getItem('current_user_class') || '';
   const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
   const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
   const reasonText = formatCheatReasonText(reason);
@@ -8632,7 +8643,7 @@ function checkIsTeacher(nameInput, classInput, passInput) {
     'ptmn', 'co nguyet', 'miss nguyet', 'pham thi minh nguyet',
     'nguyet pham', 'giao vien', 'teacher', 'admin', 'gv'
   ];
-  const teacherPasswords = ['PTMN', 'GVPTMN', 'COMINHNGUYET', 'PTMN2896', 'PTMN2412', 'PTMN2805'];
+  const teacherPasswords = ['PTMN', 'GVPTMN', 'COMINHNGUYET', 'MISSNGUYET', 'PTMN2896', 'PTMN2412', 'PTMN2805', 'GV', 'TEACHER', 'ADMIN'];
 
   if (teacherKeywords.includes(noTone) || normName.includes('nguyệt') || normName.includes('nguyet')) return true;
   if (upClass === 'GV' || upClass === 'TEACHER' || upClass === 'ADMIN') return true;
@@ -8867,7 +8878,7 @@ function isCategoryAllowedForUser(catId) {
   const userName = sessionStorage.getItem('current_user_name') || '';
 
   // Teachers always have access to all categories
-  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
     return true;
   }
 
@@ -8900,7 +8911,7 @@ function isTopicAllowedForUser(catId, topicId, topic) {
   const userName = sessionStorage.getItem('current_user_name') || '';
 
   // Teachers always have access to all topics
-  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
     return true;
   }
 
@@ -8946,7 +8957,7 @@ function isStepAllowedForUser(stepKey, catId, topicId, topic) {
   const userName = sessionStorage.getItem('current_user_name') || '';
 
   // Teachers always have access to all steps
-  if (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, '')) {
+  if (userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' || (typeof checkIsTeacher === 'function' && checkIsTeacher(userName, userClass, ''))) {
     return true;
   }
 
