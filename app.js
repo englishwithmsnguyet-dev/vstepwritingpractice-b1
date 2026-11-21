@@ -6878,32 +6878,13 @@ function renderStep3VstepEvaluation(data) {
       </button>
     </div>
   `;
-  if (window.VstepAIGrader && container) {
-    const _p = (typeof currentTopic !== 'undefined' && currentTopic) ? (currentTopic.context ? (currentTopic.context + '\n\n' + (currentTopic.prompt || '')) : (currentTopic.prompt || currentTopic.title_en || '')) : '';
-    window.VstepAIGrader.mountSingle(container, {
-      taskType: 'task2',
-      targetLevel: 'B1',
-      prompt: _p,
-      essay: text || '',
-      onGraded: function(aiData) {
-        updateStudentResultReportCard(aiData);
-      },
-      onError: function() {
-        if (currentEvaluationData && currentEvaluationData._reportMeta) {
-          currentEvaluationData._reportMeta.scoreSource = 'system';
-          const cardEl = document.getElementById('student-result-report-card');
-          if (cardEl) cardEl.innerHTML = buildStudentResultReportCardHtml(currentEvaluationData._reportMeta);
-        }
-      }
-    });
-  }
-
-  // Render Screenshot-ready Student Result Report Card at the VERY TOP of Result Screen
+  // Build Student Result Report Metadata BEFORE mounting AI Grader so cached AI results sync immediately
+  let reportMeta = null;
   if (container) {
     const elapsedSec = Math.max(writingElapsedSeconds || 0, Math.max(0, 40 * 60 - (timerSeconds || 0)));
     const nowDt = new Date();
     const submittedAtVi = nowDt.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }) + ' • ' + nowDt.toLocaleDateString('vi-VN');
-    const reportMeta = {
+    reportMeta = {
       studentName: sessionStorage.getItem('current_user_name') || 'Học viên',
       studentClass: sessionStorage.getItem('current_user_class') || 'Chưa xác định',
       topicTitle: currentTopic ? (`Đề ${currentTopic.id}: ${currentTopic.title_en}` + (currentTopic.title_vi ? ` (${currentTopic.title_vi})` : '')) : 'VSTEP Writing Task 2',
@@ -6915,13 +6896,54 @@ function renderStep3VstepEvaluation(data) {
       cheatTabSwitches: cheatTabSwitchCount || 0,
       cheatPastes: cheatPasteCount || 0,
       score: score,
+      tfScore: tfScore,
+      orgScore: orgScore,
+      vocabScore: vocabScore,
+      grammarScore: grammarScore,
       scoreSource: (window.VstepAIGrader ? 'syncing' : 'system'),
       targetLevel: 'B1',
       passThreshold: 4.0,
-      superficialCheck: data.superficialCheck || null
+      superficialCheck: data.superficialCheck || null,
+      _formReportSent: false,
+      _formFallbackTimer: null
     };
     currentEvaluationData._reportMeta = reportMeta;
+  }
 
+  if (window.VstepAIGrader && container) {
+    const _p = (typeof currentTopic !== 'undefined' && currentTopic) ? (currentTopic.context ? (currentTopic.context + '\n\n' + (currentTopic.prompt || '')) : (currentTopic.prompt || currentTopic.title_en || '')) : '';
+    // Safety fallback: if AI takes > 15s, still send system result to Google Form so no report is ever missed
+    if (reportMeta) {
+      reportMeta._formFallbackTimer = setTimeout(() => {
+        if (reportMeta && !reportMeta._formReportSent) {
+          sendEssayResultToGoogleForm(reportMeta, null);
+        }
+      }, 15000);
+    }
+    window.VstepAIGrader.mountSingle(container, {
+      taskType: 'task2',
+      targetLevel: 'B1',
+      prompt: _p,
+      essay: text || '',
+      onGraded: function(aiData) {
+        updateStudentResultReportCard(aiData);
+        if (reportMeta) sendEssayResultToGoogleForm(reportMeta, aiData);
+      },
+      onError: function() {
+        if (currentEvaluationData && currentEvaluationData._reportMeta) {
+          currentEvaluationData._reportMeta.scoreSource = 'system';
+          const cardEl = document.getElementById('student-result-report-card');
+          if (cardEl) cardEl.innerHTML = buildStudentResultReportCardHtml(currentEvaluationData._reportMeta);
+        }
+        if (reportMeta) sendEssayResultToGoogleForm(reportMeta, null);
+      }
+    });
+  } else if (reportMeta) {
+    sendEssayResultToGoogleForm(reportMeta, null);
+  }
+
+  // Render Screenshot-ready Student Result Report Card at the VERY TOP of Result Screen
+  if (container && reportMeta) {
     const existingCard = document.getElementById('student-result-report-card');
     if (existingCard) existingCard.remove();
     const reportCardEl = document.createElement('div');
@@ -6930,6 +6952,82 @@ function renderStep3VstepEvaluation(data) {
     container.prepend(reportCardEl);
   }
 }
+
+function sendEssayResultToGoogleForm(meta, aiData = null, useBeacon = false) {
+  if (!meta || meta._formReportSent) return;
+  meta._formReportSent = true;
+  if (meta._formFallbackTimer) {
+    clearTimeout(meta._formFallbackTimer);
+    meta._formFallbackTimer = null;
+  }
+
+  const lvl = meta.targetLevel || 'B1';
+  const threshold = Number(meta.passThreshold || (lvl === 'B2' ? 6.0 : 4.0));
+  const words = Number(meta.wordCount || 0);
+  const minRequiredWords = (lvl === 'B2') ? 220 : 200;
+  const isLengthOk = words >= minRequiredWords;
+
+  const finalScore = (aiData && typeof aiData.overallScore !== 'undefined' && !isNaN(Number(aiData.overallScore)))
+    ? Number(aiData.overallScore)
+    : Number(meta.score || 0);
+  const scoreLabel = (aiData && typeof aiData.overallScore !== 'undefined') ? 'AI VSTEP' : 'Hệ thống';
+
+  let tf = meta.tfScore, org = meta.orgScore, voc = meta.vocabScore, gra = meta.grammarScore;
+  if (aiData && aiData.criteria) {
+    const c = aiData.criteria;
+    if (c.taskFulfillment && typeof c.taskFulfillment.score !== 'undefined') tf = Number(c.taskFulfillment.score);
+    if (c.organization && typeof c.organization.score !== 'undefined') org = Number(c.organization.score);
+    if (c.vocabulary && typeof c.vocabulary.score !== 'undefined') voc = Number(c.vocabulary.score);
+    if (c.grammar && typeof c.grammar.score !== 'undefined') gra = Number(c.grammar.score);
+  }
+  const criteriaStr = (typeof tf === 'number' && !isNaN(tf))
+    ? ` (TF:${tf.toFixed(1)} ORG:${Number(org || 0).toFixed(1)} VOC:${Number(voc || 0).toFixed(1)} GRA:${Number(gra || 0).toFixed(1)})`
+    : '';
+
+  const isPassed = (finalScore >= threshold) && isLengthOk;
+  let verdictStr = '';
+  if (isPassed) {
+    verdictStr = `ĐẠT ${lvl}`;
+  } else if (!isLengthOk) {
+    verdictStr = `CHƯA ĐẠT (Thiếu từ: ${words}/250)`;
+  } else {
+    verdictStr = `KHÔNG ĐẠT ${lvl}`;
+  }
+
+  const durationText = formatWritingDurationVi(meta.elapsedSeconds);
+  const overtimeTag = (meta.elapsedSeconds || 0) > 40 * 60 ? ' [Quá 40 phút]' : '';
+
+  let cheatStr = 'Làm bài trung thực (0 lần chuyển tab)';
+  if ((meta.cheatTotal || 0) > 0) {
+    const tCnt = meta.cheatTabSwitches || 0;
+    const pCnt = meta.cheatPastes || 0;
+    if (tCnt > 0 && pCnt > 0) {
+      cheatStr = `Chuyển tab ${tCnt} lần + Cố dán ${pCnt} lần (Tổng ${meta.cheatTotal})`;
+    } else if (tCnt > 0) {
+      cheatStr = `Chuyển tab ${tCnt} lần`;
+    } else {
+      cheatStr = `Vi phạm ${meta.cheatTotal} lần`;
+    }
+  }
+
+  const superficialStr = (meta.superficialCheck && meta.superficialCheck.flagged)
+    ? `CẢNH BÁO LÀM BÀI ĐỐI PHÓ (${(meta.superficialCheck.reasons || []).join('; ')})`
+    : 'Không';
+
+  const isTeacher = typeof checkIsTeacher === 'function' && checkIsTeacher(meta.studentName || '', meta.studentClass || '', '');
+  const prefix = isTeacher ? '[GIÁO VIÊN TEST] ' : '';
+
+  const msg = `${prefix}[KẾT QUẢ BÀI VIẾT ${lvl}] ${meta.studentName} | Lớp: ${meta.studentClass} | ${meta.topicTitle} | Thời gian viết: ${durationText}${overtimeTag} | Số từ: ${words} từ | Điểm: ${finalScore.toFixed(1)}/10 [${scoreLabel}]${criteriaStr} | Kết quả: ${verdictStr} | Gian lận: ${cheatStr} | Đối phó: ${superficialStr}`;
+
+  sendTrackingReport(msg, useBeacon);
+}
+
+// Flush pending result report if student closes the tab before AI finishes grading
+window.addEventListener('pagehide', () => {
+  if (currentEvaluationData && currentEvaluationData._reportMeta && !currentEvaluationData._reportMeta._formReportSent) {
+    sendEssayResultToGoogleForm(currentEvaluationData._reportMeta, null, true);
+  }
+});
 
 function formatWritingDurationVi(totalSeconds) {
   const sec = Math.max(0, Math.round(totalSeconds || 0));
@@ -7153,12 +7251,24 @@ const TRACKING_FORM_ENTRY = 'entry.1205151935';
  * Send attendance, login, anti-cheat, or lock/unlock event to Google Forms.
  * Uses no-cors POST so tracking fails silently without blocking the UI.
  */
-function sendTrackingReport(message) {
+function sendTrackingReport(message, useBeacon = false) {
   try {
     if (!message) return;
+    if (useBeacon && typeof navigator !== 'undefined' && navigator.sendBeacon) {
+      const params = new URLSearchParams();
+      params.append(TRACKING_FORM_ENTRY, message);
+      if (navigator.sendBeacon(TRACKING_FORM_URL, params)) {
+        return;
+      }
+    }
     const formData = new FormData();
     formData.append(TRACKING_FORM_ENTRY, message);
-    fetch(TRACKING_FORM_URL, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+    fetch(TRACKING_FORM_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      keepalive: Boolean(useBeacon),
+      body: formData
+    }).catch(() => {});
   } catch (err) {}
 }
 
