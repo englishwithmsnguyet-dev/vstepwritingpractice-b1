@@ -13,7 +13,7 @@
   'use strict';
 
   // Dán link Google Apps Script Web App sau khi deploy (dạng https://script.google.com/macros/s/.../exec)
-  const DEFAULT_CB210_STREAK_API_URL = '';
+  const DEFAULT_CB210_STREAK_API_URL = 'https://script.google.com/macros/s/AKfycbz735OePTK8ODIO_XFwznnRe1Ngy1RYdx56wmUdHYoSSub6Qzt2kX6WYKf7tIKlS-nY/exec';
   const TEACHER_ADMIN_KEY = 'PTMN_VSTEP_2026';
   const LS_URL_OVERRIDE_KEY = 'vstep_cb210_streak_api_url_override';
   const LS_CACHE_PREFIX = 'vstep_cb210_streak_cache_';
@@ -196,8 +196,8 @@
             <div class="cb210-admin-header">
               <div class="cb210-admin-icon"><i class="fa-solid fa-shield-halved"></i></div>
               <div>
-                <h3>QUẢN LÝ CHỈ TIÊU VIẾT LUẬN HẰNG NGÀY — LỚP CB210</h3>
-                <p>Mỗi ngày tối thiểu 1 bài luận hoàn chỉnh (đồng bộ cả 2 web B1 & B2). Tự động khóa khi nghỉ và mở khóa từ xa chỉ với 1 chạm.</p>
+                <h3>QUẢN LÝ CHỈ TIÊU VIẾT LUẬN HẰNG NGÀY — LỚP CB210 (B1)</h3>
+                <p>Mỗi ngày tối thiểu 1 bài luận hoàn chỉnh trên Phòng viết B1. Tự động khóa khi nghỉ và mở khóa từ xa chỉ với 1 chạm.</p>
               </div>
             </div>
 
