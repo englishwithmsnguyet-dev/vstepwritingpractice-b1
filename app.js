@@ -2228,7 +2228,7 @@ function getSelectedIdeaIndices(topic, groupType) {
   }
   const catId = (currentCategory && currentCategory.id) || 1;
   const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
-  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`;
+  const storageKey = `idea_sel_b1v3_${catId}_${topic.id}_${groupType}${apprSuffix}`;
   try {
     const raw = localStorage.getItem(storageKey);
     if (raw) {
@@ -2239,12 +2239,8 @@ function getSelectedIdeaIndices(topic, groupType) {
     }
   } catch (e) {}
 
-  // Default selection if not yet set
-  const dItems = ideas.drawbacks || ideas.effects || ideas.solutions || ideas.problems || ideas.measures || [];
-  if (groupType === 'benefits' && dItems.length === 0) {
-    return [0, 1, 2].slice(0, total);
-  }
-  return [0, 1].slice(0, total);
+  // Default selection on B1: always pre-select 3 ideas (students can swap freely)
+  return [0, 1, 2].slice(0, total);
 }
 
 function toggleIdeaSelection(groupType, index) {
@@ -2254,21 +2250,21 @@ function toggleIdeaSelection(groupType, index) {
   const exists = currentSelected.includes(index);
   let updated = [];
   if (exists) {
-    if (currentSelected.length <= 2) {
-      showToast("Bạn nên chọn ít nhất 2 gợi ý để phát triển thân bài nhé!", "warning");
+    if (currentSelected.length <= 1) {
+      showToast("Bạn cần giữ ít nhất 1 gợi ý rồi chọn thêm cho đủ 3 gợi ý nhé!", "warning");
       return;
     }
     updated = currentSelected.filter(i => i !== index);
   } else {
     if (currentSelected.length >= 3) {
-      showToast("Khuyên chọn tối đa 3 gợi ý để bài viết có chiều sâu theo chuẩn VSTEP nhé!", "warning");
+      showToast("Mỗi phần chọn tối đa 3 gợi ý! Hãy bỏ tick 1 ý trước nếu bạn muốn đổi sang ý này nhé.", "warning");
       return;
     }
     updated = [...currentSelected, index].sort((a, b) => a - b);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
   const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
-  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`, JSON.stringify(updated));
+  localStorage.setItem(`idea_sel_b1v3_${catId}_${topic.id}_${groupType}${apprSuffix}`, JSON.stringify(updated));
 
   // Re-render UI components
   if (currentStepKey === 'read') {
@@ -2370,7 +2366,7 @@ function renderIdeaSelectionComponent(topic) {
             <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 GỢI Ý</span>
           </div>
           <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
-            Học viên tự do tick chọn các gợi ý mình tự tin nhất (chọn <strong>2 hoặc 3 gợi ý</strong>). Dàn ý tóm tắt và bài tập diễn đạt (luyện dịch câu) bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
+            Học viên được chọn sẵn <strong>3 gợi ý</strong> (và có thể tự do bỏ tick để đổi sang 3 ý mình tự tin nhất). Dàn ý tóm tắt và bài tập diễn đạt (luyện dịch câu) bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
           </p>
         </div>
       </div>
