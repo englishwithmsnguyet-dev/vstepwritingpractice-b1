@@ -2241,7 +2241,8 @@ function getSelectedIdeaIndices(topic, groupType) {
     return items.map((_, i) => i);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
-  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}`;
+  const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
+  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`;
   try {
     const raw = localStorage.getItem(storageKey);
     if (raw) {
@@ -2280,7 +2281,8 @@ function toggleIdeaSelection(groupType, index) {
     updated = [...currentSelected, index].sort((a, b) => a - b);
   }
   const catId = (currentCategory && currentCategory.id) || 1;
-  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}`, JSON.stringify(updated));
+  const apprSuffix = (topic.approaches && topic.approaches.length > 0) ? `_appr${currentApproachIndex}` : '';
+  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}${apprSuffix}`, JSON.stringify(updated));
 
   // Re-render UI components
   if (currentStepKey === 'read') {
@@ -2300,13 +2302,14 @@ function renderIdeaSelectionComponent(topic) {
     details = topic.approaches[0].details;
   }
   if (!details) return '';
-  const getLen = (obj) => {
+  const getMaxLen = (obj) => {
     if (!obj) return 0;
-    return (obj.benefits || obj.causes || obj.reasons || obj.views || obj.factors || []).length +
-           (obj.drawbacks || obj.effects || obj.solutions || obj.problems || obj.measures || []).length;
+    const bLen = (obj.benefits || obj.causes || obj.reasons || obj.views || obj.factors || []).length;
+    const dLen = (obj.drawbacks || obj.effects || obj.solutions || obj.problems || obj.measures || []).length;
+    return Math.max(bLen, dLen);
   };
   let b2IdeasObj = details.ideas_b1;
-  if (!b2IdeasObj || (getLen(b2IdeasObj) <= 3 && details.ideas_b2 && getLen(details.ideas_b2) > 3)) {
+  if (!b2IdeasObj || (getMaxLen(b2IdeasObj) <= 3 && details.ideas_b2 && getMaxLen(details.ideas_b2) > 3)) {
     b2IdeasObj = details.ideas_b2;
   }
   if (!b2IdeasObj) b2IdeasObj = details.ideas_b1 || details.ideas_b2;
@@ -2320,10 +2323,57 @@ function renderIdeaSelectionComponent(topic) {
   const isCausesSolutions = currentCategory && currentCategory.id === 2;
   const isOpinion = currentCategory && currentCategory.id === 3;
   const isDiscussion = currentCategory && currentCategory.id === 4;
-  let bLabel = isCausesSolutions ? "NGUYÊN NHÂN / VẤN ĐỀ" : (isOpinion ? "LÝ DO QUAN ĐIỂM" : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH"));
-  let dLabel = isCausesSolutions ? "GIẢI PHÁP / BIỆN PHÁP" : (isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ"));
-  let bIcon = isCausesSolutions ? "🔍" : (isOpinion ? "💬" : (isDiscussion ? "👥" : "✨"));
-  let dIcon = isCausesSolutions ? "💡" : (isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️"));
+
+  const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+    ? topic.approaches[currentApproachIndex]
+    : null;
+  const topicTagsLower = ((Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || ''))).toLowerCase();
+
+  let bLabel = isOpinion ? "LÝ DO QUAN ĐIỂM" : (isDiscussion ? "QUAN ĐIỂM 1" : "THUẬN LỢI / LỢI ÍCH");
+  let dLabel = isOpinion ? "LÝ DO ĐỐI LẬP" : (isDiscussion ? "QUAN ĐIỂM 2" : "BẤT LỢI / HẠN CHẾ");
+  let bIcon = isOpinion ? "💬" : (isDiscussion ? "👥" : "✨");
+  let dIcon = isOpinion ? "💭" : (isDiscussion ? "🗣️" : "⚠️");
+
+  if (isCausesSolutions) {
+    const subtype = typeof getTopicSubtypeLabel === 'function' ? getTopicSubtypeLabel(topic, 2) : '';
+    const appName = (activeApp && activeApp.name) ? activeApp.name.toUpperCase() : '';
+    if (appName.includes('TÍCH CỰC') && appName.includes('TIÊU CỰC')) {
+      bLabel = "ẢNH HƯỞNG TÍCH CỰC";
+      dLabel = "ẢNH HƯỞNG TIÊU CỰC";
+      bIcon = "✨";
+      dIcon = "⚠️";
+    } else if (appName.includes('TÍCH CỰC')) {
+      bLabel = "ẢNH HƯỞNG TÍCH CỰC";
+      bIcon = "✨";
+    } else if (appName.includes('TIÊU CỰC')) {
+      bLabel = "ẢNH HƯỞNG TIÊU CỰC";
+      bIcon = "⚠️";
+    } else if (subtype === "NGUYÊN NHÂN & ẢNH HƯỞNG") {
+      bLabel = "NGUYÊN NHÂN";
+      dLabel = "ẢNH HƯỞNG / HỆ QUẢ";
+      bIcon = "🔍";
+      dIcon = "⚠️";
+    } else if (subtype === "ẢNH HƯỞNG & GIẢI PHÁP") {
+      bLabel = "ẢNH HƯỞNG / TÁC ĐỘNG";
+      dLabel = "GIẢI PHÁP / BIỆN PHÁP";
+      bIcon = "⚠️";
+      dIcon = "💡";
+    } else if (subtype === "CHỈ PHÂN TÍCH GIẢI PHÁP") {
+      bLabel = "GIẢI PHÁP / BIỆN PHÁP ĐỀ XUẤT";
+      bIcon = "💡";
+    } else if (subtype === "CHỈ PHÂN TÍCH ẢNH HƯỞNG") {
+      bLabel = "ẢNH HƯỞNG / TÁC ĐỘNG";
+      bIcon = "⚠️";
+    } else if (subtype === "CHỈ PHÂN TÍCH NGUYÊN NHÂN") {
+      bLabel = topicTagsLower.includes('factor') ? "YẾU TỐ ẢNH HƯỞNG" : "NGUYÊN NHÂN / LÝ DO";
+      bIcon = "🔍";
+    } else {
+      bLabel = "NGUYÊN NHÂN / VẤN ĐỀ";
+      dLabel = "GIẢI PHÁP / BIỆN PHÁP";
+      bIcon = "🔍";
+      dIcon = "💡";
+    }
+  }
 
   return `
     <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
