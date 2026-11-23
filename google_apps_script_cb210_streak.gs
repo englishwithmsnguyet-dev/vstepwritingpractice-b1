@@ -226,7 +226,7 @@ function ensureSheets() {
       ['SystemEnabled', 'TRUE'],         // TRUE = bật khóa tự động khi không viết bài, FALSE = tạm tắt
       ['StartDate', getTomorrowVN()],    // Ngày bắt đầu áp dụng (mặc định: ngày mai để không khóa oan hôm nay)
       ['StreakMode', 'STRICT_DAILY'],    // STRICT_DAILY (cả Chủ Nhật) | ALLOW_SUNDAY_OFF (miễn Chủ Nhật)
-      ['MinWords', '250'],               // Số từ tối thiểu để tính là 1 bài luận hoàn chỉnh
+      ['MinWords', '200'],               // Số từ tối thiểu để tính là 1 bài luận hoàn chỉnh
       ['UpdatedAt', nowStr]
     ]);
     configSheet.getRange(1, 1, 1, 2).setFontWeight('bold').setBackground('#059669').setFontColor('#ffffff');

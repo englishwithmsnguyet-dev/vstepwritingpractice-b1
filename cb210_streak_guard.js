@@ -124,7 +124,7 @@
       SystemEnabled: true,
       StartDate: '',
       StreakMode: 'STRICT_DAILY',
-      MinWords: 250
+      MinWords: 200
     },
     currentFilter: 'all',
     currentSearch: '',
@@ -256,8 +256,8 @@
                 <label>
                   Số từ tối thiểu:
                   <select id="cb210-cfg-minwords" class="cb210-select">
-                    <option value="200">≥ 200 từ</option>
-                    <option value="250" selected>≥ 250 từ (Chuẩn VSTEP)</option>
+                    <option value="200" selected>≥ 200 từ (Đang áp dụng)</option>
+                    <option value="250">≥ 250 từ (Chuẩn VSTEP)</option>
                     <option value="300">≥ 300 từ</option>
                   </select>
                 </label>
@@ -353,7 +353,7 @@
           systemEnabled: enabledEl ? enabledEl.value : 'true',
           startDate: startEl ? startEl.value : '',
           streakMode: sundayEl ? sundayEl.value : 'STRICT_DAILY',
-          minWords: minWordsEl ? minWordsEl.value : '250'
+          minWords: minWordsEl ? minWordsEl.value : '200'
         });
         if (res && res.ok) {
           this.cachedConfig = res.config || this.cachedConfig;
@@ -516,7 +516,7 @@
             );
           }
         } else {
-          const minW = res.minWords || this.cachedConfig.MinWords || 250;
+          const minW = res.minWords || this.cachedConfig.MinWords || 200;
           if (typeof window.showToast === 'function') {
             window.showToast(
               `⚠️ CB210: Bài viết mới đạt ${wordCount}/${minW} từ nên CHƯA được tính hoàn thành chỉ tiêu hôm nay! Hãy viết đủ ≥ ${minW} từ để không bị khóa ngày mai nhé.`,
@@ -533,7 +533,7 @@
       const box = document.getElementById('cb210LockBox');
       if (!box) return;
 
-      const minWords = (data && data.config && data.config.MinWords) || this.cachedConfig.MinWords || 250;
+      const minWords = (data && data.config && data.config.MinWords) || this.cachedConfig.MinWords || 200;
       const lastDate = (data && data.lastEssayDate) ? data.lastEssayDate : 'Chưa nộp bài nào';
       const reason = (data && data.lockReason) || `Chưa nộp ít nhất 1 bài luận hoàn chỉnh (≥ ${minWords} từ) mỗi ngày.`;
       const alreadyRequested = Boolean(data && data.unlockRequested);
@@ -603,7 +603,7 @@
       const pill = document.getElementById('cb210-sidebar-pill');
       if (!pill) return;
 
-      const minWords = this.cachedConfig.MinWords || 250;
+      const minWords = this.cachedConfig.MinWords || 200;
       if (this.todayDone) {
         pill.className = 'cb210-sidebar-pill is-done';
         pill.innerHTML = `
@@ -732,7 +732,7 @@
       if (enabledEl) enabledEl.value = this.cachedConfig.SystemEnabled ? 'true' : 'false';
       if (startEl && this.cachedConfig.StartDate) startEl.value = this.cachedConfig.StartDate;
       if (sundayEl) sundayEl.value = this.cachedConfig.StreakMode || 'STRICT_DAILY';
-      if (minWordsEl) minWordsEl.value = String(this.cachedConfig.MinWords || 250);
+      if (minWordsEl) minWordsEl.value = String(this.cachedConfig.MinWords || 200);
 
       // Update KPI stats
       const total = this.cachedStudents.length;
