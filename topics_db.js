@@ -38481,62 +38481,42 @@ const ESSAY_DATA = [
                     "vi": "kiến thức ngôn ngữ"
                   },
                   {
-                    "en": "different textbooks",
-                    "vi": "sách khác nhau"
+                    "en": "varied explanations",
+                    "vi": "cách giải thích đa dạng"
                   },
                   {
-                    "en": "present the same content",
-                    "vi": "trình bày cùng một nội dung"
+                    "en": "rich examples",
+                    "vi": "ví dụ phong phú"
                   },
                   {
-                    "en": "through different explanations",
-                    "vi": "bằng những cách giải thích khác nhau"
+                    "en": "multiple perspectives",
+                    "vi": "nhiều góc nhìn"
                   },
                   {
-                    "en": "provide",
-                    "vi": "cung cấp"
+                    "en": "grasp complex concepts",
+                    "vi": "nắm bắt khái niệm phức tạp"
                   },
                   {
-                    "en": "a wider range of examples",
-                    "vi": "nhiều ví dụ"
+                    "en": "authentic dialogue",
+                    "vi": "hội thoại chân thực"
                   },
                   {
-                    "en": "approaches",
-                    "vi": "cách tiếp cận khác nhau"
+                    "en": "analytical exercises",
+                    "vi": "bài tập phân tích"
                   },
                   {
-                    "en": "understand knowledge",
-                    "vi": "nhìn nhận kiến thức"
+                    "en": "linguistic foundation",
+                    "vi": "nền tảng ngôn ngữ"
                   },
                   {
-                    "en": "from different perspectives",
-                    "vi": "từ nhiều góc độ"
-                  },
-                  {
-                    "en": "understand complex content",
-                    "vi": "hiểu ... những nội dung phức tạp"
-                  },
-                  {
-                    "en": "more clearly",
-                    "vi": "rõ hơn"
-                  },
-                  {
-                    "en": "contribute to",
-                    "vi": "góp phần"
-                  },
-                  {
-                    "en": "more effective",
-                    "vi": "hiệu quả"
-                  },
-                  {
-                    "en": "language learning",
-                    "vi": "học ngôn ngữ"
+                    "en": "learning outcomes",
+                    "vi": "kết quả học tập"
                   }
                 ],
                 "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn.",
                 "point_en": "Using different textbooks helps students develop a deeper understanding of language knowledge.",
-                "evidence_vi": "Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này góp phần nâng cao hiệu quả học ngôn ngữ.",
-                "evidence_en": "Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This contributes to more effective language learning.",
+                "evidence_vi": "Các bộ sách giáo khoa khác nhau thường trình bày cùng một điểm ngữ pháp hoặc từ vựng thông qua những cách giải thích và ví dụ phong phú. Nhờ được tiếp cận nhiều góc nhìn đa dạng, học sinh dễ dàng hiểu sâu bản chất của những nội dung phức tạp. Ví dụ, một cuốn sách tập trung vào ngữ cảnh giao tiếp thực tế trong khi cuốn khác cung cấp bài tập phân tích chi tiết. Điều này giúp học sinh xây dựng nền tảng ngôn ngữ vững chắc và nâng cao rõ rệt hiệu quả học tập.",
+                "evidence_en": "Different textbooks often present the same grammar or vocabulary through varied explanations and rich examples. Exposure to multiple perspectives enables students to grasp complex language concepts much more deeply. For example, one coursebook may emphasize authentic dialogue while another offers thorough analytical exercises. Consequently, learners build a solid linguistic foundation and achieve noticeably stronger learning outcomes.",
                 "point_collocations": [
                   {
                     "en": "use different textbooks",
@@ -38554,64 +38534,42 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "different textbooks",
-                      "vi": "sách khác nhau"
+                      "en": "varied explanations",
+                      "vi": "cách giải thích đa dạng"
                     },
                     {
-                      "en": "present the same content",
-                      "vi": "trình bày cùng một nội dung"
-                    },
-                    {
-                      "en": "through different explanations",
-                      "vi": "bằng những cách giải thích khác nhau"
+                      "en": "rich examples",
+                      "vi": "ví dụ phong phú"
                     }
                   ],
                   [
                     {
-                      "en": "provide",
-                      "vi": "cung cấp"
+                      "en": "multiple perspectives",
+                      "vi": "nhiều góc nhìn"
                     },
                     {
-                      "en": "a wider range of examples",
-                      "vi": "nhiều ví dụ"
-                    },
-                    {
-                      "en": "approaches",
-                      "vi": "cách tiếp cận khác nhau"
+                      "en": "grasp complex concepts",
+                      "vi": "nắm bắt khái niệm phức tạp"
                     }
                   ],
                   [
                     {
-                      "en": "understand knowledge",
-                      "vi": "nhìn nhận kiến thức"
+                      "en": "authentic dialogue",
+                      "vi": "hội thoại chân thực"
                     },
                     {
-                      "en": "from different perspectives",
-                      "vi": "từ nhiều góc độ"
+                      "en": "analytical exercises",
+                      "vi": "bài tập phân tích"
                     }
                   ],
                   [
                     {
-                      "en": "understand complex content",
-                      "vi": "hiểu ... những nội dung phức tạp"
+                      "en": "linguistic foundation",
+                      "vi": "nền tảng ngôn ngữ"
                     },
                     {
-                      "en": "more clearly",
-                      "vi": "rõ hơn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "contribute to",
-                      "vi": "góp phần"
-                    },
-                    {
-                      "en": "more effective",
-                      "vi": "hiệu quả"
-                    },
-                    {
-                      "en": "language learning",
-                      "vi": "học ngôn ngữ"
+                      "en": "learning outcomes",
+                      "vi": "kết quả học tập"
                     }
                   ]
                 ]
@@ -38632,66 +38590,30 @@ const ESSAY_DATA = [
                     "vi": "trình độ và nhu cầu học tập của học sinh"
                   },
                   {
-                    "en": "differ in",
-                    "vi": "khác nhau về"
+                    "en": "instructional style",
+                    "vi": "phong cách giảng dạy / trình bày"
                   },
                   {
-                    "en": "language and structure",
-                    "vi": "ngôn ngữ, cấu trúc"
+                    "en": "actual proficiency",
+                    "vi": "trình độ thực tế"
                   },
                   {
-                    "en": "difficulty and presentation",
-                    "vi": "độ khó và cách trình bày"
+                    "en": "learning pace",
+                    "vi": "tốc độ học tập"
                   },
                   {
-                    "en": "select materials",
-                    "vi": "chọn tài liệu"
+                    "en": "visually engaging materials",
+                    "vi": "tài liệu trực quan thu hút"
                   },
                   {
-                    "en": "suit students' abilities",
-                    "vi": "phù hợp với khả năng ... của học sinh"
-                  },
-                  {
-                    "en": "learning styles",
-                    "vi": "phong cách học tập"
-                  },
-                  {
-                    "en": "help students",
-                    "vi": "giúp học sinh"
-                  },
-                  {
-                    "en": "access",
-                    "vi": "tiếp cận"
-                  },
-                  {
-                    "en": "more suitable content",
-                    "vi": "nội dung phù hợp hơn"
-                  },
-                  {
-                    "en": "students",
-                    "vi": "học sinh"
-                  },
-                  {
-                    "en": "feel more confident",
-                    "vi": "cảm thấy tự tin hơn"
-                  },
-                  {
-                    "en": "when learning",
-                    "vi": "khi học"
-                  },
-                  {
-                    "en": "learning performance",
-                    "vi": "hiệu quả học tập"
-                  },
-                  {
-                    "en": "be improved",
-                    "vi": "được cải thiện"
+                    "en": "steadier academic progress",
+                    "vi": "tiến bộ học tập ổn định hơn"
                   }
                 ],
                 "point_vi": "Việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.",
                 "point_en": "Textbook choice allows schools to better meet differences in students' levels and learning needs.",
-                "evidence_vi": "Các sách có thể khác nhau về ngôn ngữ, cấu trúc, độ khó và cách trình bày. Giáo viên có thể chọn tài liệu phù hợp với khả năng và phong cách học tập của học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.",
-                "evidence_en": "Textbooks can differ in language, structure, difficulty, and presentation. Teachers can select materials that suit students' abilities and learning styles. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved.",
+                "evidence_vi": "Các bộ sách giáo khoa rất đa dạng về độ khó, cấu trúc bài học và phong cách trình bày. Khi có quyền tự chọn, giáo viên có thể lựa chọn giáo trình sát với năng lực thực tế và tốc độ tiếp thu của từng nhóm học sinh. Chẳng hạn, học sinh ở khu vực ít tiếp xúc ngoại ngữ có thể học sách trực quan, dễ tiếp cận hơn thay vì giáo trình quá nặng tính hàn lâm. Nhờ học đúng trình độ, các em cảm thấy tự tin hơn và đạt tiến bộ bền vững hơn.",
+                "evidence_en": "Textbooks vary considerably in difficulty level, lesson structure, and instructional style. Having the freedom to choose allows teachers to select coursebooks aligned with their students' actual proficiency and learning pace. For instance, learners with limited language exposure can use visually engaging materials rather than overly academic texts. Studying at an appropriate level boosts students' confidence and leads to steadier academic progress.",
                 "point_collocations": [
                   {
                     "en": "textbook choice",
@@ -38709,68 +38631,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "differ in",
-                      "vi": "khác nhau về"
-                    },
-                    {
-                      "en": "language and structure",
-                      "vi": "ngôn ngữ, cấu trúc"
-                    },
-                    {
-                      "en": "difficulty and presentation",
-                      "vi": "độ khó và cách trình bày"
+                      "en": "instructional style",
+                      "vi": "phong cách giảng dạy / trình bày"
                     }
                   ],
                   [
                     {
-                      "en": "select materials",
-                      "vi": "chọn tài liệu"
+                      "en": "actual proficiency",
+                      "vi": "trình độ thực tế"
                     },
                     {
-                      "en": "suit students' abilities",
-                      "vi": "phù hợp với khả năng ... của học sinh"
-                    },
-                    {
-                      "en": "learning styles",
-                      "vi": "phong cách học tập"
+                      "en": "learning pace",
+                      "vi": "tốc độ học tập"
                     }
                   ],
                   [
                     {
-                      "en": "help students",
-                      "vi": "giúp học sinh"
-                    },
-                    {
-                      "en": "access",
-                      "vi": "tiếp cận"
-                    },
-                    {
-                      "en": "more suitable content",
-                      "vi": "nội dung phù hợp hơn"
+                      "en": "visually engaging materials",
+                      "vi": "tài liệu trực quan thu hút"
                     }
                   ],
                   [
                     {
-                      "en": "students",
-                      "vi": "học sinh"
-                    },
-                    {
-                      "en": "feel more confident",
-                      "vi": "cảm thấy tự tin hơn"
-                    },
-                    {
-                      "en": "when learning",
-                      "vi": "khi học"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "learning performance",
-                      "vi": "hiệu quả học tập"
-                    },
-                    {
-                      "en": "be improved",
-                      "vi": "được cải thiện"
+                      "en": "steadier academic progress",
+                      "vi": "tiến bộ học tập ổn định hơn"
                     }
                   ]
                 ]
@@ -38791,66 +38675,30 @@ const ESSAY_DATA = [
                     "vi": "học tập và chuẩn bị"
                   },
                   {
-                    "en": "use different materials",
-                    "vi": "sử dụng nhiều tài liệu"
+                    "en": "supplementary resources",
+                    "vi": "tài liệu bổ trợ"
                   },
                   {
-                    "en": "review",
-                    "vi": "ôn tập"
-                  },
-                  {
-                    "en": "reinforce their knowledge",
+                    "en": "reinforce knowledge",
                     "vi": "củng cố kiến thức"
                   },
                   {
-                    "en": "different materials",
-                    "vi": "các tài liệu khác nhau"
-                  },
-                  {
                     "en": "fill gaps",
-                    "vi": "lấp đầy những khoảng trống"
+                    "vi": "lấp đầy lỗ hổng kiến thức"
                   },
                   {
-                    "en": "in their knowledge",
-                    "vi": "về kiến thức"
+                    "en": "standardized tests",
+                    "vi": "các kỳ thi chuẩn hóa"
                   },
                   {
-                    "en": "prepare better",
-                    "vi": "chuẩn bị tốt hơn"
-                  },
-                  {
-                    "en": "tests",
-                    "vi": "các bài kiểm tra"
-                  },
-                  {
-                    "en": "assignments",
-                    "vi": "bài tập"
-                  },
-                  {
-                    "en": "access",
-                    "vi": "tiếp cận"
-                  },
-                  {
-                    "en": "more sources of information",
-                    "vi": "nhiều nguồn thông tin hơn"
-                  },
-                  {
-                    "en": "during the learning process",
-                    "vi": "trong quá trình học"
-                  },
-                  {
-                    "en": "develop independent learning",
-                    "vi": "phát triển khả năng tự học"
-                  },
-                  {
-                    "en": "lifelong learning skills",
-                    "vi": "năng tự học và học tập"
+                    "en": "lifelong learning habits",
+                    "vi": "thói quen học tập suốt đời"
                   }
                 ],
                 "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để học sinh học tập và chuẩn bị tốt hơn.",
                 "point_en": "Using different textbooks provides additional resources for students' learning and preparation.",
-                "evidence_vi": "Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức. Các tài liệu khác nhau giúp các em lấp đầy những khoảng trống về kiến thức. Điều này giúp học sinh chuẩn bị tốt hơn cho các bài kiểm tra và bài tập. Các em có thể tiếp cận nhiều nguồn thông tin hơn trong quá trình học. Nhờ đó, học sinh có thể phát triển khả năng tự học và học tập lâu dài.",
-                "evidence_en": "Students can use different materials to review and reinforce their knowledge. Different materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. They can access more sources of information during the learning process. As a result, students can develop independent and lifelong learning skills.",
+                "evidence_vi": "Việc sử dụng đa dạng sách giáo khoa và tài liệu đi kèm mang lại cho học sinh nhiều nguồn ôn luyện và củng cố kiến thức. Những tài liệu bổ sung này giúp các em nhanh chóng lấp đầy các lỗ hổng về từ vựng, phát âm hay kỹ năng viết. Ví dụ, học sinh có thể kết hợp bài đọc từ nhiều bộ sách khác nhau để chuẩn bị toàn diện hơn cho các kỳ thi chuẩn hóa. Qua quá trình tự tìm tòi và so sánh tài liệu, các em còn hình thành thói quen tự học suốt đời.",
+                "evidence_en": "Using diverse textbooks and supplementary resources gives students wider opportunities to review and reinforce key knowledge. Varied learning materials help them quickly fill gaps in vocabulary, pronunciation, or writing skills. For example, learners can draw on reading passages from several books to prepare more thoroughly for standardized tests. Navigating multiple sources also cultivates valuable independent and lifelong learning habits.",
                 "point_collocations": [
                   {
                     "en": "use different textbooks",
@@ -38868,68 +38716,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "use different materials",
-                      "vi": "sử dụng nhiều tài liệu"
+                      "en": "supplementary resources",
+                      "vi": "tài liệu bổ trợ"
                     },
                     {
-                      "en": "review",
-                      "vi": "ôn tập"
-                    },
-                    {
-                      "en": "reinforce their knowledge",
+                      "en": "reinforce knowledge",
                       "vi": "củng cố kiến thức"
                     }
                   ],
                   [
                     {
-                      "en": "different materials",
-                      "vi": "các tài liệu khác nhau"
-                    },
-                    {
                       "en": "fill gaps",
-                      "vi": "lấp đầy những khoảng trống"
-                    },
-                    {
-                      "en": "in their knowledge",
-                      "vi": "về kiến thức"
+                      "vi": "lấp đầy lỗ hổng kiến thức"
                     }
                   ],
                   [
                     {
-                      "en": "prepare better",
-                      "vi": "chuẩn bị tốt hơn"
-                    },
-                    {
-                      "en": "tests",
-                      "vi": "các bài kiểm tra"
-                    },
-                    {
-                      "en": "assignments",
-                      "vi": "bài tập"
+                      "en": "standardized tests",
+                      "vi": "các kỳ thi chuẩn hóa"
                     }
                   ],
                   [
                     {
-                      "en": "access",
-                      "vi": "tiếp cận"
-                    },
-                    {
-                      "en": "more sources of information",
-                      "vi": "nhiều nguồn thông tin hơn"
-                    },
-                    {
-                      "en": "during the learning process",
-                      "vi": "trong quá trình học"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop independent learning",
-                      "vi": "phát triển khả năng tự học"
-                    },
-                    {
-                      "en": "lifelong learning skills",
-                      "vi": "năng tự học và học tập"
+                      "en": "lifelong learning habits",
+                      "vi": "thói quen học tập suốt đời"
                     }
                   ]
                 ]
@@ -38950,42 +38760,38 @@ const ESSAY_DATA = [
                     "vi": "mục tiêu đào tạo"
                   },
                   {
-                    "en": "distinct classroom facilities",
-                    "vi": "cơ sở vật chất, thời lượng tiết học"
+                    "en": "classroom facilities",
+                    "vi": "cơ sở vật chất lớp học"
                   },
                   {
-                    "en": "instructional hours",
-                    "vi": "thời lượng tiết học"
+                    "en": "proficiency outcomes",
+                    "vi": "mục tiêu đầu ra năng lực"
                   },
                   {
-                    "en": "language proficiency targets",
-                    "vi": "định hướng đầu ra ngoại ngữ"
+                    "en": "practical relevance",
+                    "vi": "tính ứng dụng thực tế"
                   },
                   {
-                    "en": "choose their own textbooks",
-                    "vi": "tự chọn sách"
+                    "en": "local cultural contexts",
+                    "vi": "bối cảnh văn hóa địa phương"
                   },
                   {
-                    "en": "adopt materials with high practical relevance",
-                    "vi": "tích hợp ... học liệu có tính ứng dụng cao"
+                    "en": "tourism-oriented regions",
+                    "vi": "khu vực định hướng du lịch"
                   },
                   {
-                    "en": "students' cultural contexts",
-                    "vi": "bối cảnh văn hóa của học sinh"
+                    "en": "local heritage",
+                    "vi": "di sản địa phương"
                   },
                   {
-                    "en": "language instruction",
-                    "vi": "chương trình dạy ngôn ngữ"
-                  },
-                  {
-                    "en": "become much more practical and achievable",
-                    "vi": "trở nên thiết thực và khả thi hơn"
+                    "en": "directly useful",
+                    "vi": "hữu ích trực tiếp"
                   }
                 ],
                 "point_vi": "Quyền tự chọn sách giúp nhà trường lựa chọn giáo trình phù hợp với điều kiện giảng dạy và mục tiêu đào tạo tại địa phương.",
                 "point_en": "Textbook autonomy enables schools to select materials that align with local teaching conditions and institutional learning goals.",
-                "evidence_vi": "Mỗi trường học có cơ sở vật chất, thời lượng tiết học và định hướng đầu ra ngoại ngữ khác nhau. Việc tự chọn sách giúp nhà trường tích hợp các học liệu có tính ứng dụng cao và phù hợp với bối cảnh văn hóa của học sinh. Nhờ đó, chương trình dạy ngôn ngữ trở nên thiết thực và khả thi hơn.",
-                "evidence_en": "Each school has distinct classroom facilities, instructional hours, and language proficiency targets. Choosing their own textbooks allows schools to adopt materials with high practical relevance to students' cultural contexts. Consequently, language instruction becomes much more practical and achievable.",
+                "evidence_vi": "Mỗi trường học sở hữu cơ sở vật chất, thời lượng tiết học và mục tiêu đầu ra ngoại ngữ rất khác nhau. Quyền tự chọn sách cho phép nhà trường áp dụng những bộ giáo trình có tính ứng dụng cao và gần gũi với bối cảnh văn hóa địa phương. Ví dụ, các trường tại khu vực phát triển du lịch có thể chọn giáo trình chú trọng giao tiếp dịch vụ và giới thiệu văn hóa bản địa. Nhờ vậy, chương trình giảng dạy ngoại ngữ trở nên thiết thực, sát nhu cầu và mang lại giá trị sử dụng cao hơn.",
+                "evidence_en": "Each school operates with distinct classroom facilities, instructional hours, and target proficiency outcomes. Textbook autonomy allows institutions to adopt materials that carry high practical relevance and match local cultural contexts. For instance, schools in tourism-oriented regions can pick coursebooks emphasizing hospitality communication and local heritage. As a result, language instruction becomes far more relevant, achievable, and directly useful for students.",
                 "point_collocations": [
                   {
                     "en": "textbook autonomy",
@@ -39003,40 +38809,38 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "distinct classroom facilities",
-                      "vi": "cơ sở vật chất, thời lượng tiết học"
+                      "en": "classroom facilities",
+                      "vi": "cơ sở vật chất lớp học"
                     },
                     {
-                      "en": "instructional hours",
-                      "vi": "thời lượng tiết học"
-                    },
-                    {
-                      "en": "language proficiency targets",
-                      "vi": "định hướng đầu ra ngoại ngữ"
+                      "en": "proficiency outcomes",
+                      "vi": "mục tiêu đầu ra năng lực"
                     }
                   ],
                   [
                     {
-                      "en": "choose their own textbooks",
-                      "vi": "tự chọn sách"
+                      "en": "practical relevance",
+                      "vi": "tính ứng dụng thực tế"
                     },
                     {
-                      "en": "adopt materials with high practical relevance",
-                      "vi": "tích hợp ... học liệu có tính ứng dụng cao"
-                    },
-                    {
-                      "en": "students' cultural contexts",
-                      "vi": "bối cảnh văn hóa của học sinh"
+                      "en": "local cultural contexts",
+                      "vi": "bối cảnh văn hóa địa phương"
                     }
                   ],
                   [
                     {
-                      "en": "language instruction",
-                      "vi": "chương trình dạy ngôn ngữ"
+                      "en": "tourism-oriented regions",
+                      "vi": "khu vực định hướng du lịch"
                     },
                     {
-                      "en": "become much more practical and achievable",
-                      "vi": "trở nên thiết thực và khả thi hơn"
+                      "en": "local heritage",
+                      "vi": "di sản địa phương"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "directly useful",
+                      "vi": "hữu ích trực tiếp"
                     }
                   ]
                 ]
@@ -39057,42 +38861,30 @@ const ESSAY_DATA = [
                     "vi": "hướng giao tiếp hiện đại"
                   },
                   {
-                    "en": "prioritize language coursebooks",
-                    "vi": "ưu tiên lựa chọn những bộ giáo trình ngoại ngữ"
+                    "en": "interactive digital tools",
+                    "vi": "công cụ số tương tác"
                   },
                   {
-                    "en": "integrate interactive digital resources",
-                    "vi": "tích hợp học liệu số tương tác"
+                    "en": "communicative scenarios",
+                    "vi": "tình huống giao tiếp"
                   },
                   {
-                    "en": "authentic communicative situations",
-                    "vi": "tình huống giao tiếp thực tế"
+                    "en": "dynamic role-plays",
+                    "vi": "hoạt động đóng vai sinh động"
                   },
                   {
-                    "en": "enable teachers",
-                    "vi": "tạo điều kiện để giáo viên"
+                    "en": "monotonous grammar drills",
+                    "vi": "bài tập ngữ pháp lặp đi lặp lại nhàm chán"
                   },
                   {
-                    "en": "organize dynamic speaking and listening activities",
-                    "vi": "tổ chức các hoạt động nghe nói sinh động"
-                  },
-                  {
-                    "en": "focus solely on traditional grammar drills",
-                    "vi": "chỉ dạy ngữ pháp truyền thống"
-                  },
-                  {
-                    "en": "become more engaged",
-                    "vi": "hứng thú hơn"
-                  },
-                  {
-                    "en": "develop all four language skills comprehensively",
-                    "vi": "phát triển toàn diện bốn kỹ năng ngôn ngữ"
+                    "en": "comprehensively",
+                    "vi": "một cách toàn diện"
                   }
                 ],
                 "point_vi": "Việc tự chủ chọn sách giáo khoa ngôn ngữ khuyến khích giáo viên đổi mới phương pháp giảng dạy theo hướng giao tiếp hiện đại.",
                 "point_en": "Allowing schools to choose language textbooks encourages teachers to innovate their teaching methods toward modern communicative approaches.",
-                "evidence_vi": "Các trường có thể ưu tiên lựa chọn những bộ giáo trình ngoại ngữ tích hợp học liệu số tương tác và tình huống giao tiếp thực tế. Điều này tạo điều kiện để giáo viên tổ chức các hoạt động nghe nói sinh động thay vì chỉ dạy ngữ pháp truyền thống. Nhờ vậy, học sinh hứng thú hơn và phát triển toàn diện bốn kỹ năng ngôn ngữ.",
-                "evidence_en": "Schools can prioritize language coursebooks that integrate interactive digital resources and authentic communicative situations. This enables teachers to organize dynamic speaking and listening activities rather than focusing solely on traditional grammar drills. As a result, students become more engaged and develop all four language skills comprehensively.",
+                "evidence_vi": "Các nhà trường có thể ưu tiên lựa chọn những bộ giáo trình hiện đại tích hợp học liệu số tương tác và tình huống giao tiếp thực tế. Nguồn học liệu sinh động này tạo điều kiện cho giáo viên tổ chức các hoạt động đóng vai, thảo luận và luyện nghe nói sôi nổi trên lớp. Chẳng hạn, nhiều sách ngoại ngữ mới đi kèm video thực tế và ứng dụng luyện phát âm giúp tiết học thoát khỏi lối chép ngữ pháp nhàm chán. Nhờ đó, học sinh hào hứng tham gia bài học hơn và phát triển đồng đều cả bốn kỹ năng ngôn ngữ.",
+                "evidence_en": "Schools can prioritize modern coursebooks that integrate interactive digital tools and authentic communicative scenarios. Such rich materials empower teachers to organize dynamic role-plays, discussions, and listening tasks in class. For example, many contemporary language books include real-world videos and pronunciation apps that replace monotonous grammar drills. Consequently, learners stay actively engaged and develop all four language skills comprehensively.",
                 "point_collocations": [
                   {
                     "en": "choose language textbooks",
@@ -39110,40 +38902,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "prioritize language coursebooks",
-                      "vi": "ưu tiên lựa chọn những bộ giáo trình ngoại ngữ"
+                      "en": "interactive digital tools",
+                      "vi": "công cụ số tương tác"
                     },
                     {
-                      "en": "integrate interactive digital resources",
-                      "vi": "tích hợp học liệu số tương tác"
-                    },
-                    {
-                      "en": "authentic communicative situations",
-                      "vi": "tình huống giao tiếp thực tế"
+                      "en": "communicative scenarios",
+                      "vi": "tình huống giao tiếp"
                     }
                   ],
                   [
                     {
-                      "en": "enable teachers",
-                      "vi": "tạo điều kiện để giáo viên"
-                    },
-                    {
-                      "en": "organize dynamic speaking and listening activities",
-                      "vi": "tổ chức các hoạt động nghe nói sinh động"
-                    },
-                    {
-                      "en": "focus solely on traditional grammar drills",
-                      "vi": "chỉ dạy ngữ pháp truyền thống"
+                      "en": "dynamic role-plays",
+                      "vi": "hoạt động đóng vai sinh động"
                     }
                   ],
                   [
                     {
-                      "en": "become more engaged",
-                      "vi": "hứng thú hơn"
-                    },
+                      "en": "monotonous grammar drills",
+                      "vi": "bài tập ngữ pháp lặp đi lặp lại nhàm chán"
+                    }
+                  ],
+                  [
                     {
-                      "en": "develop all four language skills comprehensively",
-                      "vi": "phát triển toàn diện bốn kỹ năng ngôn ngữ"
+                      "en": "comprehensively",
+                      "vi": "một cách toàn diện"
                     }
                   ]
                 ]
@@ -43078,66 +42860,30 @@ const ESSAY_DATA = [
                     "vi": "khả năng ngôn ngữ"
                   },
                   {
-                    "en": "learn",
-                    "vi": "học thêm"
+                    "en": "absorb new vocabulary",
+                    "vi": "tiếp thu từ vựng mới"
                   },
                   {
-                    "en": "new vocabulary",
-                    "vi": "từ vựng mới"
+                    "en": "context clues",
+                    "vi": "gợi ý ngữ cảnh"
                   },
                   {
-                    "en": "through simple stories",
-                    "vi": "thông qua những câu chuyện đơn giản"
+                    "en": "infer word meanings",
+                    "vi": "đoán nghĩa của từ"
                   },
                   {
-                    "en": "understand word meanings",
-                    "vi": "hiểu nghĩa của từ"
+                    "en": "natural phrasing",
+                    "vi": "cách diễn đạt tự nhiên"
                   },
                   {
-                    "en": "story content",
-                    "vi": "nội dung"
-                  },
-                  {
-                    "en": "more easily",
-                    "vi": "dễ dàng hơn"
-                  },
-                  {
-                    "en": "learn how",
-                    "vi": "học cách"
-                  },
-                  {
-                    "en": "use words and sentences",
-                    "vi": "sử dụng từ và câu"
-                  },
-                  {
-                    "en": "in specific contexts",
-                    "vi": "trong những ngữ cảnh cụ thể"
-                  },
-                  {
-                    "en": "improve",
-                    "vi": "cải thiện"
-                  },
-                  {
-                    "en": "listening skills",
-                    "vi": "năng nghe"
-                  },
-                  {
-                    "en": "communication skills",
-                    "vi": "năng nghe và giao tiếp"
-                  },
-                  {
-                    "en": "develop",
-                    "vi": "phát triển"
-                  },
-                  {
-                    "en": "a stronger language foundation",
-                    "vi": "nền tảng ngôn ngữ"
+                    "en": "foundational literacy skills",
+                    "vi": "kỹ năng đọc viết nền tảng"
                   }
                 ],
                 "point_vi": "Đọc sách tranh giúp trẻ phát triển khả năng ngôn ngữ.",
                 "point_en": "Reading picture books helps children develop their language abilities.",
-                "evidence_vi": "Trẻ có thể học thêm từ vựng mới thông qua những câu chuyện đơn giản. Hình ảnh giúp các em hiểu nghĩa của từ và nội dung dễ dàng hơn. Trẻ cũng có thể học cách sử dụng từ và câu trong những ngữ cảnh cụ thể. Điều này giúp các em cải thiện khả năng nghe và giao tiếp. Nhờ đó, nền tảng ngôn ngữ của trẻ có thể được phát triển tốt hơn.",
-                "evidence_en": "Children can learn new vocabulary through simple stories. Pictures help them understand word meanings and story content more easily. They can also learn how to use words and sentences in specific contexts. This helps them improve their listening and communication skills. As a result, children can develop a stronger language foundation.",
+                "evidence_vi": "Trẻ em có thể dễ dàng tiếp thu từ vựng mới thông qua những câu chuyện ngắn gọn, sinh động và giàu nhịp điệu. Những hình minh họa trực quan đóng vai trò như gợi ý ngữ cảnh giúp trẻ tự đoán nghĩa của từ mà không cần giải thích dài dòng. Chẳng hạn, khi nhìn tranh vẽ các loài động vật kèm câu mô tả đơn giản, trẻ nhanh chóng nhớ được cách dùng từ và cấu trúc câu tự nhiên. Nhờ sự kết hợp giữa chữ viết và hình ảnh, kỹ năng nghe, nói và nền tảng ngôn ngữ của trẻ phát triển vượt bậc.",
+                "evidence_en": "Children naturally absorb new vocabulary through short, vivid, and rhythmic stories. Visual illustrations serve as immediate context clues that help young readers infer word meanings without lengthy explanations. For instance, seeing pictures of animals paired with simple descriptive sentences enables kids to remember natural phrasing effortlessly. By combining text with imagery, picture books markedly strengthen listening, speaking, and foundational literacy skills.",
                 "point_collocations": [
                   {
                     "en": "read picture books",
@@ -43155,68 +42901,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "learn",
-                      "vi": "học thêm"
-                    },
-                    {
-                      "en": "new vocabulary",
-                      "vi": "từ vựng mới"
-                    },
-                    {
-                      "en": "through simple stories",
-                      "vi": "thông qua những câu chuyện đơn giản"
+                      "en": "absorb new vocabulary",
+                      "vi": "tiếp thu từ vựng mới"
                     }
                   ],
                   [
                     {
-                      "en": "understand word meanings",
-                      "vi": "hiểu nghĩa của từ"
+                      "en": "context clues",
+                      "vi": "gợi ý ngữ cảnh"
                     },
                     {
-                      "en": "story content",
-                      "vi": "nội dung"
-                    },
-                    {
-                      "en": "more easily",
-                      "vi": "dễ dàng hơn"
+                      "en": "infer word meanings",
+                      "vi": "đoán nghĩa của từ"
                     }
                   ],
                   [
                     {
-                      "en": "learn how",
-                      "vi": "học cách"
-                    },
-                    {
-                      "en": "use words and sentences",
-                      "vi": "sử dụng từ và câu"
-                    },
-                    {
-                      "en": "in specific contexts",
-                      "vi": "trong những ngữ cảnh cụ thể"
+                      "en": "natural phrasing",
+                      "vi": "cách diễn đạt tự nhiên"
                     }
                   ],
                   [
                     {
-                      "en": "improve",
-                      "vi": "cải thiện"
-                    },
-                    {
-                      "en": "listening skills",
-                      "vi": "năng nghe"
-                    },
-                    {
-                      "en": "communication skills",
-                      "vi": "năng nghe và giao tiếp"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "develop",
-                      "vi": "phát triển"
-                    },
-                    {
-                      "en": "a stronger language foundation",
-                      "vi": "nền tảng ngôn ngữ"
+                      "en": "foundational literacy skills",
+                      "vi": "kỹ năng đọc viết nền tảng"
                     }
                   ]
                 ]
@@ -43237,66 +42945,26 @@ const ESSAY_DATA = [
                     "vi": "khả năng sáng tạo"
                   },
                   {
-                    "en": "stories",
-                    "vi": "các câu chuyện"
+                    "en": "everyday experiences",
+                    "vi": "trải nghiệm hằng ngày"
                   },
                   {
-                    "en": "help children imagine",
-                    "vi": "giúp trẻ tưởng tượng về"
+                    "en": "plot twists",
+                    "vi": "tình tiết bất ngờ"
                   },
                   {
-                    "en": "characters, places, and events",
-                    "vi": "nhân vật, địa điểm và sự việc"
+                    "en": "alternative endings",
+                    "vi": "cái kết khác"
                   },
                   {
-                    "en": "pictures",
-                    "vi": "hình ảnh"
-                  },
-                  {
-                    "en": "provide additional information",
-                    "vi": "cung cấp thêm thông tin"
-                  },
-                  {
-                    "en": "develop their own ideas",
-                    "vi": "phát triển những ý tưởng riêng"
-                  },
-                  {
-                    "en": "encourage children",
-                    "vi": "khuyến khích trẻ"
-                  },
-                  {
-                    "en": "think",
-                    "vi": "suy nghĩ"
-                  },
-                  {
-                    "en": "in different ways",
-                    "vi": "theo những cách khác nhau"
-                  },
-                  {
-                    "en": "create",
-                    "vi": "tự tạo ra"
-                  },
-                  {
-                    "en": "their own stories",
-                    "vi": "những câu chuyện"
-                  },
-                  {
-                    "en": "new endings",
-                    "vi": "kết thúc mới"
-                  },
-                  {
-                    "en": "creative abilities",
-                    "vi": "năng sáng tạo"
-                  },
-                  {
-                    "en": "be developed",
-                    "vi": "được phát triển"
+                    "en": "imaginative engagement",
+                    "vi": "sự tương tác giàu trí tưởng tượng"
                   }
                 ],
                 "point_vi": "Đọc sách tranh giúp phát triển trí tưởng tượng và khả năng sáng tạo của trẻ.",
                 "point_en": "Reading picture books develops children's imagination and creativity.",
-                "evidence_vi": "Các câu chuyện giúp trẻ tưởng tượng về nhân vật, địa điểm và sự việc. Hình ảnh cung cấp thêm thông tin để trẻ phát triển những ý tưởng riêng. Điều này khuyến khích trẻ suy nghĩ theo những cách khác nhau. Trẻ có thể tự tạo ra những câu chuyện hoặc kết thúc mới. Nhờ đó, khả năng sáng tạo của trẻ có thể được phát triển.",
-                "evidence_en": "Stories help children imagine characters, places, and events. Pictures provide additional information for children to develop their own ideas. This encourages children to think in different ways. Children can create their own stories or new endings. As a result, their creative abilities can be developed.",
+                "evidence_vi": "Các câu chuyện giàu sắc màu mở ra thế giới nhân vật, vùng đất và những cuộc phiêu lưu kỳ thú vượt ngoài trải nghiệm thường ngày của trẻ. Những chi tiết tinh tế trong tranh vẽ còn gợi mở thêm nhiều ý tưởng để trẻ tự suy đoán diễn biến tiếp theo. Ví dụ, sau khi đọc xong một cuốn truyện tranh, nhiều trẻ thích tự nghĩ ra cái kết mới hoặc vẽ thêm nhân vật cho câu chuyện. Quá trình tương tác sáng tạo này kích thích tư duy đa chiều và nuôi dưỡng trí tưởng tượng phong phú từ nhỏ.",
+                "evidence_en": "Colorful stories introduce youngsters to diverse characters, magical settings, and adventures beyond their everyday experiences. Rich details hidden within illustrations invite children to speculate about plot twists and form their own ideas. For example, after finishing a picture book, many kids enjoy inventing alternative endings or drawing new characters of their own. This imaginative engagement nurtures flexible thinking and lasting creativity from early childhood.",
                 "point_collocations": [
                   {
                     "en": "read picture books",
@@ -43314,68 +42982,26 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "stories",
-                      "vi": "các câu chuyện"
-                    },
-                    {
-                      "en": "help children imagine",
-                      "vi": "giúp trẻ tưởng tượng về"
-                    },
-                    {
-                      "en": "characters, places, and events",
-                      "vi": "nhân vật, địa điểm và sự việc"
+                      "en": "everyday experiences",
+                      "vi": "trải nghiệm hằng ngày"
                     }
                   ],
                   [
                     {
-                      "en": "pictures",
-                      "vi": "hình ảnh"
-                    },
-                    {
-                      "en": "provide additional information",
-                      "vi": "cung cấp thêm thông tin"
-                    },
-                    {
-                      "en": "develop their own ideas",
-                      "vi": "phát triển những ý tưởng riêng"
+                      "en": "plot twists",
+                      "vi": "tình tiết bất ngờ"
                     }
                   ],
                   [
                     {
-                      "en": "encourage children",
-                      "vi": "khuyến khích trẻ"
-                    },
-                    {
-                      "en": "think",
-                      "vi": "suy nghĩ"
-                    },
-                    {
-                      "en": "in different ways",
-                      "vi": "theo những cách khác nhau"
+                      "en": "alternative endings",
+                      "vi": "cái kết khác"
                     }
                   ],
                   [
                     {
-                      "en": "create",
-                      "vi": "tự tạo ra"
-                    },
-                    {
-                      "en": "their own stories",
-                      "vi": "những câu chuyện"
-                    },
-                    {
-                      "en": "new endings",
-                      "vi": "kết thúc mới"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "creative abilities",
-                      "vi": "năng sáng tạo"
-                    },
-                    {
-                      "en": "be developed",
-                      "vi": "được phát triển"
+                      "en": "imaginative engagement",
+                      "vi": "sự tương tác giàu trí tưởng tượng"
                     }
                   ]
                 ]
@@ -43396,54 +43022,26 @@ const ESSAY_DATA = [
                     "vi": "thói quen đọc sách tích cực"
                   },
                   {
-                    "en": "colourful illustrations",
-                    "vi": "hình ảnh nhiều màu sắc"
+                    "en": "eye-catching artwork",
+                    "vi": "hình vẽ bắt mắt"
                   },
                   {
-                    "en": "make books more attractive",
-                    "vi": "khiến sách trở nên hấp dẫn hơn"
+                    "en": "pleasant pastime",
+                    "vi": "thú vui dễ chịu"
                   },
                   {
-                    "en": "encourage them",
-                    "vi": "khuyến khích các em"
+                    "en": "chapter books",
+                    "vi": "sách truyện nhiều chương"
                   },
                   {
-                    "en": "spend more time",
-                    "vi": "dành nhiều thời gian hơn"
-                  },
-                  {
-                    "en": "gradually develop",
-                    "vi": "dần hình thành"
-                  },
-                  {
-                    "en": "an interest in reading",
-                    "vi": "sở thích đọc sách"
-                  },
-                  {
-                    "en": "from an early age",
-                    "vi": "từ khi còn nhỏ"
-                  },
-                  {
-                    "en": "support their learning",
-                    "vi": "hỗ trợ việc học"
-                  },
-                  {
-                    "en": "in the future",
-                    "vi": "trong tương lai"
-                  },
-                  {
-                    "en": "maintain reading habits",
-                    "vi": "duy trì thói quen đọc sách"
-                  },
-                  {
-                    "en": "in the long term",
-                    "vi": "lâu dài"
+                    "en": "academic success",
+                    "vi": "thành công học tập"
                   }
                 ],
                 "point_vi": "Đọc sách tranh giúp trẻ hình thành thói quen đọc sách tích cực.",
                 "point_en": "Reading picture books helps children develop positive reading habits.",
-                "evidence_vi": "Hình ảnh nhiều màu sắc khiến sách trở nên hấp dẫn hơn đối với trẻ. Điều này khuyến khích các em dành nhiều thời gian hơn cho việc đọc. Trẻ có thể dần hình thành sở thích đọc sách từ khi còn nhỏ. Thói quen này có thể hỗ trợ việc học các môn khác trong tương lai. Nhờ đó, trẻ có thể duy trì thói quen đọc sách lâu dài.",
-                "evidence_en": "Colourful illustrations make books more attractive to children. This encourages them to spend more time reading. Children can gradually develop an interest in reading from an early age. This habit can support their learning in other subjects in the future. As a result, children can maintain reading habits in the long term.",
+                "evidence_vi": "Những hình ảnh bắt mắt và bố cục sinh động biến cuốn sách thành món đồ chơi tinh thần hấp dẫn đối với trẻ nhỏ. Khi cảm thấy đọc sách là một hoạt động vui vẻ thay vì nhiệm vụ nhàm chán, trẻ tự nguyện dành nhiều thời gian hơn cho sách mỗi ngày. Chẳng hạn, trẻ quen đọc sách tranh trước giờ đi ngủ thường dễ dàng chuyển sang đọc truyện chữ dài hơn khi lớn lên. Thói quen đọc bền vững hình thành từ sớm này sẽ hỗ trợ đắc lực cho việc học mọi môn học trong tương lai.",
+                "evidence_en": "Eye-catching artwork and lively layouts transform books into an exciting source of enjoyment for young children. When reading feels like a pleasant pastime rather than a dull chore, youngsters willingly devote more time to books each day. For instance, children accustomed to bedtime picture books transition far more smoothly to longer chapter books as they grow older. Establishing this positive habit early on strongly supports academic success across all future subjects.",
                 "point_collocations": [
                   {
                     "en": "read picture books",
@@ -43461,56 +43059,26 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "colourful illustrations",
-                      "vi": "hình ảnh nhiều màu sắc"
-                    },
-                    {
-                      "en": "make books more attractive",
-                      "vi": "khiến sách trở nên hấp dẫn hơn"
+                      "en": "eye-catching artwork",
+                      "vi": "hình vẽ bắt mắt"
                     }
                   ],
                   [
                     {
-                      "en": "encourage them",
-                      "vi": "khuyến khích các em"
-                    },
-                    {
-                      "en": "spend more time",
-                      "vi": "dành nhiều thời gian hơn"
+                      "en": "pleasant pastime",
+                      "vi": "thú vui dễ chịu"
                     }
                   ],
                   [
                     {
-                      "en": "gradually develop",
-                      "vi": "dần hình thành"
-                    },
-                    {
-                      "en": "an interest in reading",
-                      "vi": "sở thích đọc sách"
-                    },
-                    {
-                      "en": "from an early age",
-                      "vi": "từ khi còn nhỏ"
+                      "en": "chapter books",
+                      "vi": "sách truyện nhiều chương"
                     }
                   ],
                   [
                     {
-                      "en": "support their learning",
-                      "vi": "hỗ trợ việc học"
-                    },
-                    {
-                      "en": "in the future",
-                      "vi": "trong tương lai"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "maintain reading habits",
-                      "vi": "duy trì thói quen đọc sách"
-                    },
-                    {
-                      "en": "in the long term",
-                      "vi": "lâu dài"
+                      "en": "academic success",
+                      "vi": "thành công học tập"
                     }
                   ]
                 ]
@@ -43531,38 +43099,30 @@ const ESSAY_DATA = [
                     "vi": "ở trẻ nhỏ"
                   },
                   {
-                    "en": "vivid facial expressions in illustrations",
-                    "vi": "biểu cảm khuôn mặt sinh động trên tranh vẽ"
+                    "en": "expressive facial features",
+                    "vi": "biểu cảm khuôn mặt sinh động"
                   },
                   {
-                    "en": "easily recognize",
-                    "vi": "dễ dàng nhận diện được"
+                    "en": "story dilemmas",
+                    "vi": "tình huống khó xử trong truyện"
                   },
                   {
-                    "en": "characters' feelings of joy, sadness, or worry",
-                    "vi": "cảm xúc vui, buồn hay lo lắng của nhân vật"
+                    "en": "others' perspectives",
+                    "vi": "góc nhìn của người khác"
                   },
                   {
-                    "en": "empathize with others",
-                    "vi": "đồng cảm với người khác"
+                    "en": "moral values",
+                    "vi": "giá trị đạo đức"
                   },
                   {
-                    "en": "absorb meaningful moral lessons",
-                    "vi": "bài học đạo đức ý nghĩa"
-                  },
-                  {
-                    "en": "friendship and kindness",
-                    "vi": "tình bạn, lòng tốt"
-                  },
-                  {
-                    "en": "healthier social-emotional development",
-                    "vi": "phát triển kỹ năng cảm xúc - xã hội lành mạnh hơn"
+                    "en": "emotional intelligence",
+                    "vi": "trí tuệ cảm xúc"
                   }
                 ],
                 "point_vi": "Đọc sách tranh giúp nuôi dưỡng trí tuệ cảm xúc và sự thấu cảm ở trẻ nhỏ.",
                 "point_en": "Reading picture books helps foster emotional intelligence and empathy in young children.",
-                "evidence_vi": "Thông qua các biểu cảm khuôn mặt sinh động trên tranh vẽ và tình huống trong truyện, trẻ dễ dàng nhận diện được cảm xúc vui, buồn hay lo lắng của nhân vật. Điều này giúp trẻ học cách đồng cảm với người khác và rút ra những bài học đạo đức ý nghĩa về tình bạn, lòng tốt. Nhờ đó, trẻ phát triển kỹ năng cảm xúc - xã hội lành mạnh hơn.",
-                "evidence_en": "Through vivid facial expressions in illustrations and story situations, children can easily recognize characters' feelings of joy, sadness, or worry. This helps them learn to empathize with others and absorb meaningful moral lessons about friendship and kindness. Consequently, children achieve healthier social-emotional development.",
+                "evidence_vi": "Thông qua biểu cảm khuôn mặt sinh động trên tranh vẽ và các tình huống gần gũi, trẻ dễ dàng nhận diện cảm xúc vui, buồn hay lo lắng của nhân vật. Điều này giúp trẻ bước đầu hiểu góc nhìn của người khác và học cách chia sẻ khi bạn bè gặp khó khăn. Ví dụ, những câu chuyện về tình bạn, sự trung thực và lòng nhân ái truyền tải bài học đạo đức một cách nhẹ nhàng mà không cần răn dạy khô khan. Nhờ đó, trẻ dần hình thành trí tuệ cảm xúc lành mạnh và ứng xử nhân văn hơn trong cuộc sống.",
+                "evidence_en": "Through expressive facial features in illustrations and relatable story dilemmas, children easily recognize feelings such as joy, sadness, or fear. This helps young readers understand others' perspectives and learn how to show kindness when peers face difficulties. For example, tales about friendship, honesty, and generosity convey meaningful moral values gently without sounding preachy. Consequently, picture books nurture strong emotional intelligence and healthier social behavior.",
                 "point_collocations": [
                   {
                     "en": "read picture books",
@@ -43580,36 +43140,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "vivid facial expressions in illustrations",
-                      "vi": "biểu cảm khuôn mặt sinh động trên tranh vẽ"
+                      "en": "expressive facial features",
+                      "vi": "biểu cảm khuôn mặt sinh động"
                     },
                     {
-                      "en": "easily recognize",
-                      "vi": "dễ dàng nhận diện được"
-                    },
-                    {
-                      "en": "characters' feelings of joy, sadness, or worry",
-                      "vi": "cảm xúc vui, buồn hay lo lắng của nhân vật"
+                      "en": "story dilemmas",
+                      "vi": "tình huống khó xử trong truyện"
                     }
                   ],
                   [
                     {
-                      "en": "empathize with others",
-                      "vi": "đồng cảm với người khác"
-                    },
-                    {
-                      "en": "absorb meaningful moral lessons",
-                      "vi": "bài học đạo đức ý nghĩa"
-                    },
-                    {
-                      "en": "friendship and kindness",
-                      "vi": "tình bạn, lòng tốt"
+                      "en": "others' perspectives",
+                      "vi": "góc nhìn của người khác"
                     }
                   ],
                   [
                     {
-                      "en": "healthier social-emotional development",
-                      "vi": "phát triển kỹ năng cảm xúc - xã hội lành mạnh hơn"
+                      "en": "moral values",
+                      "vi": "giá trị đạo đức"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional intelligence",
+                      "vi": "trí tuệ cảm xúc"
                     }
                   ]
                 ]
@@ -43630,46 +43184,30 @@ const ESSAY_DATA = [
                     "vi": "giữa cha mẹ và con cái"
                   },
                   {
-                    "en": "spend time reading picture books",
-                    "vi": "dành thời gian đọc ... tranh"
+                    "en": "read aloud",
+                    "vi": "đọc thành tiếng"
                   },
                   {
-                    "en": "discuss the illustrations",
-                    "vi": "trò chuyện về các bức"
+                    "en": "high-quality interaction",
+                    "vi": "tương tác chất lượng cao"
                   },
                   {
-                    "en": "enjoy warm and meaningful interaction",
-                    "vi": "có những giây phút tương tác gần gũi và ấm áp"
+                    "en": "voice thoughts openly",
+                    "vi": "bày tỏ suy nghĩ cởi mở"
                   },
                   {
-                    "en": "feel comfortable",
-                    "vi": "thoải mái"
+                    "en": "nightly reading ritual",
+                    "vi": "thói quen đọc sách hằng đêm"
                   },
                   {
-                    "en": "ask questions",
-                    "vi": "đặt câu hỏi"
-                  },
-                  {
-                    "en": "share their thoughts with their parents",
-                    "vi": "chia sẻ suy nghĩ của mình với cha mẹ"
-                  },
-                  {
-                    "en": "provide children with",
-                    "vi": "mang lại cho trẻ"
-                  },
-                  {
-                    "en": "a strong sense of emotional security",
-                    "vi": "cảm giác an toàn về ... tâm lý"
-                  },
-                  {
-                    "en": "build closer family relationships",
-                    "vi": "xây dựng mối quan hệ gia đình bền chặt"
+                    "en": "parent-child bonds",
+                    "vi": "sự gắn kết cha mẹ và con cái"
                   }
                 ],
                 "point_vi": "Hoạt động cùng đọc sách tranh giúp thắt chặt tình cảm giữa cha mẹ và con cái.",
                 "point_en": "Shared picture book reading strengthens emotional bonding between parents and children.",
-                "evidence_vi": "Khi cha mẹ dành thời gian đọc truyện tranh và cùng con trò chuyện về các bức hình, hai bên sẽ có những giây phút tương tác gần gũi và ấm áp. Trẻ có thể thoải mái đặt câu hỏi và chia sẻ suy nghĩ của mình với cha mẹ. Điều này mang lại cho trẻ cảm giác an toàn về mặt tâm lý và xây dựng mối quan hệ gia đình bền chặt.",
-                "evidence_en": "When parents spend time reading picture books and discussing the illustrations with their children, both sides enjoy warm and meaningful interaction. Children feel comfortable asking questions and sharing their thoughts with their parents. This provides children with a strong sense of emotional security and builds closer family relationships.",
+                "evidence_vi": "Khi cha mẹ dành thời gian đọc sách tranh và cùng con trò chuyện về các bức vẽ, cả hai có những phút giây tương tác chất lượng và ấm áp. Trong bầu không khí gần gũi đó, trẻ cảm thấy thoải mái đặt câu hỏi, bày tỏ suy nghĩ và lắng nghe giọng nói dịu dàng của cha mẹ. Chẳng hạn, thói quen cùng nhau đọc truyện 15 phút mỗi tối giúp xóa tan mệt mỏi và tạo nên những kỷ niệm tuổi thơ khó quên. Sự đồng hành đều đặn này mang lại cho trẻ cảm giác an toàn tâm lý và thắt chặt mối gắn kết gia đình bền vững.",
+                "evidence_en": "When parents spend time reading picture books aloud and discussing the illustrations with their children, both share warm, high-quality interaction. Within this comforting setting, kids feel encouraged to ask curious questions and voice their thoughts openly. For instance, a 15-minute nightly reading ritual helps families unwind together and creates cherished childhood memories. Such regular shared moments foster deep emotional security and strengthen lasting parent-child bonds.",
                 "point_collocations": [
                   {
                     "en": "shared picture book reading",
@@ -43687,44 +43225,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "spend time reading picture books",
-                      "vi": "dành thời gian đọc ... tranh"
+                      "en": "read aloud",
+                      "vi": "đọc thành tiếng"
                     },
                     {
-                      "en": "discuss the illustrations",
-                      "vi": "trò chuyện về các bức"
-                    },
-                    {
-                      "en": "enjoy warm and meaningful interaction",
-                      "vi": "có những giây phút tương tác gần gũi và ấm áp"
+                      "en": "high-quality interaction",
+                      "vi": "tương tác chất lượng cao"
                     }
                   ],
                   [
                     {
-                      "en": "feel comfortable",
-                      "vi": "thoải mái"
-                    },
-                    {
-                      "en": "ask questions",
-                      "vi": "đặt câu hỏi"
-                    },
-                    {
-                      "en": "share their thoughts with their parents",
-                      "vi": "chia sẻ suy nghĩ của mình với cha mẹ"
+                      "en": "voice thoughts openly",
+                      "vi": "bày tỏ suy nghĩ cởi mở"
                     }
                   ],
                   [
                     {
-                      "en": "provide children with",
-                      "vi": "mang lại cho trẻ"
-                    },
+                      "en": "nightly reading ritual",
+                      "vi": "thói quen đọc sách hằng đêm"
+                    }
+                  ],
+                  [
                     {
-                      "en": "a strong sense of emotional security",
-                      "vi": "cảm giác an toàn về ... tâm lý"
-                    },
-                    {
-                      "en": "build closer family relationships",
-                      "vi": "xây dựng mối quan hệ gia đình bền chặt"
+                      "en": "parent-child bonds",
+                      "vi": "sự gắn kết cha mẹ và con cái"
                     }
                   ]
                 ]
@@ -53206,8 +52730,8 @@ const ESSAY_DATA = [
                     "vi": "phát triển các kỹ năng thực tế thiết yếu"
                   }
                 ],
-                "evidence_vi": "Họ có cơ hội cải thiện kỹ năng giao tiếp với nhiều đối tượng khác nhau trong xã hội. Hơn nữa, người tham gia rèn luyện khả năng làm việc nhóm và phối hợp hiệu quả trong các tình huống thực tế. Kết quả là, họ có thể nâng cao kỹ năng giải quyết vấn đề và tự tin ứng phó với các tình huống bất ngờ trong công việc tương lai.",
-                "evidence_en": "They have opportunities to improve communication skills with people from different backgrounds. Furthermore, participants develop teamwork and effective cooperation in real-life situations. As a result, they can strengthen problem-solving skills and handle unexpected situations with confidence in their future careers.",
+                "evidence_vi": "Người tham gia có nhiều cơ hội thực tế để rèn luyện kỹ năng giao tiếp khi tiếp xúc với những đối tượng đa dạng về độ tuổi và hoàn cảnh. Hơn nữa, việc cùng triển khai các chiến dịch cộng đồng đòi hỏi họ phải biết lập kế hoạch, phân chia nhiệm vụ và phối hợp nhóm nhịp nhàng. Ví dụ, sinh viên tình nguyện tổ chức lớp học miễn phí hoặc ngày hội hiến máu thường học được cách quản lý thời gian và xử lý sự cố linh hoạt. Những năng lực thực tiễn quý báu này giúp họ tự tin hơn rất nhiều khi bước vào môi trường làm việc chuyên nghiệp.",
+                "evidence_en": "Participants gain hands-on opportunities to sharpen communication skills while interacting with people of diverse ages and backgrounds. Furthermore, organizing community initiatives requires careful planning, task delegation, and seamless teamwork. For example, student volunteers running free tutoring classes or blood drives learn to manage schedules and resolve unexpected challenges effectively. These practical competencies make them far more adaptable and confident in their future professional careers.",
                 "collocations": [
                   {
                     "en": "community service",
@@ -53222,71 +52746,61 @@ const ESSAY_DATA = [
                     "vi": "phát triển các kỹ năng thực tế thiết yếu"
                   },
                   {
-                    "en": "have opportunities",
-                    "vi": "có cơ hội"
+                    "en": "hands-on opportunities",
+                    "vi": "cơ hội thực tế"
                   },
                   {
-                    "en": "improve communication skills",
-                    "vi": "cải thiện kỹ năng giao tiếp"
+                    "en": "diverse backgrounds",
+                    "vi": "nhiều hoàn cảnh khác nhau"
                   },
                   {
-                    "en": "people from different backgrounds",
-                    "vi": "nhiều đối tượng khác nhau"
+                    "en": "task delegation",
+                    "vi": "phân công nhiệm vụ"
                   },
                   {
-                    "en": "develop teamwork and effective cooperation",
-                    "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                    "en": "seamless teamwork",
+                    "vi": "làm việc nhóm nhịp nhàng"
                   },
                   {
-                    "en": "strengthen problem-solving skills",
-                    "vi": "nâng cao kỹ năng giải quyết vấn đề"
+                    "en": "unexpected challenges",
+                    "vi": "thử thách bất ngờ"
                   },
                   {
-                    "en": "unexpected situations",
-                    "vi": "tình huống bất ngờ"
+                    "en": "practical competencies",
+                    "vi": "năng lực thực tiễn"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "have opportunities",
-                      "vi": "có cơ hội"
+                      "en": "hands-on opportunities",
+                      "vi": "cơ hội thực tế"
                     },
                     {
-                      "en": "improve communication skills",
-                      "vi": "cải thiện kỹ năng giao tiếp"
-                    },
-                    {
-                      "en": "people from different backgrounds",
-                      "vi": "nhiều đối tượng khác nhau"
+                      "en": "diverse backgrounds",
+                      "vi": "nhiều hoàn cảnh khác nhau"
                     }
                   ],
                   [
                     {
-                      "en": "develop teamwork and effective cooperation",
-                      "vi": "rèn luyện làm việc nhóm và phối hợp hiệu quả"
+                      "en": "task delegation",
+                      "vi": "phân công nhiệm vụ"
                     },
                     {
-                      "en": "develop teamwork",
-                      "vi": "rèn luyện làm việc nhóm"
-                    },
-                    {
-                      "en": "effective cooperation",
-                      "vi": "phối hợp hiệu quả"
+                      "en": "seamless teamwork",
+                      "vi": "làm việc nhóm nhịp nhàng"
                     }
                   ],
                   [
                     {
-                      "en": "strengthen problem-solving skills",
-                      "vi": "nâng cao kỹ năng giải quyết vấn đề"
-                    },
+                      "en": "unexpected challenges",
+                      "vi": "thử thách bất ngờ"
+                    }
+                  ],
+                  [
                     {
-                      "en": "handle unexpected situations",
-                      "vi": "xử lý các tình huống bất ngờ"
-                    },
-                    {
-                      "en": "unexpected situations",
-                      "vi": "tình huống bất ngờ"
+                      "en": "practical competencies",
+                      "vi": "năng lực thực tiễn"
                     }
                   ]
                 ]
@@ -53309,67 +52823,61 @@ const ESSAY_DATA = [
                     "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
                   }
                 ],
-                "evidence_vi": "Người tham gia được gặp gỡ những người từ nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau. Thêm vào đó, việc cùng nhau thực hiện các dự án từ thiện giúp họ xây dựng tình bạn và sự gắn kết lâu dài. Vì vậy, việc tạo thêm các mối quan hệ hữu ích này sẽ hỗ trợ đắc lực cho học tập và sự nghiệp sau này.",
-                "evidence_en": "Participants meet people from different backgrounds, age groups, and professions. In addition, collaborating on charity projects helps them build friendships and lasting connections. Therefore, establishing these useful relationships can greatly benefit their future study and work.",
+                "evidence_vi": "Thông qua các dự án thiện nguyện, mỗi cá nhân có dịp gặp gỡ nhiều người đến từ các ngành nghề, độ tuổi và môi trường sống khác nhau. Việc cùng chung tay hướng tới một mục tiêu nhân văn tạo ra sự tin tưởng tự nhiên và xây dựng nên những tình bạn bền chặt. Chẳng hạn, nhiều tình nguyện viên trẻ đã tìm thấy người cố vấn nghề nghiệp hoặc đối tác tiềm năng ngay trong các câu lạc bộ cộng đồng. Mạng lưới quan hệ tích cực này mang lại nhiều cơ hội hỗ trợ quý giá cho cả việc học tập lẫn sự nghiệp sau này.",
+                "evidence_en": "Through charitable projects, individuals encounter peers and professionals from varied occupations, generations, and walks of life. Working side by side toward a shared humanitarian goal naturally builds trust and lasting friendships. For instance, many young volunteers meet supportive mentors or future career contacts while serving in local civic groups. Expanding such a positive social network provides valuable guidance and opportunities for future study and employment.",
                 "collocations": [
                   {
                     "en": "engaging in volunteer work",
                     "vi": "tham gia hoạt động tình nguyện"
                   },
                   {
+                    "en": "allow individuals",
+                    "vi": "giúp mỗi cá nhân"
+                  },
+                  {
                     "en": "significantly expand social networks",
                     "vi": "mở rộng mạng lưới quan hệ xã hội một cách tích cực"
                   },
                   {
-                    "en": "meet people from different backgrounds",
-                    "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
+                    "en": "walks of life",
+                    "vi": "các tầng lớp xã hội"
                   },
                   {
-                    "en": "different backgrounds, age groups, and professions",
-                    "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                    "en": "humanitarian goal",
+                    "vi": "mục tiêu nhân văn"
                   },
                   {
-                    "en": "build friendships and lasting connections",
-                    "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
+                    "en": "supportive mentors",
+                    "vi": "người cố vấn tận tâm"
                   },
                   {
-                    "en": "establishing useful relationships",
-                    "vi": "tạo thêm các mối quan hệ hữu ích"
-                  },
-                  {
-                    "en": "benefit future study and work",
-                    "vi": "hỗ trợ cho học tập và công việc sau này"
+                    "en": "positive social network",
+                    "vi": "mạng lưới quan hệ xã hội tích cực"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "meet people from different backgrounds",
-                      "vi": "gặp gỡ những người từ nhiều hoàn cảnh khác nhau"
-                    },
-                    {
-                      "en": "different backgrounds, age groups, and professions",
-                      "vi": "nhiều hoàn cảnh, độ tuổi và nghề nghiệp khác nhau"
+                      "en": "walks of life",
+                      "vi": "các tầng lớp xã hội"
                     }
                   ],
                   [
                     {
-                      "en": "build friendships and lasting connections",
-                      "vi": "xây dựng tình bạn và sự gắn kết lâu dài"
-                    },
-                    {
-                      "en": "collaborating on charity projects",
-                      "vi": "cùng nhau thực hiện các dự án từ thiện"
+                      "en": "humanitarian goal",
+                      "vi": "mục tiêu nhân văn"
                     }
                   ],
                   [
                     {
-                      "en": "establishing useful relationships",
-                      "vi": "tạo thêm các mối quan hệ hữu ích"
-                    },
+                      "en": "supportive mentors",
+                      "vi": "người cố vấn tận tâm"
+                    }
+                  ],
+                  [
                     {
-                      "en": "benefit future study and work",
-                      "vi": "hỗ trợ cho học tập và công việc sau này"
+                      "en": "positive social network",
+                      "vi": "mạng lưới quan hệ xã hội tích cực"
                     }
                   ]
                 ]
@@ -53392,67 +52900,69 @@ const ESSAY_DATA = [
                     "vi": "cải thiện sức khỏe tinh thần của người tham gia"
                   }
                 ],
-                "evidence_vi": "Việc giúp đỡ người khác mang lại cảm giác hạnh phúc và thỏa nguyện, giúp mỗi người tìm thấy ý nghĩa và mục tiêu sống tích cực hơn. Hơn nữa, việc tham gia vào các hoạt động tập thể ý nghĩa cho phép họ tạm gác lại những căng thẳng thường nhật. Do đó, những trải nghiệm này giúp giải tỏa áp lực hiệu quả và giảm bớt cảm giác cô đơn.",
-                "evidence_en": "Helping others brings a profound sense of happiness and satisfaction, enabling individuals to find greater meaning and purpose in life. Furthermore, taking part in meaningful collective activities allows them to set aside daily pressures. Consequently, these experiences help relieve stress effectively and alleviate feelings of loneliness.",
+                "evidence_vi": "Việc trực tiếp mang lại niềm vui và sự hỗ trợ cho người khác tạo ra cảm giác hạnh phúc, tự hào và mục đích sống rõ ràng hơn. Đồng thời, hòa mình vào các hoạt động tập thể lành mạnh giúp người tham gia tạm gác lại áp lực công việc, bài vở và những lo âu thường nhật. Ví dụ, dành vài giờ cuối tuần chăm sóc người cao tuổi hoặc trồng cây xanh giúp tinh thần thư thái và giảm rõ rệt cảm giác cô đơn. Chính nguồn năng lượng tích cực này góp phần bảo vệ sức khỏe tinh thần và nâng cao sự hài lòng trong cuộc sống.",
+                "evidence_en": "Directly helping those in need generates a deep sense of fulfillment, pride, and clearer personal purpose. Meanwhile, engaging in meaningful group efforts allows volunteers to step away from daily academic or workplace pressures. For example, spending a few weekend hours assisting elderly residents or planting trees noticeably lifts mood and eases feelings of loneliness. This uplifting emotional reward plays a vital role in strengthening mental health and overall life satisfaction.",
                 "collocations": [
                   {
                     "en": "voluntary activities",
                     "vi": "các hoạt động công ích, tình nguyện"
                   },
                   {
+                    "en": "contribute substantially to",
+                    "vi": "mang lại những lợi ích to lớn cho"
+                  },
+                  {
                     "en": "improving participants' mental well-being",
                     "vi": "cải thiện sức khỏe tinh thần của người tham gia"
                   },
                   {
-                    "en": "profound sense of happiness and satisfaction",
-                    "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
+                    "en": "sense of fulfillment",
+                    "vi": "cảm giác thỏa mãn / viên mãn"
                   },
                   {
-                    "en": "find greater meaning and purpose in life",
-                    "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                    "en": "workplace pressures",
+                    "vi": "áp lực công việc"
                   },
                   {
-                    "en": "meaningful activities",
-                    "vi": "các hoạt động ý nghĩa"
+                    "en": "lift mood",
+                    "vi": "cải thiện tâm trạng"
                   },
                   {
-                    "en": "relieve stress effectively",
-                    "vi": "giải tỏa căng thẳng hiệu quả"
+                    "en": "ease loneliness",
+                    "vi": "giảm cảm giác cô đơn"
                   },
                   {
-                    "en": "alleviate feelings of loneliness",
-                    "vi": "giảm bớt cảm giác cô đơn"
+                    "en": "emotional reward",
+                    "vi": "giá trị tinh thần nhận lại"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "profound sense of happiness and satisfaction",
-                      "vi": "cảm giác hạnh phúc và thỏa nguyện sâu sắc"
-                    },
-                    {
-                      "en": "find greater meaning and purpose in life",
-                      "vi": "tìm thấy ý nghĩa và mục tiêu sống tích cực hơn"
+                      "en": "sense of fulfillment",
+                      "vi": "cảm giác thỏa mãn / viên mãn"
                     }
                   ],
                   [
                     {
-                      "en": "taking part in meaningful activities",
-                      "vi": "tham gia các hoạt động ý nghĩa"
-                    },
-                    {
-                      "en": "set aside daily pressures",
-                      "vi": "tạm gác lại áp lực thường nhật"
+                      "en": "workplace pressures",
+                      "vi": "áp lực công việc"
                     }
                   ],
                   [
                     {
-                      "en": "relieve stress effectively",
-                      "vi": "giải tỏa căng thẳng hiệu quả"
+                      "en": "lift mood",
+                      "vi": "cải thiện tâm trạng"
                     },
                     {
-                      "en": "alleviate feelings of loneliness",
-                      "vi": "giảm bớt cảm giác cô đơn"
+                      "en": "ease loneliness",
+                      "vi": "giảm cảm giác cô đơn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional reward",
+                      "vi": "giá trị tinh thần nhận lại"
                     }
                   ]
                 ]
@@ -53471,63 +52981,65 @@ const ESSAY_DATA = [
                     "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
                   }
                 ],
-                "evidence_vi": "Người tham gia học cách chịu trách nhiệm với công việc được giao khi hoạt động trong môi trường tập thể. Bên cạnh đó, việc tiếp xúc thực tế giúp họ thấu hiểu rõ hơn những khó khăn của các nhóm yếu thế trong xã hội. Nhờ đó, họ trở nên chủ động đóng góp và luôn sẵn sàng hỗ trợ cộng đồng khi cần thiết.",
-                "evidence_en": "Participants learn to take responsibility for assigned tasks when working in a team environment. In addition, firsthand exposure helps them understand the challenges faced by disadvantaged groups more deeply. As a result, they become willing to contribute proactively and support the community whenever needed.",
+                "evidence_vi": "Khi đảm nhận các nhiệm vụ cụ thể trong tổ chức tình nguyện, mỗi cá nhân học cách tuân thủ cam kết và chịu trách nhiệm với công việc chung. Bên cạnh đó, việc tiếp xúc trực tiếp với những mảnh đời khó khăn giúp họ mở rộng lòng thấu cảm và nhận thức rõ hơn các vấn đề xã hội. Chẳng hạn, học sinh tham gia phát quà cho trẻ em vùng sâu thường biết trân trọng cuộc sống hơn và bớt ích kỷ trong cách ứng xử hằng ngày. Từ đó, các em trưởng thành thành những công dân có trách nhiệm và luôn chủ động đóng góp cho xã hội.",
+                "evidence_en": "Taking on defined roles within volunteer groups teaches individuals to honor commitments and stay accountable to a team. Moreover, firsthand contact with disadvantaged people deepens empathy and raises awareness of pressing social issues. For instance, students who deliver supplies to underprivileged children often become more grateful and considerate in everyday life. Ultimately, such experiences shape responsible citizens who proactively contribute to the common good.",
                 "collocations": [
                   {
                     "en": "participating in community service",
-                    "vi": "tham gia công tác cộng đồng"
+                    "vi": "tham gia tình nguyện công tác cộng đồng"
                   },
                   {
                     "en": "fosters a strong sense of civic responsibility",
                     "vi": "hình thành tinh thần trách nhiệm sâu sắc đối với cộng đồng"
                   },
                   {
-                    "en": "take responsibility for assigned tasks",
-                    "vi": "chịu trách nhiệm với công việc được giao"
+                    "en": "honor commitments",
+                    "vi": "giữ đúng cam kết"
                   },
                   {
-                    "en": "understand challenges faced by disadvantaged groups",
-                    "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
+                    "en": "stay accountable",
+                    "vi": "có tinh thần trách nhiệm"
                   },
                   {
-                    "en": "contribute proactively",
-                    "vi": "chủ động đóng góp"
+                    "en": "pressing social issues",
+                    "vi": "các vấn đề xã hội cấp bách"
                   },
                   {
-                    "en": "support the community whenever needed",
-                    "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                    "en": "underprivileged children",
+                    "vi": "trẻ em có hoàn cảnh khó khăn"
+                  },
+                  {
+                    "en": "the common good",
+                    "vi": "lợi ích chung của cộng đồng"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "take responsibility for assigned tasks",
-                      "vi": "chịu trách nhiệm với công việc được giao"
+                      "en": "honor commitments",
+                      "vi": "giữ đúng cam kết"
                     },
                     {
-                      "en": "take responsibility",
-                      "vi": "chịu trách nhiệm"
+                      "en": "stay accountable",
+                      "vi": "có tinh thần trách nhiệm"
                     }
                   ],
                   [
                     {
-                      "en": "understand challenges faced by disadvantaged groups",
-                      "vi": "thấu hiểu khó khăn của các nhóm yếu thế"
-                    },
-                    {
-                      "en": "disadvantaged groups",
-                      "vi": "các nhóm yếu thế"
+                      "en": "pressing social issues",
+                      "vi": "các vấn đề xã hội cấp bách"
                     }
                   ],
                   [
                     {
-                      "en": "contribute proactively",
-                      "vi": "chủ động đóng góp"
-                    },
+                      "en": "underprivileged children",
+                      "vi": "trẻ em có hoàn cảnh khó khăn"
+                    }
+                  ],
+                  [
                     {
-                      "en": "support the community whenever needed",
-                      "vi": "sẵn sàng hỗ trợ cộng đồng khi cần thiết"
+                      "en": "the common good",
+                      "vi": "lợi ích chung của cộng đồng"
                     }
                   ]
                 ]
@@ -53550,71 +53062,77 @@ const ESSAY_DATA = [
                     "vi": "đời sống cộng đồng"
                   }
                 ],
-                "evidence_vi": "Các hoạt động này trực tiếp hỗ trợ nhu yếu phẩm và giáo dục cho những người có hoàn cảnh khó khăn. Bên cạnh đó, việc tham gia các chiến dịch bảo vệ môi trường như trồng cây hay dọn rác góp phần khôi phục cảnh quan công cộng. Kết quả là, những nỗ lực chung này trực tiếp cải thiện điều kiện sống và xây dựng cộng đồng tốt đẹp hơn.",
-                "evidence_en": "These initiatives directly provide essential supplies and educational support to disadvantaged people. Furthermore, participating in environmental activities such as tree planting and clean-up campaigns helps restore public spaces. Consequently, these collective efforts directly improve living conditions and build a better community.",
+                "evidence_vi": "Các chương trình cộng đồng không lương mang lại nguồn hỗ trợ thiết thực về lương thực, quần áo và giáo dục cho những nhóm yếu thế trong xã hội. Bên cạnh hỗ trợ con người, nhiều chiến dịch tình nguyện như nhặt rác bãi biển hay trồng rừng còn góp phần phục hồi môi trường sống xanh sạch. Chẳng hạn, lực lượng tình nguyện viên địa phương thường giúp tiết kiệm đáng kể ngân sách công trong việc chăm sóc không gian công cộng và cứu trợ khẩn cấp. Những nỗ lực bền bỉ này trực tiếp nâng cao chất lượng sống và xây dựng một xã hội nhân ái, gắn kết hơn.",
+                "evidence_en": "Unpaid community programs deliver tangible aid such as food, clothing, and free education to vulnerable populations. Beyond human welfare, environmental campaigns like beach clean-ups and urban tree planting help restore clean, attractive public spaces. For example, local volunteer teams substantially reduce public spending on park maintenance and emergency relief efforts. Together, these sustained contributions directly improve living standards and foster a kinder, more cohesive society.",
                 "collocations": [
                   {
                     "en": "volunteer initiatives",
-                    "vi": "các chương trình tình nguyện"
+                    "vi": "các chương trình, sáng kiến tình nguyện"
                   },
                   {
-                    "en": "generate lasting positive impacts",
-                    "vi": "tạo ra những tác động tích cực lâu dài"
+                    "en": "generate profound and lasting positive impacts",
+                    "vi": "tạo ra những tác động tích cực sâu sắc và lâu dài"
                   },
                   {
-                    "en": "provide essential supplies and educational support",
-                    "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                    "en": "community life",
+                    "vi": "đời sống cộng đồng"
                   },
                   {
-                    "en": "disadvantaged people",
-                    "vi": "người có hoàn cảnh khó khăn"
+                    "en": "tangible aid",
+                    "vi": "sự hỗ trợ thiết thực"
                   },
                   {
-                    "en": "environmental activities",
-                    "vi": "các hoạt động môi trường"
+                    "en": "vulnerable populations",
+                    "vi": "nhóm dân cư dễ bị tổn thương"
                   },
                   {
-                    "en": "tree planting and clean-up campaigns",
-                    "vi": "chiến dịch trồng cây và dọn rác"
+                    "en": "urban tree planting",
+                    "vi": "trồng cây xanh đô thị"
                   },
                   {
-                    "en": "improve living conditions",
-                    "vi": "cải thiện điều kiện sống"
+                    "en": "public spending",
+                    "vi": "ngân sách công"
                   },
                   {
-                    "en": "build a better community",
-                    "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                    "en": "emergency relief",
+                    "vi": "cứu trợ khẩn cấp"
+                  },
+                  {
+                    "en": "cohesive society",
+                    "vi": "xã hội gắn kết"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "provide essential supplies and educational support",
-                      "vi": "cung cấp nhu yếu phẩm và hỗ trợ giáo dục"
+                      "en": "tangible aid",
+                      "vi": "sự hỗ trợ thiết thực"
                     },
                     {
-                      "en": "disadvantaged people",
-                      "vi": "người có hoàn cảnh khó khăn"
+                      "en": "vulnerable populations",
+                      "vi": "nhóm dân cư dễ bị tổn thương"
                     }
                   ],
                   [
                     {
-                      "en": "participating in environmental activities",
-                      "vi": "tham gia các hoạt động môi trường"
-                    },
-                    {
-                      "en": "tree planting and clean-up campaigns",
-                      "vi": "chiến dịch trồng cây và dọn rác"
+                      "en": "urban tree planting",
+                      "vi": "trồng cây xanh đô thị"
                     }
                   ],
                   [
                     {
-                      "en": "directly improve living conditions",
-                      "vi": "trực tiếp cải thiện điều kiện sống"
+                      "en": "public spending",
+                      "vi": "ngân sách công"
                     },
                     {
-                      "en": "build a better community",
-                      "vi": "xây dựng cộng đồng tốt đẹp hơn"
+                      "en": "emergency relief",
+                      "vi": "cứu trợ khẩn cấp"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cohesive society",
+                      "vi": "xã hội gắn kết"
                     }
                   ]
                 ]
@@ -80979,35 +80497,39 @@ const ESSAY_DATA = [
                     "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
                   }
                 ],
-                "evidence_vi": "Quá trình học tập bài bản giúp sinh viên nắm vững nguyên lý khoa học và làm chủ công nghệ tiên tiến. Nền tảng chuyên môn vững chắc này mở ra nhiều cơ hội thăng tiến nghề nghiệp và gia tăng năng lực cạnh tranh trên thị trường lao động.",
-                "evidence_en": "Systematic academic training enables students to master scientific principles and modern technologies. This solid competence unlocks attractive career advancement pathways and enhances competitiveness in the labor market.",
+                "evidence_vi": "Quá trình đào tạo bài bản tại trường học giúp người học nắm vững các nguyên lý khoa học cơ bản và làm chủ công nghệ hiện đại. Bên cạnh kiến thức lý thuyết, giáo dục còn rèn luyện những kỹ năng chuyên môn thiết yếu để đáp ứng yêu cầu khắt khe của nghề nghiệp. Ví dụ, sinh viên y khoa hoặc kỹ thuật phải trải qua nhiều năm học tập và thực hành để đủ năng lực hành nghề an toàn và hiệu quả. Chính nền tảng vững chắc này mở ra lộ trình thăng tiến hấp dẫn và nâng cao sức cạnh tranh trên thị trường lao động.",
+                "evidence_en": "Systematic academic training enables learners to master fundamental scientific principles and modern technologies. Alongside theoretical knowledge, education cultivates specialized practical skills required to meet demanding workplace standards. For example, medical and engineering students undergo years of rigorous study and practice to perform their professions safely and effectively. This solid competence unlocks rewarding career pathways and boosts competitiveness in the global job market.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "systematic academic training",
-                      "vi": "quá trình học tập bài bản"
-                    },
-                    {
-                      "en": "master scientific principles",
-                      "vi": "nắm vững nguyên lý khoa học"
-                    },
-                    {
-                      "en": "modern technologies",
-                      "vi": "công nghệ tiên tiến"
+                      "en": "fundamental principles",
+                      "vi": "nguyên lý cơ bản"
                     }
                   ],
                   [
                     {
-                      "en": "career advancement pathways",
-                      "vi": "cơ hội thăng tiến nghề nghiệp"
-                    },
+                      "en": "workplace standards",
+                      "vi": "tiêu chuẩn nơi làm việc"
+                    }
+                  ],
+                  [
                     {
-                      "en": "enhance competitiveness in the labor market",
-                      "vi": "gia tăng năng lực cạnh tranh trên thị trường lao động"
+                      "en": "rigorous study",
+                      "vi": "quá trình học tập khắt khe"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "rewarding career pathways",
+                      "vi": "lộ trình nghề nghiệp hấp dẫn"
                     }
                   ]
                 ],
                 "collocations": [
+                  {
+                    "en": "equip individuals with",
+                    "vi": "trang bị cho con người"
+                  },
                   {
                     "en": "profound academic knowledge",
                     "vi": "nền tảng tri thức chuyên sâu"
@@ -81017,12 +80539,20 @@ const ESSAY_DATA = [
                     "vi": "rèn luyện các kỹ năng chuyên môn cốt lõi"
                   },
                   {
-                    "en": "systematic academic training",
-                    "vi": "quá trình học tập bài bản"
+                    "en": "fundamental principles",
+                    "vi": "nguyên lý cơ bản"
                   },
                   {
-                    "en": "enhance competitiveness in the labor market",
-                    "vi": "gia tăng năng lực cạnh tranh trên thị trường lao động"
+                    "en": "workplace standards",
+                    "vi": "tiêu chuẩn nơi làm việc"
+                  },
+                  {
+                    "en": "rigorous study",
+                    "vi": "quá trình học tập khắt khe"
+                  },
+                  {
+                    "en": "rewarding career pathways",
+                    "vi": "lộ trình nghề nghiệp hấp dẫn"
                   }
                 ]
               },
@@ -81044,39 +80574,43 @@ const ESSAY_DATA = [
                     "vi": "giải quyết vấn đề phức tạp"
                   }
                 ],
-                "evidence_vi": "Người học được khuyến khích đặt câu hỏi, phân tích dữ liệu đa chiều và đánh giá độ tin cậy của thông tin trước khi đưa ra kết luận. Kỹ năng tư duy logic này giúp họ xử lý hiệu quả các tình huống khủng hoảng và thích ứng linh hoạt với những biến đổi xã hội.",
-                "evidence_en": "Learners are prompted to question assumptions, analyze multidimensional data, and evaluate factual reliability before drawing conclusions. This logical discernment enables individuals to navigate crises efficiently and adapt to rapid societal shifts.",
+                "evidence_vi": "Trong môi trường học đường, người học được khuyến khích đặt câu hỏi, phân tích dữ liệu đa chiều và kiểm chứng độ tin cậy của thông tin. Việc thường xuyên tranh luận học thuật và giải quyết bài toán thực tiễn giúp họ hình thành tư duy logic và khả năng phán đoán độc lập. Chẳng hạn, người có nền tảng giáo dục tốt dễ dàng nhận diện tin giả trên mạng xã hội thay vì tin theo cảm tính. Kỹ năng tư duy phản biện sắc bén này giúp mỗi cá nhân xử lý khủng hoảng hiệu quả và thích nghi linh hoạt trước biến động xã hội.",
+                "evidence_en": "Within educational settings, learners are encouraged to question assumptions, analyze multidimensional data, and verify information reliability. Regular classroom debates and real-world case studies sharpen their logical reasoning and independent judgment. For instance, well-educated citizens are far more capable of spotting online misinformation rather than reacting blindly. This strong critical discernment empowers individuals to resolve complex challenges and adapt smoothly to rapid societal change.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "analyze multidimensional data",
-                      "vi": "phân tích dữ liệu đa chiều"
-                    },
-                    {
-                      "en": "evaluate factual reliability",
-                      "vi": "đánh giá độ tin cậy của thông tin"
-                    },
-                    {
-                      "en": "drawing conclusions",
-                      "vi": "đưa ra kết luận"
+                      "en": "verify information reliability",
+                      "vi": "kiểm chứng độ tin cậy của thông tin"
                     }
                   ],
                   [
                     {
-                      "en": "logical discernment",
-                      "vi": "kỹ năng tư duy logic"
+                      "en": "logical reasoning",
+                      "vi": "lập luận logic"
                     },
                     {
-                      "en": "navigate crises efficiently",
-                      "vi": "xử lý hiệu quả các tình huống khủng hoảng"
-                    },
+                      "en": "independent judgment",
+                      "vi": "phán đoán độc lập"
+                    }
+                  ],
+                  [
                     {
-                      "en": "adapt to rapid societal shifts",
-                      "vi": "thích ứng linh hoạt với những biến đổi xã hội"
+                      "en": "online misinformation",
+                      "vi": "thông tin sai lệch trên mạng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "critical discernment",
+                      "vi": "khả năng nhìn nhận phản biện sắc bén"
                     }
                   ]
                 ],
                 "collocations": [
+                  {
+                    "en": "educational environments",
+                    "vi": "môi trường giáo dục"
+                  },
                   {
                     "en": "foster rigorous critical thinking",
                     "vi": "thúc đẩy tư duy phản biện sắc bén"
@@ -81086,12 +80620,24 @@ const ESSAY_DATA = [
                     "vi": "giải quyết vấn đề phức tạp"
                   },
                   {
-                    "en": "analyze multidimensional data",
-                    "vi": "phân tích dữ liệu đa chiều"
+                    "en": "verify information reliability",
+                    "vi": "kiểm chứng độ tin cậy của thông tin"
                   },
                   {
-                    "en": "logical discernment",
-                    "vi": "kỹ năng tư duy logic"
+                    "en": "logical reasoning",
+                    "vi": "lập luận logic"
+                  },
+                  {
+                    "en": "independent judgment",
+                    "vi": "phán đoán độc lập"
+                  },
+                  {
+                    "en": "online misinformation",
+                    "vi": "thông tin sai lệch trên mạng"
+                  },
+                  {
+                    "en": "critical discernment",
+                    "vi": "khả năng nhìn nhận phản biện sắc bén"
                   }
                 ]
               },
@@ -81113,39 +80659,43 @@ const ESSAY_DATA = [
                     "vi": "thúc đẩy bình đẳng xã hội"
                   }
                 ],
-                "evidence_vi": "Việc trang bị kỹ năng chuyên môn mở ra cơ hội việc làm có thu nhập cao cho thanh niên thuộc các hoàn cảnh khó khăn. Nhờ phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ, giáo dục giúp nâng cao mức sống toàn diện và thu hẹp khoảng cách giàu nghèo.",
-                "evidence_en": "Gaining specialized skills unlocks remunerative employment for disadvantaged youths. By breaking generational cycles of deprivation, education elevates overall living standards and narrows socioeconomic inequality.",
+                "evidence_vi": "Việc tiếp cận giáo dục chất lượng trang bị cho thanh niên có hoàn cảnh khó khăn bằng cấp và kỹ năng để tìm được việc làm thu nhập tốt. Khi cải thiện được nguồn thu nhập ổn định, họ có khả năng chăm sóc sức khỏe tốt hơn và đầu tư ngược lại cho việc học của thế hệ sau. Ví dụ, nhiều chương trình học bổng đại học đã giúp con em các gia đình nông thôn nghèo vươn lên trở thành chuyên gia và doanh nhân thành đạt. Nhờ phá vỡ vòng luẩn quẩn đói nghèo qua nhiều thế hệ, giáo dục thúc đẩy bình đẳng và tiến bộ xã hội bền vững.",
+                "evidence_en": "Access to quality education equips youths from disadvantaged backgrounds with the credentials and skills needed for well-paid employment. Once they secure stable incomes, they can afford better healthcare and invest in their own children's schooling. For example, university scholarship programs have enabled countless students from rural low-income families to become successful professionals. By breaking generational cycles of poverty, education raises living standards and narrows socioeconomic inequality.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "gain specialized skills",
-                      "vi": "trang bị kỹ năng chuyên môn"
-                    },
-                    {
-                      "en": "remunerative employment",
-                      "vi": "việc làm có thu nhập cao"
-                    },
-                    {
-                      "en": "disadvantaged youths",
-                      "vi": "thanh niên thuộc các hoàn cảnh khó khăn"
+                      "en": "well-paid employment",
+                      "vi": "việc làm thu nhập tốt"
                     }
                   ],
                   [
                     {
-                      "en": "break generational cycles of deprivation",
-                      "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                      "en": "secure stable incomes",
+                      "vi": "đảm bảo thu nhập ổn định"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "scholarship programs",
+                      "vi": "chương trình học bổng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "generational cycles of poverty",
+                      "vi": "vòng luẩn quẩn đói nghèo qua các thế hệ"
                     },
                     {
-                      "en": "elevate living standards",
-                      "vi": "nâng cao mức sống toàn diện"
-                    },
-                    {
-                      "en": "narrow socioeconomic inequality",
-                      "vi": "thu hẹp khoảng cách giàu nghèo"
+                      "en": "socioeconomic inequality",
+                      "vi": "bất bình đẳng kinh tế xã hội"
                     }
                   ]
                 ],
                 "collocations": [
+                  {
+                    "en": "most potent instrument",
+                    "vi": "công cụ hiệu quả nhất"
+                  },
                   {
                     "en": "poverty alleviation",
                     "vi": "xóa đói giảm nghèo"
@@ -81155,12 +80705,24 @@ const ESSAY_DATA = [
                     "vi": "thúc đẩy bình đẳng xã hội"
                   },
                   {
-                    "en": "break generational cycles of deprivation",
-                    "vi": "phá vỡ vòng luẩn quẩn của sự nghèo túng qua các thế hệ"
+                    "en": "well-paid employment",
+                    "vi": "việc làm thu nhập tốt"
                   },
                   {
-                    "en": "narrow socioeconomic inequality",
-                    "vi": "thu hẹp khoảng cách giàu nghèo"
+                    "en": "secure stable incomes",
+                    "vi": "đảm bảo thu nhập ổn định"
+                  },
+                  {
+                    "en": "scholarship programs",
+                    "vi": "chương trình học bổng"
+                  },
+                  {
+                    "en": "generational cycles of poverty",
+                    "vi": "vòng luẩn quẩn đói nghèo qua các thế hệ"
+                  },
+                  {
+                    "en": "socioeconomic inequality",
+                    "vi": "bất bình đẳng kinh tế xã hội"
                   }
                 ]
               },
@@ -81178,27 +80740,39 @@ const ESSAY_DATA = [
                     "vi": "bồi dưỡng ý thức công dân tích cực"
                   }
                 ],
-                "evidence_vi": "Thông qua các hoạt động tập thể và giáo dục công dân, học sinh thấu hiểu sâu sắc về quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa. Nhận thức này giúp giảm thiểu bạo lực học đường và xây dựng một xã hội văn minh, thượng tôn pháp luật.",
-                "evidence_en": "Through civics curricula and collaborative projects, students gain profound insights into human rights, tolerance, and respect for diversity. Such heightened awareness curbs antisocial conduct and builds an equitable, law-abiding civil society.",
+                "evidence_vi": "Thông qua các môn giáo dục công dân, lịch sử và hoạt động nhóm, học sinh tiếp thu những chuẩn mực đạo đức nền tảng như trung thực và công bằng. Môi trường học tập đa dạng cũng giúp các em hiểu rõ về quyền con người, lòng khoan dung và sự tôn trọng khác biệt văn hóa. Chẳng hạn, các dự án cộng đồng tại trường học rèn luyện cho học sinh tinh thần bảo vệ môi trường và sẵn sàng giúp đỡ người yếu thế. Khi thế hệ trẻ trưởng thành với ý thức công dân cao, xã hội sẽ giảm bớt tệ nạn và trở nên văn minh, thượng tôn pháp luật hơn.",
+                "evidence_en": "Through civics lessons, history, and group activities, students internalize core ethical values such as honesty and fairness. Diverse school environments also teach them about human rights, tolerance, and respect for cultural differences. For instance, school-led community projects inspire learners to protect the environment and assist vulnerable citizens. When young generations grow up with strong civic consciousness, crime declines and society becomes more peaceful and law-abiding.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "civics curricula and collaborative projects",
-                      "vi": "các hoạt động tập thể và giáo dục công dân"
-                    },
-                    {
-                      "en": "human rights, tolerance, and diversity",
-                      "vi": "quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa"
+                      "en": "ethical values",
+                      "vi": "giá trị đạo đức"
                     }
                   ],
                   [
                     {
-                      "en": "curb antisocial conduct",
-                      "vi": "giảm thiểu bạo lực học đường"
+                      "en": "human rights",
+                      "vi": "quyền con người"
                     },
                     {
-                      "en": "build an equitable, law-abiding civil society",
-                      "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                      "en": "cultural differences",
+                      "vi": "khác biệt văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "community projects",
+                      "vi": "dự án cộng đồng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "civic consciousness",
+                      "vi": "ý thức công dân"
+                    },
+                    {
+                      "en": "law-abiding",
+                      "vi": "thượng tôn pháp luật"
                     }
                   ]
                 ],
@@ -81212,12 +80786,28 @@ const ESSAY_DATA = [
                     "vi": "bồi dưỡng ý thức công dân tích cực"
                   },
                   {
-                    "en": "human rights, tolerance, and diversity",
-                    "vi": "quyền con người, lòng khoan dung và sự tôn trọng tính đa dạng văn hóa"
+                    "en": "ethical values",
+                    "vi": "giá trị đạo đức"
                   },
                   {
-                    "en": "build an equitable, law-abiding civil society",
-                    "vi": "xây dựng một xã hội văn minh, thượng tôn pháp luật"
+                    "en": "human rights",
+                    "vi": "quyền con người"
+                  },
+                  {
+                    "en": "cultural differences",
+                    "vi": "khác biệt văn hóa"
+                  },
+                  {
+                    "en": "community projects",
+                    "vi": "dự án cộng đồng"
+                  },
+                  {
+                    "en": "civic consciousness",
+                    "vi": "ý thức công dân"
+                  },
+                  {
+                    "en": "law-abiding",
+                    "vi": "thượng tôn pháp luật"
                   }
                 ]
               },
@@ -81239,27 +80829,35 @@ const ESSAY_DATA = [
                     "vi": "thịnh vượng kinh tế quốc gia"
                   }
                 ],
-                "evidence_vi": "Đội ngũ chuyên gia và nhà nghiên cứu có trình độ cao liên tục phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá. Năng suất lao động gia tăng cùng sự phát triển của nền kinh tế tri thức tạo nền tảng vững chắc để quốc gia cạnh tranh toàn cầu.",
-                "evidence_en": "Highly qualified researchers and innovators continuously spearhead breakthrough technological applications and sustainable business models. Augmented labor productivity and the emergence of a knowledge-based economy establish strong foundations for global competitiveness.",
+                "evidence_vi": "Đội ngũ nhà khoa học, kỹ sư và nhà quản lý được đào tạo bài bản chính là nguồn lực cốt lõi tạo nên các phát minh đột phá. Họ không ngừng nghiên cứu công nghệ sạch, giải pháp tự động hóa và mô hình kinh doanh mới giúp nâng cao năng suất lao động toàn xã hội. Ví dụ, những quốc gia đầu tư mạnh vào đại học và nghiên cứu khoa học thường dẫn đầu thế giới về công nghệ cao và xuất khẩu giá trị lớn. Do đó, phát triển giáo dục chất lượng cao tạo nền tảng vững chắc cho nền kinh tế tri thức và sự thịnh vượng lâu dài.",
+                "evidence_en": "Well-trained scientists, engineers, and entrepreneurs serve as the driving force behind groundbreaking innovations. They continually develop clean technologies, automation tools, and efficient business models that boost national labor productivity. For example, nations investing heavily in universities and research centers consistently lead global markets in high-tech industries. Therefore, prioritizing quality education builds a resilient knowledge-based economy and ensures lasting national prosperity.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "spearhead breakthrough technological applications",
-                      "vi": "phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá"
+                      "en": "groundbreaking innovations",
+                      "vi": "những đổi mới đột phá"
                     }
                   ],
                   [
                     {
-                      "en": "augmented labor productivity",
-                      "vi": "năng suất lao động gia tăng"
-                    },
+                      "en": "labor productivity",
+                      "vi": "năng suất lao động"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "high-tech industries",
+                      "vi": "ngành công nghiệp công nghệ cao"
+                    }
+                  ],
+                  [
                     {
                       "en": "knowledge-based economy",
                       "vi": "nền kinh tế tri thức"
                     },
                     {
-                      "en": "global competitiveness",
-                      "vi": "cạnh tranh toàn cầu"
+                      "en": "national prosperity",
+                      "vi": "sự thịnh vượng quốc gia"
                     }
                   ]
                 ],
@@ -81273,12 +80871,28 @@ const ESSAY_DATA = [
                     "vi": "đổi mới công nghệ"
                   },
                   {
-                    "en": "spearhead breakthrough technological applications",
-                    "vi": "phát minh ra các giải pháp tự động hóa cùng mô hình kinh doanh mang tính đột phá"
+                    "en": "national economic prosperity",
+                    "vi": "thịnh vượng kinh tế quốc gia"
+                  },
+                  {
+                    "en": "groundbreaking innovations",
+                    "vi": "những đổi mới đột phá"
+                  },
+                  {
+                    "en": "labor productivity",
+                    "vi": "năng suất lao động"
+                  },
+                  {
+                    "en": "high-tech industries",
+                    "vi": "ngành công nghiệp công nghệ cao"
                   },
                   {
                     "en": "knowledge-based economy",
                     "vi": "nền kinh tế tri thức"
+                  },
+                  {
+                    "en": "national prosperity",
+                    "vi": "sự thịnh vượng quốc gia"
                   }
                 ]
               }
@@ -82156,31 +81770,39 @@ const ESSAY_DATA = [
                     "vi": "công tác cứu nạn khẩn cấp tức thì"
                   }
                 ],
-                "evidence_vi": "Khi thiên tai làm tắc nghẽn giao thông và cô lập các khu dân cư, chính những người láng giềng gần gũi là lực lượng ứng cứu nhanh nhất để sơ tán người mắc kẹt khỏi vùng nguy hiểm. Hành động kịp thời này giúp tận dụng khung giờ vàng cứu hộ quý giá và giảm thiểu tối đa thương vong về người.",
-                "evidence_en": "When catastrophic events disrupt transportation arteries and isolate residential pockets, nearby neighbors act as immediate responders to evacuate stranded individuals. Such rapid intervention capitalizes on critical golden rescue hours, substantially curtailing preventable fatalities.",
+                "evidence_vi": "Khi bão lớn, lũ quét hoặc động đất làm tắc nghẽn giao thông, lực lượng cứu hộ chuyên nghiệp thường không thể tiếp cận ngay các khu dân cư bị cô lập. Trong hoàn cảnh cấp bách đó, chính những người hàng xóm sát vách là lực lượng đầu tiên có mặt để đưa người già, trẻ nhỏ và người mắc kẹt đến nơi an toàn. Chẳng hạn, tại nhiều khu phố ngập sâu, cư dân địa phương đã nhanh chóng phối hợp dùng thuyền nhỏ để sơ tán các hộ gia đình sống ở tầng trệt. Sự ứng cứu tức thì trong khung giờ vàng này góp phần quan trọng giảm thiểu tối đa thương vong về người.",
+                "evidence_en": "When severe storms, flash floods, or earthquakes block major roads, professional rescue teams often cannot reach isolated neighborhoods immediately. In such urgent moments, nearby neighbors act as the very first responders, helping evacuate elderly residents, children, and trapped victims to safety. For instance, during severe urban flooding, local residents frequently coordinate small boats to move families out of ground-floor homes. Rapid on-site intervention during these golden rescue hours dramatically reduces preventable casualties.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "disrupt transportation arteries",
-                      "vi": "làm tắc nghẽn giao thông"
-                    },
-                    {
-                      "en": "isolate residential pockets",
-                      "vi": "cô lập các khu dân cư"
-                    },
-                    {
-                      "en": "evacuate stranded individuals",
-                      "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                      "en": "isolated neighborhoods",
+                      "vi": "khu dân cư bị cô lập"
                     }
                   ],
                   [
                     {
-                      "en": "critical golden rescue hours",
-                      "vi": "khung giờ vàng cứu hộ quý giá"
+                      "en": "first responders",
+                      "vi": "lực lượng ứng cứu đầu tiên"
                     },
                     {
-                      "en": "curtail preventable fatalities",
-                      "vi": "giảm thiểu tối đa thương vong về người"
+                      "en": "evacuate to safety",
+                      "vi": "sơ tán đến nơi an toàn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "urban flooding",
+                      "vi": "ngập lụt đô thị"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "golden rescue hours",
+                      "vi": "giờ vàng cứu hộ"
+                    },
+                    {
+                      "en": "preventable casualties",
+                      "vi": "thương vong có thể phòng tránh"
                     }
                   ]
                 ],
@@ -82194,12 +81816,32 @@ const ESSAY_DATA = [
                     "vi": "mạng lưới ứng phó tại chỗ"
                   },
                   {
-                    "en": "evacuate stranded individuals",
-                    "vi": "sơ tán người mắc kẹt khỏi vùng nguy hiểm"
+                    "en": "instant emergency rescue",
+                    "vi": "công tác cứu nạn khẩn cấp tức thì"
                   },
                   {
-                    "en": "curtail preventable fatalities",
-                    "vi": "giảm thiểu tối đa thương vong về người"
+                    "en": "isolated neighborhoods",
+                    "vi": "khu dân cư bị cô lập"
+                  },
+                  {
+                    "en": "first responders",
+                    "vi": "lực lượng ứng cứu đầu tiên"
+                  },
+                  {
+                    "en": "evacuate to safety",
+                    "vi": "sơ tán đến nơi an toàn"
+                  },
+                  {
+                    "en": "urban flooding",
+                    "vi": "ngập lụt đô thị"
+                  },
+                  {
+                    "en": "golden rescue hours",
+                    "vi": "giờ vàng cứu hộ"
+                  },
+                  {
+                    "en": "preventable casualties",
+                    "vi": "thương vong có thể phòng tránh"
                   }
                 ]
               },
@@ -82221,35 +81863,39 @@ const ESSAY_DATA = [
                     "vi": "hỗ trợ nhu yếu phẩm một cách công bằng"
                   }
                 ],
-                "evidence_vi": "Khi các chuỗi cung ứng thương mại bị đứt gãy hoàn toàn, việc láng giềng cùng nhau lập bếp ăn tập thể và san sẻ lương thực khô, máy phát điện cùng bông băng y tế có ý nghĩa sống còn. Sự tương trợ thiết thực này ngăn ngừa nguy cơ kiệt sức vì đói khát cho những người yếu thế trong cộng đồng.",
-                "evidence_en": "When commercial supply chains become severed, communal cooking initiatives and shared access to dry provisions, power generators, and medical dressings prove lifesaving. This pragmatic mutual aid prevents acute starvation and dehydration among vulnerable residents.",
+                "evidence_vi": "Thiên tai nghiêm trọng thường làm mất điện kéo dài và cắt đứt hoàn toàn chuỗi cung ứng lương thực, nước sạch tại địa phương. Khi tình làng nghĩa xóm gắn bó, các hộ gia đình sẵn sàng san sẻ lương khô, nước đóng chai, máy phát điện và thuốc men thiết yếu cho nhau. Ví dụ, nhiều khu dân cư đã tổ chức bếp ăn chung để nấu cơm nóng phân phát công bằng cho những nhà bị mất bếp hoặc ngập sâu. Sự tương trợ kịp thời này ngăn ngừa nguy cơ đói khát, mất nước và đảm bảo không ai bị bỏ lại phía sau.",
+                "evidence_en": "Major disasters frequently trigger prolonged power outages and sever local food and clean water supply chains. Where neighborhood bonds are strong, families willingly share dry rations, bottled water, backup generators, and essential medicines with one another. For example, many affected communities set up communal kitchens to cook warm meals for households whose homes are flooded. Such pragmatic mutual aid prevents hunger and dehydration while ensuring vulnerable neighbors are never left behind.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "commercial supply chains become severed",
-                      "vi": "chuỗi cung ứng thương mại bị đứt gãy hoàn toàn"
+                      "en": "power outages",
+                      "vi": "mất điện"
                     },
                     {
-                      "en": "communal cooking initiatives",
-                      "vi": "lập bếp ăn tập thể"
-                    },
-                    {
-                      "en": "shared access to dry provisions, power generators, and medical dressings",
-                      "vi": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế"
+                      "en": "supply chains",
+                      "vi": "chuỗi cung ứng"
                     }
                   ],
                   [
                     {
-                      "en": "pragmatic mutual aid",
-                      "vi": "sự tương trợ thiết thực"
+                      "en": "dry rations",
+                      "vi": "lương khô"
                     },
                     {
-                      "en": "acute starvation and dehydration",
-                      "vi": "nguy cơ kiệt sức vì đói khát"
-                    },
+                      "en": "backup generators",
+                      "vi": "máy phát điện dự phòng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "vulnerable residents",
-                      "vi": "những người yếu thế trong cộng đồng"
+                      "en": "communal kitchens",
+                      "vi": "bếp ăn tập thể"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "mutual aid",
+                      "vi": "sự tương trợ lẫn nhau"
                     }
                   ]
                 ],
@@ -82259,16 +81905,36 @@ const ESSAY_DATA = [
                     "vi": "tinh thần đoàn kết địa phương"
                   },
                   {
-                    "en": "communal cooking initiatives",
-                    "vi": "lập bếp ăn tập thể"
+                    "en": "equitable sharing of vital resources",
+                    "vi": "chia sẻ tài nguyên"
                   },
                   {
-                    "en": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế",
-                    "vi": "san sẻ lương thực khô, máy phát điện cùng bông băng y tế"
+                    "en": "relief provisions",
+                    "vi": "hỗ trợ nhu yếu phẩm một cách công bằng"
                   },
                   {
-                    "en": "acute starvation and dehydration",
-                    "vi": "nguy cơ kiệt sức vì đói khát"
+                    "en": "power outages",
+                    "vi": "mất điện"
+                  },
+                  {
+                    "en": "supply chains",
+                    "vi": "chuỗi cung ứng"
+                  },
+                  {
+                    "en": "dry rations",
+                    "vi": "lương khô"
+                  },
+                  {
+                    "en": "backup generators",
+                    "vi": "máy phát điện dự phòng"
+                  },
+                  {
+                    "en": "communal kitchens",
+                    "vi": "bếp ăn tập thể"
+                  },
+                  {
+                    "en": "mutual aid",
+                    "vi": "sự tương trợ lẫn nhau"
                   }
                 ]
               },
@@ -82290,35 +81956,39 @@ const ESSAY_DATA = [
                     "vi": "lan tỏa các cảnh báo an toàn kịp thời"
                   }
                 ],
-                "evidence_vi": "Trong điều kiện viễn thông tê liệt và cúp điện diện rộng, các kênh liên lạc truyền miệng giữa các gia đình giúp cập nhật nhanh mực nước lũ, điểm sạt lở nguy hiểm và vị trí cứu trợ an toàn. Việc nắm bắt thông tin thực địa chuẩn xác này giúp người dân chủ động phòng tránh rủi ro và điều hướng thoát hiểm an toàn.",
-                "evidence_en": "Amid widespread telecommunication blackouts, word-of-mouth relay among trusted neighbors relays real-time updates regarding surging waterlevels, landslide hazards, and safe evacuation zones. This accurate ground-level intelligence empowers residents to take preemptive precautions and navigate toward safe havens.",
+                "evidence_vi": "Trong điều kiện sóng điện thoại bị tê liệt và Internet mất kết nối diện rộng, các kênh cảnh báo trực tuyến thường trở nên vô hiệu. Lúc này, mạng lưới liên lạc trực tiếp và truyền miệng giữa các gia đình trong khu phố giúp cập nhật nhanh mực nước lũ, điểm sạt lở hay tuyến đường còn lưu thông. Chẳng hạn, người sống ở đầu ngõ hoặc gần bờ sông có thể lập tức báo động cho cả khu dân cư di dời tài sản và sơ tán sớm. Nguồn thông tin thực địa chuẩn xác này giúp người dân chủ động phòng tránh rủi ro và di chuyển đến nơi trú ẩn an toàn.",
+                "evidence_en": "During widespread telecommunication blackouts and Internet failures, official digital warning channels often stop working effectively. At such times, direct word-of-mouth relay among trusted neighbors rapidly spreads vital updates on rising floodwaters, landslides, and passable roads. For instance, residents living near riverbanks can immediately alert the entire block to move belongings upstairs and evacuate early. This reliable ground-level intelligence empowers households to take timely precautions and reach safe shelters.",
                 "evidence_collocations": [
                   [
                     {
                       "en": "telecommunication blackouts",
-                      "vi": "viễn thông tê liệt và cúp điện diện rộng"
-                    },
-                    {
-                      "en": "word-of-mouth relay",
-                      "vi": "kênh liên lạc truyền miệng"
-                    },
-                    {
-                      "en": "surging waterlevels, landslide hazards, and safe evacuation zones",
-                      "vi": "mực nước lũ, điểm sạt lở nguy hiểm và vị trí cứu trợ an toàn"
+                      "vi": "tê liệt mạng viễn thông"
                     }
                   ],
                   [
                     {
-                      "en": "accurate ground-level intelligence",
-                      "vi": "thông tin thực địa chuẩn xác"
+                      "en": "word-of-mouth relay",
+                      "vi": "truyền tin trực tiếp / truyền miệng"
                     },
                     {
-                      "en": "take preemptive precautions",
-                      "vi": "chủ động phòng tránh rủi ro"
+                      "en": "passable roads",
+                      "vi": "tuyến đường còn đi lại được"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evacuate early",
+                      "vi": "sơ tán sớm"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "ground-level intelligence",
+                      "vi": "thông tin thực địa"
                     },
                     {
-                      "en": "navigate toward safe havens",
-                      "vi": "điều hướng thoát hiểm an toàn"
+                      "en": "timely precautions",
+                      "vi": "biện pháp phòng ngừa kịp thời"
                     }
                   ]
                 ],
@@ -82332,12 +82002,32 @@ const ESSAY_DATA = [
                     "vi": "dòng chảy thông tin thông suốt"
                   },
                   {
-                    "en": "word-of-mouth relay",
-                    "vi": "kênh liên lạc truyền miệng"
+                    "en": "localized early warnings",
+                    "vi": "lan tỏa các cảnh báo an toàn kịp thời"
                   },
                   {
-                    "en": "take preemptive precautions",
-                    "vi": "chủ động phòng tránh rủi ro"
+                    "en": "telecommunication blackouts",
+                    "vi": "tê liệt mạng viễn thông"
+                  },
+                  {
+                    "en": "word-of-mouth relay",
+                    "vi": "truyền tin trực tiếp / truyền miệng"
+                  },
+                  {
+                    "en": "passable roads",
+                    "vi": "tuyến đường còn đi lại được"
+                  },
+                  {
+                    "en": "evacuate early",
+                    "vi": "sơ tán sớm"
+                  },
+                  {
+                    "en": "ground-level intelligence",
+                    "vi": "thông tin thực địa"
+                  },
+                  {
+                    "en": "timely precautions",
+                    "vi": "biện pháp phòng ngừa kịp thời"
                   }
                 ]
               },
@@ -82359,39 +82049,47 @@ const ESSAY_DATA = [
                     "vi": "cú sốc tinh thần sau thảm họa"
                   }
                 ],
-                "evidence_vi": "Việc mất mát người thân, nhà cửa và toàn bộ tài sản tích lũy dễ đẩy nạn nhân vào trạng thái trầm cảm và tuyệt vọng sâu sắc. Trong hoàn cảnh đó, sự hiện diện thân tình, những cái ôm sẻ chia và lời an ủi chân thành từ những người cùng cảnh ngộ giúp thắp lại niềm hy vọng sống và tiếp thêm sức mạnh nội tâm để hồi sinh.",
-                "evidence_en": "Severe loss of loved ones, shelter, and lifelong assets can plunge survivors into acute bereavement and hopelessness. In such grim circumstances, empathetic solidarity, shared tears, and genuine communal compassion rekindle optimism and furnish emotional resilience to rebuild devastated lives.",
+                "evidence_vi": "Việc chứng kiến nhà cửa hư hại, tài sản tích góp bị cuốn trôi hoặc mất người thân dễ đẩy nạn nhân vào trạng thái hoảng loạn và tuyệt vọng sâu sắc. Giữa hoàn cảnh ngặt nghèo đó, sự hiện diện thân tình, lời động viên chân thành và vòng tay sẻ chia của hàng xóm mang lại sự an ủi vô giá. Ví dụ, việc cùng nhau trò chuyện tại điểm trú ẩn tạm thời giúp các gia đình cảm thấy mình không hề đơn độc trước nghịch cảnh. Điểm tựa tinh thần vững chắc này giúp xoa dịu sang chấn tâm lý và tiếp thêm nghị lực để mọi người đứng dậy sau thảm họa.",
+                "evidence_en": "Witnessing damaged homes, lost lifelong assets, or bereavement can plunge disaster survivors into severe shock and hopelessness. Amid such distress, empathetic presence, sincere encouragement, and shared comfort from neighbors provide priceless emotional relief. For example, gathering and supporting one another at temporary shelters reminds affected families that they are not facing tragedy alone. This steady psychological anchor eases emotional trauma and rebuilds the inner strength needed to start over.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "severe loss of loved ones and shelter",
-                      "vi": "mất mát người thân, nhà cửa"
+                      "en": "lifelong assets",
+                      "vi": "tài sản tích góp cả đời"
                     },
                     {
-                      "en": "acute bereavement and hopelessness",
-                      "vi": "trạng thái trầm cảm và tuyệt vọng sâu sắc"
+                      "en": "bereavement",
+                      "vi": "sự mất mát người thân"
                     }
                   ],
                   [
                     {
-                      "en": "empathetic solidarity",
-                      "vi": "sự hiện diện thân tình"
+                      "en": "emotional relief",
+                      "vi": "sự xoa dịu cảm xúc"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "temporary shelters",
+                      "vi": "nơi trú ẩn tạm thời"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "psychological anchor",
+                      "vi": "điểm tựa tâm lý"
                     },
                     {
-                      "en": "genuine communal compassion",
-                      "vi": "lời an ủi chân thành"
-                    },
-                    {
-                      "en": "rekindle optimism",
-                      "vi": "thắp lại niềm hy vọng sống"
-                    },
-                    {
-                      "en": "emotional resilience",
+                      "en": "inner strength",
                       "vi": "sức mạnh nội tâm"
                     }
                   ]
                 ],
                 "collocations": [
+                  {
+                    "en": "communal empathy",
+                    "vi": "tình làng nghĩa xóm"
+                  },
                   {
                     "en": "psychological anchor",
                     "vi": "chỗ dựa tâm lý vững vàng"
@@ -82401,12 +82099,24 @@ const ESSAY_DATA = [
                     "vi": "cú sốc tinh thần sau thảm họa"
                   },
                   {
-                    "en": "genuine communal compassion",
-                    "vi": "lời an ủi chân thành"
+                    "en": "lifelong assets",
+                    "vi": "tài sản tích góp cả đời"
                   },
                   {
-                    "en": "rekindle optimism",
-                    "vi": "thắp lại niềm hy vọng sống"
+                    "en": "bereavement",
+                    "vi": "sự mất mát người thân"
+                  },
+                  {
+                    "en": "emotional relief",
+                    "vi": "sự xoa dịu cảm xúc"
+                  },
+                  {
+                    "en": "temporary shelters",
+                    "vi": "nơi trú ẩn tạm thời"
+                  },
+                  {
+                    "en": "inner strength",
+                    "vi": "sức mạnh nội tâm"
                   }
                 ]
               },
@@ -82428,35 +82138,39 @@ const ESSAY_DATA = [
                     "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
                   }
                 ],
-                "evidence_vi": "Ngay khi bão lũ đi qua, các đội dân quân và tình nguyện viên xóm giềng phối hợp giải phóng bùn đất, khử trùng giếng nước và sửa sang trường lớp học. Tinh thần tự lực cánh sinh đầy gắn kết này giảm bớt gánh nặng cứu trợ cho chính quyền và giúp địa phương phục hồi kinh tế nhanh chóng hơn.",
-                "evidence_en": "As soon as floodwaters recede, localized volunteer brigades mobilize to shovel mud deposits, purify drinking wells, and rehabilitate school premises. This cohesive civic self-reliance alleviates state relief burdens and expedites long-term socioeconomic revitalization.",
+                "evidence_vi": "Ngay khi mưa bão chấm dứt và nước lũ rút đi, khối lượng bùn đất, cây đổ và hạ tầng hư hỏng là quá lớn đối với từng hộ gia đình riêng lẻ. Nhờ tinh thần đoàn kết khu phố, các nhóm tình nguyện địa phương nhanh chóng phối hợp dọn dẹp đường sá, khử trùng nguồn nước và sửa chữa mái nhà. Chẳng hạn, các hộ dân ít bị thiệt hại hơn thường chung tay giúp các gia đình neo đơn và sửa sang trường học để trẻ sớm được trở lại lớp. Nỗ lực tự lực đầy gắn kết này giúp giảm tải cho chính quyền và đẩy nhanh quá trình phục hồi đời sống, kinh tế địa phương.",
+                "evidence_en": "Once storms subside and floodwaters recede, the sheer scale of mud, fallen trees, and structural damage overwhelms individual households. Through strong neighborhood unity, local volunteer groups swiftly team up to clear roads, disinfect water sources, and patch damaged roofs. For example, less affected residents often help elderly neighbors repair their homes and clean local schools so children can resume classes quickly. This cohesive self-reliance eases pressure on state agencies and accelerates community and economic recovery.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "localized volunteer brigades",
-                      "vi": "các đội dân quân và tình nguyện viên xóm giềng"
+                      "en": "floodwaters recede",
+                      "vi": "nước lũ rút xuống"
                     },
                     {
-                      "en": "purify drinking wells",
-                      "vi": "khử trùng giếng nước"
-                    },
-                    {
-                      "en": "rehabilitate school premises",
-                      "vi": "sửa sang trường lớp học"
+                      "en": "structural damage",
+                      "vi": "thiệt hại công trình"
                     }
                   ],
                   [
                     {
-                      "en": "cohesive civic self-reliance",
-                      "vi": "tinh thần tự lực cánh sinh đầy gắn kết"
+                      "en": "disinfect water sources",
+                      "vi": "khử trùng nguồn nước"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "resume classes",
+                      "vi": "đi học trở lại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "cohesive self-reliance",
+                      "vi": "tinh thần tự lực gắn kết"
                     },
                     {
-                      "en": "alleviate state relief burdens",
-                      "vi": "giảm bớt gánh nặng cứu trợ cho chính quyền"
-                    },
-                    {
-                      "en": "expedite socioeconomic revitalization",
-                      "vi": "phục hồi kinh tế nhanh chóng hơn"
+                      "en": "economic recovery",
+                      "vi": "phục hồi kinh tế"
                     }
                   ]
                 ],
@@ -82466,16 +82180,36 @@ const ESSAY_DATA = [
                     "vi": "sức mạnh hợp lực của cộng đồng"
                   },
                   {
+                    "en": "environmental cleanup",
+                    "vi": "dọn dẹp hiện trường"
+                  },
+                  {
                     "en": "reconstruction of basic infrastructure",
                     "vi": "tái thiết hạ tầng dân sinh sau bão lũ"
                   },
                   {
-                    "en": "cohesive civic self-reliance",
-                    "vi": "tinh thần tự lực cánh sinh đầy gắn kết"
+                    "en": "floodwaters recede",
+                    "vi": "nước lũ rút xuống"
                   },
                   {
-                    "en": "expedite socioeconomic revitalization",
-                    "vi": "phục hồi kinh tế nhanh chóng hơn"
+                    "en": "structural damage",
+                    "vi": "thiệt hại công trình"
+                  },
+                  {
+                    "en": "disinfect water sources",
+                    "vi": "khử trùng nguồn nước"
+                  },
+                  {
+                    "en": "resume classes",
+                    "vi": "đi học trở lại"
+                  },
+                  {
+                    "en": "cohesive self-reliance",
+                    "vi": "tinh thần tự lực gắn kết"
+                  },
+                  {
+                    "en": "economic recovery",
+                    "vi": "phục hồi kinh tế"
                   }
                 ]
               }
@@ -83365,27 +83099,35 @@ const ESSAY_DATA = [
                     "vi": "bảo vệ các thành viên dễ bị tổn thương"
                   }
                 ],
-                "evidence_vi": "Trong những giờ phút nguy cấp khi lũ quét, động đất hay sạt lở đất làm tê liệt hệ thống cứu hộ chính quy, chính người thân, bạn bè và láng giềng gần gũi là lực lượng đầu tiên bất chấp hiểm nguy để sơ tán người già, trẻ nhỏ và người khuyết tật. Sự can thiệp kịp thời xuất phát từ tình thương này giúp giảm thiểu tối đa thương vong đáng tiếc.",
-                "evidence_en": "During critical moments when flash floods, earthquakes, or landslides paralyze formal emergency services, family members, friends, and nearby neighbors act as first responders to evacuate the elderly, children, and disabled individuals. Such rapid, compassion-driven intervention substantially minimizes preventable casualties.",
+                "evidence_vi": "Trong những giây phút nguy cấp khi lũ quét, động đất hay sạt lở đất làm tê liệt lực lượng cứu hộ chính quy, thời gian ứng cứu quyết định trực tiếp đến sinh mạng con người. Chính người thân, bạn bè và láng giềng gần gũi là những người đầu tiên bất chấp nguy hiểm để tiếp cận hiện trường. Chẳng hạn, họ lập tức hỗ trợ cõng người cao tuổi, trẻ nhỏ và người khuyết tật thoát khỏi khu vực có nguy cơ sập đổ. Sự phản ứng nhanh chóng xuất phát từ tình người này giúp giảm thiểu tối đa thương vong đáng tiếc.",
+                "evidence_en": "During critical moments when flash floods, earthquakes, or landslides delay official emergency services, every minute determines human survival. Family members, close friends, and nearby neighbors are invariably the first to brave danger and reach those in peril. For example, they immediately help carry elderly relatives, young children, and people with disabilities away from collapsing structures. Such swift, compassion-driven intervention substantially minimizes preventable casualties.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "paralyze formal emergency services",
-                      "vi": "làm tê liệt hệ thống cứu hộ chính quy"
+                      "en": "official emergency services",
+                      "vi": "dịch vụ cứu hộ chính quy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "brave danger",
+                      "vi": "bất chấp nguy hiểm"
                     },
                     {
-                      "en": "evacuate the elderly, children, and disabled individuals",
-                      "vi": "sơ tán người già, trẻ nhỏ và người khuyết tật"
+                      "en": "in peril",
+                      "vi": "trong tình thế hiểm nguy"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "collapsing structures",
+                      "vi": "công trình có nguy cơ sập đổ"
                     }
                   ],
                   [
                     {
                       "en": "compassion-driven intervention",
-                      "vi": "sự can thiệp kịp thời xuất phát từ tình thương"
-                    },
-                    {
-                      "en": "minimize preventable casualties",
-                      "vi": "giảm thiểu tối đa thương vong đáng tiếc"
+                      "vi": "sự can thiệp xuất phát từ lòng trắc ẩn"
                     }
                   ]
                 ],
@@ -83399,12 +83141,28 @@ const ESSAY_DATA = [
                     "vi": "sự trợ giúp cứu mạng tức thì"
                   },
                   {
-                    "en": "paralyze formal emergency services",
-                    "vi": "làm tê liệt hệ thống cứu hộ chính quy"
+                    "en": "protect vulnerable family members",
+                    "vi": "bảo vệ các thành viên dễ bị tổn thương"
                   },
                   {
-                    "en": "minimize preventable casualties",
-                    "vi": "giảm thiểu tối đa thương vong đáng tiếc"
+                    "en": "official emergency services",
+                    "vi": "dịch vụ cứu hộ chính quy"
+                  },
+                  {
+                    "en": "brave danger",
+                    "vi": "bất chấp nguy hiểm"
+                  },
+                  {
+                    "en": "in peril",
+                    "vi": "trong tình thế hiểm nguy"
+                  },
+                  {
+                    "en": "collapsing structures",
+                    "vi": "công trình có nguy cơ sập đổ"
+                  },
+                  {
+                    "en": "compassion-driven intervention",
+                    "vi": "sự can thiệp xuất phát từ lòng trắc ẩn"
                   }
                 ]
               },
@@ -83426,27 +83184,31 @@ const ESSAY_DATA = [
                     "vi": "duy trì các nhu cầu sinh tồn thiết yếu"
                   }
                 ],
-                "evidence_vi": "Khi thiên tai phá hủy nhà cửa và làm đứt gãy nguồn cung lương thực, họ hàng, bạn bè và người dân địa phương sẵn sàng mở cửa nhà kiên cố để đón những gia đình mất chốn nương thân và san sẻ nước sạch, lương khô cùng thuốc men. Tinh thần lá lành đùm lá rách này đảm bảo không ai bị bỏ lại phía sau trong cảnh đói rét.",
-                "evidence_en": "When catastrophes demolish dwellings and sever supply chains, relatives, friends, and local residents willingly open sturdy homes to displaced families while sharing clean water, dry rations, and medical supplies. This altruistic solidarity ensures that no survivor is left destitute in freezing or hazardous conditions.",
+                "evidence_vi": "Thảm họa thiên nhiên thường tàn phá nhà cửa, gây mất điện kéo dài và làm đứt gãy hoàn toàn hệ thống phân phối thực phẩm, nước uống. Trong tình cảnh đó, họ hàng, bạn bè và người quen sẵn sàng mở rộng cửa những ngôi nhà kiên cố để đón các gia đình mất chỗ ở vào tá túc tạm thời. Đồng thời, họ cùng góp chung nước sạch, lương khô, quần áo ấm và thuốc men để mọi người duy trì nhu cầu sinh tồn cơ bản. Tinh thần tương thân tương ái này đảm bảo không một nạn nhân nào bị rơi vào cảnh đói rét hay không nơi nương tựa.",
+                "evidence_en": "Natural disasters frequently demolish homes, cause extended blackouts, and completely sever food and water distribution networks. In response, relatives, friends, and acquaintances willingly open sturdy houses to shelter displaced families temporarily. Simultaneously, they pool clean water, dry rations, warm clothing, and vital medications to meet everyone's basic survival needs. This altruistic solidarity ensures that no survivor is left destitute in freezing or hazardous conditions.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "demolish dwellings and sever supply chains",
-                      "vi": "phá hủy nhà cửa và làm đứt gãy nguồn cung lương thực"
-                    },
+                      "en": "distribution networks",
+                      "vi": "mạng lưới phân phối"
+                    }
+                  ],
+                  [
                     {
                       "en": "displaced families",
-                      "vi": "những gia đình mất chốn nương thân"
+                      "vi": "các gia đình mất chỗ ở"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "pool vital resources",
+                      "vi": "góp chung nguồn lực thiết yếu"
                     }
                   ],
                   [
                     {
                       "en": "altruistic solidarity",
-                      "vi": "tinh thần lá lành đùm lá rách"
-                    },
-                    {
-                      "en": "left destitute",
-                      "vi": "bị bỏ lại phía sau trong cảnh đói rét"
+                      "vi": "tinh thần đoàn kết vị tha"
                     }
                   ]
                 ],
@@ -83464,8 +83226,20 @@ const ESSAY_DATA = [
                     "vi": "duy trì các nhu cầu sinh tồn thiết yếu"
                   },
                   {
+                    "en": "distribution networks",
+                    "vi": "mạng lưới phân phối"
+                  },
+                  {
+                    "en": "displaced families",
+                    "vi": "các gia đình mất chỗ ở"
+                  },
+                  {
+                    "en": "pool vital resources",
+                    "vi": "góp chung nguồn lực thiết yếu"
+                  },
+                  {
                     "en": "altruistic solidarity",
-                    "vi": "tinh thần lá lành đùm lá rách"
+                    "vi": "tinh thần đoàn kết vị tha"
                   }
                 ]
               },
@@ -83487,27 +83261,35 @@ const ESSAY_DATA = [
                     "vi": "nuôi dưỡng nghị lực nội tâm"
                   }
                 ],
-                "evidence_vi": "Cú sốc mất người thân và cơ nghiệp tích góp cả đời dễ đẩy nạn nhân vào trạng thái hoảng loạn, trầm cảm và tuyệt vọng cùng cực. Chính sự hiện diện ấm áp, lời vỗ về chân thành và vòng tay sẻ chia của gia đình, bè bạn sẽ mang lại niềm an ủi sâu sắc, giúp người gặp nạn giữ vững tinh thần để bước tiếp.",
-                "evidence_en": "The sudden loss of loved ones and lifelong savings can plunge victims into acute panic, clinical depression, and profound despair. Warm companionship, reassuring words, and compassionate embraces from family and friends offer deep solace, empowering survivors to regain emotional stability.",
+                "evidence_vi": "Cú sốc mất đi người thân yêu hoặc toàn bộ tài sản tích góp cả đời có thể nhanh chóng đẩy nạn nhân vào trạng thái hoảng loạn, trầm cảm và tuyệt vọng. Nếu phải đối diện với bi kịch một mình, nhiều người rất khó vượt qua nỗi ám ảnh kéo dài sau thảm họa. Ngược lại, sự hiện diện ấm áp, lời an ủi chân thành và vòng tay lắng nghe từ gia đình và bạn bè mang lại nguồn xoa dịu tinh thần vô giá. Điểm tựa cảm xúc sâu sắc này giúp người gặp nạn từng bước ổn định tâm lý và tìm lại nghị lực sống.",
+                "evidence_en": "The sudden loss of loved ones or lifelong savings can quickly plunge disaster victims into acute panic, depression, and despair. Facing such overwhelming tragedy in isolation makes it extremely difficult to overcome lingering emotional trauma. Conversely, warm companionship, reassuring words, and compassionate listening from family and friends offer priceless psychological comfort. This deep emotional support empowers survivors to regain stability and rediscover the courage to move forward.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "plunge victims into acute panic and despair",
-                      "vi": "đẩy nạn nhân vào trạng thái hoảng loạn và tuyệt vọng"
-                    },
-                    {
-                      "en": "lifelong savings",
-                      "vi": "cơ nghiệp tích góp cả đời"
+                      "en": "acute panic",
+                      "vi": "sự hoảng loạn tột độ"
                     }
                   ],
                   [
                     {
-                      "en": "warm companionship and reassuring words",
-                      "vi": "sự hiện diện ấm áp, lời vỗ về chân thành"
+                      "en": "lingering emotional trauma",
+                      "vi": "sang chấn tâm lý kéo dài"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "warm companionship",
+                      "vi": "sự đồng hành ấm áp"
                     },
                     {
-                      "en": "regain emotional stability",
-                      "vi": "giữ vững tinh thần để bước tiếp"
+                      "en": "psychological comfort",
+                      "vi": "sự an ủi về tâm lý"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "regain stability",
+                      "vi": "lấy lại sự ổn định"
                     }
                   ]
                 ],
@@ -83525,8 +83307,24 @@ const ESSAY_DATA = [
                     "vi": "nuôi dưỡng nghị lực nội tâm"
                   },
                   {
-                    "en": "regain emotional stability",
-                    "vi": "giữ vững tinh thần để bước tiếp"
+                    "en": "acute panic",
+                    "vi": "sự hoảng loạn tột độ"
+                  },
+                  {
+                    "en": "lingering emotional trauma",
+                    "vi": "sang chấn tâm lý kéo dài"
+                  },
+                  {
+                    "en": "warm companionship",
+                    "vi": "sự đồng hành ấm áp"
+                  },
+                  {
+                    "en": "psychological comfort",
+                    "vi": "sự an ủi về tâm lý"
+                  },
+                  {
+                    "en": "regain stability",
+                    "vi": "lấy lại sự ổn định"
                   }
                 ]
               },
@@ -83548,27 +83346,39 @@ const ESSAY_DATA = [
                     "vi": "đưa ra quyết định sinh tồn sáng suốt"
                   }
                 ],
-                "evidence_vi": "Trong bối cảnh hỗn loạn của thiên tai khi tin giả dễ gây hoang mang hoặc sóng liên lạc bị gián đoạn, cảnh báo trực tiếp từ người thân, bạn bè và hàng xóm về hướng lũ quét, tuyến đường an toàn hay điểm phát lương thực có độ tin cậy cao nhất. Nhờ đó, các gia đình có thể chủ động sơ tán và tránh được các khu vực nguy hiểm.",
-                "evidence_en": "Amid the chaos of disasters where rumors cause confusion or communication lines falter, direct alerts from relatives, friends, and neighbors regarding flash-flood paths, safe routes, or relief distribution points carry high credibility. Consequently, households can evacuate proactively and avoid hazardous zones.",
+                "evidence_vi": "Trong bối cảnh hỗn loạn của thiên tai, sóng viễn thông thường bị gián đoạn trong khi tin đồn thất thiệt lại dễ dàng gây hoang mang dư luận. Nhờ mạng lưới quan hệ xã hội tin cậy, các cảnh báo trực tiếp từ người thân, bạn bè và hàng xóm luôn có độ xác thực và tốc độ lan tỏa cao. Ví dụ, việc gọi điện báo trước hướng lũ quét, tuyến đường an toàn hay địa điểm phát đồ cứu trợ giúp nhiều gia đình chủ động sắp xếp sơ tán kịp thời. Dòng thông tin đáng tin cậy này giúp người dân đưa ra quyết định sinh tồn sáng suốt và tránh xa khu vực nguy hiểm.",
+                "evidence_en": "Amid the chaos of major disasters, telecommunication lines frequently falter while unverified rumors easily spark widespread panic. Through trusted personal networks, direct warnings from relatives, friends, and neighbors carry exceptional credibility and spread rapidly. For example, timely alerts about flash-flood paths, safe evacuation routes, or relief stations help families leave danger zones proactively. Access to reliable human-verified updates enables citizens to make informed survival decisions under pressure.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "direct alerts from relatives, friends, and neighbors",
-                      "vi": "cảnh báo trực tiếp từ người thân, bạn bè và hàng xóm"
+                      "en": "unverified rumors",
+                      "vi": "tin đồn chưa kiểm chứng"
                     },
                     {
-                      "en": "relief distribution points",
-                      "vi": "điểm phát lương thực cứu trợ"
+                      "en": "spark widespread panic",
+                      "vi": "gây hoang mang diện rộng"
                     }
                   ],
                   [
                     {
-                      "en": "evacuate proactively",
-                      "vi": "chủ động sơ tán"
+                      "en": "exceptional credibility",
+                      "vi": "độ tin cậy đặc biệt cao"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "evacuation routes",
+                      "vi": "tuyến đường sơ tán"
                     },
                     {
-                      "en": "avoid hazardous zones",
-                      "vi": "tránh được các khu vực nguy hiểm"
+                      "en": "relief stations",
+                      "vi": "điểm cứu trợ"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "informed survival decisions",
+                      "vi": "quyết định sinh tồn sáng suốt"
                     }
                   ]
                 ],
@@ -83586,8 +83396,28 @@ const ESSAY_DATA = [
                     "vi": "đưa ra quyết định sinh tồn sáng suốt"
                   },
                   {
-                    "en": "evacuate proactively",
-                    "vi": "chủ động sơ tán"
+                    "en": "unverified rumors",
+                    "vi": "tin đồn chưa kiểm chứng"
+                  },
+                  {
+                    "en": "spark widespread panic",
+                    "vi": "gây hoang mang diện rộng"
+                  },
+                  {
+                    "en": "exceptional credibility",
+                    "vi": "độ tin cậy đặc biệt cao"
+                  },
+                  {
+                    "en": "evacuation routes",
+                    "vi": "tuyến đường sơ tán"
+                  },
+                  {
+                    "en": "relief stations",
+                    "vi": "điểm cứu trợ"
+                  },
+                  {
+                    "en": "informed survival decisions",
+                    "vi": "quyết định sinh tồn sáng suốt"
                   }
                 ]
               },
@@ -83609,27 +83439,39 @@ const ESSAY_DATA = [
                     "vi": "khôi phục lại sinh kế bị tàn phá"
                   }
                 ],
-                "evidence_vi": "Sau khi thiên tai rút đi, sự chung tay góp công sức, vật liệu xây dựng và vốn liếng từ anh em họ hàng, bạn bè đồng nghiệp và cộng đồng giúp các gia đình dựng lại mái nhà và tái sản xuất nông nghiệp, buôn bán. Nguồn lực xã hội to lớn này giúp các vùng tâm lũ nhanh chóng vượt qua khủng hoảng và ổn định đời sống lâu dài.",
-                "evidence_en": "After disasters subside, combined contributions of labor, building materials, and financial capital from extended family, colleagues, and community networks help victims reconstruct homes and resume farming or small businesses. This social capital enables disaster-stricken regions to overcome crisis and achieve long-term stability.",
+                "evidence_vi": "Sau khi thiên tai đi qua, công cuộc khắc phục hậu quả và xây dựng lại cuộc sống đòi hỏi rất nhiều công sức lẫn chi phí vượt quá khả năng của từng cá nhân. Lúc này, sự chung tay đóng góp nhân lực, vật liệu xây dựng và vốn vay không lãi từ họ hàng, đồng nghiệp và cộng đồng trở nên vô cùng quý giá. Chẳng hạn, nhiều hộ nông dân và tiểu thương vùng bão lũ đã nhanh chóng dựng lại mái nhà và khôi phục sản xuất nhờ sự giúp đỡ trực tiếp từ mạng lưới thân quen. Nguồn lực xã hội mạnh mẽ này giúp các địa phương sớm vượt qua khủng hoảng và ổn định sinh kế lâu dài.",
+                "evidence_en": "Once disasters subside, clearing debris and rebuilding everyday life demand labor and funding far beyond any single household's capacity. At this stage, combined contributions of manpower, building supplies, and interest-free loans from extended family, colleagues, and community circles prove invaluable. For instance, countless storm-hit farmers and small shopkeepers manage to reconstruct homes and restart businesses thanks to support from personal networks. This resilient social capital helps affected communities overcome hardship and restore stable livelihoods much faster.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "contributions of labor, building materials, and financial capital",
-                      "vi": "góp công sức, vật liệu xây dựng và vốn liếng"
-                    },
-                    {
-                      "en": "reconstruct homes and resume farming",
-                      "vi": "dựng lại mái nhà và tái sản xuất nông nghiệp"
+                      "en": "clear debris",
+                      "vi": "dọn dẹp đống đổ nát"
                     }
                   ],
                   [
                     {
-                      "en": "disaster-stricken regions",
-                      "vi": "các vùng tâm lũ bị thiên tai tàn phá"
+                      "en": "interest-free loans",
+                      "vi": "khoản vay không lãi suất"
                     },
                     {
-                      "en": "achieve long-term stability",
-                      "vi": "ổn định đời sống lâu dài"
+                      "en": "extended family",
+                      "vi": "đại gia đình / họ hàng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "restart businesses",
+                      "vi": "khởi động lại việc kinh doanh"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "resilient social capital",
+                      "vi": "nguồn vốn xã hội bền bỉ"
+                    },
+                    {
+                      "en": "restore livelihoods",
+                      "vi": "khôi phục sinh kế"
                     }
                   ]
                 ],
@@ -83647,8 +83489,28 @@ const ESSAY_DATA = [
                     "vi": "khôi phục lại sinh kế bị tàn phá"
                   },
                   {
-                    "en": "achieve long-term stability",
-                    "vi": "ổn định đời sống lâu dài"
+                    "en": "clear debris",
+                    "vi": "dọn dẹp đống đổ nát"
+                  },
+                  {
+                    "en": "interest-free loans",
+                    "vi": "khoản vay không lãi suất"
+                  },
+                  {
+                    "en": "extended family",
+                    "vi": "đại gia đình / họ hàng"
+                  },
+                  {
+                    "en": "restart businesses",
+                    "vi": "khởi động lại việc kinh doanh"
+                  },
+                  {
+                    "en": "resilient social capital",
+                    "vi": "nguồn vốn xã hội bền bỉ"
+                  },
+                  {
+                    "en": "restore livelihoods",
+                    "vi": "khôi phục sinh kế"
                   }
                 ]
               }
@@ -85833,42 +85695,64 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 01: Tận hưởng sự tự do cá nhân và quyền tự quyết trọn vẹn",
                 "collocations": [
                   {
-                    "en": "enjoy complete personal autonomy",
-                    "vi": "tận hưởng quyền tự chủ cá nhân trọn vẹn"
+                    "en": "personal autonomy",
+                    "vi": "quyền tự chủ cá nhân"
                   },
                   {
                     "en": "design their own lifestyle",
-                    "vi": "tự thiết kế lối sống riêng"
+                    "vi": "tự thiết kế lối sống"
                   },
                   {
-                    "en": "spontaneous travel plans",
-                    "vi": "những kế hoạch du lịch ngẫu hứng"
+                    "en": "marital routines",
+                    "vi": "nếp sinh hoạt hôn nhân"
                   },
                   {
-                    "en": "live on their own terms",
-                    "vi": "sống theo cách của riêng mình"
+                    "en": "full authority",
+                    "vi": "toàn quyền quyết định"
+                  },
+                  {
+                    "en": "compromise with a spouse",
+                    "vi": "thỏa hiệp với bạn đời"
+                  },
+                  {
+                    "en": "spontaneous trip",
+                    "vi": "chuyến đi ngẫu hứng"
+                  },
+                  {
+                    "en": "self-determination",
+                    "vi": "quyền tự quyết"
+                  },
+                  {
+                    "en": "life satisfaction",
+                    "vi": "sự hài lòng với cuộc sống"
                   }
                 ],
-                "point_vi": "Một lợi ích lớn là người sống độc thân có thể tận hưởng quyền tự chủ cá nhân trọn vẹn và tự thiết kế lối sống theo ý mình.",
-                "point_en": "One major benefit is that single individuals can enjoy complete personal autonomy and design their own lifestyle.",
-                "evidence_vi": "Không bị ràng buộc bởi những nghĩa vụ hôn nhân, họ có toàn quyền quyết định lịch trình sinh hoạt, không gian sống và các ưu tiên hàng ngày mà không cần phải thỏa hiệp với người bạn đời. Chẳng hạn, họ có thể thực hiện những chuyến du lịch ngẫu hứng hoặc thay đổi môi trường sống bất cứ khi nào bản thân mong muốn. Sự tự do này mang lại cảm giác làm chủ cuộc đời và nâng cao sự hài lòng trong cuộc sống.",
-                "evidence_en": "Unburdened by marital obligations, they have full authority over their daily routines, living space, and personal priorities without having to compromise with a spouse. For instance, they can make spontaneous travel plans or change their living environment whenever they wish. This freedom fosters a strong sense of self-determination and enhances life satisfaction.",
+                "point_vi": "Người sống độc thân có thể tận hưởng quyền tự chủ cá nhân trọn vẹn và tự thiết kế lối sống theo ý mình.",
+                "point_en": "Single individuals can enjoy complete personal autonomy and design their own lifestyle freely.",
+                "evidence_vi": "Không bị ràng buộc bởi những nghĩa vụ và kế hoạch chung của đời sống hôn nhân, người độc thân có toàn quyền sắp xếp lịch trình sinh hoạt hằng ngày. Họ có thể tự do lựa chọn nơi sinh sống, cách bài trí không gian và các ưu tiên cá nhân mà không cần phải thỏa hiệp với bạn đời. Chẳng hạn, một người độc thân dễ dàng quyết định thực hiện chuyến du lịch ngẫu hứng hoặc thay đổi thói quen sống bất cứ khi nào muốn. Quyền tự quyết trọn vẹn này mang lại cảm giác làm chủ cuộc đời và nâng cao đáng kể sự hài lòng cá nhân.",
+                "evidence_en": "Unburdened by shared marital routines and family obligations, single individuals hold full authority over their daily schedules. They can freely choose their living space, lifestyle habits, and personal priorities without having to negotiate or compromise with a spouse. For instance, a single adult can effortlessly book a spontaneous trip or reorganize their routine whenever inspiration strikes. This complete freedom fosters a deep sense of self-determination and significantly enhances overall life satisfaction.",
                 "point_collocations": [
                   {
-                    "en": "enjoy complete personal autonomy",
-                    "vi": "tận hưởng quyền tự chủ cá nhân trọn vẹn"
+                    "en": "personal autonomy",
+                    "vi": "quyền tự chủ cá nhân"
                   },
                   {
                     "en": "design their own lifestyle",
-                    "vi": "tự thiết kế lối sống riêng"
+                    "vi": "tự thiết kế lối sống"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "unburdened by marital obligations",
-                      "vi": "không bị ràng buộc bởi nghĩa vụ hôn nhân"
+                      "en": "marital routines",
+                      "vi": "nếp sinh hoạt hôn nhân"
                     },
+                    {
+                      "en": "full authority",
+                      "vi": "toàn quyền quyết định"
+                    }
+                  ],
+                  [
                     {
                       "en": "compromise with a spouse",
                       "vi": "thỏa hiệp với bạn đời"
@@ -85876,18 +85760,18 @@ const ESSAY_DATA = [
                   ],
                   [
                     {
-                      "en": "make spontaneous travel plans",
-                      "vi": "thực hiện những kế hoạch du lịch ngẫu hứng"
+                      "en": "spontaneous trip",
+                      "vi": "chuyến đi ngẫu hứng"
                     }
                   ],
                   [
                     {
-                      "en": "sense of self-determination",
-                      "vi": "ý thức tự quyết định cuộc đời"
+                      "en": "self-determination",
+                      "vi": "quyền tự quyết"
                     },
                     {
-                      "en": "enhance life satisfaction",
-                      "vi": "nâng cao sự hài lòng trong cuộc sống"
+                      "en": "life satisfaction",
+                      "vi": "sự hài lòng với cuộc sống"
                     }
                   ]
                 ]
@@ -85896,61 +85780,75 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 02: Tập trung tối đa cho sự thăng tiến sự nghiệp và học vấn",
                 "collocations": [
                   {
-                    "en": "devote full time and energy to",
-                    "vi": "dành trọn thời gian và năng lượng cho"
+                    "en": "devote full time and energy",
+                    "vi": "dành trọn thời gian và năng lượng"
                   },
                   {
                     "en": "professional advancement",
                     "vi": "sự thăng tiến nghề nghiệp"
                   },
                   {
-                    "en": "seize career opportunities",
-                    "vi": "nắm bắt các cơ hội nghề nghiệp"
+                    "en": "undivided attention",
+                    "vi": "sự tập trung trọn vẹn"
                   },
                   {
-                    "en": "unlock their full potential",
-                    "vi": "khai phá tối đa tiềm năng"
+                    "en": "postgraduate degrees",
+                    "vi": "bằng cấp sau đại học"
+                  },
+                  {
+                    "en": "personal mobility",
+                    "vi": "tính cơ động cá nhân"
+                  },
+                  {
+                    "en": "economic hubs",
+                    "vi": "trung tâm kinh tế lớn"
+                  },
+                  {
+                    "en": "career foundation",
+                    "vi": "nền tảng sự nghiệp"
                   }
                 ],
-                "point_vi": "Một khía cạnh tích cực khác là cuộc sống độc thân cho phép các cá nhân dành trọn thời gian và năng lượng cho sự thăng tiến nghề nghiệp và học vấn.",
-                "point_en": "Another positive aspect is that being single allows individuals to devote their full time and energy to professional advancement and education.",
-                "evidence_vi": "Vì không phải gánh vác trách nhiệm chăm sóc con cái hay công việc nội trợ phức tạp, những người chưa kết hôn có thể tập trung toàn tâm toàn ý vào các dự án quan trọng hoặc theo đuổi bằng cấp sau đại học. Hơn nữa, họ có sự linh hoạt cao để chuyển công tác đến các thành phố lớn hoặc ra nước ngoài nhằm nắm bắt cơ hội thăng tiến. Nhờ đó, họ dễ dàng khai phá tối đa tiềm năng và xây dựng nền tảng sự nghiệp vững chắc.",
-                "evidence_en": "Since they do not have to shoulder childcare or demanding domestic duties, unmarried adults can focus wholeheartedly on important projects or pursue postgraduate qualifications. Furthermore, they have high mobility to relocate to major cities or abroad to seize career opportunities. Consequently, they can easily unlock their full potential and build a solid professional foundation.",
+                "point_vi": "Cuộc sống độc thân cho phép các cá nhân dành trọn thời gian và năng lượng cho sự thăng tiến nghề nghiệp và học vấn.",
+                "point_en": "Being single allows individuals to devote their full time and energy to professional advancement and education.",
+                "evidence_vi": "Vì không phải phân bổ thời gian cho việc chăm sóc con cái hay gánh vác nhiều trách nhiệm nội trợ phức tạp, người chưa kết hôn có thể dồn toàn tâm cho công việc. Họ có đủ năng lượng để tham gia các dự án lớn, học thêm kỹ năng chuyên môn hoặc theo đuổi bằng cấp sau đại học. Hơn nữa, tính cơ động cao giúp họ sẵn sàng chuyển công tác đến các trung tâm kinh tế lớn hoặc làm việc ở nước ngoài khi có cơ hội tốt. Nhờ vậy, họ dễ dàng khai phá tối đa tiềm năng và xây dựng nền tảng sự nghiệp vững chắc từ sớm.",
+                "evidence_en": "Free from childcare responsibilities and complex household duties, unmarried adults can devote undivided attention to professional goals. They possess the energy needed to lead demanding projects, acquire specialized skills, or pursue postgraduate degrees. Furthermore, high personal mobility allows them to relocate to major economic hubs or work overseas whenever attractive opportunities arise. Consequently, they can unlock their full potential and establish a solid career foundation much earlier.",
                 "point_collocations": [
                   {
-                    "en": "devote their full time and energy to",
-                    "vi": "dành trọn thời gian và năng lượng cho"
+                    "en": "devote full time and energy",
+                    "vi": "dành trọn thời gian và năng lượng"
                   },
                   {
-                    "en": "professional advancement and education",
-                    "vi": "sự thăng tiến nghề nghiệp và học vấn"
+                    "en": "professional advancement",
+                    "vi": "sự thăng tiến nghề nghiệp"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "demanding domestic duties",
-                      "vi": "những công việc gia đình nặng nhọc"
-                    },
-                    {
-                      "en": "pursue postgraduate qualifications",
-                      "vi": "theo đuổi bằng cấp sau đại học"
+                      "en": "undivided attention",
+                      "vi": "sự tập trung trọn vẹn"
                     }
                   ],
                   [
                     {
-                      "en": "seize career opportunities",
-                      "vi": "nắm bắt các cơ hội nghề nghiệp"
+                      "en": "postgraduate degrees",
+                      "vi": "bằng cấp sau đại học"
                     }
                   ],
                   [
                     {
-                      "en": "unlock their full potential",
-                      "vi": "khai phá tối đa tiềm năng"
+                      "en": "personal mobility",
+                      "vi": "tính cơ động cá nhân"
                     },
                     {
-                      "en": "build a solid professional foundation",
-                      "vi": "xây dựng nền tảng sự nghiệp vững chắc"
+                      "en": "economic hubs",
+                      "vi": "trung tâm kinh tế lớn"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "career foundation",
+                      "vi": "nền tảng sự nghiệp"
                     }
                   ]
                 ]
@@ -85959,57 +85857,67 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 03: Tự chủ về tài chính và đầu tư hoàn thiện bản thân",
                 "collocations": [
                   {
-                    "en": "achieve financial independence",
-                    "vi": "đạt được sự độc lập về tài chính"
+                    "en": "financial independence",
+                    "vi": "độc lập tài chính"
                   },
                   {
-                    "en": "invest in self-improvement",
-                    "vi": "đầu tư vào việc hoàn thiện bản thân"
+                    "en": "self-improvement",
+                    "vi": "hoàn thiện bản thân"
                   },
                   {
-                    "en": "financial disputes",
-                    "vi": "những tranh chấp tài chính"
+                    "en": "financial goals",
+                    "vi": "mục tiêu tài chính"
                   },
                   {
-                    "en": "physical and mental well-being",
-                    "vi": "sức khỏe thể chất và tinh thần"
+                    "en": "conflicting spending habits",
+                    "vi": "thói quen chi tiêu trái ngược"
+                  },
+                  {
+                    "en": "preventive healthcare",
+                    "vi": "chăm sóc sức khỏe dự phòng"
+                  },
+                  {
+                    "en": "financial control",
+                    "vi": "khả năng kiểm soát tài chính"
                   }
                 ],
-                "point_vi": "Một lợi thế nữa là người độc thân có thể đạt được sự độc lập hoàn toàn về tài chính và đầu tư nhiều hơn vào việc hoàn thiện bản thân.",
-                "point_en": "A further advantage is that unmarried adults can achieve complete financial independence and invest more in self-improvement.",
-                "evidence_vi": "Khi tự mình quản lý ngân sách, họ có thể chủ động tiết kiệm, đầu tư hoặc chi tiêu cho các đam mê cá nhân mà không gặp phải những tranh chấp tài chính trong hôn nhân. Họ cũng có điều kiện chăm sóc sức khỏe thể chất và tinh thần thông qua việc tập luyện thể thao, ăn uống khoa học và tận hưởng không gian yên bình. Điều này giúp họ duy trì một cuộc sống cân bằng, năng động và chất lượng cao.",
-                "evidence_en": "By managing their own budgets, they can proactively save, invest, or spend on personal passions without facing marital financial disputes. They also have the resources to nurture their physical and mental well-being through regular exercise, healthy diets, and peaceful personal space. This enables them to maintain a balanced, active, and high-quality life.",
+                "point_vi": "Người độc thân có thể đạt được sự độc lập hoàn toàn về tài chính và đầu tư nhiều hơn vào việc hoàn thiện bản thân.",
+                "point_en": "Unmarried adults can achieve complete financial independence and invest more actively in self-improvement.",
+                "evidence_vi": "Khi tự mình quản lý thu nhập và chi tiêu, người độc thân có thể lập kế hoạch tiết kiệm, đầu tư hoặc mua sắm theo đúng mục tiêu tài chính cá nhân. Họ cũng tránh được những bất đồng và áp lực tiền bạc vốn thường nảy sinh khi phải dung hòa thói quen chi tiêu với bạn đời. Ví dụ, nhiều người độc thân chủ động dành ngân sách cho các khóa học kỹ năng, tập thể thao và chăm sóc sức khỏe toàn diện. Nhờ sự chủ động tài chính này, họ dễ dàng duy trì một cuộc sống cân bằng, hiện đại và chất lượng cao.",
+                "evidence_en": "Managing personal income independently allows single adults to plan savings, investments, and spending strictly around their own financial goals. They also avoid the money-related disagreements that frequently arise when partners hold conflicting spending habits. For example, many unmarried people invest generously in skill workshops, fitness memberships, and preventive healthcare. This financial control enables them to sustain a balanced, proactive, and high-quality lifestyle.",
                 "point_collocations": [
                   {
-                    "en": "achieve complete financial independence",
-                    "vi": "đạt được sự độc lập hoàn toàn về tài chính"
+                    "en": "financial independence",
+                    "vi": "độc lập tài chính"
                   },
                   {
-                    "en": "invest more in self-improvement",
-                    "vi": "đầu tư nhiều hơn vào việc hoàn thiện bản thân"
+                    "en": "self-improvement",
+                    "vi": "hoàn thiện bản thân"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "manage their own budgets",
-                      "vi": "tự quản lý ngân sách"
-                    },
-                    {
-                      "en": "marital financial disputes",
-                      "vi": "những tranh chấp tài chính trong hôn nhân"
+                      "en": "financial goals",
+                      "vi": "mục tiêu tài chính"
                     }
                   ],
                   [
                     {
-                      "en": "nurture their physical and mental well-being",
-                      "vi": "nuôi dưỡng sức khỏe thể chất và tinh thần"
+                      "en": "conflicting spending habits",
+                      "vi": "thói quen chi tiêu trái ngược"
                     }
                   ],
                   [
                     {
-                      "en": "maintain a balanced, active, and high-quality life",
-                      "vi": "duy trì cuộc sống cân bằng, năng động và chất lượng cao"
+                      "en": "preventive healthcare",
+                      "vi": "chăm sóc sức khỏe dự phòng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "financial control",
+                      "vi": "khả năng kiểm soát tài chính"
                     }
                   ]
                 ]
@@ -86019,50 +85927,74 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "preserve emotional tranquility",
-                    "vi": "giữ gìn sự bình yên về mặt cảm xúc"
-                  },
-                  {
-                    "en": "relationship friction",
-                    "vi": "sự va chạm/mâu thuẫn trong mối quan hệ"
-                  },
-                  {
-                    "en": "peaceful sanctuary",
-                    "vi": "không gian bình yên riêng tư"
-                  },
-                  {
-                    "en": "deep self-discovery",
-                    "vi": "sự khám phá bản thân sâu sắc"
-                  }
-                ],
-                "point_vi": "Hơn nữa, sống độc thân giúp con người giữ gìn sự bình yên về mặt cảm xúc và tránh khỏi những căng thẳng trong đời sống hôn nhân.",
-                "point_en": "Moreover, staying single helps individuals preserve emotional tranquility and avoid the stress of marital friction.",
-                "evidence_vi": "Họ không phải đối mặt với những cuộc tranh cãi hàng ngày về việc phân chia việc nhà, tiền bạc hay nuôi dạy con cái. Thay vào đó, ngôi nhà của họ trở thành một không gian bình yên để nghỉ ngơi, suy ngẫm và khám phá bản thân sâu sắc hơn.",
-                "evidence_en": "They do not have to deal with daily arguments over household division of labor, finances, or parenting styles. Instead, their home serves as a peaceful sanctuary for rest, reflection, and deep self-discovery.",
-                "point_collocations": [
-                  {
-                    "en": "preserve emotional tranquility",
-                    "vi": "giữ gìn sự bình yên về mặt cảm xúc"
+                    "vi": "giữ gìn sự bình yên cảm xúc"
                   },
                   {
                     "en": "marital friction",
-                    "vi": "những va chạm trong hôn nhân"
+                    "vi": "xung đột / mâu thuẫn hôn nhân"
+                  },
+                  {
+                    "en": "parenting philosophies",
+                    "vi": "quan điểm nuôi dạy con"
+                  },
+                  {
+                    "en": "in-law families",
+                    "vi": "gia đình thông gia / bên nội ngoại"
+                  },
+                  {
+                    "en": "personal sanctuary",
+                    "vi": "không gian bình yên riêng tư"
+                  },
+                  {
+                    "en": "emotional tranquility",
+                    "vi": "sự bình yên về cảm xúc"
+                  },
+                  {
+                    "en": "self-reflection",
+                    "vi": "sự chiêm nghiệm bản thân"
+                  }
+                ],
+                "point_vi": "Sống độc thân giúp con người giữ gìn sự bình yên về mặt cảm xúc và tránh khỏi những căng thẳng trong đời sống hôn nhân.",
+                "point_en": "Staying single helps individuals preserve emotional tranquility and avoid the stress of marital friction.",
+                "evidence_vi": "Người độc thân không phải đối mặt với những cuộc tranh cãi hằng ngày xoay quanh việc phân chia việc nhà, tài chính hay cách nuôi dạy con cái. Họ cũng tránh được áp lực tâm lý khi phải cân bằng mối quan hệ với gia đình hai bên trong những dịp lễ tết. Chẳng hạn, sau một ngày làm việc căng thẳng, họ có thể trở về không gian riêng tĩnh lặng để đọc sách, thiền định hoặc nghỉ ngơi theo đúng nhịp sống của mình. Sự bình yên nội tâm này giúp giảm thiểu căng thẳng kéo dài và tạo điều kiện cho quá trình thấu hiểu bản thân sâu sắc hơn.",
+                "evidence_en": "Single individuals do not have to navigate daily arguments over household chores, shared budgets, or conflicting parenting philosophies. They also escape the emotional pressure of balancing expectations from extended in-law families. For instance, after a demanding workday, they can return to a quiet personal sanctuary to read, meditate, or rest entirely at their own pace. This emotional tranquility reduces chronic stress and creates valuable space for deeper self-reflection.",
+                "point_collocations": [
+                  {
+                    "en": "preserve emotional tranquility",
+                    "vi": "giữ gìn sự bình yên cảm xúc"
+                  },
+                  {
+                    "en": "marital friction",
+                    "vi": "xung đột / mâu thuẫn hôn nhân"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "household division of labor",
-                      "vi": "sự phân chia công việc trong gia đình"
+                      "en": "parenting philosophies",
+                      "vi": "quan điểm nuôi dạy con"
                     }
                   ],
                   [
                     {
-                      "en": "peaceful sanctuary",
-                      "vi": "không gian bình yên"
+                      "en": "in-law families",
+                      "vi": "gia đình thông gia / bên nội ngoại"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "personal sanctuary",
+                      "vi": "không gian bình yên riêng tư"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "emotional tranquility",
+                      "vi": "sự bình yên về cảm xúc"
                     },
                     {
-                      "en": "deep self-discovery",
-                      "vi": "sự khám phá bản thân sâu sắc"
+                      "en": "self-reflection",
+                      "vi": "sự chiêm nghiệm bản thân"
                     }
                   ]
                 ]
@@ -86071,51 +86003,75 @@ const ESSAY_DATA = [
                 "title": "LỢI ÍCH 05: Vun đắp mạng lưới quan hệ xã hội và cộng đồng phong phú",
                 "collocations": [
                   {
-                    "en": "cultivate diverse social connections",
-                    "vi": "vun đắp các mối kết nối xã hội đa dạng"
+                    "en": "diverse social connections",
+                    "vi": "các mối kết nối xã hội đa dạng"
                   },
                   {
-                    "en": "participate in civic activities",
-                    "vi": "tham gia các hoạt động cộng đồng/xã hội"
+                    "en": "contribute to communities",
+                    "vi": "đóng góp cho cộng đồng"
                   },
                   {
-                    "en": "meaningful friendships",
-                    "vi": "những tình bạn ý nghĩa"
+                    "en": "nuclear household",
+                    "vi": "gia đình hạt nhân"
                   },
                   {
-                    "en": "sense of social belonging",
-                    "vi": "cảm giác gắn kết với xã hội"
+                    "en": "aging parents",
+                    "vi": "cha mẹ lớn tuổi"
+                  },
+                  {
+                    "en": "social circles",
+                    "vi": "vòng tròn quan hệ xã hội"
+                  },
+                  {
+                    "en": "environmental initiatives",
+                    "vi": "sáng kiến bảo vệ môi trường"
+                  },
+                  {
+                    "en": "social belonging",
+                    "vi": "cảm giác thuộc về cộng đồng"
                   }
                 ],
-                "point_vi": "Cuối cùng, người trưởng thành độc thân có nhiều thời gian hơn để vun đắp các mối kết nối xã hội đa dạng và đóng góp cho cộng đồng.",
-                "point_en": "Finally, single adults have more time to cultivate diverse social connections and contribute to their communities.",
-                "evidence_vi": "Họ có thể duy trì sự gắn bó thân thiết với cha mẹ, anh chị em, đồng thời xây dựng những tình bạn ý nghĩa và tham gia các hoạt động thiện nguyện. Những mối quan hệ phong phú này mang lại niềm vui tinh thần lớn lao và cảm giác gắn kết sâu sắc với xã hội.",
-                "evidence_en": "They can maintain close bonds with parents and siblings while building meaningful friendships and participating in charitable activities. These rich relationships bring great emotional joy and a strong sense of social belonging.",
+                "point_vi": "Người trưởng thành độc thân có nhiều thời gian hơn để vun đắp các mối kết nối xã hội đa dạng và đóng góp cho cộng đồng.",
+                "point_en": "Single adults have more time to cultivate diverse social connections and contribute actively to their communities.",
+                "evidence_vi": "Không bị giới hạn trong khuôn khổ gia đình hạt nhân, người trưởng thành độc thân có nhiều thời gian hơn để quan tâm chăm sóc cha mẹ và anh chị em. Họ cũng dễ dàng duy trì tình bạn bền chặt, tham gia các câu lạc bộ sở thích và mở rộng vòng tròn giao tiếp đa dạng. Ví dụ, nhiều người độc thân tích cực đóng góp công sức cho các tổ chức thiện nguyện và dự án bảo vệ môi trường tại địa phương. Những mối kết nối phong phú này mang lại niềm vui tinh thần lớn lao và cảm giác gắn bó ý nghĩa với cộng đồng.",
+                "evidence_en": "Without being confined exclusively to a nuclear household, single adults have greater time to care for aging parents and stay close to siblings. They can also nurture lasting friendships, join hobby clubs, and build diverse social circles across different communities. For example, many unmarried individuals dedicate weekends to charity organizations and local environmental initiatives. These rich interpersonal connections foster profound emotional joy and a strong sense of social belonging.",
                 "point_collocations": [
                   {
-                    "en": "cultivate diverse social connections",
-                    "vi": "vun đắp các mối kết nối xã hội đa dạng"
+                    "en": "diverse social connections",
+                    "vi": "các mối kết nối xã hội đa dạng"
                   },
                   {
-                    "en": "contribute to their communities",
+                    "en": "contribute to communities",
                     "vi": "đóng góp cho cộng đồng"
                   }
                 ],
                 "evidence_collocations": [
                   [
                     {
-                      "en": "maintain close bonds with",
-                      "vi": "duy trì sự gắn bó thân thiết với"
+                      "en": "nuclear household",
+                      "vi": "gia đình hạt nhân"
                     },
                     {
-                      "en": "participate in charitable activities",
-                      "vi": "tham gia các hoạt động thiện nguyện"
+                      "en": "aging parents",
+                      "vi": "cha mẹ lớn tuổi"
                     }
                   ],
                   [
                     {
-                      "en": "sense of social belonging",
-                      "vi": "cảm giác gắn kết xã hội"
+                      "en": "social circles",
+                      "vi": "vòng tròn quan hệ xã hội"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "environmental initiatives",
+                      "vi": "sáng kiến bảo vệ môi trường"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "social belonging",
+                      "vi": "cảm giác thuộc về cộng đồng"
                     }
                   ]
                 ]
@@ -91449,35 +91405,25 @@ const ESSAY_DATA = [
                     "vi": "xóa bỏ định kiến truyền thống trong gia đình"
                   }
                 ],
-                "evidence_vi": "Khi cả vợ và chồng cùng gánh vác công việc nội trợ, phụ nữ không còn phải chịu áp lực kép giữa sự nghiệp và gia đình. Điều này tạo dựng sự tôn trọng lẫn nhau giữa hai vợ chồng và làm gương tích cực cho con cái về sự bình đẳng.",
-                "evidence_en": "When both husbands and wives share domestic duties, women no longer have to bear a double burden of career and housework. This fosters mutual respect between spouses and sets a positive example for children regarding equal partnership.",
+                "evidence_vi": "Khi cả vợ và chồng cùng chia sẻ việc nấu ăn và dọn dẹp, người phụ nữ không còn phải chịu quá nhiều áp lực một mình. Điều này tạo ra sự công bằng và tôn trọng lẫn nhau giữa các thành viên trong nhà. Hơn nữa, con cái khi lớn lên trong gia đình như vậy sẽ học được cách đối xử bình đẳng với mọi người.",
+                "evidence_en": "When both husbands and wives share cooking and cleaning, women no longer carry too much pressure alone. This builds fairness and mutual respect among all family members at home. Moreover, children growing up in such families learn to treat everyone equally.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "share domestic duties",
-                      "vi": "cùng gánh vác công việc nội trợ"
-                    },
-                    {
-                      "en": "bear a double burden",
-                      "vi": "chịu áp lực kép"
-                    },
-                    {
-                      "en": "career and housework",
-                      "vi": "sự nghiệp và gia đình"
+                      "en": "carry pressure alone",
+                      "vi": "chịu áp lực một mình"
                     }
                   ],
                   [
                     {
-                      "en": "foster mutual respect between spouses",
-                      "vi": "tôn trọng lẫn nhau giữa hai vợ chồng"
-                    },
+                      "en": "fairness and mutual respect",
+                      "vi": "sự công bằng và tôn trọng lẫn nhau"
+                    }
+                  ],
+                  [
                     {
-                      "en": "set a positive example for children",
-                      "vi": "làm gương tích cực cho con cái"
-                    },
-                    {
-                      "en": "equal partnership",
-                      "vi": "sự bình đẳng"
+                      "en": "treat everyone equally",
+                      "vi": "đối xử bình đẳng với mọi người"
                     }
                   ]
                 ],
@@ -91495,28 +91441,16 @@ const ESSAY_DATA = [
                     "vi": "xóa bỏ định kiến truyền thống trong gia đình"
                   },
                   {
-                    "en": "share domestic duties",
-                    "vi": "cùng gánh vác công việc nội trợ"
+                    "en": "carry pressure alone",
+                    "vi": "chịu áp lực một mình"
                   },
                   {
-                    "en": "bear a double burden",
-                    "vi": "chịu áp lực kép"
+                    "en": "fairness and mutual respect",
+                    "vi": "sự công bằng và tôn trọng lẫn nhau"
                   },
                   {
-                    "en": "career and housework",
-                    "vi": "sự nghiệp và gia đình"
-                  },
-                  {
-                    "en": "foster mutual respect between spouses",
-                    "vi": "tôn trọng lẫn nhau giữa hai vợ chồng"
-                  },
-                  {
-                    "en": "set a positive example for children",
-                    "vi": "làm gương tích cực cho con cái"
-                  },
-                  {
-                    "en": "equal partnership",
-                    "vi": "sự bình đẳng"
+                    "en": "treat everyone equally",
+                    "vi": "đối xử bình đẳng với mọi người"
                   }
                 ]
               },
@@ -91538,35 +91472,25 @@ const ESSAY_DATA = [
                     "vi": "không gian sống ... sạch sẽ, ngăn nắp và tốt cho sức khỏe"
                   }
                 ],
-                "evidence_vi": "Nhờ sự phân công hợp lý, các công việc dọn dẹp và nấu nướng được thực hiện đều đặn và hiệu quả hơn mỗi ngày. Một ngôi nhà sạch đẹp, gọn gàng sẽ mang lại cảm giác thư thái tinh thần cho mọi thành viên khi trở về nhà.",
-                "evidence_en": "With fair task distribution, cleaning and cooking are completed more regularly and efficiently every day. A clean and organized home brings mental comfort to all family members when they return home.",
+                "evidence_vi": "Nhờ mọi người cùng chung tay, các việc như quét dọn, giặt giũ và nấu ăn được hoàn thành nhanh và đều đặn hơn mỗi ngày. Ngôi nhà nhờ vậy luôn sạch sẽ, ít bụi bẩn và an toàn hơn cho sức khỏe của cả gia đình. Khi trở về một không gian gọn gàng và thoải mái, ai cũng cảm thấy thư giãn và vui vẻ hơn.",
+                "evidence_en": "When everyone helps out, tasks like sweeping, laundry, and cooking get done faster and more regularly every day. As a result, the house stays clean, dust-free, and healthier for the whole family. Returning to a tidy and comfortable space makes everyone feel relaxed and happier.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "fair task distribution",
-                      "vi": "sự phân công hợp lý"
-                    },
-                    {
-                      "en": "cleaning and cooking",
-                      "vi": "các công việc dọn dẹp và nấu nướng"
-                    },
-                    {
-                      "en": "completed more regularly and efficiently",
-                      "vi": "được thực hiện đều đặn và hiệu quả hơn"
+                      "en": "help out",
+                      "vi": "phụ giúp / chung tay"
                     }
                   ],
                   [
                     {
-                      "en": "a clean and organized home",
-                      "vi": "một ngôi nhà sạch đẹp, gọn gàng"
-                    },
+                      "en": "dust-free and healthier",
+                      "vi": "sạch bụi và tốt cho sức khỏe hơn"
+                    }
+                  ],
+                  [
                     {
-                      "en": "bring mental comfort to",
-                      "vi": "mang lại cảm giác thư thái tinh thần cho"
-                    },
-                    {
-                      "en": "all family members",
-                      "vi": "mọi thành viên"
+                      "en": "tidy and comfortable space",
+                      "vi": "không gian gọn gàng và thoải mái"
                     }
                   ]
                 ],
@@ -91584,28 +91508,16 @@ const ESSAY_DATA = [
                     "vi": "không gian sống ... sạch sẽ, ngăn nắp và tốt cho sức khỏe"
                   },
                   {
-                    "en": "fair task distribution",
-                    "vi": "sự phân công hợp lý"
+                    "en": "help out",
+                    "vi": "phụ giúp / chung tay"
                   },
                   {
-                    "en": "cleaning and cooking",
-                    "vi": "các công việc dọn dẹp và nấu nướng"
+                    "en": "dust-free and healthier",
+                    "vi": "sạch bụi và tốt cho sức khỏe hơn"
                   },
                   {
-                    "en": "completed more regularly and efficiently",
-                    "vi": "được thực hiện đều đặn và hiệu quả hơn"
-                  },
-                  {
-                    "en": "a clean and organized home",
-                    "vi": "một ngôi nhà sạch đẹp, gọn gàng"
-                  },
-                  {
-                    "en": "bring mental comfort to",
-                    "vi": "mang lại cảm giác thư thái tinh thần cho"
-                  },
-                  {
-                    "en": "all family members",
-                    "vi": "mọi thành viên"
+                    "en": "tidy and comfortable space",
+                    "vi": "không gian gọn gàng và thoải mái"
                   }
                 ]
               }
@@ -91629,58 +91541,34 @@ const ESSAY_DATA = [
                     "vi": "cho tất cả các thành viên trong gia đình"
                   },
                   {
-                    "en": "household tasks",
-                    "vi": "các công việc"
-                  },
-                  {
-                    "en": "be shared fairly",
+                    "en": "distributed fairly",
                     "vi": "được phân chia công bằng"
                   },
                   {
-                    "en": "family members",
-                    "vi": "mọi người"
+                    "en": "domestic duties",
+                    "vi": "công việc nội trợ"
                   },
                   {
-                    "en": "no one",
-                    "vi": "không ai"
+                    "en": "demanding full-time jobs",
+                    "vi": "công việc toàn thời gian áp lực"
                   },
                   {
-                    "en": "too many responsibilities",
-                    "vi": "quá nhiều trách nhiệm"
+                    "en": "household burdens",
+                    "vi": "gánh nặng việc nhà"
                   },
                   {
-                    "en": "a better balance",
-                    "vi": "cân bằng tốt hơn"
+                    "en": "pursue personal hobbies",
+                    "vi": "theo đuổi sở thích cá nhân"
                   },
                   {
-                    "en": "work, study, and life",
-                    "vi": "công việc, học tập và cuộc sống"
-                  },
-                  {
-                    "en": "have more time",
-                    "vi": "có thêm thời gian"
-                  },
-                  {
-                    "en": "relax",
-                    "vi": "nghỉ ngơi"
-                  },
-                  {
-                    "en": "take care of themselves",
-                    "vi": "chăm sóc bản thân"
-                  },
-                  {
-                    "en": "the overall quality of family life",
-                    "vi": "chất lượng cuộc sống của cả gia đình"
-                  },
-                  {
-                    "en": "be improved",
-                    "vi": "được cải thiện"
+                    "en": "quality of family life",
+                    "vi": "chất lượng đời sống gia đình"
                   }
                 ],
                 "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho tất cả các thành viên trong gia đình.",
                 "point_en": "Sharing housework reduces the workload for all family members.",
-                "evidence_vi": "Các công việc được phân chia công bằng giữa mọi người. Không ai phải chịu quá nhiều trách nhiệm. Điều này giúp mọi người cân bằng tốt hơn giữa công việc, học tập và cuộc sống. Họ cũng có thêm thời gian để nghỉ ngơi và chăm sóc bản thân. Vì vậy, chất lượng cuộc sống của cả gia đình được cải thiện.",
-                "evidence_en": "Household tasks are shared fairly among family members. No one has to take on too many responsibilities. This helps them achieve a better balance between work, study, and life. They also have more time to relax and take care of themselves. Therefore, the overall quality of family life can be improved.",
+                "evidence_vi": "Khi các công việc như nấu nướng, giặt giũ và dọn dẹp được phân chia công bằng, không một cá nhân nào phải gánh chịu quá tải trách nhiệm. Điều này đặc biệt có ý nghĩa đối với những bậc cha mẹ bận rộn phải làm việc toàn thời gian bên ngoài. Nhờ giảm bớt áp lực nội trợ hằng ngày, mỗi thành viên có thêm thời gian nghỉ ngơi, theo đuổi sở thích cá nhân và chăm sóc sức khỏe. Kết quả là tình trạng kiệt sức giảm đi rõ rệt và chất lượng sống của cả gia đình được nâng cao bền vững.",
+                "evidence_en": "When daily chores such as cooking, laundry, and cleaning are distributed fairly, no single individual becomes overwhelmed by domestic duties. This proves especially vital for working parents who already manage demanding full-time jobs outside the home. With lighter household burdens, every family member gains extra time to rest, pursue personal hobbies, and care for their health. Consequently, chronic fatigue decreases noticeably and the overall quality of family life improves substantially.",
                 "point_collocations": [
                   {
                     "en": "share housework",
@@ -91698,60 +91586,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "household tasks",
-                      "vi": "các công việc"
-                    },
-                    {
-                      "en": "be shared fairly",
+                      "en": "distributed fairly",
                       "vi": "được phân chia công bằng"
                     },
                     {
-                      "en": "family members",
-                      "vi": "mọi người"
+                      "en": "domestic duties",
+                      "vi": "công việc nội trợ"
                     }
                   ],
                   [
                     {
-                      "en": "no one",
-                      "vi": "không ai"
-                    },
-                    {
-                      "en": "too many responsibilities",
-                      "vi": "quá nhiều trách nhiệm"
+                      "en": "demanding full-time jobs",
+                      "vi": "công việc toàn thời gian áp lực"
                     }
                   ],
                   [
                     {
-                      "en": "a better balance",
-                      "vi": "cân bằng tốt hơn"
+                      "en": "household burdens",
+                      "vi": "gánh nặng việc nhà"
                     },
                     {
-                      "en": "work, study, and life",
-                      "vi": "công việc, học tập và cuộc sống"
+                      "en": "pursue personal hobbies",
+                      "vi": "theo đuổi sở thích cá nhân"
                     }
                   ],
                   [
                     {
-                      "en": "have more time",
-                      "vi": "có thêm thời gian"
-                    },
-                    {
-                      "en": "relax",
-                      "vi": "nghỉ ngơi"
-                    },
-                    {
-                      "en": "take care of themselves",
-                      "vi": "chăm sóc bản thân"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "the overall quality of family life",
-                      "vi": "chất lượng cuộc sống của cả gia đình"
-                    },
-                    {
-                      "en": "be improved",
-                      "vi": "được cải thiện"
+                      "en": "quality of family life",
+                      "vi": "chất lượng đời sống gia đình"
                     }
                   ]
                 ]
@@ -91772,66 +91634,30 @@ const ESSAY_DATA = [
                     "vi": "mối quan hệ giữa các thành viên trong gia đình"
                   },
                   {
-                    "en": "family members",
-                    "vi": "các thành viên"
+                    "en": "cooperate smoothly",
+                    "vi": "phối hợp nhịp nhàng"
                   },
                   {
-                    "en": "have more opportunities",
-                    "vi": "có nhiều cơ hội"
+                    "en": "deeper appreciation",
+                    "vi": "sự trân trọng sâu sắc hơn"
                   },
                   {
-                    "en": "cooperate with one another",
-                    "vi": "hợp tác với nhau"
+                    "en": "ease tension",
+                    "vi": "xoa dịu căng thẳng"
                   },
                   {
-                    "en": "spend more time",
-                    "vi": "dành nhiều thời gian"
+                    "en": "genuine teamwork",
+                    "vi": "sự phối hợp chân thành"
                   },
                   {
-                    "en": "talking",
-                    "vi": "trò chuyện"
-                  },
-                  {
-                    "en": "supporting each other",
-                    "vi": "hỗ trợ nhau"
-                  },
-                  {
-                    "en": "help build",
-                    "vi": "giúp xây dựng"
-                  },
-                  {
-                    "en": "mutual understanding",
-                    "vi": "sự thấu hiểu và tôn trọng lẫn nhau"
-                  },
-                  {
-                    "en": "respect",
-                    "vi": "tôn trọng"
-                  },
-                  {
-                    "en": "solve problems",
-                    "vi": "giải quyết các vấn đề"
-                  },
-                  {
-                    "en": "together",
-                    "vi": "cùng"
-                  },
-                  {
-                    "en": "more effectively",
-                    "vi": "hiệu quả hơn"
-                  },
-                  {
-                    "en": "the family environment",
-                    "vi": "môi trường gia đình"
-                  },
-                  {
-                    "en": "become more positive and united",
-                    "vi": "trở nên tích cực và gắn kết hơn"
+                    "en": "home atmosphere",
+                    "vi": "bầu không khí gia đình"
                   }
                 ],
                 "point_vi": "Chia sẻ việc nhà giúp tăng cường mối quan hệ giữa các thành viên trong gia đình.",
                 "point_en": "Sharing housework strengthens family relationships.",
-                "evidence_vi": "Các thành viên có nhiều cơ hội hợp tác với nhau hơn. Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau. Điều này giúp xây dựng sự thấu hiểu và tôn trọng lẫn nhau. Gia đình có thể giải quyết các vấn đề cùng nhau hiệu quả hơn. Nhờ đó, môi trường gia đình trở nên tích cực và gắn kết hơn.",
-                "evidence_en": "Family members have more opportunities to cooperate with one another. They also spend more time talking and supporting each other. This helps build mutual understanding and respect. Families can solve problems together more effectively. As a result, the family environment becomes more positive and united.",
+                "evidence_vi": "Việc cùng nhau dọn dẹp nhà cửa hoặc chuẩn bị bữa tối tạo ra nhiều cơ hội tự nhiên để các thành viên trò chuyện và phối hợp nhịp nhàng. Trong quá trình hỗ trợ lẫn nhau, cha mẹ và con cái dần hiểu rõ hơn những vất vả hằng ngày của đối phương và thêm trân trọng công sức của nhau. Chẳng hạn, cả nhà cùng nấu ăn vào dịp cuối tuần thường mang lại tiếng cười và giúp hóa giải các căng thẳng sau một tuần làm việc bận rộn. Nhờ sự sẻ chia chân thành này, bầu không khí gia đình trở nên ấm áp, tin cậy và gắn kết bền chặt hơn.",
+                "evidence_en": "Tidying the house or preparing dinner together creates natural opportunities for family members to converse and cooperate smoothly. While assisting one another, parents and children gain deeper appreciation for each other's daily efforts and challenges. For example, cooking a weekend meal together often sparks laughter and eases tension after a busy week of work and study. Through such genuine teamwork, the home atmosphere grows warmer, more trusting, and far more united.",
                 "point_collocations": [
                   {
                     "en": "share housework",
@@ -91849,68 +91675,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "family members",
-                      "vi": "các thành viên"
-                    },
-                    {
-                      "en": "have more opportunities",
-                      "vi": "có nhiều cơ hội"
-                    },
-                    {
-                      "en": "cooperate with one another",
-                      "vi": "hợp tác với nhau"
+                      "en": "cooperate smoothly",
+                      "vi": "phối hợp nhịp nhàng"
                     }
                   ],
                   [
                     {
-                      "en": "spend more time",
-                      "vi": "dành nhiều thời gian"
-                    },
-                    {
-                      "en": "talking",
-                      "vi": "trò chuyện"
-                    },
-                    {
-                      "en": "supporting each other",
-                      "vi": "hỗ trợ nhau"
+                      "en": "deeper appreciation",
+                      "vi": "sự trân trọng sâu sắc hơn"
                     }
                   ],
                   [
                     {
-                      "en": "help build",
-                      "vi": "giúp xây dựng"
-                    },
-                    {
-                      "en": "mutual understanding",
-                      "vi": "sự thấu hiểu và tôn trọng lẫn nhau"
-                    },
-                    {
-                      "en": "respect",
-                      "vi": "tôn trọng"
+                      "en": "ease tension",
+                      "vi": "xoa dịu căng thẳng"
                     }
                   ],
                   [
                     {
-                      "en": "solve problems",
-                      "vi": "giải quyết các vấn đề"
+                      "en": "genuine teamwork",
+                      "vi": "sự phối hợp chân thành"
                     },
                     {
-                      "en": "together",
-                      "vi": "cùng"
-                    },
-                    {
-                      "en": "more effectively",
-                      "vi": "hiệu quả hơn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "the family environment",
-                      "vi": "môi trường gia đình"
-                    },
-                    {
-                      "en": "become more positive and united",
-                      "vi": "trở nên tích cực và gắn kết hơn"
+                      "en": "home atmosphere",
+                      "vi": "bầu không khí gia đình"
                     }
                   ]
                 ]
@@ -91931,62 +91719,34 @@ const ESSAY_DATA = [
                     "vi": "những kỹ năng sống quan trọng"
                   },
                   {
-                    "en": "learn",
-                    "vi": "học cách"
+                    "en": "age-appropriate chores",
+                    "vi": "việc nhà phù hợp lứa tuổi"
                   },
                   {
-                    "en": "take responsibility",
-                    "vi": "chịu trách nhiệm"
-                  },
-                  {
-                    "en": "their own tasks",
-                    "vi": "công việc của mình"
-                  },
-                  {
-                    "en": "develop",
-                    "vi": "phát triển"
+                    "en": "early accountability",
+                    "vi": "tinh thần trách nhiệm sớm"
                   },
                   {
                     "en": "time management",
                     "vi": "quản lý thời gian"
                   },
                   {
-                    "en": "skills",
-                    "vi": "kỹ năng"
+                    "en": "personal discipline",
+                    "vi": "tính kỷ luật cá nhân"
                   },
                   {
-                    "en": "help them",
-                    "vi": "giúp các em"
+                    "en": "living independently",
+                    "vi": "sống tự lập"
                   },
                   {
-                    "en": "more independent",
-                    "vi": "tự lập hơn"
-                  },
-                  {
-                    "en": "these skills",
-                    "vi": "kỹ năng này"
-                  },
-                  {
-                    "en": "very useful",
-                    "vi": "rất hữu ích"
-                  },
-                  {
-                    "en": "in adult life",
-                    "vi": "khi các em trưởng thành"
-                  },
-                  {
-                    "en": "share housework",
-                    "vi": "chia sẻ việc nhà"
-                  },
-                  {
-                    "en": "prepare children for a better future",
-                    "vi": "chuẩn bị cho các em một tương lai tốt hơn"
+                    "en": "self-reliant adults",
+                    "vi": "người trưởng thành tự lập"
                   }
                 ],
                 "point_vi": "Chia sẻ việc nhà giúp trẻ em phát triển những kỹ năng sống quan trọng.",
                 "point_en": "Sharing housework helps children develop important life skills.",
-                "evidence_vi": "Các em học cách chịu trách nhiệm về công việc của mình. Các em cũng phát triển kỹ năng quản lý thời gian. Điều này giúp các em trở nên tự lập hơn. Các kỹ năng này rất hữu ích khi các em trưởng thành. Vì vậy, chia sẻ việc nhà góp phần chuẩn bị cho các em một tương lai tốt hơn.",
-                "evidence_en": "Children learn to take responsibility for their own tasks. They also develop time management skills. This helps them become more independent. These skills are very useful in adult life. Therefore, sharing housework helps prepare children for a better future.",
+                "evidence_vi": "Khi được giao những công việc phù hợp với độ tuổi như dọn phòng, rửa bát hay gấp quần áo, trẻ em sớm học cách chịu trách nhiệm với nhiệm vụ của mình. Quá trình tự sắp xếp thời gian giữa bài tập ở trường và việc nhà cũng rèn luyện kỹ năng quản lý thời gian và tính kỷ luật rất hiệu quả. Ví dụ, những bạn trẻ quen tự nấu các bữa ăn đơn giản và chăm sóc không gian sống thường thích nghi rất nhanh khi lên đại học sống xa nhà. Những kỹ năng sống thực tiễn này tạo hành trang vững chắc giúp các em trở thành người trưởng thành tự lập và bản lĩnh.",
+                "evidence_en": "When assigned age-appropriate chores such as tidying rooms, washing dishes, or folding laundry, children learn early accountability for their duties. Balancing schoolwork alongside household tasks also sharpens their time management and personal discipline effectively. For example, teenagers accustomed to preparing simple meals and maintaining their space adapt far more smoothly when living independently at university. These practical life skills equip young people to grow into capable, self-reliant adults.",
                 "point_collocations": [
                   {
                     "en": "share housework",
@@ -92004,64 +91764,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "learn",
-                      "vi": "học cách"
+                      "en": "age-appropriate chores",
+                      "vi": "việc nhà phù hợp lứa tuổi"
                     },
                     {
-                      "en": "take responsibility",
-                      "vi": "chịu trách nhiệm"
-                    },
-                    {
-                      "en": "their own tasks",
-                      "vi": "công việc của mình"
+                      "en": "early accountability",
+                      "vi": "tinh thần trách nhiệm sớm"
                     }
                   ],
                   [
-                    {
-                      "en": "develop",
-                      "vi": "phát triển"
-                    },
                     {
                       "en": "time management",
                       "vi": "quản lý thời gian"
                     },
                     {
-                      "en": "skills",
-                      "vi": "kỹ năng"
+                      "en": "personal discipline",
+                      "vi": "tính kỷ luật cá nhân"
                     }
                   ],
                   [
                     {
-                      "en": "help them",
-                      "vi": "giúp các em"
-                    },
-                    {
-                      "en": "more independent",
-                      "vi": "tự lập hơn"
+                      "en": "living independently",
+                      "vi": "sống tự lập"
                     }
                   ],
                   [
                     {
-                      "en": "these skills",
-                      "vi": "kỹ năng này"
-                    },
-                    {
-                      "en": "very useful",
-                      "vi": "rất hữu ích"
-                    },
-                    {
-                      "en": "in adult life",
-                      "vi": "khi các em trưởng thành"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "share housework",
-                      "vi": "chia sẻ việc nhà"
-                    },
-                    {
-                      "en": "prepare children for a better future",
-                      "vi": "chuẩn bị cho các em một tương lai tốt hơn"
+                      "en": "self-reliant adults",
+                      "vi": "người trưởng thành tự lập"
                     }
                   ]
                 ]
@@ -92082,34 +91812,34 @@ const ESSAY_DATA = [
                     "vi": "xóa bỏ định kiến truyền thống trong gia đình"
                   },
                   {
-                    "en": "share domestic duties",
-                    "vi": "cùng gánh vác công việc nội trợ"
+                    "en": "shoulder a double burden",
+                    "vi": "gánh chịu gánh nặng kép"
                   },
                   {
-                    "en": "bear a double burden",
-                    "vi": "chịu áp lực kép"
-                  },
-                  {
-                    "en": "career and housework",
-                    "vi": "sự nghiệp và gia đình"
-                  },
-                  {
-                    "en": "foster mutual respect between spouses",
-                    "vi": "tôn trọng lẫn nhau giữa hai vợ chồng"
-                  },
-                  {
-                    "en": "set a positive example for children",
-                    "vi": "làm gương tích cực cho con cái"
+                    "en": "outdated stereotypes",
+                    "vi": "định kiến lỗi thời"
                   },
                   {
                     "en": "equal partnership",
-                    "vi": "sự bình đẳng"
+                    "vi": "sự đồng hành bình đẳng"
+                  },
+                  {
+                    "en": "gender roles",
+                    "vi": "vai trò giới"
+                  },
+                  {
+                    "en": "marital respect",
+                    "vi": "sự tôn trọng trong hôn nhân"
+                  },
+                  {
+                    "en": "equitable society",
+                    "vi": "xã hội bình đẳng"
                   }
                 ],
                 "point_vi": "Việc cùng chia sẻ việc nhà góp phần thúc đẩy bình đẳng giới và xóa bỏ định kiến truyền thống trong gia đình.",
                 "point_en": "Sharing household chores promotes gender equality and eliminates traditional stereotypes at home.",
-                "evidence_vi": "Khi cả vợ và chồng cùng gánh vác công việc nội trợ, phụ nữ không còn phải chịu áp lực kép giữa sự nghiệp và gia đình. Điều này tạo dựng sự tôn trọng lẫn nhau giữa hai vợ chồng và làm gương tích cực cho con cái về sự bình đẳng.",
-                "evidence_en": "When both husbands and wives share domestic duties, women no longer have to bear a double burden of career and housework. This fosters mutual respect between spouses and sets a positive example for children regarding equal partnership.",
+                "evidence_vi": "Khi cả vợ và chồng cùng chia sẻ trách nhiệm nội trợ, phụ nữ không còn phải một mình gánh chịu áp lực kép giữa sự nghiệp và việc nhà. Sự phân công bình đẳng này xóa bỏ định kiến lỗi thời cho rằng việc bếp núc hay chăm sóc gia đình chỉ là bổn phận của riêng phái nữ. Chẳng hạn, khi các bé trai và bé gái cùng thấy cha mình nấu ăn và dọn dẹp giống như mẹ, các em sẽ hình thành nhận thức công bằng về vai trò giới. Qua đó, gia đình vừa xây dựng được sự tôn trọng sâu sắc giữa hai vợ chồng vừa góp phần thúc đẩy một xã hội bình đẳng hơn.",
+                "evidence_en": "When both husbands and wives share domestic responsibilities, women are no longer forced to shoulder a double burden of career and housework alone. This equal partnership dismantles outdated stereotypes claiming that cooking and housekeeping belong exclusively to women. For instance, when sons and daughters watch their fathers cook and clean alongside their mothers, they internalize fair attitudes toward gender roles. Ultimately, shared housework fosters mutual marital respect while nurturing a more equitable future society.",
                 "point_collocations": [
                   {
                     "en": "share household chores",
@@ -92127,30 +91857,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "share domestic duties",
-                      "vi": "cùng gánh vác công việc nội trợ"
-                    },
-                    {
-                      "en": "bear a double burden",
-                      "vi": "chịu áp lực kép"
-                    },
-                    {
-                      "en": "career and housework",
-                      "vi": "sự nghiệp và gia đình"
+                      "en": "shoulder a double burden",
+                      "vi": "gánh chịu gánh nặng kép"
                     }
                   ],
                   [
                     {
-                      "en": "foster mutual respect between spouses",
-                      "vi": "tôn trọng lẫn nhau giữa hai vợ chồng"
-                    },
-                    {
-                      "en": "set a positive example for children",
-                      "vi": "làm gương tích cực cho con cái"
+                      "en": "outdated stereotypes",
+                      "vi": "định kiến lỗi thời"
                     },
                     {
                       "en": "equal partnership",
-                      "vi": "sự bình đẳng"
+                      "vi": "sự đồng hành bình đẳng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "gender roles",
+                      "vi": "vai trò giới"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "marital respect",
+                      "vi": "sự tôn trọng trong hôn nhân"
+                    },
+                    {
+                      "en": "equitable society",
+                      "vi": "xã hội bình đẳng"
                     }
                   ]
                 ]
@@ -92171,34 +91905,30 @@ const ESSAY_DATA = [
                     "vi": "không gian sống ... sạch sẽ, ngăn nắp và tốt cho sức khỏe"
                   },
                   {
-                    "en": "fair task distribution",
-                    "vi": "sự phân công hợp lý"
+                    "en": "pitch in consistently",
+                    "vi": "chung tay đều đặn"
                   },
                   {
-                    "en": "cleaning and cooking",
-                    "vi": "các công việc dọn dẹp và nấu nướng"
+                    "en": "safeguarding physical health",
+                    "vi": "bảo vệ sức khỏe thể chất"
                   },
                   {
-                    "en": "completed more regularly and efficiently",
-                    "vi": "được thực hiện đều đặn và hiệu quả hơn"
+                    "en": "nutritious home-cooked meals",
+                    "vi": "bữa ăn nấu tại nhà bổ dưỡng"
                   },
                   {
-                    "en": "a clean and organized home",
-                    "vi": "một ngôi nhà sạch đẹp, gọn gàng"
+                    "en": "clutter-free environment",
+                    "vi": "không gian sống gọn gàng ngăn nắp"
                   },
                   {
-                    "en": "bring mental comfort to",
-                    "vi": "mang lại cảm giác thư thái tinh thần cho"
-                  },
-                  {
-                    "en": "all family members",
-                    "vi": "mọi thành viên"
+                    "en": "mental relaxation",
+                    "vi": "sự thư thái tinh thần"
                   }
                 ],
                 "point_vi": "Sự chung tay của cả gia đình giúp duy trì không gian sống luôn sạch sẽ, ngăn nắp và tốt cho sức khỏe.",
                 "point_en": "Collective participation in housework maintains a cleaner, more organized, and healthier living environment.",
-                "evidence_vi": "Nhờ sự phân công hợp lý, các công việc dọn dẹp và nấu nướng được thực hiện đều đặn và hiệu quả hơn mỗi ngày. Một ngôi nhà sạch đẹp, gọn gàng sẽ mang lại cảm giác thư thái tinh thần cho mọi thành viên khi trở về nhà.",
-                "evidence_en": "With fair task distribution, cleaning and cooking are completed more regularly and efficiently every day. A clean and organized home brings mental comfort to all family members when they return home.",
+                "evidence_vi": "Nhờ sự tham gia đồng bộ của tất cả các thành viên, công tác vệ sinh, giặt giũ và sắp xếp đồ đạc được duy trì thường xuyên và kỹ lưỡng hơn mỗi ngày. Điều này giúp hạn chế bụi bẩn, vi khuẩn và các tác nhân gây dị ứng, trực tiếp bảo vệ sức khỏe thể chất cho cả người già lẫn trẻ nhỏ. Chẳng hạn, việc cùng chuẩn bị những bữa cơm nhà sạch sẽ và bổ dưỡng còn giúp gia đình giảm phụ thuộc vào đồ ăn nhanh kém lành mạnh. Hơn nữa, trở về một ngôi nhà ngăn nắp và thoáng đãng mang lại cảm giác thư thái tinh thần rõ rệt sau ngày dài mệt mỏi.",
+                "evidence_en": "With every family member pitching in consistently, cleaning, laundry, and household organization are carried out far more regularly and thoroughly. This significantly reduces dust, bacteria, and allergens, directly safeguarding the physical health of both children and elderly relatives. For example, sharing kitchen duties makes it much easier to prepare fresh, nutritious home-cooked meals instead of relying on unhealthy takeaways. Moreover, returning to a clean, clutter-free living environment brings immediate mental relaxation after a stressful day.",
                 "point_collocations": [
                   {
                     "en": "collective participation in housework",
@@ -92216,30 +91946,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "fair task distribution",
-                      "vi": "sự phân công hợp lý"
-                    },
-                    {
-                      "en": "cleaning and cooking",
-                      "vi": "các công việc dọn dẹp và nấu nướng"
-                    },
-                    {
-                      "en": "completed more regularly and efficiently",
-                      "vi": "được thực hiện đều đặn và hiệu quả hơn"
+                      "en": "pitch in consistently",
+                      "vi": "chung tay đều đặn"
                     }
                   ],
                   [
                     {
-                      "en": "a clean and organized home",
-                      "vi": "một ngôi nhà sạch đẹp, gọn gàng"
+                      "en": "safeguarding physical health",
+                      "vi": "bảo vệ sức khỏe thể chất"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "nutritious home-cooked meals",
+                      "vi": "bữa ăn nấu tại nhà bổ dưỡng"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "clutter-free environment",
+                      "vi": "không gian sống gọn gàng ngăn nắp"
                     },
                     {
-                      "en": "bring mental comfort to",
-                      "vi": "mang lại cảm giác thư thái tinh thần cho"
-                    },
-                    {
-                      "en": "all family members",
-                      "vi": "mọi thành viên"
+                      "en": "mental relaxation",
+                      "vi": "sự thư thái tinh thần"
                     }
                   ]
                 ]
@@ -93160,35 +92890,33 @@ const ESSAY_DATA = [
                     "vi": "kỹ năng phối hợp nhóm"
                   }
                 ],
-                "evidence_vi": "Khi tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc, người học có cơ hội kết bạn với những người có cùng đam mê. Quá trình hòa tấu đòi hỏi mỗi thành viên phải biết lắng nghe và phối hợp nhịp nhàng với tập thể.",
-                "evidence_en": "By joining music clubs, bands, or orchestras, learners have opportunities to make friends who share a common passion. Playing music together requires participants to listen attentively and coordinate harmoniously with others.",
+                "evidence_vi": "Khi tham gia các câu lạc bộ âm nhạc hoặc ban nhạc ở trường, người học dễ dàng kết bạn với nhiều người có cùng sở thích. Trong lúc chơi nhạc cùng nhau, mỗi thành viên phải chú ý lắng nghe và phối hợp nhịp nhàng với đồng đội. Nhờ đó, họ vừa mở rộng mối quan hệ xã hội vừa rèn luyện kỹ năng làm việc nhóm rất tốt.",
+                "evidence_en": "When joining school music clubs or bands, learners easily make friends with people who share the same hobby. While playing music together, every member must listen carefully and stay in time with teammates. As a result, they both expand their friendships and build strong teamwork skills.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "join music clubs, bands, or orchestras",
-                      "vi": "tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc"
+                      "en": "music clubs",
+                      "vi": "câu lạc bộ âm nhạc"
                     },
                     {
-                      "en": "make friends",
-                      "vi": "kết bạn"
-                    },
-                    {
-                      "en": "share a common passion",
-                      "vi": "có cùng đam mê"
+                      "en": "same hobby",
+                      "vi": "cùng sở thích"
                     }
                   ],
                   [
                     {
-                      "en": "play music together",
-                      "vi": "quá trình hòa tấu"
+                      "en": "stay in time",
+                      "vi": "giữ đúng nhịp"
                     },
                     {
-                      "en": "listen attentively",
-                      "vi": "lắng nghe"
-                    },
+                      "en": "teammates",
+                      "vi": "đồng đội"
+                    }
+                  ],
+                  [
                     {
-                      "en": "coordinate harmoniously with others",
-                      "vi": "phối hợp nhịp nhàng"
+                      "en": "strong teamwork skills",
+                      "vi": "kỹ năng làm việc nhóm tốt"
                     }
                   ]
                 ],
@@ -93206,28 +92934,24 @@ const ESSAY_DATA = [
                     "vi": "kỹ năng phối hợp nhóm"
                   },
                   {
-                    "en": "join music clubs, bands, or orchestras",
-                    "vi": "tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc"
+                    "en": "music clubs",
+                    "vi": "câu lạc bộ âm nhạc"
                   },
                   {
-                    "en": "make friends",
-                    "vi": "kết bạn"
+                    "en": "same hobby",
+                    "vi": "cùng sở thích"
                   },
                   {
-                    "en": "share a common passion",
-                    "vi": "có cùng đam mê"
+                    "en": "stay in time",
+                    "vi": "giữ đúng nhịp"
                   },
                   {
-                    "en": "play music together",
-                    "vi": "quá trình hòa tấu"
+                    "en": "teammates",
+                    "vi": "đồng đội"
                   },
                   {
-                    "en": "listen attentively",
-                    "vi": "lắng nghe"
-                  },
-                  {
-                    "en": "coordinate harmoniously with others",
-                    "vi": "phối hợp nhịp nhàng"
+                    "en": "strong teamwork skills",
+                    "vi": "kỹ năng làm việc nhóm tốt"
                   }
                 ]
               },
@@ -93249,31 +92973,29 @@ const ESSAY_DATA = [
                     "vi": "trân trọng các giá trị văn hóa"
                   }
                 ],
-                "evidence_vi": "Người học được tiếp xúc với nhiều giai điệu và thể loại âm nhạc đến từ các nền văn hóa, thời kỳ lịch sử khác nhau. Điều này không chỉ kích thích trí tưởng tượng sáng tạo mà còn làm phong phú thêm đời sống tâm hồn của họ.",
-                "evidence_en": "Learners are exposed to diverse musical genres from various cultures and historical periods. This exposure not only stimulates artistic creativity but also enriches their spiritual life.",
+                "evidence_vi": "Người chơi nhạc cụ được khám phá nhiều giai điệu và thể loại âm nhạc đến từ các quốc gia và thời kỳ lịch sử khác nhau. Việc tự sáng tác hoặc biến tấu một đoạn nhạc ngắn giúp kích thích trí tưởng tượng và khả năng sáng tạo mỗi ngày. Qua đó, đời sống tinh thần của họ trở nên phong phú và thú vị hơn rất nhiều.",
+                "evidence_en": "Instrumentalists explore many melodies and music styles from different countries and historical periods. Creating or adapting short musical pieces helps stimulate their imagination and creativity every day. Through this, their emotional and cultural life becomes much richer and more enjoyable.",
                 "evidence_collocations": [
                   [
                     {
-                      "en": "be exposed to",
-                      "vi": "được tiếp xúc với"
+                      "en": "music styles",
+                      "vi": "thể loại âm nhạc"
                     },
                     {
-                      "en": "diverse musical genres",
-                      "vi": "nhiều giai điệu và thể loại âm nhạc"
-                    },
-                    {
-                      "en": "various cultures and historical periods",
-                      "vi": "các nền văn hóa, thời kỳ lịch sử khác nhau"
+                      "en": "historical periods",
+                      "vi": "thời kỳ lịch sử"
                     }
                   ],
                   [
                     {
-                      "en": "stimulate artistic creativity",
-                      "vi": "kích thích trí tưởng tượng sáng tạo"
-                    },
+                      "en": "stimulate imagination",
+                      "vi": "kích thích trí tưởng tượng"
+                    }
+                  ],
+                  [
                     {
-                      "en": "enrich their spiritual life",
-                      "vi": "làm phong phú thêm đời sống tâm hồn"
+                      "en": "richer and more enjoyable",
+                      "vi": "phong phú và thú vị hơn"
                     }
                   ]
                 ],
@@ -93291,24 +93013,20 @@ const ESSAY_DATA = [
                     "vi": "trân trọng các giá trị văn hóa"
                   },
                   {
-                    "en": "be exposed to",
-                    "vi": "được tiếp xúc với"
+                    "en": "music styles",
+                    "vi": "thể loại âm nhạc"
                   },
                   {
-                    "en": "diverse musical genres",
-                    "vi": "nhiều giai điệu và thể loại âm nhạc"
+                    "en": "historical periods",
+                    "vi": "thời kỳ lịch sử"
                   },
                   {
-                    "en": "various cultures and historical periods",
-                    "vi": "các nền văn hóa, thời kỳ lịch sử khác nhau"
+                    "en": "stimulate imagination",
+                    "vi": "kích thích trí tưởng tượng"
                   },
                   {
-                    "en": "stimulate artistic creativity",
-                    "vi": "kích thích trí tưởng tượng sáng tạo"
-                  },
-                  {
-                    "en": "enrich their spiritual life",
-                    "vi": "làm phong phú thêm đời sống tâm hồn"
+                    "en": "richer and more enjoyable",
+                    "vi": "phong phú và thú vị hơn"
                   }
                 ]
               }
@@ -93332,66 +93050,34 @@ const ESSAY_DATA = [
                     "vi": "khả năng ... ghi nhớ"
                   },
                   {
-                    "en": "remember",
-                    "vi": "ghi nhớ"
+                    "en": "read notation",
+                    "vi": "đọc bản nhạc"
                   },
                   {
-                    "en": "musical notes",
-                    "vi": "các nốt nhạc"
+                    "en": "intricate rhythms",
+                    "vi": "nhịp điệu phức tạp"
                   },
                   {
-                    "en": "performance techniques",
-                    "vi": "kỹ thuật biểu diễn"
+                    "en": "brain regions",
+                    "vi": "các vùng não"
                   },
                   {
-                    "en": "coordinate",
-                    "vi": "phối hợp"
+                    "en": "working memory",
+                    "vi": "trí nhớ làm việc"
                   },
                   {
-                    "en": "their hands, eyes, and ears",
-                    "vi": "tay, mắt và tai"
+                    "en": "stronger concentration",
+                    "vi": "sự tập trung cao hơn"
                   },
                   {
-                    "en": "while playing",
-                    "vi": "trong khi chơi"
-                  },
-                  {
-                    "en": "this",
-                    "vi": "điều này"
-                  },
-                  {
-                    "en": "improve",
-                    "vi": "giúp cải thiện"
-                  },
-                  {
-                    "en": "their concentration",
-                    "vi": "khả năng tập trung"
-                  },
-                  {
-                    "en": "study",
-                    "vi": "học tập"
-                  },
-                  {
-                    "en": "solve problems",
-                    "vi": "giải quyết vấn đề"
-                  },
-                  {
-                    "en": "more effectively",
-                    "vi": "hiệu quả hơn"
-                  },
-                  {
-                    "en": "thinking skills",
-                    "vi": "khả năng tư duy"
-                  },
-                  {
-                    "en": "become stronger",
-                    "vi": "phát triển"
+                    "en": "analytical thinking",
+                    "vi": "tư duy phân tích"
                   }
                 ],
                 "point_vi": "Học chơi một loại nhạc cụ giúp phát triển khả năng tư duy và ghi nhớ.",
                 "point_en": "Learning to play a musical instrument develops cognitive and memory skills.",
-                "evidence_vi": "Người học phải ghi nhớ các nốt nhạc và kỹ thuật biểu diễn. Họ cũng phải phối hợp tay, mắt và tai trong khi chơi. Điều này giúp cải thiện khả năng tập trung. Họ có thể học tập và giải quyết vấn đề hiệu quả hơn. Nhờ đó, khả năng tư duy của họ được phát triển.",
-                "evidence_en": "Learners need to remember musical notes and performance techniques. They also need to coordinate their hands, eyes, and ears while playing. This improves their concentration. They can study and solve problems more effectively. As a result, their thinking skills become stronger.",
+                "evidence_vi": "Người học nhạc cụ phải liên tục đọc bản nhạc, ghi nhớ giai điệu và xử lý nhịp điệu phức tạp trong thời gian thực. Đồng thời, họ cần phối hợp chính xác giữa mắt, tai và đôi tay, giúp kích thích nhiều vùng não hoạt động cùng lúc. Chẳng hạn, nhiều nghiên cứu giáo dục chỉ ra rằng học sinh học chơi đàn piano hoặc violin thường có trí nhớ làm việc và khả năng tập trung vượt trội. Sự rèn luyện trí não toàn diện này hỗ trợ mạnh mẽ cho khả năng tư duy phân tích và giải quyết vấn đề trong học tập lẫn công việc.",
+                "evidence_en": "Music learners must continuously read notation, memorize melodies, and process intricate rhythms in real time. Simultaneously, coordinating their eyes, ears, and hands engages multiple brain regions at once. For instance, educational studies consistently show that students learning piano or violin tend to develop sharper working memory and stronger concentration. This comprehensive mental workout substantially enhances analytical thinking and problem-solving performance across academic and professional settings.",
                 "point_collocations": [
                   {
                     "en": "learn to play a musical instrument",
@@ -93409,68 +93095,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "remember",
-                      "vi": "ghi nhớ"
+                      "en": "read notation",
+                      "vi": "đọc bản nhạc"
                     },
                     {
-                      "en": "musical notes",
-                      "vi": "các nốt nhạc"
-                    },
-                    {
-                      "en": "performance techniques",
-                      "vi": "kỹ thuật biểu diễn"
+                      "en": "intricate rhythms",
+                      "vi": "nhịp điệu phức tạp"
                     }
                   ],
                   [
                     {
-                      "en": "coordinate",
-                      "vi": "phối hợp"
-                    },
-                    {
-                      "en": "their hands, eyes, and ears",
-                      "vi": "tay, mắt và tai"
-                    },
-                    {
-                      "en": "while playing",
-                      "vi": "trong khi chơi"
+                      "en": "brain regions",
+                      "vi": "các vùng não"
                     }
                   ],
                   [
                     {
-                      "en": "this",
-                      "vi": "điều này"
+                      "en": "working memory",
+                      "vi": "trí nhớ làm việc"
                     },
                     {
-                      "en": "improve",
-                      "vi": "giúp cải thiện"
-                    },
-                    {
-                      "en": "their concentration",
-                      "vi": "khả năng tập trung"
+                      "en": "stronger concentration",
+                      "vi": "sự tập trung cao hơn"
                     }
                   ],
                   [
                     {
-                      "en": "study",
-                      "vi": "học tập"
-                    },
-                    {
-                      "en": "solve problems",
-                      "vi": "giải quyết vấn đề"
-                    },
-                    {
-                      "en": "more effectively",
-                      "vi": "hiệu quả hơn"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "thinking skills",
-                      "vi": "khả năng tư duy"
-                    },
-                    {
-                      "en": "become stronger",
-                      "vi": "phát triển"
+                      "en": "analytical thinking",
+                      "vi": "tư duy phân tích"
                     }
                   ]
                 ]
@@ -93491,66 +93143,26 @@ const ESSAY_DATA = [
                     "vi": "sức khỏe tinh thần"
                   },
                   {
-                    "en": "music",
-                    "vi": "âm nhạc"
+                    "en": "immerse oneself in",
+                    "vi": "đắm mình vào"
                   },
                   {
-                    "en": "help people relax",
-                    "vi": "giúp mọi người thư giãn"
+                    "en": "emotional outlet",
+                    "vi": "kênh giải tỏa cảm xúc"
                   },
                   {
-                    "en": "after school or work",
-                    "vi": "sau giờ học hoặc làm việc"
+                    "en": "calm the mind",
+                    "vi": "làm dịu tâm trí"
                   },
                   {
-                    "en": "reduce",
-                    "vi": "giúp giảm"
-                  },
-                  {
-                    "en": "stress",
-                    "vi": "căng thẳng"
-                  },
-                  {
-                    "en": "anxiety",
-                    "vi": "lo âu"
-                  },
-                  {
-                    "en": "help people",
-                    "vi": "giúp mọi người"
-                  },
-                  {
-                    "en": "feel",
-                    "vi": "cảm thấy"
-                  },
-                  {
-                    "en": "more positive",
-                    "vi": "tích cực hơn"
-                  },
-                  {
-                    "en": "maintain",
-                    "vi": "duy trì"
-                  },
-                  {
-                    "en": "better",
-                    "vi": "tốt hơn"
-                  },
-                  {
-                    "en": "mental health",
-                    "vi": "trạng thái tinh thần"
-                  },
-                  {
-                    "en": "quality of life",
-                    "vi": "chất lượng cuộc sống"
-                  },
-                  {
-                    "en": "improve",
-                    "vi": "được cải thiện"
+                    "en": "lift overall mood",
+                    "vi": "cải thiện tâm trạng chung"
                   }
                 ],
                 "point_vi": "Chơi nhạc cụ giúp cải thiện sức khỏe tinh thần.",
                 "point_en": "Playing a musical instrument supports mental well-being.",
-                "evidence_vi": "Âm nhạc giúp mọi người thư giãn sau giờ học hoặc làm việc. Nó giúp giảm căng thẳng và lo âu. Điều này giúp mọi người cảm thấy tích cực hơn. Họ có thể duy trì trạng thái tinh thần tốt hơn. Nhờ đó, chất lượng cuộc sống cũng được cải thiện.",
-                "evidence_en": "Music helps people relax after school or work. It reduces stress and anxiety. This helps people feel more positive. They can maintain better mental health. As a result, their quality of life improves.",
+                "evidence_vi": "Đắm mình vào việc chơi những giai điệu yêu thích giúp người học tạm gác lại áp lực công việc, bài vở và những lo âu hằng ngày. Âm nhạc đóng vai trò như một kênh biểu đạt cảm xúc lành mạnh, cho phép con người giải tỏa nỗi buồn hoặc căng thẳng một cách tự nhiên. Ví dụ, chỉ cần dành 30 phút chơi guitar hay piano vào buổi tối cũng giúp nhịp tim ổn định và tinh thần thư thái hơn rõ rệt. Nhờ duy trì nguồn năng lượng tích cực này, người chơi nhạc cụ bảo vệ được sức khỏe tâm thần và nâng cao chất lượng sống.",
+                "evidence_en": "Immersing oneself in playing favorite melodies helps individuals temporarily step away from academic pressure, workplace demands, and daily worries. Music acts as a healthy emotional outlet, allowing people to release frustration, sadness, or stress constructively. For example, spending just 30 minutes playing guitar or piano in the evening noticeably calms the mind and lifts overall mood. By sustaining this positive emotional balance, playing an instrument strengthens mental well-being and enriches quality of life.",
                 "point_collocations": [
                   {
                     "en": "play a musical instrument",
@@ -93568,68 +93180,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "music",
-                      "vi": "âm nhạc"
-                    },
-                    {
-                      "en": "help people relax",
-                      "vi": "giúp mọi người thư giãn"
-                    },
-                    {
-                      "en": "after school or work",
-                      "vi": "sau giờ học hoặc làm việc"
+                      "en": "immerse oneself in",
+                      "vi": "đắm mình vào"
                     }
                   ],
                   [
                     {
-                      "en": "reduce",
-                      "vi": "giúp giảm"
-                    },
-                    {
-                      "en": "stress",
-                      "vi": "căng thẳng"
-                    },
-                    {
-                      "en": "anxiety",
-                      "vi": "lo âu"
+                      "en": "emotional outlet",
+                      "vi": "kênh giải tỏa cảm xúc"
                     }
                   ],
                   [
                     {
-                      "en": "help people",
-                      "vi": "giúp mọi người"
+                      "en": "calm the mind",
+                      "vi": "làm dịu tâm trí"
                     },
                     {
-                      "en": "feel",
-                      "vi": "cảm thấy"
-                    },
-                    {
-                      "en": "more positive",
-                      "vi": "tích cực hơn"
+                      "en": "lift overall mood",
+                      "vi": "cải thiện tâm trạng chung"
                     }
                   ],
                   [
                     {
-                      "en": "maintain",
-                      "vi": "duy trì"
-                    },
-                    {
-                      "en": "better",
-                      "vi": "tốt hơn"
-                    },
-                    {
-                      "en": "mental health",
-                      "vi": "trạng thái tinh thần"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "quality of life",
-                      "vi": "chất lượng cuộc sống"
-                    },
-                    {
-                      "en": "improve",
-                      "vi": "được cải thiện"
+                      "en": "mental well-being",
+                      "vi": "sức khỏe tinh thần"
                     }
                   ]
                 ]
@@ -93650,62 +93224,30 @@ const ESSAY_DATA = [
                     "vi": "tính kỷ luật"
                   },
                   {
-                    "en": "learners",
-                    "vi": "người học"
+                    "en": "refine techniques",
+                    "vi": "trau dồi kỹ thuật"
                   },
                   {
-                    "en": "practise regularly",
-                    "vi": "luyện tập thường xuyên"
+                    "en": "incremental goals",
+                    "vi": "mục tiêu từng bước"
                   },
                   {
-                    "en": "to improve",
-                    "vi": "để tiến bộ"
+                    "en": "overcome stage fright",
+                    "vi": "vượt qua nỗi sợ sân khấu"
                   },
                   {
-                    "en": "perform",
-                    "vi": "biểu diễn"
+                    "en": "boost self-confidence",
+                    "vi": "nâng cao sự tự tin"
                   },
                   {
-                    "en": "in front of",
-                    "vi": "trước"
-                  },
-                  {
-                    "en": "other people",
-                    "vi": "người khác"
-                  },
-                  {
-                    "en": "more confident",
-                    "vi": "tự tin hơn"
-                  },
-                  {
-                    "en": "in their abilities",
-                    "vi": "vào khả năng"
-                  },
-                  {
-                    "en": "regular practice",
-                    "vi": "việc luyện tập đều đặn"
-                  },
-                  {
-                    "en": "help sb develop",
-                    "vi": "giúp ... hình thành"
-                  },
-                  {
-                    "en": "perseverance",
-                    "vi": "tính kiên trì"
-                  },
-                  {
-                    "en": "more likely to succeed",
-                    "vi": "có thể thành công hơn"
-                  },
-                  {
-                    "en": "different areas of life",
-                    "vi": "nhiều lĩnh vực của cuộc sống"
+                    "en": "enduring character traits",
+                    "vi": "phẩm chất tính cách bền vững"
                   }
                 ],
                 "point_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin và có tính kỷ luật hơn.",
                 "point_en": "Learning to play a musical instrument improves self-confidence and self-discipline.",
-                "evidence_vi": "Người học cần luyện tập thường xuyên để tiến bộ. Họ có thể biểu diễn trước người khác. Điều này giúp họ tự tin hơn vào khả năng của mình. Việc luyện tập đều đặn cũng giúp họ hình thành tính kiên trì. Nhờ đó, họ có thể thành công hơn trong nhiều lĩnh vực của cuộc sống.",
-                "evidence_en": "Learners need to practise regularly to improve. They can perform in front of other people. This helps them become more confident in their abilities. Regular practice also helps them develop perseverance. As a result, they are more likely to succeed in different areas of life.",
+                "evidence_vi": "Làm chủ một nhạc cụ đòi hỏi quá trình luyện tập kiên trì, lặp đi lặp lại từng kỹ thuật khó trong nhiều tháng hoặc nhiều năm. Thói quen đặt mục tiêu nhỏ và duy trì kỷ luật luyện tập mỗi ngày rèn cho người học sự bền bỉ và khả năng quản lý thời gian khoa học. Hơn nữa, việc vượt qua cảm giác hồi hộp để hoàn thành một tiết mục biểu diễn trước khán giả giúp họ gia tăng rõ rệt sự tự tin vào bản thân. Những phẩm chất quý giá này trở thành nền tảng giúp họ chinh phục thành công trong nhiều lĩnh vực khác của cuộc sống.",
+                "evidence_en": "Mastering a musical instrument demands consistent practice and steady patience over months or even years of refining difficult techniques. Setting incremental goals and sticking to daily practice routines cultivates strong self-discipline and effective time management. Moreover, overcoming stage fright to perform smoothly in front of an audience greatly boosts self-confidence and resilience. These enduring character traits lay a solid foundation for achieving success across many other areas of life.",
                 "point_collocations": [
                   {
                     "en": "learn to play a musical instrument",
@@ -93723,64 +93265,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "learners",
-                      "vi": "người học"
-                    },
-                    {
-                      "en": "practise regularly",
-                      "vi": "luyện tập thường xuyên"
-                    },
-                    {
-                      "en": "to improve",
-                      "vi": "để tiến bộ"
+                      "en": "refine techniques",
+                      "vi": "trau dồi kỹ thuật"
                     }
                   ],
                   [
                     {
-                      "en": "perform",
-                      "vi": "biểu diễn"
+                      "en": "incremental goals",
+                      "vi": "mục tiêu từng bước"
                     },
                     {
-                      "en": "in front of",
-                      "vi": "trước"
-                    },
-                    {
-                      "en": "other people",
-                      "vi": "người khác"
+                      "en": "self-discipline",
+                      "vi": "tính tự kỷ luật"
                     }
                   ],
                   [
                     {
-                      "en": "more confident",
-                      "vi": "tự tin hơn"
+                      "en": "overcome stage fright",
+                      "vi": "vượt qua nỗi sợ sân khấu"
                     },
                     {
-                      "en": "in their abilities",
-                      "vi": "vào khả năng"
+                      "en": "boost self-confidence",
+                      "vi": "nâng cao sự tự tin"
                     }
                   ],
                   [
                     {
-                      "en": "regular practice",
-                      "vi": "việc luyện tập đều đặn"
-                    },
-                    {
-                      "en": "help sb develop",
-                      "vi": "giúp ... hình thành"
-                    },
-                    {
-                      "en": "perseverance",
-                      "vi": "tính kiên trì"
-                    }
-                  ],
-                  [
-                    {
-                      "en": "more likely to succeed",
-                      "vi": "có thể thành công hơn"
-                    },
-                    {
-                      "en": "different areas of life",
-                      "vi": "nhiều lĩnh vực của cuộc sống"
+                      "en": "enduring character traits",
+                      "vi": "phẩm chất tính cách bền vững"
                     }
                   ]
                 ]
@@ -93801,34 +93313,30 @@ const ESSAY_DATA = [
                     "vi": "kỹ năng phối hợp nhóm"
                   },
                   {
-                    "en": "join music clubs, bands, or orchestras",
-                    "vi": "tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc"
+                    "en": "forge friendships",
+                    "vi": "xây dựng tình bạn"
                   },
                   {
-                    "en": "make friends",
-                    "vi": "kết bạn"
+                    "en": "rehearse in an ensemble",
+                    "vi": "tập luyện hòa tấu nhóm"
                   },
                   {
-                    "en": "share a common passion",
-                    "vi": "có cùng đam mê"
+                    "en": "unified rhythm",
+                    "vi": "nhịp điệu thống nhất"
                   },
                   {
-                    "en": "play music together",
-                    "vi": "quá trình hòa tấu"
+                    "en": "harmonious piece",
+                    "vi": "tác phẩm hài hòa"
                   },
                   {
-                    "en": "listen attentively",
-                    "vi": "lắng nghe"
-                  },
-                  {
-                    "en": "coordinate harmoniously with others",
-                    "vi": "phối hợp nhịp nhàng"
+                    "en": "honing teamwork skills",
+                    "vi": "mài giũa kỹ năng làm việc nhóm"
                   }
                 ],
                 "point_vi": "Học chơi nhạc cụ giúp mở rộng các mối quan hệ xã hội và rèn luyện kỹ năng phối hợp nhóm.",
                 "point_en": "Learning a musical instrument helps individuals build social connections and teamwork skills.",
-                "evidence_vi": "Khi tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc, người học có cơ hội kết bạn với những người có cùng đam mê. Quá trình hòa tấu đòi hỏi mỗi thành viên phải biết lắng nghe và phối hợp nhịp nhàng với tập thể.",
-                "evidence_en": "By joining music clubs, bands, or orchestras, learners have opportunities to make friends who share a common passion. Playing music together requires participants to listen attentively and coordinate harmoniously with others.",
+                "evidence_vi": "Tham gia các câu lạc bộ âm nhạc, ban nhạc học đường hoặc dàn nhạc cộng đồng mở ra môi trường kết bạn lành mạnh với những người cùng chung đam mê. Quá trình tập luyện hòa tấu đòi hỏi từng thành viên phải lắng nghe tinh tế, tôn trọng vai trò của đồng đội và giữ nhịp điệu thống nhất. Ví dụ, trong một buổi biểu diễn nhóm, mọi nhạc công đều cần điều chỉnh âm lượng và tốc độ ăn ý để tạo nên bản nhạc hoàn chỉnh. Trải nghiệm hợp tác nghệ thuật này giúp xây dựng những mối quan hệ bền chặt và mài giũa kỹ năng làm việc nhóm xuất sắc.",
+                "evidence_en": "Joining school music clubs, bands, or community orchestras offers a welcoming space to forge friendships with people who share a genuine passion. Rehearsing in an ensemble requires every musician to listen attentively, respect teammates' parts, and maintain a unified rhythm. For instance, during a group performance, players must constantly adjust their tempo and dynamics to produce a harmonious piece together. Such collaborative musical experiences build lasting social bonds while honing exceptional teamwork skills.",
                 "point_collocations": [
                   {
                     "en": "learn a musical instrument",
@@ -93846,30 +93354,30 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "join music clubs, bands, or orchestras",
-                      "vi": "tham gia các câu lạc bộ âm nhạc, ban nhạc hoặc dàn nhạc"
-                    },
-                    {
-                      "en": "make friends",
-                      "vi": "kết bạn"
-                    },
-                    {
-                      "en": "share a common passion",
-                      "vi": "có cùng đam mê"
+                      "en": "forge friendships",
+                      "vi": "xây dựng tình bạn"
                     }
                   ],
                   [
                     {
-                      "en": "play music together",
-                      "vi": "quá trình hòa tấu"
+                      "en": "rehearse in an ensemble",
+                      "vi": "tập luyện hòa tấu nhóm"
                     },
                     {
-                      "en": "listen attentively",
-                      "vi": "lắng nghe"
-                    },
+                      "en": "unified rhythm",
+                      "vi": "nhịp điệu thống nhất"
+                    }
+                  ],
+                  [
                     {
-                      "en": "coordinate harmoniously with others",
-                      "vi": "phối hợp nhịp nhàng"
+                      "en": "harmonious piece",
+                      "vi": "tác phẩm hài hòa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "honing teamwork skills",
+                      "vi": "mài giũa kỹ năng làm việc nhóm"
                     }
                   ]
                 ]
@@ -93890,30 +93398,34 @@ const ESSAY_DATA = [
                     "vi": "trân trọng các giá trị văn hóa"
                   },
                   {
-                    "en": "be exposed to",
-                    "vi": "được tiếp xúc với"
+                    "en": "rich repertoire",
+                    "vi": "kho tàng tác phẩm phong phú"
                   },
                   {
-                    "en": "diverse musical genres",
-                    "vi": "nhiều giai điệu và thể loại âm nhạc"
+                    "en": "folk tunes",
+                    "vi": "giai điệu dân gian"
                   },
                   {
-                    "en": "various cultures and historical periods",
-                    "vi": "các nền văn hóa, thời kỳ lịch sử khác nhau"
+                    "en": "historical heritage",
+                    "vi": "di sản lịch sử"
                   },
                   {
-                    "en": "stimulate artistic creativity",
-                    "vi": "kích thích trí tưởng tượng sáng tạo"
+                    "en": "cultural identities",
+                    "vi": "bản sắc văn hóa"
                   },
                   {
-                    "en": "enrich their spiritual life",
-                    "vi": "làm phong phú thêm đời sống tâm hồn"
+                    "en": "improvising or composing",
+                    "vi": "ngẫu hứng hoặc sáng tác"
+                  },
+                  {
+                    "en": "boundless creativity",
+                    "vi": "sự sáng tạo dồi dào"
                   }
                 ],
                 "point_vi": "Chơi nhạc cụ nuôi dưỡng khả năng sáng tạo nghệ thuật và sự trân trọng các giá trị văn hóa.",
                 "point_en": "Playing a musical instrument fosters artistic creativity and deepens cultural appreciation.",
-                "evidence_vi": "Người học được tiếp xúc với nhiều giai điệu và thể loại âm nhạc đến từ các nền văn hóa, thời kỳ lịch sử khác nhau. Điều này không chỉ kích thích trí tưởng tượng sáng tạo mà còn làm phong phú thêm đời sống tâm hồn của họ.",
-                "evidence_en": "Learners are exposed to diverse musical genres from various cultures and historical periods. This exposure not only stimulates artistic creativity but also enriches their spiritual life.",
+                "evidence_vi": "Việc học nhạc cụ giúp người chơi tiếp xúc trực tiếp với kho tàng giai điệu đa dạng từ nhạc cổ điển, nhạc dân gian cho đến các thể loại hiện đại khắp thế giới. Thông qua việc tìm hiểu bối cảnh ra đời của từng tác phẩm, họ thêm thấu hiểu và trân trọng giá trị lịch sử cùng bản sắc văn hóa của nhiều dân tộc. Chẳng hạn, khi đã nắm vững kỹ thuật cơ bản, nhiều người học bắt đầu tự ngẫu hứng hoặc sáng tác giai điệu riêng mang đậm dấu ấn cá nhân. Quá trình khám phá nghệ thuật này không chỉ khơi nguồn sáng tạo dồi dào mà còn làm phong phú sâu sắc đời sống tinh thần.",
+                "evidence_en": "Learning an instrument immerses players in a rich repertoire spanning classical compositions, traditional folk tunes, and contemporary global genres. Exploring the origins behind different pieces deepens their appreciation for historical heritage and diverse cultural identities. For example, once comfortable with core techniques, many musicians begin improvising or composing original melodies that express their unique voice. This ongoing artistic exploration sparks boundless creativity and profoundly enriches their cultural and inner life.",
                 "point_collocations": [
                   {
                     "en": "play a musical instrument",
@@ -93931,26 +93443,34 @@ const ESSAY_DATA = [
                 "evidence_collocations": [
                   [
                     {
-                      "en": "be exposed to",
-                      "vi": "được tiếp xúc với"
+                      "en": "rich repertoire",
+                      "vi": "kho tàng tác phẩm phong phú"
                     },
                     {
-                      "en": "diverse musical genres",
-                      "vi": "nhiều giai điệu và thể loại âm nhạc"
-                    },
-                    {
-                      "en": "various cultures and historical periods",
-                      "vi": "các nền văn hóa, thời kỳ lịch sử khác nhau"
+                      "en": "folk tunes",
+                      "vi": "giai điệu dân gian"
                     }
                   ],
                   [
                     {
-                      "en": "stimulate artistic creativity",
-                      "vi": "kích thích trí tưởng tượng sáng tạo"
+                      "en": "historical heritage",
+                      "vi": "di sản lịch sử"
                     },
                     {
-                      "en": "enrich their spiritual life",
-                      "vi": "làm phong phú thêm đời sống tâm hồn"
+                      "en": "cultural identities",
+                      "vi": "bản sắc văn hóa"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "improvising or composing",
+                      "vi": "ngẫu hứng hoặc sáng tác"
+                    }
+                  ],
+                  [
+                    {
+                      "en": "boundless creativity",
+                      "vi": "sự sáng tạo dồi dào"
                     }
                   ]
                 ]
