@@ -1354,7 +1354,7 @@ function renderWorkspaceStepHeader() {
 let currentStepKey = 'read';
 
 // Switch between workspace steps (supports both step numbers and step keys)
-function switchStep(stepTarget) {
+function switchStep(stepTarget, options) {
   if (isCurrentStudentLocked()) {
     showAccountLockedModal('tab_switch');
     return;
@@ -1386,6 +1386,18 @@ function switchStep(stepTarget) {
   const topicId = currentTopic ? currentTopic.id : 0;
   if (typeof isStepAllowedForUser === 'function' && !isStepAllowedForUser(targetKey, catId, topicId, currentTopic)) {
     showToast(`🔒 Bước 04 (Viết bài luận) và Bước 05 (Bài mẫu) tạm thời chưa mở cho lớp ${userClass} ở đề này! Vui lòng hoàn thành 3 bước đầu của đề.`, 'warning');
+    return;
+  }
+
+  // Step 4 Pre-Write Confirmation Gate ("Bạn đã hoàn thành BƯỚC 1, 2, 3 chưa?" + real history verification)
+  const skipConfirm = Boolean(options && options.skipStep4Confirm);
+  const currentUserName = sessionStorage.getItem('current_user_name') || '';
+  const isTeacherUser = (
+    userClass === 'GV' || userClass === 'TEACHER' || userClass === 'ADMIN' ||
+    (typeof checkIsTeacher === 'function' && checkIsTeacher(currentUserName, userClass, ''))
+  );
+  if (targetKey === 'write' && !skipConfirm && !isTeacherUser && !hasSubmitted && currentStepKey !== 'write') {
+    openStep4ConfirmModal();
     return;
   }
 
@@ -10987,6 +10999,125 @@ document.addEventListener('keydown', (e) => {
     const modal = document.getElementById('random-topic-modal');
     if (modal && modal.classList.contains('is-open')) {
       closeRandomTopicModal();
+    }
+  }
+});
+
+/* ==========================================================================
+   STEP 4 PRE-WRITE CONFIRMATION MODAL (XÁC NHẬN HOÀN THÀNH BƯỚC 1, 2, 3)
+   ========================================================================== */
+function openStep4ConfirmModal() {
+  const modal = document.getElementById('step4-confirm-modal');
+  const feedbackEl = document.getElementById('step4-modal-feedback');
+  if (!modal) return;
+  if (feedbackEl) {
+    feedbackEl.style.display = 'none';
+    feedbackEl.className = 'step4-modal-feedback';
+    feedbackEl.innerHTML = '';
+  }
+  modal.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeStep4ConfirmModal() {
+  const modal = document.getElementById('step4-confirm-modal');
+  if (modal) modal.classList.remove('is-open');
+  document.body.style.overflow = '';
+}
+
+function jumpToPrepStepFromModal(stepKey) {
+  closeStep4ConfirmModal();
+  switchStep(stepKey);
+}
+
+function buildStep4QuickJumpButtons(missingList) {
+  const withVocab = typeof hasVocabStep === 'function' ? hasVocabStep() : true;
+  const joined = (missingList || []).join(' ').toUpperCase();
+  const btns = [];
+  if (!joined || joined.includes('BƯỚC 01')) {
+    btns.push(`<button type="button" class="btn-step4-jump" onclick="jumpToPrepStepFromModal('read')">📖 Về Bước 1 (Đọc hiểu)</button>`);
+  }
+  if (withVocab && (!joined || joined.includes('BƯỚC 02'))) {
+    btns.push(`<button type="button" class="btn-step4-jump" onclick="jumpToPrepStepFromModal('vocab')">🔤 Sang Bước 2 (Từ vựng)</button>`);
+  }
+  if (!joined || joined.includes('BƯỚC 03')) {
+    btns.push(`<button type="button" class="btn-step4-jump" onclick="jumpToPrepStepFromModal('trans')">✍️ Sang Bước 3 (Luyện dịch)</button>`);
+  }
+  return btns.length > 0 ? `<div class="step4-jump-row">${btns.join('')}</div>` : '';
+}
+
+function handleStep4ConfirmYes() {
+  if (!currentTopic) return;
+  const catId = currentCategory ? currentCategory.id : 0;
+  const topicId = currentTopic ? currentTopic.id : 0;
+  const feedbackEl = document.getElementById('step4-modal-feedback');
+
+  // Kiểm tra LỊCH SỬ THỰC TẾ của Bước 1, 2, 3 (không chỉ tin vào lời xác nhận)
+  const gate = (typeof getSequentialStepGate === 'function')
+    ? getSequentialStepGate('write', catId, topicId, currentTopic)
+    : { allowed: true, missing: [] };
+
+  if (gate && gate.allowed) {
+    closeStep4ConfirmModal();
+    if (typeof showToast === 'function') {
+      showToast('✅ Đã xác nhận lịch sử hoàn thành Bước 1–2–3! Chúc bạn viết bài thật tốt!', 'success');
+    }
+    switchStep('write', { skipStep4Confirm: true });
+    return;
+  }
+
+  // Chưa có đủ lịch sử hoàn thành Bước 1, 2, 3 -> KHÔNG CHO VÀO & hiện chi tiết bước còn thiếu
+  const missingItems = (gate && Array.isArray(gate.missing) && gate.missing.length > 0)
+    ? gate.missing
+    : ['Chưa có lịch sử hoàn thành đủ Bước 1, Bước 2 và Bước 3 cho đề bài này.'];
+
+  if (feedbackEl) {
+    feedbackEl.className = 'step4-modal-feedback is-error';
+    feedbackEl.innerHTML = `
+      <div class="step4-fb-title">⛔ Hệ thống chưa ghi nhận đủ lịch sử hoàn thành BƯỚC 1, 2, 3!</div>
+      <p class="step4-fb-sub">Bạn cần có lịch sử học thực tế các mục sau trước khi vào BƯỚC 4:</p>
+      <ul class="step4-fb-list">
+        ${missingItems.map(item => `<li>${item}</li>`).join('')}
+      </ul>
+      ${buildStep4QuickJumpButtons(missingItems)}
+    `;
+    feedbackEl.style.display = 'block';
+  }
+  if (typeof showToast === 'function') {
+    showToast('🔒 Chưa có đủ lịch sử hoàn thành Bước 1, 2, 3! Hãy hoàn thành các bước còn thiếu trước nhé.', 'warning');
+  }
+}
+
+function handleStep4ConfirmNo() {
+  const feedbackEl = document.getElementById('step4-modal-feedback');
+  const catId = currentCategory ? currentCategory.id : 0;
+  const topicId = currentTopic ? currentTopic.id : 0;
+  const gate = (currentTopic && typeof getSequentialStepGate === 'function')
+    ? getSequentialStepGate('write', catId, topicId, currentTopic)
+    : { allowed: false, missing: [] };
+
+  if (feedbackEl) {
+    feedbackEl.className = 'step4-modal-feedback is-remind';
+    feedbackEl.innerHTML = `
+      <div class="step4-fb-title">📌 Nhắc nhở: Hãy hoàn thành BƯỚC 1, 2, 3 trước nhé!</div>
+      <p class="step4-fb-sub">
+        Bạn chưa thể vào <strong>BƯỚC 4 (Viết bài luận)</strong> khi chưa học xong các bước chuẩn bị.
+        Hãy đọc kỹ đề, nạp từ vựng và luyện dịch câu ở <strong>Bước 1, 2, 3</strong> rồi quay lại viết bài nhé!
+      </p>
+      ${buildStep4QuickJumpButtons(gate && gate.missing ? gate.missing : [])}
+    `;
+    feedbackEl.style.display = 'block';
+  }
+  if (typeof showToast === 'function') {
+    showToast('📌 Hãy hoàn thành BƯỚC 1, 2, 3 trước khi vào BƯỚC 4 nhé!', 'warning');
+  }
+}
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    const modal = document.getElementById('step4-confirm-modal');
+    if (modal && modal.classList.contains('is-open')) {
+      closeStep4ConfirmModal();
     }
   }
 });
