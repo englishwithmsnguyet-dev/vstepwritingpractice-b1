@@ -7239,9 +7239,9 @@ function buildStudentResultReportCardHtml(meta) {
 
   let scoreSourceBadge = '';
   if (meta.scoreSource === 'ai') {
-    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:800;color:#1d4ed8;background:#dbeafe;padding:2px 8px;border-radius:999px;">🎓 Điểm Giám khảo AI VSTEP</span>`;
+    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:800;color:#1d4ed8;background:#dbeafe;padding:2px 8px;border-radius:999px;">🎓 Điểm Trợ lý Miss Nguyệt (Chuẩn VSTEP)</span>`;
   } else if (meta.scoreSource === 'syncing') {
-    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:700;color:#b45309;background:#fef3c7;padding:2px 8px;border-radius:999px;">⏳ Đang đồng bộ điểm Giám khảo AI...</span>`;
+    scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:700;color:#b45309;background:#fef3c7;padding:2px 8px;border-radius:999px;">⏳ Trợ lý Miss Nguyệt đang chấm bài...</span>`;
   } else {
     scoreSourceBadge = `<span style="font-size:0.72rem;font-weight:700;color:#475569;background:#f1f5f9;padding:2px 8px;border-radius:999px;">📊 Điểm chấm hệ thống</span>`;
   }
@@ -7424,7 +7424,7 @@ function updateStudentResultReportCard(aiData) {
           <span style="font-weight: bold;">${tf.toFixed(1)} / 10</span>
         </div>
         <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-          ${escapeHtml((c.tf && c.tf.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+          ${escapeHtml((c.tf && c.tf.summary) || 'Đã đồng bộ theo Trợ lý Miss Nguyệt.')}
         </div>
       </div>
       <div class="grade-detail-card ${org >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -7433,7 +7433,7 @@ function updateStudentResultReportCard(aiData) {
           <span style="font-weight: bold;">${org.toFixed(1)} / 10</span>
         </div>
         <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-          ${escapeHtml((c.org && c.org.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+          ${escapeHtml((c.org && c.org.summary) || 'Đã đồng bộ theo Trợ lý Miss Nguyệt.')}
         </div>
       </div>
       <div class="grade-detail-card ${voc >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -7442,7 +7442,7 @@ function updateStudentResultReportCard(aiData) {
           <span style="font-weight: bold;">${voc.toFixed(1)} / 10</span>
         </div>
         <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-          ${escapeHtml((c.voc && c.voc.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+          ${escapeHtml((c.voc && c.voc.summary) || 'Đã đồng bộ theo Trợ lý Miss Nguyệt.')}
         </div>
       </div>
       <div class="grade-detail-card ${gram >= 6.0 ? 'success-card' : 'warning-card'}" style="margin-bottom: 0.75rem;">
@@ -7451,7 +7451,7 @@ function updateStudentResultReportCard(aiData) {
           <span style="font-weight: bold;">${gram.toFixed(1)} / 10</span>
         </div>
         <div class="grade-detail-desc" style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.25rem;">
-          ${escapeHtml((c.gram && c.gram.summary) || 'Đã đồng bộ theo Giám khảo AI VSTEP.')}
+          ${escapeHtml((c.gram && c.gram.summary) || 'Đã đồng bộ theo Trợ lý Miss Nguyệt.')}
         </div>
       </div>
     `;
