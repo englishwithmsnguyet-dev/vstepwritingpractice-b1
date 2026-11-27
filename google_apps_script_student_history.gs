@@ -27,6 +27,7 @@
  */
 
 const VN_TZ = 'Asia/Ho_Chi_Minh';
+const TEACHER_ADMIN_KEY = 'PTMN_VSTEP_2026';
 
 const SHEET_SUMMARY = 'TongHopHocVien';
 const SHEET_ESSAY_LOG = 'NhatKyBaiNop';
@@ -467,6 +468,115 @@ function handleSaveStudentHistory(params, nowStr) {
   };
 }
 
+function handleGetAllStudentsReport(params) {
+  const adminKey = String(params.adminKey || '').trim();
+  if (adminKey !== TEACHER_ADMIN_KEY) {
+    return { ok: false, error: 'Unauthorized' };
+  }
+
+  const filterLevel = String(params.level || 'ALL').trim().toUpperCase();
+  const sheets = ensureAllSheets();
+
+  // 1. Read TongHopHocVien
+  const students = [];
+  const sumLast = sheets.summarySheet.getLastRow();
+  if (sumLast >= 2) {
+    const rows = sheets.summarySheet.getRange(2, 1, sumLast - 1, SUMMARY_HEADERS.length).getValues();
+    rows.forEach(function (r) {
+      const recordKey = String(r[0] || '').trim();
+      if (!recordKey) return;
+      const lvl = String(r[1] || 'B1').trim().toUpperCase();
+      if (filterLevel !== 'ALL' && lvl !== filterLevel) return;
+      const avgRaw = r[5];
+      students.push({
+        recordKey: recordKey,
+        level: lvl,
+        fullName: String(r[2] || '').trim(),
+        classCode: String(r[3] || '').trim().toUpperCase(),
+        essaysCount: Number(r[4] || 0),
+        avgScore: (avgRaw !== '' && avgRaw !== null && !isNaN(Number(avgRaw))) ? Number(avgRaw) : null,
+        prepCount: Number(r[6] || 0),
+        activeDrafts: Number(r[7] || 0),
+        latestInfo: String(r[8] || '').trim(),
+        updatedAt: String(r[9] || '').trim()
+      });
+    });
+  }
+  students.sort(function (a, b) {
+    return String(b.updatedAt || '').localeCompare(String(a.updatedAt || ''));
+  });
+
+  // 2. Read NhatKyBaiNop (newest first, up to 300 rows)
+  const essayLogs = [];
+  const logLast = sheets.essayLogSheet.getLastRow();
+  if (logLast >= 2) {
+    const startRow = Math.max(2, logLast - 299);
+    const numRows = logLast - startRow + 1;
+    const rows = sheets.essayLogSheet.getRange(startRow, 1, numRows, ESSAY_LOG_HEADERS.length).getValues();
+    for (let i = rows.length - 1; i >= 0; i--) {
+      const r = rows[i];
+      const subKey = String(r[0] || '').trim();
+      if (!subKey) continue;
+      const lvl = String(r[2] || 'B1').trim().toUpperCase();
+      if (filterLevel !== 'ALL' && lvl !== filterLevel) continue;
+      const scoreRaw = r[8];
+      essayLogs.push({
+        submissionKey: subKey,
+        recordKey: subKey.split('|').slice(0, 2).join('|'),
+        date: String(r[1] || '').trim(),
+        level: lvl,
+        classCode: String(r[3] || '').trim().toUpperCase(),
+        fullName: String(r[4] || '').trim(),
+        catTitleVi: String(r[5] || '').trim(),
+        topicLabel: String(r[6] || '').trim(),
+        wordCount: Number(r[7] || 0),
+        score: (scoreRaw !== '' && scoreRaw !== null && !isNaN(Number(scoreRaw))) ? Number(scoreRaw) : null
+      });
+    }
+  }
+
+  return {
+    ok: true,
+    students: students,
+    essayLogs: essayLogs,
+    generatedAt: getNowVN()
+  };
+}
+
+function handleGetStudentDetail(params) {
+  const adminKey = String(params.adminKey || '').trim();
+  if (adminKey !== TEACHER_ADMIN_KEY) {
+    return { ok: false, error: 'Unauthorized' };
+  }
+
+  let recordKey = String(params.recordKey || '').trim();
+  if (!recordKey) {
+    const studentName = String(params.studentName || '').trim();
+    const level = String(params.level || 'B1').trim().toUpperCase() === 'B2' ? 'B2' : 'B1';
+    if (!studentName) return { ok: false, error: 'Missing recordKey' };
+    recordKey = level + '|' + slugifyName(studentName);
+  }
+
+  const sheets = ensureAllSheets();
+  const rowNum = findRowByCol1(sheets.syncSheet, recordKey);
+  if (!rowNum) {
+    return { ok: true, found: false, recordKey: recordKey };
+  }
+
+  const row = sheets.syncSheet.getRange(rowNum, 1, 1, SYNC_HEADERS.length).getValues()[0];
+  const data = parseSyncChunks(row) || {};
+  return {
+    ok: true,
+    found: true,
+    recordKey: recordKey,
+    level: String(row[1] || 'B1'),
+    fullName: String(row[3] || ''),
+    classCode: String(row[4] || ''),
+    updatedAt: String(row[5] || ''),
+    data: data
+  };
+}
+
 function handleAction(params) {
   const lock = LockService.getScriptLock();
   lock.waitLock(12000);
@@ -483,6 +593,12 @@ function handleAction(params) {
     }
     if (action === 'saveStudentHistory') {
       return handleSaveStudentHistory(params, nowStr);
+    }
+    if (action === 'getAllStudentsReport') {
+      return handleGetAllStudentsReport(params);
+    }
+    if (action === 'getStudentDetail') {
+      return handleGetStudentDetail(params);
     }
 
     return { ok: false, error: 'Unknown action: ' + action };

@@ -10503,6 +10503,9 @@ async function submitGatewayAccess() {
     if (window.StudentHistorySync && typeof window.StudentHistorySync.pullFromCloud === 'function') {
       window.StudentHistorySync.pullFromCloud(teacherName, 'GV');
     }
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.onTeacherLoggedIn === 'function') {
+      window.StudentHistorySync.onTeacherLoggedIn();
+    }
     if (typeof startSessionTracking === 'function') startSessionTracking(teacherName, classInput || 'GV', true);
     if (window.CB210StreakGuard && typeof window.CB210StreakGuard.onTeacherLoggedIn === 'function') {
       window.CB210StreakGuard.onTeacherLoggedIn();
@@ -10638,6 +10641,9 @@ async function submitGatewayAccess() {
   }
   updateClassAccessUI();
   updateStudentProfileDisplay();
+  if (window.StudentHistorySync && typeof window.StudentHistorySync.onLogout === 'function') {
+    window.StudentHistorySync.onLogout();
+  }
   if (window.StudentHistorySync && typeof window.StudentHistorySync.pullFromCloud === 'function') {
     window.StudentHistorySync.pullFromCloud(matchedName, classInput);
   }
@@ -10679,6 +10685,9 @@ function reopenGateway() {
   if (confirm('Bạn có muốn đăng xuất và đổi thông tin tài khoản không?')) {
     if (window.StudentHistorySync && typeof window.StudentHistorySync.flushOnExit === 'function') {
       window.StudentHistorySync.flushOnExit();
+    }
+    if (window.StudentHistorySync && typeof window.StudentHistorySync.onLogout === 'function') {
+      window.StudentHistorySync.onLogout();
     }
     if (typeof sendExitSessionReport === 'function') sendExitSessionReport('logout');
     sessionStorage.removeItem('current_user_name');
